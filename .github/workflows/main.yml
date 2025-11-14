@@ -58,7 +58,8 @@ jobs:
         run: |
           git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
-          git commit -m "build: 更新RSS聚合数据 $(date -u '+%Y-%m-%d %H:%M:%S UTC+8')" || echo "没有更改可提交"
+          # 使用北京时间（UTC+8）
+          git commit -m "build: 更新RSS聚合数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 
       # 新增：传输 data.json 到远程服务器

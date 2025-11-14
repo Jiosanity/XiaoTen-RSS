@@ -24,7 +24,7 @@
 
 ```powershell
 git clone <your-repo-url>
-cd friend-rss
+cd xiaoten-rss
 ```
 
 2. 安装依赖
@@ -91,6 +91,7 @@ python main.py
 - 程序会把“未找到 feed”或“尝试抓取 feed 失败（如 HTTP 错误、超时、解析异常）”的站点记录到 `failed_sites`，包含 `reason` 字段，便于后续排查或人工干预（例如把真实 feed 写入配置）。
 
 在 GitHub 上自动化运行
-- 项目包含一个 Actions workflow（`.github/workflows/aggregate-rss.yml`），示例设为每 6 小时运行一次。工作流会拉取仓库、安装依赖、运行脚本并提交 `data.json` 的变化。
+- 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。工作流会拉取仓库、安装依赖、运行脚本并提交 `data.json` 的变化。
+
 
 

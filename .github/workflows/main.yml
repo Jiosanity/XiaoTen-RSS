@@ -1,4 +1,4 @@
-name: 友链RSS聚合 (每6小时)
+name: 小十友圈RSS聚合工具
 
 on:
   schedule:
@@ -45,7 +45,7 @@ jobs:
       - name: 提交并推送更新
         if: steps.check_changes.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
           git add data.json
           git commit -m "build: 更新RSS聚合数据 $(date -u '+%Y-%m-%d %H:%M:%S UTC')"

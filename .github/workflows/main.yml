@@ -58,12 +58,11 @@ jobs:
         run: |
           git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
-          git commit -m "build: 更新RSS聚合数据 $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "没有更改可提交"
+          git commit -m "build: 更新RSS聚合数据 $(date -u '+%Y-%m-%d %H:%M:%S UTC+8')" || echo "没有更改可提交"
           git push
 
       # 新增：传输 data.json 到远程服务器
       - name: Setup SSH key and known_hosts for data.json transfer
-        if: ${{ env.SIMPLE_MODE == 'true' }}
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_ed25519
@@ -71,11 +70,9 @@ jobs:
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
           
       - name: Install rsync for data.json transfer
-        if: ${{ env.SIMPLE_MODE == 'true' }}
         run: sudo apt-get update && sudo apt-get install -y rsync
         
       - name: Deploy data.json to Server
-        if: ${{ env.SIMPLE_MODE == 'true' }}
         run: |
           echo "Transferring data.json to remote server..."
           # 请根据您的实际需求修改目标路径

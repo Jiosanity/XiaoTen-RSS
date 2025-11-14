@@ -9,7 +9,7 @@ import os
 import json
 import re
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Any, Tuple, Optional
 from urllib.parse import urljoin, urlparse
 import hashlib
@@ -40,6 +40,23 @@ RETRY_BACKOFF = 0.3
 FEED_CHECK_TIMEOUT = 5  # Feed URL检查使用更短的超时
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 CACHE_FILE = 'feed_cache.json'
+
+# 定义北京时间时区 (UTC+8)
+BEIJING_TZ = timezone(timedelta(hours=8))
+
+def get_beijing_time():
+    """获取当前北京时间"""
+    return datetime.now(BEIJING_TZ)
+
+def parse_feed_time(time_tuple):
+    """解析feed时间并转换为北京时间"""
+    if not time_tuple:
+        return get_beijing_time()
+    
+    # 将时间元组转换为UTC时间
+    utc_dt = datetime(*time_tuple[:6], tzinfo=timezone.utc)
+    # 转换为北京时间
+    return utc_dt.astimezone(BEIJING_TZ)
 
 
 class CacheManager:
@@ -460,7 +477,7 @@ class DataAggregator:
         self.outdate_days = outdate_days
         # 如果 outdate_days <= 0 则表示不限制过期，cutoff_time 设为 None
         if outdate_days and outdate_days > 0:
-            self.cutoff_time = datetime.now() - timedelta(days=outdate_days)
+            self.cutoff_time = get_beijing_time() - timedelta(days=outdate_days)
         else:
             self.cutoff_time = None
     
@@ -480,33 +497,25 @@ class DataAggregator:
         posts = []
         for entry in feed.entries:
             try:
-                # 获取发布时间
+                # 获取发布时间并转换为北京时间
                 pub_time = None
                 if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                    pub_time = datetime(*entry.published_parsed[:6])
+                    pub_time = parse_feed_time(entry.published_parsed)
                 elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-                    pub_time = datetime(*entry.updated_parsed[:6])
+                    pub_time = parse_feed_time(entry.updated_parsed)
                 else:
-                    pub_time = datetime.now()
+                    pub_time = get_beijing_time()
                 
                 # 过滤过期文章（当设置为0或负数时表示不限制）
                 if self.cutoff_time is not None and pub_time < self.cutoff_time:
                     continue
                 
-                # 获取更新时间
-                def get_entry_time(entry, field_priority):
-                    """从entry对象中按优先级获取时间"""
-                    for field in field_priority:
-                        if hasattr(entry, field) and getattr(entry, field):
-                            try:
-                                return datetime(*getattr(entry, field)[:6])
-                            except Exception:
-                                continue
-                    return datetime.now()
-                
-                # 在aggregate_feed方法中：
-                pub_time = get_entry_time(entry, ['published_parsed', 'updated_parsed', 'created_parsed'])
-                update_time = get_entry_time(entry, ['updated_parsed', 'published_parsed', 'created_parsed'])
+                # 获取更新时间并转换为北京时间
+                update_time = None
+                if hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                    update_time = parse_feed_time(entry.updated_parsed)
+                else:
+                    update_time = pub_time
                 
                 post = {
                     'title': entry.get('title', '无标题'),
@@ -543,7 +552,7 @@ class DataAggregator:
         all_posts.sort(key=lambda x: x['pub_date'], reverse=True)
         
         return {
-            'updated_at': datetime.now().isoformat(),
+            'updated_at': get_beijing_time().isoformat(),
             'total_sites': len(all_sites),
             'total_posts': len(all_posts),
             'sites': all_sites,
@@ -766,4 +775,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

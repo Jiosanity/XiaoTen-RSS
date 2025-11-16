@@ -62,3 +62,7 @@ MAX_POSTS_NUM: 0
 ## 过期文章清除（天），会根据此值剔除过旧文章（0为不限制）
 OUTDATE_CLEAN: 180
 
+## 时区校正开关（默认true，即开启时区校正）
+## true: 将RSS源中的时间转换为北京时间
+## false: 直接使用RSS源中的时间，不进行时区转换
+TIMEZONE_CORRECTION: false

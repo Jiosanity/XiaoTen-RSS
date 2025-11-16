@@ -30,12 +30,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: 解析输出文件名
+        id: output_name
+        shell: bash
+        run: |
+          FILENAME=$(python - <<'PY'
+          import yaml
+          with open('setting.yaml', 'r', encoding='utf-8') as f:
+              cfg = yaml.safe_load(f)
+          print(cfg.get('OUTPUT_JSON_FILENAME', 'data.json'))
+          PY
+          )
+          echo "OUTPUT_JSON_FILENAME=$FILENAME" >> $GITHUB_ENV
+          echo "file=$FILENAME" >> $GITHUB_OUTPUT
+      
       - name: 检查当前目录
         run: |
           echo "当前目录文件列表:"
           ls -la
-          echo "data.json是否存在:"
-          ls -la data.json || echo "data.json不存在"
+          echo "输出文件是否存在:"
+          ls -la "$OUTPUT_JSON_FILENAME" || echo "输出文件不存在"
       
       - name: 运行RSS聚合程序
         run: python main.py
@@ -44,10 +58,10 @@ jobs:
         run: |
           echo "运行程序后的文件列表:"
           ls -la
-          echo "data.json详细信息:"
-          ls -la data.json || echo "data.json仍然不存在"
+          echo "输出文件详细信息:"
+          ls -la "$OUTPUT_JSON_FILENAME" || echo "输出文件仍然不存在"
           echo "文件内容预览:"
-          head -n 5 data.json || echo "无法读取data.json"
+          head -n 5 "$OUTPUT_JSON_FILENAME" || echo "无法读取输出文件"
       
       - name: 添加所有更改到暂存区
         run: |
@@ -62,20 +76,20 @@ jobs:
           git commit -m "build: 更新RSS聚合数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 
-      # 新增：传输 data.json 到远程服务器
-      - name: Setup SSH key and known_hosts for data.json transfer
+      # 新增：传输输出文件到远程服务器
+      - name: Setup SSH key and known_hosts for output transfer
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
           
-      - name: Install rsync for data.json transfer
+      - name: Install rsync for output transfer
         run: sudo apt-get update && sudo apt-get install -y rsync
         
-      - name: Deploy data.json to Server
+      - name: Deploy output JSON to Server
         run: |
-          echo "Transferring data.json to remote server..."
+          echo "Transferring $OUTPUT_JSON_FILENAME to remote server..."
           # 请根据您的实际需求修改目标路径
-          rsync -avz --chmod=644 data.json ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/1panel/apps/openresty/openresty/www/sites/cf.xiaoten.com/index/
-          echo "data.json transferred successfully!"
+          rsync -avz --chmod=644 "$OUTPUT_JSON_FILENAME" ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/1panel/apps/openresty/openresty/www/sites/cf.xiaoten.com/index/
+          echo "$OUTPUT_JSON_FILENAME transferred successfully!"

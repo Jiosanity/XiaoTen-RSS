@@ -62,5 +62,14 @@ MAX_POSTS_NUM: 0
 ## 过期文章清除（天），会根据此值剔除过旧文章（0为不限制）
 OUTDATE_CLEAN: 180
 
+## 是否进行时区转换
+## true: 将RSS时间换算为北京时间（当前默认行为）
+## false: 不做换算，保留对方文章的“墙上时间”，但以北京时间标注
+TIMEZONE_CORRECTION: false
+
+## 输出文件名（根目录相对路径）
+## 例如想要输出为 rss.json：将其设置为 rss.json
+OUTPUT_JSON_FILENAME: rss.json
+
 
 

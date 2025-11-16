@@ -1,6 +1,6 @@
 # 小十友圈RSS聚合工具
 
-这是一个轻量的 RSS 聚合工具，它会从「友链页面」与配置的手动友链中发现 RSS/Atom 源，抓取并聚合文章，最终输出一个可供前端或静态站点使用的 `data.json`。
+这是一个轻量的 RSS 聚合工具，它会从「友链页面」与配置的手动友链中发现 RSS/Atom 源，抓取并聚合文章，最终输出为由 `OUTPUT_JSON_FILENAME` 指定的 JSON 文件（默认 `data.json`），可供前端或静态站点使用。
 
 核心功能（最新）
 - 从友链页面按 CSS 规则自动提取站点链接
@@ -17,7 +17,7 @@
 - `setting.yaml` — 配置
 - `requirements.txt` — 依赖
 - `README.md` — 本说明（你现在正在查看）
-- `data.json` — 输出（程序运行后生成/更新）
+- 输出 JSON（默认 `data.json`，可通过 `OUTPUT_JSON_FILENAME` 自定义）
 
 快速使用
 1. 克隆并进入仓库
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-程序运行结束后会在仓库根目录写入或更新 `data.json`。
+程序运行结束后会在仓库根目录写入或更新输出 JSON（默认 `data.json`，可在 `setting.yaml` 的 `OUTPUT_JSON_FILENAME` 中自定义，例如 `rss.json`）。
 
 配置要点（`setting.yaml`）
 - `LINK`：存放要爬取友链页面的 URL 列表
@@ -49,8 +49,18 @@ python main.py
 - `feed_suffix`：默认尝试的一组常见后缀
 - `MAX_POSTS_NUM`：每站点最多保留的帖子数（0 表示不限制）
 - `OUTDATE_CLEAN`：过期清理天数，设为 `0` 表示不限制（保留所有历史文章）
+- `TIMEZONE_CORRECTION`：是否进行时区转换（默认 `true`）
+  - `true`：把 RSS 时间换算为北京时间（UTC+8）
+  - `false`：不做换算，保留对方文章的“墙上时间”，仅以北京时间标注（+08:00）
+  - 示例：
+    - `<pubDate>Sat, 15 Nov 2025 14:41:01 GMT</pubDate>` →
+      - `true`: `2025-11-15T22:41:01+08:00`
+      - `false`: `2025-11-15T14:41:01+08:00`
+    - `<pubDate>Fri, 14 Nov 2025 23:23:25 +0800</pubDate>` →
+      - `true/false` 均为 `2025-11-14T23:23:25+08:00`
+- `OUTPUT_JSON_FILENAME`：输出文件名，例：`rss.json`（默认 `data.json`）
 
-输出格式（`data.json`）— 重要字段说明
+输出格式（默认 `data.json`）— 重要字段说明
 
 主要结构：
 
@@ -91,7 +101,7 @@ python main.py
 - 程序会把“未找到 feed”或“尝试抓取 feed 失败（如 HTTP 错误、超时、解析异常）”的站点记录到 `failed_sites`，包含 `reason` 字段，便于后续排查或人工干预（例如把真实 feed 写入配置）。
 
 在 GitHub 上自动化运行
-- 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。工作流会拉取仓库、安装依赖、运行脚本并提交 `data.json` 的变化。
+- 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。
 
 
 

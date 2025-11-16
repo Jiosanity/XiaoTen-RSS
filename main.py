@@ -48,32 +48,15 @@ def get_beijing_time():
     """获取当前北京时间"""
     return datetime.now(BEIJING_TZ)
 
-def parse_feed_time(time_tuple, timezone_correction=True):
-    """解析feed时间
-    
-    Args:
-        time_tuple: feedparser解析的时间元组
-        timezone_correction: 是否进行时区校正
-    """
+def parse_feed_time(time_tuple):
+    """解析feed时间并转换为北京时间"""
     if not time_tuple:
         return get_beijing_time()
     
-    try:
-        if timezone_correction:
-            # 开启时区校正：将时间转换为北京时间
-            # 将时间元组转换为UTC时间
-            utc_dt = datetime(*time_tuple[:6], tzinfo=timezone.utc)
-            # 转换为北京时间
-            return utc_dt.astimezone(BEIJING_TZ)
-        else:
-            # 关闭时区校正：完全忽略时区概念
-            # 直接使用时间值，构造无时区的datetime对象
-            naive_dt = datetime(*time_tuple[:6])
-            # 返回无时区的时间对象
-            return naive_dt
-    except Exception as e:
-        logger.warning(f"时间解析失败: {e}, 使用当前时间代替")
-        return get_beijing_time()
+    # 将时间元组转换为UTC时间
+    utc_dt = datetime(*time_tuple[:6], tzinfo=timezone.utc)
+    # 转换为北京时间
+    return utc_dt.astimezone(BEIJING_TZ)
 
 
 class CacheManager:
@@ -205,10 +188,6 @@ class ConfigParser:
     def get_outdate_days(self) -> int:
         """获取过期文章天数"""
         return self.config.get('OUTDATE_CLEAN', 180)
-    
-    def get_timezone_correction(self) -> bool:
-        """获取是否开启时区校正"""
-        return self.config.get('TIMEZONE_CORRECTION', True)
 
 
 class SiteFilter:
@@ -493,13 +472,11 @@ class RSSFetcher:
 class DataAggregator:
     """数据聚合器"""
     
-    def __init__(self, max_posts: int, outdate_days: int, timezone_correction: bool = True):
+    def __init__(self, max_posts: int, outdate_days: int):
         self.max_posts = max_posts
         self.outdate_days = outdate_days
-        self.timezone_correction = timezone_correction
         # 如果 outdate_days <= 0 则表示不限制过期，cutoff_time 设为 None
         if outdate_days and outdate_days > 0:
-            # 注意：这里仍然使用北京时间进行过期判断
             self.cutoff_time = get_beijing_time() - timedelta(days=outdate_days)
         else:
             self.cutoff_time = None
@@ -520,48 +497,32 @@ class DataAggregator:
         posts = []
         for entry in feed.entries:
             try:
-                # 获取发布时间，根据时区校正设置进行处理
+                # 获取发布时间并转换为北京时间
                 pub_time = None
                 if hasattr(entry, 'published_parsed') and entry.published_parsed:
-                    pub_time = parse_feed_time(entry.published_parsed, self.timezone_correction)
+                    pub_time = parse_feed_time(entry.published_parsed)
                 elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-                    pub_time = parse_feed_time(entry.updated_parsed, self.timezone_correction)
+                    pub_time = parse_feed_time(entry.updated_parsed)
                 else:
                     pub_time = get_beijing_time()
                 
                 # 过滤过期文章（当设置为0或负数时表示不限制）
-                # 注意：过期判断仍然使用时区感知的时间
-                cutoff_time_for_check = self.cutoff_time
-                if not self.timezone_correction and pub_time.tzinfo is None:
-                    # 如果文章时间无时区，将cutoff_time也转换为无时区进行比较
-                    cutoff_time_for_check = self.cutoff_time.replace(tzinfo=None) if self.cutoff_time else None
-                
-                if cutoff_time_for_check is not None and pub_time < cutoff_time_for_check:
+                if self.cutoff_time is not None and pub_time < self.cutoff_time:
                     continue
                 
-                # 获取更新时间，根据时区校正设置进行处理
+                # 获取更新时间并转换为北京时间
                 update_time = None
                 if hasattr(entry, 'updated_parsed') and entry.updated_parsed:
-                    update_time = parse_feed_time(entry.updated_parsed, self.timezone_correction)
+                    update_time = parse_feed_time(entry.updated_parsed)
                 else:
                     update_time = pub_time
-                
-                # 格式化时间输出
-                if self.timezone_correction or pub_time.tzinfo:
-                    # 有时区信息，使用ISO格式
-                    pub_date_str = pub_time.isoformat()
-                    update_date_str = update_time.isoformat()
-                else:
-                    # 无时区信息，使用简单的字符串格式
-                    pub_date_str = pub_time.strftime('%Y-%m-%dT%H:%M:%S')
-                    update_date_str = update_time.strftime('%Y-%m-%dT%H:%M:%S')
                 
                 post = {
                     'title': entry.get('title', '无标题'),
                     'link': entry.get('link', ''),
                     'description': entry.get('summary', ''),
-                    'pub_date': pub_date_str,
-                    'updated_at': update_date_str,
+                    'pub_date': pub_time.isoformat(),
+                    'updated_at': update_time.isoformat(),
                     'author': entry.get('author', '')
                 }
                 posts.append(post)
@@ -590,7 +551,6 @@ class DataAggregator:
         # 按时间排序
         all_posts.sort(key=lambda x: x['pub_date'], reverse=True)
         
-        # 更新时间仍然使用北京时间
         return {
             'updated_at': get_beijing_time().isoformat(),
             'total_sites': len(all_sites),
@@ -598,6 +558,7 @@ class DataAggregator:
             'sites': all_sites,
             'all_posts': all_posts
         }
+
 
 class FriendRSSAggregator:
     """主控制器"""
@@ -617,8 +578,7 @@ class FriendRSSAggregator:
         )
         self.aggregator = DataAggregator(
             self.config.get_max_posts(),
-            self.config.get_outdate_days(),
-            self.config.get_timezone_correction()  # 传递时区校正配置
+            self.config.get_outdate_days()
         )
         # 用于记录获取 RSS 失败的站点列表
         self.failed_sites: List[Dict[str, Any]] = []
@@ -815,5 +775,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

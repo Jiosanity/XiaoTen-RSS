@@ -32,7 +32,7 @@ SETTINGS_FRIENDS_LINKS:
     - ["Evan", "https://www.evan.xin/", "https://www.evan.xin/logo.png"]
     - ["友人C", "https://www.ihewro.com", "https://www.ihewro.com/usr/uploads/time/67bad1fb8fe22.jpg"]
     - ["枋柚梓", "https://inkss.cn/", "https://cdn.xiaoten.com/friends/inkss.avif"]
-    - ["SUUS", "https://suus.me/", "https://suus.me/icons/favicon.svg", "atom.xml"]
+    - ["SUUS", "https://suus.me/", "https://suus.me/icons/favicon.svg", "rss.xml"]
     - ["空白Koobai", "https://koobai.com/", "https://img.koobai.com/koobai.webp"]
     - ["MouT.me", "https://ghost.mout.me/", "https://ghost.mout.me/favicon.ico", "rss"]
     - ["游钓四方", "https://blog.lhasa.icu/", "https://blog.lhasa.icu/favicon.svg"]
@@ -95,4 +95,5 @@ FEED_CHECK_TIMEOUT: 5
 REQUEST_RETRIES: 1
 
 ## 重试退避系数（秒）
+
 RETRY_BACKOFF: 0.3

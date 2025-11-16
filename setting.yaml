@@ -59,7 +59,7 @@ feed_suffix:
 ## 每个站点抓取的最多文章数（0为不限制）
 MAX_POSTS_NUM: 0
 
-## 过期文章清除（天），会根据此值剔除过旧文章（0为不限制）
+## 过期文章清除（天），会根据此值剔除过旧文章（0或负数为不限制）
 OUTDATE_CLEAN: 180
 
 ## 是否进行时区转换
@@ -72,4 +72,22 @@ TIMEZONE_CORRECTION: false
 OUTPUT_JSON_FILENAME: rss.json
 
 
+# 高级配置（可选）
+## 日志级别：DEBUG, INFO, WARNING, ERROR
+LOG_LEVEL: INFO
 
+## 并发处理友链数量（0或负数表示不使用并发，串行处理）
+## 建议设置为 4-8，太大可能被目标站点封禁
+MAX_WORKERS: 4
+
+## HTTP 请求超时时间（秒）
+REQUEST_TIMEOUT: 10
+
+## Feed URL 检查超时时间（秒）
+FEED_CHECK_TIMEOUT: 5
+
+## HTTP 请求重试次数
+REQUEST_RETRIES: 1
+
+## 重试退避系数（秒）
+RETRY_BACKOFF: 0.3

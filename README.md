@@ -42,16 +42,18 @@ python main.py
 程序运行结束后会在仓库根目录写入或更新输出 JSON（默认 `data.json`，可在 `setting.yaml` 的 `OUTPUT_JSON_FILENAME` 中自定义，例如 `rss.json`）。
 
 配置要点（`setting.yaml`）
+
+## 基础配置
 - `LINK`：存放要爬取友链页面的 URL 列表
 - `link_page_rules`：CSS 选择器规则，用于提取友链页面中的姓名/链接/头像
 - `SETTINGS_FRIENDS_LINKS`：手动友链列表，格式为 `[name, url, avatar, optional_feed_suffix]`；若填写了 `feed_suffix`，程序会直接用拼接后的 URL 去尝试抓取（可绕过自动发现逻辑）
 - `BLOCK_SITE` / `BLOCK_SITE_REVERSE`：黑/白名单规则（支持正则）
 - `feed_suffix`：默认尝试的一组常见后缀
 - `MAX_POSTS_NUM`：每站点最多保留的帖子数（0 表示不限制）
-- `OUTDATE_CLEAN`：过期清理天数，设为 `0` 表示不限制（保留所有历史文章）
+- `OUTDATE_CLEAN`：过期清理天数，设为 `0` 或负数表示不限制（保留所有历史文章）
 - `TIMEZONE_CORRECTION`：是否进行时区转换（默认 `true`）
   - `true`：把 RSS 时间换算为北京时间（UTC+8）
-  - `false`：不做换算，保留对方文章的“墙上时间”，仅以北京时间标注（+08:00）
+  - `false`：不做换算，保留对方文章的"墙上时间"，仅以北京时间标注（+08:00）
   - 示例：
     - `<pubDate>Sat, 15 Nov 2025 14:41:01 GMT</pubDate>` →
       - `true`: `2025-11-15T22:41:01+08:00`
@@ -59,6 +61,14 @@ python main.py
     - `<pubDate>Fri, 14 Nov 2025 23:23:25 +0800</pubDate>` →
       - `true/false` 均为 `2025-11-14T23:23:25+08:00`
 - `OUTPUT_JSON_FILENAME`：输出文件名，例：`rss.json`（默认 `data.json`）
+
+## 高级配置（性能优化）
+- `LOG_LEVEL`：日志级别（DEBUG, INFO, WARNING, ERROR），默认 INFO
+- `MAX_WORKERS`：并发处理友链的线程数，0 或负数表示串行处理，建议 4-8（默认 4）
+- `REQUEST_TIMEOUT`：HTTP 请求超时时间（秒），默认 10
+- `FEED_CHECK_TIMEOUT`：Feed URL 检查超时时间（秒），默认 5
+- `REQUEST_RETRIES`：HTTP 请求重试次数，默认 1
+- `RETRY_BACKOFF`：重试退避系数（秒），默认 0.3
 
 输出格式（默认 `data.json`）— 重要字段说明
 

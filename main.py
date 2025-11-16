@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 友链RSS订阅聚合程序
-从友链页面和手动配置列表中获取RSS源，聚合成data.json
+从友链页面和手动配置列表中获取RSS源，聚合成可配置的JSON文件
 """
 
 import os
@@ -15,35 +15,36 @@ from typing import List, Dict, Any, Tuple, Optional
 from urllib.parse import urljoin, urlparse
 import hashlib
 from time import sleep
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 import yaml
 from bs4 import BeautifulSoup
 import feedparser
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from urllib3.util import Retry
 import urllib3
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# 配置日志
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+# 初始化logger（稍后会根据配置设置级别）
 logger = logging.getLogger(__name__)
-
-# 配置常量
-REQUEST_TIMEOUT = 10
-REQUEST_RETRIES = 1  # 减少重试次数，避免过多尝试
-RETRY_BACKOFF = 0.3
-FEED_CHECK_TIMEOUT = 5  # Feed URL检查使用更短的超时
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-CACHE_FILE = 'feed_cache.json'
 
 # 定义北京时间时区 (UTC+8)
 BEIJING_TZ = timezone(timedelta(hours=8))
+
+# 默认配置（可被 setting.yaml 覆盖）
+DEFAULT_CONFIG = {
+    'REQUEST_TIMEOUT': 10,
+    'FEED_CHECK_TIMEOUT': 5,
+    'REQUEST_RETRIES': 1,
+    'RETRY_BACKOFF': 0.3,
+    'MAX_WORKERS': 0,  # 0 表示不使用并发
+    'LOG_LEVEL': 'INFO',
+    'CACHE_FILE': 'feed_cache.json',
+    'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
 
 def get_beijing_time():
     """获取当前北京时间"""
@@ -94,7 +95,7 @@ def parse_feed_time(time_tuple, timezone_correction: bool = True, original_time_
 class CacheManager:
     """缓存管理器，存储已发现的RSS源和文章ID"""
     
-    def __init__(self, cache_file: str = CACHE_FILE):
+    def __init__(self, cache_file: str = 'feed_cache.json'):
         self.cache_file = cache_file
         self.cache = self._load_cache()
     
@@ -103,7 +104,10 @@ class CacheManager:
         if os.path.exists(self.cache_file):
             try:
                 with open(self.cache_file, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+                    cache_data = json.load(f)
+                    # 移除旧版本可能存在的 article_ids
+                    cache_data.pop('article_ids', None)
+                    return cache_data
             except Exception as e:
                 logger.warning(f"加载缓存失败: {e}")
                 return self._init_cache()
@@ -113,19 +117,14 @@ class CacheManager:
         """初始化缓存结构"""
         return {
             'feed_urls': {},  # {site_url: feed_url}
-            'article_ids': set(),  # 已处理的文章ID（用于去重）
             'last_update': None
         }
     
     def save(self):
         """保存缓存"""
         try:
-            # 将set转换为list以便JSON序列化
-            cache_to_save = self.cache.copy()
-            cache_to_save['article_ids'] = list(self.cache.get('article_ids', []))
-            
             with open(self.cache_file, 'w', encoding='utf-8') as f:
-                json.dump(cache_to_save, f, ensure_ascii=False, indent=2)
+                json.dump(self.cache, f, ensure_ascii=False, indent=2)
             logger.debug(f"缓存已保存")
         except Exception as e:
             logger.error(f"保存缓存失败: {e}")
@@ -139,26 +138,6 @@ class CacheManager:
         if 'feed_urls' not in self.cache:
             self.cache['feed_urls'] = {}
         self.cache['feed_urls'][site_url] = feed_url
-    
-    def get_article_id(self, article: dict) -> str:
-        """生成文章唯一ID"""
-        # 使用标题和发布日期的组合作为ID
-        key = f"{article.get('title', '')}{article.get('pub_date', '')}".encode('utf-8')
-        return hashlib.md5(key).hexdigest()
-    
-    def is_article_seen(self, article: dict) -> bool:
-        """检查文章是否已处理过"""
-        if not isinstance(self.cache.get('article_ids'), set):
-            self.cache['article_ids'] = set()
-        article_id = self.get_article_id(article)
-        return article_id in self.cache['article_ids']
-    
-    def mark_article_seen(self, article: dict):
-        """标记文章为已处理"""
-        if not isinstance(self.cache.get('article_ids'), set):
-            self.cache['article_ids'] = set()
-        article_id = self.get_article_id(article)
-        self.cache['article_ids'].add(article_id)
 
 
 class ConfigParser:
@@ -167,11 +146,21 @@ class ConfigParser:
     def __init__(self, config_path: str = 'setting.yaml'):
         self.config_path = config_path
         self.config = self._load_config()
+        self._setup_logging()
     
     def _load_config(self) -> dict:
         """加载YAML配置文件"""
         with open(self.config_path, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f)
+    
+    def _setup_logging(self):
+        """配置日志系统"""
+        log_level = self.get_log_level()
+        logging.basicConfig(
+            level=getattr(logging, log_level),
+            format='%(asctime)s - %(levelname)s - %(message)s',
+            force=True  # 强制重新配置
+        )
     
     def get_link_pages(self) -> List[str]:
         """获取需要爬取的友链页面URL列表"""
@@ -218,19 +207,61 @@ class ConfigParser:
         return self.config.get('MAX_POSTS_NUM', 5)
     
     def get_outdate_days(self) -> int:
-        """获取过期文章天数"""
+        """获取过期文章天数
+        
+        Returns:
+            int: 过期天数，0或负数表示不限制
+        """
         return self.config.get('OUTDATE_CLEAN', 180)
 
     def get_timezone_correction(self) -> bool:
         """获取是否开启时区校正
-        True: 将所有时间换算为北京时间
-        False: 不换算，保留对方文章的墙上时间，仅以北京时间标注
+        
+        Returns:
+            bool: True - 将所有时间换算为北京时间
+                  False - 不换算，保留对方文章的墙上时间，仅以北京时间标注
         """
         return self.config.get('TIMEZONE_CORRECTION', True)
 
     def get_output_filename(self) -> str:
-        """获取输出JSON文件名（相对仓库根目录）"""
+        """获取输出JSON文件名
+        
+        Returns:
+            str: 输出文件名（相对仓库根目录），默认 'data.json'
+        """
         return self.config.get('OUTPUT_JSON_FILENAME', 'data.json')
+    
+    def get_log_level(self) -> str:
+        """获取日志级别"""
+        return self.config.get('LOG_LEVEL', 'INFO').upper()
+    
+    def get_max_workers(self) -> int:
+        """获取并发处理线程数"""
+        return self.config.get('MAX_WORKERS', 0)
+    
+    def get_request_timeout(self) -> int:
+        """获取HTTP请求超时时间"""
+        return self.config.get('REQUEST_TIMEOUT', 10)
+    
+    def get_feed_check_timeout(self) -> int:
+        """获取Feed URL检查超时时间"""
+        return self.config.get('FEED_CHECK_TIMEOUT', 5)
+    
+    def get_request_retries(self) -> int:
+        """获取HTTP请求重试次数"""
+        return self.config.get('REQUEST_RETRIES', 1)
+    
+    def get_retry_backoff(self) -> float:
+        """获取重试退避系数"""
+        return self.config.get('RETRY_BACKOFF', 0.3)
+    
+    def get_cache_file(self) -> str:
+        """获取缓存文件名"""
+        return self.config.get('CACHE_FILE', 'feed_cache.json')
+    
+    def get_user_agent(self) -> str:
+        """获取User-Agent"""
+        return self.config.get('USER_AGENT', DEFAULT_CONFIG['USER_AGENT'])
 
 
 class SiteFilter:
@@ -268,36 +299,24 @@ class SiteFilter:
 class LinkPageScraper:
     """友链页面爬虫"""
     
-    def __init__(self, rules: dict):
+    def __init__(self, rules: dict, request_timeout: int = 10, user_agent: str = None):
         self.rules = rules
+        self.request_timeout = request_timeout
+        self.user_agent = user_agent or DEFAULT_CONFIG['USER_AGENT']
         self.session = self._create_session()
     
     def _create_session(self) -> requests.Session:
         """创建带重试机制的requests会话"""
         session = requests.Session()
-        
-        # 配置重试策略：只重试1次，快速失败
-        retry_strategy = Retry(
-            total=REQUEST_RETRIES,
-            backoff_factor=RETRY_BACKOFF,
-            status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["GET", "HEAD"],
-            raise_on_status=False  # 不要在状态错误时抛出异常
-        )
-        
-        adapter = HTTPAdapter(max_retries=retry_strategy)
-        session.mount("http://", adapter)
-        session.mount("https://", adapter)
-        
-        session.headers.update({'User-Agent': USER_AGENT})
-        session.verify = False  # 禁用SSL验证，避免自签名证书错误
+        session.headers.update({'User-Agent': self.user_agent})
+        session.verify = False
         return session
     
     def scrape(self, url: str) -> List[Dict[str, str]]:
         """从友链页面爬取链接"""
         try:
             logger.info(f"正在爬取友链页面: {url}")
-            response = self.session.get(url, timeout=REQUEST_TIMEOUT)
+            response = self.session.get(url, timeout=self.request_timeout)
             response.encoding = 'utf-8'
             response.raise_for_status()
             
@@ -354,12 +373,19 @@ class LinkPageScraper:
 class RSSFetcher:
     """RSS源获取器"""
     
-    def __init__(self, feed_suffixes: List[str], max_posts: int, cache_manager: Optional['CacheManager'] = None):
+    def __init__(self, feed_suffixes: List[str], max_posts: int, cache_manager: Optional['CacheManager'] = None, 
+                 request_timeout: int = 10, feed_check_timeout: int = 5, 
+                 request_retries: int = 1, retry_backoff: float = 0.3, user_agent: str = None):
         self.feed_suffixes = feed_suffixes
         self.max_posts = max_posts
-        self.session = self._create_session()
-        self.check_session = self._create_check_session()  # 用于快速检查Feed URL的会话
         self.cache = cache_manager
+        self.request_timeout = request_timeout
+        self.feed_check_timeout = feed_check_timeout
+        self.request_retries = request_retries
+        self.retry_backoff = retry_backoff
+        self.user_agent = user_agent or DEFAULT_CONFIG['USER_AGENT']
+        self.session = self._create_session()
+        self.check_session = self._create_check_session()
         # 最近一次获取/解析 RSS 时的错误信息（字符串），供外部查询
         self.last_error: Optional[str] = None
     
@@ -368,8 +394,8 @@ class RSSFetcher:
         session = requests.Session()
         
         retry_strategy = Retry(
-            total=REQUEST_RETRIES,
-            backoff_factor=RETRY_BACKOFF,
+            total=self.request_retries,
+            backoff_factor=self.retry_backoff,
             status_forcelist=[429, 500, 502, 503, 504],
             allowed_methods=["GET", "HEAD"]
         )
@@ -378,7 +404,7 @@ class RSSFetcher:
         session.mount("http://", adapter)
         session.mount("https://", adapter)
         
-        session.headers.update({'User-Agent': USER_AGENT})
+        session.headers.update({'User-Agent': self.user_agent})
         session.verify = False
         return session
     
@@ -391,7 +417,7 @@ class RSSFetcher:
         session.mount("http://", adapter)
         session.mount("https://", adapter)
         
-        session.headers.update({'User-Agent': USER_AGENT})
+        session.headers.update({'User-Agent': self.user_agent})
         session.verify = False
         return session
     
@@ -436,7 +462,7 @@ class RSSFetcher:
         """检查URL是否是有效的Feed源（快速检查，不重试）"""
         try:
             # 使用不重试的会话和更短的超时
-            response = self.check_session.get(url, timeout=FEED_CHECK_TIMEOUT)
+            response = self.check_session.get(url, timeout=self.feed_check_timeout)
             
             if response.status_code != 200:
                 self.last_error = f"HTTP {response.status_code}"
@@ -474,7 +500,7 @@ class RSSFetcher:
             logger.info(f"正在获取RSS源: {feed_url}")
             
             # 使用requests获取内容，然后传给feedparser
-            response = self.session.get(feed_url, timeout=REQUEST_TIMEOUT)
+            response = self.session.get(feed_url, timeout=self.request_timeout)
             
             if response.status_code != 200:
                 self.last_error = f"HTTP {response.status_code}"
@@ -612,16 +638,25 @@ class FriendRSSAggregator:
     
     def __init__(self, config_path: str = 'setting.yaml'):
         self.config = ConfigParser(config_path)
-        self.cache = CacheManager()
+        self.cache = CacheManager(self.config.get_cache_file())
         self.site_filter = SiteFilter(
             self.config.get_block_sites(),
             self.config.get_block_site_reverse()
         )
-        self.scraper = LinkPageScraper(self.config.get_link_page_rules())
+        self.scraper = LinkPageScraper(
+            self.config.get_link_page_rules(),
+            self.config.get_request_timeout(),
+            self.config.get_user_agent()
+        )
         self.fetcher = RSSFetcher(
             self.config.get_feed_suffixes(),
             self.config.get_max_posts(),
-            self.cache
+            self.cache,
+            self.config.get_request_timeout(),
+            self.config.get_feed_check_timeout(),
+            self.config.get_request_retries(),
+            self.config.get_retry_backoff(),
+            self.config.get_user_agent()
         )
         self.aggregator = DataAggregator(
             self.config.get_max_posts(),
@@ -773,11 +808,32 @@ class FriendRSSAggregator:
         all_links = self.get_all_links()
         
         # 处理每个站点
-        all_sites = []
-        for link in all_links:
-            site_data = self.process_site(link)
-            if site_data:
-                all_sites.append(site_data)
+        max_workers = self.config.get_max_workers()
+        
+        if max_workers and max_workers > 0:
+            # 并发处理
+            logger.info(f"使用{max_workers}个线程并发处理友链...")
+            all_sites = []
+            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                # 提交所有任务
+                future_to_link = {executor.submit(self.process_site, link): link for link in all_links}
+                
+                # 获取结果
+                for future in as_completed(future_to_link):
+                    try:
+                        site_data = future.result()
+                        if site_data:
+                            all_sites.append(site_data)
+                    except Exception as e:
+                        link = future_to_link[future]
+                        logger.error(f"并发处理站点{link.get('name')}时发生异常: {e}")
+        else:
+            # 串行处理
+            all_sites = []
+            for link in all_links:
+                site_data = self.process_site(link)
+                if site_data:
+                    all_sites.append(site_data)
         
         # 合并数据
         final_data = self.aggregator.merge_data(all_sites)

@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: rss-aggregate
+  cancel-in-progress: true
+
 jobs:
   aggregate-rss:
     runs-on: ubuntu-latest
@@ -62,6 +66,41 @@ jobs:
           ls -la "$OUTPUT_JSON_FILENAME" || echo "输出文件仍然不存在"
           echo "文件内容预览:"
           head -n 5 "$OUTPUT_JSON_FILENAME" || echo "无法读取输出文件"
+
+      - name: 检查失败站点并输出摘要
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          fn = os.environ.get('OUTPUT_JSON_FILENAME', 'data.json')
+          try:
+              with open(fn, encoding='utf-8') as f:
+                  data = json.load(f)
+          except Exception as e:
+              print(f"[warn] 无法读取 {fn}: {e}")
+              sys.exit(0)
+          fails = data.get('failed_sites') or []
+          if not fails:
+              print("No failed sites.")
+              summary = "✅ 本次抓取无失败站点。"
+          else:
+              print("Failed sites:")
+              lines = []
+              for s in fails:
+                  name = s.get('name') or ''
+                  url = s.get('url') or ''
+                  reason = s.get('reason') or ''
+                  line = f"- {name} | {url} | {reason}"
+                  lines.append(line)
+                  print(f"::warning::抓取失败: {name} {url} 原因: {reason}")
+              summary = "⚠️ 失败站点：\n" + "\n".join(lines)
+          summary_file = os.environ.get('GITHUB_STEP_SUMMARY')
+          if summary_file:
+              with open(summary_file, 'a', encoding='utf-8') as sf:
+                  sf.write("## RSS 抓取结果摘要\n\n")
+                  sf.write(summary + "\n")
+          PY
       
       - name: 添加所有更改到暂存区
         run: |

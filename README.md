@@ -43,27 +43,24 @@ python main.py
 
 配置要点（`setting.yaml`）
 
-## 基础配置
-- `LINK`：存放要爬取友链页面的 URL 列表
-- `link_page_rules`：CSS 选择器规则，用于提取友链页面中的姓名/链接/头像
-- `SETTINGS_FRIENDS_LINKS`：手动友链列表，格式为 `[name, url, avatar, optional_feed_suffix]`；若填写了 `feed_suffix`，程序会直接用拼接后的 URL 去尝试抓取（可绕过自动发现逻辑）
-- `BLOCK_SITE` / `BLOCK_SITE_REVERSE`：黑/白名单规则（支持正则）
-- `feed_suffix`：默认尝试的一组常见后缀
-- `MAX_POSTS_NUM`：每站点最多保留的帖子数（0 表示不限制）
-- `OUTDATE_CLEAN`：过期清理天数，设为 `0` 或负数表示不限制（保留所有历史文章）
-- `TIMEZONE_CORRECTION`：是否进行时区转换（默认 `true`）
-  - `true`：把 RSS 时间换算为北京时间（UTC+8）
-  - `false`：不做换算，保留对方文章的"墙上时间"，仅以北京时间标注（+08:00）
-  - 示例：
-    - `<pubDate>Sat, 15 Nov 2025 14:41:01 GMT</pubDate>` →
-      - `true`: `2025-11-15T22:41:01+08:00`
-      - `false`: `2025-11-15T14:41:01+08:00`
-    - `<pubDate>Fri, 14 Nov 2025 23:23:25 +0800</pubDate>` →
-      - `true/false` 均为 `2025-11-14T23:23:25+08:00`
-- `SORT_BY`：文章排序方式（默认 `pub_date`）
-  - `pub_date`：按发布时间排序
-  - `updated_at`：按更新时间排序
-- `OUTPUT_JSON_FILENAME`：输出文件名，例：`rss.json`（默认 `data.json`）
+## 基础配置（速览）
+- `LINK`：友链页面 URL 列表
+- `link_page_rules`：从友链页提取 姓名/链接/头像 的 CSS 规则
+- `SETTINGS_FRIENDS_LINKS`：手动友链 `[name, url, avatar, optional_feed_suffix]`
+- `BLOCK_SITE` / `BLOCK_SITE_REVERSE`：黑/白名单（正则）
+- `feed_suffix`：常见 Feed 后缀尝试顺序
+- `MAX_POSTS_NUM`：每站最多文章数（0 不限）
+- `OUTDATE_CLEAN`：过期清理天数（≤0 表示不过滤）
+- `TIMEZONE_CORRECTION`：是否换算为北京时间（`true` 换算；`false` 保留来源显示的时间但标注 +08:00）
+- `SORT_BY`：排序字段（`pub_date` 或 `updated_at`）
+- `OUTPUT_JSON_FILENAME`：输出文件名（如 `rss.json`，默认 `data.json`）
+
+## 手动配置覆盖策略
+
+- 有 `feed_suffix`：当手动友链为同一 `url` 指定了 `feed_suffix`，将直接采用拼接后的地址（覆盖已从友链页自动发现的 `feed_url`）。
+- 无 `feed_suffix` 且 URL 已存在：跳过该手动项，保留自动发现结果（避免重复）。
+- 无 `feed_suffix` 且 URL 不存在：按常见后缀（`feed`、`rss`、`atom.xml`、`index.xml`、`rss.xml`）尝试自动发现。
+- 黑名单不影响手动项：`BLOCK_SITE` 仅作用于友链页面爬取，手动配置的站点不受其限制。
 
 ## 高级配置（性能优化）
 - `LOG_LEVEL`：日志级别（DEBUG, INFO, WARNING, ERROR），默认 INFO
@@ -73,49 +70,17 @@ python main.py
 - `REQUEST_RETRIES`：HTTP 请求重试次数，默认 1
 - `RETRY_BACKOFF`：重试退避系数（秒），默认 0.3
 
-输出格式（默认 `data.json`）— 重要字段说明
+输出格式（默认 `data.json`）— 速览
 
-主要结构：
-
-```json
-{
-  "updated_at": "2025-11-14T22:08:12.876043",
-  "total_sites": 22,
-  "total_posts": 199,
-  "sites": [
-    {
-      "name": "站点名称",
-      "url": "https://example.com/",
-      "avatar": "https://example.com/avatar.png",
-      "feed_url": "https://example.com/feed",
-      "posts": [
-        {
-          "title": "文章标题",
-          "link": "https://example.com/article",
-          "description": "文章摘要",
-          "pub_date": "2025-11-14T10:00:00",
-          "updated_at": "2025-11-14T10:00:00",
-          "author": "作者",
-          "site_name": "站点名称",
-          "site_url": "https://example.com/",
-          "avatar": "https://example.com/avatar.png"
-        }
-      ]
-    }
-  ],
-  "all_posts": [ /* 按时间倒序的所有文章 */ ],
-  "failed_sites": [ /* 获取失败的站点清单 */
-    { "name": "站点名称", "url": "https://example.com/", "feed_url": "https://example.com/feed", "reason": "HTTP 520" }
-  ]
-}
-```
-
-关于 `failed_sites`
-- 程序会把“未找到 feed”或“尝试抓取 feed 失败（如 HTTP 错误、超时、解析异常）”的站点记录到 `failed_sites`，包含 `reason` 字段，便于后续排查或人工干预（例如把真实 feed 写入配置）。
+- 顶层：`updated_at`、`total_sites`、`total_posts`、`sites[]`、`all_posts[]`、`failed_sites[]`
+- `sites[i]`：`name`、`url`、`avatar`、`feed_url`、`posts[]`
+- `sites[i].posts[j]`：`title`、`link`、`description`、`pub_date`、`updated_at`、`author`
+- `all_posts[k]`：为所有文章的扁平列表，包含上面字段，且附带 `site_name`、`site_url`、`avatar`
+- `failed_sites[m]`：抓取失败站点清单，含 `name`、`url`、`feed_url`（如有）与 `reason`
 
 在 GitHub 上自动化运行
 - 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。
-- 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。
+ 
 
 ## 更新日志
 

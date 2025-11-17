@@ -115,6 +115,15 @@ python main.py
 
 在 GitHub 上自动化运行
 - 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。
+- 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。
+
+## 更新日志
+
+### 2025-11-17
+- **优化手动配置优先级逻辑**：手动配置的友链不再受黑名单限制，优先级更高
+- **支持自定义RSS后缀覆盖**：当手动配置中指定了自定义 `feed_suffix` 时，即使该站点已从友链页面抓取，也会使用手动配置的RSS地址覆盖
+- **修复特殊RSS路径获取问题**：解决了如 `rss.php`、`article/rss.xml` 等非标准后缀的RSS源无法获取的问题
+- **移除rss.json追踪**：将自动生成的 `rss.json` 从版本控制中移除，避免不必要的提交
 
 
 

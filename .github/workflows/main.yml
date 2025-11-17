@@ -34,6 +34,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: Cache feed cache
+        uses: actions/cache@v4
+        with:
+          path: feed_cache.json
+          key: feed-cache-v1
+      
       - name: 解析输出文件名
         id: output_name
         shell: bash
@@ -102,16 +108,11 @@ jobs:
                   sf.write(summary + "\n")
           PY
       
-      - name: 添加所有更改到暂存区
-        run: |
-          git add -A
-          git status
-      
-      - name: 提交并推送更新
+      - name: 提交并推送输出文件
         run: |
           git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
-          # 使用北京时间（UTC+8）
+          git add -f "$OUTPUT_JSON_FILENAME"
           git commit -m "build: 更新RSS聚合数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 

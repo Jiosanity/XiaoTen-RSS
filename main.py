@@ -724,14 +724,21 @@ class FriendRSSAggregator:
         logger.info("【第二步】添加手动配置的友链...")
         manual_links = self.config.get_manual_links()
         for link in manual_links:
-            # 检查是否被屏蔽
-            if self.site_filter.is_blocked(link['url']):
-                logger.debug(f"手动友链被屏蔽: {link['name']} ({link['url']})")
-                continue
-            
-            # 去重
+            # 手动配置的友链不受黑名单限制，但需要检查去重
+            # 如果URL已存在，则用手动配置中的feed_suffix覆盖
             if link['url'] in url_set:
-                logger.debug(f"手动友链已存在，跳过重复: {link['name']}")
+                # 查找已存在的链接
+                existing_link = next((l for l in all_links if l['url'] == link['url']), None)
+                if existing_link and link.get('feed_suffix'):
+                    # 如果手动配置中指定了feed_suffix，则覆盖已抓取的链接
+                    base = link['url'] if link['url'].endswith('/') else link['url'] + '/'
+                    feed_url = urljoin(base, link['feed_suffix'])
+                    existing_link['feed_url'] = feed_url
+                    existing_link['name'] = link['name']  # 更新名称
+                    existing_link['avatar'] = link.get('avatar', existing_link.get('avatar', ''))  # 更新头像
+                    logger.debug(f"手动友链覆盖已存在项: {link['name']} -> {feed_url}")
+                else:
+                    logger.debug(f"手动友链已存在，跳过重复: {link['name']}")
                 continue
             
             # 如果有自定义Feed后缀，按用户选择 A：跳过快速检查，直接拼接并设置为 feed_url（fetch 阶段仍会尝试解析）

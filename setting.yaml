@@ -14,9 +14,8 @@ LINK:
 ## 屏蔽站点（正则表达式）
 BLOCK_SITE:
   - "https://q.chyfh.com/"
-  - "https://bokehub.com/"
   - "https://jiaohuiming.cn"
-  - "https?://mout.me"
+  - "https://bokehub.com/"
   - "https://www.foreverblog.cn/"
   - "https://www.travellings.cn/"
 
@@ -29,11 +28,9 @@ BLOCK_SITE_REVERSE: false
 ## 每个友链项格式为 [名称, 网址, 头像链接, 可选的 feed 后缀]
 SETTINGS_FRIENDS_LINKS:
   list:
-    - ["小十博客", "https://www.xiaoten.com/", "https://www.xiaoten.com/avatar.png"]
-    - ["SUUS", "https://suus.me/", "https://suus.me/icons/favicon.svg", "rss.xml"]
-    - ["MouT.me", "https://ghost.mout.me/", "https://ghost.mout.me/favicon.ico", "rss"]
-    - ["故事的程序猿", "https://blog.lichenghao.cn/", "https://blog.lichenghao.cn/avatar.svg", "article/rss.xml"]
-    - ["旺东自留地", "https://wang618.cn/", "https://wang618.cn/img/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F01.webp", "rss.php"]
+    - ["小十博客", "https://www.xiaoten.com/", "https://www.xiaoten.com/avatar.png"] # 友链页没有此链接，属新增。
+    - ["故事的程序猿", "https://blog.lichenghao.cn/", "https://blog.lichenghao.cn/avatar.svg", "article/rss.xml"] # 因rss获取路径特殊，非默认后缀，因此特别声明。
+    - ["旺东自留地", "https://wang618.cn/", "https://wang618.cn/img/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F01.webp", "rss.php"] # 因rss获取路径特殊，非默认后缀，因此特别声明。
 
 
 

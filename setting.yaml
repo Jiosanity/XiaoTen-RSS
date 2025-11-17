@@ -17,6 +17,8 @@ BLOCK_SITE:
   - "https://bokehub.com/"
   - "https://jiaohuiming.cn"
   - "https?://mout.me"
+  - "https://www.foreverblog.cn/"
+  - "https://www.travellings.cn/"
 
 ## 反向屏蔽站点（正则表达式），如果为 true，则列表表示允许列表（白名单），即只有匹配的会被抓取；默认 false（黑名单行为）。
 BLOCK_SITE_REVERSE: false
@@ -28,21 +30,9 @@ BLOCK_SITE_REVERSE: false
 SETTINGS_FRIENDS_LINKS:
   list:
     - ["小十博客", "https://www.xiaoten.com/", "https://www.xiaoten.com/avatar.png"]
-    - ["从良未遂", "https://www.jeffer.xyz/", "https://www.jeffer.xyz/wp-content/uploads/2023/01/cropped-2023010402181112.jpg"]
-    - ["Evan", "https://www.evan.xin/", "https://www.evan.xin/logo.png"]
-    - ["友人C", "https://www.ihewro.com", "https://www.ihewro.com/usr/uploads/time/67bad1fb8fe22.jpg"]
-    - ["枋柚梓", "https://inkss.cn/", "https://cdn.xiaoten.com/friends/inkss.avif"]
     - ["SUUS", "https://suus.me/", "https://suus.me/icons/favicon.svg", "rss.xml"]
-    - ["空白Koobai", "https://koobai.com/", "https://img.koobai.com/koobai.webp"]
     - ["MouT.me", "https://ghost.mout.me/", "https://ghost.mout.me/favicon.ico", "rss"]
-    - ["游钓四方", "https://blog.lhasa.icu/", "https://blog.lhasa.icu/favicon.svg"]
-    - ["雨帆", "https://yufan.me/", "https://weavatar.com/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"]
-    - ["子夜松声", "https://xyzbz.cn/", "https://bu.dusays.com/2023/07/25/64bf920527086.png"]
-    - ["灰常记忆", "https://bestcherish.com/", "https://bestcherish.com/image/favicon.svg", "feed"]
-    - ["安静角落", "https://wuziya.com/", "https://weavatar.com/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"]
-    - ["Jack's Space", "https://veryjack.com/", "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp", "feed"]
     - ["故事的程序猿", "https://blog.lichenghao.cn/", "https://blog.lichenghao.cn/avatar.svg", "article/rss.xml"]
-    - ["小白大学渣", "https://www.baihub.cn/", "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"]
     - ["旺东自留地", "https://wang618.cn/", "https://wang618.cn/img/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F01.webp", "rss.php"]
 
 
@@ -97,5 +87,6 @@ REQUEST_RETRIES: 1
 ## 重试退避系数（秒）
 
 RETRY_BACKOFF: 0.3
+
 
 

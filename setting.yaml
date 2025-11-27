@@ -24,6 +24,7 @@ BLOCK_SITE:
   - "https://blogscn.fun"
   - "https://www.blogsclub.org/"
   - "https://twd2.me/"
+  - "https://storeweb.cn/"
 
 ## 反向屏蔽站点（正则表达式），如果为 true，则列表表示允许列表（白名单），即只有匹配的会被抓取；默认 false（黑名单行为）。
 BLOCK_SITE_REVERSE: false
@@ -90,6 +91,7 @@ REQUEST_RETRIES: 1
 ## 重试退避系数（秒）
 
 RETRY_BACKOFF: 0.3
+
 
 
 

@@ -1,8 +1,126 @@
 {
-  "updated_at": "2025-12-04T14:30:18.909189+08:00",
+  "updated_at": "2025-12-04T20:41:36.184217+08:00",
   "total_sites": 23,
   "total_posts": 231,
   "sites": [
+    {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "开源高德地图及规划路径短代码插件",
+          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件😀。",
+          "pub_date": "2025-12-03T13:22:00+08:00",
+          "updated_at": "2025-12-03T13:22:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开始记账了",
+          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
+          "pub_date": "2025-11-28T21:38:00+08:00",
+          "updated_at": "2025-11-28T21:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布Typecho足迹插件",
+          "link": "https://wangdaodao.com/20251122/typecho-track.html",
+          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
+          "pub_date": "2025-11-22T16:38:00+08:00",
+          "updated_at": "2025-11-22T16:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "一次AI编程的分享",
+          "link": "https://wangdaodao.com/20251120/ai-programming-sharing.html",
+          "description": "最近给部门做了一次关于AI编程的分享-从重复劳动到高效创造，由于PPT中有一些代码和录屏没办法放出来，所以我就简单的整理了一份，放在博客里面。大家如果对AI编程感兴趣，也可以互相交流。",
+          "pub_date": "2025-11-20T19:34:00+08:00",
+          "updated_at": "2025-11-20T19:34:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "基于高德地图做足迹管理插件",
+          "link": "https://wangdaodao.com/20251117/amap-track.html",
+          "description": "距离上次折腾高德地图有一段时间了，最近看到有人在博客上面增加了足迹，我这心里也痒痒了，咱也做一个足迹管理的插件吧！支持配置高德地图的API密钥；能够设置默认的缩放级别；能够设置默认视图模式；能够...",
+          "pub_date": "2025-11-17T21:18:00+08:00",
+          "updated_at": "2025-11-17T21:18:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源两个后台美化插件",
+          "link": "https://wangdaodao.com/20251113/typecho-admin-plugins.html",
+          "description": "上篇文章介绍了 Typecho 的简洁哲学，里面有一条是：需求的有限满足。实际上很多易用性问题，我们都寄希望于第三方开发来完善，这也是官方文档建设再次被提上日程并承诺重视的原因，开放会带来期待中...",
+          "pub_date": "2025-11-13T22:07:00+08:00",
+          "updated_at": "2025-11-13T22:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho的简洁哲学",
+          "link": "https://wangdaodao.com/20251111/the-simplicity-philosophy-of-typecho.html",
+          "description": "最近在看 typecho 的官方博客，从2008年一直到2023年，跨越了15年，从一开始的奔放到现在的内敛，从一开始新鲜的枝丫，到现在粗壮的大树。从他的logo的演变，也能看出来他慢慢的内敛。...",
+          "pub_date": "2025-11-11T12:57:00+08:00",
+          "updated_at": "2025-11-11T12:57:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho如何实现评论无限嵌套",
+          "link": "https://wangdaodao.com/20251108/typecho-comments-max-levels.html",
+          "description": "今天有朋友在我的博客上留言，询问有关插件的一些问题。起初我正常回复，但回复到第五层时发现已无法继续，于是便进入后台打算进行设置。哎，我觉得设置9层，基本上应该可以了吧，结果保存了一下，变成了7……",
+          "pub_date": "2025-11-08T22:39:00+08:00",
+          "updated_at": "2025-11-08T22:39:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Panorama全景图插件",
+          "link": "https://wangdaodao.com/20251106/typecho-panorama-plugin.html",
+          "description": "经过了周末的调整，现在插件终于可以和大家见面了。Panorama 插件为 Typecho 博客系统添加全景图展示功能，支持将多张图片转换为可交互的全景图。",
+          "pub_date": "2025-11-06T19:03:00+08:00",
+          "updated_at": "2025-11-06T19:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "服务器续费了",
+          "link": "https://wangdaodao.com/20251104/racknerd-renew.html",
+          "description": "自从搬瓦工那台机器到期不再续费，目前手里就只有一台VPS了，这个当时是去年黑五搞活动买的，可以看我之前《又入手了一台VPS》。目前感觉性能完全够用，就放一个Typecho的博客绰绰有余。",
+          "pub_date": "2025-11-04T09:13:00+08:00",
+          "updated_at": "2025-11-04T09:13:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        }
+      ]
+    },
     {
       "name": "Jame",
       "url": "https://jame.work",
@@ -210,124 +328,6 @@
       ]
     },
     {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "开源高德地图及规划路径短代码插件",
-          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
-          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件😀。",
-          "pub_date": "2025-12-03T13:22:00+08:00",
-          "updated_at": "2025-12-03T13:22:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开始记账了",
-          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
-          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
-          "pub_date": "2025-11-28T21:38:00+08:00",
-          "updated_at": "2025-11-28T21:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布Typecho足迹插件",
-          "link": "https://wangdaodao.com/20251122/typecho-track.html",
-          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
-          "pub_date": "2025-11-22T16:38:00+08:00",
-          "updated_at": "2025-11-22T16:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "一次AI编程的分享",
-          "link": "https://wangdaodao.com/20251120/ai-programming-sharing.html",
-          "description": "最近给部门做了一次关于AI编程的分享-从重复劳动到高效创造，由于PPT中有一些代码和录屏没办法放出来，所以我就简单的整理了一份，放在博客里面。大家如果对AI编程感兴趣，也可以互相交流。",
-          "pub_date": "2025-11-20T19:34:00+08:00",
-          "updated_at": "2025-11-20T19:34:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "基于高德地图做足迹管理插件",
-          "link": "https://wangdaodao.com/20251117/amap-track.html",
-          "description": "距离上次折腾高德地图有一段时间了，最近看到有人在博客上面增加了足迹，我这心里也痒痒了，咱也做一个足迹管理的插件吧！支持配置高德地图的API密钥；能够设置默认的缩放级别；能够设置默认视图模式；能够...",
-          "pub_date": "2025-11-17T21:18:00+08:00",
-          "updated_at": "2025-11-17T21:18:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源两个后台美化插件",
-          "link": "https://wangdaodao.com/20251113/typecho-admin-plugins.html",
-          "description": "上篇文章介绍了 Typecho 的简洁哲学，里面有一条是：需求的有限满足。实际上很多易用性问题，我们都寄希望于第三方开发来完善，这也是官方文档建设再次被提上日程并承诺重视的原因，开放会带来期待中...",
-          "pub_date": "2025-11-13T22:07:00+08:00",
-          "updated_at": "2025-11-13T22:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho的简洁哲学",
-          "link": "https://wangdaodao.com/20251111/the-simplicity-philosophy-of-typecho.html",
-          "description": "最近在看 typecho 的官方博客，从2008年一直到2023年，跨越了15年，从一开始的奔放到现在的内敛，从一开始新鲜的枝丫，到现在粗壮的大树。从他的logo的演变，也能看出来他慢慢的内敛。...",
-          "pub_date": "2025-11-11T12:57:00+08:00",
-          "updated_at": "2025-11-11T12:57:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho如何实现评论无限嵌套",
-          "link": "https://wangdaodao.com/20251108/typecho-comments-max-levels.html",
-          "description": "今天有朋友在我的博客上留言，询问有关插件的一些问题。起初我正常回复，但回复到第五层时发现已无法继续，于是便进入后台打算进行设置。哎，我觉得设置9层，基本上应该可以了吧，结果保存了一下，变成了7……",
-          "pub_date": "2025-11-08T22:39:00+08:00",
-          "updated_at": "2025-11-08T22:39:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Panorama全景图插件",
-          "link": "https://wangdaodao.com/20251106/typecho-panorama-plugin.html",
-          "description": "经过了周末的调整，现在插件终于可以和大家见面了。Panorama 插件为 Typecho 博客系统添加全景图展示功能，支持将多张图片转换为可交互的全景图。",
-          "pub_date": "2025-11-06T19:03:00+08:00",
-          "updated_at": "2025-11-06T19:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "服务器续费了",
-          "link": "https://wangdaodao.com/20251104/racknerd-renew.html",
-          "description": "自从搬瓦工那台机器到期不再续费，目前手里就只有一台VPS了，这个当时是去年黑五搞活动买的，可以看我之前《又入手了一台VPS》。目前感觉性能完全够用，就放一个Typecho的博客绰绰有余。",
-          "pub_date": "2025-11-04T09:13:00+08:00",
-          "updated_at": "2025-11-04T09:13:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        }
-      ]
-    },
-    {
       "name": "黑石博客",
       "url": "https://heson.me/",
       "avatar": "https://cravatar.cn/avatar/fc2c9b067f65c9e2d7057ba797f7cfca",
@@ -459,6 +459,17 @@
       "feed_url": "https://www.krjojo.com/feed",
       "posts": [
         {
+          "title": "为 Automate 自动化接入豆包ai 识别图形验证码",
+          "link": "https://www.krjojo.com/12466.html",
+          "description": "最近帮朋友研究电脑自动执行工作流，让一些电脑上枯燥重复的手工作业流程实现全自动化。 开始就陷入一个误区，想让a ...\n<p><a href=\"https://www.krjojo.com/12466.html\" rel=\"nofollow\">来源</a></p>",
+          "pub_date": "2025-12-04T12:08:40+08:00",
+          "updated_at": "2025-12-04T12:08:40+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://www.krjojo.com/wp-content/uploads/2024/05/avatar.avif"
+        },
+        {
           "title": "分享一个 Umami 追踪站内搜索的办法",
           "link": "https://www.krjojo.com/12416.html",
           "description": "想起以前用 Matomo 的时候是自带站内搜索追踪的，后来换了Umami 后这功能被遗忘了。 如今突然想起，结 ...\n<p><a href=\"https://www.krjojo.com/12416.html\" rel=\"nofollow\">来源</a></p>",
@@ -552,17 +563,6 @@
           "description": "今天EPIC放出《席德·梅尔的文明VI 白金版》免费领取，至 2025/7/24 23:00 https:// ...\n<p><a href=\"https://www.krjojo.com/12024.html\" rel=\"nofollow\">来源</a></p>",
           "pub_date": "2025-07-18T01:42:45+08:00",
           "updated_at": "2025-07-18T01:42:45+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://www.krjojo.com/wp-content/uploads/2024/05/avatar.avif"
-        },
-        {
-          "title": "LLMs.txt：让AI更方便爬取你的数据",
-          "link": "https://www.krjojo.com/11591.html",
-          "description": "最近，看到各种开发工具最近在其文档中添加了 LLMs.txt 支持。 虽然&#160;robots.txt&#038;n ...\n<p><a href=\"https://www.krjojo.com/11591.html\" rel=\"nofollow\">来源</a></p>",
-          "pub_date": "2025-06-25T11:04:01+08:00",
-          "updated_at": "2025-06-25T11:04:01+08:00",
           "author": "毛毛虫",
           "site_name": "手里有只毛毛虫",
           "site_url": "https://www.krjojo.com/",
@@ -1203,6 +1203,17 @@
       "feed_url": "https://yayu.net/feed",
       "posts": [
         {
+          "title": "博物图鉴｜假连翘和大头茶",
+          "link": "https://yayu.net/6011.html",
+          "description": "假连翘 假连翘，正式中文名源于《广州植物志》，是一种马鞭草科假连翘属的常绿灌木，植株高度通常在1.5米到3米之 [&#8230;]",
+          "pub_date": "2025-12-04T11:43:56+08:00",
+          "updated_at": "2025-12-04T11:43:56+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
+        },
+        {
           "title": "日常漫步 Vol.19 之稻田与猫",
           "link": "https://yayu.net/5990.html",
           "description": "距离上次到老屋咖啡5个月了，今天计划去溜达下，在村口遇到村里在办“那溪稻香生活节”，还有研学活动，吸引来不少人 [&#8230;]",
@@ -1410,69 +1421,6 @@
           "site_name": "雅余",
           "site_url": "https://yayu.net/",
           "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
-        },
-        {
-          "title": "山西河北历史文化之旅｜山西古城合集",
-          "link": "https://yayu.net/5455.html",
-          "description": "「山西河北9天历史文化之旅」第三篇——游山西忻州古城、代县古城、大同古城的古寺古迹。 感谢老铁们看上一篇博文后 [&#8230;]",
-          "pub_date": "2025-08-28T11:50:40+08:00",
-          "updated_at": "2025-08-28T11:50:40+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
-        }
-      ]
-    },
-    {
-      "name": "安静角落",
-      "url": "https://wuziya.com/",
-      "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7",
-      "feed_url": "https://wuziya.com/feed",
-      "posts": [
-        {
-          "title": "我的收音机",
-          "link": "https://wuziya.com/274.html",
-          "description": "原来是之前的播放器插件有问题。😅我调了半天，就是自带的天线收不到几个台。😅视频加载速度有点感人，下面是直接地址：直接引用地址1：香港直接引用地址2：北京，京东都发流量警告了，小水管不经用，流量跑...",
-          "pub_date": "2025-10-21T22:05:00+08:00",
-          "updated_at": "2025-10-21T22:05:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
-        },
-        {
-          "title": "今年这里再也拍不到这种照片了",
-          "link": "https://wuziya.com/273.html",
-          "description": "现在这里已经修路了。",
-          "pub_date": "2025-10-20T23:26:00+08:00",
-          "updated_at": "2025-10-20T23:26:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
-        },
-        {
-          "title": "国庆逛东北",
-          "link": "https://wuziya.com/251.html",
-          "description": "2025国庆，天津-山海关-齐齐哈尔-满州里-海拉尔-哈尔滨，原计划就差了长春和沈阳。😂1号出发，6号就回来了。在天津，住了一个有史以来最贵的房子，以后不会再住这么贵的了，实在太费钱钱了。😂山海...",
-          "pub_date": "2025-10-07T00:43:00+08:00",
-          "updated_at": "2025-10-07T00:43:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
-        },
-        {
-          "title": "疯狂",
-          "link": "https://wuziya.com/250.html",
-          "description": "每天重复昨天的生活又期望取得不一样的结果这叫疯狂",
-          "pub_date": "2025-09-28T11:42:00+08:00",
-          "updated_at": "2025-09-28T11:42:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
         }
       ]
     },
@@ -1701,6 +1649,58 @@
           "site_name": "旺东自留地",
           "site_url": "https://wang618.cn/",
           "avatar": "https://wang618.cn/img/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F01.webp"
+        }
+      ]
+    },
+    {
+      "name": "安静角落",
+      "url": "https://wuziya.com/",
+      "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7",
+      "feed_url": "https://wuziya.com/feed",
+      "posts": [
+        {
+          "title": "我的收音机",
+          "link": "https://wuziya.com/274.html",
+          "description": "原来是之前的播放器插件有问题。😅我调了半天，就是自带的天线收不到几个台。😅视频加载速度有点感人，下面是直接地址：直接引用地址1：香港直接引用地址2：北京，京东都发流量警告了，小水管不经用，流量跑...",
+          "pub_date": "2025-10-21T22:05:00+08:00",
+          "updated_at": "2025-10-21T22:05:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
+        },
+        {
+          "title": "今年这里再也拍不到这种照片了",
+          "link": "https://wuziya.com/273.html",
+          "description": "现在这里已经修路了。",
+          "pub_date": "2025-10-20T23:26:00+08:00",
+          "updated_at": "2025-10-20T23:26:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
+        },
+        {
+          "title": "国庆逛东北",
+          "link": "https://wuziya.com/251.html",
+          "description": "2025国庆，天津-山海关-齐齐哈尔-满州里-海拉尔-哈尔滨，原计划就差了长春和沈阳。😂1号出发，6号就回来了。在天津，住了一个有史以来最贵的房子，以后不会再住这么贵的了，实在太费钱钱了。😂山海...",
+          "pub_date": "2025-10-07T00:43:00+08:00",
+          "updated_at": "2025-10-07T00:43:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
+        },
+        {
+          "title": "疯狂",
+          "link": "https://wuziya.com/250.html",
+          "description": "每天重复昨天的生活又期望取得不一样的结果这叫疯狂",
+          "pub_date": "2025-09-28T11:42:00+08:00",
+          "updated_at": "2025-09-28T11:42:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
         }
       ]
     },
@@ -2066,6 +2066,98 @@
       ]
     },
     {
+      "name": "枋柚梓",
+      "url": "https://inkss.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
+      "feed_url": "https://inkss.cn/feed",
+      "posts": [
+        {
+          "title": "极空间 NAS：SSH 高阶玩法实践",
+          "link": "https://inkss.cn/post/3af25609/",
+          "description": "以极空间 Z4Pro+ 性能版为例，其 CPU 为 N355，配备 16GB DDR5 内存。若仅作为 NAS 存储使用，性能略显冗余，因此是时候尝试开启 SSH，以探索更多玩法。",
+          "pub_date": "2025-09-11T13:40:00+08:00",
+          "updated_at": "2025-11-15T11:20:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
+          "link": "https://inkss.cn/post/bbad9898/",
+          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
+          "pub_date": "2025-11-12T12:48:00+08:00",
+          "updated_at": "2025-11-12T12:48:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
+          "link": "https://inkss.cn/post/4a1a172a/",
+          "description": "本文分享腾讯云 EdgeOne 三个月使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
+          "pub_date": "2025-10-21T10:00:00+08:00",
+          "updated_at": "2025-11-10T08:05:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "米家中枢自动化极客版案例分享",
+          "link": "https://inkss.cn/post/430ddf15/",
+          "description": "本文分享米家中枢自动化极客版的多个应用案例，包括双开无线开关按键模拟、水暖毯睡眠模式模拟、动态延时关灯开灯、摄像机位置修正、传统设备接入米家等，还涉及离家和入睡状态的判断与联动控制，提供设计思路与实际应用参考。",
+          "pub_date": "2025-08-10T11:50:00+08:00",
+          "updated_at": "2025-10-15T17:00:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "极空间防火墙配置避坑：IPv6 地址丢失（DHCPv6）教程",
+          "link": "https://inkss.cn/post/f2d9f349/",
+          "description": "极空间系统新增防火墙功能后，实现了设备级网络访问管控，为公网环境下的安全配置提供了更精细化的选项。然而，由于底层规则设置过于粗糙，实际配置过程中出现设备 IPv6 地址异常丢失的问题。",
+          "pub_date": "2025-09-05T15:07:00+08:00",
+          "updated_at": "2025-09-11T07:23:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "庐山旅行攻略",
+          "link": "https://inkss.cn/post/e600275d/",
+          "description": "2025 庐山 3 天 2 晚旅行攻略：交通住宿清单 + 东线西线游玩指南",
+          "pub_date": "2025-08-23T09:28:00+08:00",
+          "updated_at": "2025-08-23T09:28:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "1Panel + MariaDB 安装 Umami 报错实录：问题分析与解决方案",
+          "link": "https://inkss.cn/post/9eba8252/",
+          "description": "本文详细介绍在 1Panel 面板中使用 MariaDB 安装 Umami 的完整步骤，解决数据库连接失败和迁移报错问题，实现无 MySQL 数据只有 MariaDB 数据库的 Umami 安装。",
+          "pub_date": "2025-08-19T09:20:00+08:00",
+          "updated_at": "2025-08-19T09:20:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        }
+      ]
+    },
+    {
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
+    },
+    {
       "name": "Evan",
       "url": "https://www.evan.xin/",
       "avatar": "https://www.evan.xin/logo.png",
@@ -2281,98 +2373,6 @@
           "avatar": "https://www.evan.xin/logo.png"
         }
       ]
-    },
-    {
-      "name": "枋柚梓",
-      "url": "https://inkss.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
-      "feed_url": "https://inkss.cn/feed",
-      "posts": [
-        {
-          "title": "极空间 NAS：SSH 高阶玩法实践",
-          "link": "https://inkss.cn/post/3af25609/",
-          "description": "以极空间 Z4Pro+ 性能版为例，其 CPU 为 N355，配备 16GB DDR5 内存。若仅作为 NAS 存储使用，性能略显冗余，因此是时候尝试开启 SSH，以探索更多玩法。",
-          "pub_date": "2025-09-11T13:40:00+08:00",
-          "updated_at": "2025-11-15T11:20:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
-          "link": "https://inkss.cn/post/bbad9898/",
-          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
-          "pub_date": "2025-11-12T12:48:00+08:00",
-          "updated_at": "2025-11-12T12:48:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
-          "link": "https://inkss.cn/post/4a1a172a/",
-          "description": "本文分享腾讯云 EdgeOne 三个月使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
-          "pub_date": "2025-10-21T10:00:00+08:00",
-          "updated_at": "2025-11-10T08:05:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "米家中枢自动化极客版案例分享",
-          "link": "https://inkss.cn/post/430ddf15/",
-          "description": "本文分享米家中枢自动化极客版的多个应用案例，包括双开无线开关按键模拟、水暖毯睡眠模式模拟、动态延时关灯开灯、摄像机位置修正、传统设备接入米家等，还涉及离家和入睡状态的判断与联动控制，提供设计思路与实际应用参考。",
-          "pub_date": "2025-08-10T11:50:00+08:00",
-          "updated_at": "2025-10-15T17:00:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "极空间防火墙配置避坑：IPv6 地址丢失（DHCPv6）教程",
-          "link": "https://inkss.cn/post/f2d9f349/",
-          "description": "极空间系统新增防火墙功能后，实现了设备级网络访问管控，为公网环境下的安全配置提供了更精细化的选项。然而，由于底层规则设置过于粗糙，实际配置过程中出现设备 IPv6 地址异常丢失的问题。",
-          "pub_date": "2025-09-05T15:07:00+08:00",
-          "updated_at": "2025-09-11T07:23:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "庐山旅行攻略",
-          "link": "https://inkss.cn/post/e600275d/",
-          "description": "2025 庐山 3 天 2 晚旅行攻略：交通住宿清单 + 东线西线游玩指南",
-          "pub_date": "2025-08-23T09:28:00+08:00",
-          "updated_at": "2025-08-23T09:28:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "1Panel + MariaDB 安装 Umami 报错实录：问题分析与解决方案",
-          "link": "https://inkss.cn/post/9eba8252/",
-          "description": "本文详细介绍在 1Panel 面板中使用 MariaDB 安装 Umami 的完整步骤，解决数据库连接失败和迁移报错问题，实现无 MySQL 数据只有 MariaDB 数据库的 Umami 安装。",
-          "pub_date": "2025-08-19T09:20:00+08:00",
-          "updated_at": "2025-08-19T09:20:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        }
-      ]
-    },
-    {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
     },
     {
       "name": "Jack's Space",
@@ -2611,6 +2611,13 @@
       ]
     },
     {
+      "name": "空白Koobai",
+      "url": "https://koobai.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/koobai.webp",
+      "feed_url": "https://koobai.com/index.xml",
+      "posts": []
+    },
+    {
       "name": "旅行漫记",
       "url": "https://synyan.cn/",
       "avatar": "https://cravatar.cn/avatar/bae7710d5271fe63d4dfcf86965afbda",
@@ -2716,16 +2723,31 @@
           "avatar": "https://cravatar.cn/avatar/bae7710d5271fe63d4dfcf86965afbda"
         }
       ]
-    },
-    {
-      "name": "空白Koobai",
-      "url": "https://koobai.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/koobai.webp",
-      "feed_url": "https://koobai.com/index.xml",
-      "posts": []
     }
   ],
   "all_posts": [
+    {
+      "title": "为 Automate 自动化接入豆包ai 识别图形验证码",
+      "link": "https://www.krjojo.com/12466.html",
+      "description": "最近帮朋友研究电脑自动执行工作流，让一些电脑上枯燥重复的手工作业流程实现全自动化。 开始就陷入一个误区，想让a ...\n<p><a href=\"https://www.krjojo.com/12466.html\" rel=\"nofollow\">来源</a></p>",
+      "pub_date": "2025-12-04T12:08:40+08:00",
+      "updated_at": "2025-12-04T12:08:40+08:00",
+      "author": "毛毛虫",
+      "site_name": "手里有只毛毛虫",
+      "site_url": "https://www.krjojo.com/",
+      "avatar": "https://www.krjojo.com/wp-content/uploads/2024/05/avatar.avif"
+    },
+    {
+      "title": "博物图鉴｜假连翘和大头茶",
+      "link": "https://yayu.net/6011.html",
+      "description": "假连翘 假连翘，正式中文名源于《广州植物志》，是一种马鞭草科假连翘属的常绿灌木，植株高度通常在1.5米到3米之 [&#8230;]",
+      "pub_date": "2025-12-04T11:43:56+08:00",
+      "updated_at": "2025-12-04T11:43:56+08:00",
+      "author": "雅余",
+      "site_name": "雅余",
+      "site_url": "https://yayu.net/",
+      "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
+    },
     {
       "title": "开源高德地图及规划路径短代码插件",
       "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
@@ -4751,17 +4773,6 @@
       "avatar": "https://chrison.cn/logo.png"
     },
     {
-      "title": "山西河北历史文化之旅｜山西古城合集",
-      "link": "https://yayu.net/5455.html",
-      "description": "「山西河北9天历史文化之旅」第三篇——游山西忻州古城、代县古城、大同古城的古寺古迹。 感谢老铁们看上一篇博文后 [&#8230;]",
-      "pub_date": "2025-08-28T11:50:40+08:00",
-      "updated_at": "2025-08-28T11:50:40+08:00",
-      "author": "雅余",
-      "site_name": "雅余",
-      "site_url": "https://yayu.net/",
-      "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
-    },
-    {
       "title": "从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验",
       "link": "https://veryjack.com/technique/realme_neo7_turbo/",
       "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6329 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/08/realme_cover-1024x576.webp\" width=\"1024\" /><p>作为一名长期的双持用户，我一直以来都同时使用 iPhone 和安卓手机。之前的安卓备用机是红米（K40 和 Note 11T Pro），但在升级到“残血版”的害怕OS后，频繁的掉帧和卡顿让体验变得非常糟糕。正好趁着“国补”的末班车，我以 1420 元左右的价格入手了 realme Neo7 Turbo，开启了我的 O 系手机初体验。在将它作为主力机深度使用近一个月后，我想分享一些主观感受。</p>\n<p><a href=\"https://veryjack.com/technique/realme_neo7_turbo/\">从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
@@ -5167,17 +5178,6 @@
       "site_name": "游钓四方",
       "site_url": "https://blog.lhasa.icu/",
       "avatar": "https://blog.lhasa.icu/favicon.svg"
-    },
-    {
-      "title": "LLMs.txt：让AI更方便爬取你的数据",
-      "link": "https://www.krjojo.com/11591.html",
-      "description": "最近，看到各种开发工具最近在其文档中添加了 LLMs.txt 支持。 虽然&#160;robots.txt&#038;n ...\n<p><a href=\"https://www.krjojo.com/11591.html\" rel=\"nofollow\">来源</a></p>",
-      "pub_date": "2025-06-25T11:04:01+08:00",
-      "updated_at": "2025-06-25T11:04:01+08:00",
-      "author": "毛毛虫",
-      "site_name": "手里有只毛毛虫",
-      "site_url": "https://www.krjojo.com/",
-      "avatar": "https://www.krjojo.com/wp-content/uploads/2024/05/avatar.avif"
     },
     {
       "title": "我沿着地狱边缘种花",

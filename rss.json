@@ -1,8 +1,126 @@
 {
-  "updated_at": "2025-12-07T09:41:56.854810+08:00",
+  "updated_at": "2025-12-07T14:27:29.718994+08:00",
   "total_sites": 25,
   "total_posts": 302,
   "sites": [
+    {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "发布一个Typecho AI文本润色插件",
+          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
+          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
+          "pub_date": "2025-12-06T19:44:00+08:00",
+          "updated_at": "2025-12-06T19:44:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源高德地图及规划路径短代码插件",
+          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件😀。",
+          "pub_date": "2025-12-03T13:22:00+08:00",
+          "updated_at": "2025-12-03T13:22:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开始记账了",
+          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
+          "pub_date": "2025-11-28T21:38:00+08:00",
+          "updated_at": "2025-11-28T21:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布Typecho足迹插件",
+          "link": "https://wangdaodao.com/20251122/typecho-track.html",
+          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
+          "pub_date": "2025-11-22T16:38:00+08:00",
+          "updated_at": "2025-11-22T16:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "一次AI编程的分享",
+          "link": "https://wangdaodao.com/20251120/ai-programming-sharing.html",
+          "description": "最近给部门做了一次关于AI编程的分享-从重复劳动到高效创造，由于PPT中有一些代码和录屏没办法放出来，所以我就简单的整理了一份，放在博客里面。大家如果对AI编程感兴趣，也可以互相交流。",
+          "pub_date": "2025-11-20T19:34:00+08:00",
+          "updated_at": "2025-11-20T19:34:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "基于高德地图做足迹管理插件",
+          "link": "https://wangdaodao.com/20251117/amap-track.html",
+          "description": "距离上次折腾高德地图有一段时间了，最近看到有人在博客上面增加了足迹，我这心里也痒痒了，咱也做一个足迹管理的插件吧！支持配置高德地图的API密钥；能够设置默认的缩放级别；能够设置默认视图模式；能够...",
+          "pub_date": "2025-11-17T21:18:00+08:00",
+          "updated_at": "2025-11-17T21:18:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源两个后台美化插件",
+          "link": "https://wangdaodao.com/20251113/typecho-admin-plugins.html",
+          "description": "上篇文章介绍了 Typecho 的简洁哲学，里面有一条是：需求的有限满足。实际上很多易用性问题，我们都寄希望于第三方开发来完善，这也是官方文档建设再次被提上日程并承诺重视的原因，开放会带来期待中...",
+          "pub_date": "2025-11-13T22:07:00+08:00",
+          "updated_at": "2025-11-13T22:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho的简洁哲学",
+          "link": "https://wangdaodao.com/20251111/the-simplicity-philosophy-of-typecho.html",
+          "description": "最近在看 typecho 的官方博客，从2008年一直到2023年，跨越了15年，从一开始的奔放到现在的内敛，从一开始新鲜的枝丫，到现在粗壮的大树。从他的logo的演变，也能看出来他慢慢的内敛。...",
+          "pub_date": "2025-11-11T12:57:00+08:00",
+          "updated_at": "2025-11-11T12:57:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho如何实现评论无限嵌套",
+          "link": "https://wangdaodao.com/20251108/typecho-comments-max-levels.html",
+          "description": "今天有朋友在我的博客上留言，询问有关插件的一些问题。起初我正常回复，但回复到第五层时发现已无法继续，于是便进入后台打算进行设置。哎，我觉得设置9层，基本上应该可以了吧，结果保存了一下，变成了7……",
+          "pub_date": "2025-11-08T22:39:00+08:00",
+          "updated_at": "2025-11-08T22:39:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Panorama全景图插件",
+          "link": "https://wangdaodao.com/20251106/typecho-panorama-plugin.html",
+          "description": "经过了周末的调整，现在插件终于可以和大家见面了。Panorama 插件为 Typecho 博客系统添加全景图展示功能，支持将多张图片转换为可交互的全景图。",
+          "pub_date": "2025-11-06T19:03:00+08:00",
+          "updated_at": "2025-11-06T19:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        }
+      ]
+    },
     {
       "name": "Jame",
       "url": "https://jame.work",
@@ -210,124 +328,6 @@
       ]
     },
     {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "发布一个Typecho AI文本润色插件",
-          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
-          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
-          "pub_date": "2025-12-06T19:44:00+08:00",
-          "updated_at": "2025-12-06T19:44:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源高德地图及规划路径短代码插件",
-          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
-          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件😀。",
-          "pub_date": "2025-12-03T13:22:00+08:00",
-          "updated_at": "2025-12-03T13:22:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开始记账了",
-          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
-          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
-          "pub_date": "2025-11-28T21:38:00+08:00",
-          "updated_at": "2025-11-28T21:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布Typecho足迹插件",
-          "link": "https://wangdaodao.com/20251122/typecho-track.html",
-          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
-          "pub_date": "2025-11-22T16:38:00+08:00",
-          "updated_at": "2025-11-22T16:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "一次AI编程的分享",
-          "link": "https://wangdaodao.com/20251120/ai-programming-sharing.html",
-          "description": "最近给部门做了一次关于AI编程的分享-从重复劳动到高效创造，由于PPT中有一些代码和录屏没办法放出来，所以我就简单的整理了一份，放在博客里面。大家如果对AI编程感兴趣，也可以互相交流。",
-          "pub_date": "2025-11-20T19:34:00+08:00",
-          "updated_at": "2025-11-20T19:34:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "基于高德地图做足迹管理插件",
-          "link": "https://wangdaodao.com/20251117/amap-track.html",
-          "description": "距离上次折腾高德地图有一段时间了，最近看到有人在博客上面增加了足迹，我这心里也痒痒了，咱也做一个足迹管理的插件吧！支持配置高德地图的API密钥；能够设置默认的缩放级别；能够设置默认视图模式；能够...",
-          "pub_date": "2025-11-17T21:18:00+08:00",
-          "updated_at": "2025-11-17T21:18:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源两个后台美化插件",
-          "link": "https://wangdaodao.com/20251113/typecho-admin-plugins.html",
-          "description": "上篇文章介绍了 Typecho 的简洁哲学，里面有一条是：需求的有限满足。实际上很多易用性问题，我们都寄希望于第三方开发来完善，这也是官方文档建设再次被提上日程并承诺重视的原因，开放会带来期待中...",
-          "pub_date": "2025-11-13T22:07:00+08:00",
-          "updated_at": "2025-11-13T22:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho的简洁哲学",
-          "link": "https://wangdaodao.com/20251111/the-simplicity-philosophy-of-typecho.html",
-          "description": "最近在看 typecho 的官方博客，从2008年一直到2023年，跨越了15年，从一开始的奔放到现在的内敛，从一开始新鲜的枝丫，到现在粗壮的大树。从他的logo的演变，也能看出来他慢慢的内敛。...",
-          "pub_date": "2025-11-11T12:57:00+08:00",
-          "updated_at": "2025-11-11T12:57:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho如何实现评论无限嵌套",
-          "link": "https://wangdaodao.com/20251108/typecho-comments-max-levels.html",
-          "description": "今天有朋友在我的博客上留言，询问有关插件的一些问题。起初我正常回复，但回复到第五层时发现已无法继续，于是便进入后台打算进行设置。哎，我觉得设置9层，基本上应该可以了吧，结果保存了一下，变成了7……",
-          "pub_date": "2025-11-08T22:39:00+08:00",
-          "updated_at": "2025-11-08T22:39:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Panorama全景图插件",
-          "link": "https://wangdaodao.com/20251106/typecho-panorama-plugin.html",
-          "description": "经过了周末的调整，现在插件终于可以和大家见面了。Panorama 插件为 Typecho 博客系统添加全景图展示功能，支持将多张图片转换为可交互的全景图。",
-          "pub_date": "2025-11-06T19:03:00+08:00",
-          "updated_at": "2025-11-06T19:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        }
-      ]
-    },
-    {
       "name": "MouT.me",
       "url": "https://ghost.mout.me/",
       "avatar": "https://cravatar.cn/avatar/678bf8cb50938b0e3a252e0509455d10",
@@ -453,80 +453,6 @@
       ]
     },
     {
-      "name": "小白大学渣",
-      "url": "https://www.baihub.cn/",
-      "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg",
-      "feed_url": "https://www.baihub.cn/feed",
-      "posts": [
-        {
-          "title": "初尝醉酒滋味",
-          "link": "https://www.baihub.cn/corner/first-drunk-experience/",
-          "description": "起因是一位在职博士师兄已经完成了大部分实验，十二月初科室培训结束后就要回到工作单位了，在本周宴请实验室的大家一 [&#8230;]",
-          "pub_date": "2025-11-30T17:41:43+08:00",
-          "updated_at": "2025-11-30T17:41:43+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
-        },
-        {
-          "title": "self.age+=1",
-          "link": "https://www.baihub.cn/corner/2025-birthday/",
-          "description": "距离上一篇博客已经过去一个多月了，不更新的日子里在被开题报告折磨，在每天担心挨老板骂，读研的日子里风平浪静，似 [&#8230;]",
-          "pub_date": "2025-09-25T15:59:47+08:00",
-          "updated_at": "2025-09-25T15:59:47+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
-        },
-        {
-          "title": "点亮成就之：终于过六级了",
-          "link": "https://www.baihub.cn/corner/cet6-passed/",
-          "description": "做 PPT 摸鱼打开 B 站，热搜榜上挂了一条四六级成绩查询，愣了一下才发觉已经到了可以查成绩的时间了。心惊胆 [&#8230;]",
-          "pub_date": "2025-08-16T03:42:25+08:00",
-          "updated_at": "2025-08-16T03:42:25+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
-        },
-        {
-          "title": "二〇二五·盛夏小记",
-          "link": "https://www.baihub.cn/corner/2025-end-of-summer/",
-          "description": "（一） 南宁的夏天虽说没有川渝等地区著名的火炉般的热度，但似乎也是在外有名的热。本文起笔的现在，朋友圈里“秋天 [&#8230;]",
-          "pub_date": "2025-08-08T08:26:23+08:00",
-          "updated_at": "2025-08-08T08:26:23+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
-        },
-        {
-          "title": "幻梦影业·救命我被马蜂包围了",
-          "link": "https://www.baihub.cn/dreams/250720/",
-          "description": "好吧有点标题党，其实事情是这样的 我：你说如果2012年我突然出现在你的好友列表，你会不会把我删了🤪我哥：为什 [&#8230;]",
-          "pub_date": "2025-07-20T06:34:06+08:00",
-          "updated_at": "2025-07-20T06:34:06+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
-        },
-        {
-          "title": "谁人的毕业季",
-          "link": "https://www.baihub.cn/corner/whose-graduation-season/",
-          "description": "2025年6月26日并不是我的毕业典礼，又像提前参加了我的毕业典礼。 当天应邀给实习室友拍毕业照。拍照时临近正 [&#8230;]",
-          "pub_date": "2025-07-15T18:26:34+08:00",
-          "updated_at": "2025-07-15T18:26:34+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
-        }
-      ]
-    },
-    {
       "name": "黑石博客",
       "url": "https://heson.me/",
       "avatar": "https://cravatar.cn/avatar/fc2c9b067f65c9e2d7057ba797f7cfca",
@@ -645,11 +571,96 @@
       ]
     },
     {
+      "name": "小白大学渣",
+      "url": "https://www.baihub.cn/",
+      "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg",
+      "feed_url": "https://www.baihub.cn/feed",
+      "posts": [
+        {
+          "title": "初尝醉酒滋味",
+          "link": "https://www.baihub.cn/corner/first-drunk-experience/",
+          "description": "起因是一位在职博士师兄已经完成了大部分实验，十二月初科室培训结束后就要回到工作单位了，在本周宴请实验室的大家一 [&#8230;]",
+          "pub_date": "2025-11-30T17:41:43+08:00",
+          "updated_at": "2025-11-30T17:41:43+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
+        },
+        {
+          "title": "self.age+=1",
+          "link": "https://www.baihub.cn/corner/2025-birthday/",
+          "description": "距离上一篇博客已经过去一个多月了，不更新的日子里在被开题报告折磨，在每天担心挨老板骂，读研的日子里风平浪静，似 [&#8230;]",
+          "pub_date": "2025-09-25T15:59:47+08:00",
+          "updated_at": "2025-09-25T15:59:47+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
+        },
+        {
+          "title": "点亮成就之：终于过六级了",
+          "link": "https://www.baihub.cn/corner/cet6-passed/",
+          "description": "做 PPT 摸鱼打开 B 站，热搜榜上挂了一条四六级成绩查询，愣了一下才发觉已经到了可以查成绩的时间了。心惊胆 [&#8230;]",
+          "pub_date": "2025-08-16T03:42:25+08:00",
+          "updated_at": "2025-08-16T03:42:25+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
+        },
+        {
+          "title": "二〇二五·盛夏小记",
+          "link": "https://www.baihub.cn/corner/2025-end-of-summer/",
+          "description": "（一） 南宁的夏天虽说没有川渝等地区著名的火炉般的热度，但似乎也是在外有名的热。本文起笔的现在，朋友圈里“秋天 [&#8230;]",
+          "pub_date": "2025-08-08T08:26:23+08:00",
+          "updated_at": "2025-08-08T08:26:23+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
+        },
+        {
+          "title": "幻梦影业·救命我被马蜂包围了",
+          "link": "https://www.baihub.cn/dreams/250720/",
+          "description": "好吧有点标题党，其实事情是这样的 我：你说如果2012年我突然出现在你的好友列表，你会不会把我删了🤪我哥：为什 [&#8230;]",
+          "pub_date": "2025-07-20T06:34:06+08:00",
+          "updated_at": "2025-07-20T06:34:06+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
+        },
+        {
+          "title": "谁人的毕业季",
+          "link": "https://www.baihub.cn/corner/whose-graduation-season/",
+          "description": "2025年6月26日并不是我的毕业典礼，又像提前参加了我的毕业典礼。 当天应邀给实习室友拍毕业照。拍照时临近正 [&#8230;]",
+          "pub_date": "2025-07-15T18:26:34+08:00",
+          "updated_at": "2025-07-15T18:26:34+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://www.baihub.cn/wp-content/uploads/2024/12/logo-middle.jpg"
+        }
+      ]
+    },
+    {
       "name": "雅余",
       "url": "https://yayu.net/",
       "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png",
       "feed_url": "https://yayu.net/feed",
       "posts": [
+        {
+          "title": "博物图鉴｜薇甘菊和猪屎豆",
+          "link": "https://yayu.net/6020.html",
+          "description": "在珠海的山野与路边，不时见到两种生长旺盛的植物：一种是外来入侵的薇甘菊，一种是本土常见的猪屎豆。这些植物有着美 [&#8230;]",
+          "pub_date": "2025-12-07T03:00:28+08:00",
+          "updated_at": "2025-12-07T03:00:28+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
+        },
         {
           "title": "博物图鉴｜假连翘和大头茶",
           "link": "https://yayu.net/6011.html",
@@ -858,17 +869,6 @@
           "site_name": "雅余",
           "site_url": "https://yayu.net/",
           "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
-        },
-        {
-          "title": "山西河北历史文化之旅｜应县木塔",
-          "link": "https://yayu.net/5554.html",
-          "description": "「山西河北9天历史文化之旅」第四篇——应县木塔 佛宫寺释迦塔（Pagoda of Fogong Temple） [&#8230;]",
-          "pub_date": "2025-09-01T13:17:51+08:00",
-          "updated_at": "2025-09-01T13:17:51+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
         }
       ]
     },
@@ -987,322 +987,6 @@
           "site_name": "网友小宋",
           "site_url": "https://xyzbz.cn/",
           "avatar": "https://bu.dusays.com/2023/07/25/64bf920527086.png"
-        }
-      ]
-    },
-    {
-      "name": "游钓四方",
-      "url": "https://blog.lhasa.icu/",
-      "avatar": "https://blog.lhasa.icu/favicon.svg",
-      "feed_url": "https://blog.lhasa.icu/rss.xml",
-      "posts": [
-        {
-          "title": "尼康 z30 开箱小记",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-12-02-nikon-z30-kaixiang-xiaoji",
-          "description": "",
-          "pub_date": "2025-12-01T17:40:00+08:00",
-          "updated_at": "2025-12-01T17:40:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "我的第一次 GitHub PR",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-11-26-my-first-github-pr",
-          "description": "",
-          "pub_date": "2025-11-26T15:23:00+08:00",
-          "updated_at": "2025-11-26T15:23:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "Introducing Astro Lhasa 1.0",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-11-25-introducing-astro-lhasa-1-0",
-          "description": "",
-          "pub_date": "2025-11-24T20:09:00+08:00",
-          "updated_at": "2025-11-24T20:09:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "读苏轼有感（1）",
-          "link": "https://blog.lhasa.icu/posts/life/2025-11-20-sushi-reflection-01",
-          "description": "",
-          "pub_date": "2025-11-19T16:29:00+08:00",
-          "updated_at": "2025-11-19T16:29:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "坐于顶，闻茶香，听古典，观夕阳",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-11-17-sit-top-tea-classical-sunset",
-          "description": "",
-          "pub_date": "2025-11-17T10:29:00+08:00",
-          "updated_at": "2025-11-17T10:29:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "27 公里 1510 米！徒步新手毕业了",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-11-15-biaoyi-line-newbie-graduation",
-          "description": "",
-          "pub_date": "2025-11-15T10:56:00+08:00",
-          "updated_at": "2025-11-15T10:56:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "最近的活动",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-11-14-recent-activities",
-          "description": "",
-          "pub_date": "2025-11-13T17:31:00+08:00",
-          "updated_at": "2025-11-13T17:31:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "喜得配发物资",
-          "link": "https://blog.lhasa.icu/posts/life/2025-11-07-got-issued-suede-and-camo-shoes",
-          "description": "",
-          "pub_date": "2025-11-07T10:57:00+08:00",
-          "updated_at": "2025-11-07T10:57:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "让博客的代码块更有表现力",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-11-03-make-blog-codeblocks-more-expressive",
-          "description": "",
-          "pub_date": "2025-11-03T15:59:00+08:00",
-          "updated_at": "2025-11-03T15:59:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "上天竺",
-          "link": "https://blog.lhasa.icu/posts/life/2025-11-03-upper-tianzhu",
-          "description": "",
-          "pub_date": "2025-11-02T16:51:00+08:00",
-          "updated_at": "2025-11-02T16:51:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "船游西湖，徒步河坊街",
-          "link": "https://blog.lhasa.icu/posts/life/2025-11-01-west-lake-boat-hefang-walk",
-          "description": "",
-          "pub_date": "2025-10-31T17:06:00+08:00",
-          "updated_at": "2025-10-31T17:06:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "打造全新 Artalk 评论界面",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-10-26-artalk-custom-comment-form",
-          "description": "",
-          "pub_date": "2025-10-26T15:57:00+08:00",
-          "updated_at": "2025-10-26T15:57:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "西湖阅读初体验",
-          "link": "https://blog.lhasa.icu/posts/life/2025-10-25-first-reading-experience-at-west-lake",
-          "description": "",
-          "pub_date": "2025-10-24T18:30:00+08:00",
-          "updated_at": "2025-10-24T18:30:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "时隔四年，晨跑环西湖",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-24-four-years-later-morning-run-west-lake",
-          "description": "",
-          "pub_date": "2025-10-23T16:01:00+08:00",
-          "updated_at": "2025-10-23T16:01:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "我从义乌搬家到杭州了",
-          "link": "https://blog.lhasa.icu/posts/life/2025-10-23-moving_from_yiwu_to_hangzhou",
-          "description": "",
-          "pub_date": "2025-10-22T18:07:00+08:00",
-          "updated_at": "2025-10-22T18:07:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "知乎答疑：个人博客内容常陷入同质化，如何找到独特风格？",
-          "link": "https://blog.lhasa.icu/posts/life/2025-10-18-answer-how-to-find-unique-style",
-          "description": "",
-          "pub_date": "2025-10-18T11:04:00+08:00",
-          "updated_at": "2025-10-18T11:04:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "首次徒步爬山，误闯深山老林，徒手爬悬崖，两度滑落险些丧命",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-15-first-hike-deep-forest-cliff-fall",
-          "description": "",
-          "pub_date": "2025-10-15T02:05:00+08:00",
-          "updated_at": "2025-10-15T02:05:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "夜骑：环岩口水库，遭翻车",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-11-night-ride-yankou-crash",
-          "description": "",
-          "pub_date": "2025-10-11T20:51:00+08:00",
-          "updated_at": "2025-10-11T20:51:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "国庆最后一天：倍鱼线二进宫",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-09-double-ride-beiyu-line",
-          "description": "",
-          "pub_date": "2025-10-08T19:09:00+08:00",
-          "updated_at": "2025-10-08T19:09:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "集成 LightGallery 灯箱",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-09-18-integrating-lightgallery",
-          "description": "",
-          "pub_date": "2025-09-18T11:33:00+08:00",
-          "updated_at": "2025-09-18T11:33:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "EasyFill v1.3 发布：支持SPA机制、优化 Shadow DOM 遍历逻辑",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-09-18-easyfill-1-3-0",
-          "description": "",
-          "pub_date": "2025-09-18T00:44:00+08:00",
-          "updated_at": "2025-09-18T00:44:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "EasyFill v1.2 发布：黑名单功能上线",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-09-16-easyfill-1-2-0",
-          "description": "",
-          "pub_date": "2025-09-16T03:21:00+08:00",
-          "updated_at": "2025-09-16T03:21:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "何为享受",
-          "link": "https://blog.lhasa.icu/posts/life/2025-08-30-what-is-enjoyment",
-          "description": "",
-          "pub_date": "2025-08-30T09:05:00+08:00",
-          "updated_at": "2025-08-30T09:05:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "热成铁板烧，又被暴雨淋成落汤鸡：西湖，我来了！",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-07-19-from-yiwu-to-west-lake-in-heat-and-rain",
-          "description": "",
-          "pub_date": "2025-07-19T12:06:00+08:00",
-          "updated_at": "2025-07-19T12:06:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "这个 RSS 有意思",
-          "link": "https://blog.lhasa.icu/posts/technology/2025-07-10-beautify-rss",
-          "description": "",
-          "pub_date": "2025-07-09T18:26:00+08:00",
-          "updated_at": "2025-07-09T18:26:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "生日骑遇“死亡摇摆”，差点成忌日骑",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-06-25-birthday-ride",
-          "description": "",
-          "pub_date": "2025-06-25T12:53:00+08:00",
-          "updated_at": "2025-06-25T12:53:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "雨骑枫赤线",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2025-06-25-rain-ride-scarlet-maple",
-          "description": "",
-          "pub_date": "2025-06-25T12:53:00+08:00",
-          "updated_at": "2025-06-25T12:53:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
-        },
-        {
-          "title": "独立开发者创业了",
-          "link": "https://blog.lhasa.icu/posts/startup/2025-06-12-im-starting-up",
-          "description": "",
-          "pub_date": "2025-06-12T05:07:00+08:00",
-          "updated_at": "2025-06-12T05:07:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://blog.lhasa.icu/favicon.svg"
         }
       ]
     },
@@ -1473,6 +1157,201 @@
           "site_name": "安静角落",
           "site_url": "https://wuziya.com/",
           "avatar": "https://cravatar.cn/avatar/44a830f1733f4acca071dac524c256a7972853f976dfc57a8f9e706351fdfff7"
+        }
+      ]
+    },
+    {
+      "name": "且听书吟",
+      "url": "https://yufan.me",
+      "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353",
+      "feed_url": "https://yufan.me/feed",
+      "posts": [
+        {
+          "title": "那些我用过的英语教材",
+          "link": "https://yufan.me/posts/the-old-english-textbooks",
+          "description": "因为父亲的务工，我辗转于厦门、济南、芜湖老家等多个城市，也因此体验了多套教材。这其中最让我印象深刻的，便是我用过的那些英语教材。",
+          "pub_date": "2025-12-06T17:05:38+08:00",
+          "updated_at": "2025-12-06T17:05:38+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "城市的呼吸",
+          "link": "https://yufan.me/posts/the-breath-of-the-city",
+          "description": "我最迷恋的现代都市美学，是那些立在大楼顶端的红灯——航空障碍灯。",
+          "pub_date": "2025-11-28T02:35:15+08:00",
+          "updated_at": "2025-11-28T02:35:15+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "时光不负往昔",
+          "link": "https://yufan.me/posts/the-blossoms-of-yesteryears",
+          "description": "那些零散而琐碎的往事，在时间的尘埃里沉睡，却仍不时在心底闪出微光。你呢？你还记得多少？",
+          "pub_date": "2025-11-24T15:13:43+08:00",
+          "updated_at": "2025-11-24T15:13:43+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "再见，小时候",
+          "link": "https://yufan.me/posts/never-say-goodbye-to-childhood",
+          "description": "无论如何，我都要和小时候告别了。但属于我的童年、我的趣事，我会一直记得。",
+          "pub_date": "2025-11-15T09:36:31+08:00",
+          "updated_at": "2025-11-15T09:36:31+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "如果・爱",
+          "link": "https://yufan.me/posts/perhaps-love",
+          "description": "如果这就是爱，为什么要等到十年后才明白？",
+          "pub_date": "2025-11-06T16:11:34+08:00",
+          "updated_at": "2025-11-06T16:11:34+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "时光里的安然",
+          "link": "https://yufan.me/posts/tranquil-times",
+          "description": "窗外小雨已歇，桂花香却仍旧停在记忆深处——像一场迟来的温柔，悄悄包裹着记忆，也包裹着那段安静的时光。",
+          "pub_date": "2025-11-06T06:01:05+08:00",
+          "updated_at": "2025-11-06T06:01:05+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "简单的幸福",
+          "link": "https://yufan.me/posts/simple-happiness",
+          "description": "我能感受到心里那份柔软和温暖，像你和孩子们在身边时一样，让我相信，无论现实多忙碌，生活依然可以轻盈而美好。",
+          "pub_date": "2025-11-05T16:01:32+08:00",
+          "updated_at": "2025-11-05T16:01:32+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "秋日暖阳",
+          "link": "https://yufan.me/posts/sun-in-autumn",
+          "description": "炎热的夏天仿佛被人突然按下了暂停键。十一一过，绵绵的秋雨便接踵而至，天气也一层一层地转凉。",
+          "pub_date": "2025-10-21T18:15:23+08:00",
+          "updated_at": "2025-10-21T18:15:23+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "遇见你的那一天",
+          "link": "https://yufan.me/posts/the-day-i-met-you",
+          "description": "有些失去是注定的，有些缘分终究没有结果。有时候我会想，如果能重来该有多好。可是真的能重来，也未必能尽如人意。",
+          "pub_date": "2025-10-14T09:26:28+08:00",
+          "updated_at": "2025-10-14T09:26:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "一阵风，两场雨",
+          "link": "https://yufan.me/posts/a-breeze-two-rains",
+          "description": "一阵风，两场雨，几点思绪，不过如此。",
+          "pub_date": "2025-10-14T01:12:28+08:00",
+          "updated_at": "2025-10-14T01:12:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "时光里的初见",
+          "link": "https://yufan.me/posts/first-glimpse-through-time",
+          "description": "人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。",
+          "pub_date": "2025-10-12T20:07:12+08:00",
+          "updated_at": "2025-10-12T20:07:12+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "《视觉之旅——神秘的机器世界》书评",
+          "link": "https://yufan.me/posts/book-review-in-how-things-work",
+          "description": "本书可以说是《视觉之旅》的新篇章，与机械制造相关的第一本书。",
+          "pub_date": "2025-10-12T16:25:28+08:00",
+          "updated_at": "2025-10-12T16:25:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "《美丽的化学元素》书评",
+          "link": "https://yufan.me/posts/book-review-in-chemistry-elements",
+          "description": "我们是否还需要这样一本化学元素科普书？",
+          "pub_date": "2025-10-12T11:20:19+08:00",
+          "updated_at": "2025-10-12T11:20:19+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "巴别塔终曲：最后一代卡西欧电子词典",
+          "link": "https://yufan.me/posts/2025-casio-ex-word",
+          "description": "卡西欧电子辞典曾经是学生时代的梦想，现在却成了过气产品的挣扎象征。",
+          "pub_date": "2025-10-11T06:04:21+08:00",
+          "updated_at": "2025-10-11T06:04:21+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "《Go 语言设计与实现》书评",
+          "link": "https://yufan.me/posts/book-review-in-go",
+          "description": "我觉得这本书更像是写给作者自己看的。如果想要让更多人看懂，或许还需要更多的努力。",
+          "pub_date": "2025-10-01T12:57:19+08:00",
+          "updated_at": "2025-10-01T12:57:19+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "学会向这个世界妥协",
+          "link": "https://yufan.me/posts/living-with-noise",
+          "description": "学会妥协，并不是承认错误，而是承认世界不会完全如你所愿。与世界相处的方式，往往不是“打败”，而是“放下”。",
+          "pub_date": "2025-09-28T15:58:28+08:00",
+          "updated_at": "2025-09-28T15:58:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
+        },
+        {
+          "title": "人生，很短也很长",
+          "link": "https://yufan.me/posts/life-is-like-a-boat",
+          "description": "人生从不是一场孤单的奔赴，而是一场带着爱与牵挂的接力。那些离开的人，会变成记忆里的光；那些陪伴在身边的人，会成为前行的力量。",
+          "pub_date": "2025-09-22T01:45:28+08:00",
+          "updated_at": "2025-09-22T01:45:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
         }
       ]
     },
@@ -1703,208 +1582,6 @@
           "avatar": "https://wang618.cn/img/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F/%E6%88%91%E7%9A%84%E5%A4%B4%E5%83%8F01.webp"
         }
       ]
-    },
-    {
-      "name": "且听书吟",
-      "url": "https://yufan.me",
-      "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353",
-      "feed_url": "https://yufan.me/feed",
-      "posts": [
-        {
-          "title": "那些我用过的英语教材",
-          "link": "https://yufan.me/posts/the-old-english-textbooks",
-          "description": "因为父亲的务工，我辗转于厦门、济南、芜湖老家等多个城市，也因此体验了多套教材。这其中最让我印象深刻的，便是我用过的那些英语教材。",
-          "pub_date": "2025-12-06T17:05:38+08:00",
-          "updated_at": "2025-12-06T17:05:38+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "城市的呼吸",
-          "link": "https://yufan.me/posts/the-breath-of-the-city",
-          "description": "我最迷恋的现代都市美学，是那些立在大楼顶端的红灯——航空障碍灯。",
-          "pub_date": "2025-11-28T02:35:15+08:00",
-          "updated_at": "2025-11-28T02:35:15+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "时光不负往昔",
-          "link": "https://yufan.me/posts/the-blossoms-of-yesteryears",
-          "description": "那些零散而琐碎的往事，在时间的尘埃里沉睡，却仍不时在心底闪出微光。你呢？你还记得多少？",
-          "pub_date": "2025-11-24T15:13:43+08:00",
-          "updated_at": "2025-11-24T15:13:43+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "再见，小时候",
-          "link": "https://yufan.me/posts/never-say-goodbye-to-childhood",
-          "description": "无论如何，我都要和小时候告别了。但属于我的童年、我的趣事，我会一直记得。",
-          "pub_date": "2025-11-15T09:36:31+08:00",
-          "updated_at": "2025-11-15T09:36:31+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "如果・爱",
-          "link": "https://yufan.me/posts/perhaps-love",
-          "description": "如果这就是爱，为什么要等到十年后才明白？",
-          "pub_date": "2025-11-06T16:11:34+08:00",
-          "updated_at": "2025-11-06T16:11:34+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "时光里的安然",
-          "link": "https://yufan.me/posts/tranquil-times",
-          "description": "窗外小雨已歇，桂花香却仍旧停在记忆深处——像一场迟来的温柔，悄悄包裹着记忆，也包裹着那段安静的时光。",
-          "pub_date": "2025-11-06T06:01:05+08:00",
-          "updated_at": "2025-11-06T06:01:05+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "简单的幸福",
-          "link": "https://yufan.me/posts/simple-happiness",
-          "description": "我能感受到心里那份柔软和温暖，像你和孩子们在身边时一样，让我相信，无论现实多忙碌，生活依然可以轻盈而美好。",
-          "pub_date": "2025-11-05T16:01:32+08:00",
-          "updated_at": "2025-11-05T16:01:32+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "秋日暖阳",
-          "link": "https://yufan.me/posts/sun-in-autumn",
-          "description": "炎热的夏天仿佛被人突然按下了暂停键。十一一过，绵绵的秋雨便接踵而至，天气也一层一层地转凉。",
-          "pub_date": "2025-10-21T18:15:23+08:00",
-          "updated_at": "2025-10-21T18:15:23+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "遇见你的那一天",
-          "link": "https://yufan.me/posts/the-day-i-met-you",
-          "description": "有些失去是注定的，有些缘分终究没有结果。有时候我会想，如果能重来该有多好。可是真的能重来，也未必能尽如人意。",
-          "pub_date": "2025-10-14T09:26:28+08:00",
-          "updated_at": "2025-10-14T09:26:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "一阵风，两场雨",
-          "link": "https://yufan.me/posts/a-breeze-two-rains",
-          "description": "一阵风，两场雨，几点思绪，不过如此。",
-          "pub_date": "2025-10-14T01:12:28+08:00",
-          "updated_at": "2025-10-14T01:12:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "时光里的初见",
-          "link": "https://yufan.me/posts/first-glimpse-through-time",
-          "description": "人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。",
-          "pub_date": "2025-10-12T20:07:12+08:00",
-          "updated_at": "2025-10-12T20:07:12+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "《视觉之旅——神秘的机器世界》书评",
-          "link": "https://yufan.me/posts/book-review-in-how-things-work",
-          "description": "本书可以说是《视觉之旅》的新篇章，与机械制造相关的第一本书。",
-          "pub_date": "2025-10-12T16:25:28+08:00",
-          "updated_at": "2025-10-12T16:25:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "《美丽的化学元素》书评",
-          "link": "https://yufan.me/posts/book-review-in-chemistry-elements",
-          "description": "我们是否还需要这样一本化学元素科普书？",
-          "pub_date": "2025-10-12T11:20:19+08:00",
-          "updated_at": "2025-10-12T11:20:19+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "巴别塔终曲：最后一代卡西欧电子词典",
-          "link": "https://yufan.me/posts/2025-casio-ex-word",
-          "description": "卡西欧电子辞典曾经是学生时代的梦想，现在却成了过气产品的挣扎象征。",
-          "pub_date": "2025-10-11T06:04:21+08:00",
-          "updated_at": "2025-10-11T06:04:21+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "《Go 语言设计与实现》书评",
-          "link": "https://yufan.me/posts/book-review-in-go",
-          "description": "我觉得这本书更像是写给作者自己看的。如果想要让更多人看懂，或许还需要更多的努力。",
-          "pub_date": "2025-10-01T12:57:19+08:00",
-          "updated_at": "2025-10-01T12:57:19+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "学会向这个世界妥协",
-          "link": "https://yufan.me/posts/living-with-noise",
-          "description": "学会妥协，并不是承认错误，而是承认世界不会完全如你所愿。与世界相处的方式，往往不是“打败”，而是“放下”。",
-          "pub_date": "2025-09-28T15:58:28+08:00",
-          "updated_at": "2025-09-28T15:58:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        },
-        {
-          "title": "人生，很短也很长",
-          "link": "https://yufan.me/posts/life-is-like-a-boat",
-          "description": "人生从不是一场孤单的奔赴，而是一场带着爱与牵挂的接力。那些离开的人，会变成记忆里的光；那些陪伴在身边的人，会成为前行的力量。",
-          "pub_date": "2025-09-22T01:45:28+08:00",
-          "updated_at": "2025-09-22T01:45:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cravatar.cn/avatar/fc0c337151f20f2bdb9e063a7f61ebb5d954424040daf081086f6fc2b8564353"
-        }
-      ]
-    },
-    {
-      "name": "木木木木木",
-      "url": "https://immmmm.com/",
-      "avatar": "https://gravatar.memobbs.app/avatar/ba83fa02fc4b2ba621514941307e21be?s=80",
-      "feed_url": "https://immmmm.com/feed",
-      "posts": []
     },
     {
       "name": "目的地-Destination",
@@ -2187,10 +1864,10 @@
       ]
     },
     {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
+      "name": "木木木木木",
+      "url": "https://immmmm.com/",
+      "avatar": "https://gravatar.memobbs.app/avatar/ba83fa02fc4b2ba621514941307e21be?s=80",
+      "feed_url": "https://immmmm.com/feed",
       "posts": []
     },
     {
@@ -2299,6 +1976,13 @@
           "avatar": "https://www.jeffer.xyz/wp-content/uploads/2023/01/cropped-2023010402181112.jpg"
         }
       ]
+    },
+    {
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
     },
     {
       "name": "枋柚梓",
@@ -2443,6 +2127,190 @@
       "avatar": "https://cdn.xiaoten.com/friends/koobai.webp",
       "feed_url": "https://koobai.com/index.xml",
       "posts": []
+    },
+    {
+      "name": "Jack's Space",
+      "url": "https://veryjack.com/",
+      "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp",
+      "feed_url": "https://veryjack.com/feed",
+      "posts": [
+        {
+          "title": "一年一度的黑五又来了",
+          "link": "https://veryjack.com/life/2025_blackfriday/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6624 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_bf_2025-1024x576.webp\" width=\"1024\" /><p>马上又到黑五了，但感觉今年的活动氛围不强，活动力度也不如往年。按照我的主观偏好的和选择，筛选了一些性价比还不错的服务和产品。</p>\n<p><a href=\"https://veryjack.com/life/2025_blackfriday/\">一年一度的黑五又来了</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-11-28T04:42:55+08:00",
+          "updated_at": "2025-11-28T04:42:55+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "谁不想拥有专属的微信表情包呢",
+          "link": "https://veryjack.com/technique/wechat_sticker/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6602 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_wechat_stickers-1024x576.webp\" width=\"1024\" /><p>每天看着逗比的小黄（我家猫）就在思考，是否能做一套它的表情包呢。近日，Google 的 Banana Pro 发布，网友又探索出了不同的新玩法，其中就有生成卡通表情包的提示词。于是我有了一个不算大胆的想法，全程用 AI 做一套表情包，并发布到微信表情平台。</p>\n<p><a href=\"https://veryjack.com/technique/wechat_sticker/\">谁不想拥有专属的微信表情包呢</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-11-26T11:42:27+08:00",
+          "updated_at": "2025-11-26T11:42:27+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "一个平平无奇的 WordPress 评论等级插件",
+          "link": "https://veryjack.com/technique/wordpress_plugin_comments/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6579 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_comments_plugin-1024x576.webp\" width=\"1024\" /><p>于博主而言，能收到读者的评论留言并与之互动是一件很幸运的事情。前段时间，偶然看到两篇文章，分享了如何给评论者增加等级徽章，以此来提高交互乐趣。受此启发，我制作了一个 Wordpress 插件，该插件能根据访客的评论留言次数，在其昵称旁显示一个专属等级徽章。插件的操作简单、设计简洁并提供了方便的后台自定义功能。</p>\n<p><a href=\"https://veryjack.com/technique/wordpress_plugin_comments/\">一个平平无奇的 WordPress 评论等级插件</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-11-16T09:12:47+08:00",
+          "updated_at": "2025-11-16T09:12:47+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "一元 kimi 加上 Claude Code，真香",
+          "link": "https://veryjack.com/technique/kimi_plus_claudecode/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6553 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_kimi_plus_claudecode-1024x576.webp\" width=\"1024\" /><p>近日发布的 kimi-k2-thinking 开源模型，在能力上又实现了一次不小的提升。恰逢 Kimi 推出了一个砍价活动，原价 49 元/月的套餐，最低能以 1 元的价格开通首月体验。1 元的 Kimi，再配上 Claude Code，就能组合出一套颇具性价比的平价方案。这篇文章分享一下我是如何快速砍价，以及如何配置 Claude Code 以调用 Kimi 最新模型的。</p>\n<p><a href=\"https://veryjack.com/technique/kimi_plus_claudecode/\">一元 kimi 加上 Claude Code，真香</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-11-15T01:00:00+08:00",
+          "updated_at": "2025-11-15T01:00:00+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "那些年，我看过的电影",
+          "link": "https://veryjack.com/life/movies_i_watched/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6508 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/movies_i_watched_cover-1024x576.webp\" width=\"1024\" /><p>以前我也十分热爱看电影。大学时的周末，我会独自坐上一个多小时的地铁，只为去最近的影院看一场影片。然而这几年，不知是生活压力大了，还是好片子确实越来越少，我很少再踏入电影院。前几天在 V2EX 上刷到一篇帖子，大家在分享各自喜爱的电影，一下子勾起了我过去观影的回忆，也让我情不自禁地在记忆中搜寻起那些曾令我难忘的作品。</p>\n<p><a href=\"https://veryjack.com/life/movies_i_watched/\">那些年，我看过的电影</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-11-08T14:28:02+08:00",
+          "updated_at": "2025-11-08T14:28:02+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "影视飓风推出专属摄像 App —「飓风相机」",
+          "link": "https://veryjack.com/technique/storm_app/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6463 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/10/cover_storm_app-1024x576.webp\" width=\"1024\" /><p>「飓风相机」是「影视飓风」团队新近上线的一款专为视频拍摄用户打造的 APP。需要特别说明的是，尽管名字里有“相机”，但它完全不具备拍照功能——这是一款为视频创作而生的工具，纯摄影用户可以直接绕道了。</p>\n<p><a href=\"https://veryjack.com/technique/storm_app/\">影视飓风推出专属摄像 App —「飓风相机」</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-10-28T14:22:37+08:00",
+          "updated_at": "2025-10-28T14:22:37+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "Hey Siri，呼叫贾维斯",
+          "link": "https://veryjack.com/technique/hey_siri/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6446 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/10/cover_hey_siri-1024x576.webp\" width=\"1024\" /><p>苹果的 AI 功能迟迟未能在国内落地，而如今的 Siri 几乎与“智障”无异，除了定闹钟、设提醒、查天气这类基础操作外，连一些简单的问题都无法回答。虽说没有系统级 AI 有些遗憾，但如今的各类 AI 软件与工具已足够强大好用。本文将分享一些我在 iPhone 上便捷使用 AI 的小技巧。</p>\n<p><a href=\"https://veryjack.com/technique/hey_siri/\">Hey Siri，呼叫贾维斯</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-10-20T10:27:11+08:00",
+          "updated_at": "2025-10-20T10:27:11+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "随手拍，国庆瞎游",
+          "link": "https://veryjack.com/life/national_day/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6429 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/10/cover_national_day-1024x576.webp\" width=\"1024\" /><p>国庆小长假，各个景区必定是人满为患，酒店价格肯定也是居高不下。所以我和爱人决定就不出去看人海了，于是就在上海及其周边找了几个地方随便瞎逛逛，放松放松......</p>\n<p><a href=\"https://veryjack.com/life/national_day/\">随手拍，国庆瞎游</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-10-08T10:43:49+08:00",
+          "updated_at": "2025-10-08T10:43:49+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "小布记忆：一窥手机 AI 的未来",
+          "link": "https://veryjack.com/technique/xiaobu_memory/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6393 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/09/xiaobu_cover-1024x576.webp\" width=\"1024\" /><p>我们每天会在手机上浏览海量信息，无论是网页、小红书帖子还是微信公众号文章，看到感兴趣的内容，总会习惯性地收藏。然而，时间一长，这些散落在各个 App 中的信息便如石沉大海，难以寻觅。小布记忆，正是为了解决这个痛点而生的系统级功能。</p>\n<p><a href=\"https://veryjack.com/technique/xiaobu_memory/\">小布记忆：一窥手机 AI 的未来</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-09-24T16:30:31+08:00",
+          "updated_at": "2025-09-24T16:30:31+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "给大家介绍一下，他叫小黄",
+          "link": "https://veryjack.com/life/he_is_xiaohuang/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6362 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/09/this_is_xiaohuang_cover-1024x576.webp\" width=\"1024\" /><p>在咪咪离开我们的第223天，我和爱人偶然在商场里遇见了一场小猫领养活动。就在那人来人往的喧嚣中，我们看到了那只弱小、无助、带着点可怜神色的橘白小猫……</p>\n<p><a href=\"https://veryjack.com/life/he_is_xiaohuang/\">给大家介绍一下，他叫小黄</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-09-08T03:00:00+08:00",
+          "updated_at": "2025-09-08T03:00:00+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验",
+          "link": "https://veryjack.com/technique/realme_neo7_turbo/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6329 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/08/realme_cover-1024x576.webp\" width=\"1024\" /><p>作为一名长期的双持用户，我一直以来都同时使用 iPhone 和安卓手机。之前的安卓备用机是红米（K40 和 Note 11T Pro），但在升级到“残血版”的害怕OS后，频繁的掉帧和卡顿让体验变得非常糟糕。正好趁着“国补”的末班车，我以 1420 元左右的价格入手了 realme Neo7 Turbo，开启了我的 O 系手机初体验。在将它作为主力机深度使用近一个月后，我想分享一些主观感受。</p>\n<p><a href=\"https://veryjack.com/technique/realme_neo7_turbo/\">从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-08-26T01:00:00+08:00",
+          "updated_at": "2025-08-26T01:00:00+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "蓝与绿之间，藏着最温柔的治愈 — 安吉",
+          "link": "https://veryjack.com/life/anji/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6300 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/08/anji_cover-1024x576.webp\" width=\"1024\" /><p>趁着假期，我和爱人一同前往安吉放松身心。我们在深溪谷体验了刺激又畅快的漂流，在陈落山静候蓝调时分与余晖交织的日 [&#8230;]</p>\n<p><a href=\"https://veryjack.com/life/anji/\">蓝与绿之间，藏着最温柔的治愈 — 安吉</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-08-20T04:28:54+08:00",
+          "updated_at": "2025-08-20T04:28:54+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "看了懂车帝的视频，我有一些想法",
+          "link": "https://veryjack.com/life/some_thoughts_about_dcd/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6270 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/07/dcd_cover-1024x576.webp\" width=\"1024\" /><p>这几日，懂车帝发布的视频引发了广泛热议，尤其是其中关于“消失的前车”的部分，吸引了大量关注与质疑。我完整观看懂车帝的视频，也一些想法想与大家分享。</p>\n<p><a href=\"https://veryjack.com/life/some_thoughts_about_dcd/\">看了懂车帝的视频，我有一些想法</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-07-26T06:05:41+08:00",
+          "updated_at": "2025-07-26T06:05:41+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "一把趁手的工具 — Nuphy Kick75",
+          "link": "https://veryjack.com/technique/nuphy-kick75/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6246 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/07/nuphy_cover-1024x576.webp\" width=\"1024\" /><p>作为一个天天与电脑为伴的“打工人”，一套称手的键鼠不仅能提高效率，也能实实在在地提升工作幸福感。前几天在网上被种草了一款矮轴静音机械键盘——NuPh kick75，用完补贴后以 430 元的价格果断拿下。如今已经上手近一月，正好来和大家聊聊这款键盘的使用感受。</p>\n<p><a href=\"https://veryjack.com/technique/nuphy-kick75/\">一把趁手的工具 &#8212; Nuphy Kick75</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-07-14T12:12:28+08:00",
+          "updated_at": "2025-07-14T12:12:28+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "随手拍，六月份的尾巴",
+          "link": "https://veryjack.com/photograph/final_days_of_june/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6226 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/06/june_cover-1024x576.webp\" width=\"1024\" /><p>连续将近半个月的雨，总算有了出梅的迹象。趁着周末放晴，和老婆一起逛了逛共青森林公园，随手拍了几张照片，都是富士 CC 滤镜直出……</p>\n<p><a href=\"https://veryjack.com/photograph/final_days_of_june/\">随手拍，六月份的尾巴</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-06-29T15:04:10+08:00",
+          "updated_at": "2025-06-29T15:04:10+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        },
+        {
+          "title": "我的 WordPress 博客主题与插件设置分享",
+          "link": "https://veryjack.com/technique/about_my_blog_theme/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6170 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/06/my_theme_cover-1024x576.webp\" width=\"1024\" /><p>首先，感谢大家一直以来对我这个小破站的关注与支持♥️。自博客成型以来，陆陆续续有网友来询问我博客主题的相关设置 [&#8230;]</p>\n<p><a href=\"https://veryjack.com/technique/about_my_blog_theme/\">我的 WordPress 博客主题与插件设置分享</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-06-16T16:58:40+08:00",
+          "updated_at": "2025-06-16T16:58:40+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+        }
+      ]
     },
     {
       "name": "旅行漫记",
@@ -3338,191 +3206,334 @@
       ]
     },
     {
-      "name": "Jack's Space",
-      "url": "https://veryjack.com/",
-      "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp",
-      "feed_url": "https://veryjack.com/feed",
+      "name": "游钓四方",
+      "url": "https://blog.lhasa.icu/",
+      "avatar": "https://blog.lhasa.icu/favicon.svg",
+      "feed_url": "https://blog.lhasa.icu/rss.xml",
       "posts": [
         {
-          "title": "一年一度的黑五又来了",
-          "link": "https://veryjack.com/life/2025_blackfriday/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6624 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_bf_2025-1024x576.webp\" width=\"1024\" /><p>马上又到黑五了，但感觉今年的活动氛围不强，活动力度也不如往年。按照我的主观偏好的和选择，筛选了一些性价比还不错的服务和产品。</p>\n<p><a href=\"https://veryjack.com/life/2025_blackfriday/\">一年一度的黑五又来了</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-11-28T04:42:55+08:00",
-          "updated_at": "2025-11-28T04:42:55+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "尼康 z30 开箱小记",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-12-02-nikon-z30-kaixiang-xiaoji",
+          "description": "",
+          "pub_date": "2025-12-01T17:40:00+08:00",
+          "updated_at": "2025-12-01T17:40:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "谁不想拥有专属的微信表情包呢",
-          "link": "https://veryjack.com/technique/wechat_sticker/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6602 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_wechat_stickers-1024x576.webp\" width=\"1024\" /><p>每天看着逗比的小黄（我家猫）就在思考，是否能做一套它的表情包呢。近日，Google 的 Banana Pro 发布，网友又探索出了不同的新玩法，其中就有生成卡通表情包的提示词。于是我有了一个不算大胆的想法，全程用 AI 做一套表情包，并发布到微信表情平台。</p>\n<p><a href=\"https://veryjack.com/technique/wechat_sticker/\">谁不想拥有专属的微信表情包呢</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-11-26T11:42:27+08:00",
-          "updated_at": "2025-11-26T11:42:27+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "我的第一次 GitHub PR",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-11-26-my-first-github-pr",
+          "description": "",
+          "pub_date": "2025-11-26T15:23:00+08:00",
+          "updated_at": "2025-11-26T15:23:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "一个平平无奇的 WordPress 评论等级插件",
-          "link": "https://veryjack.com/technique/wordpress_plugin_comments/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6579 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_comments_plugin-1024x576.webp\" width=\"1024\" /><p>于博主而言，能收到读者的评论留言并与之互动是一件很幸运的事情。前段时间，偶然看到两篇文章，分享了如何给评论者增加等级徽章，以此来提高交互乐趣。受此启发，我制作了一个 Wordpress 插件，该插件能根据访客的评论留言次数，在其昵称旁显示一个专属等级徽章。插件的操作简单、设计简洁并提供了方便的后台自定义功能。</p>\n<p><a href=\"https://veryjack.com/technique/wordpress_plugin_comments/\">一个平平无奇的 WordPress 评论等级插件</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-11-16T09:12:47+08:00",
-          "updated_at": "2025-11-16T09:12:47+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "Introducing Astro Lhasa 1.0",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-11-25-introducing-astro-lhasa-1-0",
+          "description": "",
+          "pub_date": "2025-11-24T20:09:00+08:00",
+          "updated_at": "2025-11-24T20:09:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "一元 kimi 加上 Claude Code，真香",
-          "link": "https://veryjack.com/technique/kimi_plus_claudecode/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6553 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/cover_kimi_plus_claudecode-1024x576.webp\" width=\"1024\" /><p>近日发布的 kimi-k2-thinking 开源模型，在能力上又实现了一次不小的提升。恰逢 Kimi 推出了一个砍价活动，原价 49 元/月的套餐，最低能以 1 元的价格开通首月体验。1 元的 Kimi，再配上 Claude Code，就能组合出一套颇具性价比的平价方案。这篇文章分享一下我是如何快速砍价，以及如何配置 Claude Code 以调用 Kimi 最新模型的。</p>\n<p><a href=\"https://veryjack.com/technique/kimi_plus_claudecode/\">一元 kimi 加上 Claude Code，真香</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-11-15T01:00:00+08:00",
-          "updated_at": "2025-11-15T01:00:00+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "读苏轼有感（1）",
+          "link": "https://blog.lhasa.icu/posts/life/2025-11-20-sushi-reflection-01",
+          "description": "",
+          "pub_date": "2025-11-19T16:29:00+08:00",
+          "updated_at": "2025-11-19T16:29:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "那些年，我看过的电影",
-          "link": "https://veryjack.com/life/movies_i_watched/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6508 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/11/movies_i_watched_cover-1024x576.webp\" width=\"1024\" /><p>以前我也十分热爱看电影。大学时的周末，我会独自坐上一个多小时的地铁，只为去最近的影院看一场影片。然而这几年，不知是生活压力大了，还是好片子确实越来越少，我很少再踏入电影院。前几天在 V2EX 上刷到一篇帖子，大家在分享各自喜爱的电影，一下子勾起了我过去观影的回忆，也让我情不自禁地在记忆中搜寻起那些曾令我难忘的作品。</p>\n<p><a href=\"https://veryjack.com/life/movies_i_watched/\">那些年，我看过的电影</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-11-08T14:28:02+08:00",
-          "updated_at": "2025-11-08T14:28:02+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "坐于顶，闻茶香，听古典，观夕阳",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-11-17-sit-top-tea-classical-sunset",
+          "description": "",
+          "pub_date": "2025-11-17T10:29:00+08:00",
+          "updated_at": "2025-11-17T10:29:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "影视飓风推出专属摄像 App —「飓风相机」",
-          "link": "https://veryjack.com/technique/storm_app/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6463 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/10/cover_storm_app-1024x576.webp\" width=\"1024\" /><p>「飓风相机」是「影视飓风」团队新近上线的一款专为视频拍摄用户打造的 APP。需要特别说明的是，尽管名字里有“相机”，但它完全不具备拍照功能——这是一款为视频创作而生的工具，纯摄影用户可以直接绕道了。</p>\n<p><a href=\"https://veryjack.com/technique/storm_app/\">影视飓风推出专属摄像 App —「飓风相机」</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-10-28T14:22:37+08:00",
-          "updated_at": "2025-10-28T14:22:37+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "27 公里 1510 米！徒步新手毕业了",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-11-15-biaoyi-line-newbie-graduation",
+          "description": "",
+          "pub_date": "2025-11-15T10:56:00+08:00",
+          "updated_at": "2025-11-15T10:56:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "Hey Siri，呼叫贾维斯",
-          "link": "https://veryjack.com/technique/hey_siri/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6446 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/10/cover_hey_siri-1024x576.webp\" width=\"1024\" /><p>苹果的 AI 功能迟迟未能在国内落地，而如今的 Siri 几乎与“智障”无异，除了定闹钟、设提醒、查天气这类基础操作外，连一些简单的问题都无法回答。虽说没有系统级 AI 有些遗憾，但如今的各类 AI 软件与工具已足够强大好用。本文将分享一些我在 iPhone 上便捷使用 AI 的小技巧。</p>\n<p><a href=\"https://veryjack.com/technique/hey_siri/\">Hey Siri，呼叫贾维斯</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-10-20T10:27:11+08:00",
-          "updated_at": "2025-10-20T10:27:11+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "最近的活动",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-11-14-recent-activities",
+          "description": "",
+          "pub_date": "2025-11-13T17:31:00+08:00",
+          "updated_at": "2025-11-13T17:31:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "随手拍，国庆瞎游",
-          "link": "https://veryjack.com/life/national_day/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6429 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/10/cover_national_day-1024x576.webp\" width=\"1024\" /><p>国庆小长假，各个景区必定是人满为患，酒店价格肯定也是居高不下。所以我和爱人决定就不出去看人海了，于是就在上海及其周边找了几个地方随便瞎逛逛，放松放松......</p>\n<p><a href=\"https://veryjack.com/life/national_day/\">随手拍，国庆瞎游</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-10-08T10:43:49+08:00",
-          "updated_at": "2025-10-08T10:43:49+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "喜得配发物资",
+          "link": "https://blog.lhasa.icu/posts/life/2025-11-07-got-issued-suede-and-camo-shoes",
+          "description": "",
+          "pub_date": "2025-11-07T10:57:00+08:00",
+          "updated_at": "2025-11-07T10:57:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "小布记忆：一窥手机 AI 的未来",
-          "link": "https://veryjack.com/technique/xiaobu_memory/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6393 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/09/xiaobu_cover-1024x576.webp\" width=\"1024\" /><p>我们每天会在手机上浏览海量信息，无论是网页、小红书帖子还是微信公众号文章，看到感兴趣的内容，总会习惯性地收藏。然而，时间一长，这些散落在各个 App 中的信息便如石沉大海，难以寻觅。小布记忆，正是为了解决这个痛点而生的系统级功能。</p>\n<p><a href=\"https://veryjack.com/technique/xiaobu_memory/\">小布记忆：一窥手机 AI 的未来</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-09-24T16:30:31+08:00",
-          "updated_at": "2025-09-24T16:30:31+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "让博客的代码块更有表现力",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-11-03-make-blog-codeblocks-more-expressive",
+          "description": "",
+          "pub_date": "2025-11-03T15:59:00+08:00",
+          "updated_at": "2025-11-03T15:59:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "给大家介绍一下，他叫小黄",
-          "link": "https://veryjack.com/life/he_is_xiaohuang/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6362 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/09/this_is_xiaohuang_cover-1024x576.webp\" width=\"1024\" /><p>在咪咪离开我们的第223天，我和爱人偶然在商场里遇见了一场小猫领养活动。就在那人来人往的喧嚣中，我们看到了那只弱小、无助、带着点可怜神色的橘白小猫……</p>\n<p><a href=\"https://veryjack.com/life/he_is_xiaohuang/\">给大家介绍一下，他叫小黄</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-09-08T03:00:00+08:00",
-          "updated_at": "2025-09-08T03:00:00+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "上天竺",
+          "link": "https://blog.lhasa.icu/posts/life/2025-11-03-upper-tianzhu",
+          "description": "",
+          "pub_date": "2025-11-02T16:51:00+08:00",
+          "updated_at": "2025-11-02T16:51:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验",
-          "link": "https://veryjack.com/technique/realme_neo7_turbo/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6329 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/08/realme_cover-1024x576.webp\" width=\"1024\" /><p>作为一名长期的双持用户，我一直以来都同时使用 iPhone 和安卓手机。之前的安卓备用机是红米（K40 和 Note 11T Pro），但在升级到“残血版”的害怕OS后，频繁的掉帧和卡顿让体验变得非常糟糕。正好趁着“国补”的末班车，我以 1420 元左右的价格入手了 realme Neo7 Turbo，开启了我的 O 系手机初体验。在将它作为主力机深度使用近一个月后，我想分享一些主观感受。</p>\n<p><a href=\"https://veryjack.com/technique/realme_neo7_turbo/\">从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-08-26T01:00:00+08:00",
-          "updated_at": "2025-08-26T01:00:00+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "船游西湖，徒步河坊街",
+          "link": "https://blog.lhasa.icu/posts/life/2025-11-01-west-lake-boat-hefang-walk",
+          "description": "",
+          "pub_date": "2025-10-31T17:06:00+08:00",
+          "updated_at": "2025-10-31T17:06:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "蓝与绿之间，藏着最温柔的治愈 — 安吉",
-          "link": "https://veryjack.com/life/anji/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6300 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/08/anji_cover-1024x576.webp\" width=\"1024\" /><p>趁着假期，我和爱人一同前往安吉放松身心。我们在深溪谷体验了刺激又畅快的漂流，在陈落山静候蓝调时分与余晖交织的日 [&#8230;]</p>\n<p><a href=\"https://veryjack.com/life/anji/\">蓝与绿之间，藏着最温柔的治愈 — 安吉</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-08-20T04:28:54+08:00",
-          "updated_at": "2025-08-20T04:28:54+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "打造全新 Artalk 评论界面",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-10-26-artalk-custom-comment-form",
+          "description": "",
+          "pub_date": "2025-10-26T15:57:00+08:00",
+          "updated_at": "2025-10-26T15:57:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "看了懂车帝的视频，我有一些想法",
-          "link": "https://veryjack.com/life/some_thoughts_about_dcd/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6270 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/07/dcd_cover-1024x576.webp\" width=\"1024\" /><p>这几日，懂车帝发布的视频引发了广泛热议，尤其是其中关于“消失的前车”的部分，吸引了大量关注与质疑。我完整观看懂车帝的视频，也一些想法想与大家分享。</p>\n<p><a href=\"https://veryjack.com/life/some_thoughts_about_dcd/\">看了懂车帝的视频，我有一些想法</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-07-26T06:05:41+08:00",
-          "updated_at": "2025-07-26T06:05:41+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "西湖阅读初体验",
+          "link": "https://blog.lhasa.icu/posts/life/2025-10-25-first-reading-experience-at-west-lake",
+          "description": "",
+          "pub_date": "2025-10-24T18:30:00+08:00",
+          "updated_at": "2025-10-24T18:30:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "一把趁手的工具 — Nuphy Kick75",
-          "link": "https://veryjack.com/technique/nuphy-kick75/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6246 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/07/nuphy_cover-1024x576.webp\" width=\"1024\" /><p>作为一个天天与电脑为伴的“打工人”，一套称手的键鼠不仅能提高效率，也能实实在在地提升工作幸福感。前几天在网上被种草了一款矮轴静音机械键盘——NuPh kick75，用完补贴后以 430 元的价格果断拿下。如今已经上手近一月，正好来和大家聊聊这款键盘的使用感受。</p>\n<p><a href=\"https://veryjack.com/technique/nuphy-kick75/\">一把趁手的工具 &#8212; Nuphy Kick75</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-07-14T12:12:28+08:00",
-          "updated_at": "2025-07-14T12:12:28+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "时隔四年，晨跑环西湖",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-24-four-years-later-morning-run-west-lake",
+          "description": "",
+          "pub_date": "2025-10-23T16:01:00+08:00",
+          "updated_at": "2025-10-23T16:01:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "随手拍，六月份的尾巴",
-          "link": "https://veryjack.com/photograph/final_days_of_june/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6226 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/06/june_cover-1024x576.webp\" width=\"1024\" /><p>连续将近半个月的雨，总算有了出梅的迹象。趁着周末放晴，和老婆一起逛了逛共青森林公园，随手拍了几张照片，都是富士 CC 滤镜直出……</p>\n<p><a href=\"https://veryjack.com/photograph/final_days_of_june/\">随手拍，六月份的尾巴</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-06-29T15:04:10+08:00",
-          "updated_at": "2025-06-29T15:04:10+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "我从义乌搬家到杭州了",
+          "link": "https://blog.lhasa.icu/posts/life/2025-10-23-moving_from_yiwu_to_hangzhou",
+          "description": "",
+          "pub_date": "2025-10-22T18:07:00+08:00",
+          "updated_at": "2025-10-22T18:07:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         },
         {
-          "title": "我的 WordPress 博客主题与插件设置分享",
-          "link": "https://veryjack.com/technique/about_my_blog_theme/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6170 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/06/my_theme_cover-1024x576.webp\" width=\"1024\" /><p>首先，感谢大家一直以来对我这个小破站的关注与支持♥️。自博客成型以来，陆陆续续有网友来询问我博客主题的相关设置 [&#8230;]</p>\n<p><a href=\"https://veryjack.com/technique/about_my_blog_theme/\">我的 WordPress 博客主题与插件设置分享</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-06-16T16:58:40+08:00",
-          "updated_at": "2025-06-16T16:58:40+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://veryjack.com/wp-content/uploads/2025/05/avatar_transparant-150x150.webp"
+          "title": "知乎答疑：个人博客内容常陷入同质化，如何找到独特风格？",
+          "link": "https://blog.lhasa.icu/posts/life/2025-10-18-answer-how-to-find-unique-style",
+          "description": "",
+          "pub_date": "2025-10-18T11:04:00+08:00",
+          "updated_at": "2025-10-18T11:04:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "首次徒步爬山，误闯深山老林，徒手爬悬崖，两度滑落险些丧命",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-15-first-hike-deep-forest-cliff-fall",
+          "description": "",
+          "pub_date": "2025-10-15T02:05:00+08:00",
+          "updated_at": "2025-10-15T02:05:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "夜骑：环岩口水库，遭翻车",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-11-night-ride-yankou-crash",
+          "description": "",
+          "pub_date": "2025-10-11T20:51:00+08:00",
+          "updated_at": "2025-10-11T20:51:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "国庆最后一天：倍鱼线二进宫",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-10-09-double-ride-beiyu-line",
+          "description": "",
+          "pub_date": "2025-10-08T19:09:00+08:00",
+          "updated_at": "2025-10-08T19:09:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "集成 LightGallery 灯箱",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-09-18-integrating-lightgallery",
+          "description": "",
+          "pub_date": "2025-09-18T11:33:00+08:00",
+          "updated_at": "2025-09-18T11:33:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "EasyFill v1.3 发布：支持SPA机制、优化 Shadow DOM 遍历逻辑",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-09-18-easyfill-1-3-0",
+          "description": "",
+          "pub_date": "2025-09-18T00:44:00+08:00",
+          "updated_at": "2025-09-18T00:44:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "EasyFill v1.2 发布：黑名单功能上线",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-09-16-easyfill-1-2-0",
+          "description": "",
+          "pub_date": "2025-09-16T03:21:00+08:00",
+          "updated_at": "2025-09-16T03:21:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "何为享受",
+          "link": "https://blog.lhasa.icu/posts/life/2025-08-30-what-is-enjoyment",
+          "description": "",
+          "pub_date": "2025-08-30T09:05:00+08:00",
+          "updated_at": "2025-08-30T09:05:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "热成铁板烧，又被暴雨淋成落汤鸡：西湖，我来了！",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-07-19-from-yiwu-to-west-lake-in-heat-and-rain",
+          "description": "",
+          "pub_date": "2025-07-19T12:06:00+08:00",
+          "updated_at": "2025-07-19T12:06:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "这个 RSS 有意思",
+          "link": "https://blog.lhasa.icu/posts/technology/2025-07-10-beautify-rss",
+          "description": "",
+          "pub_date": "2025-07-09T18:26:00+08:00",
+          "updated_at": "2025-07-09T18:26:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "生日骑遇“死亡摇摆”，差点成忌日骑",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-06-25-birthday-ride",
+          "description": "",
+          "pub_date": "2025-06-25T12:53:00+08:00",
+          "updated_at": "2025-06-25T12:53:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "雨骑枫赤线",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2025-06-25-rain-ride-scarlet-maple",
+          "description": "",
+          "pub_date": "2025-06-25T12:53:00+08:00",
+          "updated_at": "2025-06-25T12:53:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
+        },
+        {
+          "title": "独立开发者创业了",
+          "link": "https://blog.lhasa.icu/posts/startup/2025-06-12-im-starting-up",
+          "description": "",
+          "pub_date": "2025-06-12T05:07:00+08:00",
+          "updated_at": "2025-06-12T05:07:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://blog.lhasa.icu/favicon.svg"
         }
       ]
     }
   ],
   "all_posts": [
+    {
+      "title": "博物图鉴｜薇甘菊和猪屎豆",
+      "link": "https://yayu.net/6020.html",
+      "description": "在珠海的山野与路边，不时见到两种生长旺盛的植物：一种是外来入侵的薇甘菊，一种是本土常见的猪屎豆。这些植物有着美 [&#8230;]",
+      "pub_date": "2025-12-07T03:00:28+08:00",
+      "updated_at": "2025-12-07T03:00:28+08:00",
+      "author": "雅余",
+      "site_name": "雅余",
+      "site_url": "https://yayu.net/",
+      "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
+    },
     {
       "title": "发布一个Typecho AI文本润色插件",
       "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
@@ -6283,17 +6294,6 @@
       "site_name": "网友小宋",
       "site_url": "https://xyzbz.cn/",
       "avatar": "https://bu.dusays.com/2023/07/25/64bf920527086.png"
-    },
-    {
-      "title": "山西河北历史文化之旅｜应县木塔",
-      "link": "https://yayu.net/5554.html",
-      "description": "「山西河北9天历史文化之旅」第四篇——应县木塔 佛宫寺释迦塔（Pagoda of Fogong Temple） [&#8230;]",
-      "pub_date": "2025-09-01T13:17:51+08:00",
-      "updated_at": "2025-09-01T13:17:51+08:00",
-      "author": "雅余",
-      "site_name": "雅余",
-      "site_url": "https://yayu.net/",
-      "avatar": "https://yayu.net/wp-content/themes/yayu/assets/images/logo.png"
     },
     {
       "title": "何为享受",

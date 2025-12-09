@@ -1,8 +1,126 @@
 {
-  "updated_at": "2025-12-09T09:25:30.922007+08:00",
-  "total_sites": 26,
-  "total_posts": 306,
+  "updated_at": "2025-12-09T14:31:03.503307+08:00",
+  "total_sites": 25,
+  "total_posts": 301,
   "sites": [
+    {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "发布一个Typecho AI文本润色插件",
+          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
+          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
+          "pub_date": "2025-12-06T19:44:00+08:00",
+          "updated_at": "2025-12-06T19:44:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源高德地图及规划路径短代码插件",
+          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
+          "pub_date": "2025-12-03T13:22:00+08:00",
+          "updated_at": "2025-12-03T13:22:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开始记账了",
+          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
+          "pub_date": "2025-11-28T21:38:00+08:00",
+          "updated_at": "2025-11-28T21:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布Typecho足迹插件",
+          "link": "https://wangdaodao.com/20251122/typecho-track.html",
+          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
+          "pub_date": "2025-11-22T16:38:00+08:00",
+          "updated_at": "2025-11-22T16:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "一次AI编程的分享",
+          "link": "https://wangdaodao.com/20251120/ai-programming-sharing.html",
+          "description": "最近给部门做了一次关于AI编程的分享-从重复劳动到高效创造，由于PPT中有一些代码和录屏没办法放出来，所以我就简单的整理了一份，放在博客里面。大家如果对AI编程感兴趣，也可以互相交流。",
+          "pub_date": "2025-11-20T19:34:00+08:00",
+          "updated_at": "2025-11-20T19:34:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "基于高德地图做足迹管理插件",
+          "link": "https://wangdaodao.com/20251117/amap-track.html",
+          "description": "距离上次折腾高德地图有一段时间了，最近看到有人在博客上面增加了足迹，我这心里也痒痒了，咱也做一个足迹管理的插件吧！支持配置高德地图的API密钥；能够设置默认的缩放级别；能够设置默认视图模式；能够...",
+          "pub_date": "2025-11-17T21:18:00+08:00",
+          "updated_at": "2025-11-17T21:18:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源两个后台美化插件",
+          "link": "https://wangdaodao.com/20251113/typecho-admin-plugins.html",
+          "description": "上篇文章介绍了 Typecho 的简洁哲学，里面有一条是：需求的有限满足。实际上很多易用性问题，我们都寄希望于第三方开发来完善，这也是官方文档建设再次被提上日程并承诺重视的原因，开放会带来期待中...",
+          "pub_date": "2025-11-13T22:07:00+08:00",
+          "updated_at": "2025-11-13T22:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho的简洁哲学",
+          "link": "https://wangdaodao.com/20251111/the-simplicity-philosophy-of-typecho.html",
+          "description": "最近在看 typecho 的官方博客，从2008年一直到2023年，跨越了15年，从一开始的奔放到现在的内敛，从一开始新鲜的枝丫，到现在粗壮的大树。从他的logo的演变，也能看出来他慢慢的内敛。...",
+          "pub_date": "2025-11-11T12:57:00+08:00",
+          "updated_at": "2025-11-11T12:57:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho如何实现评论无限嵌套",
+          "link": "https://wangdaodao.com/20251108/typecho-comments-max-levels.html",
+          "description": "今天有朋友在我的博客上留言，询问有关插件的一些问题。起初我正常回复，但回复到第五层时发现已无法继续，于是便进入后台打算进行设置。哎，我觉得设置9层，基本上应该可以了吧，结果保存了一下，变成了7……",
+          "pub_date": "2025-11-08T22:39:00+08:00",
+          "updated_at": "2025-11-08T22:39:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Panorama全景图插件",
+          "link": "https://wangdaodao.com/20251106/typecho-panorama-plugin.html",
+          "description": "经过了周末的调整，现在插件终于可以和大家见面了。Panorama 插件为 Typecho 博客系统添加全景图展示功能，支持将多张图片转换为可交互的全景图。",
+          "pub_date": "2025-11-06T19:03:00+08:00",
+          "updated_at": "2025-11-06T19:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        }
+      ]
+    },
     {
       "name": "Jame",
       "url": "https://jame.work",
@@ -199,242 +317,6 @@
       ]
     },
     {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "发布一个Typecho AI文本润色插件",
-          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
-          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
-          "pub_date": "2025-12-06T19:44:00+08:00",
-          "updated_at": "2025-12-06T19:44:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源高德地图及规划路径短代码插件",
-          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
-          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
-          "pub_date": "2025-12-03T13:22:00+08:00",
-          "updated_at": "2025-12-03T13:22:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开始记账了",
-          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
-          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
-          "pub_date": "2025-11-28T21:38:00+08:00",
-          "updated_at": "2025-11-28T21:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布Typecho足迹插件",
-          "link": "https://wangdaodao.com/20251122/typecho-track.html",
-          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
-          "pub_date": "2025-11-22T16:38:00+08:00",
-          "updated_at": "2025-11-22T16:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "一次AI编程的分享",
-          "link": "https://wangdaodao.com/20251120/ai-programming-sharing.html",
-          "description": "最近给部门做了一次关于AI编程的分享-从重复劳动到高效创造，由于PPT中有一些代码和录屏没办法放出来，所以我就简单的整理了一份，放在博客里面。大家如果对AI编程感兴趣，也可以互相交流。",
-          "pub_date": "2025-11-20T19:34:00+08:00",
-          "updated_at": "2025-11-20T19:34:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "基于高德地图做足迹管理插件",
-          "link": "https://wangdaodao.com/20251117/amap-track.html",
-          "description": "距离上次折腾高德地图有一段时间了，最近看到有人在博客上面增加了足迹，我这心里也痒痒了，咱也做一个足迹管理的插件吧！支持配置高德地图的API密钥；能够设置默认的缩放级别；能够设置默认视图模式；能够...",
-          "pub_date": "2025-11-17T21:18:00+08:00",
-          "updated_at": "2025-11-17T21:18:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源两个后台美化插件",
-          "link": "https://wangdaodao.com/20251113/typecho-admin-plugins.html",
-          "description": "上篇文章介绍了 Typecho 的简洁哲学，里面有一条是：需求的有限满足。实际上很多易用性问题，我们都寄希望于第三方开发来完善，这也是官方文档建设再次被提上日程并承诺重视的原因，开放会带来期待中...",
-          "pub_date": "2025-11-13T22:07:00+08:00",
-          "updated_at": "2025-11-13T22:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho的简洁哲学",
-          "link": "https://wangdaodao.com/20251111/the-simplicity-philosophy-of-typecho.html",
-          "description": "最近在看 typecho 的官方博客，从2008年一直到2023年，跨越了15年，从一开始的奔放到现在的内敛，从一开始新鲜的枝丫，到现在粗壮的大树。从他的logo的演变，也能看出来他慢慢的内敛。...",
-          "pub_date": "2025-11-11T12:57:00+08:00",
-          "updated_at": "2025-11-11T12:57:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho如何实现评论无限嵌套",
-          "link": "https://wangdaodao.com/20251108/typecho-comments-max-levels.html",
-          "description": "今天有朋友在我的博客上留言，询问有关插件的一些问题。起初我正常回复，但回复到第五层时发现已无法继续，于是便进入后台打算进行设置。哎，我觉得设置9层，基本上应该可以了吧，结果保存了一下，变成了7……",
-          "pub_date": "2025-11-08T22:39:00+08:00",
-          "updated_at": "2025-11-08T22:39:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Panorama全景图插件",
-          "link": "https://wangdaodao.com/20251106/typecho-panorama-plugin.html",
-          "description": "经过了周末的调整，现在插件终于可以和大家见面了。Panorama 插件为 Typecho 博客系统添加全景图展示功能，支持将多张图片转换为可交互的全景图。",
-          "pub_date": "2025-11-06T19:03:00+08:00",
-          "updated_at": "2025-11-06T19:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        }
-      ]
-    },
-    {
-      "name": "手里有只毛毛虫",
-      "url": "https://www.krjojo.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif",
-      "feed_url": "https://www.krjojo.com/feed",
-      "posts": [
-        {
-          "title": "WordPress 6.9 更新后 SMTP 邮件发送失效解决办法",
-          "link": "https://www.krjojo.com/12474.html",
-          "description": "<p>在 WordPress 6.9 版本之前，简单配置SMTP服务是这样的。 以QQ邮箱代发为例： 而6.9版本对 ...</p>\n<p><a href=\"https://www.krjojo.com/12474.html\">WordPress 6.9 更新后 SMTP 邮件发送失效解决办法</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-12-05T03:23:38+08:00",
-          "updated_at": "2025-12-05T03:23:38+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "为 Automate 自动化接入豆包ai 识别图形验证码",
-          "link": "https://www.krjojo.com/12466.html",
-          "description": "<p>最近帮朋友研究电脑自动执行工作流，让一些电脑上枯燥重复的手工作业流程实现全自动化。 开始就陷入一个误区，想让a ...</p>\n<p><a href=\"https://www.krjojo.com/12466.html\">为 Automate 自动化接入豆包ai 识别图形验证码</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-12-04T12:08:40+08:00",
-          "updated_at": "2025-12-04T12:08:40+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "分享一个 Umami 追踪站内搜索的办法",
-          "link": "https://www.krjojo.com/12416.html",
-          "description": "<p>想起以前用 Matomo 的时候是自带站内搜索追踪的，后来换了Umami 后这功能被遗忘了。 如今突然想起，结 ...</p>\n<p><a href=\"https://www.krjojo.com/12416.html\">分享一个 Umami 追踪站内搜索的办法</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-11-16T13:32:59+08:00",
-          "updated_at": "2025-11-16T13:32:59+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "记录一次.git 目录过大，手动瘦身过程",
-          "link": "https://www.krjojo.com/12384.html",
-          "description": "<p>某次不小心把大文件推送了Git，导致.git文件非常大， 每次打开都非常吃读写速度，哪怕后面把大文件删除了也无 ...</p>\n<p><a href=\"https://www.krjojo.com/12384.html\">记录一次.git 目录过大，手动瘦身过程</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-11-10T14:11:08+08:00",
-          "updated_at": "2025-11-10T14:11:08+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "中西医之争，为何没人提比中医早五百年的印医",
-          "link": "https://www.krjojo.com/12328.html",
-          "description": "<p>嘿，发明中医、西医这词的人真的是天才。 在名字上，把传统医学与现代医学，变成地域及文化对立，关键还效果不错。  ...</p>\n<p><a href=\"https://www.krjojo.com/12328.html\">中西医之争，为何没人提比中医早五百年的印医</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-11-08T03:39:27+08:00",
-          "updated_at": "2025-11-08T03:39:27+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "阿里云安全组无法批量添加IP组解决办法",
-          "link": "https://www.krjojo.com/12340.html",
-          "description": "<p>今天给阿里云添加腾讯EO回源IP段，发现了一个问题， 阿里云似乎没有IP组的概念。 如果在安全组中，把CDN回 ...</p>\n<p><a href=\"https://www.krjojo.com/12340.html\">阿里云安全组无法批量添加IP组解决办法</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-11-03T12:38:18+08:00",
-          "updated_at": "2025-11-03T12:38:18+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "网页利用 view-transition 仿 AppStore 转场动画",
-          "link": "https://www.krjojo.com/12288.html",
-          "description": "<p>其实上个月为了体验这功能就做了这个demo项目，碍于后面有些事忙起来遗忘了，这次补发文章出来。 介绍一下 vi ...</p>\n<p><a href=\"https://www.krjojo.com/12288.html\">网页利用 view-transition 仿 AppStore 转场动画</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-10-21T03:26:45+08:00",
-          "updated_at": "2025-10-21T03:26:45+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "页面改造计划第一期完工",
-          "link": "https://www.krjojo.com/12183.html",
-          "description": "<p>趁着国庆假期简单捣鼓了一下，整体风格更加现代化，又不失个性。 加入大量现代化元素，（可能）符合当下审美 设计目 ...</p>\n<p><a href=\"https://www.krjojo.com/12183.html\">页面改造计划第一期完工</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-10-07T03:05:35+08:00",
-          "updated_at": "2025-10-07T03:05:35+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "为 Hugo 添加 LLMS 的支持",
-          "link": "https://www.krjojo.com/12092.html",
-          "description": "<p>首先表明观点： 需要特定格式来消费信息的人工智能不是人工智能。 人工智能不需要它自己的格式来理解我的网站，如果 ...</p>\n<p><a href=\"https://www.krjojo.com/12092.html\">为 Hugo 添加 LLMS 的支持</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-08-20T13:39:56+08:00",
-          "updated_at": "2025-08-20T13:39:56+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "三角洲 天才少年 161击杀 拿下！！！",
-          "link": "https://www.krjojo.com/12073.html",
-          "description": "<p>就想告诉大家一声，没别的意思，真的没有一点炫耀成分。 诶，你怎么知道我打出天才少年了？</p>\n<p><a href=\"https://www.krjojo.com/12073.html\">三角洲 天才少年 161击杀 拿下！！！</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
-          "pub_date": "2025-08-05T06:56:43+08:00",
-          "updated_at": "2025-08-05T06:56:43+08:00",
-          "author": "毛毛虫",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        }
-      ]
-    },
-    {
       "name": "MouT.me",
       "url": "https://ghost.mout.me/",
       "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
@@ -560,6 +442,124 @@
       ]
     },
     {
+      "name": "网友小宋",
+      "url": "https://xyzbz.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
+      "feed_url": "https://xyzbz.cn/feed",
+      "posts": [
+        {
+          "title": "乙巳蛇年-十一月末",
+          "link": "https://xyzbz.cn/archives/1478/",
+          "description": "网红热干面周一的早上送完大宝去学校，闲来没事想着回老家一趟，顺便觅点食。准备走呢，想起了之前很火的王店热干面，上次根据导航去过一趟，可惜人家没出摊。这次沿着上次路线前往，终于出摊了。没做足功课，...",
+          "pub_date": "2025-11-30T23:59:00+08:00",
+          "updated_at": "2025-11-30T23:59:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "乙巳蛇年-十一月半",
+          "link": "https://xyzbz.cn/archives/1477/",
+          "description": "电池焕新忍了半个月，终于到了月初，13的电池已经到了要崩溃的地步，充电宝也成为了出门必备的设备。1号重新下载了商城APP，电池换新，电池价格上个月从199降到了159，每月1-7日是服务日，会打...",
+          "pub_date": "2025-11-15T16:22:00+08:00",
+          "updated_at": "2025-11-15T16:22:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "石漫滩二郎山半日游",
+          "link": "https://xyzbz.cn/archives/1465/",
+          "description": "此行缘由说起来此行有部分原因是因为前段时间电车第三次续保送的加油卷。自从有电车后油车开的很少，加了一次，没怎么开，但是第二张快到期了，不加就废了，关键是油箱油有点多，需要跑跑才能继续加。于是便跟...",
+          "pub_date": "2025-11-01T15:50:30+08:00",
+          "updated_at": "2025-11-01T15:50:30+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "乙巳蛇年-十月末",
+          "link": "https://xyzbz.cn/archives/1463/",
+          "description": "杯碎十年之约的定制水杯No.2023001号，算起来也陪伴了我两年半，当初专门要的001的编号，那时候更新老积极了，现在正常更新两篇口水文，加上随机想写的文章。这两年也加了很多友联，看到一个一个...",
+          "pub_date": "2025-10-31T04:53:00+08:00",
+          "updated_at": "2025-10-31T04:53:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "秋游海棠园",
+          "link": "https://xyzbz.cn/archives/1461/",
+          "description": "秋天忙碌了小半个月，终于赶上了休息，准备带着孩子出去转转，感受一些秋天，正如前段时间的评论，最近准备去秋游爬个山，去了，但是拍的图片太多了，爬山的图片还没有整理出来，第二天带娃散心的照片先整理出...",
+          "pub_date": "2025-10-28T11:38:33+08:00",
+          "updated_at": "2025-10-28T11:38:33+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "乙巳蛇年-十月半",
+          "link": "https://xyzbz.cn/archives/1458/",
+          "description": "天气天晴了，一个白天，晚上就继续下大雨。以前挺喜欢下雨天，下多了就开始讨厌了！*食酒事哈酒要慎重，可能是信息获取不足，十一认识的三个去喝酒，喝完去唱歌，一个开车，两个骑三轮，开车那个把前面骑三轮...",
+          "pub_date": "2025-10-17T17:11:00+08:00",
+          "updated_at": "2025-10-17T17:11:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "Docker部署美食记录应用Mealie",
+          "link": "https://xyzbz.cn/archives/1457/",
+          "description": "前言最近刷抖音，经常看到一些保姆级别的美食教学视频，跟着步骤做了一些，ld孩子都说好吃，但是单独发篇文章的话，格式步骤一直没有自己中意的，所以想着部署一个美食记录应用，参考网上有发布的文章，最后...",
+          "pub_date": "2025-10-12T15:14:22+08:00",
+          "updated_at": "2025-10-12T15:14:22+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "乙巳蛇年-九月末",
+          "link": "https://xyzbz.cn/archives/1456/",
+          "description": "系统更换其实我对系统比较佛系，当年在良心云买服务器，初始系统选择的应用服务器，系统ct7，但是时间跑到今天，停止服务更新，之前也收到过信息，一直没有处理，那天看到杜老师博客更新，想想还是需要处理...",
+          "pub_date": "2025-09-30T23:53:00+08:00",
+          "updated_at": "2025-09-30T23:53:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "乙巳蛇年-九月半",
+          "link": "https://xyzbz.cn/archives/1455/",
+          "description": "出差月初出了趟差，去下面分公司调试一些设备，中午到的，调试防火墙，调试服务器，由于好久没干过这些，一个下午只调试好了一台服务器，调试完分公司的人非拉着喝酒，我比较抗拒和酒蒙子喝酒，于是便找了个理...",
+          "pub_date": "2025-09-18T01:32:00+08:00",
+          "updated_at": "2025-09-18T01:32:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "乙巳蛇年-八月末",
+          "link": "https://xyzbz.cn/archives/1453/",
+          "description": "那晚上班路转眼一瞬发现远方天空的云彩真的好美，像冈仁波齐停车后，犹豫许久还是决定去看看临近傍晚，返程车辆增多跨过马路，走在路边，像个异物往天空的方向望去发现已经逐渐散去几分钟的时间，多少有点遗憾...",
+          "pub_date": "2025-09-01T17:17:03+08:00",
+          "updated_at": "2025-09-01T17:17:03+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        }
+      ]
+    },
+    {
       "name": "小白大学渣",
       "url": "https://www.baihub.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg",
@@ -630,6 +630,124 @@
           "site_name": "小白大学渣",
           "site_url": "https://www.baihub.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        }
+      ]
+    },
+    {
+      "name": "手里有只毛毛虫",
+      "url": "https://www.krjojo.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif",
+      "feed_url": "https://www.krjojo.com/feed",
+      "posts": [
+        {
+          "title": "WordPress 6.9 更新后 SMTP 邮件发送失效解决办法",
+          "link": "https://www.krjojo.com/12474.html",
+          "description": "<p>在 WordPress 6.9 版本之前，简单配置SMTP服务是这样的。 以QQ邮箱代发为例： 而6.9版本对 ...</p>\n<p><a href=\"https://www.krjojo.com/12474.html\">WordPress 6.9 更新后 SMTP 邮件发送失效解决办法</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-12-05T03:23:38+08:00",
+          "updated_at": "2025-12-05T03:23:38+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "为 Automate 自动化接入豆包ai 识别图形验证码",
+          "link": "https://www.krjojo.com/12466.html",
+          "description": "<p>最近帮朋友研究电脑自动执行工作流，让一些电脑上枯燥重复的手工作业流程实现全自动化。 开始就陷入一个误区，想让a ...</p>\n<p><a href=\"https://www.krjojo.com/12466.html\">为 Automate 自动化接入豆包ai 识别图形验证码</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-12-04T12:08:40+08:00",
+          "updated_at": "2025-12-04T12:08:40+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "分享一个 Umami 追踪站内搜索的办法",
+          "link": "https://www.krjojo.com/12416.html",
+          "description": "<p>想起以前用 Matomo 的时候是自带站内搜索追踪的，后来换了Umami 后这功能被遗忘了。 如今突然想起，结 ...</p>\n<p><a href=\"https://www.krjojo.com/12416.html\">分享一个 Umami 追踪站内搜索的办法</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-11-16T13:32:59+08:00",
+          "updated_at": "2025-11-16T13:32:59+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "记录一次.git 目录过大，手动瘦身过程",
+          "link": "https://www.krjojo.com/12384.html",
+          "description": "<p>某次不小心把大文件推送了Git，导致.git文件非常大， 每次打开都非常吃读写速度，哪怕后面把大文件删除了也无 ...</p>\n<p><a href=\"https://www.krjojo.com/12384.html\">记录一次.git 目录过大，手动瘦身过程</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-11-10T14:11:08+08:00",
+          "updated_at": "2025-11-10T14:11:08+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "中西医之争，为何没人提比中医早五百年的印医",
+          "link": "https://www.krjojo.com/12328.html",
+          "description": "<p>嘿，发明中医、西医这词的人真的是天才。 在名字上，把传统医学与现代医学，变成地域及文化对立，关键还效果不错。  ...</p>\n<p><a href=\"https://www.krjojo.com/12328.html\">中西医之争，为何没人提比中医早五百年的印医</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-11-08T03:39:27+08:00",
+          "updated_at": "2025-11-08T03:39:27+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "阿里云安全组无法批量添加IP组解决办法",
+          "link": "https://www.krjojo.com/12340.html",
+          "description": "<p>今天给阿里云添加腾讯EO回源IP段，发现了一个问题， 阿里云似乎没有IP组的概念。 如果在安全组中，把CDN回 ...</p>\n<p><a href=\"https://www.krjojo.com/12340.html\">阿里云安全组无法批量添加IP组解决办法</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-11-03T12:38:18+08:00",
+          "updated_at": "2025-11-03T12:38:18+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "网页利用 view-transition 仿 AppStore 转场动画",
+          "link": "https://www.krjojo.com/12288.html",
+          "description": "<p>其实上个月为了体验这功能就做了这个demo项目，碍于后面有些事忙起来遗忘了，这次补发文章出来。 介绍一下 vi ...</p>\n<p><a href=\"https://www.krjojo.com/12288.html\">网页利用 view-transition 仿 AppStore 转场动画</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-10-21T03:26:45+08:00",
+          "updated_at": "2025-10-21T03:26:45+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "页面改造计划第一期完工",
+          "link": "https://www.krjojo.com/12183.html",
+          "description": "<p>趁着国庆假期简单捣鼓了一下，整体风格更加现代化，又不失个性。 加入大量现代化元素，（可能）符合当下审美 设计目 ...</p>\n<p><a href=\"https://www.krjojo.com/12183.html\">页面改造计划第一期完工</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-10-07T03:05:35+08:00",
+          "updated_at": "2025-10-07T03:05:35+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "为 Hugo 添加 LLMS 的支持",
+          "link": "https://www.krjojo.com/12092.html",
+          "description": "<p>首先表明观点： 需要特定格式来消费信息的人工智能不是人工智能。 人工智能不需要它自己的格式来理解我的网站，如果 ...</p>\n<p><a href=\"https://www.krjojo.com/12092.html\">为 Hugo 添加 LLMS 的支持</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-08-20T13:39:56+08:00",
+          "updated_at": "2025-08-20T13:39:56+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        },
+        {
+          "title": "三角洲 天才少年 161击杀 拿下！！！",
+          "link": "https://www.krjojo.com/12073.html",
+          "description": "<p>就想告诉大家一声，没别的意思，真的没有一点炫耀成分。 诶，你怎么知道我打出天才少年了？</p>\n<p><a href=\"https://www.krjojo.com/12073.html\">三角洲 天才少年 161击杀 拿下！！！</a>最先出现在<a href=\"https://www.krjojo.com\">手里有只毛毛虫</a>。</p>",
+          "pub_date": "2025-08-05T06:56:43+08:00",
+          "updated_at": "2025-08-05T06:56:43+08:00",
+          "author": "毛毛虫",
+          "site_name": "手里有只毛毛虫",
+          "site_url": "https://www.krjojo.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
         }
       ]
     },
@@ -858,124 +976,6 @@
           "site_name": "雅余",
           "site_url": "https://yayu.net/",
           "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        }
-      ]
-    },
-    {
-      "name": "网友小宋",
-      "url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
-      "feed_url": "https://xyzbz.cn/feed",
-      "posts": [
-        {
-          "title": "乙巳蛇年-十一月末",
-          "link": "https://xyzbz.cn/archives/1478/",
-          "description": "网红热干面周一的早上送完大宝去学校，闲来没事想着回老家一趟，顺便觅点食。准备走呢，想起了之前很火的王店热干面，上次根据导航去过一趟，可惜人家没出摊。这次沿着上次路线前往，终于出摊了。没做足功课，...",
-          "pub_date": "2025-11-30T23:59:00+08:00",
-          "updated_at": "2025-11-30T23:59:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-十一月半",
-          "link": "https://xyzbz.cn/archives/1477/",
-          "description": "电池焕新忍了半个月，终于到了月初，13的电池已经到了要崩溃的地步，充电宝也成为了出门必备的设备。1号重新下载了商城APP，电池换新，电池价格上个月从199降到了159，每月1-7日是服务日，会打...",
-          "pub_date": "2025-11-15T16:22:00+08:00",
-          "updated_at": "2025-11-15T16:22:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "石漫滩二郎山半日游",
-          "link": "https://xyzbz.cn/archives/1465/",
-          "description": "此行缘由说起来此行有部分原因是因为前段时间电车第三次续保送的加油卷。自从有电车后油车开的很少，加了一次，没怎么开，但是第二张快到期了，不加就废了，关键是油箱油有点多，需要跑跑才能继续加。于是便跟...",
-          "pub_date": "2025-11-01T15:50:30+08:00",
-          "updated_at": "2025-11-01T15:50:30+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-十月末",
-          "link": "https://xyzbz.cn/archives/1463/",
-          "description": "杯碎十年之约的定制水杯No.2023001号，算起来也陪伴了我两年半，当初专门要的001的编号，那时候更新老积极了，现在正常更新两篇口水文，加上随机想写的文章。这两年也加了很多友联，看到一个一个...",
-          "pub_date": "2025-10-31T04:53:00+08:00",
-          "updated_at": "2025-10-31T04:53:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "秋游海棠园",
-          "link": "https://xyzbz.cn/archives/1461/",
-          "description": "秋天忙碌了小半个月，终于赶上了休息，准备带着孩子出去转转，感受一些秋天，正如前段时间的评论，最近准备去秋游爬个山，去了，但是拍的图片太多了，爬山的图片还没有整理出来，第二天带娃散心的照片先整理出...",
-          "pub_date": "2025-10-28T11:38:33+08:00",
-          "updated_at": "2025-10-28T11:38:33+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-十月半",
-          "link": "https://xyzbz.cn/archives/1458/",
-          "description": "天气天晴了，一个白天，晚上就继续下大雨。以前挺喜欢下雨天，下多了就开始讨厌了！*食酒事哈酒要慎重，可能是信息获取不足，十一认识的三个去喝酒，喝完去唱歌，一个开车，两个骑三轮，开车那个把前面骑三轮...",
-          "pub_date": "2025-10-17T17:11:00+08:00",
-          "updated_at": "2025-10-17T17:11:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "Docker部署美食记录应用Mealie",
-          "link": "https://xyzbz.cn/archives/1457/",
-          "description": "前言最近刷抖音，经常看到一些保姆级别的美食教学视频，跟着步骤做了一些，ld孩子都说好吃，但是单独发篇文章的话，格式步骤一直没有自己中意的，所以想着部署一个美食记录应用，参考网上有发布的文章，最后...",
-          "pub_date": "2025-10-12T15:14:22+08:00",
-          "updated_at": "2025-10-12T15:14:22+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-九月末",
-          "link": "https://xyzbz.cn/archives/1456/",
-          "description": "系统更换其实我对系统比较佛系，当年在良心云买服务器，初始系统选择的应用服务器，系统ct7，但是时间跑到今天，停止服务更新，之前也收到过信息，一直没有处理，那天看到杜老师博客更新，想想还是需要处理...",
-          "pub_date": "2025-09-30T23:53:00+08:00",
-          "updated_at": "2025-09-30T23:53:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-九月半",
-          "link": "https://xyzbz.cn/archives/1455/",
-          "description": "出差月初出了趟差，去下面分公司调试一些设备，中午到的，调试防火墙，调试服务器，由于好久没干过这些，一个下午只调试好了一台服务器，调试完分公司的人非拉着喝酒，我比较抗拒和酒蒙子喝酒，于是便找了个理...",
-          "pub_date": "2025-09-18T01:32:00+08:00",
-          "updated_at": "2025-09-18T01:32:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-八月末",
-          "link": "https://xyzbz.cn/archives/1453/",
-          "description": "那晚上班路转眼一瞬发现远方天空的云彩真的好美，像冈仁波齐停车后，犹豫许久还是决定去看看临近傍晚，返程车辆增多跨过马路，走在路边，像个异物往天空的方向望去发现已经逐渐散去几分钟的时间，多少有点遗憾...",
-          "pub_date": "2025-09-01T17:17:03+08:00",
-          "updated_at": "2025-09-01T17:17:03+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
         }
       ]
     },
@@ -1403,6 +1403,264 @@
       ]
     },
     {
+      "name": "且听书吟",
+      "url": "https://yufan.me",
+      "avatar": "https://cdn.xiaoten.com/friends/yufan.svg",
+      "feed_url": "https://yufan.me/feed",
+      "posts": [
+        {
+          "title": "那些我用过的英语教材",
+          "link": "https://yufan.me/posts/the-old-english-textbooks",
+          "description": "因为父亲的务工，我辗转于厦门、济南、芜湖老家等多个城市，也因此体验了多套教材。这其中最让我印象深刻的，便是我用过的那些英语教材。",
+          "pub_date": "2025-12-06T17:05:38+08:00",
+          "updated_at": "2025-12-06T17:05:38+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "城市的呼吸",
+          "link": "https://yufan.me/posts/the-breath-of-the-city",
+          "description": "我最迷恋的现代都市美学，是那些立在大楼顶端的红灯——航空障碍灯。",
+          "pub_date": "2025-11-28T02:35:15+08:00",
+          "updated_at": "2025-11-28T02:35:15+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "时光不负往昔",
+          "link": "https://yufan.me/posts/the-blossoms-of-yesteryears",
+          "description": "那些零散而琐碎的往事，在时间的尘埃里沉睡，却仍不时在心底闪出微光。你呢？你还记得多少？",
+          "pub_date": "2025-11-24T15:13:43+08:00",
+          "updated_at": "2025-11-24T15:13:43+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "再见，小时候",
+          "link": "https://yufan.me/posts/never-say-goodbye-to-childhood",
+          "description": "无论如何，我都要和小时候告别了。但属于我的童年、我的趣事，我会一直记得。",
+          "pub_date": "2025-11-15T09:36:31+08:00",
+          "updated_at": "2025-11-15T09:36:31+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "如果・爱",
+          "link": "https://yufan.me/posts/perhaps-love",
+          "description": "如果这就是爱，为什么要等到十年后才明白？",
+          "pub_date": "2025-11-06T16:11:34+08:00",
+          "updated_at": "2025-11-06T16:11:34+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "时光里的安然",
+          "link": "https://yufan.me/posts/tranquil-times",
+          "description": "窗外小雨已歇，桂花香却仍旧停在记忆深处——像一场迟来的温柔，悄悄包裹着记忆，也包裹着那段安静的时光。",
+          "pub_date": "2025-11-06T06:01:05+08:00",
+          "updated_at": "2025-11-06T06:01:05+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "简单的幸福",
+          "link": "https://yufan.me/posts/simple-happiness",
+          "description": "我能感受到心里那份柔软和温暖，像你和孩子们在身边时一样，让我相信，无论现实多忙碌，生活依然可以轻盈而美好。",
+          "pub_date": "2025-11-05T16:01:32+08:00",
+          "updated_at": "2025-11-05T16:01:32+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "秋日暖阳",
+          "link": "https://yufan.me/posts/sun-in-autumn",
+          "description": "炎热的夏天仿佛被人突然按下了暂停键。十一一过，绵绵的秋雨便接踵而至，天气也一层一层地转凉。",
+          "pub_date": "2025-10-21T18:15:23+08:00",
+          "updated_at": "2025-10-21T18:15:23+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "遇见你的那一天",
+          "link": "https://yufan.me/posts/the-day-i-met-you",
+          "description": "有些失去是注定的，有些缘分终究没有结果。有时候我会想，如果能重来该有多好。可是真的能重来，也未必能尽如人意。",
+          "pub_date": "2025-10-14T09:26:28+08:00",
+          "updated_at": "2025-10-14T09:26:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "一阵风，两场雨",
+          "link": "https://yufan.me/posts/a-breeze-two-rains",
+          "description": "一阵风，两场雨，几点思绪，不过如此。",
+          "pub_date": "2025-10-14T01:12:28+08:00",
+          "updated_at": "2025-10-14T01:12:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "时光里的初见",
+          "link": "https://yufan.me/posts/first-glimpse-through-time",
+          "description": "人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。",
+          "pub_date": "2025-10-12T20:07:12+08:00",
+          "updated_at": "2025-10-12T20:07:12+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "《视觉之旅——神秘的机器世界》书评",
+          "link": "https://yufan.me/posts/book-review-in-how-things-work",
+          "description": "本书可以说是《视觉之旅》的新篇章，与机械制造相关的第一本书。",
+          "pub_date": "2025-10-12T16:25:28+08:00",
+          "updated_at": "2025-10-12T16:25:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "《美丽的化学元素》书评",
+          "link": "https://yufan.me/posts/book-review-in-chemistry-elements",
+          "description": "我们是否还需要这样一本化学元素科普书？",
+          "pub_date": "2025-10-12T11:20:19+08:00",
+          "updated_at": "2025-10-12T11:20:19+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "巴别塔终曲：最后一代卡西欧电子词典",
+          "link": "https://yufan.me/posts/2025-casio-ex-word",
+          "description": "卡西欧电子辞典曾经是学生时代的梦想，现在却成了过气产品的挣扎象征。",
+          "pub_date": "2025-10-11T06:04:21+08:00",
+          "updated_at": "2025-10-11T06:04:21+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "《Go 语言设计与实现》书评",
+          "link": "https://yufan.me/posts/book-review-in-go",
+          "description": "我觉得这本书更像是写给作者自己看的。如果想要让更多人看懂，或许还需要更多的努力。",
+          "pub_date": "2025-10-01T12:57:19+08:00",
+          "updated_at": "2025-10-01T12:57:19+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "学会向这个世界妥协",
+          "link": "https://yufan.me/posts/living-with-noise",
+          "description": "学会妥协，并不是承认错误，而是承认世界不会完全如你所愿。与世界相处的方式，往往不是“打败”，而是“放下”。",
+          "pub_date": "2025-09-28T15:58:28+08:00",
+          "updated_at": "2025-09-28T15:58:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "人生，很短也很长",
+          "link": "https://yufan.me/posts/life-is-like-a-boat",
+          "description": "人生从不是一场孤单的奔赴，而是一场带着爱与牵挂的接力。那些离开的人，会变成记忆里的光；那些陪伴在身边的人，会成为前行的力量。",
+          "pub_date": "2025-09-22T01:45:28+08:00",
+          "updated_at": "2025-09-22T01:45:28+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        }
+      ]
+    },
+    {
+      "name": "安静角落",
+      "url": "https://wuziya.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
+      "feed_url": "https://wuziya.com/feed",
+      "posts": [
+        {
+          "title": "德州－临沂－张家港",
+          "link": "https://wuziya.com/276.html",
+          "description": "前两天去了一趟山东，山东的高速真是好啊，单向都能有4车道，原来说的能起降飞机，真不是吹的。😀",
+          "pub_date": "2025-12-08T11:49:00+08:00",
+          "updated_at": "2025-12-08T11:49:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "我的收音机",
+          "link": "https://wuziya.com/274.html",
+          "description": "原来是之前的播放器插件有问题。😅我调了半天，就是自带的天线收不到几个台。😅视频加载速度有点感人，下面是直接地址：直接引用地址1：香港直接引用地址2：北京，京东都发流量警告了，小水管不经用，流量跑...",
+          "pub_date": "2025-10-21T22:05:00+08:00",
+          "updated_at": "2025-10-21T22:05:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "今年这里再也拍不到这种照片了",
+          "link": "https://wuziya.com/273.html",
+          "description": "现在这里已经修路了。",
+          "pub_date": "2025-10-20T23:26:00+08:00",
+          "updated_at": "2025-10-20T23:26:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "国庆逛东北",
+          "link": "https://wuziya.com/251.html",
+          "description": "2025国庆，天津-山海关-齐齐哈尔-满州里-海拉尔-哈尔滨，原计划就差了长春和沈阳。😂1号出发，6号就回来了。在天津，住了一个有史以来最贵的房子，以后不会再住这么贵的了，实在太费钱钱了。😂山海...",
+          "pub_date": "2025-10-07T00:43:00+08:00",
+          "updated_at": "2025-10-07T00:43:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "疯狂",
+          "link": "https://wuziya.com/250.html",
+          "description": "每天重复昨天的生活又期望取得不一样的结果这叫疯狂",
+          "pub_date": "2025-09-28T11:42:00+08:00",
+          "updated_at": "2025-09-28T11:42:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        }
+      ]
+    },
+    {
       "name": "旺东自留地",
       "url": "https://wang618.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/wang618.gif",
@@ -1631,323 +1889,241 @@
       ]
     },
     {
-      "name": "安静角落",
-      "url": "https://wuziya.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
-      "feed_url": "https://wuziya.com/feed",
+      "name": "Evan",
+      "url": "https://www.evan.xin/",
+      "avatar": "https://cdn.xiaoten.com/friends/Evan.png",
+      "feed_url": "https://www.evan.xin/feed",
       "posts": [
         {
-          "title": "德州－临沂－张家港",
-          "link": "https://wuziya.com/276.html",
-          "description": "前两天去了一趟山东，山东的高速真是好啊，单向都能有4车道，原来说的能起降飞机，真不是吹的。😀",
-          "pub_date": "2025-12-08T11:49:00+08:00",
-          "updated_at": "2025-12-08T11:49:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+          "title": "灵光 AI 打造｜职场能力排序工具，精准锚定成长发力点",
+          "link": "https://www.evan.xin/4299/",
+          "description": "这款 “职场资源挖掘器” 是我用灵光 AI 打造的抛砖引玉之作。愿在当下焦虑蔓延的环境里，能帮大家找准职场突破 [&#8230;]",
+          "pub_date": "2025-12-08T05:06:57+08:00",
+          "updated_at": "2025-12-08T05:06:57+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "我的收音机",
-          "link": "https://wuziya.com/274.html",
-          "description": "原来是之前的播放器插件有问题。😅我调了半天，就是自带的天线收不到几个台。😅视频加载速度有点感人，下面是直接地址：直接引用地址1：香港直接引用地址2：北京，京东都发流量警告了，小水管不经用，流量跑...",
-          "pub_date": "2025-10-21T22:05:00+08:00",
-          "updated_at": "2025-10-21T22:05:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+          "title": "90天闷声赚了8W美金！",
+          "link": "https://www.evan.xin/4293/",
+          "description": "你是不是也觉得，现在做短视频越来越难了？露脸吧，怕被熟人认出来；不露脸吧，又总觉得没人看。但今天我要跟你分享一 [&#8230;]",
+          "pub_date": "2025-12-07T17:02:01+08:00",
+          "updated_at": "2025-12-07T17:02:01+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "今年这里再也拍不到这种照片了",
-          "link": "https://wuziya.com/273.html",
-          "description": "现在这里已经修路了。",
-          "pub_date": "2025-10-20T23:26:00+08:00",
-          "updated_at": "2025-10-20T23:26:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+          "title": "2025年黑色星期五域名特卖：Dynadot优惠全解析",
+          "link": "https://www.evan.xin/4278/",
+          "description": "详细活动内容 域名捆绑与匹配促销 通过捆绑域名或匹配账户中已有域名，可享受巨大优惠。例如，注册捆绑包价格从&#038;n [&#8230;]",
+          "pub_date": "2025-11-27T06:17:55+08:00",
+          "updated_at": "2025-11-27T06:17:55+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "国庆逛东北",
-          "link": "https://wuziya.com/251.html",
-          "description": "2025国庆，天津-山海关-齐齐哈尔-满州里-海拉尔-哈尔滨，原计划就差了长春和沈阳。😂1号出发，6号就回来了。在天津，住了一个有史以来最贵的房子，以后不会再住这么贵的了，实在太费钱钱了。😂山海...",
-          "pub_date": "2025-10-07T00:43:00+08:00",
-          "updated_at": "2025-10-07T00:43:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+          "title": "我用Astralis十分钟做了个永久起始页Nav.pm",
+          "link": "https://www.evan.xin/4255/",
+          "description": "DEMO默认页面 HTTPS://NAV.PM 本地书签越攒越乱，在线导航又塞满广告；虽然“会点技术的都人手一 [&#8230;]",
+          "pub_date": "2025-11-25T04:47:21+08:00",
+          "updated_at": "2025-11-25T04:47:21+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "疯狂",
-          "link": "https://wuziya.com/250.html",
-          "description": "每天重复昨天的生活又期望取得不一样的结果这叫疯狂",
-          "pub_date": "2025-09-28T11:42:00+08:00",
-          "updated_at": "2025-09-28T11:42:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        }
-      ]
-    },
-    {
-      "name": "且听书吟",
-      "url": "https://yufan.me",
-      "avatar": "https://cdn.xiaoten.com/friends/yufan.svg",
-      "feed_url": "https://yufan.me/feed",
-      "posts": [
-        {
-          "title": "那些我用过的英语教材",
-          "link": "https://yufan.me/posts/the-old-english-textbooks",
-          "description": "因为父亲的务工，我辗转于厦门、济南、芜湖老家等多个城市，也因此体验了多套教材。这其中最让我印象深刻的，便是我用过的那些英语教材。",
-          "pub_date": "2025-12-06T17:05:38+08:00",
-          "updated_at": "2025-12-06T17:05:38+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "Marble AI 初体验：单图生成可探索 NeRF 场景",
+          "link": "https://www.evan.xin/4230/",
+          "description": "把一张图脑补成能走进去的3D世界，我只用了60秒，这就是 Marble AI。 它不是什么复杂软件，而是一个网 [&#8230;]",
+          "pub_date": "2025-11-13T15:21:55+08:00",
+          "updated_at": "2025-11-13T15:21:55+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "城市的呼吸",
-          "link": "https://yufan.me/posts/the-breath-of-the-city",
-          "description": "我最迷恋的现代都市美学，是那些立在大楼顶端的红灯——航空障碍灯。",
-          "pub_date": "2025-11-28T02:35:15+08:00",
-          "updated_at": "2025-11-28T02:35:15+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "那些有趣的极简设计风格",
+          "link": "https://www.evan.xin/4147/",
+          "description": "",
+          "pub_date": "2025-11-11T16:04:07+08:00",
+          "updated_at": "2025-11-11T16:04:07+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "时光不负往昔",
-          "link": "https://yufan.me/posts/the-blossoms-of-yesteryears",
-          "description": "那些零散而琐碎的往事，在时间的尘埃里沉睡，却仍不时在心底闪出微光。你呢？你还记得多少？",
-          "pub_date": "2025-11-24T15:13:43+08:00",
-          "updated_at": "2025-11-24T15:13:43+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "小红书“电子壁纸”生意0库存暴利玩法拆解",
+          "link": "https://www.evan.xin/4130/",
+          "description": "我在小红书刷到一个账号：先用美化 App 把桌面布置得极度吸睛，15 秒展示成片；中间插几条“手把手设置”教程 [&#8230;]",
+          "pub_date": "2025-11-06T04:01:18+08:00",
+          "updated_at": "2025-11-06T04:01:18+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "再见，小时候",
-          "link": "https://yufan.me/posts/never-say-goodbye-to-childhood",
-          "description": "无论如何，我都要和小时候告别了。但属于我的童年、我的趣事，我会一直记得。",
-          "pub_date": "2025-11-15T09:36:31+08:00",
-          "updated_at": "2025-11-15T09:36:31+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "HK-1616 与 2222JP 最全成本-体验对比",
+          "link": "https://www.evan.xin/4123/",
+          "description": "前几天狐蒂云出16C16G的「111 元/3年」的极限低价（双十一活动）；绿云周年庆推出2222JP软银「15 [&#8230;]",
+          "pub_date": "2025-11-04T09:08:28+08:00",
+          "updated_at": "2025-11-04T09:08:28+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "如果・爱",
-          "link": "https://yufan.me/posts/perhaps-love",
-          "description": "如果这就是爱，为什么要等到十年后才明白？",
-          "pub_date": "2025-11-06T16:11:34+08:00",
-          "updated_at": "2025-11-06T16:11:34+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "内容创作者效率神器：AI视频摘要工具TLDW初体验",
+          "link": "https://www.evan.xin/4112/",
+          "description": "TLDW是一个 AI驱动的视频摘要工具，它的核心功能是： 通过AI技术快速生成长视频的简洁摘要，帮助用户节省时 [&#8230;]",
+          "pub_date": "2025-11-03T04:08:00+08:00",
+          "updated_at": "2025-11-03T04:08:00+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "时光里的安然",
-          "link": "https://yufan.me/posts/tranquil-times",
-          "description": "窗外小雨已歇，桂花香却仍旧停在记忆深处——像一场迟来的温柔，悄悄包裹着记忆，也包裹着那段安静的时光。",
-          "pub_date": "2025-11-06T06:01:05+08:00",
-          "updated_at": "2025-11-06T06:01:05+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "当极客开始浪漫：我把网站写进了NFC冰箱贴里",
+          "link": "https://www.evan.xin/4089/",
+          "description": "前两天发现有冰箱贴可以DIY，然后就用AI生成的LOGO做了一个冰箱贴（有NFC功能）。 折腾大半天，终于零成 [&#8230;]",
+          "pub_date": "2025-10-26T09:13:21+08:00",
+          "updated_at": "2025-10-26T09:13:21+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "简单的幸福",
-          "link": "https://yufan.me/posts/simple-happiness",
-          "description": "我能感受到心里那份柔软和温暖，像你和孩子们在身边时一样，让我相信，无论现实多忙碌，生活依然可以轻盈而美好。",
-          "pub_date": "2025-11-05T16:01:32+08:00",
-          "updated_at": "2025-11-05T16:01:32+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "删除 EvanNav 6.3.1 加载页面教程",
+          "link": "https://www.evan.xin/4074/",
+          "description": "好的，为了删除加载页，您需要在以下文件中进行代码修改： 1. public/index.html 删除以下代码 [&#8230;]",
+          "pub_date": "2025-10-15T12:22:47+08:00",
+          "updated_at": "2025-10-15T12:22:47+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "秋日暖阳",
-          "link": "https://yufan.me/posts/sun-in-autumn",
-          "description": "炎热的夏天仿佛被人突然按下了暂停键。十一一过，绵绵的秋雨便接踵而至，天气也一层一层地转凉。",
-          "pub_date": "2025-10-21T18:15:23+08:00",
-          "updated_at": "2025-10-21T18:15:23+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "【米表升级】贯彻极简设计风格，呈现更极致",
+          "link": "https://www.evan.xin/4025/",
+          "description": "整体呈现更清爽，域名释义隐藏在鼠标经过处 本次更新了如下内容：- 增加域名弹出释义 - 增加域名价格展示- 增 [&#8230;]",
+          "pub_date": "2025-08-23T11:36:00+08:00",
+          "updated_at": "2025-08-23T11:36:00+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "遇见你的那一天",
-          "link": "https://yufan.me/posts/the-day-i-met-you",
-          "description": "有些失去是注定的，有些缘分终究没有结果。有时候我会想，如果能重来该有多好。可是真的能重来，也未必能尽如人意。",
-          "pub_date": "2025-10-14T09:26:28+08:00",
-          "updated_at": "2025-10-14T09:26:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "SHEBAO.CX 升级篇：把“无心插柳”做成“长期可用”",
+          "link": "https://www.evan.xin/4017/",
+          "description": "前一段时间随手搭的 shebao.cx，初衷只是替自己省点事。没想到访问数据比较稳定，还是有人在用的。既然大家 [&#8230;]",
+          "pub_date": "2025-08-20T06:16:29+08:00",
+          "updated_at": "2025-08-20T06:16:29+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "一阵风，两场雨",
-          "link": "https://yufan.me/posts/a-breeze-two-rains",
-          "description": "一阵风，两场雨，几点思绪，不过如此。",
-          "pub_date": "2025-10-14T01:12:28+08:00",
-          "updated_at": "2025-10-14T01:12:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "「2025」Spaceship 域名优惠码大全",
+          "link": "https://www.evan.xin/4008/",
+          "description": "如果你正在寻找域名或主机服务的超值折扣，这篇博文一定要收藏。Spaceship 今年依旧放出大量诚意优惠，从  [&#8230;]",
+          "pub_date": "2025-08-14T16:41:00+08:00",
+          "updated_at": "2025-08-14T16:41:00+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "时光里的初见",
-          "link": "https://yufan.me/posts/first-glimpse-through-time",
-          "description": "人生若只如初见，何事秋风悲画扇。等闲变却故人心，却道故人心易变。",
-          "pub_date": "2025-10-12T20:07:12+08:00",
-          "updated_at": "2025-10-12T20:07:12+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "电视剧《凡人修仙传》终结：古传送阵把韩立送去哪里了？",
+          "link": "https://www.evan.xin/3987/",
+          "description": "凡人终有尽，仙路亦无终。把韩立的完整旅程一口气读完，就像在时间长河里做了一次深呼吸——出来时，瓶子已空，老魔已 [&#8230;]",
+          "pub_date": "2025-08-12T15:22:35+08:00",
+          "updated_at": "2025-08-12T15:22:35+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "《视觉之旅——神秘的机器世界》书评",
-          "link": "https://yufan.me/posts/book-review-in-how-things-work",
-          "description": "本书可以说是《视觉之旅》的新篇章，与机械制造相关的第一本书。",
-          "pub_date": "2025-10-12T16:25:28+08:00",
-          "updated_at": "2025-10-12T16:25:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "我把所有域名塞进了一个 index.html",
+          "link": "https://www.evan.xin/3977/",
+          "description": "EvanMi是极简风格的导航/米表 EvanMi 真的就只有一个 index.html。想加域名？打开文件，照 [&#8230;]",
+          "pub_date": "2025-08-09T17:34:07+08:00",
+          "updated_at": "2025-08-09T17:34:07+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "《美丽的化学元素》书评",
-          "link": "https://yufan.me/posts/book-review-in-chemistry-elements",
-          "description": "我们是否还需要这样一本化学元素科普书？",
-          "pub_date": "2025-10-12T11:20:19+08:00",
-          "updated_at": "2025-10-12T11:20:19+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "走进小米汽车智造探索之旅（速读版）",
+          "link": "https://www.evan.xin/3959/",
+          "description": "想亲眼看看小米 SU7 诞生过程？官方每月开放工厂参观，流程极简，规则一次看懂。 总结：报名 → 等电话 →  [&#8230;]",
+          "pub_date": "2025-07-31T11:19:58+08:00",
+          "updated_at": "2025-07-31T11:19:58+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "巴别塔终曲：最后一代卡西欧电子词典",
-          "link": "https://yufan.me/posts/2025-casio-ex-word",
-          "description": "卡西欧电子辞典曾经是学生时代的梦想，现在却成了过气产品的挣扎象征。",
-          "pub_date": "2025-10-11T06:04:21+08:00",
-          "updated_at": "2025-10-11T06:04:21+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "如何成为一名藤校生？",
+          "link": "https://www.evan.xin/3946/",
+          "description": "哈佛大学开设了非常多的在线课程，这是以往任何时候都没有的情况。不管你是职场牛马还是在校学生，这里都大概率可以找 [&#8230;]",
+          "pub_date": "2025-07-16T08:30:49+08:00",
+          "updated_at": "2025-07-16T08:30:49+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "《Go 语言设计与实现》书评",
-          "link": "https://yufan.me/posts/book-review-in-go",
-          "description": "我觉得这本书更像是写给作者自己看的。如果想要让更多人看懂，或许还需要更多的努力。",
-          "pub_date": "2025-10-01T12:57:19+08:00",
-          "updated_at": "2025-10-01T12:57:19+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "SHEBAO.CX 社保查询 – 无心插柳的社保个税计算器小站",
+          "link": "https://www.evan.xin/3927/",
+          "description": "在日常的工作与生活中，我们时不时会面临薪酬（工资）和社保相关费用计算的问题，尤其对于职场人士而言，清楚了解自己 [&#8230;]",
+          "pub_date": "2025-06-28T08:04:04+08:00",
+          "updated_at": "2025-06-28T08:04:04+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "学会向这个世界妥协",
-          "link": "https://yufan.me/posts/living-with-noise",
-          "description": "学会妥协，并不是承认错误，而是承认世界不会完全如你所愿。与世界相处的方式，往往不是“打败”，而是“放下”。",
-          "pub_date": "2025-09-28T15:58:28+08:00",
-          "updated_at": "2025-09-28T15:58:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+          "title": "「WordPress」实现Blog网址栏动态打字效果",
+          "link": "https://www.evan.xin/3910/",
+          "description": "在漫川的Blog（MANCS.CN）看到网址栏有动态的打字效果，然后用Manus弄了半天，最后还是用Kimi搞 [&#8230;]",
+          "pub_date": "2025-06-17T14:58:46+08:00",
+          "updated_at": "2025-06-17T14:58:46+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         },
         {
-          "title": "人生，很短也很长",
-          "link": "https://yufan.me/posts/life-is-like-a-boat",
-          "description": "人生从不是一场孤单的奔赴，而是一场带着爱与牵挂的接力。那些离开的人，会变成记忆里的光；那些陪伴在身边的人，会成为前行的力量。",
-          "pub_date": "2025-09-22T01:45:28+08:00",
-          "updated_at": "2025-09-22T01:45:28+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        }
-      ]
-    },
-    {
-      "name": "目的地-Destination",
-      "url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
-      "feed_url": "https://chrison.cn/feed",
-      "posts": [
-        {
-          "title": "说说：叫朋友来家里吃饭~早上忙活了俩小时备菜做饭",
-          "link": "https://chrison.cn/live/342.html",
-          "description": "叫朋友来家里吃饭~早上忙活了俩小时备菜做饭~萝卜牛腩、辣糊糊鸡爪、白菜粉条、酸菜鱼、裙带菜冬瓜玉米汤。{cat_gallery}{/cat_gallery}",
-          "pub_date": "2025-11-29T19:52:00+08:00",
-          "updated_at": "2025-11-29T19:52:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "说说：国庆过的并不好~回来和朋友聚一聚",
-          "link": "https://chrison.cn/live/341.html",
-          "description": "为什么国庆很多人都生病住院呢？可能只有吃吃喝喝，才能提高我的能量。{cat_gallery}{/cat_gallery}",
-          "pub_date": "2025-10-27T08:33:00+08:00",
-          "updated_at": "2025-10-27T08:33:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "特种兵之江西南昌两日游",
-          "link": "https://chrison.cn/live/339.html",
-          "description": "游玩前一日，原本5点半下班的，5点就提前溜了，打车赶往无锡站，前往上海松江。和上海小伙伴碰面后，乘坐晚上22点14的绿皮火车，前往江西南昌。至于为什么选择绿皮火车？因为去南昌，高铁需要5个半小时...",
-          "pub_date": "2025-09-15T12:58:00+08:00",
-          "updated_at": "2025-09-15T12:58:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "说说：又是吃~",
-          "link": "https://chrison.cn/live/337.html",
-          "description": "约朋友，中午吃完，晚上吃~{cat_gallery}{/cat_gallery}",
-          "pub_date": "2025-08-29T09:04:00+08:00",
-          "updated_at": "2025-08-29T09:04:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "累~",
-          "link": "https://chrison.cn/live/336.html",
-          "description": "最近有点累~",
-          "pub_date": "2025-07-21T08:28:12+08:00",
-          "updated_at": "2025-07-21T08:28:12+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+          "title": "自动化播客制作指南：非技术人员也能轻松上手",
+          "link": "https://www.evan.xin/3903/",
+          "description": "文章最后罗列了所有工具的获取地址或网址 引言 最近在琢磨自己弄个播客时，在 V2EX 看到一个朋友独立打造的全 [&#8230;]",
+          "pub_date": "2025-06-16T05:02:59+08:00",
+          "updated_at": "2025-06-16T05:02:59+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         }
       ]
     },
@@ -2085,13 +2261,6 @@
       ]
     },
     {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
-    },
-    {
       "name": "枋柚梓",
       "url": "https://inkss.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
@@ -2177,56 +2346,11 @@
       ]
     },
     {
-      "name": "友人C",
-      "url": "https://www.ihewro.com",
-      "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg",
-      "feed_url": "https://www.ihewro.com/feed",
-      "posts": [
-        {
-          "title": "macOS 中 Chromium 中打开 Save File Dialog 后主进程cpu上涨到 20%+",
-          "link": "https://www.ihewro.com/archives/1390/",
-          "description": "摘要在macos 26上，chromium 中打开 Save File Dialog后主进程cpu上涨到20%+，在macOS 其他版本没有问题，只有chromium 存在问题，Firefox ...",
-          "pub_date": "2025-11-29T17:06:00+08:00",
-          "updated_at": "2025-11-29T17:06:00+08:00",
-          "author": "友人C",
-          "site_name": "友人C",
-          "site_url": "https://www.ihewro.com",
-          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
-        },
-        {
-          "title": "成为 Chromium Committer 我的个人经历",
-          "link": "https://www.ihewro.com/archives/1377/",
-          "description": "国庆后10月9号，非常开心收到了 Chromium Committer 提名成功的邮件，申请到 Chromium.org 后缀的邮箱。可能有不少人不了解 Chromium Committer是什...",
-          "pub_date": "2025-11-09T00:31:00+08:00",
-          "updated_at": "2025-11-09T00:31:00+08:00",
-          "author": "友人C",
-          "site_name": "友人C",
-          "site_url": "https://www.ihewro.com",
-          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
-        },
-        {
-          "title": "何以为我 - Being Leads Doing.",
-          "link": "https://www.ihewro.com/archives/1376/",
-          "description": "已经好久没有在博客上分享最新的动态，最近几个月似乎有些迷失在焦虑和痛苦里。以至于每年生日之后会写一篇的总结的文章也没有写，本文权当作为生日后的总结吧。[scode type=\"share\" si...",
-          "pub_date": "2025-10-21T00:36:00+08:00",
-          "updated_at": "2025-10-21T00:36:00+08:00",
-          "author": "友人C",
-          "site_name": "友人C",
-          "site_url": "https://www.ihewro.com",
-          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
-        },
-        {
-          "title": "LifeTimer - 记录生活、学习、工作",
-          "link": "https://www.ihewro.com/archives/1372/",
-          "description": "特色所有数据存储在你自己的服务器之上，非常适合有服务器的人macOS原生开发，体积小，性能好完美适配博客，支持在博客上显示小组件日/周/月视图轻松查阅自己的时间分配开源，随时可以自己继续开发隐藏...",
-          "pub_date": "2025-07-21T00:15:00+08:00",
-          "updated_at": "2025-07-21T00:15:00+08:00",
-          "author": "友人C",
-          "site_name": "友人C",
-          "site_url": "https://www.ihewro.com",
-          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
-        }
-      ]
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
     },
     {
       "name": "Jack's Space",
@@ -2420,6 +2544,378 @@
           "site_name": "Jack's Space",
           "site_url": "https://veryjack.com/",
           "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        }
+      ]
+    },
+    {
+      "name": "友人C",
+      "url": "https://www.ihewro.com",
+      "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg",
+      "feed_url": "https://www.ihewro.com/feed",
+      "posts": [
+        {
+          "title": "macOS 中 Chromium 中打开 Save File Dialog 后主进程cpu上涨到 20%+",
+          "link": "https://www.ihewro.com/archives/1390/",
+          "description": "摘要在macos 26上，chromium 中打开 Save File Dialog后主进程cpu上涨到20%+，在macOS 其他版本没有问题，只有chromium 存在问题，Firefox ...",
+          "pub_date": "2025-11-29T17:06:00+08:00",
+          "updated_at": "2025-11-29T17:06:00+08:00",
+          "author": "友人C",
+          "site_name": "友人C",
+          "site_url": "https://www.ihewro.com",
+          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
+        },
+        {
+          "title": "成为 Chromium Committer 我的个人经历",
+          "link": "https://www.ihewro.com/archives/1377/",
+          "description": "国庆后10月9号，非常开心收到了 Chromium Committer 提名成功的邮件，申请到 Chromium.org 后缀的邮箱。可能有不少人不了解 Chromium Committer是什...",
+          "pub_date": "2025-11-09T00:31:00+08:00",
+          "updated_at": "2025-11-09T00:31:00+08:00",
+          "author": "友人C",
+          "site_name": "友人C",
+          "site_url": "https://www.ihewro.com",
+          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
+        },
+        {
+          "title": "何以为我 - Being Leads Doing.",
+          "link": "https://www.ihewro.com/archives/1376/",
+          "description": "已经好久没有在博客上分享最新的动态，最近几个月似乎有些迷失在焦虑和痛苦里。以至于每年生日之后会写一篇的总结的文章也没有写，本文权当作为生日后的总结吧。[scode type=\"share\" si...",
+          "pub_date": "2025-10-21T00:36:00+08:00",
+          "updated_at": "2025-10-21T00:36:00+08:00",
+          "author": "友人C",
+          "site_name": "友人C",
+          "site_url": "https://www.ihewro.com",
+          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
+        },
+        {
+          "title": "LifeTimer - 记录生活、学习、工作",
+          "link": "https://www.ihewro.com/archives/1372/",
+          "description": "特色所有数据存储在你自己的服务器之上，非常适合有服务器的人macOS原生开发，体积小，性能好完美适配博客，支持在博客上显示小组件日/周/月视图轻松查阅自己的时间分配开源，随时可以自己继续开发隐藏...",
+          "pub_date": "2025-07-21T00:15:00+08:00",
+          "updated_at": "2025-07-21T00:15:00+08:00",
+          "author": "友人C",
+          "site_name": "友人C",
+          "site_url": "https://www.ihewro.com",
+          "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
+        }
+      ]
+    },
+    {
+      "name": "空白Koobai",
+      "url": "https://koobai.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/koobai.webp",
+      "feed_url": "https://koobai.com/index.xml",
+      "posts": []
+    },
+    {
+      "name": "旅行漫记",
+      "url": "https://synyan.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
+      "feed_url": "https://synyan.cn/feed",
+      "posts": [
+        {
+          "title": "之外小馆仙蠡墩",
+          "link": "https://synyan.cn/106290",
+          "description": "众所周知，“漫咖啡”歇业后，老板娘像是变了个人一样一口气开了两家店：“之外”花园露台餐厅太湖广场店、“之外”露台餐厅惠山映月里店。我都去打了卡，评价也算不错，主...",
+          "pub_date": "2025-11-30T17:14:14+08:00",
+          "updated_at": "2025-11-30T17:14:14+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "惠山寺前金甲妆",
+          "link": "https://synyan.cn/106185",
+          "description": "暨上周去八都岕看十里银杏后，ld一直嘀咕那树还不如无锡惠山寺前那株650年的银杏王壮观，这不，今天拿着Z f全画幅和T 16-30mm F2.8 G2超广来拍家...",
+          "pub_date": "2025-11-29T16:17:53+08:00",
+          "updated_at": "2025-11-29T16:17:53+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "十里银杏八都岕",
+          "link": "https://synyan.cn/105960",
+          "description": "浙江省湖州市长兴县的古银杏林蜚声海内，老衲我向往了好多年。不过之前并不知道地名，今年带家人长兴赏秋，简单做了点攻略，才知道原来叫“八都岕”，由四个自然村方一村、...",
+          "pub_date": "2025-11-24T08:40:41+08:00",
+          "updated_at": "2025-11-24T08:40:41+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "湖心浮光乌托邦",
+          "link": "https://synyan.cn/105923",
+          "description": "冬日，碧空如洗，浮光跃金。给GR21装上黄金色调的Kodak ColorPlus 200胶卷，冒着凛冽的寒风，沿着蠡堤行走于渤公岛湖心。在著名的湖心乌托邦伊德音...",
+          "pub_date": "2025-11-19T15:09:21+08:00",
+          "updated_at": "2025-11-19T15:09:21+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "紫玉金砂名器赏",
+          "link": "https://synyan.cn/105063",
+          "description": "看过锡博西二的“春水碧 秋月瓷——吴地青瓷艺术展”，楼上西三有“紫玉金砂——历代紫砂名器鉴赏展”，那当然是必须去。 墙上“写在前面的话”词藻优美，值得记录。 写...",
+          "pub_date": "2025-10-25T17:46:38+08:00",
+          "updated_at": "2025-10-25T17:46:38+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "吴地青瓷艺术展",
+          "link": "https://synyan.cn/104985",
+          "description": "在《锡博金匮遗珍展》文中提到： 由于娃不耐烦了，因此另外一个想去的展“春水碧 秋月瓷——吴地青瓷艺术展”只能留待下次。 S. (2025-10-10). 锡博金...",
+          "pub_date": "2025-10-23T09:32:19+08:00",
+          "updated_at": "2025-10-23T09:32:19+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "长广溪悦溪酒店",
+          "link": "https://synyan.cn/104914",
+          "description": "惭愧，都快月底了十一假期出行游记还没写完，趁最后一篇图少，今晚赶工把图都发了。 假期到了10月8日，所有人都收心了，但我又不甘趴在家中，于是去长广溪湿地公园颇具...",
+          "pub_date": "2025-10-20T16:06:44+08:00",
+          "updated_at": "2025-10-20T16:06:44+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "金坛博物馆馆藏",
+          "link": "https://synyan.cn/104668",
+          "description": "用完午餐，与舅姥爷、抗战老兵徐沅甫道别后，小舅舅安排大家驱车前往5分钟路程外的金坛博物馆参观。 已是中秋的天气，却35℃热到离谱。大家停车后，纷纷钻进冷气充沛的...",
+          "pub_date": "2025-10-16T17:43:17+08:00",
+          "updated_at": "2025-10-16T17:43:17+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "抗战老兵徐沅甫",
+          "link": "https://synyan.cn/104612",
+          "description": "10月5日，按照常州小舅舅的部署，大家各自出发，去常州市金坛县探望舅姥爷徐沅甫。 舅姥爷是外婆徐芒的弟弟，1923年生，因占领区日军残暴，毅然离家出走、投身抗日...",
+          "pub_date": "2025-10-13T16:37:14+08:00",
+          "updated_at": "2025-10-13T16:37:14+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        }
+      ]
+    },
+    {
+      "name": "小十博客",
+      "url": "https://www.xiaoten.com/",
+      "avatar": "https://www.xiaoten.com/avatar.png",
+      "feed_url": "https://www.xiaoten.com/index.xml",
+      "posts": [
+        {
+          "title": "Hugo 优化：为图片添加正在加载动画",
+          "link": "https://www.xiaoten.com/posts/2025/12/hugo-image-loading-animation/",
+          "description": "<p>一直以来都想在图片加载时添加一个加载动画，以增强用户体验。使用 Hugo 以来，关于图片的添加方式也进行了自定义。针对历史数据，没功夫一遍遍改了，就采用 Markdown 原生语法进行图片的插入，这样形成的图片就是一行一个简单进行罗列。后来为了让自己的照片显示 exif 信息，以及实现一行多图的方式，通过自定义短代码的方式实现，详细可见\n<a href=\"https://www.xiaoten.com/posts/2025/11/display-images-and-their-exif-data-using-hugo-shortcodes/\" rel=\"noopener noreferrer\" target=\"_blank\">\n通过Hugo短代码功能实现图片及其EXIF信息展示\n</a>。</p>",
+          "pub_date": "2025-12-07T23:59:52+08:00",
+          "updated_at": "2025-12-07T23:59:52+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "三刷只有河南·戏剧幻城",
+          "link": "https://www.xiaoten.com/posts/2025/12/third-visit-only-henan/",
+          "description": "<p>11月30日，我第三次来“只有河南·戏剧幻城”，前两次分别是2021年12月19日（跟我爸）、2023年1月26日（跟我爸妈和外甥），这次是跟我姐。这次发现园区内的部分硬件设施已明显老化。三大主剧保持原貌，小剧场则进行了部分更迭，例如此次观看的《苏轼的河南》《曹操的麦田》和《薛怀义》均为新剧目。热门剧目如《红庙学校》排队依然困难，这次仍未排上。</p>",
+          "pub_date": "2025-12-02T12:39:29+08:00",
+          "updated_at": "2025-12-02T12:39:29+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "为 Hugo 站点实现外部链接跳转访问",
+          "link": "https://www.xiaoten.com/posts/2025/11/hugo-external-redirect/",
+          "description": "<p>最近，我为博客增加了一个新功能：<strong>外部链接跳转页</strong>。现在，点击站外链接会先进入一个中转页，经用户确认点击 <code>继续访问</code> 后才前往目标网站。当然这功能并不少见，多数网站都有此功能。</p>",
+          "pub_date": "2025-11-28T23:03:29+08:00",
+          "updated_at": "2025-11-28T23:03:29+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "用 Wayback Machine 翻了翻博客的“黑历史”",
+          "link": "https://www.xiaoten.com/posts/2025/11/digging-up-blog-history/",
+          "description": "<p>最近心血来潮，上\n<a href=\"https://web.archive.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\nWayback Machine\n</a> 搜了一下自己的域名 <code>xiaoten.com</code>。</p>\n<p>距离2011年2月2日，已经14.8个年头，虽然手里存着一些备份数据，但大多是后面几年的存档，前几年的存档因种种原因，没有留存下来。</p>",
+          "pub_date": "2025-11-25T11:36:16+08:00",
+          "updated_at": "2025-11-25T11:36:16+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "基于高德地图实现 Hugo 足迹地图短代码",
+          "link": "https://www.xiaoten.com/posts/2025/11/amap-powered-footprintmap-shortcode/",
+          "description": "<p>依然是受\n<a href=\"https://wangdaodao.com/20251117/amap-track.html\" rel=\"noopener noreferrer\" target=\"_blank\">\n王叨叨：基于高德地图做足迹管理插件\n</a>文章启发，实在眼馋足迹功能，但苦于没有清晰的思路，看到叨叨大神发了这个插件，借助AI，终于抽空完成了这一功能，并融入了一些个人想法：</p>",
+          "pub_date": "2025-11-18T15:45:25+08:00",
+          "updated_at": "2025-11-21T22:00:00+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "解决 Hugo 分页器返回空页面的诡异问题：.Paginate 不能被多次调用",
+          "link": "https://www.xiaoten.com/posts/2025/11/fixing-hugo-pagination-paginate-called-multiple-times-issue/",
+          "description": "<h2 id=\"问题背景\">问题背景</h2>\n<p>在将博客的文章列表从 JavaScript 分页迁移到 Hugo 官方分页时，遇到了一个非常诡异的问题：</p>\n<ul>\n<li>✅ Hugo 构建成功，显示生成了 42 个分页页面</li>\n<li>✅ <code>.RegularPages</code> 有 360 篇文章</li>\n<li>✅ 直接 <code>range .RegularPages</code> 可以正常显示文章</li>\n<li>❌ 但是 <code>.Paginator.Pages</code> 始终返回 0</li>\n</ul>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-html\"><span class=\"line\"><span class=\"cl\">{{/* 这样可以看到 360 篇文章 */}}\n</span></span><span class=\"line\"><span class=\"cl\">{{ range .RegularPages }}\n</span></span><span class=\"line\"><span class=\"cl\"> {{ .Title }}\n</span></span><span class=\"line\"><span class=\"cl\">{{ end }}\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\">{{/* 但分页器是空的！ */}}\n</span></span><span class=\"line\"><span class=\"cl\">{{ $paginator := .Paginator }}\n</span></span><span class=\"line\"><span class=\"cl\">分页器中的文章数: {{ len $paginator.Pages }} {{/* 输出：0 */}}\n</span></span></code></pre></div><h2 id=\"排查过程\">排查过程</h2>\n<h3 id=\"第一步检查配置\">第一步：检查配置</h3>\n<p>首先怀疑是配置问题。Hugo v0.128+ 的分页配置格式发生了变化：</p>",
+          "pub_date": "2025-11-16T19:30:00+08:00",
+          "updated_at": "2025-11-16T19:30:00+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "徐州一日纪行",
+          "link": "https://www.xiaoten.com/posts/2025/11/one-days-in-xuzhou/",
+          "description": "<p>16日早上，从郑州出发，乘坐高铁约一个半小时到达徐州东站。由于交通便利，行程安排为当天往返。</p>\n<p>出行前参考了一些攻略，徐州的几个主要景点相对集中，因此整体行程比较紧凑。</p>",
+          "pub_date": "2025-11-16T17:54:00+08:00",
+          "updated_at": "2025-11-16T17:54:00+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "借助Github Action实现友圈动态自动获取——小十友圈RSS聚合工具",
+          "link": "https://www.xiaoten.com/posts/2025/11/automating-friend-circle-updates-with-git-hub-actions-the-xiaoten-rss-aggregator/",
+          "description": "<p>回归博客内容创作也有几月有余，这期间认识了很多独立博客站长，也重新联系上了一些老朋友。友链作为独立博客的宝贵财富，在快节奏的今天，能够保留这种传统意义上的网友社交形式，显得格外有意义。</p>",
+          "pub_date": "2025-11-14T23:23:25+08:00",
+          "updated_at": "2025-11-14T23:23:25+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "成都两日纪行",
+          "link": "https://www.xiaoten.com/posts/2025/11/two-days-in-chengdu/",
+          "description": "<p>10月20日，读研期间的导师在群里发布活动通知，计划于11月8日在成都望江宾馆举办“电力系统稳定与高压直流输电团队校友大家庭欢聚雅集”。自2017年毕业至今，虽然我曾两次到过成都——一次是因参加QC发布会，一次是假期来游玩——但都未能与导师见上一面。正好借此次活动，利用周末两天时间，与导师见面叙旧。</p>",
+          "pub_date": "2025-11-11T22:38:36+08:00",
+          "updated_at": "2025-11-12T12:50:19+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "通过Hugo短代码功能实现图片及其EXIF信息展示",
+          "link": "https://www.xiaoten.com/posts/2025/11/display-images-and-their-exif-data-using-hugo-shortcodes/",
+          "description": "<p>我有一个习惯就是在网络上分享图片时不管是调整尺寸还是压缩，都习惯保留元数据，当然也希望在分析图片时能够展示元数据。本文介绍如何在 Hugo 静态博客中借助短代码实现图片展示功能，包括单张图片和图片组的短代码实现，以及自动获取并格式化显示图片 EXIF 信息的方法。</p>",
+          "pub_date": "2025-11-07T13:24:15+08:00",
+          "updated_at": "2025-11-07T13:24:15+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "万圣节和亳都·新象的一些照片",
+          "link": "https://www.xiaoten.com/posts/2025/11/some-photos-of-halloween-and-new-bodu/",
+          "description": "<p>按照体感估算，感觉郑州已持续了两个月的阴雨天气，在这长时间恶劣天气之前还是实打实的夏季，就突然进入了冬天。</p>\n<p>本来以为阴雨已经结束，结果又来了持续一周的大雾天气，从早浓到晚的大雾，长久不见阳光，“豫犬吠日”实至名归。</p>",
+          "pub_date": "2025-11-03T22:08:51+08:00",
+          "updated_at": "2025-11-03T22:08:51+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "利用短代码在hugo博客中加入bilibili播放器插件",
+          "link": "https://www.xiaoten.com/posts/2025/11/using-shortcodes-to-embed-a-bilibili-video-player-plugin-in-hugo-blog/",
+          "description": "<p>王叨叨在\n<a href=\"https://wangdaodao.com/20251101/typecho-bilibili-player.html\" rel=\"noopener noreferrer\" target=\"_blank\">\n开源Bilibili播放器插件\n</a>一文中，分享了一个Typecho插件，用于将Bilibili默认播放器替换为HTML5移动端播放器，并提供更多自定义选项。</p>",
+          "pub_date": "2025-11-02T19:05:22+08:00",
+          "updated_at": "2025-11-03T00:48:16+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "天津两日纪行",
+          "link": "https://www.xiaoten.com/posts/2025/10/two-days-in-tianjin/",
+          "description": "<p>10月25—26日，趁着周末两天，去了一趟天津。</p>\n<h2 id=\"第一天\">第一天</h2>\n<p>早上5点半起床，上午约10点30分，抵达天津西站。出站后，搭乘出租车前往位于滨江道步行街内的酒店。</p>",
+          "pub_date": "2025-10-27T16:50:35+08:00",
+          "updated_at": "2025-10-28T20:48:08+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "终于初步完成了从Typecho到Hugo的网站迁移",
+          "link": "https://www.xiaoten.com/posts/2025/10/the-preliminary-migration-of-the-typecho-to-hugo-completed/",
+          "description": "<h2 id=\"整体历程\">整体历程</h2>\n<p>2011年2月2日，本站启用并使用WordPress；</p>\n<p>2021年7月29日，从WordPress迁移至Typecho；</p>\n<p>2025年10月16日，终于正式把域名指向到了Hugo生成的静态页面。</p>",
+          "pub_date": "2025-10-16T22:21:54+08:00",
+          "updated_at": "2025-10-23T19:41:26+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "解决林木木老师哔哔广场中同一Memos实例下多用户头像昵称显示错误问题",
+          "link": "https://www.xiaoten.com/posts/2025/10/fix-user-avatar-errors-in-memos/",
+          "description": "<h2 id=\"问题描述\">问题描述</h2>\n<p>非常感谢\n<a href=\"https://immmmm.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n林木木\n</a>老师编写的\n<a href=\"https://memobbs.app/\" rel=\"noopener noreferrer\" target=\"_blank\">\n哔哔广场\n</a>，日常用于调取Memos网站的内容，并实现了同步订阅其他Memos用户及发表 memos 等功能。<br />\n但是，我这里有一个较为小众的需求，就是在使用 Memos 广场功能时，如下图界面：</p>",
+          "pub_date": "2025-10-23T13:42:28+08:00",
+          "updated_at": "2025-10-23T13:42:28+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "在 Hugo 中集成 Memos 多用户微博系统",
+          "link": "https://www.xiaoten.com/posts/2025/10/integrating-a-multi-user-memos-microblog-system-in-hugo/",
+          "description": "<h2 id=\"摘要\">摘要</h2>\n<p>本文详细阐述在 Hugo 静态网站生成器中集成 Memos 0.18.2 多用户微博系统的完整技术方案。通过 RESTful API 调用、Twikoo 评论系统集成、图片资源处理等关键技术，实现了在静态网站中展示动态微博内容的功能。本文涵盖系统架构设计、核心代码实现、性能优化策略以及部署配置指南，为开发者提供完整的实施参考。样例请见本站\n<a href=\"https://www.xiaoten.com/pages/talk/\" rel=\"noopener noreferrer\" target=\"_blank\">\n说说页面\n</a>。</p>",
+          "pub_date": "2025-10-21T23:28:08+08:00",
+          "updated_at": "2025-10-21T23:28:08+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "借助 GitHub Actions 自动化部署 Hugo 网站到自有服务器",
+          "link": "https://www.xiaoten.com/posts/2025/10/automating-hugo-website-deployment-to-your-own-server-with-github-actions/",
+          "description": "<h2 id=\"从手动部署到自动化的工作流演进\">从手动部署到自动化的工作流演进</h2>\n<p>在网站开发的初期阶段，为了深入理解整个发布流程，我一直在本地环境中使用 Hugo 手动生成静态网站。这个过程包括：运行 <code>hugo</code> 命令生成静态文件，手动打包 <code>public</code> 目录，然后通过 SCP 或 FTP 上传到服务器，最后在服务器上解压并配置。虽然这种方法让我对网站部署的每个环节都有了清晰的认识，但随着内容的增多，这种重复性工作变得越来越耗时。</p>",
+          "pub_date": "2025-10-20T13:22:29+08:00",
+          "updated_at": "2025-10-20T13:22:29+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
+        },
+        {
+          "title": "PVE从8升级到9",
+          "link": "https://www.xiaoten.com/posts/2025/08/pve-upgrade-from-8-to-9/",
+          "description": "<p>今天完成了Proxmox Virtual Environment 从8升级到9。</p>\n<h3 id=\"升级前准备\">升级前准备</h3>\n<p>确保您的所有节点都已升级到 Proxmox VE 8.4 的最新版本。</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">apt update <span class=\"o\">&amp;&amp;</span> apt dist-upgrade\n</span></span><span class=\"line\"><span class=\"cl\">pveversion\n</span></span></code></pre></div><h3 id=\"检查是否满足升级条件\">检查是否满足升级条件</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">pve8to9\n</span></span></code></pre></div><p>或</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">pve8to9 --full\n</span></span></code></pre></div><p>需要 ·SUMMARY· 里没有警错误才能执行升级</p>",
+          "pub_date": "2025-08-10T18:07:20+08:00",
+          "updated_at": "2025-08-10T18:07:20+08:00",
+          "author": "",
+          "site_name": "小十博客",
+          "site_url": "https://www.xiaoten.com/",
+          "avatar": "https://www.xiaoten.com/avatar.png"
         }
       ]
     },
@@ -3013,565 +3509,6 @@
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
         }
       ]
-    },
-    {
-      "name": "Evan",
-      "url": "https://www.evan.xin/",
-      "avatar": "https://cdn.xiaoten.com/friends/Evan.png",
-      "feed_url": "https://www.evan.xin/feed",
-      "posts": [
-        {
-          "title": "灵光 AI 打造｜职场能力排序工具，精准锚定成长发力点",
-          "link": "https://www.evan.xin/4299/",
-          "description": "这款 “职场资源挖掘器” 是我用灵光 AI 打造的抛砖引玉之作。愿在当下焦虑蔓延的环境里，能帮大家找准职场突破 [&#8230;]",
-          "pub_date": "2025-12-08T05:06:57+08:00",
-          "updated_at": "2025-12-08T05:06:57+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "90天闷声赚了8W美金！",
-          "link": "https://www.evan.xin/4293/",
-          "description": "你是不是也觉得，现在做短视频越来越难了？露脸吧，怕被熟人认出来；不露脸吧，又总觉得没人看。但今天我要跟你分享一 [&#8230;]",
-          "pub_date": "2025-12-07T17:02:01+08:00",
-          "updated_at": "2025-12-07T17:02:01+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "2025年黑色星期五域名特卖：Dynadot优惠全解析",
-          "link": "https://www.evan.xin/4278/",
-          "description": "详细活动内容 域名捆绑与匹配促销 通过捆绑域名或匹配账户中已有域名，可享受巨大优惠。例如，注册捆绑包价格从&#038;n [&#8230;]",
-          "pub_date": "2025-11-27T06:17:55+08:00",
-          "updated_at": "2025-11-27T06:17:55+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "我用Astralis十分钟做了个永久起始页Nav.pm",
-          "link": "https://www.evan.xin/4255/",
-          "description": "DEMO默认页面 HTTPS://NAV.PM 本地书签越攒越乱，在线导航又塞满广告；虽然“会点技术的都人手一 [&#8230;]",
-          "pub_date": "2025-11-25T04:47:21+08:00",
-          "updated_at": "2025-11-25T04:47:21+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "Marble AI 初体验：单图生成可探索 NeRF 场景",
-          "link": "https://www.evan.xin/4230/",
-          "description": "把一张图脑补成能走进去的3D世界，我只用了60秒，这就是 Marble AI。 它不是什么复杂软件，而是一个网 [&#8230;]",
-          "pub_date": "2025-11-13T15:21:55+08:00",
-          "updated_at": "2025-11-13T15:21:55+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "那些有趣的极简设计风格",
-          "link": "https://www.evan.xin/4147/",
-          "description": "",
-          "pub_date": "2025-11-11T16:04:07+08:00",
-          "updated_at": "2025-11-11T16:04:07+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "小红书“电子壁纸”生意0库存暴利玩法拆解",
-          "link": "https://www.evan.xin/4130/",
-          "description": "我在小红书刷到一个账号：先用美化 App 把桌面布置得极度吸睛，15 秒展示成片；中间插几条“手把手设置”教程 [&#8230;]",
-          "pub_date": "2025-11-06T04:01:18+08:00",
-          "updated_at": "2025-11-06T04:01:18+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "HK-1616 与 2222JP 最全成本-体验对比",
-          "link": "https://www.evan.xin/4123/",
-          "description": "前几天狐蒂云出16C16G的「111 元/3年」的极限低价（双十一活动）；绿云周年庆推出2222JP软银「15 [&#8230;]",
-          "pub_date": "2025-11-04T09:08:28+08:00",
-          "updated_at": "2025-11-04T09:08:28+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "内容创作者效率神器：AI视频摘要工具TLDW初体验",
-          "link": "https://www.evan.xin/4112/",
-          "description": "TLDW是一个 AI驱动的视频摘要工具，它的核心功能是： 通过AI技术快速生成长视频的简洁摘要，帮助用户节省时 [&#8230;]",
-          "pub_date": "2025-11-03T04:08:00+08:00",
-          "updated_at": "2025-11-03T04:08:00+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "当极客开始浪漫：我把网站写进了NFC冰箱贴里",
-          "link": "https://www.evan.xin/4089/",
-          "description": "前两天发现有冰箱贴可以DIY，然后就用AI生成的LOGO做了一个冰箱贴（有NFC功能）。 折腾大半天，终于零成 [&#8230;]",
-          "pub_date": "2025-10-26T09:13:21+08:00",
-          "updated_at": "2025-10-26T09:13:21+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "删除 EvanNav 6.3.1 加载页面教程",
-          "link": "https://www.evan.xin/4074/",
-          "description": "好的，为了删除加载页，您需要在以下文件中进行代码修改： 1. public/index.html 删除以下代码 [&#8230;]",
-          "pub_date": "2025-10-15T12:22:47+08:00",
-          "updated_at": "2025-10-15T12:22:47+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "【米表升级】贯彻极简设计风格，呈现更极致",
-          "link": "https://www.evan.xin/4025/",
-          "description": "整体呈现更清爽，域名释义隐藏在鼠标经过处 本次更新了如下内容：- 增加域名弹出释义 - 增加域名价格展示- 增 [&#8230;]",
-          "pub_date": "2025-08-23T11:36:00+08:00",
-          "updated_at": "2025-08-23T11:36:00+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "SHEBAO.CX 升级篇：把“无心插柳”做成“长期可用”",
-          "link": "https://www.evan.xin/4017/",
-          "description": "前一段时间随手搭的 shebao.cx，初衷只是替自己省点事。没想到访问数据比较稳定，还是有人在用的。既然大家 [&#8230;]",
-          "pub_date": "2025-08-20T06:16:29+08:00",
-          "updated_at": "2025-08-20T06:16:29+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "「2025」Spaceship 域名优惠码大全",
-          "link": "https://www.evan.xin/4008/",
-          "description": "如果你正在寻找域名或主机服务的超值折扣，这篇博文一定要收藏。Spaceship 今年依旧放出大量诚意优惠，从  [&#8230;]",
-          "pub_date": "2025-08-14T16:41:00+08:00",
-          "updated_at": "2025-08-14T16:41:00+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "电视剧《凡人修仙传》终结：古传送阵把韩立送去哪里了？",
-          "link": "https://www.evan.xin/3987/",
-          "description": "凡人终有尽，仙路亦无终。把韩立的完整旅程一口气读完，就像在时间长河里做了一次深呼吸——出来时，瓶子已空，老魔已 [&#8230;]",
-          "pub_date": "2025-08-12T15:22:35+08:00",
-          "updated_at": "2025-08-12T15:22:35+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "我把所有域名塞进了一个 index.html",
-          "link": "https://www.evan.xin/3977/",
-          "description": "EvanMi是极简风格的导航/米表 EvanMi 真的就只有一个 index.html。想加域名？打开文件，照 [&#8230;]",
-          "pub_date": "2025-08-09T17:34:07+08:00",
-          "updated_at": "2025-08-09T17:34:07+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "走进小米汽车智造探索之旅（速读版）",
-          "link": "https://www.evan.xin/3959/",
-          "description": "想亲眼看看小米 SU7 诞生过程？官方每月开放工厂参观，流程极简，规则一次看懂。 总结：报名 → 等电话 →  [&#8230;]",
-          "pub_date": "2025-07-31T11:19:58+08:00",
-          "updated_at": "2025-07-31T11:19:58+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "如何成为一名藤校生？",
-          "link": "https://www.evan.xin/3946/",
-          "description": "哈佛大学开设了非常多的在线课程，这是以往任何时候都没有的情况。不管你是职场牛马还是在校学生，这里都大概率可以找 [&#8230;]",
-          "pub_date": "2025-07-16T08:30:49+08:00",
-          "updated_at": "2025-07-16T08:30:49+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "SHEBAO.CX 社保查询 – 无心插柳的社保个税计算器小站",
-          "link": "https://www.evan.xin/3927/",
-          "description": "在日常的工作与生活中，我们时不时会面临薪酬（工资）和社保相关费用计算的问题，尤其对于职场人士而言，清楚了解自己 [&#8230;]",
-          "pub_date": "2025-06-28T08:04:04+08:00",
-          "updated_at": "2025-06-28T08:04:04+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "「WordPress」实现Blog网址栏动态打字效果",
-          "link": "https://www.evan.xin/3910/",
-          "description": "在漫川的Blog（MANCS.CN）看到网址栏有动态的打字效果，然后用Manus弄了半天，最后还是用Kimi搞 [&#8230;]",
-          "pub_date": "2025-06-17T14:58:46+08:00",
-          "updated_at": "2025-06-17T14:58:46+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "自动化播客制作指南：非技术人员也能轻松上手",
-          "link": "https://www.evan.xin/3903/",
-          "description": "文章最后罗列了所有工具的获取地址或网址 引言 最近在琢磨自己弄个播客时，在 V2EX 看到一个朋友独立打造的全 [&#8230;]",
-          "pub_date": "2025-06-16T05:02:59+08:00",
-          "updated_at": "2025-06-16T05:02:59+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        }
-      ]
-    },
-    {
-      "name": "空白Koobai",
-      "url": "https://koobai.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/koobai.webp",
-      "feed_url": "https://koobai.com/index.xml",
-      "posts": []
-    },
-    {
-      "name": "旅行漫记",
-      "url": "https://synyan.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
-      "feed_url": "https://synyan.cn/feed",
-      "posts": [
-        {
-          "title": "之外小馆仙蠡墩",
-          "link": "https://synyan.cn/106290",
-          "description": "众所周知，“漫咖啡”歇业后，老板娘像是变了个人一样一口气开了两家店：“之外”花园露台餐厅太湖广场店、“之外”露台餐厅惠山映月里店。我都去打了卡，评价也算不错，主...",
-          "pub_date": "2025-11-30T17:14:14+08:00",
-          "updated_at": "2025-11-30T17:14:14+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "惠山寺前金甲妆",
-          "link": "https://synyan.cn/106185",
-          "description": "暨上周去八都岕看十里银杏后，ld一直嘀咕那树还不如无锡惠山寺前那株650年的银杏王壮观，这不，今天拿着Z f全画幅和T 16-30mm F2.8 G2超广来拍家...",
-          "pub_date": "2025-11-29T16:17:53+08:00",
-          "updated_at": "2025-11-29T16:17:53+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "十里银杏八都岕",
-          "link": "https://synyan.cn/105960",
-          "description": "浙江省湖州市长兴县的古银杏林蜚声海内，老衲我向往了好多年。不过之前并不知道地名，今年带家人长兴赏秋，简单做了点攻略，才知道原来叫“八都岕”，由四个自然村方一村、...",
-          "pub_date": "2025-11-24T08:40:41+08:00",
-          "updated_at": "2025-11-24T08:40:41+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "湖心浮光乌托邦",
-          "link": "https://synyan.cn/105923",
-          "description": "冬日，碧空如洗，浮光跃金。给GR21装上黄金色调的Kodak ColorPlus 200胶卷，冒着凛冽的寒风，沿着蠡堤行走于渤公岛湖心。在著名的湖心乌托邦伊德音...",
-          "pub_date": "2025-11-19T15:09:21+08:00",
-          "updated_at": "2025-11-19T15:09:21+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "紫玉金砂名器赏",
-          "link": "https://synyan.cn/105063",
-          "description": "看过锡博西二的“春水碧 秋月瓷——吴地青瓷艺术展”，楼上西三有“紫玉金砂——历代紫砂名器鉴赏展”，那当然是必须去。 墙上“写在前面的话”词藻优美，值得记录。 写...",
-          "pub_date": "2025-10-25T17:46:38+08:00",
-          "updated_at": "2025-10-25T17:46:38+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "吴地青瓷艺术展",
-          "link": "https://synyan.cn/104985",
-          "description": "在《锡博金匮遗珍展》文中提到： 由于娃不耐烦了，因此另外一个想去的展“春水碧 秋月瓷——吴地青瓷艺术展”只能留待下次。 S. (2025-10-10). 锡博金...",
-          "pub_date": "2025-10-23T09:32:19+08:00",
-          "updated_at": "2025-10-23T09:32:19+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "长广溪悦溪酒店",
-          "link": "https://synyan.cn/104914",
-          "description": "惭愧，都快月底了十一假期出行游记还没写完，趁最后一篇图少，今晚赶工把图都发了。 假期到了10月8日，所有人都收心了，但我又不甘趴在家中，于是去长广溪湿地公园颇具...",
-          "pub_date": "2025-10-20T16:06:44+08:00",
-          "updated_at": "2025-10-20T16:06:44+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "金坛博物馆馆藏",
-          "link": "https://synyan.cn/104668",
-          "description": "用完午餐，与舅姥爷、抗战老兵徐沅甫道别后，小舅舅安排大家驱车前往5分钟路程外的金坛博物馆参观。 已是中秋的天气，却35℃热到离谱。大家停车后，纷纷钻进冷气充沛的...",
-          "pub_date": "2025-10-16T17:43:17+08:00",
-          "updated_at": "2025-10-16T17:43:17+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "抗战老兵徐沅甫",
-          "link": "https://synyan.cn/104612",
-          "description": "10月5日，按照常州小舅舅的部署，大家各自出发，去常州市金坛县探望舅姥爷徐沅甫。 舅姥爷是外婆徐芒的弟弟，1923年生，因占领区日军残暴，毅然离家出走、投身抗日...",
-          "pub_date": "2025-10-13T16:37:14+08:00",
-          "updated_at": "2025-10-13T16:37:14+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        }
-      ]
-    },
-    {
-      "name": "小十博客",
-      "url": "https://www.xiaoten.com/",
-      "avatar": "https://www.xiaoten.com/avatar.png",
-      "feed_url": "https://www.xiaoten.com/index.xml",
-      "posts": [
-        {
-          "title": "Hugo 优化：为图片添加正在加载动画",
-          "link": "https://www.xiaoten.com/posts/2025/12/hugo-image-loading-animation/",
-          "description": "<p>一直以来都想在图片加载时添加一个加载动画，以增强用户体验。使用 Hugo 以来，关于图片的添加方式也进行了自定义。针对历史数据，没功夫一遍遍改了，就采用 Markdown 原生语法进行图片的插入，这样形成的图片就是一行一个简单进行罗列。后来为了让自己的照片显示 exif 信息，以及实现一行多图的方式，通过自定义短代码的方式实现，详细可见\n<a href=\"https://www.xiaoten.com/posts/2025/11/display-images-and-their-exif-data-using-hugo-shortcodes/\" rel=\"noopener noreferrer\" target=\"_blank\">\n通过Hugo短代码功能实现图片及其EXIF信息展示\n</a>。</p>",
-          "pub_date": "2025-12-07T23:59:52+08:00",
-          "updated_at": "2025-12-07T23:59:52+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "三刷只有河南·戏剧幻城",
-          "link": "https://www.xiaoten.com/posts/2025/12/third-visit-only-henan/",
-          "description": "<p>11月30日，我第三次来“只有河南·戏剧幻城”，前两次分别是2021年12月19日（跟我爸）、2023年1月26日（跟我爸妈和外甥），这次是跟我姐。这次发现园区内的部分硬件设施已明显老化。三大主剧保持原貌，小剧场则进行了部分更迭，例如此次观看的《苏轼的河南》《曹操的麦田》和《薛怀义》均为新剧目。热门剧目如《红庙学校》排队依然困难，这次仍未排上。</p>",
-          "pub_date": "2025-12-02T12:39:29+08:00",
-          "updated_at": "2025-12-02T12:39:29+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "为 Hugo 站点实现外部链接跳转访问",
-          "link": "https://www.xiaoten.com/posts/2025/11/hugo-external-redirect/",
-          "description": "<p>最近，我为博客增加了一个新功能：<strong>外部链接跳转页</strong>。现在，点击站外链接会先进入一个中转页，经用户确认点击 <code>继续访问</code> 后才前往目标网站。当然这功能并不少见，多数网站都有此功能。</p>",
-          "pub_date": "2025-11-28T23:03:29+08:00",
-          "updated_at": "2025-11-28T23:03:29+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "用 Wayback Machine 翻了翻博客的“黑历史”",
-          "link": "https://www.xiaoten.com/posts/2025/11/digging-up-blog-history/",
-          "description": "<p>最近心血来潮，上\n<a href=\"https://web.archive.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\nWayback Machine\n</a> 搜了一下自己的域名 <code>xiaoten.com</code>。</p>\n<p>距离2011年2月2日，已经14.8个年头，虽然手里存着一些备份数据，但大多是后面几年的存档，前几年的存档因种种原因，没有留存下来。</p>",
-          "pub_date": "2025-11-25T11:36:16+08:00",
-          "updated_at": "2025-11-25T11:36:16+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "基于高德地图实现 Hugo 足迹地图短代码",
-          "link": "https://www.xiaoten.com/posts/2025/11/amap-powered-footprintmap-shortcode/",
-          "description": "<p>依然是受\n<a href=\"https://wangdaodao.com/20251117/amap-track.html\" rel=\"noopener noreferrer\" target=\"_blank\">\n王叨叨：基于高德地图做足迹管理插件\n</a>文章启发，实在眼馋足迹功能，但苦于没有清晰的思路，看到叨叨大神发了这个插件，借助AI，终于抽空完成了这一功能，并融入了一些个人想法：</p>",
-          "pub_date": "2025-11-18T15:45:25+08:00",
-          "updated_at": "2025-11-21T22:00:00+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "解决 Hugo 分页器返回空页面的诡异问题：.Paginate 不能被多次调用",
-          "link": "https://www.xiaoten.com/posts/2025/11/fixing-hugo-pagination-paginate-called-multiple-times-issue/",
-          "description": "<h2 id=\"问题背景\">问题背景</h2>\n<p>在将博客的文章列表从 JavaScript 分页迁移到 Hugo 官方分页时，遇到了一个非常诡异的问题：</p>\n<ul>\n<li>✅ Hugo 构建成功，显示生成了 42 个分页页面</li>\n<li>✅ <code>.RegularPages</code> 有 360 篇文章</li>\n<li>✅ 直接 <code>range .RegularPages</code> 可以正常显示文章</li>\n<li>❌ 但是 <code>.Paginator.Pages</code> 始终返回 0</li>\n</ul>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-html\"><span class=\"line\"><span class=\"cl\">{{/* 这样可以看到 360 篇文章 */}}\n</span></span><span class=\"line\"><span class=\"cl\">{{ range .RegularPages }}\n</span></span><span class=\"line\"><span class=\"cl\"> {{ .Title }}\n</span></span><span class=\"line\"><span class=\"cl\">{{ end }}\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\">{{/* 但分页器是空的！ */}}\n</span></span><span class=\"line\"><span class=\"cl\">{{ $paginator := .Paginator }}\n</span></span><span class=\"line\"><span class=\"cl\">分页器中的文章数: {{ len $paginator.Pages }} {{/* 输出：0 */}}\n</span></span></code></pre></div><h2 id=\"排查过程\">排查过程</h2>\n<h3 id=\"第一步检查配置\">第一步：检查配置</h3>\n<p>首先怀疑是配置问题。Hugo v0.128+ 的分页配置格式发生了变化：</p>",
-          "pub_date": "2025-11-16T19:30:00+08:00",
-          "updated_at": "2025-11-16T19:30:00+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "徐州一日纪行",
-          "link": "https://www.xiaoten.com/posts/2025/11/one-days-in-xuzhou/",
-          "description": "<p>16日早上，从郑州出发，乘坐高铁约一个半小时到达徐州东站。由于交通便利，行程安排为当天往返。</p>\n<p>出行前参考了一些攻略，徐州的几个主要景点相对集中，因此整体行程比较紧凑。</p>",
-          "pub_date": "2025-11-16T17:54:00+08:00",
-          "updated_at": "2025-11-16T17:54:00+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "借助Github Action实现友圈动态自动获取——小十友圈RSS聚合工具",
-          "link": "https://www.xiaoten.com/posts/2025/11/automating-friend-circle-updates-with-git-hub-actions-the-xiaoten-rss-aggregator/",
-          "description": "<p>回归博客内容创作也有几月有余，这期间认识了很多独立博客站长，也重新联系上了一些老朋友。友链作为独立博客的宝贵财富，在快节奏的今天，能够保留这种传统意义上的网友社交形式，显得格外有意义。</p>",
-          "pub_date": "2025-11-14T23:23:25+08:00",
-          "updated_at": "2025-11-14T23:23:25+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "成都两日纪行",
-          "link": "https://www.xiaoten.com/posts/2025/11/two-days-in-chengdu/",
-          "description": "<p>10月20日，读研期间的导师在群里发布活动通知，计划于11月8日在成都望江宾馆举办“电力系统稳定与高压直流输电团队校友大家庭欢聚雅集”。自2017年毕业至今，虽然我曾两次到过成都——一次是因参加QC发布会，一次是假期来游玩——但都未能与导师见上一面。正好借此次活动，利用周末两天时间，与导师见面叙旧。</p>",
-          "pub_date": "2025-11-11T22:38:36+08:00",
-          "updated_at": "2025-11-12T12:50:19+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "通过Hugo短代码功能实现图片及其EXIF信息展示",
-          "link": "https://www.xiaoten.com/posts/2025/11/display-images-and-their-exif-data-using-hugo-shortcodes/",
-          "description": "<p>我有一个习惯就是在网络上分享图片时不管是调整尺寸还是压缩，都习惯保留元数据，当然也希望在分析图片时能够展示元数据。本文介绍如何在 Hugo 静态博客中借助短代码实现图片展示功能，包括单张图片和图片组的短代码实现，以及自动获取并格式化显示图片 EXIF 信息的方法。</p>",
-          "pub_date": "2025-11-07T13:24:15+08:00",
-          "updated_at": "2025-11-07T13:24:15+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "万圣节和亳都·新象的一些照片",
-          "link": "https://www.xiaoten.com/posts/2025/11/some-photos-of-halloween-and-new-bodu/",
-          "description": "<p>按照体感估算，感觉郑州已持续了两个月的阴雨天气，在这长时间恶劣天气之前还是实打实的夏季，就突然进入了冬天。</p>\n<p>本来以为阴雨已经结束，结果又来了持续一周的大雾天气，从早浓到晚的大雾，长久不见阳光，“豫犬吠日”实至名归。</p>",
-          "pub_date": "2025-11-03T22:08:51+08:00",
-          "updated_at": "2025-11-03T22:08:51+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "利用短代码在hugo博客中加入bilibili播放器插件",
-          "link": "https://www.xiaoten.com/posts/2025/11/using-shortcodes-to-embed-a-bilibili-video-player-plugin-in-hugo-blog/",
-          "description": "<p>王叨叨在\n<a href=\"https://wangdaodao.com/20251101/typecho-bilibili-player.html\" rel=\"noopener noreferrer\" target=\"_blank\">\n开源Bilibili播放器插件\n</a>一文中，分享了一个Typecho插件，用于将Bilibili默认播放器替换为HTML5移动端播放器，并提供更多自定义选项。</p>",
-          "pub_date": "2025-11-02T19:05:22+08:00",
-          "updated_at": "2025-11-03T00:48:16+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "天津两日纪行",
-          "link": "https://www.xiaoten.com/posts/2025/10/two-days-in-tianjin/",
-          "description": "<p>10月25—26日，趁着周末两天，去了一趟天津。</p>\n<h2 id=\"第一天\">第一天</h2>\n<p>早上5点半起床，上午约10点30分，抵达天津西站。出站后，搭乘出租车前往位于滨江道步行街内的酒店。</p>",
-          "pub_date": "2025-10-27T16:50:35+08:00",
-          "updated_at": "2025-10-28T20:48:08+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "终于初步完成了从Typecho到Hugo的网站迁移",
-          "link": "https://www.xiaoten.com/posts/2025/10/the-preliminary-migration-of-the-typecho-to-hugo-completed/",
-          "description": "<h2 id=\"整体历程\">整体历程</h2>\n<p>2011年2月2日，本站启用并使用WordPress；</p>\n<p>2021年7月29日，从WordPress迁移至Typecho；</p>\n<p>2025年10月16日，终于正式把域名指向到了Hugo生成的静态页面。</p>",
-          "pub_date": "2025-10-16T22:21:54+08:00",
-          "updated_at": "2025-10-23T19:41:26+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "解决林木木老师哔哔广场中同一Memos实例下多用户头像昵称显示错误问题",
-          "link": "https://www.xiaoten.com/posts/2025/10/fix-user-avatar-errors-in-memos/",
-          "description": "<h2 id=\"问题描述\">问题描述</h2>\n<p>非常感谢\n<a href=\"https://immmmm.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n林木木\n</a>老师编写的\n<a href=\"https://memobbs.app/\" rel=\"noopener noreferrer\" target=\"_blank\">\n哔哔广场\n</a>，日常用于调取Memos网站的内容，并实现了同步订阅其他Memos用户及发表 memos 等功能。<br />\n但是，我这里有一个较为小众的需求，就是在使用 Memos 广场功能时，如下图界面：</p>",
-          "pub_date": "2025-10-23T13:42:28+08:00",
-          "updated_at": "2025-10-23T13:42:28+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "在 Hugo 中集成 Memos 多用户微博系统",
-          "link": "https://www.xiaoten.com/posts/2025/10/integrating-a-multi-user-memos-microblog-system-in-hugo/",
-          "description": "<h2 id=\"摘要\">摘要</h2>\n<p>本文详细阐述在 Hugo 静态网站生成器中集成 Memos 0.18.2 多用户微博系统的完整技术方案。通过 RESTful API 调用、Twikoo 评论系统集成、图片资源处理等关键技术，实现了在静态网站中展示动态微博内容的功能。本文涵盖系统架构设计、核心代码实现、性能优化策略以及部署配置指南，为开发者提供完整的实施参考。样例请见本站\n<a href=\"https://www.xiaoten.com/pages/talk/\" rel=\"noopener noreferrer\" target=\"_blank\">\n说说页面\n</a>。</p>",
-          "pub_date": "2025-10-21T23:28:08+08:00",
-          "updated_at": "2025-10-21T23:28:08+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "借助 GitHub Actions 自动化部署 Hugo 网站到自有服务器",
-          "link": "https://www.xiaoten.com/posts/2025/10/automating-hugo-website-deployment-to-your-own-server-with-github-actions/",
-          "description": "<h2 id=\"从手动部署到自动化的工作流演进\">从手动部署到自动化的工作流演进</h2>\n<p>在网站开发的初期阶段，为了深入理解整个发布流程，我一直在本地环境中使用 Hugo 手动生成静态网站。这个过程包括：运行 <code>hugo</code> 命令生成静态文件，手动打包 <code>public</code> 目录，然后通过 SCP 或 FTP 上传到服务器，最后在服务器上解压并配置。虽然这种方法让我对网站部署的每个环节都有了清晰的认识，但随着内容的增多，这种重复性工作变得越来越耗时。</p>",
-          "pub_date": "2025-10-20T13:22:29+08:00",
-          "updated_at": "2025-10-20T13:22:29+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        },
-        {
-          "title": "PVE从8升级到9",
-          "link": "https://www.xiaoten.com/posts/2025/08/pve-upgrade-from-8-to-9/",
-          "description": "<p>今天完成了Proxmox Virtual Environment 从8升级到9。</p>\n<h3 id=\"升级前准备\">升级前准备</h3>\n<p>确保您的所有节点都已升级到 Proxmox VE 8.4 的最新版本。</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">apt update <span class=\"o\">&amp;&amp;</span> apt dist-upgrade\n</span></span><span class=\"line\"><span class=\"cl\">pveversion\n</span></span></code></pre></div><h3 id=\"检查是否满足升级条件\">检查是否满足升级条件</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">pve8to9\n</span></span></code></pre></div><p>或</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">pve8to9 --full\n</span></span></code></pre></div><p>需要 ·SUMMARY· 里没有警错误才能执行升级</p>",
-          "pub_date": "2025-08-10T18:07:20+08:00",
-          "updated_at": "2025-08-10T18:07:20+08:00",
-          "author": "",
-          "site_name": "小十博客",
-          "site_url": "https://www.xiaoten.com/",
-          "avatar": "https://www.xiaoten.com/avatar.png"
-        }
-      ]
     }
   ],
   "all_posts": [
@@ -3849,17 +3786,6 @@
       "site_name": "旺东自留地",
       "site_url": "https://wang618.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-    },
-    {
-      "title": "说说：叫朋友来家里吃饭~早上忙活了俩小时备菜做饭",
-      "link": "https://chrison.cn/live/342.html",
-      "description": "叫朋友来家里吃饭~早上忙活了俩小时备菜做饭~萝卜牛腩、辣糊糊鸡爪、白菜粉条、酸菜鱼、裙带菜冬瓜玉米汤。{cat_gallery}{/cat_gallery}",
-      "pub_date": "2025-11-29T19:52:00+08:00",
-      "updated_at": "2025-11-29T19:52:00+08:00",
-      "author": "Chrison",
-      "site_name": "目的地-Destination",
-      "site_url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
     },
     {
       "title": "macOS 中 Chromium 中打开 Save File Dialog 后主进程cpu上涨到 20%+",
@@ -5039,17 +4965,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
     },
     {
-      "title": "说说：国庆过的并不好~回来和朋友聚一聚",
-      "link": "https://chrison.cn/live/341.html",
-      "description": "为什么国庆很多人都生病住院呢？可能只有吃吃喝喝，才能提高我的能量。{cat_gallery}{/cat_gallery}",
-      "pub_date": "2025-10-27T08:33:00+08:00",
-      "updated_at": "2025-10-27T08:33:00+08:00",
-      "author": "Chrison",
-      "site_name": "目的地-Destination",
-      "site_url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-    },
-    {
       "title": "留言板",
       "link": "https://lznauy.cn/guestbook/",
       "description": "<p>欢迎来到我的留言板!</p>\n<p>在这里,你可以:</p>\n<ul>\n<li>💬 留下你的想法和建议</li>\n<li>🤝 与我交流技术问题</li>\n<li>📝 分享你的学习心得</li>\n<li>🎉 或者只是打个招呼</li>\n</ul>\n<p>期待与你的交流! 😊</p>\n<p>友链申请格式：</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-yaml\"><span class=\"line\"><span class=\"cl\"><span class=\"nt\">name</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l\">lznauy</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\"></span><span class=\"nt\">url</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l\">https://lznauy.cn/</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\"></span><span class=\"nt\">avatar</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l\">https://cn.cravatar.com/avatar/3f33778a3ad85c6147059bdbca8aab6c?s=240&amp;d=mp</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\"></span><span class=\"nt\">description</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l\">生之微欢，俄而感怀，奋勉有得，相携互舍，所谓幸福</span><span class=\"w\">\n</span></span></span></code></pre></div>",
@@ -6150,17 +6065,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
     },
     {
-      "title": "特种兵之江西南昌两日游",
-      "link": "https://chrison.cn/live/339.html",
-      "description": "游玩前一日，原本5点半下班的，5点就提前溜了，打车赶往无锡站，前往上海松江。和上海小伙伴碰面后，乘坐晚上22点14的绿皮火车，前往江西南昌。至于为什么选择绿皮火车？因为去南昌，高铁需要5个半小时...",
-      "pub_date": "2025-09-15T12:58:00+08:00",
-      "updated_at": "2025-09-15T12:58:00+08:00",
-      "author": "Chrison",
-      "site_name": "目的地-Destination",
-      "site_url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-    },
-    {
       "title": "辣椒土豆片炒肉",
       "link": "https://lznauy.cn/recipes/%E8%BE%A3%E6%A4%92%E5%9C%9F%E8%B1%86%E7%89%87%E7%82%92%E8%82%89/",
       "description": "<h2 id=\"制作步骤\">\n  制作步骤\n  <a class=\"heading-link\" href=\"#%e5%88%b6%e4%bd%9c%e6%ad%a5%e9%aa%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<ol>\n<li>\n<p><strong>食材处理</strong></p>\n<ul>\n<li>将土豆去皮，沿短轴切成片，放入清水中淘洗两遍，然后水中浸泡10分钟备用。</li>\n<li>辣椒去掉首尾，切成丝备用。</li>\n<li>蒜去皮，切成蒜末备用。</li>\n<li>五花肉切成片备用。</li>\n<li>生姜切几片备用。</li>\n</ul>\n</li>\n<li>\n<p><strong>煸炒</strong></p>\n<ul>\n<li>锅内直接下入五花肉煸炒出油，煸炒至微焦捞出备用</li>\n<li>继续使用煸出的油，放入土豆片微煎，煎至两边金黄后盛出备用</li>\n<li>放入生姜、蒜末和两勺郫县豆瓣酱，炒出香味，再放入五花肉、土豆片、杭椒，翻炒至杭椒熟透</li>\n</ul>\n</li>\n<li>\n<p><strong>调味</strong></p>\n<ul>\n<li>放入鸡精半勺，生抽一勺，白糖半勺，翻炒均匀即可出锅</li>\n</ul>\n</li>\n</ol>\n\n\n<h2 id=\"小贴士\">\n  小贴士\n  <a class=\"heading-link\" href=\"#%e5%b0%8f%e8%b4%b4%e5%a3%ab\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<ul>\n<li>土豆片要提前10分钟浸泡在水中，洗去淀粉，口感更加爽脆</li>\n<li>不要多放油，因为五花肉可以煸炒出油，否则油容易放多</li>\n<li>使用郫县豆瓣酱，最好不要用其他拌饭之类的辣椒酱代替，否则可能出很多油，味道还可能偏重</li>\n</ul>",
@@ -6436,17 +6340,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/jame.ico"
     },
     {
-      "title": "说说：又是吃~",
-      "link": "https://chrison.cn/live/337.html",
-      "description": "约朋友，中午吃完，晚上吃~{cat_gallery}{/cat_gallery}",
-      "pub_date": "2025-08-29T09:04:00+08:00",
-      "updated_at": "2025-08-29T09:04:00+08:00",
-      "author": "Chrison",
-      "site_name": "目的地-Destination",
-      "site_url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-    },
-    {
       "title": "从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验",
       "link": "https://veryjack.com/technique/realme_neo7_turbo/",
       "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6329 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/08/realme_cover-1024x576.webp\" width=\"1024\" /><p>作为一名长期的双持用户，我一直以来都同时使用 iPhone 和安卓手机。之前的安卓备用机是红米（K40 和 Note 11T Pro），但在升级到“残血版”的害怕OS后，频繁的掉帧和卡顿让体验变得非常糟糕。正好趁着“国补”的末班车，我以 1420 元左右的价格入手了 realme Neo7 Turbo，开启了我的 O 系手机初体验。在将它作为主力机深度使用近一个月后，我想分享一些主观感受。</p>\n<p><a href=\"https://veryjack.com/technique/realme_neo7_turbo/\">从 iPhone 16 到 realme Neo7 Turbo：双持用户的主观体验</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
@@ -6711,17 +6604,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
     },
     {
-      "title": "累~",
-      "link": "https://chrison.cn/live/336.html",
-      "description": "最近有点累~",
-      "pub_date": "2025-07-21T08:28:12+08:00",
-      "updated_at": "2025-07-21T08:28:12+08:00",
-      "author": "Chrison",
-      "site_name": "目的地-Destination",
-      "site_url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-    },
-    {
       "title": "LifeTimer - 记录生活、学习、工作",
       "link": "https://www.ihewro.com/archives/1372/",
       "description": "特色所有数据存储在你自己的服务器之上，非常适合有服务器的人macOS原生开发，体积小，性能好完美适配博客，支持在博客上显示小组件日/周/月视图轻松查阅自己的时间分配开源，随时可以自己继续开发隐藏...",
@@ -6958,6 +6840,12 @@
     {
       "name": "灰常记忆",
       "url": "https://bestcherish.com",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
+      "name": "目的地-Destination",
+      "url": "https://chrison.cn/",
       "feed_url": null,
       "reason": "no_feed_found"
     }

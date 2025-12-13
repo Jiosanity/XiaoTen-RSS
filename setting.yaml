@@ -38,6 +38,7 @@ SETTINGS_FRIENDS_LINKS:
     - ["小十博客", "https://www.xiaoten.com/", "https://www.xiaoten.com/avatar.png"] # 友链页没有此链接，属新增。
     - ["故事的程序猿", "https://blog.lichenghao.cn/", "https://cdn.xiaoten.com/friends/lichenghao.svg", "article/rss.xml"] # 因rss获取路径特殊，非默认后缀，因此特别声明。
     - ["旺东自留地", "https://wang618.cn/", "https://cdn.xiaoten.com/friends/wang618.gif", "rss.php"] # 因rss获取路径特殊，非默认后缀，因此特别声明。
+    - ["SUUS", "https://suus.me/", "https://cdn.xiaoten.com/friends/suus.svg", "atom.xml"] # 因rss无法自动获取，因此特别声明。
 
 
 
@@ -91,6 +92,7 @@ REQUEST_RETRIES: 1
 ## 重试退避系数（秒）
 
 RETRY_BACKOFF: 0.3
+
 
 
 

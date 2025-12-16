@@ -29,8 +29,6 @@ BLOCK_SITE:
 ## 反向屏蔽站点（正则表达式），如果为 true，则列表表示允许列表（白名单），即只有匹配的会被抓取；默认 false（黑名单行为）。
 BLOCK_SITE_REVERSE: false
 
-
-
 # 手动添加的友链链接列表
 ## 每个友链项格式为 [名称, 网址, 头像链接, 可选的 feed 后缀]
 SETTINGS_FRIENDS_LINKS:
@@ -39,8 +37,7 @@ SETTINGS_FRIENDS_LINKS:
     - ["故事的程序猿", "https://blog.lichenghao.cn/", "https://cdn.xiaoten.com/friends/lichenghao.svg", "article/rss.xml"] # 因rss获取路径特殊，非默认后缀，因此特别声明。
     - ["旺东自留地", "https://wang618.cn/", "https://cdn.xiaoten.com/friends/wang618.gif", "rss.php"] # 因rss获取路径特殊，非默认后缀，因此特别声明。
     - ["SUUS", "https://suus.me/", "https://cdn.xiaoten.com/friends/suus.svg", "atom.xml"] # 因rss无法自动获取，因此特别声明。
-
-
+    - ["竹炉山房", "https://synyan.cn/t/", "https://cdn.xiaoten.com/friends/synyan.webp", "feed/atom"] # 旅行漫记中另外一个专题
 
 # 综合设置
 ## 对于每个来源，首先会根据上述feed后缀进行尝试，如从友链页面获取的或在上述手动添加的列表中未填写的，则尝试下述常见的 feed 后缀，如无法获取，则视为该站点无 feed。
@@ -92,6 +89,7 @@ REQUEST_RETRIES: 1
 ## 重试退避系数（秒）
 
 RETRY_BACKOFF: 0.3
+
 
 
 

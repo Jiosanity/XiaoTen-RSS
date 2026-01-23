@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-01-23T09:40:32.393700+08:00",
+  "updated_at": "2026-01-23T14:33:54.271367+08:00",
   "total_sites": 27,
-  "total_posts": 352,
+  "total_posts": 353,
   "sites": [
     {
       "name": "王叨叨",
@@ -122,102 +122,6 @@
       ]
     },
     {
-      "name": "老孙博客",
-      "url": "https://www.imsun.org/",
-      "avatar": "https://cdn.xiaoten.com/friends/imsun.webp",
-      "feed_url": "https://www.imsun.org/feed",
-      "posts": [
-        {
-          "title": "装机计划 and 环境部署",
-          "link": "https://www.imsun.org/archives/1764.html",
-          "description": "<h2>起因</h2><p>最近由于内存涨价了, 我把x99平台的4条16G内存卖了, 回了一波血, 暂时不打算玩这个老旧的平台了</p><p>恰好手里头有张微星的Z590M 爆破弹, 准备换平台玩玩.</p><p>于是在拼夕夕斥巨资买了一颗i5 10600KF 花费 458..</p><p>内存就使用 几年前玩机 扔在抽屉里的 金百达 DDR4 2666MHZ 8G X2 开启XMP 可运行在3000MHZ.</p><p>硬盘还有两块铠侠 的 1T m.2 也是当年玩机买的 当时的价格貌似是599一块.</p><p>显卡使用百战老兵 AMD RX5600XT 6G 黑苹果免驱</p><p>网卡使用 BCM94360CD 黑苹果免驱 (15之前)</p><h2>配置</h2><table><thead><tr><th>名称</th><th>型号</th><th>价格</th><th>渠道</th></tr></thead><tbody><tr><td>主板</td><td>微星Z590M爆破弹</td><td>0</td><td>拆机</td></tr><tr><td>CPU</td><td>i5 10600KF</td><td>如今价格458</td><td>拼夕夕</td></tr><tr><td>内存</td><td>金百达 8g * 2</td><td>0</td><td>拼夕夕</td></tr><tr><td>硬盘</td><td>威刚 512G M2 SSD</td><td>0</td><td>淘宝</td></tr><tr><td>硬盘</td><td>三星 980 250G M2 SSD</td><td>0</td><td>拆机</td></tr><tr><td>网卡</td><td>BCM94360CD</td><td>0</td><td>淘宝</td></tr><tr><td>显卡</td><td>蓝宝石RX5600XT</td><td>0</td><td>拼夕夕</td></tr><tr><td>机箱</td><td>航嘉</td><td>0</td><td>淘宝</td></tr><tr><td>散热器</td><td>大水牛240水冷</td><td>0</td><td>京东</td></tr></tbody></table><ul><li>很多都是很多年前装机屯的 或者 用过的就不标注价格了</li></ul><h2>计划</h2><p>一块SSD安装WIN10 </p><p>另一块SSD安装macOS Monterey 双系统 Opencore引导.</p><h2>U盘启动盘</h2><p>装系统必备U盘,大约16G左右够用 32G为佳.</p><p>使用<code>Ventoy</code><br />下载地址 <a href=\"https://www.ventoy.net/en/download.html\">https://www.ventoy.net/en/download.html</a><br />制作好的启动盘可以引导各种iso镜像</p><p>此时我们就需要<code>winPE</code>镜像,我比较推荐的是WEPE <a href=\"https://www.wepe.com.cn/download.html\">https://www.wepe.com.cn/download.html</a><br />通过<code>微PE工具箱V2.3</code>生成<code>WePE_64_V2.3.iso</code><br /><code>Windows</code>安装镜像 推荐官网下载 <a href=\"https://www.microsoft.com/zh-cn/software-download/windows11\">https://www.microsoft.com/zh-cn/software-download/windows11</a><br />如果需要Linux也可以下载<code>Ubuntu</code> <code>Debian</code> 等 放入制作好的U盘中,盘符默认为<code>ventoy</code></p><h2>安装Windows</h2><p>把U盘启动项作为第一启动项 </p><p>进入<code>Ventoy</code>的引导界面,选择<code>WePE_64_V2.3.iso</code>,进入<code>winPE</code></p><p>使用<code>Diskgenius</code>删除整个硬盘的所有分区 保存 右键点击 该硬盘 转为GPT分区,如果已经是GPT分区跳过此步骤</p><p>新建<code>ESP</code>分区 大约 300MB 作为EFI引导</p><p>新建分区 大约256G 作为Windows安装分区</p><p>新建分区 剩余空间 作为软件安装分区 保存</p><p>使用<code>WINSETUP</code>来安装</p><p>镜像选择 下载好的官方镜像 ESP分区选择创建好的 ESP分区</p><p>C盘选择 创建的256G分区</p><p>点击安装 完成后重启 即完成安装部分</p><h2>激活WINDOWS</h2><p>我使用的是批量激活码KMS激活,大概半年需要激活一次,使用NAS搭建的KMS服务器<br />Docker镜像 使用<code>jkjoy/kms</code> 映射 1688 8080 端口</p><p>顺便激活<code>Office</code>全家桶,使用 <code>Office tool plus</code> <a href=\"https://otp.landian.vip/zh-cn/\">https://otp.landian.vip/zh-cn/</a></p><p>主打一个不花钱</p><h2>引导</h2><p>使用开源项目 <a href=\"https://github.com/lzhoang2801/OpCore-Simplify\">https://github.com/lzhoang2801/OpCore-Simplify</a></p><p>在<code>windows</code> 下 挂上代理 安装好<code>Python</code>环境</p><pre><code>git clone https://github.com/lzhoang2801/OpCore-Simplify\ncd OpCore-Simplify\npython OpCore-Simplify.py</code></pre><p>根据顺序选择 自动等待下载 并生成opencore引导的EFI文件</p><h2>安装macOS</h2><p>安装就十分简单了,选择下载镜像</p><p>网络上有很多制作好的原版镜像dmg格式</p><p>使用<a href=\"https://etcher.balena.io/\">Balena etcher</a> 烧录U盘, <br />使用<code>Diskgenius</code>打开U盘的EFI分区把生成好的引导文件复制进去.</p><p>重启电脑选择 U盘为第一启动项</p><p>即可顺利进入安装界面.</p><p><img alt=\"截屏2025-12-27 23.56.22.png\" src=\"https://img.imsun.org/2025/12/1090031260.png\" title=\"截屏2025-12-27 23.56.22.png\" /></p><h2>补丁</h2><p>由于macOs 14 以后的系统已经不支持原本免驱的网卡,所以需要使用打补丁的方式来驱动无线网卡</p><p><a href=\"https://github.com/laobamac/OCLP-Mod\">https://github.com/laobamac/OCLP-Mod</a></p><p>此项目也可以给集显驱动和声卡驱动打补丁<br /><img alt=\"截屏2025-12-27 23.58.41.png\" src=\"https://img.imsun.org/2025/12/4107869926.png\" title=\"截屏2025-12-27 23.58.41.png\" /></p><h2>常用环境</h2><p>首先安装brew [article id=\"338\"]</p><p>但是奇怪的是使用<code>brew</code>不能正常安装<code>nodejs</code>，一直报错</p><pre><code>Error: An exception occurred within a child process:\n  FormulaUnavailableError: No available formula with the name &quot;formula.jws.json&quot;.</code></pre><p>所以使用<code>nvm</code>来安装</p><p>先安装<code>nvm</code></p><pre><code class=\"lang-bash\">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\n\\. &quot;$HOME/.nvm/nvm.sh&quot;</code></pre><p>安装<code>nodejs</code> 24.12</p><pre><code class=\"lang-bash\">nvm install 24</code></pre><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-12-20T11:57:00+08:00",
-          "updated_at": "2025-12-20T11:57:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "一个基于AI的Typecho辅助生成插件 AIHelper",
-          "link": "https://www.imsun.org/archives/1763.html",
-          "description": "<h2>功能</h2><p>基于AI实现 slug/摘要/标签提取/文章内容生成 等功能<br />插件设置可以自定义提示词,根据你的需要生成相关内容</p><h2>下载</h2><p>[download file='AIHelper_NnneT.tar.gz' size='16.5kb']<a href=\"https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz\">https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz</a>[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-12-03T03:50:00+08:00",
-          "updated_at": "2025-12-03T03:50:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "修复Typecho UploadPlugin插件在1.3.0中的上传问题",
-          "link": "https://www.imsun.org/archives/1762.html",
-          "description": "<p>Typecho 1.2中正常使用的UploadPlugin插件在 1.3 beta中无法正常的上传主题和插件了 非常的不方便</p><p>于是修复了上传的问题</p><p>下载地址放在下面 自取</p><p>[download file='UploadPlugin.zip' size='7.5KB']<a href=\"https://file.imsun.org/upload/2025-11/UploadPlugin%20\">https://file.imsun.org/upload/2025-11/UploadPlugin%20</a>(1).zip[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-11-24T09:20:00+08:00",
-          "updated_at": "2025-11-24T09:20:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "规则",
-          "link": "https://www.imsun.org/archives/1761.html",
-          "description": "<p>这制订规则的人当真是有着高高在上的傲慢.</p><p>遵守规则的我反而陷入了困境之中.</p><p>不知道为何我这个域名现在被腾讯拉入了黑名单,连带着使用了腾讯安全数据的小米手机也会提示危险</p><p><img alt=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" src=\"https://img.imsun.org/2025/11/3251615497.jpg\" title=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" /></p><p>我不理解,我曾经申诉过几次,有时候好一段时间,然后就又红了.</p><p>在不明真相的人眼中 这无异于败坏了我的人品.</p><p>实在不行就换个域名重来过..</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-11-14T07:14:00+08:00",
-          "updated_at": "2025-11-14T07:14:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "&quot;套娃&quot;",
-          "link": "https://www.imsun.org/archives/1759.html",
-          "description": "<p>因为想用Cloudflare的Workers 和 D1 部署一个完全仿照Wordpress Rest API 的博客后端</p><p>所以 用AI糊了一个项目 </p><p><a href=\"https://github.com/jkjoy/cfblog\">https://github.com/jkjoy/cfblog</a></p><p>为了能使用这个后端 所以就又糊了一个基于vue3的前端 仿 Akina 风格</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-akina\">https://github.com/jkjoy/cfblog-theme-akina</a></p><p>同时又仿hugo主题paper 糊了一个Astro 的前端</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-paper\">https://github.com/jkjoy/cfblog-theme-paper</a></p><p>为了让这个主题能同时兼容wordpress 和 typecho</p><p>于是我又开了一个<br /><a href=\"https://github.com/jkjoy/Typecho-RestAPI\">https://github.com/jkjoy/Typecho-RestAPI</a></p><p>为了让wordpress 的API路由兼容更好</p><p>我又仿sunnylite主题 弄了个wordpress主题</p><p><a href=\"https://www.sgcd.net\">https://www.sgcd.net</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-11-09T06:58:58+08:00",
-          "updated_at": "2025-11-09T06:58:58+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "Typecho RSS 全文输出美化插件",
-          "link": "https://www.imsun.org/archives/1753.html",
-          "description": "<p>一个功能强大的 Typecho RSS 插件，支持全文输出和多种美化显示风格。</p><h2>功能特点</h2><ul><li><strong>全文输出</strong>: 支持输出文章全文或摘要</li><li><strong>多种主题</strong>: 提供 4 种精美样式主题供选择</li><li><strong>美化显示</strong>: 在浏览器中直接打开 RSS 链接时显示美观的界面</li><li><strong>灵活配置</strong>: 可自定义文章数量、输出内容、版权信息等</li><li><strong>响应式设计</strong>: 完美适配桌面和移动设备</li><li><strong>接管原生路由</strong>: 完全接管 Typecho 的 <code>/feed</code> 路由</li></ul><h2>安装方法</h2><ol><li><p>下载插件到 Typecho 插件目录：</p><pre><code>/usr/plugins/Rss/</code></pre></li><li><p>在 Typecho 后台启用插件：</p><ul><li>进入 <strong>控制台</strong> → <strong>插件</strong> → <strong>已安装插件</strong></li><li>找到 <strong>Rss</strong> 插件，点击 <strong>启用</strong></li></ul></li><li><p>配置插件（可选）：</p><ul><li>点击插件的 <strong>设置</strong> 按钮</li><li>根据需要调整配置选项</li></ul></li></ol><h2>配置选项</h2><h3>RSS 文章数量</h3><ul><li>设置 RSS 输出的文章数量</li><li>默认为 20 篇</li><li>设置为 0 则输出全部文章</li></ul><h3>RSS 内容输出</h3><ul><li><strong>输出全文</strong>: 在 RSS 中显示文章完整内容</li><li><strong>输出摘要</strong>: 仅显示文章摘要（前 200 字符）</li></ul><h3>RSS 样式美化</h3><ul><li><strong>启用</strong>: 在浏览器中访问时显示美化界面</li><li><strong>禁用</strong>: 输出纯 XML 格式</li></ul><h3>样式主题</h3><p>插件提供 4 种不同风格的主题供选择：</p><ol><li><p><strong>渐变风格 (gradient)</strong> - 默认主题</p><ul><li>紫色渐变背景</li><li>现代感强，视觉冲击力强</li><li>卡片式布局，悬停动画</li><li>适合个人博客、创意类网站</li></ul></li><li><p><strong>简洁风格 (minimal)</strong></p><ul><li>黑白配色，简约设计</li><li>清爽干净，专注内容</li><li>类似报纸排版</li><li>适合技术博客、文字类内容</li></ul></li><li><p><strong>现代风格 (modern)</strong></p><ul><li>蓝色系商务风格</li><li>专业大气，层次分明</li><li>卡片阴影，渐变头部</li><li>适合企业博客、专业网站</li></ul></li><li><p><strong>暗黑风格 (dark)</strong></p><ul><li>深色主题，护眼舒适</li><li>GitHub 风格配色</li><li>自定义滚动条美化</li><li>适合夜间阅读、开发者</li></ul></li></ol><h3>版权信息</h3><ul><li>在每篇文章末尾添加自定义版权信息</li><li>支持 HTML 标签</li><li><p>示例：</p><pre><code class=\"lang-html\">&lt;p&gt;本文由 &lt;a href=&quot;https://example.com&quot;&gt;我的博客&lt;/a&gt; 原创发布&lt;/p&gt;\n&lt;p&gt;转载请注明出处&lt;/p&gt;</code></pre></li></ul><h2>使用方法</h2><p>启用插件后，可以通过以下 URL 访问 RSS：</p><h3>主要访问地址</h3><pre><code>https://你的域名/feed</code></pre><p>插件会自动接管 Typecho 原生的 <code>/feed</code> 路由，使用美化后的 RSS 输出。</p><h3>在 RSS 阅读器中订阅</h3><p>将上述任一地址复制到您的 RSS 阅读器（如 Feedly、Inoreader 等）中即可订阅。</p><h3>在浏览器中访问</h3><p>直接在浏览器中打开上述地址，将看到美化后的 RSS 页面。根据你在插件设置中选择的主题，会显示不同风格：</p><ul><li><strong>渐变风格</strong>: 紫色渐变背景 + 白色卡片</li><li><strong>简洁风格</strong>: 纯白背景 + 黑白排版</li><li><strong>现代风格</strong>: 蓝色渐变头部 + 灰白背景</li><li><strong>暗黑风格</strong>: 深色背景 + 蓝色点缀</li></ul><h2>主题样式预览</h2><h3>渐变风格 (Gradient)</h3><ul><li>视觉特点: 紫色渐变背景，白色圆角卡片</li><li>配色方案: <code>#667eea</code> → <code>#764ba2</code></li><li>适用场景: 个人博客、创意网站</li><li>设计元素: 悬停动画、阴影效果、圆角设计</li></ul><h3>简洁风格 (Minimal)</h3><ul><li>视觉特点: 黑白配色，线条分割</li><li>配色方案: <code>#000</code> + <code>#fff</code> + <code>#666</code></li><li>适用场景: 技术博客、专业内容</li><li>设计元素: 极简排版、下划线链接、报纸式布局</li></ul><h3>现代风格 (Modern)</h3><ul><li>视觉特点: 蓝色系商务风格</li><li>配色方案: <code>#0066cc</code> → <code>#0052a3</code></li><li>适用场景: 企业网站、专业机构</li><li>设计元素: 卡片悬停效果、徽章标签、渐变头部</li></ul><h3>暗黑风格 (Dark)</h3><ul><li>视觉特点: GitHub 式深色主题</li><li>配色方案: <code>#0d1117</code> + <code>#58a6ff</code></li><li>适用场景: 开发者博客、夜间阅读</li><li>设计元素: 自定义滚动条、蓝色链接、暗色卡片</li></ul><h2>特色功能</h2><h3>1. 多样化的主题风格</h3><ul><li>提供 4 种精心设计的样式主题</li><li>每种主题都有独特的视觉风格</li><li>可在后台随时切换，无需修改代码</li><li>所有主题均支持响应式设计</li></ul><h3>2. 完整的内容支持</h3><ul><li>支持 Markdown 自动解析</li><li>保留文章中的图片和格式</li><li>可添加自定义版权信息</li></ul><h3>3. 响应式设计</h3><ul><li>完美适配各种设备屏幕</li><li>移动端优化显示</li></ul><h3>4. 标准兼容</h3><ul><li>符合 RSS 2.0 规范</li><li>支持常见的 RSS 命名空间（content、dc、atom）</li><li>兼容主流 RSS 阅读器</li></ul><h3>5. 路由接管</h3><ul><li>完全接管 Typecho 原生的 <code>/feed</code> 路由</li><li>禁用插件后自动恢复原生功能</li><li>无缝替换，不影响现有订阅</li></ul><h2>文件结构</h2><pre><code>Rss/\n├── Plugin.php          # 插件主文件\n├── Action.php          # RSS 生成逻辑\n├── rss-gradient.xsl    # 渐变风格样式\n├── rss-minimal.xsl     # 简洁风格样式\n├── rss-modern.xsl      # 现代风格样式\n├── rss-dark.xsl        # 暗黑风格样式\n└── README.md           # 说明文档</code></pre><h2>技术说明</h2><h3>Plugin.php</h3><ul><li>插件主类，负责注册路由和配置项</li><li>定义插件激活/禁用逻辑</li><li>提供配置面板</li></ul><h3>Action.php</h3><ul><li>RSS 生成核心逻辑</li><li>从数据库查询文章</li><li>构建 RSS XML 输出</li><li>支持 Markdown 解析</li><li>根据配置动态加载样式文件</li></ul><h3>XSL 样式文件</h3><ul><li>4 个独立的 XSLT 样式表文件</li><li>将 XML 转换为美观的 HTML 页面</li><li>每个文件包含完整的 CSS 样式</li><li>互不干扰，易于定制和扩展</li></ul><h2>常见问题</h2><h3>Q: 启用插件后无法访问 RSS？</h3><p>A: 请检查您的 Typecho 是否开启了路由重写功能。</p><h3>Q: RSS 中图片无法显示？</h3><p>A: 请确保文章中的图片使用的是绝对路径。</p><h3>Q: 如何关闭样式美化？</h3><p>A: 在插件设置中将\"RSS 样式美化\"设置为\"禁用\"即可。</p><h3>Q: 可以自定义样式吗？</h3><p>A: 可以，直接修改 <code>rss.xsl</code> 文件中的 CSS 部分。</p><h2>版本历史</h2><h3>v1.0.0</h3><ul><li>初始版本发布</li><li>支持全文 RSS 输出</li><li>支持 XSL 样式美化</li><li>提供灵活的配置选项</li></ul><h2>许可证</h2><p>本插件遵循 MIT 许可证开源。</p><h2>反馈与支持</h2><p>如有问题或建议，欢迎通过以下方式反馈：</p><ul><li>提交 Issue</li><li>发送邮件</li><li>在博客留言</li></ul><h2>项目地址</h2><h2><a href=\"https://github.com/jkjoy/Typecho-Plugin-Rss\">https://github.com/jkjoy/Typecho-Plugin-Rss</a></h2><p><strong>享受优雅的 RSS 订阅体验！</strong></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-10-20T01:18:00+08:00",
-          "updated_at": "2025-10-20T01:18:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "Puock - 又一款Typecho主题",
-          "link": "https://www.imsun.org/archives/1752.html",
-          "description": "<h2>说明</h2><p>本主题移植自开源项目<br /><a href=\"https://github.com/Licoy/wordpress-theme-puock\">https://github.com/Licoy/wordpress-theme-puock</a><br />原项目为<code>WordPress</code>主题.</p><p>我觉得很酷 所以移植到了<code>Typecho</code> 平台.</p><h2>预览</h2><p>本站</p><h2>使用指南</h2><p>适用于<code>Typecho</code> 1.2.0 以上版本</p><p>[danger]注意事项[/danger] </p><p>部分功能需要使用插件<code>Puock</code>来实现<br />插件地址 <a href=\"https://github.com/jkjoy/typecho-plugin-puock\">Puock</a></p><h2>项目地址</h2><p><a href=\"https://github.com/jkjoy/Typecho-Theme-Puock\">https://github.com/jkjoy/Typecho-Theme-Puock</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-10-16T05:36:00+08:00",
-          "updated_at": "2025-10-16T05:36:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "解决部分云服务器内存爆满但SWAP占用为0的问题",
-          "link": "https://www.imsun.org/archives/1751.html",
-          "description": "<h2>问题</h2><p>在内存爆满几乎100%的情况下,开启了swap分区却占用一直为0,这种情况发生在阿里云 和 华为云 比较多.</p><h2>排查</h2><p>查看系统的 Swap 使用倾向（swappiness）,执行</p><pre><code class=\"lang-bash\">cat /proc/sys/vm/swappiness</code></pre><p>最小为0最大为100 数字越小代表使用倾向越低.</p><p>我的华为云服务器查询到的数值竟然为0. 这意味着云服务商根本就不打算让人使用swap.</p><h2>解决</h2><p>编辑配置</p><pre><code class=\"lang-bash\">sudo nano /etc/sysctl.conf</code></pre><p>找到</p><pre><code>vm.swappiness=</code></pre><p>把后面的数字改为<code>90</code><br />如果没有找到,也没关系,直接在最后添加</p><pre><code>vm.swappiness=90</code></pre><p>然后执行</p><pre><code class=\"lang-bash\">sudo sysctl -p</code></pre><p>可以生效了</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-08-09T09:27:00+08:00",
-          "updated_at": "2025-08-09T09:27:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        }
-      ]
-    },
-    {
       "name": "Jame",
       "url": "https://jame.work",
       "avatar": "https://cdn.xiaoten.com/friends/jame.ico",
@@ -226,7 +130,7 @@
         {
           "title": "今天晴天，淡蓝色的天空",
           "link": "https://jame.work/html/other/12r",
-          "description": "<p>今天晴天，淡蓝色的天空，站在楼的阴影中有种似曾相识的感觉，我记不得那是真实发生过还是曾经幻想的场景——初夏，早晨八九点，同样也是淡蓝色的天，或许要更蓝一些，同样站在两栋楼之间，未被阴影遮挡的墙壁晒着太阳，微风从中间吹过，到处都是绿色：绿色的爬墙虎、绿色草坪中的嫩芽，就连树叶的影子都是绿色的，一切微微晃动。十分舒适。</p>\n<p>刚从屋内走出，厚厚的衣服削弱了冬天寒风的威力，短暂地仿佛与夏风相似，可现在并没有爬墙虎，也不在初夏，与那段场景相似的只有两栋楼与蓝天，却依然勾起了回忆。</p>\n<p>为什么要说这件事情呢？因为现在的我与记忆或幻想中的我处在同一个状态下：舒适。而这就需要提到我真正想说的内容，李娟的《冬牧场》与《遥远的向日葵地》这两本书。</p>\n<p>我长期处于一种浮躁与不安之中，却说不清原因，哪怕少许日子能平静下来，紧接着又被打破，打破这种状态的不是别人，而是自己。同样我也不清楚平静下来的原因：莫名其妙地到来又莫名其妙地离开。被意义、存在、孤独、无趣等问题长久的困扰着，让我入睡困难，近一个月来睡眠很差，大多怪自己没有早睡，而没早睡的原因就要怪情绪。仿佛分裂成两个我，自己责怪情绪不好的我而非不早睡的我。我渴望平静，心里却一直翻起涛浪，不能实在地站在地面。</p>\n<p>已经挺长时间都没读书了。之前好几本书看的稀稀拉拉就扔在了桌上没再翻开过，哪读进去呢？</p>\n<p>昨日，机缘巧合下，我读到了李娟的《冬牧场》中的一段内容，我觉得好，我想去读。便读了。</p>\n<p>这本书是非虚构的，记录着她跟随游牧中发生的事情。内容不多，小半天就读完了。</p>\n<p>书中讲到人、动物、土地河流、生命和历史、忍耐与希望，读着读着我渐渐平静了下来，但这次不再是因为莫名其妙的原因，是因为书中的氛围、以幽默面对苦难的方式和文中无不透露出的可爱。</p>\n<p>紧接着又去读了《遥远的向日葵地》。这两本书的相似之处就在于：总觉得还没该结束的时候突然就结束了，以至于结束的段落根本不像结束的样子，让人措不及防、意犹未尽。但马上又想明白了，作者只是从生活中截取了一段，故事结束了？不，只是刚开始。</p>\n<br />\n<p>现在一个无比真实的事实就摆在眼前：我从这书中得到了平静，这也让我诧异于文字的力量——虽然很早就知道了。</p>\n<p>我想要问生命——曾经不断思考过、以长久的状态倒推出的一个问题。我从未思考的时候觉得活着好，说：“好好活”。当仔细思考了生命，察觉到“意义”，感到虚无或对存在本身巨大的困惑，那时我说死了和活着都可以，甚至更偏向死。而想明白了，或说释然了，即使认识到一切的空洞，我又回到开头说的：“好好活”。</p>\n<p>《遥远的向日葵地》中有一段：突然而至的激情涨满咽喉，却什么也说不出来。我便大声呼唤赛虎和丑丑。喊啊喊啊，又像在呼唤普天之下所有一去不复返的事物。又像在大声地恳求，大声地应许。孤独而自由地站在那里，大声地证明自己此时此刻的微弱存在。</p>\n<p>我也很想大声呼喊，不仅因为那段所说内容，也为生命的短暂，为长久缺席的平静呼喊。</p>\n<br />\n<p>写到这里我挠了挠头，看到指缝里夹着一根雪白的头发，真是奇怪，那么多黑发不掉偏偏掉了一根白的。</p>\n<p>这篇并不算解读或读后感，甚至连书籍推荐都算不上，只当做作久病成医的医生给同样身为患者的自己开的一张病例。</p>\n<p>后补，冬牧场内容挺多的，书到手后翻了翻后面有许多没看过的内容，找到Zlibrary发现下面评论说这版只有一部分，又换了一版继续读，现在还剩大约五分之一，有点舍不得。</p>",
+          "description": "<p>今天晴天，淡蓝色的天空，站在楼的阴影中有种似曾相识的感觉，我记不得那是真实发生过还是曾经幻想的场景——初夏，早晨八九点，同样也是淡蓝色的天，或许要更蓝一些，同样站在两栋楼之间，未被阴影遮挡的墙壁晒着太阳，微风从中间吹过，到处都是绿色：绿色的爬墙虎、绿色草坪中的嫩芽，就连树叶的影子都是绿色的，一切微微晃动。十分舒适。</p>\n<p>刚从屋内走出，厚厚的衣服削弱了冬天寒风的威力，短暂地仿佛与夏风相似，可现在并没有爬墙虎，也不在初夏，与那段场景相似的只有两栋楼与蓝天，却依然勾起了回忆。</p>\n<p>为什么要说这件事情呢？因为现在的我与记忆或幻想中的我处在同一个状态下：舒适。而这就需要提到我真正想说的内容，李娟的《冬牧场》与《遥远的向日葵地》这两本书。</p>\n<p>我长期处于一种浮躁与不安之中，却说不清原因，哪怕少许日子能平静下来，紧接着又被打破，打破这种状态的不是别人，而是自己。同样我也不清楚平静下来的原因：莫名其妙地到来又莫名其妙地离开。被意义、存在、孤独、无趣等问题长久的困扰着，让我入睡困难，近一个月来睡眠很差，大多怪自己没有早睡，而没早睡的原因就要怪情绪。仿佛分裂成两个我，自己责怪情绪不好的我而非不早睡的我。我渴望平静，心里却一直翻起涛浪，不能实在地站在地面。</p>\n<p>已经挺长时间都没读书了。之前好几本书看的稀稀拉拉就扔在了桌上没再翻开过，哪读进去呢？</p>\n<p>昨日，机缘巧合下，我读到了李娟的《冬牧场》中的一段内容，我觉得好，我想去读。便读了。</p>\n<p>这本书是非虚构的，记录着她跟随游牧中发生的事情。内容不多，小半天就读完了。</p>\n<p>书中讲到人、动物、土地河流（并没有河流，河流是《遥远的向日葵地》中的，记混了。）、生命和历史、忍耐与希望，读着读着我渐渐平静了下来，但这次不再是因为莫名其妙的原因，是因为书中的氛围、以幽默面对苦难的方式和文中无不透露出的可爱。</p>\n<p>紧接着又去读了《遥远的向日葵地》。这两本书的相似之处就在于：总觉得还没该结束的时候突然就结束了，以至于结束的段落根本不像结束的样子，让人措不及防、意犹未尽。但马上又想明白了，作者只是从生活中截取了一段，故事结束了？不，只是刚开始。</p>\n<br />\n<p>现在一个无比真实的事实就摆在眼前：我从这书中得到了平静，这也让我诧异于文字的力量——虽然很早就知道了。</p>\n<p>我想要问生命——曾经不断思考过、以长久的状态倒推出的一个问题。我从未思考的时候觉得活着好，说：“好好活”。当仔细思考了生命，察觉到“意义”，感到虚无或对存在本身巨大的困惑，那时我说死了和活着都可以，甚至更偏向死。而想明白了，或说释然了，即使认识到一切的空洞，我又回到开头说的：“好好活”。</p>\n<p>《遥远的向日葵地》中有一段：突然而至的激情涨满咽喉，却什么也说不出来。我便大声呼唤赛虎和丑丑。喊啊喊啊，又像在呼唤普天之下所有一去不复返的事物。又像在大声地恳求，大声地应许。孤独而自由地站在那里，大声地证明自己此时此刻的微弱存在。</p>\n<p>我也很想大声呼喊，不仅因为那段所说内容，也为生命的短暂，为长久缺席的平静呼喊。</p>\n<br />\n<p>写到这里我挠了挠头，看到指缝里夹着一根雪白的头发，真是奇怪，那么多黑发不掉偏偏掉了一根白的。</p>\n<p>这篇并不算解读或读后感，甚至连书籍推荐都算不上，只当做作久病成医的医生给同样身为患者的自己开的一张病例。</p>\n<br />\n<p>后补，冬牧场内容挺多的，书到手后翻了翻后面有许多没看过的内容，找到Zlibrary发现下面评论说这版只有一部分，又换了一版继续读，现在还剩大约五分之一，有点舍不得。</p>\n<p>再补，今天读完了冬牧场，但我前面所说的感觉依然成立，突然就结束了。心里有点空，怅然，好像丢了什么东西。</p>",
           "pub_date": "2026-01-20T00:00:00+08:00",
           "updated_at": "2026-01-20T00:00:00+08:00",
           "author": "Jame!",
@@ -236,7 +140,7 @@
         },
         {
           "title": "转身，我看到窗外纷飞的雪花",
-          "link": "https://jame.work/html/post/39",
+          "link": "https://jame.work/html/other/13r",
           "description": "<p>转身，我看到窗外纷飞的雪花。就那么突然地、轻轻地、自顾自地闯进日子。</p>\n<p>让我诧异的不仅是它们的出现，还有它们的姿态：朝天上飞去。仿佛楼下种满了如蒲公英般的棉花，熟透了，一阵风来带起。我与它们之间仅仅搁着一扇窗，趴近了瞧，感到一阵阵窗外渗进的寒气，我有些高兴能与雪花靠近到如此近的距离，可转念又想，我当然可以如此接近，比如下楼。</p>\n<p>可这是不一样的。我在几十米的高楼、温度适宜的屋子中，有着良好的视野，得以看到它们全貌而不受到寒冷的侵蚀，如此有种莫名的情绪，难以形容。只是一个悠闲的午后，我看到下起了雪，绝无更多。</p>\n<p>起初，雪花在窗外慢慢徘徊，从窗前路过朝天上飞去，似乎想要回到云里，明白了这种想法绝无实现的可能后，它们又仿佛在拖延，拖延着落地、接着凝结、最后消融。慢到以至于能看清眼前飘过每一朵雪花的形状，若紧盯某片雪花不放，转眼仿佛被拽进了茫茫雪海之中，迷失了自我。若纵观全局，虽说会眼花缭乱，却也感到充实。</p>\n<p>不一会，风变得急躁，无数白点渐渐变成了急促的白线，朝着地面飞射而去，一切都朦胧了，稍远处的地面与天空连接，让人分不出晴朗日子时那条明显的地平线，渐渐地，柏油路的颜色越发深沉，湿润了起来，楼下汽车上都盖上一层淡淡的白纱，像娇羞着等待晴天来揭开头纱的新娘。</p>\n<p>天色稍暗时，一切逐渐缓和，雪花又在窗外徘徊，我坐在窗前，时而感觉雪花好像落在了腿上。</p>",
           "pub_date": "2026-01-17T00:00:00+08:00",
           "updated_at": "2026-01-17T00:00:00+08:00",
@@ -446,129 +350,100 @@
       ]
     },
     {
-      "name": "黑石博客",
-      "url": "https://heson.me/",
-      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
-      "feed_url": "https://heson.me/feed",
+      "name": "老孙博客",
+      "url": "https://www.imsun.org/",
+      "avatar": "https://cdn.xiaoten.com/friends/imsun.webp",
+      "feed_url": "https://www.imsun.org/feed",
       "posts": [
         {
-          "title": "关于Windows11激活",
-          "link": "https://heson.me/dowhat/49.html",
-          "description": "蹲了2个月的电脑配件好价，这次双十一终于全部攒齐了，具体配置及价格详见➡️ 《我的电脑配置及外设【完结】》 在Windows官网上下了个多版本的Windows11，之前都喜欢安装专业版，但这次给...",
-          "pub_date": "2025-10-27T11:39:00+08:00",
-          "updated_at": "2025-10-27T11:39:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "装机计划 and 环境部署",
+          "link": "https://www.imsun.org/archives/1764.html",
+          "description": "<h2>起因</h2><p>最近由于内存涨价了, 我把x99平台的4条16G内存卖了, 回了一波血, 暂时不打算玩这个老旧的平台了</p><p>恰好手里头有张微星的Z590M 爆破弹, 准备换平台玩玩.</p><p>于是在拼夕夕斥巨资买了一颗i5 10600KF 花费 458..</p><p>内存就使用 几年前玩机 扔在抽屉里的 金百达 DDR4 2666MHZ 8G X2 开启XMP 可运行在3000MHZ.</p><p>硬盘还有两块铠侠 的 1T m.2 也是当年玩机买的 当时的价格貌似是599一块.</p><p>显卡使用百战老兵 AMD RX5600XT 6G 黑苹果免驱</p><p>网卡使用 BCM94360CD 黑苹果免驱 (15之前)</p><h2>配置</h2><table><thead><tr><th>名称</th><th>型号</th><th>价格</th><th>渠道</th></tr></thead><tbody><tr><td>主板</td><td>微星Z590M爆破弹</td><td>0</td><td>拆机</td></tr><tr><td>CPU</td><td>i5 10600KF</td><td>如今价格458</td><td>拼夕夕</td></tr><tr><td>内存</td><td>金百达 8g * 2</td><td>0</td><td>拼夕夕</td></tr><tr><td>硬盘</td><td>威刚 512G M2 SSD</td><td>0</td><td>淘宝</td></tr><tr><td>硬盘</td><td>三星 980 250G M2 SSD</td><td>0</td><td>拆机</td></tr><tr><td>网卡</td><td>BCM94360CD</td><td>0</td><td>淘宝</td></tr><tr><td>显卡</td><td>蓝宝石RX5600XT</td><td>0</td><td>拼夕夕</td></tr><tr><td>机箱</td><td>航嘉</td><td>0</td><td>淘宝</td></tr><tr><td>散热器</td><td>大水牛240水冷</td><td>0</td><td>京东</td></tr></tbody></table><ul><li>很多都是很多年前装机屯的 或者 用过的就不标注价格了</li></ul><h2>计划</h2><p>一块SSD安装WIN10 </p><p>另一块SSD安装macOS Monterey 双系统 Opencore引导.</p><h2>U盘启动盘</h2><p>装系统必备U盘,大约16G左右够用 32G为佳.</p><p>使用<code>Ventoy</code><br />下载地址 <a href=\"https://www.ventoy.net/en/download.html\">https://www.ventoy.net/en/download.html</a><br />制作好的启动盘可以引导各种iso镜像</p><p>此时我们就需要<code>winPE</code>镜像,我比较推荐的是WEPE <a href=\"https://www.wepe.com.cn/download.html\">https://www.wepe.com.cn/download.html</a><br />通过<code>微PE工具箱V2.3</code>生成<code>WePE_64_V2.3.iso</code><br /><code>Windows</code>安装镜像 推荐官网下载 <a href=\"https://www.microsoft.com/zh-cn/software-download/windows11\">https://www.microsoft.com/zh-cn/software-download/windows11</a><br />如果需要Linux也可以下载<code>Ubuntu</code> <code>Debian</code> 等 放入制作好的U盘中,盘符默认为<code>ventoy</code></p><h2>安装Windows</h2><p>把U盘启动项作为第一启动项 </p><p>进入<code>Ventoy</code>的引导界面,选择<code>WePE_64_V2.3.iso</code>,进入<code>winPE</code></p><p>使用<code>Diskgenius</code>删除整个硬盘的所有分区 保存 右键点击 该硬盘 转为GPT分区,如果已经是GPT分区跳过此步骤</p><p>新建<code>ESP</code>分区 大约 300MB 作为EFI引导</p><p>新建分区 大约256G 作为Windows安装分区</p><p>新建分区 剩余空间 作为软件安装分区 保存</p><p>使用<code>WINSETUP</code>来安装</p><p>镜像选择 下载好的官方镜像 ESP分区选择创建好的 ESP分区</p><p>C盘选择 创建的256G分区</p><p>点击安装 完成后重启 即完成安装部分</p><h2>激活WINDOWS</h2><p>我使用的是批量激活码KMS激活,大概半年需要激活一次,使用NAS搭建的KMS服务器<br />Docker镜像 使用<code>jkjoy/kms</code> 映射 1688 8080 端口</p><p>顺便激活<code>Office</code>全家桶,使用 <code>Office tool plus</code> <a href=\"https://otp.landian.vip/zh-cn/\">https://otp.landian.vip/zh-cn/</a></p><p>主打一个不花钱</p><h2>引导</h2><p>使用开源项目 <a href=\"https://github.com/lzhoang2801/OpCore-Simplify\">https://github.com/lzhoang2801/OpCore-Simplify</a></p><p>在<code>windows</code> 下 挂上代理 安装好<code>Python</code>环境</p><pre><code>git clone https://github.com/lzhoang2801/OpCore-Simplify\ncd OpCore-Simplify\npython OpCore-Simplify.py</code></pre><p>根据顺序选择 自动等待下载 并生成opencore引导的EFI文件</p><h2>安装macOS</h2><p>安装就十分简单了,选择下载镜像</p><p>网络上有很多制作好的原版镜像dmg格式</p><p>使用<a href=\"https://etcher.balena.io/\">Balena etcher</a> 烧录U盘, <br />使用<code>Diskgenius</code>打开U盘的EFI分区把生成好的引导文件复制进去.</p><p>重启电脑选择 U盘为第一启动项</p><p>即可顺利进入安装界面.</p><p><img alt=\"截屏2025-12-27 23.56.22.png\" src=\"https://img.imsun.org/2025/12/1090031260.png\" title=\"截屏2025-12-27 23.56.22.png\" /></p><h2>补丁</h2><p>由于macOs 14 以后的系统已经不支持原本免驱的网卡,所以需要使用打补丁的方式来驱动无线网卡</p><p><a href=\"https://github.com/laobamac/OCLP-Mod\">https://github.com/laobamac/OCLP-Mod</a></p><p>此项目也可以给集显驱动和声卡驱动打补丁<br /><img alt=\"截屏2025-12-27 23.58.41.png\" src=\"https://img.imsun.org/2025/12/4107869926.png\" title=\"截屏2025-12-27 23.58.41.png\" /></p><h2>常用环境</h2><p>首先安装brew [article id=\"338\"]</p><p>但是奇怪的是使用<code>brew</code>不能正常安装<code>nodejs</code>，一直报错</p><pre><code>Error: An exception occurred within a child process:\n  FormulaUnavailableError: No available formula with the name &quot;formula.jws.json&quot;.</code></pre><p>所以使用<code>nvm</code>来安装</p><p>先安装<code>nvm</code></p><pre><code class=\"lang-bash\">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\n\\. &quot;$HOME/.nvm/nvm.sh&quot;</code></pre><p>安装<code>nodejs</code> 24.12</p><pre><code class=\"lang-bash\">nvm install 24</code></pre><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-12-20T11:57:00+08:00",
+          "updated_at": "2025-12-20T11:57:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "记录一次memo的调用",
-          "link": "https://heson.me/dowhat/47.html",
-          "description": "基本不怎么在微信发朋友圈的我，但最喜欢在博客发动态。所以哔哔、闪念、说说、胶囊诸如此类的，是我博客必备的功能。奈何cuteen原生的闪念功能虽然简单，但就是太简单了，不能发图片。所以我决定把me...",
-          "pub_date": "2025-10-10T08:54:00+08:00",
-          "updated_at": "2025-10-10T08:54:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "一个基于AI的Typecho辅助生成插件 AIHelper",
+          "link": "https://www.imsun.org/archives/1763.html",
+          "description": "<h2>功能</h2><p>基于AI实现 slug/摘要/标签提取/文章内容生成 等功能<br />插件设置可以自定义提示词,根据你的需要生成相关内容</p><h2>下载</h2><p>[download file='AIHelper_NnneT.tar.gz' size='16.5kb']<a href=\"https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz\">https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz</a>[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-12-03T03:50:00+08:00",
+          "updated_at": "2025-12-03T03:50:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "在NAS上搭建私有云音乐",
-          "link": "https://heson.me/dowhat/35.html",
-          "description": "QQ音乐会员 我看谁还充，反正我是不充了。来看看下面这个方案：[card title=\"免费私有云音乐方案\" color=\"success\"]🎵下载：LX Music(洛雪音乐)：一款免费开源的...",
-          "pub_date": "2025-09-26T11:34:00+08:00",
-          "updated_at": "2025-09-26T11:34:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "修复Typecho UploadPlugin插件在1.3.0中的上传问题",
+          "link": "https://www.imsun.org/archives/1762.html",
+          "description": "<p>Typecho 1.2中正常使用的UploadPlugin插件在 1.3 beta中无法正常的上传主题和插件了 非常的不方便</p><p>于是修复了上传的问题</p><p>下载地址放在下面 自取</p><p>[download file='UploadPlugin.zip' size='7.5KB']<a href=\"https://file.imsun.org/upload/2025-11/UploadPlugin%20\">https://file.imsun.org/upload/2025-11/UploadPlugin%20</a>(1).zip[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-11-24T09:20:00+08:00",
+          "updated_at": "2025-11-24T09:20:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "天钡wtr pro 5825u上手体验",
-          "link": "https://heson.me/dowhat/33.html",
-          "description": "天钡wtr pro 5825u（物理机飞牛os）是我现在正在用的nas服务器。这个博客就搭在它上面。由来之前一直关注n150的nas消息，偶然一天问nas群友n150推荐机型：看了一下外观和配置...",
-          "pub_date": "2025-09-23T10:44:00+08:00",
-          "updated_at": "2025-09-23T10:44:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "规则",
+          "link": "https://www.imsun.org/archives/1761.html",
+          "description": "<p>这制订规则的人当真是有着高高在上的傲慢.</p><p>遵守规则的我反而陷入了困境之中.</p><p>不知道为何我这个域名现在被腾讯拉入了黑名单,连带着使用了腾讯安全数据的小米手机也会提示危险</p><p><img alt=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" src=\"https://img.imsun.org/2025/11/3251615497.jpg\" title=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" /></p><p>我不理解,我曾经申诉过几次,有时候好一段时间,然后就又红了.</p><p>在不明真相的人眼中 这无异于败坏了我的人品.</p><p>实在不行就换个域名重来过..</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-11-14T07:14:00+08:00",
+          "updated_at": "2025-11-14T07:14:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "深度思考：决定你命运的核心能力",
-          "link": "https://heson.me/life/25.html",
-          "description": "[card title=\"推荐理由\" color=\"info\"]真正改变命运的是独立、深刻地思考问题的能力。[/card]深度思考：决定你命运的核心能力看透本质与看不清本质的人，注定拥有不同的命...",
-          "pub_date": "2025-09-22T08:42:00+08:00",
-          "updated_at": "2025-09-22T08:42:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "&quot;套娃&quot;",
+          "link": "https://www.imsun.org/archives/1759.html",
+          "description": "<p>因为想用Cloudflare的Workers 和 D1 部署一个完全仿照Wordpress Rest API 的博客后端</p><p>所以 用AI糊了一个项目 </p><p><a href=\"https://github.com/jkjoy/cfblog\">https://github.com/jkjoy/cfblog</a></p><p>为了能使用这个后端 所以就又糊了一个基于vue3的前端 仿 Akina 风格</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-akina\">https://github.com/jkjoy/cfblog-theme-akina</a></p><p>同时又仿hugo主题paper 糊了一个Astro 的前端</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-paper\">https://github.com/jkjoy/cfblog-theme-paper</a></p><p>为了让这个主题能同时兼容wordpress 和 typecho</p><p>于是我又开了一个<br /><a href=\"https://github.com/jkjoy/Typecho-RestAPI\">https://github.com/jkjoy/Typecho-RestAPI</a></p><p>为了让wordpress 的API路由兼容更好</p><p>我又仿sunnylite主题 弄了个wordpress主题</p><p><a href=\"https://www.sgcd.net\">https://www.sgcd.net</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-11-09T06:58:58+08:00",
+          "updated_at": "2025-11-09T06:58:58+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "装修记——自装的150天",
-          "link": "https://heson.me/life/15.html",
-          "description": "第一次装修时，我把全部事情都交给了装修公司。每平米998元，总共花了二十多万，当时还以为占了便宜。刚装完的时候看着还行，颜色和材料都是自己选的。但现在回想起来，他们用的都是商家特供的渠道货，样式...",
-          "pub_date": "2025-09-11T09:14:00+08:00",
-          "updated_at": "2025-09-11T09:14:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "Typecho RSS 全文输出美化插件",
+          "link": "https://www.imsun.org/archives/1753.html",
+          "description": "<p>一个功能强大的 Typecho RSS 插件，支持全文输出和多种美化显示风格。</p><h2>功能特点</h2><ul><li><strong>全文输出</strong>: 支持输出文章全文或摘要</li><li><strong>多种主题</strong>: 提供 4 种精美样式主题供选择</li><li><strong>美化显示</strong>: 在浏览器中直接打开 RSS 链接时显示美观的界面</li><li><strong>灵活配置</strong>: 可自定义文章数量、输出内容、版权信息等</li><li><strong>响应式设计</strong>: 完美适配桌面和移动设备</li><li><strong>接管原生路由</strong>: 完全接管 Typecho 的 <code>/feed</code> 路由</li></ul><h2>安装方法</h2><ol><li><p>下载插件到 Typecho 插件目录：</p><pre><code>/usr/plugins/Rss/</code></pre></li><li><p>在 Typecho 后台启用插件：</p><ul><li>进入 <strong>控制台</strong> → <strong>插件</strong> → <strong>已安装插件</strong></li><li>找到 <strong>Rss</strong> 插件，点击 <strong>启用</strong></li></ul></li><li><p>配置插件（可选）：</p><ul><li>点击插件的 <strong>设置</strong> 按钮</li><li>根据需要调整配置选项</li></ul></li></ol><h2>配置选项</h2><h3>RSS 文章数量</h3><ul><li>设置 RSS 输出的文章数量</li><li>默认为 20 篇</li><li>设置为 0 则输出全部文章</li></ul><h3>RSS 内容输出</h3><ul><li><strong>输出全文</strong>: 在 RSS 中显示文章完整内容</li><li><strong>输出摘要</strong>: 仅显示文章摘要（前 200 字符）</li></ul><h3>RSS 样式美化</h3><ul><li><strong>启用</strong>: 在浏览器中访问时显示美化界面</li><li><strong>禁用</strong>: 输出纯 XML 格式</li></ul><h3>样式主题</h3><p>插件提供 4 种不同风格的主题供选择：</p><ol><li><p><strong>渐变风格 (gradient)</strong> - 默认主题</p><ul><li>紫色渐变背景</li><li>现代感强，视觉冲击力强</li><li>卡片式布局，悬停动画</li><li>适合个人博客、创意类网站</li></ul></li><li><p><strong>简洁风格 (minimal)</strong></p><ul><li>黑白配色，简约设计</li><li>清爽干净，专注内容</li><li>类似报纸排版</li><li>适合技术博客、文字类内容</li></ul></li><li><p><strong>现代风格 (modern)</strong></p><ul><li>蓝色系商务风格</li><li>专业大气，层次分明</li><li>卡片阴影，渐变头部</li><li>适合企业博客、专业网站</li></ul></li><li><p><strong>暗黑风格 (dark)</strong></p><ul><li>深色主题，护眼舒适</li><li>GitHub 风格配色</li><li>自定义滚动条美化</li><li>适合夜间阅读、开发者</li></ul></li></ol><h3>版权信息</h3><ul><li>在每篇文章末尾添加自定义版权信息</li><li>支持 HTML 标签</li><li><p>示例：</p><pre><code class=\"lang-html\">&lt;p&gt;本文由 &lt;a href=&quot;https://example.com&quot;&gt;我的博客&lt;/a&gt; 原创发布&lt;/p&gt;\n&lt;p&gt;转载请注明出处&lt;/p&gt;</code></pre></li></ul><h2>使用方法</h2><p>启用插件后，可以通过以下 URL 访问 RSS：</p><h3>主要访问地址</h3><pre><code>https://你的域名/feed</code></pre><p>插件会自动接管 Typecho 原生的 <code>/feed</code> 路由，使用美化后的 RSS 输出。</p><h3>在 RSS 阅读器中订阅</h3><p>将上述任一地址复制到您的 RSS 阅读器（如 Feedly、Inoreader 等）中即可订阅。</p><h3>在浏览器中访问</h3><p>直接在浏览器中打开上述地址，将看到美化后的 RSS 页面。根据你在插件设置中选择的主题，会显示不同风格：</p><ul><li><strong>渐变风格</strong>: 紫色渐变背景 + 白色卡片</li><li><strong>简洁风格</strong>: 纯白背景 + 黑白排版</li><li><strong>现代风格</strong>: 蓝色渐变头部 + 灰白背景</li><li><strong>暗黑风格</strong>: 深色背景 + 蓝色点缀</li></ul><h2>主题样式预览</h2><h3>渐变风格 (Gradient)</h3><ul><li>视觉特点: 紫色渐变背景，白色圆角卡片</li><li>配色方案: <code>#667eea</code> → <code>#764ba2</code></li><li>适用场景: 个人博客、创意网站</li><li>设计元素: 悬停动画、阴影效果、圆角设计</li></ul><h3>简洁风格 (Minimal)</h3><ul><li>视觉特点: 黑白配色，线条分割</li><li>配色方案: <code>#000</code> + <code>#fff</code> + <code>#666</code></li><li>适用场景: 技术博客、专业内容</li><li>设计元素: 极简排版、下划线链接、报纸式布局</li></ul><h3>现代风格 (Modern)</h3><ul><li>视觉特点: 蓝色系商务风格</li><li>配色方案: <code>#0066cc</code> → <code>#0052a3</code></li><li>适用场景: 企业网站、专业机构</li><li>设计元素: 卡片悬停效果、徽章标签、渐变头部</li></ul><h3>暗黑风格 (Dark)</h3><ul><li>视觉特点: GitHub 式深色主题</li><li>配色方案: <code>#0d1117</code> + <code>#58a6ff</code></li><li>适用场景: 开发者博客、夜间阅读</li><li>设计元素: 自定义滚动条、蓝色链接、暗色卡片</li></ul><h2>特色功能</h2><h3>1. 多样化的主题风格</h3><ul><li>提供 4 种精心设计的样式主题</li><li>每种主题都有独特的视觉风格</li><li>可在后台随时切换，无需修改代码</li><li>所有主题均支持响应式设计</li></ul><h3>2. 完整的内容支持</h3><ul><li>支持 Markdown 自动解析</li><li>保留文章中的图片和格式</li><li>可添加自定义版权信息</li></ul><h3>3. 响应式设计</h3><ul><li>完美适配各种设备屏幕</li><li>移动端优化显示</li></ul><h3>4. 标准兼容</h3><ul><li>符合 RSS 2.0 规范</li><li>支持常见的 RSS 命名空间（content、dc、atom）</li><li>兼容主流 RSS 阅读器</li></ul><h3>5. 路由接管</h3><ul><li>完全接管 Typecho 原生的 <code>/feed</code> 路由</li><li>禁用插件后自动恢复原生功能</li><li>无缝替换，不影响现有订阅</li></ul><h2>文件结构</h2><pre><code>Rss/\n├── Plugin.php          # 插件主文件\n├── Action.php          # RSS 生成逻辑\n├── rss-gradient.xsl    # 渐变风格样式\n├── rss-minimal.xsl     # 简洁风格样式\n├── rss-modern.xsl      # 现代风格样式\n├── rss-dark.xsl        # 暗黑风格样式\n└── README.md           # 说明文档</code></pre><h2>技术说明</h2><h3>Plugin.php</h3><ul><li>插件主类，负责注册路由和配置项</li><li>定义插件激活/禁用逻辑</li><li>提供配置面板</li></ul><h3>Action.php</h3><ul><li>RSS 生成核心逻辑</li><li>从数据库查询文章</li><li>构建 RSS XML 输出</li><li>支持 Markdown 解析</li><li>根据配置动态加载样式文件</li></ul><h3>XSL 样式文件</h3><ul><li>4 个独立的 XSLT 样式表文件</li><li>将 XML 转换为美观的 HTML 页面</li><li>每个文件包含完整的 CSS 样式</li><li>互不干扰，易于定制和扩展</li></ul><h2>常见问题</h2><h3>Q: 启用插件后无法访问 RSS？</h3><p>A: 请检查您的 Typecho 是否开启了路由重写功能。</p><h3>Q: RSS 中图片无法显示？</h3><p>A: 请确保文章中的图片使用的是绝对路径。</p><h3>Q: 如何关闭样式美化？</h3><p>A: 在插件设置中将\"RSS 样式美化\"设置为\"禁用\"即可。</p><h3>Q: 可以自定义样式吗？</h3><p>A: 可以，直接修改 <code>rss.xsl</code> 文件中的 CSS 部分。</p><h2>版本历史</h2><h3>v1.0.0</h3><ul><li>初始版本发布</li><li>支持全文 RSS 输出</li><li>支持 XSL 样式美化</li><li>提供灵活的配置选项</li></ul><h2>许可证</h2><p>本插件遵循 MIT 许可证开源。</p><h2>反馈与支持</h2><p>如有问题或建议，欢迎通过以下方式反馈：</p><ul><li>提交 Issue</li><li>发送邮件</li><li>在博客留言</li></ul><h2>项目地址</h2><h2><a href=\"https://github.com/jkjoy/Typecho-Plugin-Rss\">https://github.com/jkjoy/Typecho-Plugin-Rss</a></h2><p><strong>享受优雅的 RSS 订阅体验！</strong></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-10-20T01:18:00+08:00",
+          "updated_at": "2025-10-20T01:18:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "那些年的友情链接，还在闪闪发光",
-          "link": "https://heson.me/life/10.html",
-          "description": "[audio src=\"https://heson.me/music/%E6%9E%97%E5%BF%97%E7%82%AB-%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%...",
-          "pub_date": "2025-09-06T10:20:00+08:00",
-          "updated_at": "2025-09-06T10:20:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "Puock - 又一款Typecho主题",
+          "link": "https://www.imsun.org/archives/1752.html",
+          "description": "<h2>说明</h2><p>本主题移植自开源项目<br /><a href=\"https://github.com/Licoy/wordpress-theme-puock\">https://github.com/Licoy/wordpress-theme-puock</a><br />原项目为<code>WordPress</code>主题.</p><p>我觉得很酷 所以移植到了<code>Typecho</code> 平台.</p><h2>预览</h2><p>本站</p><h2>使用指南</h2><p>适用于<code>Typecho</code> 1.2.0 以上版本</p><p>[danger]注意事项[/danger] </p><p>部分功能需要使用插件<code>Puock</code>来实现<br />插件地址 <a href=\"https://github.com/jkjoy/typecho-plugin-puock\">Puock</a></p><h2>项目地址</h2><p><a href=\"https://github.com/jkjoy/Typecho-Theme-Puock\">https://github.com/jkjoy/Typecho-Theme-Puock</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-10-16T05:36:00+08:00",
+          "updated_at": "2025-10-16T05:36:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "童年第一台急先锋电脑到如今NAS服务器的搭建",
-          "link": "https://heson.me/life/6.html",
-          "description": "童年的“折腾基因”启蒙第一台电脑的“开箱记忆”2001 年的夏天，拨号上网的“滴滴嘟嘟”声还在楼道里此起彼伏，Windows 98 的蓝天白云桌面是大多数家庭电脑的标配。五年级的我放学回家，看见...",
-          "pub_date": "2025-09-04T16:10:00+08:00",
-          "updated_at": "2025-09-04T16:10:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "战地风云 6 预购记：一场关于热爱与时光的独白​",
-          "link": "https://heson.me/life/4.html",
-          "description": "鼠标最终还是点下了 “[RainBowText]确认预购[/RainBowText]” 的按钮，屏幕上跳出《战地风云 6》魅影版的订单页面时，我竟莫名愣了几秒。指尖还残留着鼠标按键的微弱触感，心...",
-          "pub_date": "2025-09-02T11:16:00+08:00",
-          "updated_at": "2025-09-02T11:16:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "我的电脑配置及外设【完结】",
-          "link": "https://heson.me/dowhat/3.html",
-          "description": "需求首先确定显示器，红米g pro27u，一款4k160和1k300的双模显示器，带电视和小爱同学。因为我这台电脑是放在客厅岛台上的，所以电视功能可拓展客厅功能，同时全屋小米智能，非常有必要在电...",
-          "pub_date": "2025-09-02T07:15:00+08:00",
-          "updated_at": "2025-09-02T07:15:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "解决部分云服务器内存爆满但SWAP占用为0的问题",
+          "link": "https://www.imsun.org/archives/1751.html",
+          "description": "<h2>问题</h2><p>在内存爆满几乎100%的情况下,开启了swap分区却占用一直为0,这种情况发生在阿里云 和 华为云 比较多.</p><h2>排查</h2><p>查看系统的 Swap 使用倾向（swappiness）,执行</p><pre><code class=\"lang-bash\">cat /proc/sys/vm/swappiness</code></pre><p>最小为0最大为100 数字越小代表使用倾向越低.</p><p>我的华为云服务器查询到的数值竟然为0. 这意味着云服务商根本就不打算让人使用swap.</p><h2>解决</h2><p>编辑配置</p><pre><code class=\"lang-bash\">sudo nano /etc/sysctl.conf</code></pre><p>找到</p><pre><code>vm.swappiness=</code></pre><p>把后面的数字改为<code>90</code><br />如果没有找到,也没关系,直接在最后添加</p><pre><code>vm.swappiness=90</code></pre><p>然后执行</p><pre><code class=\"lang-bash\">sudo sysctl -p</code></pre><p>可以生效了</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-08-09T09:27:00+08:00",
+          "updated_at": "2025-08-09T09:27:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         }
       ]
-    },
-    {
-      "name": "MouT.me",
-      "url": "https://ghost.mout.me/",
-      "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
-      "feed_url": "https://ghost.mout.me/feed",
-      "posts": []
     },
     {
       "name": "手里有只毛毛虫",
@@ -685,6 +560,131 @@
           "site_name": "手里有只毛毛虫",
           "site_url": "https://www.krjojo.com/",
           "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+        }
+      ]
+    },
+    {
+      "name": "MouT.me",
+      "url": "https://ghost.mout.me/",
+      "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
+      "feed_url": "https://ghost.mout.me/feed",
+      "posts": []
+    },
+    {
+      "name": "黑石博客",
+      "url": "https://heson.me/",
+      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
+      "feed_url": "https://heson.me/feed",
+      "posts": [
+        {
+          "title": "关于Windows11激活",
+          "link": "https://heson.me/dowhat/49.html",
+          "description": "蹲了2个月的电脑配件好价，这次双十一终于全部攒齐了，具体配置及价格详见➡️ 《我的电脑配置及外设【完结】》 在Windows官网上下了个多版本的Windows11，之前都喜欢安装专业版，但这次给...",
+          "pub_date": "2025-10-27T11:39:00+08:00",
+          "updated_at": "2025-10-27T11:39:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "记录一次memo的调用",
+          "link": "https://heson.me/dowhat/47.html",
+          "description": "基本不怎么在微信发朋友圈的我，但最喜欢在博客发动态。所以哔哔、闪念、说说、胶囊诸如此类的，是我博客必备的功能。奈何cuteen原生的闪念功能虽然简单，但就是太简单了，不能发图片。所以我决定把me...",
+          "pub_date": "2025-10-10T08:54:00+08:00",
+          "updated_at": "2025-10-10T08:54:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "在NAS上搭建私有云音乐",
+          "link": "https://heson.me/dowhat/35.html",
+          "description": "QQ音乐会员 我看谁还充，反正我是不充了。来看看下面这个方案：[card title=\"免费私有云音乐方案\" color=\"success\"]🎵下载：LX Music(洛雪音乐)：一款免费开源的...",
+          "pub_date": "2025-09-26T11:34:00+08:00",
+          "updated_at": "2025-09-26T11:34:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "天钡wtr pro 5825u上手体验",
+          "link": "https://heson.me/dowhat/33.html",
+          "description": "天钡wtr pro 5825u（物理机飞牛os）是我现在正在用的nas服务器。这个博客就搭在它上面。由来之前一直关注n150的nas消息，偶然一天问nas群友n150推荐机型：看了一下外观和配置...",
+          "pub_date": "2025-09-23T10:44:00+08:00",
+          "updated_at": "2025-09-23T10:44:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "深度思考：决定你命运的核心能力",
+          "link": "https://heson.me/life/25.html",
+          "description": "[card title=\"推荐理由\" color=\"info\"]真正改变命运的是独立、深刻地思考问题的能力。[/card]深度思考：决定你命运的核心能力看透本质与看不清本质的人，注定拥有不同的命...",
+          "pub_date": "2025-09-22T08:42:00+08:00",
+          "updated_at": "2025-09-22T08:42:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "装修记——自装的150天",
+          "link": "https://heson.me/life/15.html",
+          "description": "第一次装修时，我把全部事情都交给了装修公司。每平米998元，总共花了二十多万，当时还以为占了便宜。刚装完的时候看着还行，颜色和材料都是自己选的。但现在回想起来，他们用的都是商家特供的渠道货，样式...",
+          "pub_date": "2025-09-11T09:14:00+08:00",
+          "updated_at": "2025-09-11T09:14:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "那些年的友情链接，还在闪闪发光",
+          "link": "https://heson.me/life/10.html",
+          "description": "[audio src=\"https://heson.me/music/%E6%9E%97%E5%BF%97%E7%82%AB-%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%...",
+          "pub_date": "2025-09-06T10:20:00+08:00",
+          "updated_at": "2025-09-06T10:20:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "童年第一台急先锋电脑到如今NAS服务器的搭建",
+          "link": "https://heson.me/life/6.html",
+          "description": "童年的“折腾基因”启蒙第一台电脑的“开箱记忆”2001 年的夏天，拨号上网的“滴滴嘟嘟”声还在楼道里此起彼伏，Windows 98 的蓝天白云桌面是大多数家庭电脑的标配。五年级的我放学回家，看见...",
+          "pub_date": "2025-09-04T16:10:00+08:00",
+          "updated_at": "2025-09-04T16:10:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "战地风云 6 预购记：一场关于热爱与时光的独白​",
+          "link": "https://heson.me/life/4.html",
+          "description": "鼠标最终还是点下了 “[RainBowText]确认预购[/RainBowText]” 的按钮，屏幕上跳出《战地风云 6》魅影版的订单页面时，我竟莫名愣了几秒。指尖还残留着鼠标按键的微弱触感，心...",
+          "pub_date": "2025-09-02T11:16:00+08:00",
+          "updated_at": "2025-09-02T11:16:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        },
+        {
+          "title": "我的电脑配置及外设【完结】",
+          "link": "https://heson.me/dowhat/3.html",
+          "description": "需求首先确定显示器，红米g pro27u，一款4k160和1k300的双模显示器，带电视和小爱同学。因为我这台电脑是放在客厅岛台上的，所以电视功能可拓展客厅功能，同时全屋小米智能，非常有必要在电...",
+          "pub_date": "2025-09-02T07:15:00+08:00",
+          "updated_at": "2025-09-02T07:15:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         }
       ]
     },
@@ -1210,6 +1210,17 @@
       "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg",
       "feed_url": "https://blog.lhasa.icu/rss.xml",
       "posts": [
+        {
+          "title": "民族劣根性",
+          "link": "https://blog.lhasa.icu/posts/life/2026-01-23-renminribao-erliubaozhi-erjiguan",
+          "description": "<p>今天聊聊所谓的“劣根性”，这是碰都不能碰的滑梯</p>\n<p>自西贝事件以来，某些“二流报纸”先后两次下场定调，蹭流量的自媒体紧跟实事充当“叼盘”</p>\n<p>群众一看，纷纷跳出来表态，生怕队站得慢了</p>\n<p>就好像你官媒一说话，事情就“定性”了？下面的人尾巴竖得比狗都直，太激进，太可怕了</p>\n<p>也是，宪法都随便改的国家，这确实算不了什么</p>\n<p>陈丹青曾对“原则问题”有过精辟的论述：</p>\n<blockquote>\n<p><strong>中国人是不讲原则的，这既是最坏的地方，也是最好的地方</strong></p>\n<p>哎，就什么东西他妈的“有用”，就拿来用。没用就打倒他，结果翻出来还有用，再拿出来</p>\n</blockquote>\n<p>说句难听的，民族劣根性</p>\n<p>话到嘴边打不住，我大抵是要挨骂了</p>\n<p>毕竟你在这个国家，你说他不好，他们就会说你是洋奴</p>\n<p>如果你说外国好，走狗是免不了的</p>\n<p>如果你说要入籍日本，汉奸的帽子也要扣上</p>\n<p>但是，若你闭口不言，悄悄入籍日本，那你就是成功人士</p>\n<p>若入了外籍，还说很爱国，恭喜你，摸到名利的门槛了</p>\n<p>若你把老婆孩子移居境外，自己却在国内教别人如何爱国，这最起码是个处长</p>\n<p>写到这，我心里很难受</p>\n<p>我爱我的国家，我为中国的悠久历史文化而自豪，我为唐宋八大家的文学思想而感到骄傲</p>\n<p>可如今，一切都变了，真的乱了套</p>\n<p>昧着良心说假话的人，生活的有滋有味</p>\n<p>而寻找真理追求真相的人，却苦不堪言，甚至还有失去自由的危险</p>\n<p>回望当年的庐山会议，多少人为了活命出卖同僚？</p>\n<p>有多少人，眼睁睁看着彭老总从成都被揪到北京批斗游街？一度打到瘫痪，囚于暗室，死不瞑目</p>\n<p>又有多少人，为了党的先进性和纯洁性，为了完成自我革命，而检举揭发与自己同床共枕几十年的爱人，甚至是自己的孩子</p>\n<blockquote>\n<p>有党性，没人性</p>\n</blockquote>\n<p>这句话，我曾在王局的节目评论区看到过</p>\n<p>而我认为，真正有党性的人，凤毛麟角</p>\n<p>如毛的秘书李锐、中央党校教授蔡霞等等，他们在坚持原则的同时，从不失有人性的光辉</p>\n<p>那些只剩党性、泯灭人性的东西，他们哪来的信仰？不过是借党性之名，道貌岸然地活着，却早已不是人了</p>\n<p>说到底，中国人是没有信仰的，都是为了活着，活着最要紧</p>\n<p>至于独立思考是什么，早已抛在脑后</p>\n<p>想一想，中国发展了千年文明，从先秦诸子百家到宋明理学，再到改革开放引进西方科学</p>\n<p>可回过头看，中国人连独立思考都未曾普及，尤其是批判性思维和质疑权威的能力，那是碰都不能碰的滑梯</p>\n<p>所以中国人就缺乏鉴赏能力，什么都是和稀泥，没有是非，没有标准</p>\n<p>就喜欢讲道德，讲儒家那点奴性思维，以至于，法治社会，人没有人格，法律没有尊严</p>\n<p>在这种环境下，人性都畸形了：</p>\n<p>一方面逆来顺受，自甘卑贱屈辱贫寒而不自知</p>\n<p>另一方面，一朝得势，便以贵凌贱以富凌贫，加倍压迫自己的同胞</p>\n<p>这种轮回，在史书里转了数千年，直到今天，天安门依然贴着“万岁”，纯奴性</p>\n<img alt=\"\" src=\"https://analytics.lhasa.icu/matomo.php?idsite=1&amp;rec=1&amp;action_name=%E6%B0%91%E6%97%8F%E5%8A%A3%E6%A0%B9%E6%80%A7&amp;url=https%3A%2F%2Fblog.lhasa.icu%2Fposts%2Flife%2F2026-01-23-renminribao-erliubaozhi-erjiguan\" style=\"border: 0; width: 0; height: 0;\" />",
+          "pub_date": "2026-01-23T02:05:00+08:00",
+          "updated_at": "2026-01-23T02:05:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
         {
           "title": "杨公堤，湖上客船",
           "link": "https://blog.lhasa.icu/posts/photo/2026-01-18-westlake-passenger-boat",
@@ -2106,124 +2117,6 @@
       ]
     },
     {
-      "name": "云心怀鹤",
-      "url": "https://bluehe.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/bluehe.png",
-      "feed_url": "https://bluehe.cn/feed",
-      "posts": [
-        {
-          "title": "竖图风景：从闲逛到成片",
-          "link": "https://bluehe.cn/archives/one-day-nanning-itinerary",
-          "description": "2025年12月28日，第一站：石化里，原南宁石油化工老厂区，经过改造后，是硬核工业遗迹变身潮流夜生活地标，在陆陆续续的车辆进去到加油站时，它的背后人山人海，咖啡店、工艺品、手艺制作等吸引着年轻...",
-          "pub_date": "2026-01-10T22:34:00+08:00",
-          "updated_at": "2026-01-10T22:34:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "Gist：2025最佳Folo替代品",
-          "link": "https://bluehe.cn/archives/gist-rss",
-          "description": "Tiny Tiny RSS、RSSAnt（蚁阅）、Folo、freshrs 以上都是我使用过的RSS阅读器，唯一喜欢还是Folo，但是由于网络原因，我常常打开不方便，很快就慢慢减少使用了，而是选...",
-          "pub_date": "2025-12-28T12:42:00+08:00",
-          "updated_at": "2025-12-28T12:42:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "2025：从草稿箱到收件箱",
-          "link": "https://bluehe.cn/archives/2025-written-here",
-          "description": "距离2026年还有11天，还没有完完全全写过年度总结类似的文章，或许自认为还没有那么多可描述的。从2016年开始认识虚拟主机，但真正的开始是2022年2月14日第一个ICP备案，到如今总计140...",
-          "pub_date": "2025-12-21T18:06:00+08:00",
-          "updated_at": "2025-12-21T18:06:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "骑楼里的南宁：复古滤镜",
-          "link": "https://bluehe.cn/archives/nanning-qilou-slow",
-          "description": "2025年11月22日，来到了骑楼建筑为主体的“三街两巷”，南宁骑楼文化陈列馆开放着，里面记录着南宁骑楼的老照片，但许多建筑破损并进行骑楼重新修复，许多都不已复存在。骑楼最大程度保留骑楼的外立面...",
-          "pub_date": "2025-12-21T14:31:00+08:00",
-          "updated_at": "2025-12-21T14:31:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "当城市开始变暖：逛青秀山菊展",
-          "link": "https://bluehe.cn/archives/qxs-chrys-photo",
-          "description": "12月14日，这是今年第三次来到青秀山了，受同学邀约，四人同行，两男两女一同骑着小电驴抵达青秀山东门，此时道路已经挤满了小车，而我们在两车之间，灵活的抵达停车点。入口处是三角梅，因为前几天下雨降...",
-          "pub_date": "2025-12-18T23:32:00+08:00",
-          "updated_at": "2025-12-18T23:32:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "回邮美学：“会说话的界面”",
-          "link": "https://bluehe.cn/archives/email-reply",
-          "description": "为什么开始留意“回复邮箱界面”？其实没什么宏大理由，就是2024年7月11日，我在整理收件箱的时候，突然意识到，我收到的每一封认真写的回复，都带着一种温度。如我们评论一样，结尾附了一个小表情，莫...",
-          "pub_date": "2025-11-30T20:58:00+08:00",
-          "updated_at": "2025-11-30T20:58:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "一条盘山路：把呼吸调成“大明山模式”",
-          "link": "https://bluehe.cn/archives/damingshan-mode",
-          "description": "这里的“大明山模式”源于在半山坡停靠在一侧的草堆旁，下车时随着风的飘然，我能清晰的闻到草的清甜味，我不断的说，这里草的味道好浓郁，总而言之：呼吸在自然里，这就是“大明山模式”。2025年11月1...",
-          "pub_date": "2025-11-23T14:12:00+08:00",
-          "updated_at": "2025-11-23T14:12:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "南宁视角：金茶花低语",
-          "link": "https://bluehe.cn/archives/jin-chahua-park",
-          "description": "2025年11月9日，我在抖音发布图文，询问了大家公园推荐，小赵同学留言：山茶花公园，实际公园命名则为：南宁市金茶花公园，我也觉得名字绕口，也曾叫过山茶花，念叨起来较为顺口，这也是南宁免费公园之...",
-          "pub_date": "2025-11-21T22:11:00+08:00",
-          "updated_at": "2025-11-21T22:11:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "南宁视角：横着读懂狮山",
-          "link": "https://bluehe.cn/archives/nanning-shishan-horizontal",
-          "description": "2025年10月18日，作为城市漫步者的一天，我来到南宁狮山公园，这也是我们小学的必选郊游地点。为什么说必选？因为其他的公园很远，烧烤也没有场地，而狮山公园正好满足条件，次次都来这儿烧烤。我在敲...",
-          "pub_date": "2025-11-15T21:37:00+08:00",
-          "updated_at": "2025-11-15T21:37:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "狮山公园竖图抢先版",
-          "link": "https://bluehe.cn/archives/shishan-vertical",
-          "description": "不是楼阁而是亭桥，为何称竹影桥？因狮山公园是以竹文化打造主题的园林，有许多珍贵的竹子品种，故因此而得名。[fotos][/fotos]",
-          "pub_date": "2025-11-08T22:04:00+08:00",
-          "updated_at": "2025-11-08T22:04:00+08:00",
-          "author": "寻鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        }
-      ]
-    },
-    {
       "name": "Evan",
       "url": "https://www.evan.xin/",
       "avatar": "https://cdn.xiaoten.com/friends/Evan.png",
@@ -2483,13 +2376,6 @@
           "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
         }
       ]
-    },
-    {
-      "name": "木木木木木",
-      "url": "https://immmmm.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/immmmm.png",
-      "feed_url": "https://immmmm.com/feed",
-      "posts": []
     },
     {
       "name": "lznauy的技术小屋",
@@ -3039,109 +2925,127 @@
       ]
     },
     {
-      "name": "从良未遂",
-      "url": "https://www.jeffer.xyz/",
-      "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg",
-      "feed_url": "https://www.jeffer.xyz/feed",
+      "name": "木木木木木",
+      "url": "https://immmmm.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/immmmm.png",
+      "feed_url": "https://immmmm.com/feed",
+      "posts": []
+    },
+    {
+      "name": "云心怀鹤",
+      "url": "https://bluehe.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/bluehe.png",
+      "feed_url": "https://bluehe.cn/feed",
       "posts": [
         {
-          "title": "博客年终总结 ：2025 Ai贯穿工作生活",
-          "link": "https://www.jeffer.xyz/cid/3256.html",
-          "description": "十二月了，2025年马上结束，今年博客应该是比前两年更新少很多。记录变少，话也变少。更多的时间都是在学习AI和编码，尽量让自己在这个时代向前狂奔的时候，紧紧的跟住时代的脚本。一、Ai 成为2025的信息漩涡，二、从运营人员向产品开发前进，三、2025工作的变化。",
-          "pub_date": "2025-12-02T08:18:31+08:00",
-          "updated_at": "2025-12-02T08:18:31+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "竖图风景：从闲逛到成片",
+          "link": "https://bluehe.cn/archives/one-day-nanning-itinerary",
+          "description": "2025年12月28日，第一站：石化里，原南宁石油化工老厂区，经过改造后，是硬核工业遗迹变身潮流夜生活地标，在陆陆续续的车辆进去到加油站时，它的背后人山人海，咖啡店、工艺品、手艺制作等吸引着年轻...",
+          "pub_date": "2026-01-10T22:34:00+08:00",
+          "updated_at": "2026-01-10T22:34:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "极简统计 支持本地部署PHP网站统计系统",
-          "link": "https://www.jeffer.xyz/cid/3221.html",
-          "description": "最近做了一个网站统计系统，叫 JefCounts 极简统计，博客分享一下。手里几个博客和小网站，一直想找个简单的统计工具。试过Google Analytics，功能是强大，但总觉得太复杂，国内面临一个问题，加载慢不上节点无法访问。百度统计也用过但是体验差，界面也不够清爽，还有一些统计系统的部署太麻烦了。",
-          "pub_date": "2025-11-18T09:13:31+08:00",
-          "updated_at": "2025-11-18T09:13:31+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "Gist：2025最佳Folo替代品",
+          "link": "https://bluehe.cn/archives/gist-rss",
+          "description": "Tiny Tiny RSS、RSSAnt（蚁阅）、Folo、freshrs 以上都是我使用过的RSS阅读器，唯一喜欢还是Folo，但是由于网络原因，我常常打开不方便，很快就慢慢减少使用了，而是选...",
+          "pub_date": "2025-12-28T12:42:00+08:00",
+          "updated_at": "2025-12-28T12:42:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "爸爸厨房：简单版糖炒栗子",
-          "link": "https://www.jeffer.xyz/cid/3207.html",
-          "description": "看到夕格的这篇文章《爸爸的厨房06：红糖馒头》。把手机里的照片也掏出来看看，正好更新一篇厨房文章。之前在博客写 [&#8230;]",
-          "pub_date": "2025-11-06T04:31:33+08:00",
-          "updated_at": "2025-11-06T04:31:33+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "2025：从草稿箱到收件箱",
+          "link": "https://bluehe.cn/archives/2025-written-here",
+          "description": "距离2026年还有11天，还没有完完全全写过年度总结类似的文章，或许自认为还没有那么多可描述的。从2016年开始认识虚拟主机，但真正的开始是2022年2月14日第一个ICP备案，到如今总计140...",
+          "pub_date": "2025-12-21T18:06:00+08:00",
+          "updated_at": "2025-12-21T18:06:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "使用工具为博客做一个体检 看看可以得几分？",
-          "link": "https://www.jeffer.xyz/cid/3188.html",
-          "description": "做了一个博客体检的小工具，大家都来试一试，看看你的博客可以得几分呢？我得了86分，检查到了一个得分最惨的博友是43分，也不冤枉，因为网站访问慢，favicon图标有问题，页面tdk有问题，好家伙各种基础问题，不过都不影响博客使用这些都是一些基础的问题。",
-          "pub_date": "2025-10-22T08:21:03+08:00",
-          "updated_at": "2025-10-22T08:21:03+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "骑楼里的南宁：复古滤镜",
+          "link": "https://bluehe.cn/archives/nanning-qilou-slow",
+          "description": "2025年11月22日，来到了骑楼建筑为主体的“三街两巷”，南宁骑楼文化陈列馆开放着，里面记录着南宁骑楼的老照片，但许多建筑破损并进行骑楼重新修复，许多都不已复存在。骑楼最大程度保留骑楼的外立面...",
+          "pub_date": "2025-12-21T14:31:00+08:00",
+          "updated_at": "2025-12-21T14:31:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "喜提浓密黑发 萎靡不振恢复好多",
-          "link": "https://www.jeffer.xyz/cid/3172.html",
-          "description": "之前带闺女熬夜比较多，头发里面都是白头发，我本来没有注意，还和理发师得瑟，你看我白头发就几根，一直熬夜都没事， [&#8230;]",
-          "pub_date": "2025-10-17T10:06:45+08:00",
-          "updated_at": "2025-10-17T10:06:45+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "当城市开始变暖：逛青秀山菊展",
+          "link": "https://bluehe.cn/archives/qxs-chrys-photo",
+          "description": "12月14日，这是今年第三次来到青秀山了，受同学邀约，四人同行，两男两女一同骑着小电驴抵达青秀山东门，此时道路已经挤满了小车，而我们在两车之间，灵活的抵达停车点。入口处是三角梅，因为前几天下雨降...",
+          "pub_date": "2025-12-18T23:32:00+08:00",
+          "updated_at": "2025-12-18T23:32:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "零后端搭建”博友圈”：用 FindBLOG.Net 的 rss.json 直接渲染友链时间线",
-          "link": "https://www.jeffer.xyz/cid/3169.html",
-          "description": "今年写了不少 WordPress 小工具，结果下载量最高的还是 RSS 相关的那几款。问了一圈，发现很多博主并 [&#8230;]",
-          "pub_date": "2025-10-17T09:08:12+08:00",
-          "updated_at": "2025-10-17T09:08:12+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "回邮美学：“会说话的界面”",
+          "link": "https://bluehe.cn/archives/email-reply",
+          "description": "为什么开始留意“回复邮箱界面”？其实没什么宏大理由，就是2024年7月11日，我在整理收件箱的时候，突然意识到，我收到的每一封认真写的回复，都带着一种温度。如我们评论一样，结尾附了一个小表情，莫...",
+          "pub_date": "2025-11-30T20:58:00+08:00",
+          "updated_at": "2025-11-30T20:58:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "艰难前进的痛苦",
-          "link": "https://www.jeffer.xyz/cid/3087.html",
-          "description": "想要做的事情很多，但是实际做出来事情很少。在做一件事情之前，我想会需要花费一周时间，结果是两周时间，我想这个数 [&#8230;]",
-          "pub_date": "2025-08-10T16:55:57+08:00",
-          "updated_at": "2025-08-10T16:55:57+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "一条盘山路：把呼吸调成“大明山模式”",
+          "link": "https://bluehe.cn/archives/damingshan-mode",
+          "description": "这里的“大明山模式”源于在半山坡停靠在一侧的草堆旁，下车时随着风的飘然，我能清晰的闻到草的清甜味，我不断的说，这里草的味道好浓郁，总而言之：呼吸在自然里，这就是“大明山模式”。2025年11月1...",
+          "pub_date": "2025-11-23T14:12:00+08:00",
+          "updated_at": "2025-11-23T14:12:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "记录一次产品8n国际化的翻车事件",
-          "link": "https://www.jeffer.xyz/cid/3081.html",
-          "description": "最近开发一款新产品，遇到了一个棘手的问题——语言国际化。 产品有100多个单品，需要支持七八种语言，每种语言的 [&#8230;]",
-          "pub_date": "2025-08-06T14:48:39+08:00",
-          "updated_at": "2025-08-06T14:48:39+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "南宁视角：金茶花低语",
+          "link": "https://bluehe.cn/archives/jin-chahua-park",
+          "description": "2025年11月9日，我在抖音发布图文，询问了大家公园推荐，小赵同学留言：山茶花公园，实际公园命名则为：南宁市金茶花公园，我也觉得名字绕口，也曾叫过山茶花，念叨起来较为顺口，这也是南宁免费公园之...",
+          "pub_date": "2025-11-21T22:11:00+08:00",
+          "updated_at": "2025-11-21T22:11:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         },
         {
-          "title": "恶臭红尘，不能自已",
-          "link": "https://www.jeffer.xyz/cid/3068.html",
-          "description": "今天读蒙需的《“灵性”与“童蒙”》，其中讲到很多经历，感觉不谋而合，或者是很多人的人生经历大同小异。灵性这个词 [&#8230;]",
-          "pub_date": "2025-08-04T06:37:49+08:00",
-          "updated_at": "2025-08-04T06:37:49+08:00",
-          "author": "Jeffer.Z",
-          "site_name": "从良未遂",
-          "site_url": "https://www.jeffer.xyz/",
-          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+          "title": "南宁视角：横着读懂狮山",
+          "link": "https://bluehe.cn/archives/nanning-shishan-horizontal",
+          "description": "2025年10月18日，作为城市漫步者的一天，我来到南宁狮山公园，这也是我们小学的必选郊游地点。为什么说必选？因为其他的公园很远，烧烤也没有场地，而狮山公园正好满足条件，次次都来这儿烧烤。我在敲...",
+          "pub_date": "2025-11-15T21:37:00+08:00",
+          "updated_at": "2025-11-15T21:37:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
+        },
+        {
+          "title": "狮山公园竖图抢先版",
+          "link": "https://bluehe.cn/archives/shishan-vertical",
+          "description": "不是楼阁而是亭桥，为何称竹影桥？因狮山公园是以竹文化打造主题的园林，有许多珍贵的竹子品种，故因此而得名。[fotos][/fotos]",
+          "pub_date": "2025-11-08T22:04:00+08:00",
+          "updated_at": "2025-11-08T22:04:00+08:00",
+          "author": "寻鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
         }
       ]
     },
@@ -3264,11 +3168,111 @@
       ]
     },
     {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
+      "name": "从良未遂",
+      "url": "https://www.jeffer.xyz/",
+      "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg",
+      "feed_url": "https://www.jeffer.xyz/feed",
+      "posts": [
+        {
+          "title": "博客年终总结 ：2025 Ai贯穿工作生活",
+          "link": "https://www.jeffer.xyz/cid/3256.html",
+          "description": "十二月了，2025年马上结束，今年博客应该是比前两年更新少很多。记录变少，话也变少。更多的时间都是在学习AI和编码，尽量让自己在这个时代向前狂奔的时候，紧紧的跟住时代的脚本。一、Ai 成为2025的信息漩涡，二、从运营人员向产品开发前进，三、2025工作的变化。",
+          "pub_date": "2025-12-02T08:18:31+08:00",
+          "updated_at": "2025-12-02T08:18:31+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "极简统计 支持本地部署PHP网站统计系统",
+          "link": "https://www.jeffer.xyz/cid/3221.html",
+          "description": "最近做了一个网站统计系统，叫 JefCounts 极简统计，博客分享一下。手里几个博客和小网站，一直想找个简单的统计工具。试过Google Analytics，功能是强大，但总觉得太复杂，国内面临一个问题，加载慢不上节点无法访问。百度统计也用过但是体验差，界面也不够清爽，还有一些统计系统的部署太麻烦了。",
+          "pub_date": "2025-11-18T09:13:31+08:00",
+          "updated_at": "2025-11-18T09:13:31+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "爸爸厨房：简单版糖炒栗子",
+          "link": "https://www.jeffer.xyz/cid/3207.html",
+          "description": "看到夕格的这篇文章《爸爸的厨房06：红糖馒头》。把手机里的照片也掏出来看看，正好更新一篇厨房文章。之前在博客写 [&#8230;]",
+          "pub_date": "2025-11-06T04:31:33+08:00",
+          "updated_at": "2025-11-06T04:31:33+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "使用工具为博客做一个体检 看看可以得几分？",
+          "link": "https://www.jeffer.xyz/cid/3188.html",
+          "description": "做了一个博客体检的小工具，大家都来试一试，看看你的博客可以得几分呢？我得了86分，检查到了一个得分最惨的博友是43分，也不冤枉，因为网站访问慢，favicon图标有问题，页面tdk有问题，好家伙各种基础问题，不过都不影响博客使用这些都是一些基础的问题。",
+          "pub_date": "2025-10-22T08:21:03+08:00",
+          "updated_at": "2025-10-22T08:21:03+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "喜提浓密黑发 萎靡不振恢复好多",
+          "link": "https://www.jeffer.xyz/cid/3172.html",
+          "description": "之前带闺女熬夜比较多，头发里面都是白头发，我本来没有注意，还和理发师得瑟，你看我白头发就几根，一直熬夜都没事， [&#8230;]",
+          "pub_date": "2025-10-17T10:06:45+08:00",
+          "updated_at": "2025-10-17T10:06:45+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "零后端搭建”博友圈”：用 FindBLOG.Net 的 rss.json 直接渲染友链时间线",
+          "link": "https://www.jeffer.xyz/cid/3169.html",
+          "description": "今年写了不少 WordPress 小工具，结果下载量最高的还是 RSS 相关的那几款。问了一圈，发现很多博主并 [&#8230;]",
+          "pub_date": "2025-10-17T09:08:12+08:00",
+          "updated_at": "2025-10-17T09:08:12+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "艰难前进的痛苦",
+          "link": "https://www.jeffer.xyz/cid/3087.html",
+          "description": "想要做的事情很多，但是实际做出来事情很少。在做一件事情之前，我想会需要花费一周时间，结果是两周时间，我想这个数 [&#8230;]",
+          "pub_date": "2025-08-10T16:55:57+08:00",
+          "updated_at": "2025-08-10T16:55:57+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "记录一次产品8n国际化的翻车事件",
+          "link": "https://www.jeffer.xyz/cid/3081.html",
+          "description": "最近开发一款新产品，遇到了一个棘手的问题——语言国际化。 产品有100多个单品，需要支持七八种语言，每种语言的 [&#8230;]",
+          "pub_date": "2025-08-06T14:48:39+08:00",
+          "updated_at": "2025-08-06T14:48:39+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        },
+        {
+          "title": "恶臭红尘，不能自已",
+          "link": "https://www.jeffer.xyz/cid/3068.html",
+          "description": "今天读蒙需的《“灵性”与“童蒙”》，其中讲到很多经历，感觉不谋而合，或者是很多人的人生经历大同小异。灵性这个词 [&#8230;]",
+          "pub_date": "2025-08-04T06:37:49+08:00",
+          "updated_at": "2025-08-04T06:37:49+08:00",
+          "author": "Jeffer.Z",
+          "site_name": "从良未遂",
+          "site_url": "https://www.jeffer.xyz/",
+          "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
+        }
+      ]
     },
     {
       "name": "winegrower",
@@ -3389,89 +3393,11 @@
       ]
     },
     {
-      "name": "枋柚梓",
-      "url": "https://inkss.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
-      "feed_url": "https://inkss.cn/feed",
-      "posts": [
-        {
-          "title": "米家中枢自动化极客版案例分享",
-          "link": "https://inkss.cn/post/430ddf15/",
-          "description": "本文分享米家中枢自动化极客版的多个应用案例，包括双开无线开关按键模拟、水暖毯睡眠模式模拟、动态延时关灯开灯、摄像机位置修正、传统设备接入米家等，还涉及离家和入睡状态的判断与联动控制，提供设计思路与实际应用参考。",
-          "pub_date": "2025-08-10T11:50:00+08:00",
-          "updated_at": "2026-01-19T10:00:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "极空间 NAS：SSH 高阶玩法实践",
-          "link": "https://inkss.cn/post/3af25609/",
-          "description": "以极空间 Z4Pro+ 性能版为例，其 CPU 为 N355，配备 16GB DDR5 内存。若仅作为 NAS 存储使用，性能略显冗余，因此是时候尝试开启 SSH，以探索更多玩法。",
-          "pub_date": "2025-09-11T13:40:00+08:00",
-          "updated_at": "2025-11-15T11:20:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
-          "link": "https://inkss.cn/post/bbad9898/",
-          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
-          "pub_date": "2025-11-12T12:48:00+08:00",
-          "updated_at": "2025-11-12T12:48:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
-          "link": "https://inkss.cn/post/4a1a172a/",
-          "description": "本文分享腾讯云 EdgeOne 三个月使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
-          "pub_date": "2025-10-21T10:00:00+08:00",
-          "updated_at": "2025-11-10T08:05:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "极空间防火墙配置避坑：IPv6 地址丢失（DHCPv6）教程",
-          "link": "https://inkss.cn/post/f2d9f349/",
-          "description": "极空间系统新增防火墙功能后，实现了设备级网络访问管控，为公网环境下的安全配置提供了更精细化的选项。然而，由于底层规则设置过于粗糙，实际配置过程中出现设备 IPv6 地址异常丢失的问题。",
-          "pub_date": "2025-09-05T15:07:00+08:00",
-          "updated_at": "2025-09-11T07:23:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "庐山旅行攻略",
-          "link": "https://inkss.cn/post/e600275d/",
-          "description": "2025 庐山 3 天 2 晚旅行攻略：交通住宿清单 + 东线西线游玩指南",
-          "pub_date": "2025-08-23T09:28:00+08:00",
-          "updated_at": "2025-08-23T09:28:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "1Panel + MariaDB 安装 Umami 报错实录：问题分析与解决方案",
-          "link": "https://inkss.cn/post/9eba8252/",
-          "description": "本文详细介绍在 1Panel 面板中使用 MariaDB 安装 Umami 的完整步骤，解决数据库连接失败和迁移报错问题，实现无 MySQL 数据只有 MariaDB 数据库的 Umami 安装。",
-          "pub_date": "2025-08-19T09:20:00+08:00",
-          "updated_at": "2025-08-19T09:20:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        }
-      ]
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
     },
     {
       "name": "Jack's Space",
@@ -3717,6 +3643,91 @@
           "site_name": "友人C",
           "site_url": "https://www.ihewro.com",
           "avatar": "https://cdn.xiaoten.com/friends/ihewro.jpg"
+        }
+      ]
+    },
+    {
+      "name": "枋柚梓",
+      "url": "https://inkss.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
+      "feed_url": "https://inkss.cn/feed",
+      "posts": [
+        {
+          "title": "米家中枢自动化极客版案例分享",
+          "link": "https://inkss.cn/post/430ddf15/",
+          "description": "本文分享米家中枢自动化极客版的多个应用案例，包括双开无线开关按键模拟、水暖毯睡眠模式模拟、动态延时关灯开灯、摄像机位置修正、传统设备接入米家等，还涉及离家和入睡状态的判断与联动控制，提供设计思路与实际应用参考。",
+          "pub_date": "2025-08-10T11:50:00+08:00",
+          "updated_at": "2026-01-19T10:00:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "极空间 NAS：SSH 高阶玩法实践",
+          "link": "https://inkss.cn/post/3af25609/",
+          "description": "以极空间 Z4Pro+ 性能版为例，其 CPU 为 N355，配备 16GB DDR5 内存。若仅作为 NAS 存储使用，性能略显冗余，因此是时候尝试开启 SSH，以探索更多玩法。",
+          "pub_date": "2025-09-11T13:40:00+08:00",
+          "updated_at": "2025-11-15T11:20:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
+          "link": "https://inkss.cn/post/bbad9898/",
+          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
+          "pub_date": "2025-11-12T12:48:00+08:00",
+          "updated_at": "2025-11-12T12:48:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
+          "link": "https://inkss.cn/post/4a1a172a/",
+          "description": "本文分享腾讯云 EdgeOne 三个月使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
+          "pub_date": "2025-10-21T10:00:00+08:00",
+          "updated_at": "2025-11-10T08:05:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "极空间防火墙配置避坑：IPv6 地址丢失（DHCPv6）教程",
+          "link": "https://inkss.cn/post/f2d9f349/",
+          "description": "极空间系统新增防火墙功能后，实现了设备级网络访问管控，为公网环境下的安全配置提供了更精细化的选项。然而，由于底层规则设置过于粗糙，实际配置过程中出现设备 IPv6 地址异常丢失的问题。",
+          "pub_date": "2025-09-05T15:07:00+08:00",
+          "updated_at": "2025-09-11T07:23:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "庐山旅行攻略",
+          "link": "https://inkss.cn/post/e600275d/",
+          "description": "2025 庐山 3 天 2 晚旅行攻略：交通住宿清单 + 东线西线游玩指南",
+          "pub_date": "2025-08-23T09:28:00+08:00",
+          "updated_at": "2025-08-23T09:28:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "1Panel + MariaDB 安装 Umami 报错实录：问题分析与解决方案",
+          "link": "https://inkss.cn/post/9eba8252/",
+          "description": "本文详细介绍在 1Panel 面板中使用 MariaDB 安装 Umami 的完整步骤，解决数据库连接失败和迁移报错问题，实现无 MySQL 数据只有 MariaDB 数据库的 Umami 安装。",
+          "pub_date": "2025-08-19T09:20:00+08:00",
+          "updated_at": "2025-08-19T09:20:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
         }
       ]
     },
@@ -4091,6 +4102,17 @@
   ],
   "all_posts": [
     {
+      "title": "民族劣根性",
+      "link": "https://blog.lhasa.icu/posts/life/2026-01-23-renminribao-erliubaozhi-erjiguan",
+      "description": "<p>今天聊聊所谓的“劣根性”，这是碰都不能碰的滑梯</p>\n<p>自西贝事件以来，某些“二流报纸”先后两次下场定调，蹭流量的自媒体紧跟实事充当“叼盘”</p>\n<p>群众一看，纷纷跳出来表态，生怕队站得慢了</p>\n<p>就好像你官媒一说话，事情就“定性”了？下面的人尾巴竖得比狗都直，太激进，太可怕了</p>\n<p>也是，宪法都随便改的国家，这确实算不了什么</p>\n<p>陈丹青曾对“原则问题”有过精辟的论述：</p>\n<blockquote>\n<p><strong>中国人是不讲原则的，这既是最坏的地方，也是最好的地方</strong></p>\n<p>哎，就什么东西他妈的“有用”，就拿来用。没用就打倒他，结果翻出来还有用，再拿出来</p>\n</blockquote>\n<p>说句难听的，民族劣根性</p>\n<p>话到嘴边打不住，我大抵是要挨骂了</p>\n<p>毕竟你在这个国家，你说他不好，他们就会说你是洋奴</p>\n<p>如果你说外国好，走狗是免不了的</p>\n<p>如果你说要入籍日本，汉奸的帽子也要扣上</p>\n<p>但是，若你闭口不言，悄悄入籍日本，那你就是成功人士</p>\n<p>若入了外籍，还说很爱国，恭喜你，摸到名利的门槛了</p>\n<p>若你把老婆孩子移居境外，自己却在国内教别人如何爱国，这最起码是个处长</p>\n<p>写到这，我心里很难受</p>\n<p>我爱我的国家，我为中国的悠久历史文化而自豪，我为唐宋八大家的文学思想而感到骄傲</p>\n<p>可如今，一切都变了，真的乱了套</p>\n<p>昧着良心说假话的人，生活的有滋有味</p>\n<p>而寻找真理追求真相的人，却苦不堪言，甚至还有失去自由的危险</p>\n<p>回望当年的庐山会议，多少人为了活命出卖同僚？</p>\n<p>有多少人，眼睁睁看着彭老总从成都被揪到北京批斗游街？一度打到瘫痪，囚于暗室，死不瞑目</p>\n<p>又有多少人，为了党的先进性和纯洁性，为了完成自我革命，而检举揭发与自己同床共枕几十年的爱人，甚至是自己的孩子</p>\n<blockquote>\n<p>有党性，没人性</p>\n</blockquote>\n<p>这句话，我曾在王局的节目评论区看到过</p>\n<p>而我认为，真正有党性的人，凤毛麟角</p>\n<p>如毛的秘书李锐、中央党校教授蔡霞等等，他们在坚持原则的同时，从不失有人性的光辉</p>\n<p>那些只剩党性、泯灭人性的东西，他们哪来的信仰？不过是借党性之名，道貌岸然地活着，却早已不是人了</p>\n<p>说到底，中国人是没有信仰的，都是为了活着，活着最要紧</p>\n<p>至于独立思考是什么，早已抛在脑后</p>\n<p>想一想，中国发展了千年文明，从先秦诸子百家到宋明理学，再到改革开放引进西方科学</p>\n<p>可回过头看，中国人连独立思考都未曾普及，尤其是批判性思维和质疑权威的能力，那是碰都不能碰的滑梯</p>\n<p>所以中国人就缺乏鉴赏能力，什么都是和稀泥，没有是非，没有标准</p>\n<p>就喜欢讲道德，讲儒家那点奴性思维，以至于，法治社会，人没有人格，法律没有尊严</p>\n<p>在这种环境下，人性都畸形了：</p>\n<p>一方面逆来顺受，自甘卑贱屈辱贫寒而不自知</p>\n<p>另一方面，一朝得势，便以贵凌贱以富凌贫，加倍压迫自己的同胞</p>\n<p>这种轮回，在史书里转了数千年，直到今天，天安门依然贴着“万岁”，纯奴性</p>\n<img alt=\"\" src=\"https://analytics.lhasa.icu/matomo.php?idsite=1&amp;rec=1&amp;action_name=%E6%B0%91%E6%97%8F%E5%8A%A3%E6%A0%B9%E6%80%A7&amp;url=https%3A%2F%2Fblog.lhasa.icu%2Fposts%2Flife%2F2026-01-23-renminribao-erliubaozhi-erjiguan\" style=\"border: 0; width: 0; height: 0;\" />",
+      "pub_date": "2026-01-23T02:05:00+08:00",
+      "updated_at": "2026-01-23T02:05:00+08:00",
+      "author": "",
+      "site_name": "游钓四方",
+      "site_url": "https://blog.lhasa.icu/",
+      "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+    },
+    {
       "title": "给兰空图床增加一个机器人登录提醒",
       "link": "https://xyzbz.cn/archives/1504/",
       "description": "无聊的功能之一，有需要的可以尝试一下，豆包帮忙写的，登录会触发机器人推送消息。1、增加注册事件与监听器路径/app/Providers/EventServiceProvider.php&lt;?...",
@@ -4170,7 +4192,7 @@
     {
       "title": "今天晴天，淡蓝色的天空",
       "link": "https://jame.work/html/other/12r",
-      "description": "<p>今天晴天，淡蓝色的天空，站在楼的阴影中有种似曾相识的感觉，我记不得那是真实发生过还是曾经幻想的场景——初夏，早晨八九点，同样也是淡蓝色的天，或许要更蓝一些，同样站在两栋楼之间，未被阴影遮挡的墙壁晒着太阳，微风从中间吹过，到处都是绿色：绿色的爬墙虎、绿色草坪中的嫩芽，就连树叶的影子都是绿色的，一切微微晃动。十分舒适。</p>\n<p>刚从屋内走出，厚厚的衣服削弱了冬天寒风的威力，短暂地仿佛与夏风相似，可现在并没有爬墙虎，也不在初夏，与那段场景相似的只有两栋楼与蓝天，却依然勾起了回忆。</p>\n<p>为什么要说这件事情呢？因为现在的我与记忆或幻想中的我处在同一个状态下：舒适。而这就需要提到我真正想说的内容，李娟的《冬牧场》与《遥远的向日葵地》这两本书。</p>\n<p>我长期处于一种浮躁与不安之中，却说不清原因，哪怕少许日子能平静下来，紧接着又被打破，打破这种状态的不是别人，而是自己。同样我也不清楚平静下来的原因：莫名其妙地到来又莫名其妙地离开。被意义、存在、孤独、无趣等问题长久的困扰着，让我入睡困难，近一个月来睡眠很差，大多怪自己没有早睡，而没早睡的原因就要怪情绪。仿佛分裂成两个我，自己责怪情绪不好的我而非不早睡的我。我渴望平静，心里却一直翻起涛浪，不能实在地站在地面。</p>\n<p>已经挺长时间都没读书了。之前好几本书看的稀稀拉拉就扔在了桌上没再翻开过，哪读进去呢？</p>\n<p>昨日，机缘巧合下，我读到了李娟的《冬牧场》中的一段内容，我觉得好，我想去读。便读了。</p>\n<p>这本书是非虚构的，记录着她跟随游牧中发生的事情。内容不多，小半天就读完了。</p>\n<p>书中讲到人、动物、土地河流、生命和历史、忍耐与希望，读着读着我渐渐平静了下来，但这次不再是因为莫名其妙的原因，是因为书中的氛围、以幽默面对苦难的方式和文中无不透露出的可爱。</p>\n<p>紧接着又去读了《遥远的向日葵地》。这两本书的相似之处就在于：总觉得还没该结束的时候突然就结束了，以至于结束的段落根本不像结束的样子，让人措不及防、意犹未尽。但马上又想明白了，作者只是从生活中截取了一段，故事结束了？不，只是刚开始。</p>\n<br />\n<p>现在一个无比真实的事实就摆在眼前：我从这书中得到了平静，这也让我诧异于文字的力量——虽然很早就知道了。</p>\n<p>我想要问生命——曾经不断思考过、以长久的状态倒推出的一个问题。我从未思考的时候觉得活着好，说：“好好活”。当仔细思考了生命，察觉到“意义”，感到虚无或对存在本身巨大的困惑，那时我说死了和活着都可以，甚至更偏向死。而想明白了，或说释然了，即使认识到一切的空洞，我又回到开头说的：“好好活”。</p>\n<p>《遥远的向日葵地》中有一段：突然而至的激情涨满咽喉，却什么也说不出来。我便大声呼唤赛虎和丑丑。喊啊喊啊，又像在呼唤普天之下所有一去不复返的事物。又像在大声地恳求，大声地应许。孤独而自由地站在那里，大声地证明自己此时此刻的微弱存在。</p>\n<p>我也很想大声呼喊，不仅因为那段所说内容，也为生命的短暂，为长久缺席的平静呼喊。</p>\n<br />\n<p>写到这里我挠了挠头，看到指缝里夹着一根雪白的头发，真是奇怪，那么多黑发不掉偏偏掉了一根白的。</p>\n<p>这篇并不算解读或读后感，甚至连书籍推荐都算不上，只当做作久病成医的医生给同样身为患者的自己开的一张病例。</p>\n<p>后补，冬牧场内容挺多的，书到手后翻了翻后面有许多没看过的内容，找到Zlibrary发现下面评论说这版只有一部分，又换了一版继续读，现在还剩大约五分之一，有点舍不得。</p>",
+      "description": "<p>今天晴天，淡蓝色的天空，站在楼的阴影中有种似曾相识的感觉，我记不得那是真实发生过还是曾经幻想的场景——初夏，早晨八九点，同样也是淡蓝色的天，或许要更蓝一些，同样站在两栋楼之间，未被阴影遮挡的墙壁晒着太阳，微风从中间吹过，到处都是绿色：绿色的爬墙虎、绿色草坪中的嫩芽，就连树叶的影子都是绿色的，一切微微晃动。十分舒适。</p>\n<p>刚从屋内走出，厚厚的衣服削弱了冬天寒风的威力，短暂地仿佛与夏风相似，可现在并没有爬墙虎，也不在初夏，与那段场景相似的只有两栋楼与蓝天，却依然勾起了回忆。</p>\n<p>为什么要说这件事情呢？因为现在的我与记忆或幻想中的我处在同一个状态下：舒适。而这就需要提到我真正想说的内容，李娟的《冬牧场》与《遥远的向日葵地》这两本书。</p>\n<p>我长期处于一种浮躁与不安之中，却说不清原因，哪怕少许日子能平静下来，紧接着又被打破，打破这种状态的不是别人，而是自己。同样我也不清楚平静下来的原因：莫名其妙地到来又莫名其妙地离开。被意义、存在、孤独、无趣等问题长久的困扰着，让我入睡困难，近一个月来睡眠很差，大多怪自己没有早睡，而没早睡的原因就要怪情绪。仿佛分裂成两个我，自己责怪情绪不好的我而非不早睡的我。我渴望平静，心里却一直翻起涛浪，不能实在地站在地面。</p>\n<p>已经挺长时间都没读书了。之前好几本书看的稀稀拉拉就扔在了桌上没再翻开过，哪读进去呢？</p>\n<p>昨日，机缘巧合下，我读到了李娟的《冬牧场》中的一段内容，我觉得好，我想去读。便读了。</p>\n<p>这本书是非虚构的，记录着她跟随游牧中发生的事情。内容不多，小半天就读完了。</p>\n<p>书中讲到人、动物、土地河流（并没有河流，河流是《遥远的向日葵地》中的，记混了。）、生命和历史、忍耐与希望，读着读着我渐渐平静了下来，但这次不再是因为莫名其妙的原因，是因为书中的氛围、以幽默面对苦难的方式和文中无不透露出的可爱。</p>\n<p>紧接着又去读了《遥远的向日葵地》。这两本书的相似之处就在于：总觉得还没该结束的时候突然就结束了，以至于结束的段落根本不像结束的样子，让人措不及防、意犹未尽。但马上又想明白了，作者只是从生活中截取了一段，故事结束了？不，只是刚开始。</p>\n<br />\n<p>现在一个无比真实的事实就摆在眼前：我从这书中得到了平静，这也让我诧异于文字的力量——虽然很早就知道了。</p>\n<p>我想要问生命——曾经不断思考过、以长久的状态倒推出的一个问题。我从未思考的时候觉得活着好，说：“好好活”。当仔细思考了生命，察觉到“意义”，感到虚无或对存在本身巨大的困惑，那时我说死了和活着都可以，甚至更偏向死。而想明白了，或说释然了，即使认识到一切的空洞，我又回到开头说的：“好好活”。</p>\n<p>《遥远的向日葵地》中有一段：突然而至的激情涨满咽喉，却什么也说不出来。我便大声呼唤赛虎和丑丑。喊啊喊啊，又像在呼唤普天之下所有一去不复返的事物。又像在大声地恳求，大声地应许。孤独而自由地站在那里，大声地证明自己此时此刻的微弱存在。</p>\n<p>我也很想大声呼喊，不仅因为那段所说内容，也为生命的短暂，为长久缺席的平静呼喊。</p>\n<br />\n<p>写到这里我挠了挠头，看到指缝里夹着一根雪白的头发，真是奇怪，那么多黑发不掉偏偏掉了一根白的。</p>\n<p>这篇并不算解读或读后感，甚至连书籍推荐都算不上，只当做作久病成医的医生给同样身为患者的自己开的一张病例。</p>\n<br />\n<p>后补，冬牧场内容挺多的，书到手后翻了翻后面有许多没看过的内容，找到Zlibrary发现下面评论说这版只有一部分，又换了一版继续读，现在还剩大约五分之一，有点舍不得。</p>\n<p>再补，今天读完了冬牧场，但我前面所说的感觉依然成立，突然就结束了。心里有点空，怅然，好像丢了什么东西。</p>",
       "pub_date": "2026-01-20T00:00:00+08:00",
       "updated_at": "2026-01-20T00:00:00+08:00",
       "author": "Jame!",
@@ -4268,7 +4290,7 @@
     },
     {
       "title": "转身，我看到窗外纷飞的雪花",
-      "link": "https://jame.work/html/post/39",
+      "link": "https://jame.work/html/other/13r",
       "description": "<p>转身，我看到窗外纷飞的雪花。就那么突然地、轻轻地、自顾自地闯进日子。</p>\n<p>让我诧异的不仅是它们的出现，还有它们的姿态：朝天上飞去。仿佛楼下种满了如蒲公英般的棉花，熟透了，一阵风来带起。我与它们之间仅仅搁着一扇窗，趴近了瞧，感到一阵阵窗外渗进的寒气，我有些高兴能与雪花靠近到如此近的距离，可转念又想，我当然可以如此接近，比如下楼。</p>\n<p>可这是不一样的。我在几十米的高楼、温度适宜的屋子中，有着良好的视野，得以看到它们全貌而不受到寒冷的侵蚀，如此有种莫名的情绪，难以形容。只是一个悠闲的午后，我看到下起了雪，绝无更多。</p>\n<p>起初，雪花在窗外慢慢徘徊，从窗前路过朝天上飞去，似乎想要回到云里，明白了这种想法绝无实现的可能后，它们又仿佛在拖延，拖延着落地、接着凝结、最后消融。慢到以至于能看清眼前飘过每一朵雪花的形状，若紧盯某片雪花不放，转眼仿佛被拽进了茫茫雪海之中，迷失了自我。若纵观全局，虽说会眼花缭乱，却也感到充实。</p>\n<p>不一会，风变得急躁，无数白点渐渐变成了急促的白线，朝着地面飞射而去，一切都朦胧了，稍远处的地面与天空连接，让人分不出晴朗日子时那条明显的地平线，渐渐地，柏油路的颜色越发深沉，湿润了起来，楼下汽车上都盖上一层淡淡的白纱，像娇羞着等待晴天来揭开头纱的新娘。</p>\n<p>天色稍暗时，一切逐渐缓和，雪花又在窗外徘徊，我坐在窗前，时而感觉雪花好像落在了腿上。</p>",
       "pub_date": "2026-01-17T00:00:00+08:00",
       "updated_at": "2026-01-17T00:00:00+08:00",

@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-05T20:59:49.519868+08:00",
+  "updated_at": "2026-02-06T02:46:14.280854+08:00",
   "total_sites": 28,
-  "total_posts": 360,
+  "total_posts": 361,
   "sites": [
     {
       "name": "王叨叨",
@@ -350,102 +350,6 @@
       ]
     },
     {
-      "name": "老孙博客",
-      "url": "https://www.imsun.org/",
-      "avatar": "https://cdn.xiaoten.com/friends/imsun.webp",
-      "feed_url": "https://www.imsun.org/feed",
-      "posts": [
-        {
-          "title": "随手记 20260128",
-          "link": "https://www.imsun.org/archives/1767.html",
-          "description": "<p>近日<code>Typecho</code>突然诈尸更新了版本号 1.3.0<br />其实与之前的<code>beta</code>版本相差不大..</p><p>[info]但是更新需谨慎![/info]<br />部分插件或者主题 在1.3.0无法继续使用..</p><hr /><p>在<code>1panel</code>使用<code>Typecho</code>的过程中还是会有一些问题 使用自带的伪静态规则大概率会出现 404 </p><p>需要修改伪静态为</p><pre><code>    location / {\n        try_files $uri $uri/ /index.php?$args;\n    }</code></pre><hr /><p>因为高中时候最喜欢武侠小说,而武侠作家之中最喜欢古龙的作品,再加上古龙最喜欢借人物之口讲些人生道理.<br />所以我做了一个api 收集了一些古龙的语录.</p><pre><code>  &lt;div id=&quot;quote&quot;&gt;加载中&lt;/div&gt;\n  &lt;script&gt;\n    async function loadQuote() {\n      try {\n        const res = await fetch(&#039;https://api.zxd.im/api&#039;);\n        const data = await res.json();\n        document.getElementById(&#039;quote&#039;).textContent = data.text;\n      } catch (e) {\n        document.getElementById(&#039;quote&#039;).textContent = &#039;加载失败&#039;;\n      }\n    }\n    loadQuote();\n  &lt;/script&gt;</code></pre><p>来调用古龙语录.</p><p>此项目用 Cloudflare Workers + KV 部署, 自用还行</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2026-01-24T09:03:00+08:00",
-          "updated_at": "2026-01-24T09:03:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "装机计划 and 环境部署",
-          "link": "https://www.imsun.org/archives/1764.html",
-          "description": "<h2>起因</h2><p>最近由于内存涨价了, 我把x99平台的4条16G内存卖了, 回了一波血, 暂时不打算玩这个老旧的平台了</p><p>恰好手里头有张微星的Z590M 爆破弹, 准备换平台玩玩.</p><p>于是在拼夕夕斥巨资买了一颗i5 10600KF 花费 458..</p><p>内存就使用 几年前玩机 扔在抽屉里的 金百达 DDR4 2666MHZ 8G X2 开启XMP 可运行在3000MHZ.</p><p>硬盘还有两块铠侠 的 1T m.2 也是当年玩机买的 当时的价格貌似是599一块.</p><p>显卡使用百战老兵 AMD RX5600XT 6G 黑苹果免驱</p><p>网卡使用 BCM94360CD 黑苹果免驱 (15之前)</p><h2>配置</h2><table><thead><tr><th>名称</th><th>型号</th><th>价格</th><th>渠道</th></tr></thead><tbody><tr><td>主板</td><td>微星Z590M爆破弹</td><td>0</td><td>拆机</td></tr><tr><td>CPU</td><td>i5 10600KF</td><td>如今价格458</td><td>拼夕夕</td></tr><tr><td>内存</td><td>金百达 8g * 2</td><td>0</td><td>拼夕夕</td></tr><tr><td>硬盘</td><td>威刚 512G M2 SSD</td><td>0</td><td>淘宝</td></tr><tr><td>硬盘</td><td>三星 980 250G M2 SSD</td><td>0</td><td>拆机</td></tr><tr><td>网卡</td><td>BCM94360CD</td><td>0</td><td>淘宝</td></tr><tr><td>显卡</td><td>蓝宝石RX5600XT</td><td>0</td><td>拼夕夕</td></tr><tr><td>机箱</td><td>航嘉</td><td>0</td><td>淘宝</td></tr><tr><td>散热器</td><td>大水牛240水冷</td><td>0</td><td>京东</td></tr></tbody></table><ul><li>很多都是很多年前装机屯的 或者 用过的就不标注价格了</li></ul><h2>计划</h2><p>一块SSD安装WIN10 </p><p>另一块SSD安装macOS Monterey 双系统 Opencore引导.</p><h2>U盘启动盘</h2><p>装系统必备U盘,大约16G左右够用 32G为佳.</p><p>使用<code>Ventoy</code><br />下载地址 <a href=\"https://www.ventoy.net/en/download.html\">https://www.ventoy.net/en/download.html</a><br />制作好的启动盘可以引导各种iso镜像</p><p>此时我们就需要<code>winPE</code>镜像,我比较推荐的是WEPE <a href=\"https://www.wepe.com.cn/download.html\">https://www.wepe.com.cn/download.html</a><br />通过<code>微PE工具箱V2.3</code>生成<code>WePE_64_V2.3.iso</code><br /><code>Windows</code>安装镜像 推荐官网下载 <a href=\"https://www.microsoft.com/zh-cn/software-download/windows11\">https://www.microsoft.com/zh-cn/software-download/windows11</a><br />如果需要Linux也可以下载<code>Ubuntu</code> <code>Debian</code> 等 放入制作好的U盘中,盘符默认为<code>ventoy</code></p><h2>安装Windows</h2><p>把U盘启动项作为第一启动项 </p><p>进入<code>Ventoy</code>的引导界面,选择<code>WePE_64_V2.3.iso</code>,进入<code>winPE</code></p><p>使用<code>Diskgenius</code>删除整个硬盘的所有分区 保存 右键点击 该硬盘 转为GPT分区,如果已经是GPT分区跳过此步骤</p><p>新建<code>ESP</code>分区 大约 300MB 作为EFI引导</p><p>新建分区 大约256G 作为Windows安装分区</p><p>新建分区 剩余空间 作为软件安装分区 保存</p><p>使用<code>WINSETUP</code>来安装</p><p>镜像选择 下载好的官方镜像 ESP分区选择创建好的 ESP分区</p><p>C盘选择 创建的256G分区</p><p>点击安装 完成后重启 即完成安装部分</p><h2>激活WINDOWS</h2><p>我使用的是批量激活码KMS激活,大概半年需要激活一次,使用NAS搭建的KMS服务器<br />Docker镜像 使用<code>jkjoy/kms</code> 映射 1688 8080 端口</p><p>顺便激活<code>Office</code>全家桶,使用 <code>Office tool plus</code> <a href=\"https://otp.landian.vip/zh-cn/\">https://otp.landian.vip/zh-cn/</a></p><p>主打一个不花钱</p><h2>引导</h2><p>使用开源项目 <a href=\"https://github.com/lzhoang2801/OpCore-Simplify\">https://github.com/lzhoang2801/OpCore-Simplify</a></p><p>在<code>windows</code> 下 挂上代理 安装好<code>Python</code>环境</p><pre><code>git clone https://github.com/lzhoang2801/OpCore-Simplify\ncd OpCore-Simplify\npython OpCore-Simplify.py</code></pre><p>根据顺序选择 自动等待下载 并生成opencore引导的EFI文件</p><h2>安装macOS</h2><p>安装就十分简单了,选择下载镜像</p><p>网络上有很多制作好的原版镜像dmg格式</p><p>使用<a href=\"https://etcher.balena.io/\">Balena etcher</a> 烧录U盘, <br />使用<code>Diskgenius</code>打开U盘的EFI分区把生成好的引导文件复制进去.</p><p>重启电脑选择 U盘为第一启动项</p><p>即可顺利进入安装界面.</p><p><img alt=\"截屏2025-12-27 23.56.22.png\" src=\"https://img.imsun.org/2025/12/1090031260.png\" title=\"截屏2025-12-27 23.56.22.png\" /></p><h2>补丁</h2><p>由于macOs 14 以后的系统已经不支持原本免驱的网卡,所以需要使用打补丁的方式来驱动无线网卡</p><p><a href=\"https://github.com/laobamac/OCLP-Mod\">https://github.com/laobamac/OCLP-Mod</a></p><p>此项目也可以给集显驱动和声卡驱动打补丁<br /><img alt=\"截屏2025-12-27 23.58.41.png\" src=\"https://img.imsun.org/2025/12/4107869926.png\" title=\"截屏2025-12-27 23.58.41.png\" /></p><h2>常用环境</h2><p>首先安装brew [article id=\"338\"]</p><p>但是奇怪的是使用<code>brew</code>不能正常安装<code>nodejs</code>，一直报错</p><pre><code>Error: An exception occurred within a child process:\n  FormulaUnavailableError: No available formula with the name &quot;formula.jws.json&quot;.</code></pre><p>所以使用<code>nvm</code>来安装</p><p>先安装<code>nvm</code></p><pre><code class=\"lang-bash\">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\n\\. &quot;$HOME/.nvm/nvm.sh&quot;</code></pre><p>安装<code>nodejs</code> 24.12</p><pre><code class=\"lang-bash\">nvm install 24</code></pre><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-12-20T11:57:00+08:00",
-          "updated_at": "2025-12-20T11:57:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "一个基于AI的Typecho辅助生成插件 AIHelper",
-          "link": "https://www.imsun.org/archives/1763.html",
-          "description": "<h2>功能</h2><p>基于AI实现 slug/摘要/标签提取/文章内容生成 等功能<br />插件设置可以自定义提示词,根据你的需要生成相关内容</p><h2>下载</h2><p>[download file='AIHelper_NnneT.tar.gz' size='16.5kb']<a href=\"https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz\">https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz</a>[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-12-03T03:50:00+08:00",
-          "updated_at": "2025-12-03T03:50:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "修复Typecho UploadPlugin插件在1.3.0中的上传问题",
-          "link": "https://www.imsun.org/archives/1762.html",
-          "description": "<p>Typecho 1.2中正常使用的UploadPlugin插件在 1.3 beta中无法正常的上传主题和插件了 非常的不方便</p><p>于是修复了上传的问题</p><p>下载地址放在下面 自取</p><p>[download file='UploadPlugin.zip' size='7.5KB']<a href=\"https://file.imsun.org/upload/2025-11/UploadPlugin%20\">https://file.imsun.org/upload/2025-11/UploadPlugin%20</a>(1).zip[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-11-24T09:20:00+08:00",
-          "updated_at": "2025-11-24T09:20:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "规则",
-          "link": "https://www.imsun.org/archives/1761.html",
-          "description": "<p>这制订规则的人当真是有着高高在上的傲慢.</p><p>遵守规则的我反而陷入了困境之中.</p><p>不知道为何我这个域名现在被腾讯拉入了黑名单,连带着使用了腾讯安全数据的小米手机也会提示危险</p><p><img alt=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" src=\"https://img.imsun.org/2025/11/3251615497.jpg\" title=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" /></p><p>我不理解,我曾经申诉过几次,有时候好一段时间,然后就又红了.</p><p>在不明真相的人眼中 这无异于败坏了我的人品.</p><p>实在不行就换个域名重来过..</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-11-14T07:14:00+08:00",
-          "updated_at": "2025-11-14T07:14:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "&quot;套娃&quot;",
-          "link": "https://www.imsun.org/archives/1759.html",
-          "description": "<p>因为想用Cloudflare的Workers 和 D1 部署一个完全仿照Wordpress Rest API 的博客后端</p><p>所以 用AI糊了一个项目 </p><p><a href=\"https://github.com/jkjoy/cfblog\">https://github.com/jkjoy/cfblog</a></p><p>为了能使用这个后端 所以就又糊了一个基于vue3的前端 仿 Akina 风格</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-akina\">https://github.com/jkjoy/cfblog-theme-akina</a></p><p>同时又仿hugo主题paper 糊了一个Astro 的前端</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-paper\">https://github.com/jkjoy/cfblog-theme-paper</a></p><p>为了让这个主题能同时兼容wordpress 和 typecho</p><p>于是我又开了一个<br /><a href=\"https://github.com/jkjoy/Typecho-RestAPI\">https://github.com/jkjoy/Typecho-RestAPI</a></p><p>为了让wordpress 的API路由兼容更好</p><p>我又仿sunnylite主题 弄了个wordpress主题</p><p><a href=\"https://www.sgcd.net\">https://www.sgcd.net</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-11-09T06:58:58+08:00",
-          "updated_at": "2025-11-09T06:58:58+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "Typecho RSS 全文输出美化插件",
-          "link": "https://www.imsun.org/archives/1753.html",
-          "description": "<p>一个功能强大的 Typecho RSS 插件，支持全文输出和多种美化显示风格。</p><h2>功能特点</h2><ul><li><strong>全文输出</strong>: 支持输出文章全文或摘要</li><li><strong>多种主题</strong>: 提供 4 种精美样式主题供选择</li><li><strong>美化显示</strong>: 在浏览器中直接打开 RSS 链接时显示美观的界面</li><li><strong>灵活配置</strong>: 可自定义文章数量、输出内容、版权信息等</li><li><strong>响应式设计</strong>: 完美适配桌面和移动设备</li><li><strong>接管原生路由</strong>: 完全接管 Typecho 的 <code>/feed</code> 路由</li></ul><h2>安装方法</h2><ol><li><p>下载插件到 Typecho 插件目录：</p><pre><code>/usr/plugins/Rss/</code></pre></li><li><p>在 Typecho 后台启用插件：</p><ul><li>进入 <strong>控制台</strong> → <strong>插件</strong> → <strong>已安装插件</strong></li><li>找到 <strong>Rss</strong> 插件，点击 <strong>启用</strong></li></ul></li><li><p>配置插件（可选）：</p><ul><li>点击插件的 <strong>设置</strong> 按钮</li><li>根据需要调整配置选项</li></ul></li></ol><h2>配置选项</h2><h3>RSS 文章数量</h3><ul><li>设置 RSS 输出的文章数量</li><li>默认为 20 篇</li><li>设置为 0 则输出全部文章</li></ul><h3>RSS 内容输出</h3><ul><li><strong>输出全文</strong>: 在 RSS 中显示文章完整内容</li><li><strong>输出摘要</strong>: 仅显示文章摘要（前 200 字符）</li></ul><h3>RSS 样式美化</h3><ul><li><strong>启用</strong>: 在浏览器中访问时显示美化界面</li><li><strong>禁用</strong>: 输出纯 XML 格式</li></ul><h3>样式主题</h3><p>插件提供 4 种不同风格的主题供选择：</p><ol><li><p><strong>渐变风格 (gradient)</strong> - 默认主题</p><ul><li>紫色渐变背景</li><li>现代感强，视觉冲击力强</li><li>卡片式布局，悬停动画</li><li>适合个人博客、创意类网站</li></ul></li><li><p><strong>简洁风格 (minimal)</strong></p><ul><li>黑白配色，简约设计</li><li>清爽干净，专注内容</li><li>类似报纸排版</li><li>适合技术博客、文字类内容</li></ul></li><li><p><strong>现代风格 (modern)</strong></p><ul><li>蓝色系商务风格</li><li>专业大气，层次分明</li><li>卡片阴影，渐变头部</li><li>适合企业博客、专业网站</li></ul></li><li><p><strong>暗黑风格 (dark)</strong></p><ul><li>深色主题，护眼舒适</li><li>GitHub 风格配色</li><li>自定义滚动条美化</li><li>适合夜间阅读、开发者</li></ul></li></ol><h3>版权信息</h3><ul><li>在每篇文章末尾添加自定义版权信息</li><li>支持 HTML 标签</li><li><p>示例：</p><pre><code class=\"lang-html\">&lt;p&gt;本文由 &lt;a href=&quot;https://example.com&quot;&gt;我的博客&lt;/a&gt; 原创发布&lt;/p&gt;\n&lt;p&gt;转载请注明出处&lt;/p&gt;</code></pre></li></ul><h2>使用方法</h2><p>启用插件后，可以通过以下 URL 访问 RSS：</p><h3>主要访问地址</h3><pre><code>https://你的域名/feed</code></pre><p>插件会自动接管 Typecho 原生的 <code>/feed</code> 路由，使用美化后的 RSS 输出。</p><h3>在 RSS 阅读器中订阅</h3><p>将上述任一地址复制到您的 RSS 阅读器（如 Feedly、Inoreader 等）中即可订阅。</p><h3>在浏览器中访问</h3><p>直接在浏览器中打开上述地址，将看到美化后的 RSS 页面。根据你在插件设置中选择的主题，会显示不同风格：</p><ul><li><strong>渐变风格</strong>: 紫色渐变背景 + 白色卡片</li><li><strong>简洁风格</strong>: 纯白背景 + 黑白排版</li><li><strong>现代风格</strong>: 蓝色渐变头部 + 灰白背景</li><li><strong>暗黑风格</strong>: 深色背景 + 蓝色点缀</li></ul><h2>主题样式预览</h2><h3>渐变风格 (Gradient)</h3><ul><li>视觉特点: 紫色渐变背景，白色圆角卡片</li><li>配色方案: <code>#667eea</code> → <code>#764ba2</code></li><li>适用场景: 个人博客、创意网站</li><li>设计元素: 悬停动画、阴影效果、圆角设计</li></ul><h3>简洁风格 (Minimal)</h3><ul><li>视觉特点: 黑白配色，线条分割</li><li>配色方案: <code>#000</code> + <code>#fff</code> + <code>#666</code></li><li>适用场景: 技术博客、专业内容</li><li>设计元素: 极简排版、下划线链接、报纸式布局</li></ul><h3>现代风格 (Modern)</h3><ul><li>视觉特点: 蓝色系商务风格</li><li>配色方案: <code>#0066cc</code> → <code>#0052a3</code></li><li>适用场景: 企业网站、专业机构</li><li>设计元素: 卡片悬停效果、徽章标签、渐变头部</li></ul><h3>暗黑风格 (Dark)</h3><ul><li>视觉特点: GitHub 式深色主题</li><li>配色方案: <code>#0d1117</code> + <code>#58a6ff</code></li><li>适用场景: 开发者博客、夜间阅读</li><li>设计元素: 自定义滚动条、蓝色链接、暗色卡片</li></ul><h2>特色功能</h2><h3>1. 多样化的主题风格</h3><ul><li>提供 4 种精心设计的样式主题</li><li>每种主题都有独特的视觉风格</li><li>可在后台随时切换，无需修改代码</li><li>所有主题均支持响应式设计</li></ul><h3>2. 完整的内容支持</h3><ul><li>支持 Markdown 自动解析</li><li>保留文章中的图片和格式</li><li>可添加自定义版权信息</li></ul><h3>3. 响应式设计</h3><ul><li>完美适配各种设备屏幕</li><li>移动端优化显示</li></ul><h3>4. 标准兼容</h3><ul><li>符合 RSS 2.0 规范</li><li>支持常见的 RSS 命名空间（content、dc、atom）</li><li>兼容主流 RSS 阅读器</li></ul><h3>5. 路由接管</h3><ul><li>完全接管 Typecho 原生的 <code>/feed</code> 路由</li><li>禁用插件后自动恢复原生功能</li><li>无缝替换，不影响现有订阅</li></ul><h2>文件结构</h2><pre><code>Rss/\n├── Plugin.php          # 插件主文件\n├── Action.php          # RSS 生成逻辑\n├── rss-gradient.xsl    # 渐变风格样式\n├── rss-minimal.xsl     # 简洁风格样式\n├── rss-modern.xsl      # 现代风格样式\n├── rss-dark.xsl        # 暗黑风格样式\n└── README.md           # 说明文档</code></pre><h2>技术说明</h2><h3>Plugin.php</h3><ul><li>插件主类，负责注册路由和配置项</li><li>定义插件激活/禁用逻辑</li><li>提供配置面板</li></ul><h3>Action.php</h3><ul><li>RSS 生成核心逻辑</li><li>从数据库查询文章</li><li>构建 RSS XML 输出</li><li>支持 Markdown 解析</li><li>根据配置动态加载样式文件</li></ul><h3>XSL 样式文件</h3><ul><li>4 个独立的 XSLT 样式表文件</li><li>将 XML 转换为美观的 HTML 页面</li><li>每个文件包含完整的 CSS 样式</li><li>互不干扰，易于定制和扩展</li></ul><h2>常见问题</h2><h3>Q: 启用插件后无法访问 RSS？</h3><p>A: 请检查您的 Typecho 是否开启了路由重写功能。</p><h3>Q: RSS 中图片无法显示？</h3><p>A: 请确保文章中的图片使用的是绝对路径。</p><h3>Q: 如何关闭样式美化？</h3><p>A: 在插件设置中将\"RSS 样式美化\"设置为\"禁用\"即可。</p><h3>Q: 可以自定义样式吗？</h3><p>A: 可以，直接修改 <code>rss.xsl</code> 文件中的 CSS 部分。</p><h2>版本历史</h2><h3>v1.0.0</h3><ul><li>初始版本发布</li><li>支持全文 RSS 输出</li><li>支持 XSL 样式美化</li><li>提供灵活的配置选项</li></ul><h2>许可证</h2><p>本插件遵循 MIT 许可证开源。</p><h2>反馈与支持</h2><p>如有问题或建议，欢迎通过以下方式反馈：</p><ul><li>提交 Issue</li><li>发送邮件</li><li>在博客留言</li></ul><h2>项目地址</h2><h2><a href=\"https://github.com/jkjoy/Typecho-Plugin-Rss\">https://github.com/jkjoy/Typecho-Plugin-Rss</a></h2><p><strong>享受优雅的 RSS 订阅体验！</strong></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-10-20T01:18:00+08:00",
-          "updated_at": "2025-10-20T01:18:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        },
-        {
-          "title": "Puock - 又一款Typecho主题",
-          "link": "https://www.imsun.org/archives/1752.html",
-          "description": "<h2>说明</h2><p>本主题移植自开源项目<br /><a href=\"https://github.com/Licoy/wordpress-theme-puock\">https://github.com/Licoy/wordpress-theme-puock</a><br />原项目为<code>WordPress</code>主题.</p><p>我觉得很酷 所以移植到了<code>Typecho</code> 平台.</p><h2>预览</h2><p>本站</p><h2>使用指南</h2><p>适用于<code>Typecho</code> 1.2.0 以上版本</p><p>[danger]注意事项[/danger] </p><p>部分功能需要使用插件<code>Puock</code>来实现<br />插件地址 <a href=\"https://github.com/jkjoy/typecho-plugin-puock\">Puock</a></p><h2>项目地址</h2><p><a href=\"https://github.com/jkjoy/Typecho-Theme-Puock\">https://github.com/jkjoy/Typecho-Theme-Puock</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
-          "pub_date": "2025-10-16T05:36:00+08:00",
-          "updated_at": "2025-10-16T05:36:00+08:00",
-          "author": "老孙博客",
-          "site_name": "老孙博客",
-          "site_url": "https://www.imsun.org/",
-          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
-        }
-      ]
-    },
-    {
       "name": "手里有只毛毛虫",
       "url": "https://www.krjojo.com/",
       "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif",
@@ -571,43 +475,98 @@
       "posts": []
     },
     {
-      "name": "小白大学渣",
-      "url": "https://www.baihub.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg",
-      "feed_url": "https://www.baihub.cn/feed",
+      "name": "老孙博客",
+      "url": "https://www.imsun.org/",
+      "avatar": "https://cdn.xiaoten.com/friends/imsun.webp",
+      "feed_url": "https://www.imsun.org/feed",
       "posts": [
         {
-          "title": "初尝醉酒滋味",
-          "link": "https://www.baihub.cn/corner/first-drunk-experience/",
-          "description": "起因是一位在职博士师兄已经完成了大部分实验，十二月初科室培训结束后就要回到工作单位了，在本周宴请实验室的大家一 [&#8230;]",
-          "pub_date": "2025-11-30T17:41:43+08:00",
-          "updated_at": "2025-11-30T17:41:43+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+          "title": "随手记 20260128",
+          "link": "https://www.imsun.org/archives/1767.html",
+          "description": "<p>近日<code>Typecho</code>突然诈尸更新了版本号 1.3.0<br />其实与之前的<code>beta</code>版本相差不大..</p><p>[info]但是更新需谨慎![/info]<br />部分插件或者主题 在1.3.0无法继续使用..</p><hr /><p>在<code>1panel</code>使用<code>Typecho</code>的过程中还是会有一些问题 使用自带的伪静态规则大概率会出现 404 </p><p>需要修改伪静态为</p><pre><code>    location / {\n        try_files $uri $uri/ /index.php?$args;\n    }</code></pre><hr /><p>因为高中时候最喜欢武侠小说,而武侠作家之中最喜欢古龙的作品,再加上古龙最喜欢借人物之口讲些人生道理.<br />所以我做了一个api 收集了一些古龙的语录.</p><pre><code>  &lt;div id=&quot;quote&quot;&gt;加载中&lt;/div&gt;\n  &lt;script&gt;\n    async function loadQuote() {\n      try {\n        const res = await fetch(&#039;https://api.zxd.im/api&#039;);\n        const data = await res.json();\n        document.getElementById(&#039;quote&#039;).textContent = data.text;\n      } catch (e) {\n        document.getElementById(&#039;quote&#039;).textContent = &#039;加载失败&#039;;\n      }\n    }\n    loadQuote();\n  &lt;/script&gt;</code></pre><p>来调用古龙语录.</p><p>此项目用 Cloudflare Workers + KV 部署, 自用还行</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2026-01-24T09:03:00+08:00",
+          "updated_at": "2026-01-24T09:03:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "self.age+=1",
-          "link": "https://www.baihub.cn/corner/2025-birthday/",
-          "description": "距离上一篇博客已经过去一个多月了，不更新的日子里在被开题报告折磨，在每天担心挨老板骂，读研的日子里风平浪静，似 [&#8230;]",
-          "pub_date": "2025-09-25T15:59:47+08:00",
-          "updated_at": "2025-09-25T15:59:47+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+          "title": "装机计划 and 环境部署",
+          "link": "https://www.imsun.org/archives/1764.html",
+          "description": "<h2>起因</h2><p>最近由于内存涨价了, 我把x99平台的4条16G内存卖了, 回了一波血, 暂时不打算玩这个老旧的平台了</p><p>恰好手里头有张微星的Z590M 爆破弹, 准备换平台玩玩.</p><p>于是在拼夕夕斥巨资买了一颗i5 10600KF 花费 458..</p><p>内存就使用 几年前玩机 扔在抽屉里的 金百达 DDR4 2666MHZ 8G X2 开启XMP 可运行在3000MHZ.</p><p>硬盘还有两块铠侠 的 1T m.2 也是当年玩机买的 当时的价格貌似是599一块.</p><p>显卡使用百战老兵 AMD RX5600XT 6G 黑苹果免驱</p><p>网卡使用 BCM94360CD 黑苹果免驱 (15之前)</p><h2>配置</h2><table><thead><tr><th>名称</th><th>型号</th><th>价格</th><th>渠道</th></tr></thead><tbody><tr><td>主板</td><td>微星Z590M爆破弹</td><td>0</td><td>拆机</td></tr><tr><td>CPU</td><td>i5 10600KF</td><td>如今价格458</td><td>拼夕夕</td></tr><tr><td>内存</td><td>金百达 8g * 2</td><td>0</td><td>拼夕夕</td></tr><tr><td>硬盘</td><td>威刚 512G M2 SSD</td><td>0</td><td>淘宝</td></tr><tr><td>硬盘</td><td>三星 980 250G M2 SSD</td><td>0</td><td>拆机</td></tr><tr><td>网卡</td><td>BCM94360CD</td><td>0</td><td>淘宝</td></tr><tr><td>显卡</td><td>蓝宝石RX5600XT</td><td>0</td><td>拼夕夕</td></tr><tr><td>机箱</td><td>航嘉</td><td>0</td><td>淘宝</td></tr><tr><td>散热器</td><td>大水牛240水冷</td><td>0</td><td>京东</td></tr></tbody></table><ul><li>很多都是很多年前装机屯的 或者 用过的就不标注价格了</li></ul><h2>计划</h2><p>一块SSD安装WIN10 </p><p>另一块SSD安装macOS Monterey 双系统 Opencore引导.</p><h2>U盘启动盘</h2><p>装系统必备U盘,大约16G左右够用 32G为佳.</p><p>使用<code>Ventoy</code><br />下载地址 <a href=\"https://www.ventoy.net/en/download.html\">https://www.ventoy.net/en/download.html</a><br />制作好的启动盘可以引导各种iso镜像</p><p>此时我们就需要<code>winPE</code>镜像,我比较推荐的是WEPE <a href=\"https://www.wepe.com.cn/download.html\">https://www.wepe.com.cn/download.html</a><br />通过<code>微PE工具箱V2.3</code>生成<code>WePE_64_V2.3.iso</code><br /><code>Windows</code>安装镜像 推荐官网下载 <a href=\"https://www.microsoft.com/zh-cn/software-download/windows11\">https://www.microsoft.com/zh-cn/software-download/windows11</a><br />如果需要Linux也可以下载<code>Ubuntu</code> <code>Debian</code> 等 放入制作好的U盘中,盘符默认为<code>ventoy</code></p><h2>安装Windows</h2><p>把U盘启动项作为第一启动项 </p><p>进入<code>Ventoy</code>的引导界面,选择<code>WePE_64_V2.3.iso</code>,进入<code>winPE</code></p><p>使用<code>Diskgenius</code>删除整个硬盘的所有分区 保存 右键点击 该硬盘 转为GPT分区,如果已经是GPT分区跳过此步骤</p><p>新建<code>ESP</code>分区 大约 300MB 作为EFI引导</p><p>新建分区 大约256G 作为Windows安装分区</p><p>新建分区 剩余空间 作为软件安装分区 保存</p><p>使用<code>WINSETUP</code>来安装</p><p>镜像选择 下载好的官方镜像 ESP分区选择创建好的 ESP分区</p><p>C盘选择 创建的256G分区</p><p>点击安装 完成后重启 即完成安装部分</p><h2>激活WINDOWS</h2><p>我使用的是批量激活码KMS激活,大概半年需要激活一次,使用NAS搭建的KMS服务器<br />Docker镜像 使用<code>jkjoy/kms</code> 映射 1688 8080 端口</p><p>顺便激活<code>Office</code>全家桶,使用 <code>Office tool plus</code> <a href=\"https://otp.landian.vip/zh-cn/\">https://otp.landian.vip/zh-cn/</a></p><p>主打一个不花钱</p><h2>引导</h2><p>使用开源项目 <a href=\"https://github.com/lzhoang2801/OpCore-Simplify\">https://github.com/lzhoang2801/OpCore-Simplify</a></p><p>在<code>windows</code> 下 挂上代理 安装好<code>Python</code>环境</p><pre><code>git clone https://github.com/lzhoang2801/OpCore-Simplify\ncd OpCore-Simplify\npython OpCore-Simplify.py</code></pre><p>根据顺序选择 自动等待下载 并生成opencore引导的EFI文件</p><h2>安装macOS</h2><p>安装就十分简单了,选择下载镜像</p><p>网络上有很多制作好的原版镜像dmg格式</p><p>使用<a href=\"https://etcher.balena.io/\">Balena etcher</a> 烧录U盘, <br />使用<code>Diskgenius</code>打开U盘的EFI分区把生成好的引导文件复制进去.</p><p>重启电脑选择 U盘为第一启动项</p><p>即可顺利进入安装界面.</p><p><img alt=\"截屏2025-12-27 23.56.22.png\" src=\"https://img.imsun.org/2025/12/1090031260.png\" title=\"截屏2025-12-27 23.56.22.png\" /></p><h2>补丁</h2><p>由于macOs 14 以后的系统已经不支持原本免驱的网卡,所以需要使用打补丁的方式来驱动无线网卡</p><p><a href=\"https://github.com/laobamac/OCLP-Mod\">https://github.com/laobamac/OCLP-Mod</a></p><p>此项目也可以给集显驱动和声卡驱动打补丁<br /><img alt=\"截屏2025-12-27 23.58.41.png\" src=\"https://img.imsun.org/2025/12/4107869926.png\" title=\"截屏2025-12-27 23.58.41.png\" /></p><h2>常用环境</h2><p>首先安装brew [article id=\"338\"]</p><p>但是奇怪的是使用<code>brew</code>不能正常安装<code>nodejs</code>，一直报错</p><pre><code>Error: An exception occurred within a child process:\n  FormulaUnavailableError: No available formula with the name &quot;formula.jws.json&quot;.</code></pre><p>所以使用<code>nvm</code>来安装</p><p>先安装<code>nvm</code></p><pre><code class=\"lang-bash\">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\n\\. &quot;$HOME/.nvm/nvm.sh&quot;</code></pre><p>安装<code>nodejs</code> 24.12</p><pre><code class=\"lang-bash\">nvm install 24</code></pre><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-12-20T11:57:00+08:00",
+          "updated_at": "2025-12-20T11:57:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         },
         {
-          "title": "点亮成就之：终于过六级了",
-          "link": "https://www.baihub.cn/corner/cet6-passed/",
-          "description": "做 PPT 摸鱼打开 B 站，热搜榜上挂了一条四六级成绩查询，愣了一下才发觉已经到了可以查成绩的时间了。心惊胆 [&#8230;]",
-          "pub_date": "2025-08-16T03:42:25+08:00",
-          "updated_at": "2025-08-16T03:42:25+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+          "title": "一个基于AI的Typecho辅助生成插件 AIHelper",
+          "link": "https://www.imsun.org/archives/1763.html",
+          "description": "<h2>功能</h2><p>基于AI实现 slug/摘要/标签提取/文章内容生成 等功能<br />插件设置可以自定义提示词,根据你的需要生成相关内容</p><h2>下载</h2><p>[download file='AIHelper_NnneT.tar.gz' size='16.5kb']<a href=\"https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz\">https://file.imsun.org/upload/2025-12/AIHelper_NnneT.tar.gz</a>[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-12-03T03:50:00+08:00",
+          "updated_at": "2025-12-03T03:50:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
+        },
+        {
+          "title": "修复Typecho UploadPlugin插件在1.3.0中的上传问题",
+          "link": "https://www.imsun.org/archives/1762.html",
+          "description": "<p>Typecho 1.2中正常使用的UploadPlugin插件在 1.3 beta中无法正常的上传主题和插件了 非常的不方便</p><p>于是修复了上传的问题</p><p>下载地址放在下面 自取</p><p>[download file='UploadPlugin.zip' size='7.5KB']<a href=\"https://file.imsun.org/upload/2025-11/UploadPlugin%20\">https://file.imsun.org/upload/2025-11/UploadPlugin%20</a>(1).zip[/download]</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-11-24T09:20:00+08:00",
+          "updated_at": "2025-11-24T09:20:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
+        },
+        {
+          "title": "规则",
+          "link": "https://www.imsun.org/archives/1761.html",
+          "description": "<p>这制订规则的人当真是有着高高在上的傲慢.</p><p>遵守规则的我反而陷入了困境之中.</p><p>不知道为何我这个域名现在被腾讯拉入了黑名单,连带着使用了腾讯安全数据的小米手机也会提示危险</p><p><img alt=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" src=\"https://img.imsun.org/2025/11/3251615497.jpg\" title=\"Screenshot_2025-11-14-15-07-19-551_com.android.br.jpg\" /></p><p>我不理解,我曾经申诉过几次,有时候好一段时间,然后就又红了.</p><p>在不明真相的人眼中 这无异于败坏了我的人品.</p><p>实在不行就换个域名重来过..</p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-11-14T07:14:00+08:00",
+          "updated_at": "2025-11-14T07:14:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
+        },
+        {
+          "title": "&quot;套娃&quot;",
+          "link": "https://www.imsun.org/archives/1759.html",
+          "description": "<p>因为想用Cloudflare的Workers 和 D1 部署一个完全仿照Wordpress Rest API 的博客后端</p><p>所以 用AI糊了一个项目 </p><p><a href=\"https://github.com/jkjoy/cfblog\">https://github.com/jkjoy/cfblog</a></p><p>为了能使用这个后端 所以就又糊了一个基于vue3的前端 仿 Akina 风格</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-akina\">https://github.com/jkjoy/cfblog-theme-akina</a></p><p>同时又仿hugo主题paper 糊了一个Astro 的前端</p><p><a href=\"https://github.com/jkjoy/cfblog-theme-paper\">https://github.com/jkjoy/cfblog-theme-paper</a></p><p>为了让这个主题能同时兼容wordpress 和 typecho</p><p>于是我又开了一个<br /><a href=\"https://github.com/jkjoy/Typecho-RestAPI\">https://github.com/jkjoy/Typecho-RestAPI</a></p><p>为了让wordpress 的API路由兼容更好</p><p>我又仿sunnylite主题 弄了个wordpress主题</p><p><a href=\"https://www.sgcd.net\">https://www.sgcd.net</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-11-09T06:58:58+08:00",
+          "updated_at": "2025-11-09T06:58:58+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
+        },
+        {
+          "title": "Typecho RSS 全文输出美化插件",
+          "link": "https://www.imsun.org/archives/1753.html",
+          "description": "<p>一个功能强大的 Typecho RSS 插件，支持全文输出和多种美化显示风格。</p><h2>功能特点</h2><ul><li><strong>全文输出</strong>: 支持输出文章全文或摘要</li><li><strong>多种主题</strong>: 提供 4 种精美样式主题供选择</li><li><strong>美化显示</strong>: 在浏览器中直接打开 RSS 链接时显示美观的界面</li><li><strong>灵活配置</strong>: 可自定义文章数量、输出内容、版权信息等</li><li><strong>响应式设计</strong>: 完美适配桌面和移动设备</li><li><strong>接管原生路由</strong>: 完全接管 Typecho 的 <code>/feed</code> 路由</li></ul><h2>安装方法</h2><ol><li><p>下载插件到 Typecho 插件目录：</p><pre><code>/usr/plugins/Rss/</code></pre></li><li><p>在 Typecho 后台启用插件：</p><ul><li>进入 <strong>控制台</strong> → <strong>插件</strong> → <strong>已安装插件</strong></li><li>找到 <strong>Rss</strong> 插件，点击 <strong>启用</strong></li></ul></li><li><p>配置插件（可选）：</p><ul><li>点击插件的 <strong>设置</strong> 按钮</li><li>根据需要调整配置选项</li></ul></li></ol><h2>配置选项</h2><h3>RSS 文章数量</h3><ul><li>设置 RSS 输出的文章数量</li><li>默认为 20 篇</li><li>设置为 0 则输出全部文章</li></ul><h3>RSS 内容输出</h3><ul><li><strong>输出全文</strong>: 在 RSS 中显示文章完整内容</li><li><strong>输出摘要</strong>: 仅显示文章摘要（前 200 字符）</li></ul><h3>RSS 样式美化</h3><ul><li><strong>启用</strong>: 在浏览器中访问时显示美化界面</li><li><strong>禁用</strong>: 输出纯 XML 格式</li></ul><h3>样式主题</h3><p>插件提供 4 种不同风格的主题供选择：</p><ol><li><p><strong>渐变风格 (gradient)</strong> - 默认主题</p><ul><li>紫色渐变背景</li><li>现代感强，视觉冲击力强</li><li>卡片式布局，悬停动画</li><li>适合个人博客、创意类网站</li></ul></li><li><p><strong>简洁风格 (minimal)</strong></p><ul><li>黑白配色，简约设计</li><li>清爽干净，专注内容</li><li>类似报纸排版</li><li>适合技术博客、文字类内容</li></ul></li><li><p><strong>现代风格 (modern)</strong></p><ul><li>蓝色系商务风格</li><li>专业大气，层次分明</li><li>卡片阴影，渐变头部</li><li>适合企业博客、专业网站</li></ul></li><li><p><strong>暗黑风格 (dark)</strong></p><ul><li>深色主题，护眼舒适</li><li>GitHub 风格配色</li><li>自定义滚动条美化</li><li>适合夜间阅读、开发者</li></ul></li></ol><h3>版权信息</h3><ul><li>在每篇文章末尾添加自定义版权信息</li><li>支持 HTML 标签</li><li><p>示例：</p><pre><code class=\"lang-html\">&lt;p&gt;本文由 &lt;a href=&quot;https://example.com&quot;&gt;我的博客&lt;/a&gt; 原创发布&lt;/p&gt;\n&lt;p&gt;转载请注明出处&lt;/p&gt;</code></pre></li></ul><h2>使用方法</h2><p>启用插件后，可以通过以下 URL 访问 RSS：</p><h3>主要访问地址</h3><pre><code>https://你的域名/feed</code></pre><p>插件会自动接管 Typecho 原生的 <code>/feed</code> 路由，使用美化后的 RSS 输出。</p><h3>在 RSS 阅读器中订阅</h3><p>将上述任一地址复制到您的 RSS 阅读器（如 Feedly、Inoreader 等）中即可订阅。</p><h3>在浏览器中访问</h3><p>直接在浏览器中打开上述地址，将看到美化后的 RSS 页面。根据你在插件设置中选择的主题，会显示不同风格：</p><ul><li><strong>渐变风格</strong>: 紫色渐变背景 + 白色卡片</li><li><strong>简洁风格</strong>: 纯白背景 + 黑白排版</li><li><strong>现代风格</strong>: 蓝色渐变头部 + 灰白背景</li><li><strong>暗黑风格</strong>: 深色背景 + 蓝色点缀</li></ul><h2>主题样式预览</h2><h3>渐变风格 (Gradient)</h3><ul><li>视觉特点: 紫色渐变背景，白色圆角卡片</li><li>配色方案: <code>#667eea</code> → <code>#764ba2</code></li><li>适用场景: 个人博客、创意网站</li><li>设计元素: 悬停动画、阴影效果、圆角设计</li></ul><h3>简洁风格 (Minimal)</h3><ul><li>视觉特点: 黑白配色，线条分割</li><li>配色方案: <code>#000</code> + <code>#fff</code> + <code>#666</code></li><li>适用场景: 技术博客、专业内容</li><li>设计元素: 极简排版、下划线链接、报纸式布局</li></ul><h3>现代风格 (Modern)</h3><ul><li>视觉特点: 蓝色系商务风格</li><li>配色方案: <code>#0066cc</code> → <code>#0052a3</code></li><li>适用场景: 企业网站、专业机构</li><li>设计元素: 卡片悬停效果、徽章标签、渐变头部</li></ul><h3>暗黑风格 (Dark)</h3><ul><li>视觉特点: GitHub 式深色主题</li><li>配色方案: <code>#0d1117</code> + <code>#58a6ff</code></li><li>适用场景: 开发者博客、夜间阅读</li><li>设计元素: 自定义滚动条、蓝色链接、暗色卡片</li></ul><h2>特色功能</h2><h3>1. 多样化的主题风格</h3><ul><li>提供 4 种精心设计的样式主题</li><li>每种主题都有独特的视觉风格</li><li>可在后台随时切换，无需修改代码</li><li>所有主题均支持响应式设计</li></ul><h3>2. 完整的内容支持</h3><ul><li>支持 Markdown 自动解析</li><li>保留文章中的图片和格式</li><li>可添加自定义版权信息</li></ul><h3>3. 响应式设计</h3><ul><li>完美适配各种设备屏幕</li><li>移动端优化显示</li></ul><h3>4. 标准兼容</h3><ul><li>符合 RSS 2.0 规范</li><li>支持常见的 RSS 命名空间（content、dc、atom）</li><li>兼容主流 RSS 阅读器</li></ul><h3>5. 路由接管</h3><ul><li>完全接管 Typecho 原生的 <code>/feed</code> 路由</li><li>禁用插件后自动恢复原生功能</li><li>无缝替换，不影响现有订阅</li></ul><h2>文件结构</h2><pre><code>Rss/\n├── Plugin.php          # 插件主文件\n├── Action.php          # RSS 生成逻辑\n├── rss-gradient.xsl    # 渐变风格样式\n├── rss-minimal.xsl     # 简洁风格样式\n├── rss-modern.xsl      # 现代风格样式\n├── rss-dark.xsl        # 暗黑风格样式\n└── README.md           # 说明文档</code></pre><h2>技术说明</h2><h3>Plugin.php</h3><ul><li>插件主类，负责注册路由和配置项</li><li>定义插件激活/禁用逻辑</li><li>提供配置面板</li></ul><h3>Action.php</h3><ul><li>RSS 生成核心逻辑</li><li>从数据库查询文章</li><li>构建 RSS XML 输出</li><li>支持 Markdown 解析</li><li>根据配置动态加载样式文件</li></ul><h3>XSL 样式文件</h3><ul><li>4 个独立的 XSLT 样式表文件</li><li>将 XML 转换为美观的 HTML 页面</li><li>每个文件包含完整的 CSS 样式</li><li>互不干扰，易于定制和扩展</li></ul><h2>常见问题</h2><h3>Q: 启用插件后无法访问 RSS？</h3><p>A: 请检查您的 Typecho 是否开启了路由重写功能。</p><h3>Q: RSS 中图片无法显示？</h3><p>A: 请确保文章中的图片使用的是绝对路径。</p><h3>Q: 如何关闭样式美化？</h3><p>A: 在插件设置中将\"RSS 样式美化\"设置为\"禁用\"即可。</p><h3>Q: 可以自定义样式吗？</h3><p>A: 可以，直接修改 <code>rss.xsl</code> 文件中的 CSS 部分。</p><h2>版本历史</h2><h3>v1.0.0</h3><ul><li>初始版本发布</li><li>支持全文 RSS 输出</li><li>支持 XSL 样式美化</li><li>提供灵活的配置选项</li></ul><h2>许可证</h2><p>本插件遵循 MIT 许可证开源。</p><h2>反馈与支持</h2><p>如有问题或建议，欢迎通过以下方式反馈：</p><ul><li>提交 Issue</li><li>发送邮件</li><li>在博客留言</li></ul><h2>项目地址</h2><h2><a href=\"https://github.com/jkjoy/Typecho-Plugin-Rss\">https://github.com/jkjoy/Typecho-Plugin-Rss</a></h2><p><strong>享受优雅的 RSS 订阅体验！</strong></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-10-20T01:18:00+08:00",
+          "updated_at": "2025-10-20T01:18:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
+        },
+        {
+          "title": "Puock - 又一款Typecho主题",
+          "link": "https://www.imsun.org/archives/1752.html",
+          "description": "<h2>说明</h2><p>本主题移植自开源项目<br /><a href=\"https://github.com/Licoy/wordpress-theme-puock\">https://github.com/Licoy/wordpress-theme-puock</a><br />原项目为<code>WordPress</code>主题.</p><p>我觉得很酷 所以移植到了<code>Typecho</code> 平台.</p><h2>预览</h2><p>本站</p><h2>使用指南</h2><p>适用于<code>Typecho</code> 1.2.0 以上版本</p><p>[danger]注意事项[/danger] </p><p>部分功能需要使用插件<code>Puock</code>来实现<br />插件地址 <a href=\"https://github.com/jkjoy/typecho-plugin-puock\">Puock</a></p><h2>项目地址</h2><p><a href=\"https://github.com/jkjoy/Typecho-Theme-Puock\">https://github.com/jkjoy/Typecho-Theme-Puock</a></p><hr /><p>本文由 <a href=\"https://www.imsun.org\">老孙博客</a> 原创发布</p>\n<p>转载请注明出处</p>",
+          "pub_date": "2025-10-16T05:36:00+08:00",
+          "updated_at": "2025-10-16T05:36:00+08:00",
+          "author": "老孙博客",
+          "site_name": "老孙博客",
+          "site_url": "https://www.imsun.org/",
+          "avatar": "https://cdn.xiaoten.com/friends/imsun.webp"
         }
       ]
     },
@@ -726,6 +685,47 @@
           "site_name": "黑石博客",
           "site_url": "https://heson.me/",
           "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        }
+      ]
+    },
+    {
+      "name": "小白大学渣",
+      "url": "https://www.baihub.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg",
+      "feed_url": "https://www.baihub.cn/feed",
+      "posts": [
+        {
+          "title": "初尝醉酒滋味",
+          "link": "https://www.baihub.cn/corner/first-drunk-experience/",
+          "description": "起因是一位在职博士师兄已经完成了大部分实验，十二月初科室培训结束后就要回到工作单位了，在本周宴请实验室的大家一 [&#8230;]",
+          "pub_date": "2025-11-30T17:41:43+08:00",
+          "updated_at": "2025-11-30T17:41:43+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        },
+        {
+          "title": "self.age+=1",
+          "link": "https://www.baihub.cn/corner/2025-birthday/",
+          "description": "距离上一篇博客已经过去一个多月了，不更新的日子里在被开题报告折磨，在每天担心挨老板骂，读研的日子里风平浪静，似 [&#8230;]",
+          "pub_date": "2025-09-25T15:59:47+08:00",
+          "updated_at": "2025-09-25T15:59:47+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        },
+        {
+          "title": "点亮成就之：终于过六级了",
+          "link": "https://www.baihub.cn/corner/cet6-passed/",
+          "description": "做 PPT 摸鱼打开 B 站，热搜榜上挂了一条四六级成绩查询，愣了一下才发觉已经到了可以查成绩的时间了。心惊胆 [&#8230;]",
+          "pub_date": "2025-08-16T03:42:25+08:00",
+          "updated_at": "2025-08-16T03:42:25+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
         }
       ]
     },
@@ -2320,11 +2320,398 @@
       ]
     },
     {
+      "name": "小屁君的吐槽",
+      "url": "https://blog.ouxiaopi.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
+      "feed_url": "https://blog.ouxiaopi.com/feed",
+      "posts": [
+        {
+          "title": "小P说（十）",
+          "link": "https://blog.ouxiaopi.com/1741.html",
+          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
+          "pub_date": "2026-01-26T12:24:01+08:00",
+          "updated_at": "2026-01-26T12:24:01+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小米的”星号”艺术!",
+          "link": "https://blog.ouxiaopi.com/1734.html",
+          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
+          "pub_date": "2026-01-23T07:42:00+08:00",
+          "updated_at": "2026-01-23T07:42:00+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（八）",
+          "link": "https://blog.ouxiaopi.com/1706.html",
+          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
+          "pub_date": "2026-01-15T02:41:26+08:00",
+          "updated_at": "2026-01-15T02:41:26+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "2025年度总结",
+          "link": "https://blog.ouxiaopi.com/1676.html",
+          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
+          "pub_date": "2026-01-04T07:54:40+08:00",
+          "updated_at": "2026-01-04T07:54:40+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "凤英",
+          "link": "https://blog.ouxiaopi.com/1665.html",
+          "description": "米高杨唱的完整版《凤英》",
+          "pub_date": "2025-12-24T14:31:13+08:00",
+          "updated_at": "2025-12-24T14:31:13+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（七）",
+          "link": "https://blog.ouxiaopi.com/1635.html",
+          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
+          "pub_date": "2025-12-14T04:08:11+08:00",
+          "updated_at": "2025-12-14T04:08:11+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（九）",
+          "link": "https://blog.ouxiaopi.com/1613.html",
+          "description": "到了25年最后一月，虽没去年冷但风大。这一年心境安静，不再执着“争”，用“命中注定”概括无法释怀。认为教育或许是灌输驯化，对雅雅更注重其开心做自己。指出逃离农村进城市可能陷入游戏陷阱，信仰在大数据、社会算法影响下崩塌。意识到自身能力在当下供大于求的环境中不足，曾创业失败，如今追求内心平静，不被定义。",
+          "pub_date": "2025-12-04T12:06:10+08:00",
+          "updated_at": "2025-12-04T12:06:10+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "黄梅戏《三字经》片段",
+          "link": "https://blog.ouxiaopi.com/1606.html",
+          "description": "安庆黄梅戏优秀演员马丁唱的《三字经》片段",
+          "pub_date": "2025-12-01T11:18:58+08:00",
+          "updated_at": "2025-12-01T11:18:58+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "讨倭檄文",
+          "link": "https://blog.ouxiaopi.com/1583.html",
+          "description": "这檄文声讨倭夷。回顾其历史上多次侵华恶行，如甲午、全面侵华等。如今它仍不思悔改，篡改历史、觊觎领土。中华曾驱其出境，今国力强盛，若倭再犯，必承先辈遗志反击，望其悬崖勒马，否则定踏平列岛。",
+          "pub_date": "2025-11-26T12:59:39+08:00",
+          "updated_at": "2025-11-26T12:59:39+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（六）",
+          "link": "https://blog.ouxiaopi.com/1545.html",
+          "description": "作者近况平淡，工作、生活、精神均有压力，有抽烟、刷短视频等习惯但睡眠不错。睡前常思考，老表质疑折腾网站无收益，作者认为这是学习。刷短视频时虽有正面内容可学习，但负面内容多。作者指出当下部分人努力能过上理想生活，多数人精神需求缺失涌入虚拟世界，被资本收割注意力，影响社会创新。还吐槽公司门口路差，修路情况细思极恐，最后表示继续日常。",
+          "pub_date": "2025-11-16T14:48:45+08:00",
+          "updated_at": "2025-11-16T14:48:45+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        }
+      ]
+    },
+    {
+      "name": "木木木木木",
+      "url": "https://immmmm.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/immmmm.png",
+      "feed_url": "https://immmmm.com/feed",
+      "posts": [
+        {
+          "title": "二〇二六，你好",
+          "link": "https://immmmm.com/hi-2026/",
+          "description": "<p>不知不觉已经来到了 2026 年，给大家拜个晚年、拜个早年。</p>\n<p>愿大家一切安好，马上 ——</p>\n<p>啥都有！</p>\n<h3 id=\"十二月\">十二月</h3>\n<p>趣味运动会，竟还能占个人头，收获“高光”照一张。</p>\n<p><img alt=\"bye25-12-1\" src=\"https://r2.immmmm.com/2026/01/bye25-12-1.JPEG\" /></p>\n<h3 id=\"十一月\">十一月</h3>\n<p>秋假，北京高攀不起，换 ——&gt; 南京。</p>\n<p><img alt=\"bye25-11-5\" src=\"https://r2.immmmm.com/2026/01/bye25-11-5.JPG\" />\n<img alt=\"bye25-11-4\" src=\"https://r2.immmmm.com/2026/01/bye25-11-4.JPG\" />\n<img alt=\"bye25-11-2\" src=\"https://r2.immmmm.com/2026/01/bye25-11-2.JPG\" /></p>\n<p><img alt=\"bye25-11-1\" src=\"https://r2.immmmm.com/2026/01/bye25-11-1.JPG\" />\n<img alt=\"bye25-11-3\" src=\"https://r2.immmmm.com/2026/01/bye25-11-3.JPG\" /></p>\n<h3 id=\"十月末\">十月末</h3>\n<p>丽水云和，看个梯田的尾巴。</p>\n<p><img alt=\"bye25-10-3\" src=\"https://r2.immmmm.com/2026/01/bye25-10-3.JPEG\" /></p>\n<p><img alt=\"bye25-10-1\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1.JPEG\" />\n<img alt=\"bye25-10-2\" src=\"https://r2.immmmm.com/2026/01/bye25-10-2.JPEG\" /></p>\n<h3 id=\"十月\">十月</h3>\n<p>舟山岱山十二小时游。</p>\n<p>避开爆火本岛，错时走走逛逛不错。阿玲海鲜面，闻风书店，lighthouse 咖啡馆…</p>\n<p><img alt=\"bye25-10-1-1\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-1.JPEG\" />\n<img alt=\"bye25-10-1-4\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-4.JPEG\" /></p>\n<p><img alt=\"bye25-10-1-3\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-3.JPEG\" /></p>\n<p><img alt=\"bye25-10-1-2\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-2.jpeg\" /></p>\n<h3 id=\"八月\">八月</h3>\n<p>宜兴，宜高兴，已高兴归来。</p>\n<p><img alt=\"bye25-8-2\" src=\"https://r2.immmmm.com/2026/01/bye25-8-2.JPEG\" /></p>\n<p><img alt=\"bye25-8-4\" src=\"https://r2.immmmm.com/2026/01/bye25-8-4.JPEG\" />\n<img alt=\"bye25-8-3\" src=\"https://r2.immmmm.com/2026/01/bye25-8-3.JPEG\" />\n<img alt=\"bye25-8-1\" src=\"https://r2.immmmm.com/2026/01/bye25-8-1.JPEG\" /></p>\n<h3 id=\"七月\">七月</h3>\n<p>宜春，明月山，疗休养。</p>\n<p><img alt=\"bye25-7-1\" src=\"https://r2.immmmm.com/2026/01/bye25-7-1.JPEG\" /></p>\n<p><img alt=\"bye25-7-2\" src=\"https://r2.immmmm.com/2026/01/bye25-7-2.JPEG\" />\n<img alt=\"bye25-7-3\" src=\"https://r2.immmmm.com/2026/01/bye25-7-3.JPEG\" />\n<img alt=\"bye25-7-4\" src=\"https://r2.immmmm.com/2026/01/bye25-7-4.JPEG\" /></p>\n<h3 id=\"六月\">六月</h3>\n<p>再一次带出毕业班。再见，是为更好的相见。</p>\n<h3 id=\"五月\">五月</h3>\n<p>北仑，万博鱼度假区。</p>\n<p><img alt=\"bye25-5-2\" src=\"https://r2.immmmm.com/2026/01/bye25-5-2.JPEG\" />\n<img alt=\"bye25-5-1\" src=\"https://r2.immmmm.com/2026/01/bye25-5-1.JPEG\" /></p>\n<h3 id=\"四月\">四月</h3>\n<p>凑热闹，炼化厂外，网红打卡机位，听说已被封。</p>\n<p><img alt=\"bye25-4-1\" src=\"https://r2.immmmm.com/2026/01/bye25-4-1.JPEG\" />\n<img alt=\"bye25-4-2\" src=\"https://r2.immmmm.com/2026/01/bye25-4-2.JPEG\" /></p>\n<h3 id=\"三月\">三月</h3>\n<p>舟山，大桥下的油菜花，海边公路“螺塘线”。还是舟山人 chil～</p>\n<p><img alt=\"bye25-3-1\" src=\"https://r2.immmmm.com/2026/01/bye25-3-1.JPEG\" />\n<img alt=\"bye25-3-4\" src=\"https://r2.immmmm.com/2026/01/bye25-3-4.JPEG\" /></p>\n<p><img alt=\"bye25-3-5\" src=\"https://r2.immmmm.com/2026/01/bye25-3-5.JPEG\" />\n<img alt=\"bye25-3-3\" src=\"https://r2.immmmm.com/2026/01/bye25-3-3.JPEG\" />\n<img alt=\"bye25-3-2\" src=\"https://r2.immmmm.com/2026/01/bye25-3-2.JPEG\" /></p>\n<h3 id=\"二月\">二月</h3>\n<p>港珠澳家庭游，翻看照片，感触身为父母也只是陪着孩子一起走一段路、看一片风景。</p>\n<p>愿你早日找寻到自己的人生方向，抵达一个个目的地。</p>\n<p><img alt=\"bye25-2-1\" src=\"https://r2.immmmm.com/2026/01/bye25-2-1.JPEG\" /></p>\n<p><img alt=\"bye25-2-6\" src=\"https://r2.immmmm.com/2026/01/bye25-2-6.JPEG\" />\n<img alt=\"bye25-2-4\" src=\"https://r2.immmmm.com/2026/01/bye25-2-4.JPEG\" />\n<img alt=\"bye25-2-5\" src=\"https://r2.immmmm.com/2026/01/bye25-2-5.JPEG\" /></p>\n<p><img alt=\"bye25-2-2\" src=\"https://r2.immmmm.com/2026/01/bye25-2-2.JPEG\" /></p>\n<h3 id=\"一月\">一月</h3>\n<p>提了毛坯3，到处不要钱，开开开。</p>\n<p><img alt=\"bye25-1-4\" src=\"https://r2.immmmm.com/2026/01/bye25-1-4.JPEG\" />\n<img alt=\"bye25-1-6\" src=\"https://r2.immmmm.com/2026/01/bye25-1-6.JPEG\" />\n<img alt=\"bye25-1-5\" src=\"https://r2.immmmm.com/2026/01/bye25-1-5.JPEG\" /></p>\n<p><img alt=\"bye25-1-3\" src=\"https://r2.immmmm.com/2026/01/bye25-1-3.JPEG\" /></p>",
+          "pub_date": "2026-01-25T00:22:01+08:00",
+          "updated_at": "2026-01-25T00:22:01+08:00",
+          "author": "林木木",
+          "site_name": "木木木木木",
+          "site_url": "https://immmmm.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/immmmm.png"
+        }
+      ]
+    },
+    {
+      "name": "Evan",
+      "url": "https://www.evan.xin/",
+      "avatar": "https://cdn.xiaoten.com/friends/Evan.png",
+      "feed_url": "https://www.evan.xin/feed",
+      "posts": [
+        {
+          "title": "播播鸡“食用”指南：在中文播客的街角，与惊喜不期而遇",
+          "link": "https://www.evan.xin/4364/",
+          "description": "亲爱的播客漫游者们， 很高兴能与大家分享这份关于「播播鸡」（Boboji.org）的“食用”指南。 播客的世界 [&#8230;]",
+          "pub_date": "2026-01-20T04:23:55+08:00",
+          "updated_at": "2026-01-20T04:23:55+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "我用 Anygen 把中文播客圈‘鸡’化了：一份零代码榜单的诞生记",
+          "link": "https://www.evan.xin/4360/",
+          "description": "播播鸡在手机端的效果图 我最近在听李诞的同名播客，还有每天早上在车里听的资讯早七点。想找点新鲜的，就摸到了《枫 [&#8230;]",
+          "pub_date": "2026-01-17T05:16:13+08:00",
+          "updated_at": "2026-01-17T05:16:13+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "且听App：罗永浩的AI讲书新作，如何用声音重塑阅读？",
+          "link": "https://www.evan.xin/4341/",
+          "description": "罗永浩 2025年底，当罗永浩在“十字路口”年度科技创新分享大会上，以他一贯的“重新定义”姿态，揭晓新产品“且 [&#8230;]",
+          "pub_date": "2025-12-31T18:57:12+08:00",
+          "updated_at": "2025-12-31T18:57:12+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "EVANMI.TOP域名列表再次升级",
+          "link": "https://www.evan.xin/4333/",
+          "description": "其实这次改动也算不上升级，反而精简了不少之前叠加的小功能，比如推荐小图标、动效背景等。核心只想让界面再“瘦”一 [&#8230;]",
+          "pub_date": "2025-12-30T07:40:17+08:00",
+          "updated_at": "2025-12-30T07:40:17+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "捷径的悖论：为什么最快的路，往往走得最远？",
+          "link": "https://www.evan.xin/4318/",
+          "description": "你有没有发现一个反常识的真相：职场里那些看着能抄近道的机会，到最后大多变成了绕不开的远路。真正的陷阱从不是捷径 [&#8230;]",
+          "pub_date": "2025-12-16T14:52:30+08:00",
+          "updated_at": "2025-12-16T14:52:30+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "草台班子突围术：功利外壳下的成长内核",
+          "link": "https://www.evan.xin/4312/",
+          "description": "认知破局：从“情绪化离场”到“利益化留守” 你所在的职场环境越复杂、越像没章法的草台班子，你越该留下来 ——这 [&#8230;]",
+          "pub_date": "2025-12-16T04:35:16+08:00",
+          "updated_at": "2025-12-16T04:35:16+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "灵光 AI 打造｜职场能力排序工具，精准锚定成长发力点",
+          "link": "https://www.evan.xin/4299/",
+          "description": "这款 “职场资源挖掘器” 是我用灵光 AI 打造的抛砖引玉之作。愿在当下焦虑蔓延的环境里，能帮大家找准职场突破 [&#8230;]",
+          "pub_date": "2025-12-08T05:06:57+08:00",
+          "updated_at": "2025-12-08T05:06:57+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "90天闷声赚了8W美金！",
+          "link": "https://www.evan.xin/4293/",
+          "description": "你是不是也觉得，现在做短视频越来越难了？露脸吧，怕被熟人认出来；不露脸吧，又总觉得没人看。但今天我要跟你分享一 [&#8230;]",
+          "pub_date": "2025-12-07T17:02:01+08:00",
+          "updated_at": "2025-12-07T17:02:01+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "2025年黑色星期五域名特卖：Dynadot优惠全解析",
+          "link": "https://www.evan.xin/4278/",
+          "description": "详细活动内容 域名捆绑与匹配促销 通过捆绑域名或匹配账户中已有域名，可享受巨大优惠。例如，注册捆绑包价格从&#038;n [&#8230;]",
+          "pub_date": "2025-11-27T06:17:55+08:00",
+          "updated_at": "2025-11-27T06:17:55+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "我用Astralis十分钟做了个永久起始页Nav.pm",
+          "link": "https://www.evan.xin/4255/",
+          "description": "DEMO默认页面 HTTPS://NAV.PM 本地书签越攒越乱，在线导航又塞满广告；虽然“会点技术的都人手一 [&#8230;]",
+          "pub_date": "2025-11-25T04:47:21+08:00",
+          "updated_at": "2025-11-25T04:47:21+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "Marble AI 初体验：单图生成可探索 NeRF 场景",
+          "link": "https://www.evan.xin/4230/",
+          "description": "把一张图脑补成能走进去的3D世界，我只用了60秒，这就是 Marble AI。 它不是什么复杂软件，而是一个网 [&#8230;]",
+          "pub_date": "2025-11-13T15:21:55+08:00",
+          "updated_at": "2025-11-13T15:21:55+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "那些有趣的极简设计风格",
+          "link": "https://www.evan.xin/4147/",
+          "description": "",
+          "pub_date": "2025-11-11T16:04:07+08:00",
+          "updated_at": "2025-11-11T16:04:07+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "小红书“电子壁纸”生意0库存暴利玩法拆解",
+          "link": "https://www.evan.xin/4130/",
+          "description": "我在小红书刷到一个账号：先用美化 App 把桌面布置得极度吸睛，15 秒展示成片；中间插几条“手把手设置”教程 [&#8230;]",
+          "pub_date": "2025-11-06T04:01:18+08:00",
+          "updated_at": "2025-11-06T04:01:18+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "HK-1616 与 2222JP 最全成本-体验对比",
+          "link": "https://www.evan.xin/4123/",
+          "description": "前几天狐蒂云出16C16G的「111 元/3年」的极限低价（双十一活动）；绿云周年庆推出2222JP软银「15 [&#8230;]",
+          "pub_date": "2025-11-04T09:08:28+08:00",
+          "updated_at": "2025-11-04T09:08:28+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "内容创作者效率神器：AI视频摘要工具TLDW初体验",
+          "link": "https://www.evan.xin/4112/",
+          "description": "TLDW是一个 AI驱动的视频摘要工具，它的核心功能是： 通过AI技术快速生成长视频的简洁摘要，帮助用户节省时 [&#8230;]",
+          "pub_date": "2025-11-03T04:08:00+08:00",
+          "updated_at": "2025-11-03T04:08:00+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "当极客开始浪漫：我把网站写进了NFC冰箱贴里",
+          "link": "https://www.evan.xin/4089/",
+          "description": "前两天发现有冰箱贴可以DIY，然后就用AI生成的LOGO做了一个冰箱贴（有NFC功能）。 折腾大半天，终于零成 [&#8230;]",
+          "pub_date": "2025-10-26T09:13:21+08:00",
+          "updated_at": "2025-10-26T09:13:21+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "删除 EvanNav 6.3.1 加载页面教程",
+          "link": "https://www.evan.xin/4074/",
+          "description": "好的，为了删除加载页，您需要在以下文件中进行代码修改： 1. public/index.html 删除以下代码 [&#8230;]",
+          "pub_date": "2025-10-15T12:22:47+08:00",
+          "updated_at": "2025-10-15T12:22:47+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "【米表升级】贯彻极简设计风格，呈现更极致",
+          "link": "https://www.evan.xin/4025/",
+          "description": "整体呈现更清爽，域名释义隐藏在鼠标经过处 本次更新了如下内容：- 增加域名弹出释义 - 增加域名价格展示- 增 [&#8230;]",
+          "pub_date": "2025-08-23T11:36:00+08:00",
+          "updated_at": "2025-08-23T11:36:00+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "SHEBAO.CX 升级篇：把“无心插柳”做成“长期可用”",
+          "link": "https://www.evan.xin/4017/",
+          "description": "前一段时间随手搭的 shebao.cx，初衷只是替自己省点事。没想到访问数据比较稳定，还是有人在用的。既然大家 [&#8230;]",
+          "pub_date": "2025-08-20T06:16:29+08:00",
+          "updated_at": "2025-08-20T06:16:29+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "「2025」Spaceship 域名优惠码大全",
+          "link": "https://www.evan.xin/4008/",
+          "description": "如果你正在寻找域名或主机服务的超值折扣，这篇博文一定要收藏。Spaceship 今年依旧放出大量诚意优惠，从  [&#8230;]",
+          "pub_date": "2025-08-14T16:41:00+08:00",
+          "updated_at": "2025-08-14T16:41:00+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        },
+        {
+          "title": "电视剧《凡人修仙传》终结：古传送阵把韩立送去哪里了？",
+          "link": "https://www.evan.xin/3987/",
+          "description": "凡人终有尽，仙路亦无终。把韩立的完整旅程一口气读完，就像在时间长河里做了一次深呼吸——出来时，瓶子已空，老魔已 [&#8230;]",
+          "pub_date": "2025-08-12T15:22:35+08:00",
+          "updated_at": "2025-08-12T15:22:35+08:00",
+          "author": "Evan",
+          "site_name": "Evan",
+          "site_url": "https://www.evan.xin/",
+          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+        }
+      ]
+    },
+    {
       "name": "lznauy的技术小屋",
       "url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp",
       "feed_url": "https://lznauy.cn/index.xml",
       "posts": [
+        {
+          "title": "城市里没有爱情？",
+          "link": "https://lznauy.cn/posts/2026-02-05-%E5%9F%8E%E5%B8%82%E9%87%8C%E6%B2%A1%E6%9C%89%E7%88%B1%E6%83%85/",
+          "description": "<p>对于爱情，其实我一直抱有美好的憧憬，即使我知道这种美好不会降临到我身上。小时候不论是听故事、看电视剧还是看小说，爱情叙事总是宏大而感人，最好的结局当然是他们克服了重重困难，最后幸福的在一起。其实比起韩剧那种经受感情的猜疑、外界的挑拨，最终才确认感情的戏份来说，我更喜欢那种宏大叙事中有着共同理想的男女主角经历重重磨难，一起实现伟大抱负，最终幸福在一起的故事，就比如虹猫蓝兔？郭靖黄蓉？（笑</p>",
+          "pub_date": "2026-02-05T19:54:31+08:00",
+          "updated_at": "2026-02-05T19:54:31+08:00",
+          "author": "lznauy的技术小屋",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
         {
           "title": "日常碎记（三）",
           "link": "https://lznauy.cn/posts/2026-02-03-%E6%97%A5%E5%B8%B8%E5%B2%81%E8%AE%B0%E4%B8%89/",
@@ -2874,382 +3261,6 @@
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        }
-      ]
-    },
-    {
-      "name": "木木木木木",
-      "url": "https://immmmm.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/immmmm.png",
-      "feed_url": "https://immmmm.com/feed",
-      "posts": [
-        {
-          "title": "二〇二六，你好",
-          "link": "https://immmmm.com/hi-2026/",
-          "description": "<p>不知不觉已经来到了 2026 年，给大家拜个晚年、拜个早年。</p>\n<p>愿大家一切安好，马上 ——</p>\n<p>啥都有！</p>\n<h3 id=\"十二月\">十二月</h3>\n<p>趣味运动会，竟还能占个人头，收获“高光”照一张。</p>\n<p><img alt=\"bye25-12-1\" src=\"https://r2.immmmm.com/2026/01/bye25-12-1.JPEG\" /></p>\n<h3 id=\"十一月\">十一月</h3>\n<p>秋假，北京高攀不起，换 ——&gt; 南京。</p>\n<p><img alt=\"bye25-11-5\" src=\"https://r2.immmmm.com/2026/01/bye25-11-5.JPG\" />\n<img alt=\"bye25-11-4\" src=\"https://r2.immmmm.com/2026/01/bye25-11-4.JPG\" />\n<img alt=\"bye25-11-2\" src=\"https://r2.immmmm.com/2026/01/bye25-11-2.JPG\" /></p>\n<p><img alt=\"bye25-11-1\" src=\"https://r2.immmmm.com/2026/01/bye25-11-1.JPG\" />\n<img alt=\"bye25-11-3\" src=\"https://r2.immmmm.com/2026/01/bye25-11-3.JPG\" /></p>\n<h3 id=\"十月末\">十月末</h3>\n<p>丽水云和，看个梯田的尾巴。</p>\n<p><img alt=\"bye25-10-3\" src=\"https://r2.immmmm.com/2026/01/bye25-10-3.JPEG\" /></p>\n<p><img alt=\"bye25-10-1\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1.JPEG\" />\n<img alt=\"bye25-10-2\" src=\"https://r2.immmmm.com/2026/01/bye25-10-2.JPEG\" /></p>\n<h3 id=\"十月\">十月</h3>\n<p>舟山岱山十二小时游。</p>\n<p>避开爆火本岛，错时走走逛逛不错。阿玲海鲜面，闻风书店，lighthouse 咖啡馆…</p>\n<p><img alt=\"bye25-10-1-1\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-1.JPEG\" />\n<img alt=\"bye25-10-1-4\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-4.JPEG\" /></p>\n<p><img alt=\"bye25-10-1-3\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-3.JPEG\" /></p>\n<p><img alt=\"bye25-10-1-2\" src=\"https://r2.immmmm.com/2026/01/bye25-10-1-2.jpeg\" /></p>\n<h3 id=\"八月\">八月</h3>\n<p>宜兴，宜高兴，已高兴归来。</p>\n<p><img alt=\"bye25-8-2\" src=\"https://r2.immmmm.com/2026/01/bye25-8-2.JPEG\" /></p>\n<p><img alt=\"bye25-8-4\" src=\"https://r2.immmmm.com/2026/01/bye25-8-4.JPEG\" />\n<img alt=\"bye25-8-3\" src=\"https://r2.immmmm.com/2026/01/bye25-8-3.JPEG\" />\n<img alt=\"bye25-8-1\" src=\"https://r2.immmmm.com/2026/01/bye25-8-1.JPEG\" /></p>\n<h3 id=\"七月\">七月</h3>\n<p>宜春，明月山，疗休养。</p>\n<p><img alt=\"bye25-7-1\" src=\"https://r2.immmmm.com/2026/01/bye25-7-1.JPEG\" /></p>\n<p><img alt=\"bye25-7-2\" src=\"https://r2.immmmm.com/2026/01/bye25-7-2.JPEG\" />\n<img alt=\"bye25-7-3\" src=\"https://r2.immmmm.com/2026/01/bye25-7-3.JPEG\" />\n<img alt=\"bye25-7-4\" src=\"https://r2.immmmm.com/2026/01/bye25-7-4.JPEG\" /></p>\n<h3 id=\"六月\">六月</h3>\n<p>再一次带出毕业班。再见，是为更好的相见。</p>\n<h3 id=\"五月\">五月</h3>\n<p>北仑，万博鱼度假区。</p>\n<p><img alt=\"bye25-5-2\" src=\"https://r2.immmmm.com/2026/01/bye25-5-2.JPEG\" />\n<img alt=\"bye25-5-1\" src=\"https://r2.immmmm.com/2026/01/bye25-5-1.JPEG\" /></p>\n<h3 id=\"四月\">四月</h3>\n<p>凑热闹，炼化厂外，网红打卡机位，听说已被封。</p>\n<p><img alt=\"bye25-4-1\" src=\"https://r2.immmmm.com/2026/01/bye25-4-1.JPEG\" />\n<img alt=\"bye25-4-2\" src=\"https://r2.immmmm.com/2026/01/bye25-4-2.JPEG\" /></p>\n<h3 id=\"三月\">三月</h3>\n<p>舟山，大桥下的油菜花，海边公路“螺塘线”。还是舟山人 chil～</p>\n<p><img alt=\"bye25-3-1\" src=\"https://r2.immmmm.com/2026/01/bye25-3-1.JPEG\" />\n<img alt=\"bye25-3-4\" src=\"https://r2.immmmm.com/2026/01/bye25-3-4.JPEG\" /></p>\n<p><img alt=\"bye25-3-5\" src=\"https://r2.immmmm.com/2026/01/bye25-3-5.JPEG\" />\n<img alt=\"bye25-3-3\" src=\"https://r2.immmmm.com/2026/01/bye25-3-3.JPEG\" />\n<img alt=\"bye25-3-2\" src=\"https://r2.immmmm.com/2026/01/bye25-3-2.JPEG\" /></p>\n<h3 id=\"二月\">二月</h3>\n<p>港珠澳家庭游，翻看照片，感触身为父母也只是陪着孩子一起走一段路、看一片风景。</p>\n<p>愿你早日找寻到自己的人生方向，抵达一个个目的地。</p>\n<p><img alt=\"bye25-2-1\" src=\"https://r2.immmmm.com/2026/01/bye25-2-1.JPEG\" /></p>\n<p><img alt=\"bye25-2-6\" src=\"https://r2.immmmm.com/2026/01/bye25-2-6.JPEG\" />\n<img alt=\"bye25-2-4\" src=\"https://r2.immmmm.com/2026/01/bye25-2-4.JPEG\" />\n<img alt=\"bye25-2-5\" src=\"https://r2.immmmm.com/2026/01/bye25-2-5.JPEG\" /></p>\n<p><img alt=\"bye25-2-2\" src=\"https://r2.immmmm.com/2026/01/bye25-2-2.JPEG\" /></p>\n<h3 id=\"一月\">一月</h3>\n<p>提了毛坯3，到处不要钱，开开开。</p>\n<p><img alt=\"bye25-1-4\" src=\"https://r2.immmmm.com/2026/01/bye25-1-4.JPEG\" />\n<img alt=\"bye25-1-6\" src=\"https://r2.immmmm.com/2026/01/bye25-1-6.JPEG\" />\n<img alt=\"bye25-1-5\" src=\"https://r2.immmmm.com/2026/01/bye25-1-5.JPEG\" /></p>\n<p><img alt=\"bye25-1-3\" src=\"https://r2.immmmm.com/2026/01/bye25-1-3.JPEG\" /></p>",
-          "pub_date": "2026-01-25T00:22:01+08:00",
-          "updated_at": "2026-01-25T00:22:01+08:00",
-          "author": "林木木",
-          "site_name": "木木木木木",
-          "site_url": "https://immmmm.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/immmmm.png"
-        }
-      ]
-    },
-    {
-      "name": "Evan",
-      "url": "https://www.evan.xin/",
-      "avatar": "https://cdn.xiaoten.com/friends/Evan.png",
-      "feed_url": "https://www.evan.xin/feed",
-      "posts": [
-        {
-          "title": "播播鸡“食用”指南：在中文播客的街角，与惊喜不期而遇",
-          "link": "https://www.evan.xin/4364/",
-          "description": "亲爱的播客漫游者们， 很高兴能与大家分享这份关于「播播鸡」（Boboji.org）的“食用”指南。 播客的世界 [&#8230;]",
-          "pub_date": "2026-01-20T04:23:55+08:00",
-          "updated_at": "2026-01-20T04:23:55+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "我用 Anygen 把中文播客圈‘鸡’化了：一份零代码榜单的诞生记",
-          "link": "https://www.evan.xin/4360/",
-          "description": "播播鸡在手机端的效果图 我最近在听李诞的同名播客，还有每天早上在车里听的资讯早七点。想找点新鲜的，就摸到了《枫 [&#8230;]",
-          "pub_date": "2026-01-17T05:16:13+08:00",
-          "updated_at": "2026-01-17T05:16:13+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "且听App：罗永浩的AI讲书新作，如何用声音重塑阅读？",
-          "link": "https://www.evan.xin/4341/",
-          "description": "罗永浩 2025年底，当罗永浩在“十字路口”年度科技创新分享大会上，以他一贯的“重新定义”姿态，揭晓新产品“且 [&#8230;]",
-          "pub_date": "2025-12-31T18:57:12+08:00",
-          "updated_at": "2025-12-31T18:57:12+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "EVANMI.TOP域名列表再次升级",
-          "link": "https://www.evan.xin/4333/",
-          "description": "其实这次改动也算不上升级，反而精简了不少之前叠加的小功能，比如推荐小图标、动效背景等。核心只想让界面再“瘦”一 [&#8230;]",
-          "pub_date": "2025-12-30T07:40:17+08:00",
-          "updated_at": "2025-12-30T07:40:17+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "捷径的悖论：为什么最快的路，往往走得最远？",
-          "link": "https://www.evan.xin/4318/",
-          "description": "你有没有发现一个反常识的真相：职场里那些看着能抄近道的机会，到最后大多变成了绕不开的远路。真正的陷阱从不是捷径 [&#8230;]",
-          "pub_date": "2025-12-16T14:52:30+08:00",
-          "updated_at": "2025-12-16T14:52:30+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "草台班子突围术：功利外壳下的成长内核",
-          "link": "https://www.evan.xin/4312/",
-          "description": "认知破局：从“情绪化离场”到“利益化留守” 你所在的职场环境越复杂、越像没章法的草台班子，你越该留下来 ——这 [&#8230;]",
-          "pub_date": "2025-12-16T04:35:16+08:00",
-          "updated_at": "2025-12-16T04:35:16+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "灵光 AI 打造｜职场能力排序工具，精准锚定成长发力点",
-          "link": "https://www.evan.xin/4299/",
-          "description": "这款 “职场资源挖掘器” 是我用灵光 AI 打造的抛砖引玉之作。愿在当下焦虑蔓延的环境里，能帮大家找准职场突破 [&#8230;]",
-          "pub_date": "2025-12-08T05:06:57+08:00",
-          "updated_at": "2025-12-08T05:06:57+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "90天闷声赚了8W美金！",
-          "link": "https://www.evan.xin/4293/",
-          "description": "你是不是也觉得，现在做短视频越来越难了？露脸吧，怕被熟人认出来；不露脸吧，又总觉得没人看。但今天我要跟你分享一 [&#8230;]",
-          "pub_date": "2025-12-07T17:02:01+08:00",
-          "updated_at": "2025-12-07T17:02:01+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "2025年黑色星期五域名特卖：Dynadot优惠全解析",
-          "link": "https://www.evan.xin/4278/",
-          "description": "详细活动内容 域名捆绑与匹配促销 通过捆绑域名或匹配账户中已有域名，可享受巨大优惠。例如，注册捆绑包价格从&#038;n [&#8230;]",
-          "pub_date": "2025-11-27T06:17:55+08:00",
-          "updated_at": "2025-11-27T06:17:55+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "我用Astralis十分钟做了个永久起始页Nav.pm",
-          "link": "https://www.evan.xin/4255/",
-          "description": "DEMO默认页面 HTTPS://NAV.PM 本地书签越攒越乱，在线导航又塞满广告；虽然“会点技术的都人手一 [&#8230;]",
-          "pub_date": "2025-11-25T04:47:21+08:00",
-          "updated_at": "2025-11-25T04:47:21+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "Marble AI 初体验：单图生成可探索 NeRF 场景",
-          "link": "https://www.evan.xin/4230/",
-          "description": "把一张图脑补成能走进去的3D世界，我只用了60秒，这就是 Marble AI。 它不是什么复杂软件，而是一个网 [&#8230;]",
-          "pub_date": "2025-11-13T15:21:55+08:00",
-          "updated_at": "2025-11-13T15:21:55+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "那些有趣的极简设计风格",
-          "link": "https://www.evan.xin/4147/",
-          "description": "",
-          "pub_date": "2025-11-11T16:04:07+08:00",
-          "updated_at": "2025-11-11T16:04:07+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "小红书“电子壁纸”生意0库存暴利玩法拆解",
-          "link": "https://www.evan.xin/4130/",
-          "description": "我在小红书刷到一个账号：先用美化 App 把桌面布置得极度吸睛，15 秒展示成片；中间插几条“手把手设置”教程 [&#8230;]",
-          "pub_date": "2025-11-06T04:01:18+08:00",
-          "updated_at": "2025-11-06T04:01:18+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "HK-1616 与 2222JP 最全成本-体验对比",
-          "link": "https://www.evan.xin/4123/",
-          "description": "前几天狐蒂云出16C16G的「111 元/3年」的极限低价（双十一活动）；绿云周年庆推出2222JP软银「15 [&#8230;]",
-          "pub_date": "2025-11-04T09:08:28+08:00",
-          "updated_at": "2025-11-04T09:08:28+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "内容创作者效率神器：AI视频摘要工具TLDW初体验",
-          "link": "https://www.evan.xin/4112/",
-          "description": "TLDW是一个 AI驱动的视频摘要工具，它的核心功能是： 通过AI技术快速生成长视频的简洁摘要，帮助用户节省时 [&#8230;]",
-          "pub_date": "2025-11-03T04:08:00+08:00",
-          "updated_at": "2025-11-03T04:08:00+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "当极客开始浪漫：我把网站写进了NFC冰箱贴里",
-          "link": "https://www.evan.xin/4089/",
-          "description": "前两天发现有冰箱贴可以DIY，然后就用AI生成的LOGO做了一个冰箱贴（有NFC功能）。 折腾大半天，终于零成 [&#8230;]",
-          "pub_date": "2025-10-26T09:13:21+08:00",
-          "updated_at": "2025-10-26T09:13:21+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "删除 EvanNav 6.3.1 加载页面教程",
-          "link": "https://www.evan.xin/4074/",
-          "description": "好的，为了删除加载页，您需要在以下文件中进行代码修改： 1. public/index.html 删除以下代码 [&#8230;]",
-          "pub_date": "2025-10-15T12:22:47+08:00",
-          "updated_at": "2025-10-15T12:22:47+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "【米表升级】贯彻极简设计风格，呈现更极致",
-          "link": "https://www.evan.xin/4025/",
-          "description": "整体呈现更清爽，域名释义隐藏在鼠标经过处 本次更新了如下内容：- 增加域名弹出释义 - 增加域名价格展示- 增 [&#8230;]",
-          "pub_date": "2025-08-23T11:36:00+08:00",
-          "updated_at": "2025-08-23T11:36:00+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "SHEBAO.CX 升级篇：把“无心插柳”做成“长期可用”",
-          "link": "https://www.evan.xin/4017/",
-          "description": "前一段时间随手搭的 shebao.cx，初衷只是替自己省点事。没想到访问数据比较稳定，还是有人在用的。既然大家 [&#8230;]",
-          "pub_date": "2025-08-20T06:16:29+08:00",
-          "updated_at": "2025-08-20T06:16:29+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "「2025」Spaceship 域名优惠码大全",
-          "link": "https://www.evan.xin/4008/",
-          "description": "如果你正在寻找域名或主机服务的超值折扣，这篇博文一定要收藏。Spaceship 今年依旧放出大量诚意优惠，从  [&#8230;]",
-          "pub_date": "2025-08-14T16:41:00+08:00",
-          "updated_at": "2025-08-14T16:41:00+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        },
-        {
-          "title": "电视剧《凡人修仙传》终结：古传送阵把韩立送去哪里了？",
-          "link": "https://www.evan.xin/3987/",
-          "description": "凡人终有尽，仙路亦无终。把韩立的完整旅程一口气读完，就像在时间长河里做了一次深呼吸——出来时，瓶子已空，老魔已 [&#8230;]",
-          "pub_date": "2025-08-12T15:22:35+08:00",
-          "updated_at": "2025-08-12T15:22:35+08:00",
-          "author": "Evan",
-          "site_name": "Evan",
-          "site_url": "https://www.evan.xin/",
-          "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
-        }
-      ]
-    },
-    {
-      "name": "小屁君的吐槽",
-      "url": "https://blog.ouxiaopi.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
-      "feed_url": "https://blog.ouxiaopi.com/feed",
-      "posts": [
-        {
-          "title": "小P说（十）",
-          "link": "https://blog.ouxiaopi.com/1741.html",
-          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
-          "pub_date": "2026-01-26T12:24:01+08:00",
-          "updated_at": "2026-01-26T12:24:01+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小米的”星号”艺术!",
-          "link": "https://blog.ouxiaopi.com/1734.html",
-          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
-          "pub_date": "2026-01-23T07:42:00+08:00",
-          "updated_at": "2026-01-23T07:42:00+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（八）",
-          "link": "https://blog.ouxiaopi.com/1706.html",
-          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
-          "pub_date": "2026-01-15T02:41:26+08:00",
-          "updated_at": "2026-01-15T02:41:26+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "2025年度总结",
-          "link": "https://blog.ouxiaopi.com/1676.html",
-          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
-          "pub_date": "2026-01-04T07:54:40+08:00",
-          "updated_at": "2026-01-04T07:54:40+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "凤英",
-          "link": "https://blog.ouxiaopi.com/1665.html",
-          "description": "米高杨唱的完整版《凤英》",
-          "pub_date": "2025-12-24T14:31:13+08:00",
-          "updated_at": "2025-12-24T14:31:13+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（七）",
-          "link": "https://blog.ouxiaopi.com/1635.html",
-          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
-          "pub_date": "2025-12-14T04:08:11+08:00",
-          "updated_at": "2025-12-14T04:08:11+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（九）",
-          "link": "https://blog.ouxiaopi.com/1613.html",
-          "description": "到了25年最后一月，虽没去年冷但风大。这一年心境安静，不再执着“争”，用“命中注定”概括无法释怀。认为教育或许是灌输驯化，对雅雅更注重其开心做自己。指出逃离农村进城市可能陷入游戏陷阱，信仰在大数据、社会算法影响下崩塌。意识到自身能力在当下供大于求的环境中不足，曾创业失败，如今追求内心平静，不被定义。",
-          "pub_date": "2025-12-04T12:06:10+08:00",
-          "updated_at": "2025-12-04T12:06:10+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "黄梅戏《三字经》片段",
-          "link": "https://blog.ouxiaopi.com/1606.html",
-          "description": "安庆黄梅戏优秀演员马丁唱的《三字经》片段",
-          "pub_date": "2025-12-01T11:18:58+08:00",
-          "updated_at": "2025-12-01T11:18:58+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "讨倭檄文",
-          "link": "https://blog.ouxiaopi.com/1583.html",
-          "description": "这檄文声讨倭夷。回顾其历史上多次侵华恶行，如甲午、全面侵华等。如今它仍不思悔改，篡改历史、觊觎领土。中华曾驱其出境，今国力强盛，若倭再犯，必承先辈遗志反击，望其悬崖勒马，否则定踏平列岛。",
-          "pub_date": "2025-11-26T12:59:39+08:00",
-          "updated_at": "2025-11-26T12:59:39+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（六）",
-          "link": "https://blog.ouxiaopi.com/1545.html",
-          "description": "作者近况平淡，工作、生活、精神均有压力，有抽烟、刷短视频等习惯但睡眠不错。睡前常思考，老表质疑折腾网站无收益，作者认为这是学习。刷短视频时虽有正面内容可学习，但负面内容多。作者指出当下部分人努力能过上理想生活，多数人精神需求缺失涌入虚拟世界，被资本收割注意力，影响社会创新。还吐槽公司门口路差，修路情况细思极恐，最后表示继续日常。",
-          "pub_date": "2025-11-16T14:48:45+08:00",
-          "updated_at": "2025-11-16T14:48:45+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
         }
       ]
     },
@@ -4187,6 +4198,17 @@
     }
   ],
   "all_posts": [
+    {
+      "title": "城市里没有爱情？",
+      "link": "https://lznauy.cn/posts/2026-02-05-%E5%9F%8E%E5%B8%82%E9%87%8C%E6%B2%A1%E6%9C%89%E7%88%B1%E6%83%85/",
+      "description": "<p>对于爱情，其实我一直抱有美好的憧憬，即使我知道这种美好不会降临到我身上。小时候不论是听故事、看电视剧还是看小说，爱情叙事总是宏大而感人，最好的结局当然是他们克服了重重困难，最后幸福的在一起。其实比起韩剧那种经受感情的猜疑、外界的挑拨，最终才确认感情的戏份来说，我更喜欢那种宏大叙事中有着共同理想的男女主角经历重重磨难，一起实现伟大抱负，最终幸福在一起的故事，就比如虹猫蓝兔？郭靖黄蓉？（笑</p>",
+      "pub_date": "2026-02-05T19:54:31+08:00",
+      "updated_at": "2026-02-05T19:54:31+08:00",
+      "author": "lznauy的技术小屋",
+      "site_name": "lznauy的技术小屋",
+      "site_url": "https://lznauy.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+    },
     {
       "title": "昨日立春",
       "link": "https://wuziya.com/280.html",

@@ -1,8 +1,126 @@
 {
-  "updated_at": "2026-02-26T08:25:22.135450+08:00",
-  "total_sites": 30,
-  "total_posts": 379,
+  "updated_at": "2026-02-26T14:25:12.398190+08:00",
+  "total_sites": 29,
+  "total_posts": 369,
   "sites": [
+    {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "一些杂事",
+          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
+          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
+          "pub_date": "2026-01-12T23:07:00+08:00",
+          "updated_at": "2026-01-12T23:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "关于孟鲁司特钠的不良反应",
+          "link": "https://wangdaodao.com/20260105/montelukast.html",
+          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
+          "pub_date": "2026-01-05T22:54:00+08:00",
+          "updated_at": "2026-01-05T22:54:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源网易云及QQ音乐播放插件",
+          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
+          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
+          "pub_date": "2025-12-26T13:25:00+08:00",
+          "updated_at": "2025-12-26T13:25:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Typecho抖音播放器插件",
+          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
+          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
+          "pub_date": "2025-12-20T16:24:00+08:00",
+          "updated_at": "2025-12-20T16:24:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "2025年终总结",
+          "link": "https://wangdaodao.com/20251214/2025-summary.html",
+          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
+          "pub_date": "2025-12-14T13:52:00+08:00",
+          "updated_at": "2025-12-14T13:52:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho博客开启EdgeOne",
+          "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
+          "description": "其实腾讯云的边缘安全加速平台 EdgeOne 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 ...",
+          "pub_date": "2025-12-10T20:03:00+08:00",
+          "updated_at": "2025-12-10T20:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布一个Typecho AI文本润色插件",
+          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
+          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
+          "pub_date": "2025-12-06T19:44:00+08:00",
+          "updated_at": "2025-12-06T19:44:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源高德地图及规划路径短代码插件",
+          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
+          "pub_date": "2025-12-03T13:22:00+08:00",
+          "updated_at": "2025-12-03T13:22:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开始记账了",
+          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
+          "pub_date": "2025-11-28T21:38:00+08:00",
+          "updated_at": "2025-11-28T21:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布Typecho足迹插件",
+          "link": "https://wangdaodao.com/20251122/typecho-track.html",
+          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
+          "pub_date": "2025-11-22T16:38:00+08:00",
+          "updated_at": "2025-11-22T16:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        }
+      ]
+    },
     {
       "name": "Jame",
       "url": "https://jame.work",
@@ -111,7 +229,7 @@
         {
           "title": "像猫一样的风",
           "link": "https://jame.work/html/post/30",
-          "description": "<h1>像猫一样的风</h1>\n<p>老李，安徽宿州人，如果还活着的话，今年算来应该已经83了。</p>\n<p>他有两个女儿，小女儿嫁到了上海，大女儿嫁到了县里，后来也跟着出去了。他老伴六十多去世了，好像是肠癌，老伴去世的那天他谁都没通知，两个女儿也没有，他从醒来就坐在床头看着，一句话都没说，一滴泪也没流，只是看着，一直从白天坐到黑夜，直到听见村里鸡叫。</p>\n<p>第二天晚上两个女儿回来了，趴在床前哭得一塌糊涂，但老李还是一句话都没说，一滴泪都没流。后面就是丧葬，要拉去火化时，老李开口说话了：“明天吧，等明天。”等到了明天，老李又说：“明天吧，等明天。”又等到明天，老李又说等明天，屋里已经有味了，村长劝了半天老李，才终于同意拉去火化了。</p>\n<p>下葬时，两个女儿站旁边抹眼泪，老李还是一滴泪没流，几个亲戚抬着棺材正要下葬，老李突然扒住棺材哭了起来，哭的伤心欲绝，大伙只好先把棺材放到地上，谁知老李最后竟然哭晕了过去。</p>\n<p>这事办完后，该散的人都散了，两个女儿待了一段时间也走了，院子里出现了从未有过的冷清。</p>\n<p>老李不缺钱花，也花不了什么钱，地大多都租出去了，留了两亩种点菜足够自己吃。自从老伴去世后，他就经常往地头跑，一坐就是半天，直到傍晚，才踩着黄昏回来。</p>\n<br />\n<p>小孙女上初中了，听到同学家里养了只猫，她也闹着要养，后来去市场买了一只，谁知道那只猫怀孕了，眼看着肚子越来越大，最后下了三个崽，给她妈妈愁坏了，一只给了同学，还有两只寄回了家里。</p>\n<p>但老李不喜欢猫，现在地都租出去了，不用屯粮食防老鼠，养着没用。老李骑着电三轮从镇上回来时，除了两袋红枣和一包熏肉外，还有一个箱子，箱子里跟了一路的喵喵叫。回到家老李拆开箱子把俩猫放了出来，就去洗手做饭了。</p>\n<p>吃饭时小女儿打来电话，“爸，东西都收到了吗？”</p>\n<p>“收到了收到了。”</p>\n<p>“熏肉还有两包枣是吧？”</p>\n<p>“嗯，都在。”</p>\n<p>“我跟你说熏肉咋吃，你就炒菜的时候切点，熏肉咸，你少放点盐。还有那个红枣补血的，你不是老有点贫血吗？你烧饭的时候就放点红枣……”</p>\n<p>小女儿絮絮叨叨的把老李的生活起居问了个遍，老李静静地听着，回应几声，直到脚下有只小猫趴在裤腿上喵喵叫，老李甩开小猫，朝电话那头问道：“你说你还给我整俩猫干啥，现在又不用捉耗子。”</p>\n<p>“刘欣说她同学家都有猫，她也非要买一只，那猫下了三个崽，我家哪能养过来，寄给你两只你留着当个伴呗，家里也有点生气。”</p>\n<p>之后又问到老李需要点啥，说要给寄点干果，老李推脱着说不用不用，又问到身体如何，话题又扯到让老李怎么保养身体，老李边吃饭边听着，俩猫在院里撒欢。</p>\n<p>吃完饭老李从橱柜下翻出一个带豁口的碟子，把剩的饭倒在里面，招呼两个小猫过来吃饭。</p>\n<p>这两只猫就是这样来到老李家的，起初老李觉得这俩猫吃白食，敞开大门想着爱跑谁家去跑谁家去，小猫本就天性好奇，看见老李开了大门就跑了出去，老李赶紧关上了门。没曾想到吃饭时，那俩猫顺着墙边的树又爬了进来，老李哭笑不得：“这俩猫不傻，知道这有吃的。”</p>\n<p>往后老李也不是自己独自吃饭了，总是有两只猫在桌下陪着他，时间长了，有时老李做饭，也会想着这俩猫吃些什么，时不时整点肉，鱼虾之类的，猫吃不了多少，剩点都够喂猫。这样说来也好笑，要是就老李一个人，他觉得吃啥都一样，因为俩猫的原因，老李的伙食反而变好了。</p>\n<p>堂屋门口竖着根竹竿，杆头拴了布条，有时老李就在院子里逗猫，俩猫玩累了，就过来蹭蹭老李。冬天的时候躺在院里晒太阳，那俩猫就往身上爬，它们一爬老李就赶它们，过了几次猫不爬了。老李看着猫趴地上，起身回屋里找了个纸箱垫点旧衣服摆在旁边，猫就趴在了纸箱里。有天老李像往常一样晒太阳，看见俩猫在旁边，拎起来掸掸灰放到怀里，猫的体温加上太阳晒的温度，像一个热水袋一样，老李就搂着猫在午后的太阳下睡去。</p>\n<br />\n<p>过年后俩女儿带着一大家子来走亲戚，家里也热闹了起来，几个孩子在院里疯玩，一个劲要爬那颗梧桐树，大女儿给训了一顿后几个小孩哭哭啼啼的坐在院子里生闷气。</p>\n<p>吃饭时，小女婿半开玩笑似的说：“爸，你这平时一个人在家多孤单，不如再找个老伴吧。”</p>\n<p>“孤单啥，这不还有俩活物呢。”老李指了指那俩猫。</p>\n<p>“猫和人能一样吗？我说真的，你要愿意的话我给你攒攒。”</p>\n<p>老李尴尬笑了笑没说话，小女儿拍了一下女婿：“瞎胡闹。”</p>\n<p>老李想吗？他不仅想，还想过，有时候起夜回到被窝里睡不着，就想过这事。但也想过自己快没几年了，何必再折腾呢，并且也觉得这样有点丢人。</p>\n<br />\n<p>时间晃得飞快，当年几个坐在树下哭啼啼生闷气的小孩，一个个都比这个老头子高了，比他们爸妈高了，而这个老头子却越来越矮了。</p>\n<p>老李每次过年，都会有两次觉得孤独，一次是女儿带着家人来的时候，一次是走的时候。</p>\n<p>过年时他坐在堂屋门口，看着院子里孩子大人嬉闹欢笑，总感觉自己这个黄土已经埋到鼻子的人和他们已经是两个世界的人了，吃饭时一家子围在一起，其乐融融多热闹，可老李的心里总感觉空落落的，感觉自己好像是个摆件，一群人围着自己，反而比自己一个人的时候还孤单。</p>\n<p>还有就是临走的时候，他拽着两个女儿的手想再多说几句话，但始终不知道说什么，他拎着已经放下的礼品往车上送：“留这么多我又吃不完，最后都放坏了。”两家又给拎回去：“留着慢慢吃吧。”几个来回后，才慢慢平静下来，听着俩女儿说着保重身体之类的话时，他回应着嗯、嗯、嗯。而车上的小孩子，等得已经有些不耐烦了：“半天了怎么还不走啊？”这些不耐烦的小孩，或许要等到很久很久以后才会明白，在记忆中那个矮小的外公，除了真的不爱喝牛奶，吃不完这么多肉之外，更多的是想要留下他们再多待一会。</p>\n<br />\n<p>初春，老李照旧躺在那把扶手被磨得锃光瓦亮的躺椅上，那两只猫也老了，或许比老李还老，老李弯腰轻轻抱起一只老猫，仔细看了看，它呼吸迟缓，眼中浑浊，完全看不出刚来到这个院子时活泼的影子，老李这次没有掸灰，轻轻放到了怀里，和猫一起睡了过去。</p>\n<p>太阳歪了下去，老李醒了，做了一个已经做过无数次的动作：摸了摸怀里的这只猫，但猫并没有像以往无数次那样发出呼噜呼噜的呼吸或者弓起身伸个懒腰，老李坐起身子看了看，它已经死了。又连忙转身摸了下纸壳里的那只，还活着。</p>\n<p>老李在梧桐树下挖了个坑，土冻得很硬，铁锹铲不动，用锄头废了不少劲才把猫埋了起来。</p>\n<br />\n<p>五月份的时候，另一只猫不知道跑哪去了，好几天没见到。</p>\n<p>那天老李上镇上买菜，卖肉的李响见到了老李，热情地打招呼，朝他喊了几遍老李才听到。</p>\n<p>“大爷，来两斤肉？鲜的很！早上我刚拉来的，你摸摸里面还热乎呢！”</p>\n<p>“我一个人吃不了多少。”老李说。</p>\n<p>“你来两斤，一顿放点两天也就吃完啦！”李响拍拍猪皮笑呵呵地说到。</p>\n<p>“那来两斤吧。”</p>\n<p>三下五除二的切完装袋后，递给老李，问到：“大爷你都那么大年纪了，闺女也没说把你接过去享福啊？”</p>\n<p>“唉，享啥福啊，在城里呆不惯，受罪。”</p>\n<p>“那也比在家里好啊，你说你一个人，连个说话的都没有。”</p>\n<p>“在家自在，能出门走走。在城里都不能出门啊，出去了都找不到家。”</p>\n<p>俩人闲聊着，集市上慢慢也开始上人了，后来老李说到他的猫丢了，李响说：“我早上还看见一只猫搁村头沟里呢！看着像你家猫。”</p>\n<p>“噢，是吗，你说咋能掉沟里呢？”</p>\n<p>旁边买肉的大娘搭话：“说不定它想逮鱼呢！”</p>\n<p>李响和大娘都乐了，老李也跟着笑了笑。</p>\n<br />\n<p>老李从集市出来，没有回家，他径直朝着村头走去。</p>\n<p>沟里确实有只猫，也确实是他的猫，他要去借把抄网，旁边的住户一听原因，主动帮他捞上来了。</p>\n<p>“哎呀，你的猫咋跑这来了……”</p>\n<p>“这猫就好瞎跑。”</p>\n<p>“哎呀，哎呀……你说说这事。我给你拿个袋子装上吧。”</p>\n<br />\n<p>老李回到家时，手里提着除了刚买的菜以外，还有一只装着猫的红色塑料袋。他把这只猫埋在了另一棵梧桐树下。</p>\n<p>老李中午没吃饭，晚上也没吃饭，等到第二天早上还没吃饭，他很难过，但眼泪早就流干了。</p>\n<p>老李坐在堂屋椅子上，堂屋门开着，屋里阴暗，屋外明亮，院里新生的翠绿覆盖了寒冬的黯黄。老李从桌下的箱子里翻出一捆绳子，绑在了房梁上，又搬来凳子，摆在堂屋门口，艰难地爬了上去。</p>\n<p>光是这些动作就已经累得气喘吁吁，老李目光扫过院内，一切寂静又丰饶。一股风吹了过来，那风就像他养的猫一样，从墙头一跃而下，刺溜一下钻进堂屋。他闻到了那只猫所经过的地方：跑过村南头的小麦田，沾了一身晨露和麦香，抖抖身子又跑到果园里溜达，爬到树上用爪子扒拉刚刚成型的小苹果，感到饿了便一溜烟跑回家，从墙头飞了进来。</p>\n<p>老李觉得这股风和这辈子吹过的风都不一样，很柔，像猫一样柔，像清酒，或者已经泡过几壶的浓茶，吹得人浑身舒服，骨头都跟着酥了。他正踩在椅子上高举双手抓着绳子，看着院里两棵梧桐树，“变了变了。”他嘀咕着，当嫩绿的树叶还在树上喧嚣时，他就已经听到了枯叶被扫帚一下下扫过的声音。待了几十年的院子一下子变了，仿佛置身在了远山的寺庙中，他从梧桐树身上再也感受不到孤独和凄凉，一切寂静都变成了宁静，有一种说不清的禅意。</p>\n<br />\n<p>上午的阳光正媚，一个小老头正站在堂屋正门的椅子上愣神，没人知道他从什么时候站上去的又要站到多久。当那股像猫一样的风像猫一样离开时，院子里的树叶也跟着簌簌作响，就如同它来的时候一样。</p>",
+          "description": "<h1>像猫一样的风</h1>\n<p>老李，安徽宿州人，如果还活着的话，今年算来应该已经83了。</p>\n<p>他有两个女儿，小女儿嫁到了上海，大女儿嫁到了县里，后来也跟着出去了。他老伴六十多去世了，好像是肠癌，老伴去世的那天他谁都没通知，两个女儿也没有，他从醒来就坐在床头看着，一句话都没说，一滴泪也没流，只是看着，一直从白天坐到黑夜，直到听见村里鸡叫。</p>\n<p>第二天晚上两个女儿回来了，趴在床前哭得一塌糊涂，但老李还是一句话都没说，一滴泪都没流。后面就是丧葬，要拉去火化时，老李开口说话了：“明天吧，等明天。”等到了明天，老李又说：“明天吧，等明天。”又等到明天，老李又说等明天，屋里已经有味了，村长劝了半天老李，才终于同意拉去火化了。</p>\n<p>下葬时，两个女儿站旁边抹眼泪，老李还是一滴泪没流，几个亲戚抬着棺材正要下葬，老李突然扒住棺材哭了起来，哭的伤心欲绝，大伙只好先把棺材放到地上，谁知老李最后竟然哭晕了过去。</p>\n<p>这事办完后，该散的人都散了，两个女儿待了一段时间也走了，院子里出现了从未有过的冷清。</p>\n<p>老李不缺钱花，也花不了什么钱，地大多都租出去了，留了两亩种点菜足够自己吃。自从老伴去世后，他就经常往地头跑，一坐就是半天，直到傍晚，才踩着黄昏回来。</p>\n<br />\n<p>小孙女上初中了，听到同学家里养了只猫，她也闹着要养，后来去市场买了一只，谁知道那只猫怀孕了，眼看着肚子越来越大，最后下了三个崽，给她妈妈愁坏了，一只给了同学，还有两只寄回了家里。</p>\n<p>但老李不喜欢猫，现在地都租出去了，不用屯粮食防老鼠，养着没用。老李骑着电三轮从镇上回来时，除了两袋红枣和一包熏肉外，还有一个箱子，箱子里跟了一路的喵喵叫。回到家老李拆开箱子把俩猫放了出来，就去洗手做饭了。</p>\n<p>吃饭时小女儿打来电话，“爸，东西都收到了吗？”</p>\n<p>“收到了收到了。”</p>\n<p>“熏肉还有两包枣是吧？”</p>\n<p>“嗯，都在。”</p>\n<p>“我跟你说熏肉咋吃，你就炒菜的时候切点，熏肉咸，你少放点盐。还有那个红枣补血的，你不是老有点贫血吗？你烧饭的时候就放点红枣……”</p>\n<p>小女儿絮絮叨叨的把老李的生活起居问了个遍，老李静静地听着，回应几声，直到脚下有只小猫趴在裤腿上喵喵叫，老李甩开小猫，朝电话那头问道：“你说你还给我整俩猫干啥，现在又不用捉耗子。”</p>\n<p>“刘欣说她同学家都有猫，她也非要买一只，那猫下了三个崽，我家哪能养过来，寄给你两只你留着当个伴呗，家里也有点生气。”</p>\n<p>之后又问到老李需要点啥，说要给寄点干果，老李推脱着说不用不用，又问到身体如何，话题又扯到让老李怎么保养身体，老李边吃饭边听着，俩猫在院里撒欢。</p>\n<p>吃完饭老李从橱柜下翻出一个带豁口的碟子，把剩的饭倒在里面，招呼两个小猫过来吃饭。</p>\n<p>这两只猫就是这样来到老李家的，起初老李觉得这俩猫吃白食，敞开大门想着爱跑谁家去跑谁家去，小猫本就天性好奇，看见老李开了大门就跑了出去，老李赶紧关上了门。没曾想到吃饭时，那俩猫顺着墙边的树又爬了进来，老李哭笑不得：“这俩猫不傻，知道这有吃的。”</p>\n<p>往后老李也不是自己独自吃饭了，总是有两只猫在桌下陪着他，时间长了，有时老李做饭，也会想着这俩猫吃些什么，时不时整点肉，鱼虾之类的，猫吃不了多少，剩点都够喂猫。这样说来也好笑，要是就老李一个人，他觉得吃啥都一样，因为俩猫的原因，老李的伙食反而变好了。</p>\n<p>堂屋门口竖着根竹竿，杆头拴了布条，有时老李就在院子里逗猫，俩猫玩累了，就过来蹭蹭老李。冬天的时候躺在院里晒太阳，那俩猫就往身上爬，它们一爬老李就赶它们，过了几次猫不爬了。老李看着猫趴地上，起身回屋里找了个纸箱垫点旧衣服摆在旁边，猫就趴在了纸箱里。有天老李像往常一样晒太阳，看见俩猫在旁边，拎起来掸掸灰放到怀里，猫的体温加上太阳晒的温度，像一个热水袋一样，老李就搂着猫在午后的太阳下睡去。</p>\n<br />\n<p>过年后俩女儿带着一大家子来走亲戚，家里也热闹了起来，几个孩子在院里疯玩，一个劲要爬那颗梧桐树，大女儿给训了一顿后几个小孩哭哭啼啼的坐在院子里生闷气。</p>\n<p>吃饭时，小女婿半开玩笑似的说：“爸，你这平时一个人在家多孤单，不如再找个老伴吧。”</p>\n<p>“孤单啥，这不还有俩活物呢。”老李指了指那俩猫。</p>\n<p>“猫和人能一样吗？我说真的，你要愿意的话我给你攒攒。”</p>\n<p>老李尴尬笑了笑没说话，小女儿拍了一下女婿：“瞎胡闹。”</p>\n<p>老李想吗？他不仅想，还想过，有时候起夜回到被窝里睡不着，就想过这事。但也想过自己快没几年了，何必再折腾呢，并且也觉得这样有点丢人。</p>\n<br />\n<p>时间晃得飞快，当年几个坐在树下哭啼啼生闷气的小孩，一个个都比这个老头子高了，比他们爸妈高了，而这个老头子却越来越矮了。</p>\n<p>老李每次过年，都会有两次觉得孤独，一次是女儿带着家人来的时候，一次是走的时候。</p>\n<p>过年时他坐在堂屋门口，看着院子里孩子大人嬉闹欢笑，总感觉自己这个黄土已经埋到鼻子的人和他们已经是两个世界的人了，吃饭时一家子围在一起，其乐融融多热闹，可老李的心里总感觉空落落的，感觉自己好像是个摆件，一群人围着自己，反而比自己一个人的时候还孤单。</p>\n<p>还有就是临走的时候，他拽着两个女儿的手想再多说几句话，但始终不知道说什么，他拎着已经放下的礼品往车上送：“留这么多我又吃不完，最后都放坏了。”两家又给拎回去：“留着慢慢吃吧。”几个来回后，才慢慢平静下来，听着俩女儿说着保重身体之类的话时，他回应着嗯、嗯、嗯。而车上的小孩子，等得已经有些不耐烦了：“半天了怎么还不走啊？”这些不耐烦的小孩，或许要等到很久很久以后才会明白，在记忆中那个矮小的外公，除了真的不爱喝牛奶，吃不完这么多肉之外，更多的是想要留下他们再多待一会。</p>\n<br />\n<p>初春，老李照旧躺在那把扶手被磨得锃光瓦亮的躺椅上，那两只猫也老了，或许比老李还老，老李弯腰轻轻抱起一只老猫，仔细看了看，它呼吸迟缓，眼中浑浊，完全看不出刚来到这个院子时活泼的影子，老李这次没有掸灰，轻轻放到了怀里，和猫一起睡了过去。</p>\n<p>太阳歪了下去，老李醒了，做了一个已经做过无数次的动作：摸了摸怀里的这只猫，但猫并没有像以往无数次那样发出呼噜呼噜的呼吸或者弓起身伸个懒腰，老李坐起身子看了看，它已经死了。又连忙转身摸了下纸壳里的那只，还活着。</p>\n<p>老李在梧桐树下挖了个坑，土冻得很硬，铁锹铲不动，用锄头废了不少劲才把猫埋了起来。</p>\n<br />\n<p>五月份的时候，另一只猫不知道跑哪去了，好几天没见到。</p>\n<p>那天老李上镇上买菜，卖肉的李响见到了老李，热情地打招呼，朝他喊了几遍老李才听到。</p>\n<p>“大爷，来两斤肉？鲜的很！早上我刚拉来的，你摸摸里面还热乎呢！”</p>\n<p>“我一个人吃不了多少。”老李说。</p>\n<p>“你来两斤，一顿放点两天也就吃完啦！”李响拍拍猪皮笑呵呵地说到。</p>\n<p>“那来两斤吧。”</p>\n<p>三下五除二的切完装袋后，递给老李，问到：“大爷你都那么大年纪了，闺女也没说把你接过去享福啊？”</p>\n<p>“唉，享啥福啊，在城里呆不惯，受罪。”</p>\n<p>“那也比在家里好啊，你说你一个人，连个说话的都没有。”</p>\n<p>“在家自在，能出门走走。在城里都不能出门啊，出去了都找不到家。”</p>\n<p>俩人闲聊着，集市上慢慢也开始上人了，后来老李说到他的猫丢了，李响说：“我早上还看见一只猫搁村头沟里呢！看着像你家猫。”</p>\n<p>“噢，是吗，你说咋能掉沟里呢？”</p>\n<p>旁边买肉的大娘搭话：“说不定它想逮鱼呢！”</p>\n<p>李响和大娘都乐了，老李也跟着笑了笑。</p>\n<br />\n<p>老李从集市出来，没有回家，他径直朝着村头走去。</p>\n<p>沟里确实有只猫，也确实是他的猫，他要去借把抄网，旁边的住户一听原因，主动帮他捞上来了。</p>\n<p>“哎呀，你的猫咋跑这来了……”</p>\n<p>“这猫就好瞎跑。”</p>\n<p>“哎呀，哎呀……你说说这事。我给你拿个袋子装上吧。”</p>\n<br />\n<p>老李回到家时，手里提着除了刚买的菜以外，还有一只装着猫的红色塑料袋。他把这只猫埋在了另一棵梧桐树下。</p>\n<p>老李中午没吃饭，晚上也没吃饭，等到第二天早上还没吃饭，他很难过，但眼泪早就流干了。</p>\n<p>老李坐在堂屋椅子上，堂屋门开着，屋里阴暗，屋外明亮，院里新生的翠绿覆盖了寒冬的黯黄。老李从桌下的箱子里翻出一捆绳子，绑在了房梁上，又搬来凳子，摆在堂屋门口，艰难地爬了上去。</p>\n<p>光是这些动作就已经累得气喘吁吁，老李目光扫过院内，一切寂静又丰饶。一股风吹了过来，那风就像他养的猫一样，从墙头一跃而下，刺溜一下钻进堂屋。他闻到了那只猫所经过的地方：跑过村南头的小麦田，沾了一身晨露和麦香，抖抖身子又跑到果园里溜达，爬到树上用爪子扒拉刚刚成型的小苹果，感到饿了便一溜烟跑回家，从墙头飞了进来。</p>\n<p>老李觉得这股风和这辈子吹过的风都不一样，很柔，像猫一样柔，像清酒，或者已经泡过几壶的浓茶，吹得人浑身舒服，骨头都跟着酥了。他正踩在椅子上高举双手抓着绳子，看着院里两棵梧桐树，“变了变了。”他嘀咕着，当嫩绿的树叶还在树上喧嚣时，他就已经听到了枯叶在地上滚动的声音。待了几十年的院子一下子变了，仿佛置身在了远山的寺庙中，从梧桐树身上也感受不到孤独和凄凉，好像一切寂静都变成了宁静，有种说不清的禅意。</p>\n<br />\n<p>上午的阳光正媚，一个小老头正站在堂屋正门的椅子上愣神，没人知道他从什么时候站上去的又要站到多久。当那股像猫一样的风像猫一样离开时，院子里的树叶也跟着簌簌作响，就如同它来的时候一样。</p>",
           "pub_date": "2025-10-24T00:00:00+08:00",
           "updated_at": "2025-10-24T00:00:00+08:00",
           "author": "Jame!",
@@ -273,247 +391,11 @@
       ]
     },
     {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "一些杂事",
-          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
-          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
-          "pub_date": "2026-01-12T23:07:00+08:00",
-          "updated_at": "2026-01-12T23:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "关于孟鲁司特钠的不良反应",
-          "link": "https://wangdaodao.com/20260105/montelukast.html",
-          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
-          "pub_date": "2026-01-05T22:54:00+08:00",
-          "updated_at": "2026-01-05T22:54:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源网易云及QQ音乐播放插件",
-          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
-          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
-          "pub_date": "2025-12-26T13:25:00+08:00",
-          "updated_at": "2025-12-26T13:25:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Typecho抖音播放器插件",
-          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
-          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
-          "pub_date": "2025-12-20T16:24:00+08:00",
-          "updated_at": "2025-12-20T16:24:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "2025年终总结",
-          "link": "https://wangdaodao.com/20251214/2025-summary.html",
-          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
-          "pub_date": "2025-12-14T13:52:00+08:00",
-          "updated_at": "2025-12-14T13:52:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho博客开启EdgeOne",
-          "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
-          "description": "其实腾讯云的边缘安全加速平台 EdgeOne 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 ...",
-          "pub_date": "2025-12-10T20:03:00+08:00",
-          "updated_at": "2025-12-10T20:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布一个Typecho AI文本润色插件",
-          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
-          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
-          "pub_date": "2025-12-06T19:44:00+08:00",
-          "updated_at": "2025-12-06T19:44:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源高德地图及规划路径短代码插件",
-          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
-          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
-          "pub_date": "2025-12-03T13:22:00+08:00",
-          "updated_at": "2025-12-03T13:22:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开始记账了",
-          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
-          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
-          "pub_date": "2025-11-28T21:38:00+08:00",
-          "updated_at": "2025-11-28T21:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布Typecho足迹插件",
-          "link": "https://wangdaodao.com/20251122/typecho-track.html",
-          "description": "MyTrack 是一个为 Typecho 博客系统开发的足迹记录插件，允许用户在地图上标记自己的旅行足迹，并关联相关的文章和图片。插件基于高德地图 API，提供了直观的地图展示和便捷的管理功能。...",
-          "pub_date": "2025-11-22T16:38:00+08:00",
-          "updated_at": "2025-11-22T16:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        }
-      ]
-    },
-    {
       "name": "MouT.me",
       "url": "https://ghost.mout.me/",
       "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
       "feed_url": "https://ghost.mout.me/feed",
       "posts": []
-    },
-    {
-      "name": "黑石博客",
-      "url": "https://heson.me/",
-      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
-      "feed_url": "https://heson.me/feed",
-      "posts": [
-        {
-          "title": "关于Windows11激活",
-          "link": "https://heson.me/dowhat/49.html",
-          "description": "蹲了2个月的电脑配件好价，这次双十一终于全部攒齐了，具体配置及价格详见➡️ 《我的电脑配置及外设【完结】》 在Windows官网上下了个多版本的Windows11，之前都喜欢安装专业版，但这次给...",
-          "pub_date": "2025-10-27T11:39:00+08:00",
-          "updated_at": "2025-10-27T11:39:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "记录一次memo的调用",
-          "link": "https://heson.me/dowhat/47.html",
-          "description": "基本不怎么在微信发朋友圈的我，但最喜欢在博客发动态。所以哔哔、闪念、说说、胶囊诸如此类的，是我博客必备的功能。奈何cuteen原生的闪念功能虽然简单，但就是太简单了，不能发图片。所以我决定把me...",
-          "pub_date": "2025-10-10T08:54:00+08:00",
-          "updated_at": "2025-10-10T08:54:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "在NAS上搭建私有云音乐",
-          "link": "https://heson.me/dowhat/35.html",
-          "description": "QQ音乐会员 我看谁还充，反正我是不充了。来看看下面这个方案：[card title=\"免费私有云音乐方案\" color=\"success\"]🎵下载：LX Music(洛雪音乐)：一款免费开源的...",
-          "pub_date": "2025-09-26T11:34:00+08:00",
-          "updated_at": "2025-09-26T11:34:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "天钡wtr pro 5825u上手体验",
-          "link": "https://heson.me/dowhat/33.html",
-          "description": "天钡wtr pro 5825u（物理机飞牛os）是我现在正在用的nas服务器。这个博客就搭在它上面。由来之前一直关注n150的nas消息，偶然一天问nas群友n150推荐机型：看了一下外观和配置...",
-          "pub_date": "2025-09-23T10:44:00+08:00",
-          "updated_at": "2025-09-23T10:44:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "深度思考：决定你命运的核心能力",
-          "link": "https://heson.me/life/25.html",
-          "description": "[card title=\"推荐理由\" color=\"info\"]真正改变命运的是独立、深刻地思考问题的能力。[/card]深度思考：决定你命运的核心能力看透本质与看不清本质的人，注定拥有不同的命...",
-          "pub_date": "2025-09-22T08:42:00+08:00",
-          "updated_at": "2025-09-22T08:42:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "装修记——自装的150天",
-          "link": "https://heson.me/life/15.html",
-          "description": "第一次装修时，我把全部事情都交给了装修公司。每平米998元，总共花了二十多万，当时还以为占了便宜。刚装完的时候看着还行，颜色和材料都是自己选的。但现在回想起来，他们用的都是商家特供的渠道货，样式...",
-          "pub_date": "2025-09-11T09:14:00+08:00",
-          "updated_at": "2025-09-11T09:14:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "那些年的友情链接，还在闪闪发光",
-          "link": "https://heson.me/life/10.html",
-          "description": "[audio src=\"https://heson.me/music/%E6%9E%97%E5%BF%97%E7%82%AB-%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%...",
-          "pub_date": "2025-09-06T10:20:00+08:00",
-          "updated_at": "2025-09-06T10:20:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "童年第一台急先锋电脑到如今NAS服务器的搭建",
-          "link": "https://heson.me/life/6.html",
-          "description": "童年的“折腾基因”启蒙第一台电脑的“开箱记忆”2001 年的夏天，拨号上网的“滴滴嘟嘟”声还在楼道里此起彼伏，Windows 98 的蓝天白云桌面是大多数家庭电脑的标配。五年级的我放学回家，看见...",
-          "pub_date": "2025-09-04T16:10:00+08:00",
-          "updated_at": "2025-09-04T16:10:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "战地风云 6 预购记：一场关于热爱与时光的独白​",
-          "link": "https://heson.me/life/4.html",
-          "description": "鼠标最终还是点下了 “[RainBowText]确认预购[/RainBowText]” 的按钮，屏幕上跳出《战地风云 6》魅影版的订单页面时，我竟莫名愣了几秒。指尖还残留着鼠标按键的微弱触感，心...",
-          "pub_date": "2025-09-02T11:16:00+08:00",
-          "updated_at": "2025-09-02T11:16:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        },
-        {
-          "title": "我的电脑配置及外设【完结】",
-          "link": "https://heson.me/dowhat/3.html",
-          "description": "需求首先确定显示器，红米g pro27u，一款4k160和1k300的双模显示器，带电视和小爱同学。因为我这台电脑是放在客厅岛台上的，所以电视功能可拓展客厅功能，同时全屋小米智能，非常有必要在电...",
-          "pub_date": "2025-09-02T07:15:00+08:00",
-          "updated_at": "2025-09-02T07:15:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        }
-      ]
     },
     {
       "name": "小白大学渣",
@@ -553,124 +435,6 @@
           "site_name": "小白大学渣",
           "site_url": "https://www.baihub.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
-        }
-      ]
-    },
-    {
-      "name": "网友小宋",
-      "url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
-      "feed_url": "https://xyzbz.cn/feed",
-      "posts": [
-        {
-          "title": "松声｜廿六年·二月中·迎新春",
-          "link": "https://xyzbz.cn/archives/1515/",
-          "description": "表演大宝舞蹈学校汇演，单人四百，去市里面参加比赛，大宝兴致高昂，便报名参加了，这个年纪正是孩子培养兴趣的时候，作为老父亲没必要阻拦，节目开始前进入的直播间，录屏，一眼见娃，整体表现还不错，动作什...",
-          "pub_date": "2026-02-16T13:54:00+08:00",
-          "updated_at": "2026-02-16T13:54:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "斐讯N1安装飞牛OS",
-          "link": "https://xyzbz.cn/archives/1513/",
-          "description": "飞牛公测仅做通知哈！.下载地址：教程整体能用，8G版本的不推荐，毕竟N1的USB口是2.0的，我的是128G，优点是基本上具备了NAS以及Docker的全功能，缺点是运存太小了，只有2G，如果存...",
-          "pub_date": "2026-02-12T05:28:00+08:00",
-          "updated_at": "2026-02-12T05:28:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·一月暮·岁灯残",
-          "link": "https://xyzbz.cn/archives/1509/",
-          "description": "充电老电车的痛点，离得最近的慢充桩就剩一个了，一公里内原本有六个慢充桩，结果设备升级，全部停了，剩下最近的一个充电站离我1.5公里，天气暖和的时候还好，这大雪天的，刮着寒风，就为了给车充电，冻得...",
-          "pub_date": "2026-01-30T14:32:00+08:00",
-          "updated_at": "2026-01-30T14:32:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·雪后早上",
-          "link": "https://xyzbz.cn/archives/1506/",
-          "description": "少有的大夜班，凌晨的寒风贴脸，一碗胡辣汤暖去身上的寒气。[photos][/photos]*大雪，有个在湿地公园的定期风景，犹豫了好久要不要回去拍一张，ld说替我去拍，天气太冷，不舍，睡醒后开着...",
-          "pub_date": "2026-01-23T16:48:57+08:00",
-          "updated_at": "2026-01-23T16:48:57+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "给兰空图床增加一个机器人登录提醒",
-          "link": "https://xyzbz.cn/archives/1504/",
-          "description": "无聊的功能之一，有需要的可以尝试一下，豆包帮忙写的，登录会触发机器人推送消息。1、增加注册事件与监听器路径/app/Providers/EventServiceProvider.php&lt;?...",
-          "pub_date": "2026-01-22T17:18:00+08:00",
-          "updated_at": "2026-01-22T17:18:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·一月初·雪叩窗",
-          "link": "https://xyzbz.cn/archives/1496/",
-          "description": "更新计划月初着手规划站点的新年更新计划，核心卡在标题格式，接连几天的头脑风暴，始终不满意，把想法告诉AI，首先舍弃农历记法的，经过一番为难，发现似乎也并非完全不可用，去粗取精，保证月份的准确性就...",
-          "pub_date": "2026-01-16T05:17:35+08:00",
-          "updated_at": "2026-01-16T05:17:35+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "2025年终回顾",
-          "link": "https://xyzbz.cn/archives/1491/",
-          "description": "年度碎碎念时光荏苒，岁月如梭，是真的如梭！时间线还没到2026年，佬们就开始写年终总结了，原本想着慢悠悠打磨、随性记录的心思，终究抵不过这股 “内卷” 热潮。看着RSS里面日渐增加的年终关键词，...",
-          "pub_date": "2026-01-03T10:15:00+08:00",
-          "updated_at": "2026-01-03T10:15:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "2026元旦初雪",
-          "link": "https://xyzbz.cn/archives/1489/",
-          "description": "2026年元旦下了一夜的大雪，瑞雪兆丰年，祝各位元旦快乐！[photos][/photos][photos][/photos][photos][/photos][photos][/photos]",
-          "pub_date": "2026-01-01T07:19:00+08:00",
-          "updated_at": "2026-01-01T07:19:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "乙巳蛇年-十二月末",
-          "link": "https://xyzbz.cn/archives/1488/",
-          "description": "飞牛Arm前几天看到熊猫群里有人发布的截图，飞牛的Arm版本发布了内侧招募，招募设备包括OEC/T和斐讯N1，OEC带sata盘位的那个设备还是挺吸引人的，但是自从放弃了ARM架构的设备之后就没...",
-          "pub_date": "2025-12-30T05:02:35+08:00",
-          "updated_at": "2025-12-30T05:02:35+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "Docker部署简单网页分析工具GoatCounter",
-          "link": "https://xyzbz.cn/archives/1485/",
-          "description": "起因万般缘由皆是Umami更新失败，导致我自己摧毁了容器，原不是Mysql，本身就是pg数据库，更新还是出问题了，经博友指点可能是镜像源的问题，仔细回想，当时从美西机子导出镜像的时候并没有pg后...",
-          "pub_date": "2025-12-23T13:31:55+08:00",
-          "updated_at": "2025-12-23T13:31:55+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
         }
       ]
     },
@@ -899,124 +663,6 @@
           "site_name": "雅余",
           "site_url": "https://yayu.net/",
           "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        }
-      ]
-    },
-    {
-      "name": "故事的程序猿",
-      "url": "https://blog.lichenghao.cn",
-      "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg",
-      "feed_url": "https://blog.lichenghao.cn/article/rss.xml",
-      "posts": [
-        {
-          "title": "26年，我的开工第一天",
-          "link": "https://blog.lichenghao.cn/article/w3ub9lmx9tqe",
-          "description": "十几天的假期转瞬即逝，好像昨天才放假，今天就开工了。",
-          "pub_date": "2026-02-25T11:22:59+08:00",
-          "updated_at": "2026-02-25T11:22:59+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "25年最后一个工作日！",
-          "link": "https://blog.lichenghao.cn/article/u5v652rayigk",
-          "description": "今天是2026年2月11日，是我25年最后一个工作日！25年的专业牛马就做到这了。",
-          "pub_date": "2026-02-11T08:30:35+08:00",
-          "updated_at": "2026-02-11T08:30:35+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "2026年2月是823年一遇的特殊月份？",
-          "link": "https://blog.lichenghao.cn/article/2c2mag07cse1",
-          "description": "人民日报：本质是利用一些人对数字的不敏感和对历法的陌生，把常见的历法现象包装成难得一遇的所谓“奇观”，再通过“转发获财运”等诱导式传播，甚至借机推销服务，其本质都是网络营销。",
-          "pub_date": "2026-02-03T08:56:39+08:00",
-          "updated_at": "2026-02-03T08:56:39+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "1月总结，姐姐哭完，弟弟哭",
-          "link": "https://blog.lichenghao.cn/article/tvy9tleuqmhx",
-          "description": "这个月可以说比上个月轻快多了，因为育儿嫂代替了我大部分工作，父母把老大也带回北京了，家里真是灰常的“热闹”~",
-          "pub_date": "2026-02-02T08:55:13+08:00",
-          "updated_at": "2026-02-02T08:55:13+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "快来领取你的“免费”域名！",
-          "link": "https://blog.lichenghao.cn/article/uqxdi8kwbypw",
-          "description": "这个开源项目：FreeDomain，由非营利组织 DigitalPlat 发起，旨在为个人和组织免费提供域名注册服务。",
-          "pub_date": "2026-01-26T14:29:48+08:00",
-          "updated_at": "2026-01-26T14:29:48+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "断更了一段时间，因为在家当“月嫂”~",
-          "link": "https://blog.lichenghao.cn/article/94pz3do3m0y4",
-          "description": "断更了一段时间，因为在家全职带娃一个多月。",
-          "pub_date": "2026-01-04T15:29:16+08:00",
-          "updated_at": "2026-01-04T15:29:16+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "我为开心消消乐怒冲一块钱！",
-          "link": "https://blog.lichenghao.cn/article/loqvgppo5q9y",
-          "description": "我玩开心消消乐有七八年了，这几天的 11159 关也太难了吧！！！",
-          "pub_date": "2025-11-15T14:41:01+08:00",
-          "updated_at": "2025-11-15T14:41:01+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "一个悠闲的周六",
-          "link": "https://blog.lichenghao.cn/article/pull9dpvsxtf",
-          "description": "对我来说，悠闲双休的周末“可不多了”。李老师这个月底就要生了，顺利的话我们还能再有两个二人世界的周末。",
-          "pub_date": "2025-11-08T21:22:20+08:00",
-          "updated_at": "2025-11-08T21:22:20+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "十月-忙碌、期望、激动\\(≧▽≦)/",
-          "link": "https://blog.lichenghao.cn/article/uowqqituzesr",
-          "description": "忙忙碌碌的，到了今天才有时间总结下十月发生的点点滴滴~",
-          "pub_date": "2025-11-07T20:59:02+08:00",
-          "updated_at": "2025-11-07T20:59:02+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        },
-        {
-          "title": "Islands 主题：JetBrains IDE 迎来全新外观",
-          "link": "https://blog.lichenghao.cn/article/g8ja27idsfz9",
-          "description": "Islands 主题：JetBrains IDE 迎来全新外观",
-          "pub_date": "2025-11-04T14:21:57+08:00",
-          "updated_at": "2025-11-04T14:21:57+08:00",
-          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
-          "site_name": "故事的程序猿",
-          "site_url": "https://blog.lichenghao.cn",
-          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         }
       ]
     },
@@ -1495,245 +1141,124 @@
           "site_name": "游钓四方",
           "site_url": "https://blog.lhasa.icu/",
           "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "何为享受",
-          "link": "https://blog.lhasa.icu/posts/life/2025-08-30-what-is-enjoyment",
-          "description": "<p>在初入职场时，我以为权力带来的快感才是享受</p>\n<p>在挣到小钱时，我以为挥霍物质才是享受</p>\n<p>在野外骑行时，我以为长途跋涉、纵身山川才是享受</p>\n<p>后来，我沉迷于古典乐，才感受到，人生真正的享受，不过是此刻心中的平静</p>\n<p>&lt;iframe frameborder=\"no\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" width=298 height=52 src=\"//music.163.com/outchain/player?type=2&amp;id=2156764039&amp;auto=1&amp;height=32\"&gt;&lt;/iframe&gt;</p>\n<img alt=\"\" src=\"https://analytics.lhasa.icu/matomo.php?idsite=1&amp;rec=1&amp;action_name=%E4%BD%95%E4%B8%BA%E4%BA%AB%E5%8F%97&amp;url=https%3A%2F%2Fblog.lhasa.icu%2Fposts%2Flife%2F2025-08-30-what-is-enjoyment\" style=\"border: 0; width: 0; height: 0;\" />",
-          "pub_date": "2025-08-30T09:05:00+08:00",
-          "updated_at": "2025-08-30T09:05:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
         }
       ]
     },
     {
-      "name": "旺东自留地",
-      "url": "https://wang618.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/wang618.gif",
-      "feed_url": "https://wang618.cn/rss.php",
+      "name": "故事的程序猿",
+      "url": "https://blog.lichenghao.cn",
+      "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg",
+      "feed_url": "https://blog.lichenghao.cn/article/rss.xml",
       "posts": [
         {
-          "title": "四载恍如梦",
-          "link": "https://wang618.cn/si-zai-huang-ru-meng.html",
-          "description": "<p>不觉间，毛熊战事已走过四载春秋。一声轻叹，四年光阴，竟已悄然远逝。蓦然回首，才惊觉，岁月也在我身上刻下了痕迹，一晃，竟也老去四岁。<br />\n<img alt=\"俄乌战争.webp\" src=\"https://wang618.cn/content/uploadfile/202602/f02d1771930292.webp\" /></p>",
-          "pub_date": "2026-02-24T18:42:15+08:00",
-          "updated_at": "2026-02-24T18:42:15+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "26年，我的开工第一天",
+          "link": "https://blog.lichenghao.cn/article/w3ub9lmx9tqe",
+          "description": "十几天的假期转瞬即逝，好像昨天才放假，今天就开工了。",
+          "pub_date": "2026-02-25T11:22:59+08:00",
+          "updated_at": "2026-02-25T11:22:59+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "马年大吉",
-          "link": "https://wang618.cn/ma-nian-da-ji.html",
-          "description": "<p>金马迎春万象新，策马扬鞭启征程。马到成功开胜景，龙马精神振家声。愿你在马年里，每一步都踩准马不停蹄的节奏，每一刻都怀揣一马当先的豪情。遇机遇则快马加鞭，闯难关则厉兵秣马，凭真才实学天马行空，靠实干担当倚马可待。生活里，有鲜衣怒马的潇洒，有青梅竹马的温柔，阖家欢乐共享倚马千言的幸福时光。事业上，伯乐识马得良遇，万马奔腾成大势，哪怕路遥水长，也能以马踏飞燕之姿，跨越山海直达理想。福气如天马行空般降临，财运似万马奔腾般涌来。愿你岁岁常拥龙马精神，年年皆得马到功成，策马奔腾向未来，马年大吉福满门！<br />\n<img alt=\"马年大吉.webp\" src=\"https://wang618.cn/content/uploadfile/202602/41f81771159015.webp\" /></p>",
-          "pub_date": "2026-02-15T20:36:46+08:00",
-          "updated_at": "2026-02-15T20:36:46+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "25年最后一个工作日！",
+          "link": "https://blog.lichenghao.cn/article/u5v652rayigk",
+          "description": "今天是2026年2月11日，是我25年最后一个工作日！25年的专业牛马就做到这了。",
+          "pub_date": "2026-02-11T08:30:35+08:00",
+          "updated_at": "2026-02-11T08:30:35+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "骨玩",
-          "link": "https://wang618.cn/gu-wan.html",
-          "description": "<p>大家平时都盘什么文玩？我盘骨头，多年偶尔盘玩，现在已经局部玉化。既能修身养性，又能近战防身，这玩意真不错！<br />\n<img alt=\"骨玩1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/051f1770805152.webp\" /><br />\n<img alt=\"骨玩2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/0ee91770805152.webp\" /></p>",
-          "pub_date": "2026-02-11T18:14:56+08:00",
-          "updated_at": "2026-02-11T18:14:56+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "2026年2月是823年一遇的特殊月份？",
+          "link": "https://blog.lichenghao.cn/article/2c2mag07cse1",
+          "description": "人民日报：本质是利用一些人对数字的不敏感和对历法的陌生，把常见的历法现象包装成难得一遇的所谓“奇观”，再通过“转发获财运”等诱导式传播，甚至借机推销服务，其本质都是网络营销。",
+          "pub_date": "2026-02-03T08:56:39+08:00",
+          "updated_at": "2026-02-03T08:56:39+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "经不轻传",
-          "link": "https://wang618.cn/jing-bu-qing-chuan.html",
-          "description": "<p>最近在家闲着没事，又重读了《西游记》原著，看到第九十八回《猿熟马驯方脱壳 功成行满见真如》。唐僧师徒一路千辛万苦，好不容易走到灵山圣地，本以为功德圆满、马上就能拿到真经，没想到拜见阿傩、迦叶两位尊者时，对方竟然公开索要好处。师徒几人跋山涉水，根本没带什么人间财物，拿不出东西应酬。两位尊者干脆就给了他们无字的空白经书，看着像真经，其实一卷卷全是空的，徒有其表。后来如来知道了这事，不但没责怪两位尊者，反而替他们解释说：“经不可轻传，也不能白白拿走。” 仔细琢磨这一段，道理很深，越想越有味道。书里还提到，诵经一遍，换来三斗三升米粒黄金，如来还嫌卖得太便宜。按现在的标准折算，三斗三升黄金大约重 636900 克，以当前金价 1111 元 / 克来算，总价高达七亿多元。只念一遍经就要这么高的价钱，实在让人吃惊。如来这番话，其实同时包含了三层意思：修行的道理、佛门的规矩，还有对人间世事的看透。对内，用“要人事”这件事，破除人的贪念执着，圆满最后一劫，给取经这件事做个彻底了断；对外，点明凡事都有代价，佛法不能随便传、真道不能轻易得，立下佛门传经的规矩；对世人而言，作者借灵山这样神圣的地方，写出最现实的人情世故，照见人心的贪念、世间的冷暖，在神魔鬼怪的故事里，写尽了人间最真实的道理。<br />\n<img alt=\"经不轻传1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/d4121770637086.webp\" /><br />\n<img alt=\"经不轻传2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/47031770637086.webp\" /></p>",
-          "pub_date": "2026-02-09T19:39:57+08:00",
-          "updated_at": "2026-02-09T19:39:57+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "1月总结，姐姐哭完，弟弟哭",
+          "link": "https://blog.lichenghao.cn/article/tvy9tleuqmhx",
+          "description": "这个月可以说比上个月轻快多了，因为育儿嫂代替了我大部分工作，父母把老大也带回北京了，家里真是灰常的“热闹”~",
+          "pub_date": "2026-02-02T08:55:13+08:00",
+          "updated_at": "2026-02-02T08:55:13+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "农场忆流年",
-          "link": "https://wang618.cn/nong-chang-yi-liu-nian.html",
-          "description": "<p>2026年2月6日，《QQ经典农场》正式开服。这款曾风靡全网的现象级游戏，一经重启，便轻轻勾起无数人藏在时光里的青春回忆。谁不曾定过深夜的闹钟，只为准时守在屏幕前，偷那一株成熟的菜？初识妻子那年，第一次登门拜访，她的小姨与表妹一见面便追着要加我QQ。我当时一头雾水，后来才恍然大悟，原来只为农场偷菜。两人痴迷至极，凌晨四点仍准时上线，得手后还特意发来消息调侃，气得我索性用上挂机宝与辅助工具，24小时在线反击。如今重登农场，画面更清晰，操作更流畅，心境却早已截然不同。并非游戏无趣，而是当年一同熬夜、互相捉弄、笑着偷菜的人，早已不在好友列表里活跃。原来最让人怀念的，从来不是那几块虚拟田地、几株待收作物，而是那段可以为一件小事认真较劲、为一句玩笑熬夜守候、为一群人满心欢喜的时光。农场重启了，可那些一起偷菜的热闹、互相打趣的欢喜、简单又热烈的岁月，却再也回不去了。指尖轻点依旧，只是身边少了同频的人，心里空了一大片，再也填不满当年的热闹与天真。<br />\n<img alt=\"农场忆流年.webp\" src=\"https://wang618.cn/content/uploadfile/202602/42bf1770469439.webp\" /></p>",
-          "pub_date": "2026-02-07T20:54:07+08:00",
-          "updated_at": "2026-02-07T20:54:07+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "快来领取你的“免费”域名！",
+          "link": "https://blog.lichenghao.cn/article/uqxdi8kwbypw",
+          "description": "这个开源项目：FreeDomain，由非营利组织 DigitalPlat 发起，旨在为个人和组织免费提供域名注册服务。",
+          "pub_date": "2026-01-26T14:29:48+08:00",
+          "updated_at": "2026-01-26T14:29:48+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "荒唐的梦境",
-          "link": "https://wang618.cn/huang-tang-de-meng-jing.html",
-          "description": "<p>昨晚做了个离谱到家的梦，现在想起来还觉得哭笑不得。梦里的我全副武装躲在战壕里，天空上密密麻麻的无人机不停盘旋，还一股脑地冲我发起自杀式袭击，周围火光冲天、爆炸声不断，场面紧张到不行，可神奇的是，那些无人机怎么炸都炸不到我。更荒唐的是，我一边缩在战壕里躲攻击，一边还腾出手来拿着手机刷红果短剧，完全是沉浸式追剧，丝毫不被旁边的战火影响。合着我这满脑子的红果宇宙，连做梦都没放过我，这后劲也太足了，果然疯癫的剧情看多了，连梦境都得被影响！<br />\n<img alt=\"荒唐的梦境.webp\" src=\"https://wang618.cn/content/uploadfile/202602/b64c1770370093.webp\" /></p>",
-          "pub_date": "2026-02-06T17:21:52+08:00",
-          "updated_at": "2026-02-06T17:21:52+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "断更了一段时间，因为在家当“月嫂”~",
+          "link": "https://blog.lichenghao.cn/article/94pz3do3m0y4",
+          "description": "断更了一段时间，因为在家全职带娃一个多月。",
+          "pub_date": "2026-01-04T15:29:16+08:00",
+          "updated_at": "2026-01-04T15:29:16+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "山馈亦有代价",
-          "link": "https://wang618.cn/shan-kui-yi-you-dai-jia.html",
-          "description": "<p>今年躲进山里，仗着周遭漫山木柴，火速搭起壁炉。恰逢大雪封山，压断满坡树干，索性开启三天电锯狂锯的囤柴模式，孰料竟熬出了腕管综合症。如今每日凌晨准时遭罪，右臂酸沉抬举无力，手指麻胀如裹厚棉，妥妥的硬核囤柴后遗症，纯纯自作自受。原来大自然的馈赠，从来都要收几分利息。</p>\n<p><img alt=\"山馈亦有代价.webp\" src=\"https://wang618.cn/content/uploadfile/202602/2fd81770116919.webp\" /></p>",
-          "pub_date": "2026-02-03T18:50:38+08:00",
-          "updated_at": "2026-02-03T18:50:38+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "我为开心消消乐怒冲一块钱！",
+          "link": "https://blog.lichenghao.cn/article/loqvgppo5q9y",
+          "description": "我玩开心消消乐有七八年了，这几天的 11159 关也太难了吧！！！",
+          "pub_date": "2025-11-15T14:41:01+08:00",
+          "updated_at": "2025-11-15T14:41:01+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "地又震矣",
-          "link": "https://wang618.cn/de-you-zhen-yi.html",
-          "description": "<p>甘肃这几年冬季频发地震。吊灯晃动明显，手机地震预警也在疯狂报警，着实让人受惊不小。</p>\n<p><img alt=\"地震01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/b50a1769423778.webp\" /><br />\n<img alt=\"地震02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/67ab1769423777.webp\" /></p>",
-          "pub_date": "2026-01-26T18:32:46+08:00",
-          "updated_at": "2026-01-26T18:32:46+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "一个悠闲的周六",
+          "link": "https://blog.lichenghao.cn/article/pull9dpvsxtf",
+          "description": "对我来说，悠闲双休的周末“可不多了”。李老师这个月底就要生了，顺利的话我们还能再有两个二人世界的周末。",
+          "pub_date": "2025-11-08T21:22:20+08:00",
+          "updated_at": "2025-11-08T21:22:20+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "这把排位打的爽",
-          "link": "https://wang618.cn/zhe-ba-pai-wei-da-de-shuang.html",
-          "description": "<p>这把排位打得太轻松，对面操作充满童真，让我毫无压力地达成了 25 连杀，顺手把核弹也整了出来！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E8%BF%99%E6%8A%8A%E6%8E%92%E4%BD%8D%E6%89%93%E7%9A%84%E7%88%BD.mp4?sign=SjmGF-FX-ccfPe8yt1RCD9xsLIBbYQZbVW5-py1jZOM=:0\"></video>",
-          "pub_date": "2026-01-25T19:04:38+08:00",
-          "updated_at": "2026-01-25T19:04:38+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "十月-忙碌、期望、激动\\(≧▽≦)/",
+          "link": "https://blog.lichenghao.cn/article/uowqqituzesr",
+          "description": "忙忙碌碌的，到了今天才有时间总结下十月发生的点点滴滴~",
+          "pub_date": "2025-11-07T20:59:02+08:00",
+          "updated_at": "2025-11-07T20:59:02+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         },
         {
-          "title": "回首那场流离",
-          "link": "https://wang618.cn/hui-shou-na-chang-liu-li.html",
-          "description": "<p>青春是一场盛大的流离失所，我们在懵懂中相遇，又在成熟后别离。如今，站在时光的渡口回望，才发现那些哭过笑过的日子，早已化作这满山的红叶与遍地的黄花。不必感伤，因为逝去的青春并没有真正离开，它只是换了一种方式，在每一个风起的日子里，温柔了岁月，惊艳了时光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%9E%AB%E5%8F%B6%E7%BA%A2%20(Live).mp4?sign=J1Z6WEePJBpTszTaO6fzi5Ba-3O_lZkFMPY3zmH7pSA=:0\"></video>",
-          "pub_date": "2026-01-23T21:56:49+08:00",
-          "updated_at": "2026-01-23T21:56:49+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "两件数码好物",
-          "link": "https://wang618.cn/liang-jian-shu-ma-hao-wu.html",
-          "description": "<p>近日成功种草了两件好物：坚果 NUT65 套件与飞傲 DISC 音乐播放器。NUT65 采用三模双 GASKET 结构，铝壳经过 220 目阳极工艺处理，质感细腻；碰珠快拆设计方便拆装，还带拾音灯功能，氛围感拉满。为它搭配了芭比轴和锻碳键帽，手感扎实、声音清脆，打字体验非常出色！这把套件性价比很高，非常值得入手。飞傲 DISC 的圆形触控屏是我特别喜欢的设计，颜值高、操作直观。专门买来连接车机，上车蓝牙一连就能听歌，再也不用在车机里来回切换音乐 APP，体验顺滑很多。播放器支持蓝牙连接，双 CS43131 解码芯片在同价位里表现很亮眼，是入门播放器里的佼佼者。</p>\n<p><img alt=\"铝坨坨01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/18d01768989182.webp\" /></p>\n<p><img alt=\"铝坨坨02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/12531768989182.webp\" /></p>\n<p><img alt=\"铝坨坨03.webp\" src=\"https://wang618.cn/content/uploadfile/202601/85ef1768989182.webp\" /></p>\n<p><img alt=\"播放器01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/1caf1768989182.webp\" /></p>\n<p><img alt=\"播放器02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/cd5b1768989182.webp\" /></p>\n<p><img alt=\"播放器03.webp\" src=\"https://wang618.cn/content/uploadfile/202601/30691768989182.webp\" /></p>",
-          "pub_date": "2026-01-21T17:52:53+08:00",
-          "updated_at": "2026-01-21T17:52:53+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "轴体上墙辣面收尾",
-          "link": "https://wang618.cn/zhou-ti-shang-qiang-la-mian-shou-wei.html",
-          "description": "<p>今天折腾了一整天，终于把墙面的洞洞板装好了，把所有轴体都整整齐齐收纳上墙。买了 48 个罐子和 10 块洞洞板，忙完顺手煮了碗辣到怀疑人生的地狱拉面，爽！</p>\n<p><img alt=\"轴体上墙.webp\" src=\"https://wang618.cn/content/uploadfile/202601/6e751768921589.webp\" /><br />\n<img alt=\"地狱拉面.webp\" src=\"https://wang618.cn/content/uploadfile/202601/60311768921589.webp\" /></p>",
-          "pub_date": "2026-01-20T23:05:57+08:00",
-          "updated_at": "2026-01-20T23:05:57+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "亮瞎双眼的键盘",
-          "link": "https://wang618.cn/liang-xia-shuang-yan-de-jian-pan.html",
-          "description": "<p>买了一把亮瞎双眼的透明键盘，原厂是无字钻石键帽，颜值爆表，就是老打错字，只能换了。</p>\n<p><img alt=\"亮瞎双眼的键盘1.webp\" src=\"https://wang618.cn/content/uploadfile/202601/436c1768660751.webp\" /><br />\n<img alt=\"亮瞎双眼的键盘2.webp\" src=\"https://wang618.cn/content/uploadfile/202601/d93b1768660751.webp\" /><br />\n<img alt=\"亮瞎双眼的键盘3.webp\" src=\"https://wang618.cn/content/uploadfile/202601/3fd11768661049.webp\" /></p>",
-          "pub_date": "2026-01-17T22:39:00+08:00",
-          "updated_at": "2026-01-17T22:39:00+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "昨夜惊魂",
-          "link": "https://wang618.cn/zuo-ye-jing-hun.html",
-          "description": "<p>昨天做了个噩梦，醒来时冷汗湿透了睡衣。梦里我被困在一座无人的古镇，怎么走都是死循环。黑暗中，一个声音反复低语：“你看看我”我不受控制地走向巷子尽头那个背影。就在它转身脸即将对上我的瞬间！我家狗突然用湿鼻子碰了碰我。那一刻，我从极度的恐惧中惊醒，心脏狂跳。但我总觉得不对劲，白天和朋友去古玩市场，是不是真的带回了什么“不干净”的东西？这世上真的有鬼吗？还是说。。。。。。</p>\n<p><img alt=\"恐怖的梦.webp\" src=\"https://wang618.cn/content/uploadfile/202601/62d21767883121.webp\" /></p>",
-          "pub_date": "2026-01-08T22:46:16+08:00",
-          "updated_at": "2026-01-08T22:46:16+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "出门偶遇",
-          "link": "https://wang618.cn/chu-men-ou-yu.html",
-          "description": "<p>出门偶遇可怜的俩兄弟在寒风中瑟瑟发抖，善良的我必须做点什么！打算找个弹弓帮哥俩解脱！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%87%BA%E9%97%A8%E5%81%B6%E9%81%87.mp4?sign=ugFcYIWqGcDOgzKv9uuw3s77ArY8G1V7PxyHDtsJ_AY=:0\"></video>",
-          "pub_date": "2026-01-03T16:50:03+08:00",
-          "updated_at": "2026-01-03T16:50:03+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "你好2026",
-          "link": "https://wang618.cn/ni-hao-2026.html",
-          "description": "<p>旧岁已展千重锦，新年再进百尺竿。2026，愿我们都能得偿所愿，平安喜乐。愿财运如春水奔涌，财源广开进家门，金银满箱福满盈；愿身体似青松挺拔，筋骨强健少烦忧，三餐有味眠安稳；愿万事皆顺遂无忧，所求皆如愿，所行皆坦途，日子滚烫，岁岁安康。</p>\n<p><img alt=\"2026发大财.webp\" src=\"https://wang618.cn/content/uploadfile/202512/b4b21767180686.webp\" /></p>",
-          "pub_date": "2026-01-01T00:00:00+08:00",
-          "updated_at": "2026-01-01T00:00:00+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "体面式掠夺",
-          "link": "https://wang618.cn/ti-mian-shi-lve-duo.html",
-          "description": "<p>世间愈显魔幻，巧取豪夺偏装成“附赠好物”的体面。两斤榨菜八百八十八，一颗白菜一百八十八，一碗泡面一百一十八，荒诞到失语。是商家疯了，还是我与世道脱了轨？罢了，买不起，是我的错，我的错！</p>\n<p><img alt=\"体面式掠夺1.webp\" src=\"https://wang618.cn/content/uploadfile/202512/f1ad1767016217.webp\" /><br />\n<img alt=\"体面式掠夺2.webp\" src=\"https://wang618.cn/content/uploadfile/202512/ca9c1767016217.webp\" /><br />\n<img alt=\"体面式掠夺3.webp\" src=\"https://wang618.cn/content/uploadfile/202512/7c8e1767016218.webp\" /></p>",
-          "pub_date": "2025-12-29T21:55:38+08:00",
-          "updated_at": "2025-12-29T21:55:38+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "阴间饮料诚不欺我",
-          "link": "https://wang618.cn/yin-jian-yin-liao-cheng-bu-qi-wo.html",
-          "description": "<p>一时好奇囤了蛇草水，“阴间饮料”果然名不虚传！自诩饮遍百味能拿捏，一口下去直接原地裂开：气泡呛喉，冲鼻药味齁得嗓子眼发紧，比藿香正气水还劝退。十二瓶囤货堪称大型自坑现场，悔到捶胸！灵机一动有了邪恶想法，打算喊好友来家吃饭打扑克，输家惩罚就是畅饮这瓶“灵魂饮品”！</p>\n<p><img alt=\"蛇草水01.webp\" src=\"https://wang618.cn/content/uploadfile/202512/52311766994913.webp\" /><br />\n<img alt=\"蛇草水02.webp\" src=\"https://wang618.cn/content/uploadfile/202512/2d791766994916.webp\" /></p>",
-          "pub_date": "2025-12-29T15:56:11+08:00",
-          "updated_at": "2025-12-29T15:56:11+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "捕获毒液",
-          "link": "https://wang618.cn/bu-huo-du-ye.html",
-          "description": "<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%AF%92%E6%B6%B2.mp4?sign=CzAGgcn5Sh1wfWqouovcvyE-TuA9lpp2Q1w2i2Jg3Uo=:0\"></video>\n<p>捕获毒液首日，这孽障就没半分安分！无时无刻不在疯狂挣命，拼了命要挣脱束缚。身子时而抱团蜷缩成狰狞一团，时而骤然分裂四散窜逃，黏腻蠕动的模样看得我后脊发凉，寒意直钻天灵盖。各位，要是哪天我的博客突然断更，铁定是被这邪祟寄生吞噬… 😱</p>",
-          "pub_date": "2025-12-25T00:56:58+08:00",
-          "updated_at": "2025-12-25T00:56:58+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "注视",
-          "link": "https://wang618.cn/zhu-shi.html",
-          "description": "<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%AE%87%E5%AE%99.mp4?sign=OMw52vlVTtR-X25wcYHwVOWG87F12sja7oTy3UWuCv8=:0\"></video>\n<p>近来沉迷宇宙科普，越深究越心生震撼。那片遥远缥缈的奥尔特云，不是边界，而是困住我们的永恒牢笼。细究便知，它是太阳系最外层天然铸就的结界，冰冷又厚重。人类想要真正踏出这方天地，从来都是难如登天。我们多像困在生态箱里的蝼蚁，眼前纵有星河璀璨，脚下却是无形囚笼，看似天地辽阔，实则无处可逃。我们俯身凝望蚁巢生态箱，总觉蝼蚁奔忙渺小又有趣；殊不知，或许正有高等文明，隔着奥尔特云这层透明屏障，以同样玩味的目光，静静注视着人类的起落与奔忙。补充：目前人类飞得最远的探测器（旅行者 1 号），飞行 48 年，现在距离太阳约 160 AU（160 × 1.496×10⁸ = 2.3936×10¹⁰ 千米，即 239.36 亿千米），连奥尔特云内层都没进入，按现有速度，要飞 300 年才能抵达奥尔特云外层，飞出则需要约 3 万年。</p>\n<p><img alt=\"注视.webp\" src=\"https://wang618.cn/content/uploadfile/202512/7e221766589402.webp\" /><br />\n<img alt=\"奥尔特云.webp\" src=\"https://wang618.cn/content/uploadfile/202512/a8311766589977.webp\" /></p>",
-          "pub_date": "2025-12-24T23:26:50+08:00",
-          "updated_at": "2025-12-24T23:26:50+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+          "title": "Islands 主题：JetBrains IDE 迎来全新外观",
+          "link": "https://blog.lichenghao.cn/article/g8ja27idsfz9",
+          "description": "Islands 主题：JetBrains IDE 迎来全新外观",
+          "pub_date": "2025-11-04T14:21:57+08:00",
+          "updated_at": "2025-11-04T14:21:57+08:00",
+          "author": "lichlaughing@lichenghao.cn (猿1993👨🏻‍💻)",
+          "site_name": "故事的程序猿",
+          "site_url": "https://blog.lichenghao.cn",
+          "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
         }
       ]
     },
@@ -1966,11 +1491,250 @@
       ]
     },
     {
+      "name": "旺东自留地",
+      "url": "https://wang618.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/wang618.gif",
+      "feed_url": "https://wang618.cn/rss.php",
+      "posts": [
+        {
+          "title": "四载恍如梦",
+          "link": "https://wang618.cn/si-zai-huang-ru-meng.html",
+          "description": "<p>不觉间，毛熊战事已走过四载春秋。一声轻叹，四年光阴，竟已悄然远逝。蓦然回首，才惊觉，岁月也在我身上刻下了痕迹，一晃，竟也老去四岁。<br />\n<img alt=\"俄乌战争.webp\" src=\"https://wang618.cn/content/uploadfile/202602/f02d1771930292.webp\" /></p>",
+          "pub_date": "2026-02-24T18:42:15+08:00",
+          "updated_at": "2026-02-24T18:42:15+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "马年大吉",
+          "link": "https://wang618.cn/ma-nian-da-ji.html",
+          "description": "<p>金马迎春万象新，策马扬鞭启征程。马到成功开胜景，龙马精神振家声。愿你在马年里，每一步都踩准马不停蹄的节奏，每一刻都怀揣一马当先的豪情。遇机遇则快马加鞭，闯难关则厉兵秣马，凭真才实学天马行空，靠实干担当倚马可待。生活里，有鲜衣怒马的潇洒，有青梅竹马的温柔，阖家欢乐共享倚马千言的幸福时光。事业上，伯乐识马得良遇，万马奔腾成大势，哪怕路遥水长，也能以马踏飞燕之姿，跨越山海直达理想。福气如天马行空般降临，财运似万马奔腾般涌来。愿你岁岁常拥龙马精神，年年皆得马到功成，策马奔腾向未来，马年大吉福满门！<br />\n<img alt=\"马年大吉.webp\" src=\"https://wang618.cn/content/uploadfile/202602/41f81771159015.webp\" /></p>",
+          "pub_date": "2026-02-15T20:36:46+08:00",
+          "updated_at": "2026-02-15T20:36:46+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "骨玩",
+          "link": "https://wang618.cn/gu-wan.html",
+          "description": "<p>大家平时都盘什么文玩？我盘骨头，多年偶尔盘玩，现在已经局部玉化。既能修身养性，又能近战防身，这玩意真不错！<br />\n<img alt=\"骨玩1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/051f1770805152.webp\" /><br />\n<img alt=\"骨玩2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/0ee91770805152.webp\" /></p>",
+          "pub_date": "2026-02-11T18:14:56+08:00",
+          "updated_at": "2026-02-11T18:14:56+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "经不轻传",
+          "link": "https://wang618.cn/jing-bu-qing-chuan.html",
+          "description": "<p>最近在家闲着没事，又重读了《西游记》原著，看到第九十八回《猿熟马驯方脱壳 功成行满见真如》。唐僧师徒一路千辛万苦，好不容易走到灵山圣地，本以为功德圆满、马上就能拿到真经，没想到拜见阿傩、迦叶两位尊者时，对方竟然公开索要好处。师徒几人跋山涉水，根本没带什么人间财物，拿不出东西应酬。两位尊者干脆就给了他们无字的空白经书，看着像真经，其实一卷卷全是空的，徒有其表。后来如来知道了这事，不但没责怪两位尊者，反而替他们解释说：“经不可轻传，也不能白白拿走。” 仔细琢磨这一段，道理很深，越想越有味道。书里还提到，诵经一遍，换来三斗三升米粒黄金，如来还嫌卖得太便宜。按现在的标准折算，三斗三升黄金大约重 636900 克，以当前金价 1111 元 / 克来算，总价高达七亿多元。只念一遍经就要这么高的价钱，实在让人吃惊。如来这番话，其实同时包含了三层意思：修行的道理、佛门的规矩，还有对人间世事的看透。对内，用“要人事”这件事，破除人的贪念执着，圆满最后一劫，给取经这件事做个彻底了断；对外，点明凡事都有代价，佛法不能随便传、真道不能轻易得，立下佛门传经的规矩；对世人而言，作者借灵山这样神圣的地方，写出最现实的人情世故，照见人心的贪念、世间的冷暖，在神魔鬼怪的故事里，写尽了人间最真实的道理。<br />\n<img alt=\"经不轻传1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/d4121770637086.webp\" /><br />\n<img alt=\"经不轻传2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/47031770637086.webp\" /></p>",
+          "pub_date": "2026-02-09T19:39:57+08:00",
+          "updated_at": "2026-02-09T19:39:57+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "农场忆流年",
+          "link": "https://wang618.cn/nong-chang-yi-liu-nian.html",
+          "description": "<p>2026年2月6日，《QQ经典农场》正式开服。这款曾风靡全网的现象级游戏，一经重启，便轻轻勾起无数人藏在时光里的青春回忆。谁不曾定过深夜的闹钟，只为准时守在屏幕前，偷那一株成熟的菜？初识妻子那年，第一次登门拜访，她的小姨与表妹一见面便追着要加我QQ。我当时一头雾水，后来才恍然大悟，原来只为农场偷菜。两人痴迷至极，凌晨四点仍准时上线，得手后还特意发来消息调侃，气得我索性用上挂机宝与辅助工具，24小时在线反击。如今重登农场，画面更清晰，操作更流畅，心境却早已截然不同。并非游戏无趣，而是当年一同熬夜、互相捉弄、笑着偷菜的人，早已不在好友列表里活跃。原来最让人怀念的，从来不是那几块虚拟田地、几株待收作物，而是那段可以为一件小事认真较劲、为一句玩笑熬夜守候、为一群人满心欢喜的时光。农场重启了，可那些一起偷菜的热闹、互相打趣的欢喜、简单又热烈的岁月，却再也回不去了。指尖轻点依旧，只是身边少了同频的人，心里空了一大片，再也填不满当年的热闹与天真。<br />\n<img alt=\"农场忆流年.webp\" src=\"https://wang618.cn/content/uploadfile/202602/42bf1770469439.webp\" /></p>",
+          "pub_date": "2026-02-07T20:54:07+08:00",
+          "updated_at": "2026-02-07T20:54:07+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "荒唐的梦境",
+          "link": "https://wang618.cn/huang-tang-de-meng-jing.html",
+          "description": "<p>昨晚做了个离谱到家的梦，现在想起来还觉得哭笑不得。梦里的我全副武装躲在战壕里，天空上密密麻麻的无人机不停盘旋，还一股脑地冲我发起自杀式袭击，周围火光冲天、爆炸声不断，场面紧张到不行，可神奇的是，那些无人机怎么炸都炸不到我。更荒唐的是，我一边缩在战壕里躲攻击，一边还腾出手来拿着手机刷红果短剧，完全是沉浸式追剧，丝毫不被旁边的战火影响。合着我这满脑子的红果宇宙，连做梦都没放过我，这后劲也太足了，果然疯癫的剧情看多了，连梦境都得被影响！<br />\n<img alt=\"荒唐的梦境.webp\" src=\"https://wang618.cn/content/uploadfile/202602/b64c1770370093.webp\" /></p>",
+          "pub_date": "2026-02-06T17:21:52+08:00",
+          "updated_at": "2026-02-06T17:21:52+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "山馈亦有代价",
+          "link": "https://wang618.cn/shan-kui-yi-you-dai-jia.html",
+          "description": "<p>今年躲进山里，仗着周遭漫山木柴，火速搭起壁炉。恰逢大雪封山，压断满坡树干，索性开启三天电锯狂锯的囤柴模式，孰料竟熬出了腕管综合症。如今每日凌晨准时遭罪，右臂酸沉抬举无力，手指麻胀如裹厚棉，妥妥的硬核囤柴后遗症，纯纯自作自受。原来大自然的馈赠，从来都要收几分利息。</p>\n<p><img alt=\"山馈亦有代价.webp\" src=\"https://wang618.cn/content/uploadfile/202602/2fd81770116919.webp\" /></p>",
+          "pub_date": "2026-02-03T18:50:38+08:00",
+          "updated_at": "2026-02-03T18:50:38+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "地又震矣",
+          "link": "https://wang618.cn/de-you-zhen-yi.html",
+          "description": "<p>甘肃这几年冬季频发地震。吊灯晃动明显，手机地震预警也在疯狂报警，着实让人受惊不小。</p>\n<p><img alt=\"地震01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/b50a1769423778.webp\" /><br />\n<img alt=\"地震02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/67ab1769423777.webp\" /></p>",
+          "pub_date": "2026-01-26T18:32:46+08:00",
+          "updated_at": "2026-01-26T18:32:46+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "这把排位打的爽",
+          "link": "https://wang618.cn/zhe-ba-pai-wei-da-de-shuang.html",
+          "description": "<p>这把排位打得太轻松，对面操作充满童真，让我毫无压力地达成了 25 连杀，顺手把核弹也整了出来！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E8%BF%99%E6%8A%8A%E6%8E%92%E4%BD%8D%E6%89%93%E7%9A%84%E7%88%BD.mp4?sign=SjmGF-FX-ccfPe8yt1RCD9xsLIBbYQZbVW5-py1jZOM=:0\"></video>",
+          "pub_date": "2026-01-25T19:04:38+08:00",
+          "updated_at": "2026-01-25T19:04:38+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "回首那场流离",
+          "link": "https://wang618.cn/hui-shou-na-chang-liu-li.html",
+          "description": "<p>青春是一场盛大的流离失所，我们在懵懂中相遇，又在成熟后别离。如今，站在时光的渡口回望，才发现那些哭过笑过的日子，早已化作这满山的红叶与遍地的黄花。不必感伤，因为逝去的青春并没有真正离开，它只是换了一种方式，在每一个风起的日子里，温柔了岁月，惊艳了时光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%9E%AB%E5%8F%B6%E7%BA%A2%20(Live).mp4?sign=J1Z6WEePJBpTszTaO6fzi5Ba-3O_lZkFMPY3zmH7pSA=:0\"></video>",
+          "pub_date": "2026-01-23T21:56:49+08:00",
+          "updated_at": "2026-01-23T21:56:49+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "两件数码好物",
+          "link": "https://wang618.cn/liang-jian-shu-ma-hao-wu.html",
+          "description": "<p>近日成功种草了两件好物：坚果 NUT65 套件与飞傲 DISC 音乐播放器。NUT65 采用三模双 GASKET 结构，铝壳经过 220 目阳极工艺处理，质感细腻；碰珠快拆设计方便拆装，还带拾音灯功能，氛围感拉满。为它搭配了芭比轴和锻碳键帽，手感扎实、声音清脆，打字体验非常出色！这把套件性价比很高，非常值得入手。飞傲 DISC 的圆形触控屏是我特别喜欢的设计，颜值高、操作直观。专门买来连接车机，上车蓝牙一连就能听歌，再也不用在车机里来回切换音乐 APP，体验顺滑很多。播放器支持蓝牙连接，双 CS43131 解码芯片在同价位里表现很亮眼，是入门播放器里的佼佼者。</p>\n<p><img alt=\"铝坨坨01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/18d01768989182.webp\" /></p>\n<p><img alt=\"铝坨坨02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/12531768989182.webp\" /></p>\n<p><img alt=\"铝坨坨03.webp\" src=\"https://wang618.cn/content/uploadfile/202601/85ef1768989182.webp\" /></p>\n<p><img alt=\"播放器01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/1caf1768989182.webp\" /></p>\n<p><img alt=\"播放器02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/cd5b1768989182.webp\" /></p>\n<p><img alt=\"播放器03.webp\" src=\"https://wang618.cn/content/uploadfile/202601/30691768989182.webp\" /></p>",
+          "pub_date": "2026-01-21T17:52:53+08:00",
+          "updated_at": "2026-01-21T17:52:53+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "轴体上墙辣面收尾",
+          "link": "https://wang618.cn/zhou-ti-shang-qiang-la-mian-shou-wei.html",
+          "description": "<p>今天折腾了一整天，终于把墙面的洞洞板装好了，把所有轴体都整整齐齐收纳上墙。买了 48 个罐子和 10 块洞洞板，忙完顺手煮了碗辣到怀疑人生的地狱拉面，爽！</p>\n<p><img alt=\"轴体上墙.webp\" src=\"https://wang618.cn/content/uploadfile/202601/6e751768921589.webp\" /><br />\n<img alt=\"地狱拉面.webp\" src=\"https://wang618.cn/content/uploadfile/202601/60311768921589.webp\" /></p>",
+          "pub_date": "2026-01-20T23:05:57+08:00",
+          "updated_at": "2026-01-20T23:05:57+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "亮瞎双眼的键盘",
+          "link": "https://wang618.cn/liang-xia-shuang-yan-de-jian-pan.html",
+          "description": "<p>买了一把亮瞎双眼的透明键盘，原厂是无字钻石键帽，颜值爆表，就是老打错字，只能换了。</p>\n<p><img alt=\"亮瞎双眼的键盘1.webp\" src=\"https://wang618.cn/content/uploadfile/202601/436c1768660751.webp\" /><br />\n<img alt=\"亮瞎双眼的键盘2.webp\" src=\"https://wang618.cn/content/uploadfile/202601/d93b1768660751.webp\" /><br />\n<img alt=\"亮瞎双眼的键盘3.webp\" src=\"https://wang618.cn/content/uploadfile/202601/3fd11768661049.webp\" /></p>",
+          "pub_date": "2026-01-17T22:39:00+08:00",
+          "updated_at": "2026-01-17T22:39:00+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "昨夜惊魂",
+          "link": "https://wang618.cn/zuo-ye-jing-hun.html",
+          "description": "<p>昨天做了个噩梦，醒来时冷汗湿透了睡衣。梦里我被困在一座无人的古镇，怎么走都是死循环。黑暗中，一个声音反复低语：“你看看我”我不受控制地走向巷子尽头那个背影。就在它转身脸即将对上我的瞬间！我家狗突然用湿鼻子碰了碰我。那一刻，我从极度的恐惧中惊醒，心脏狂跳。但我总觉得不对劲，白天和朋友去古玩市场，是不是真的带回了什么“不干净”的东西？这世上真的有鬼吗？还是说。。。。。。</p>\n<p><img alt=\"恐怖的梦.webp\" src=\"https://wang618.cn/content/uploadfile/202601/62d21767883121.webp\" /></p>",
+          "pub_date": "2026-01-08T22:46:16+08:00",
+          "updated_at": "2026-01-08T22:46:16+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "出门偶遇",
+          "link": "https://wang618.cn/chu-men-ou-yu.html",
+          "description": "<p>出门偶遇可怜的俩兄弟在寒风中瑟瑟发抖，善良的我必须做点什么！打算找个弹弓帮哥俩解脱！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%87%BA%E9%97%A8%E5%81%B6%E9%81%87.mp4?sign=ugFcYIWqGcDOgzKv9uuw3s77ArY8G1V7PxyHDtsJ_AY=:0\"></video>",
+          "pub_date": "2026-01-03T16:50:03+08:00",
+          "updated_at": "2026-01-03T16:50:03+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "你好2026",
+          "link": "https://wang618.cn/ni-hao-2026.html",
+          "description": "<p>旧岁已展千重锦，新年再进百尺竿。2026，愿我们都能得偿所愿，平安喜乐。愿财运如春水奔涌，财源广开进家门，金银满箱福满盈；愿身体似青松挺拔，筋骨强健少烦忧，三餐有味眠安稳；愿万事皆顺遂无忧，所求皆如愿，所行皆坦途，日子滚烫，岁岁安康。</p>\n<p><img alt=\"2026发大财.webp\" src=\"https://wang618.cn/content/uploadfile/202512/b4b21767180686.webp\" /></p>",
+          "pub_date": "2026-01-01T00:00:00+08:00",
+          "updated_at": "2026-01-01T00:00:00+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "体面式掠夺",
+          "link": "https://wang618.cn/ti-mian-shi-lve-duo.html",
+          "description": "<p>世间愈显魔幻，巧取豪夺偏装成“附赠好物”的体面。两斤榨菜八百八十八，一颗白菜一百八十八，一碗泡面一百一十八，荒诞到失语。是商家疯了，还是我与世道脱了轨？罢了，买不起，是我的错，我的错！</p>\n<p><img alt=\"体面式掠夺1.webp\" src=\"https://wang618.cn/content/uploadfile/202512/f1ad1767016217.webp\" /><br />\n<img alt=\"体面式掠夺2.webp\" src=\"https://wang618.cn/content/uploadfile/202512/ca9c1767016217.webp\" /><br />\n<img alt=\"体面式掠夺3.webp\" src=\"https://wang618.cn/content/uploadfile/202512/7c8e1767016218.webp\" /></p>",
+          "pub_date": "2025-12-29T21:55:38+08:00",
+          "updated_at": "2025-12-29T21:55:38+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "阴间饮料诚不欺我",
+          "link": "https://wang618.cn/yin-jian-yin-liao-cheng-bu-qi-wo.html",
+          "description": "<p>一时好奇囤了蛇草水，“阴间饮料”果然名不虚传！自诩饮遍百味能拿捏，一口下去直接原地裂开：气泡呛喉，冲鼻药味齁得嗓子眼发紧，比藿香正气水还劝退。十二瓶囤货堪称大型自坑现场，悔到捶胸！灵机一动有了邪恶想法，打算喊好友来家吃饭打扑克，输家惩罚就是畅饮这瓶“灵魂饮品”！</p>\n<p><img alt=\"蛇草水01.webp\" src=\"https://wang618.cn/content/uploadfile/202512/52311766994913.webp\" /><br />\n<img alt=\"蛇草水02.webp\" src=\"https://wang618.cn/content/uploadfile/202512/2d791766994916.webp\" /></p>",
+          "pub_date": "2025-12-29T15:56:11+08:00",
+          "updated_at": "2025-12-29T15:56:11+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "捕获毒液",
+          "link": "https://wang618.cn/bu-huo-du-ye.html",
+          "description": "<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%AF%92%E6%B6%B2.mp4?sign=CzAGgcn5Sh1wfWqouovcvyE-TuA9lpp2Q1w2i2Jg3Uo=:0\"></video>\n<p>捕获毒液首日，这孽障就没半分安分！无时无刻不在疯狂挣命，拼了命要挣脱束缚。身子时而抱团蜷缩成狰狞一团，时而骤然分裂四散窜逃，黏腻蠕动的模样看得我后脊发凉，寒意直钻天灵盖。各位，要是哪天我的博客突然断更，铁定是被这邪祟寄生吞噬… 😱</p>",
+          "pub_date": "2025-12-25T00:56:58+08:00",
+          "updated_at": "2025-12-25T00:56:58+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "注视",
+          "link": "https://wang618.cn/zhu-shi.html",
+          "description": "<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%AE%87%E5%AE%99.mp4?sign=OMw52vlVTtR-X25wcYHwVOWG87F12sja7oTy3UWuCv8=:0\"></video>\n<p>近来沉迷宇宙科普，越深究越心生震撼。那片遥远缥缈的奥尔特云，不是边界，而是困住我们的永恒牢笼。细究便知，它是太阳系最外层天然铸就的结界，冰冷又厚重。人类想要真正踏出这方天地，从来都是难如登天。我们多像困在生态箱里的蝼蚁，眼前纵有星河璀璨，脚下却是无形囚笼，看似天地辽阔，实则无处可逃。我们俯身凝望蚁巢生态箱，总觉蝼蚁奔忙渺小又有趣；殊不知，或许正有高等文明，隔着奥尔特云这层透明屏障，以同样玩味的目光，静静注视着人类的起落与奔忙。补充：目前人类飞得最远的探测器（旅行者 1 号），飞行 48 年，现在距离太阳约 160 AU（160 × 1.496×10⁸ = 2.3936×10¹⁰ 千米，即 239.36 亿千米），连奥尔特云内层都没进入，按现有速度，要飞 300 年才能抵达奥尔特云外层，飞出则需要约 3 万年。</p>\n<p><img alt=\"注视.webp\" src=\"https://wang618.cn/content/uploadfile/202512/7e221766589402.webp\" /><br />\n<img alt=\"奥尔特云.webp\" src=\"https://wang618.cn/content/uploadfile/202512/a8311766589977.webp\" /></p>",
+          "pub_date": "2025-12-24T23:26:50+08:00",
+          "updated_at": "2025-12-24T23:26:50+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        }
+      ]
+    },
+    {
       "name": "目的地-Destination",
       "url": "https://chrison.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
       "feed_url": "https://chrison.cn/feed",
       "posts": [
+        {
+          "title": "新一年，换个主题",
+          "link": "https://chrison.cn/live/349.html",
+          "description": "年纪越大，越喜欢简约点的主题了~哈哈哈😁",
+          "pub_date": "2026-02-26T08:35:18+08:00",
+          "updated_at": "2026-02-26T08:35:18+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
         {
           "title": "说说：做了个小程序，智查-生物信息助手",
           "link": "https://chrison.cn/live/347.html",
@@ -2268,120 +2032,120 @@
       ]
     },
     {
-      "name": "小屁君的吐槽",
-      "url": "https://blog.ouxiaopi.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
-      "feed_url": "https://blog.ouxiaopi.com/feed",
+      "name": "黑石博客",
+      "url": "https://heson.me/",
+      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
+      "feed_url": "https://heson.me/feed",
       "posts": [
         {
-          "title": "小P说（十一）",
-          "link": "https://blog.ouxiaopi.com/1752.html",
-          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
-          "pub_date": "2026-02-25T06:28:19+08:00",
-          "updated_at": "2026-02-25T06:28:19+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "关于Windows11激活",
+          "link": "https://heson.me/dowhat/49.html",
+          "description": "蹲了2个月的电脑配件好价，这次双十一终于全部攒齐了，具体配置及价格详见➡️ 《我的电脑配置及外设【完结】》 在Windows官网上下了个多版本的Windows11，之前都喜欢安装专业版，但这次给...",
+          "pub_date": "2025-10-27T11:39:00+08:00",
+          "updated_at": "2025-10-27T11:39:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "小P说（十）",
-          "link": "https://blog.ouxiaopi.com/1741.html",
-          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
-          "pub_date": "2026-01-26T12:24:01+08:00",
-          "updated_at": "2026-01-26T12:24:01+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "记录一次memo的调用",
+          "link": "https://heson.me/dowhat/47.html",
+          "description": "基本不怎么在微信发朋友圈的我，但最喜欢在博客发动态。所以哔哔、闪念、说说、胶囊诸如此类的，是我博客必备的功能。奈何cuteen原生的闪念功能虽然简单，但就是太简单了，不能发图片。所以我决定把me...",
+          "pub_date": "2025-10-10T08:54:00+08:00",
+          "updated_at": "2025-10-10T08:54:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "小米的”星号”艺术!",
-          "link": "https://blog.ouxiaopi.com/1734.html",
-          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
-          "pub_date": "2026-01-23T07:42:00+08:00",
-          "updated_at": "2026-01-23T07:42:00+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "在NAS上搭建私有云音乐",
+          "link": "https://heson.me/dowhat/35.html",
+          "description": "QQ音乐会员 我看谁还充，反正我是不充了。来看看下面这个方案：[card title=\"免费私有云音乐方案\" color=\"success\"]🎵下载：LX Music(洛雪音乐)：一款免费开源的...",
+          "pub_date": "2025-09-26T11:34:00+08:00",
+          "updated_at": "2025-09-26T11:34:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "随笔（八）",
-          "link": "https://blog.ouxiaopi.com/1706.html",
-          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
-          "pub_date": "2026-01-15T02:41:26+08:00",
-          "updated_at": "2026-01-15T02:41:26+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "天钡wtr pro 5825u上手体验",
+          "link": "https://heson.me/dowhat/33.html",
+          "description": "天钡wtr pro 5825u（物理机飞牛os）是我现在正在用的nas服务器。这个博客就搭在它上面。由来之前一直关注n150的nas消息，偶然一天问nas群友n150推荐机型：看了一下外观和配置...",
+          "pub_date": "2025-09-23T10:44:00+08:00",
+          "updated_at": "2025-09-23T10:44:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "2025年度总结",
-          "link": "https://blog.ouxiaopi.com/1676.html",
-          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
-          "pub_date": "2026-01-04T07:54:40+08:00",
-          "updated_at": "2026-01-04T07:54:40+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "深度思考：决定你命运的核心能力",
+          "link": "https://heson.me/life/25.html",
+          "description": "[card title=\"推荐理由\" color=\"info\"]真正改变命运的是独立、深刻地思考问题的能力。[/card]深度思考：决定你命运的核心能力看透本质与看不清本质的人，注定拥有不同的命...",
+          "pub_date": "2025-09-22T08:42:00+08:00",
+          "updated_at": "2025-09-22T08:42:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "凤英",
-          "link": "https://blog.ouxiaopi.com/1665.html",
-          "description": "米高杨唱的完整版《凤英》",
-          "pub_date": "2025-12-24T14:31:13+08:00",
-          "updated_at": "2025-12-24T14:31:13+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "装修记——自装的150天",
+          "link": "https://heson.me/life/15.html",
+          "description": "第一次装修时，我把全部事情都交给了装修公司。每平米998元，总共花了二十多万，当时还以为占了便宜。刚装完的时候看着还行，颜色和材料都是自己选的。但现在回想起来，他们用的都是商家特供的渠道货，样式...",
+          "pub_date": "2025-09-11T09:14:00+08:00",
+          "updated_at": "2025-09-11T09:14:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "随笔（七）",
-          "link": "https://blog.ouxiaopi.com/1635.html",
-          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
-          "pub_date": "2025-12-14T04:08:11+08:00",
-          "updated_at": "2025-12-14T04:08:11+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "那些年的友情链接，还在闪闪发光",
+          "link": "https://heson.me/life/10.html",
+          "description": "[audio src=\"https://heson.me/music/%E6%9E%97%E5%BF%97%E7%82%AB-%E5%87%A4%E5%87%B0%E8%8A%B1%E5%BC%...",
+          "pub_date": "2025-09-06T10:20:00+08:00",
+          "updated_at": "2025-09-06T10:20:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "小P说（九）",
-          "link": "https://blog.ouxiaopi.com/1613.html",
-          "description": "到了25年最后一月，虽没去年冷但风大。这一年心境安静，不再执着“争”，用“命中注定”概括无法释怀。认为教育或许是灌输驯化，对雅雅更注重其开心做自己。指出逃离农村进城市可能陷入游戏陷阱，信仰在大数据、社会算法影响下崩塌。意识到自身能力在当下供大于求的环境中不足，曾创业失败，如今追求内心平静，不被定义。",
-          "pub_date": "2025-12-04T12:06:10+08:00",
-          "updated_at": "2025-12-04T12:06:10+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "童年第一台急先锋电脑到如今NAS服务器的搭建",
+          "link": "https://heson.me/life/6.html",
+          "description": "童年的“折腾基因”启蒙第一台电脑的“开箱记忆”2001 年的夏天，拨号上网的“滴滴嘟嘟”声还在楼道里此起彼伏，Windows 98 的蓝天白云桌面是大多数家庭电脑的标配。五年级的我放学回家，看见...",
+          "pub_date": "2025-09-04T16:10:00+08:00",
+          "updated_at": "2025-09-04T16:10:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "黄梅戏《三字经》片段",
-          "link": "https://blog.ouxiaopi.com/1606.html",
-          "description": "安庆黄梅戏优秀演员马丁唱的《三字经》片段",
-          "pub_date": "2025-12-01T11:18:58+08:00",
-          "updated_at": "2025-12-01T11:18:58+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "战地风云 6 预购记：一场关于热爱与时光的独白​",
+          "link": "https://heson.me/life/4.html",
+          "description": "鼠标最终还是点下了 “[RainBowText]确认预购[/RainBowText]” 的按钮，屏幕上跳出《战地风云 6》魅影版的订单页面时，我竟莫名愣了几秒。指尖还残留着鼠标按键的微弱触感，心...",
+          "pub_date": "2025-09-02T11:16:00+08:00",
+          "updated_at": "2025-09-02T11:16:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         },
         {
-          "title": "讨倭檄文",
-          "link": "https://blog.ouxiaopi.com/1583.html",
-          "description": "这檄文声讨倭夷。回顾其历史上多次侵华恶行，如甲午、全面侵华等。如今它仍不思悔改，篡改历史、觊觎领土。中华曾驱其出境，今国力强盛，若倭再犯，必承先辈遗志反击，望其悬崖勒马，否则定踏平列岛。",
-          "pub_date": "2025-11-26T12:59:39+08:00",
-          "updated_at": "2025-11-26T12:59:39+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+          "title": "我的电脑配置及外设【完结】",
+          "link": "https://heson.me/dowhat/3.html",
+          "description": "需求首先确定显示器，红米g pro27u，一款4k160和1k300的双模显示器，带电视和小爱同学。因为我这台电脑是放在客厅岛台上的，所以电视功能可拓展客厅功能，同时全屋小米智能，非常有必要在电...",
+          "pub_date": "2025-09-02T07:15:00+08:00",
+          "updated_at": "2025-09-02T07:15:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         }
       ]
     },
@@ -2944,6 +2708,242 @@
       ]
     },
     {
+      "name": "小屁君的吐槽",
+      "url": "https://blog.ouxiaopi.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
+      "feed_url": "https://blog.ouxiaopi.com/feed",
+      "posts": [
+        {
+          "title": "小P说（十一）",
+          "link": "https://blog.ouxiaopi.com/1752.html",
+          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
+          "pub_date": "2026-02-25T06:28:19+08:00",
+          "updated_at": "2026-02-25T06:28:19+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十）",
+          "link": "https://blog.ouxiaopi.com/1741.html",
+          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
+          "pub_date": "2026-01-26T12:24:01+08:00",
+          "updated_at": "2026-01-26T12:24:01+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小米的”星号”艺术!",
+          "link": "https://blog.ouxiaopi.com/1734.html",
+          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
+          "pub_date": "2026-01-23T07:42:00+08:00",
+          "updated_at": "2026-01-23T07:42:00+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（八）",
+          "link": "https://blog.ouxiaopi.com/1706.html",
+          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
+          "pub_date": "2026-01-15T02:41:26+08:00",
+          "updated_at": "2026-01-15T02:41:26+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "2025年度总结",
+          "link": "https://blog.ouxiaopi.com/1676.html",
+          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
+          "pub_date": "2026-01-04T07:54:40+08:00",
+          "updated_at": "2026-01-04T07:54:40+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "凤英",
+          "link": "https://blog.ouxiaopi.com/1665.html",
+          "description": "米高杨唱的完整版《凤英》",
+          "pub_date": "2025-12-24T14:31:13+08:00",
+          "updated_at": "2025-12-24T14:31:13+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（七）",
+          "link": "https://blog.ouxiaopi.com/1635.html",
+          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
+          "pub_date": "2025-12-14T04:08:11+08:00",
+          "updated_at": "2025-12-14T04:08:11+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（九）",
+          "link": "https://blog.ouxiaopi.com/1613.html",
+          "description": "到了25年最后一月，虽没去年冷但风大。这一年心境安静，不再执着“争”，用“命中注定”概括无法释怀。认为教育或许是灌输驯化，对雅雅更注重其开心做自己。指出逃离农村进城市可能陷入游戏陷阱，信仰在大数据、社会算法影响下崩塌。意识到自身能力在当下供大于求的环境中不足，曾创业失败，如今追求内心平静，不被定义。",
+          "pub_date": "2025-12-04T12:06:10+08:00",
+          "updated_at": "2025-12-04T12:06:10+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "黄梅戏《三字经》片段",
+          "link": "https://blog.ouxiaopi.com/1606.html",
+          "description": "安庆黄梅戏优秀演员马丁唱的《三字经》片段",
+          "pub_date": "2025-12-01T11:18:58+08:00",
+          "updated_at": "2025-12-01T11:18:58+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "讨倭檄文",
+          "link": "https://blog.ouxiaopi.com/1583.html",
+          "description": "这檄文声讨倭夷。回顾其历史上多次侵华恶行，如甲午、全面侵华等。如今它仍不思悔改，篡改历史、觊觎领土。中华曾驱其出境，今国力强盛，若倭再犯，必承先辈遗志反击，望其悬崖勒马，否则定踏平列岛。",
+          "pub_date": "2025-11-26T12:59:39+08:00",
+          "updated_at": "2025-11-26T12:59:39+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        }
+      ]
+    },
+    {
+      "name": "winegrower",
+      "url": "http://www.winegrower.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/winegrower.png",
+      "feed_url": "http://www.winegrower.cn/feed",
+      "posts": [
+        {
+          "title": "节前的最后一天上班",
+          "link": "https://www.winegrower.cn/archives/1053/",
+          "description": "过年的氛围越来越浓，大家看似在上班，实际上心已经来到了假期，我也如此。在节前上班的最后一个下午，小朋友来公司附近等我，接我下班。因为有孩子陪伴，为了方便工作，我们一起来到楼下的餐厅，她陪着我工作...",
+          "pub_date": "2026-02-13T14:30:14+08:00",
+          "updated_at": "2026-02-13T14:30:14+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "今年春节不回老家",
+          "link": "https://www.winegrower.cn/archives/1051/",
+          "description": "今年春节没有回老家——其实，这已经是连续第六年了。自从在北京定居后，先是妻子春节值班，接着孩子年幼不便远行，再后来种种琐事牵绊……从2020年起，我们便再没在除夕夜踏上归途。我知道，这些理由说到...",
+          "pub_date": "2026-02-09T16:03:13+08:00",
+          "updated_at": "2026-02-09T16:03:13+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "工作给了我们什么",
+          "link": "https://www.winegrower.cn/archives/1038/",
+          "description": "今天19.30我一路辗转回家，拖着疲惫的身体，推开门，孩子清脆的声音“爸爸，告诉你一个好消息，妈妈给我买指甲贴了，明天就可以到”。妻子在沙发上坐着，看合孩子在客厅玩耍。我放下书包，洗漱之后，走到...",
+          "pub_date": "2026-01-26T23:26:39+08:00",
+          "updated_at": "2026-01-26T23:26:39+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "写在2026年初，大变革时代的我们",
+          "link": "https://www.winegrower.cn/archives/1037/",
+          "description": "不知道，从历史的角度看，2026年会是一个什么样的年份，因为我们都生活在当下，我们很难感知到。但从各种身边的感知和遥远的新闻来看，世界在面临巨大的变革。这种变革或可能是灾难，可能也是机会。好在，...",
+          "pub_date": "2026-01-26T22:45:00+08:00",
+          "updated_at": "2026-01-26T22:45:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "小木屋",
+          "link": "https://www.winegrower.cn/archives/1025/",
+          "description": "我喜欢旅行，也喜欢带点纪念品回家。不过我很少在景区商店买东西，更愿意从路上随手捡些自然的小东西——石头、苔藓、野果、树枝、贝壳……它们虽然普通，却让我想起当时走过的路、吹过的风。今年国庆去海边，...",
+          "pub_date": "2026-01-07T11:19:00+08:00",
+          "updated_at": "2026-01-07T11:19:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "2025年总结",
+          "link": "https://www.winegrower.cn/archives/1010/",
+          "description": "此刻是2025年的最后几个小时。本来该下班了，但我却想停下来，写写此刻的心情。为什么是“心情”，而不是“年度总结”？因为回望这一年，似乎没有特别值得铭记或深刻到足以载入“总结”的事。它平静、琐碎...",
+          "pub_date": "2025-12-31T18:08:54+08:00",
+          "updated_at": "2025-12-31T18:08:54+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "月下蒲公英",
+          "link": "https://www.winegrower.cn/archives/956/",
+          "description": "因为一直就喜欢画画，和女朋友也是从本科就开始恋爱的，所以在本科毕业时就一直想画一幅画以为我们的感觉做一个记录，想了挺久，后来选定了一个主题“月下蒲公英”，因为我女朋友当时的网名为“月下蒲公英”。...",
+          "pub_date": "2025-12-15T15:42:04+08:00",
+          "updated_at": "2025-12-15T15:42:04+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "黄焖鸡米饭",
+          "link": "https://www.winegrower.cn/archives/951/",
+          "description": "一直钟爱黄焖鸡米饭，但市面上（尤其是沙县小吃）的版本多为预制菜，风味难免打折扣。于是这个周末，我决定在家亲手做一锅地道又健康的黄焖鸡，没想到家人一致好评！特此分享我的家庭版做法，简单易上手，汤汁...",
+          "pub_date": "2025-12-15T12:23:00+08:00",
+          "updated_at": "2025-12-15T12:23:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "Less is more",
+          "link": "https://www.winegrower.cn/archives/933/",
+          "description": "折腾博客很久了，从新浪、人人网、QQ空间等博客平台，到后来的Wordpress及Typecho等独立博客程序，Hugo和Jekyll等静态博客。一路折腾来，从程序角度发现还是Typecho最适合...",
+          "pub_date": "2025-12-07T22:24:00+08:00",
+          "updated_at": "2025-12-07T22:24:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "Ai时代，我们的博客有什么意义",
+          "link": "https://www.winegrower.cn/archives/931/",
+          "description": "虽然Ai已经推出很久了，但对于我而言，除了平时写一些“形式性”的总结汇报之外，没有太多的深入的使用体会。但最近随着阿里千问Qwen的推出，好奇心驱使下我做了一些简单的测试，就这几天让我对AI有了...",
+          "pub_date": "2025-12-06T23:51:13+08:00",
+          "updated_at": "2025-12-06T23:51:13+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        }
+      ]
+    },
+    {
       "name": "水拍石",
       "url": "https://www.leitao.cn",
       "avatar": "https://cdn.xiaoten.com/friends/leitao.png",
@@ -3191,124 +3191,6 @@
       ]
     },
     {
-      "name": "winegrower",
-      "url": "http://www.winegrower.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/winegrower.png",
-      "feed_url": "http://www.winegrower.cn/feed",
-      "posts": [
-        {
-          "title": "节前的最后一天上班",
-          "link": "https://www.winegrower.cn/archives/1053/",
-          "description": "过年的氛围越来越浓，大家看似在上班，实际上心已经来到了假期，我也如此。在节前上班的最后一个下午，小朋友来公司附近等我，接我下班。因为有孩子陪伴，为了方便工作，我们一起来到楼下的餐厅，她陪着我工作...",
-          "pub_date": "2026-02-13T14:30:14+08:00",
-          "updated_at": "2026-02-13T14:30:14+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "今年春节不回老家",
-          "link": "https://www.winegrower.cn/archives/1051/",
-          "description": "今年春节没有回老家——其实，这已经是连续第六年了。自从在北京定居后，先是妻子春节值班，接着孩子年幼不便远行，再后来种种琐事牵绊……从2020年起，我们便再没在除夕夜踏上归途。我知道，这些理由说到...",
-          "pub_date": "2026-02-09T16:03:13+08:00",
-          "updated_at": "2026-02-09T16:03:13+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "工作给了我们什么",
-          "link": "https://www.winegrower.cn/archives/1038/",
-          "description": "今天19.30我一路辗转回家，拖着疲惫的身体，推开门，孩子清脆的声音“爸爸，告诉你一个好消息，妈妈给我买指甲贴了，明天就可以到”。妻子在沙发上坐着，看合孩子在客厅玩耍。我放下书包，洗漱之后，走到...",
-          "pub_date": "2026-01-26T23:26:39+08:00",
-          "updated_at": "2026-01-26T23:26:39+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "写在2026年初，大变革时代的我们",
-          "link": "https://www.winegrower.cn/archives/1037/",
-          "description": "不知道，从历史的角度看，2026年会是一个什么样的年份，因为我们都生活在当下，我们很难感知到。但从各种身边的感知和遥远的新闻来看，世界在面临巨大的变革。这种变革或可能是灾难，可能也是机会。好在，...",
-          "pub_date": "2026-01-26T22:45:00+08:00",
-          "updated_at": "2026-01-26T22:45:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "小木屋",
-          "link": "https://www.winegrower.cn/archives/1025/",
-          "description": "我喜欢旅行，也喜欢带点纪念品回家。不过我很少在景区商店买东西，更愿意从路上随手捡些自然的小东西——石头、苔藓、野果、树枝、贝壳……它们虽然普通，却让我想起当时走过的路、吹过的风。今年国庆去海边，...",
-          "pub_date": "2026-01-07T11:19:00+08:00",
-          "updated_at": "2026-01-07T11:19:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "2025年总结",
-          "link": "https://www.winegrower.cn/archives/1010/",
-          "description": "此刻是2025年的最后几个小时。本来该下班了，但我却想停下来，写写此刻的心情。为什么是“心情”，而不是“年度总结”？因为回望这一年，似乎没有特别值得铭记或深刻到足以载入“总结”的事。它平静、琐碎...",
-          "pub_date": "2025-12-31T18:08:54+08:00",
-          "updated_at": "2025-12-31T18:08:54+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "月下蒲公英",
-          "link": "https://www.winegrower.cn/archives/956/",
-          "description": "因为一直就喜欢画画，和女朋友也是从本科就开始恋爱的，所以在本科毕业时就一直想画一幅画以为我们的感觉做一个记录，想了挺久，后来选定了一个主题“月下蒲公英”，因为我女朋友当时的网名为“月下蒲公英”。...",
-          "pub_date": "2025-12-15T15:42:04+08:00",
-          "updated_at": "2025-12-15T15:42:04+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "黄焖鸡米饭",
-          "link": "https://www.winegrower.cn/archives/951/",
-          "description": "一直钟爱黄焖鸡米饭，但市面上（尤其是沙县小吃）的版本多为预制菜，风味难免打折扣。于是这个周末，我决定在家亲手做一锅地道又健康的黄焖鸡，没想到家人一致好评！特此分享我的家庭版做法，简单易上手，汤汁...",
-          "pub_date": "2025-12-15T12:23:00+08:00",
-          "updated_at": "2025-12-15T12:23:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "Less is more",
-          "link": "https://www.winegrower.cn/archives/933/",
-          "description": "折腾博客很久了，从新浪、人人网、QQ空间等博客平台，到后来的Wordpress及Typecho等独立博客程序，Hugo和Jekyll等静态博客。一路折腾来，从程序角度发现还是Typecho最适合...",
-          "pub_date": "2025-12-07T22:24:00+08:00",
-          "updated_at": "2025-12-07T22:24:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "Ai时代，我们的博客有什么意义",
-          "link": "https://www.winegrower.cn/archives/931/",
-          "description": "虽然Ai已经推出很久了，但对于我而言，除了平时写一些“形式性”的总结汇报之外，没有太多的深入的使用体会。但最近随着阿里千问Qwen的推出，好奇心驱使下我做了一些简单的测试，就这几天让我对AI有了...",
-          "pub_date": "2025-12-06T23:51:13+08:00",
-          "updated_at": "2025-12-06T23:51:13+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        }
-      ]
-    },
-    {
       "name": "从良未遂",
       "url": "https://www.jeffer.xyz/",
       "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg",
@@ -3519,6 +3401,58 @@
       "posts": []
     },
     {
+      "name": "枋柚梓",
+      "url": "https://inkss.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
+      "feed_url": "https://inkss.cn/feed",
+      "posts": [
+        {
+          "title": "极空间 NAS：SSH 高阶玩法实践",
+          "link": "https://inkss.cn/post/3af25609/",
+          "description": "以极空间 Z4Pro+ 性能版为例，其 CPU 为 N355，配备 16GB DDR5 内存。若仅作为 NAS 存储使用，性能略显冗余，因此是时候尝试开启 SSH，以探索更多玩法。",
+          "pub_date": "2025-09-11T13:40:00+08:00",
+          "updated_at": "2025-11-15T11:20:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
+          "link": "https://inkss.cn/post/bbad9898/",
+          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
+          "pub_date": "2025-11-12T12:48:00+08:00",
+          "updated_at": "2025-11-12T12:48:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
+          "link": "https://inkss.cn/post/4a1a172a/",
+          "description": "本文分享腾讯云 EdgeOne 三个月使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
+          "pub_date": "2025-10-21T10:00:00+08:00",
+          "updated_at": "2025-11-10T08:05:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "极空间防火墙配置避坑：IPv6 地址丢失（DHCPv6）教程",
+          "link": "https://inkss.cn/post/f2d9f349/",
+          "description": "极空间系统新增防火墙功能后，实现了设备级网络访问管控，为公网环境下的安全配置提供了更精细化的选项。然而，由于底层规则设置过于粗糙，实际配置过程中出现设备 IPv6 地址异常丢失的问题。",
+          "pub_date": "2025-09-05T15:07:00+08:00",
+          "updated_at": "2025-09-11T07:23:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        }
+      ]
+    },
+    {
       "name": "Jack's Space",
       "url": "https://veryjack.com/",
       "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp",
@@ -3725,58 +3659,6 @@
       ]
     },
     {
-      "name": "枋柚梓",
-      "url": "https://inkss.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
-      "feed_url": "https://inkss.cn/feed",
-      "posts": [
-        {
-          "title": "极空间 NAS：SSH 高阶玩法实践",
-          "link": "https://inkss.cn/post/3af25609/",
-          "description": "以极空间 Z4Pro+ 性能版为例，其 CPU 为 N355，配备 16GB DDR5 内存。若仅作为 NAS 存储使用，性能略显冗余，因此是时候尝试开启 SSH，以探索更多玩法。",
-          "pub_date": "2025-09-11T13:40:00+08:00",
-          "updated_at": "2025-11-15T11:20:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
-          "link": "https://inkss.cn/post/bbad9898/",
-          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
-          "pub_date": "2025-11-12T12:48:00+08:00",
-          "updated_at": "2025-11-12T12:48:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
-          "link": "https://inkss.cn/post/4a1a172a/",
-          "description": "本文分享腾讯云 EdgeOne 三个月使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
-          "pub_date": "2025-10-21T10:00:00+08:00",
-          "updated_at": "2025-11-10T08:05:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "极空间防火墙配置避坑：IPv6 地址丢失（DHCPv6）教程",
-          "link": "https://inkss.cn/post/f2d9f349/",
-          "description": "极空间系统新增防火墙功能后，实现了设备级网络访问管控，为公网环境下的安全配置提供了更精细化的选项。然而，由于底层规则设置过于粗糙，实际配置过程中出现设备 IPv6 地址异常丢失的问题。",
-          "pub_date": "2025-09-05T15:07:00+08:00",
-          "updated_at": "2025-09-11T07:23:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        }
-      ]
-    },
-    {
       "name": "eallion's Blog",
       "url": "https://www.eallion.com",
       "avatar": "https://cdn.xiaoten.com/friends/eallion.png",
@@ -3964,6 +3846,124 @@
           "author": "S",
           "site_name": "旅行漫记",
           "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        }
+      ]
+    },
+    {
+      "name": "竹炉山房",
+      "url": "https://synyan.cn/t/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
+      "feed_url": "https://synyan.cn/t/feed/atom",
+      "posts": [
+        {
+          "title": "马踏春风",
+          "link": "https://synyan.cn/t/60697",
+          "description": "岁序更替，华章日新。站在时光的交界处回望，旧岁所有的跋涉与奔赴，都化作此刻心底的温澜。除夕夜恭祝各位博友：新岁 [&#8230;]",
+          "pub_date": "2026-02-16T15:46:23+08:00",
+          "updated_at": "2026-02-16T15:46:47+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "Ricoh GR IV HDF",
+          "link": "https://synyan.cn/t/60491",
+          "description": "剁手 原本今年不想买设备了，但前几日不是收益还行嘛（然鹅今天大幅回撤了🤮……），手一抖买了bigfa同款GR  [&#8230;]",
+          "pub_date": "2026-01-30T08:28:44+08:00",
+          "updated_at": "2026-02-16T06:55:04+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "聚合两个站点的Atom后续",
+          "link": "https://synyan.cn/t/60613",
+          "description": "由于缓存问题，聚合不能及时更新，依旧恢复到原来的两个Atom： 旅行漫记：https://synyan.cn/ [&#8230;]",
+          "pub_date": "2026-02-13T13:07:48+08:00",
+          "updated_at": "2026-02-15T11:37:09+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "放假了暨情人节闲逛",
+          "link": "https://synyan.cn/t/60619",
+          "description": "今天是个好日子，因为中午就提前放假了，加上后面9天假期，这个春节倍儿爽。 由于昨天提前聚了，今年办公室聚餐就没 [&#8230;]",
+          "pub_date": "2026-02-14T14:42:59+08:00",
+          "updated_at": "2026-02-15T07:30:28+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "初尝全景相机：Insta360 X5",
+          "link": "https://synyan.cn/t/60582",
+          "description": "剁手 曾经，喜欢拍摄静态照片的我是不需要全景相机这种视频设备的。当然，十多年来也曾有几次不成功的尝试，分别是小 [&#8230;]",
+          "pub_date": "2026-02-13T09:40:32+08:00",
+          "updated_at": "2026-02-13T13:14:25+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "30 Minutes to Decide：Tesla Model Y",
+          "link": "https://synyan.cn/t/60533",
+          "description": "ld的马六已经开了十五年，虽然继续开完全没问题，但毕竟已过了报废年限，残值还不如一部iPhone，而2026年 [&#8230;]",
+          "pub_date": "2026-02-07T14:13:32+08:00",
+          "updated_at": "2026-02-11T13:42:41+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "出售Canon PowerShot G5 X Mark II",
+          "link": "https://synyan.cn/t/60470",
+          "description": "在转让平台发了个帖子： 另：本博读者可再获¥400折扣。 2026年2月4日 昨晚成功售出，今日到账¥5680 [&#8230;]",
+          "pub_date": "2026-01-27T15:04:12+08:00",
+          "updated_at": "2026-02-03T17:25:51+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "快速步入菌锅主义",
+          "link": "https://synyan.cn/t/60523",
+          "description": "周六国际贵金属快速下跌，短视频平台一众要求美军迅速在开盘日前对伊开火的期股民，一如战前强烈要求释放国内压力的轴 [&#8230;]",
+          "pub_date": "2026-01-31T10:19:05+08:00",
+          "updated_at": "2026-01-31T10:19:06+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "COMEX或在3月出现白银实物交割违约",
+          "link": "https://synyan.cn/t/60486",
+          "description": "贵金属市场正面临一场潜在的交割危机。 资深贵金属分析师Bill Holter最新警告称，纽约商品交易所（COM [&#8230;]",
+          "pub_date": "2026-01-29T14:50:38+08:00",
+          "updated_at": "2026-01-29T14:50:39+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "西水东",
+          "link": "https://synyan.cn/t/60415",
+          "description": "有一阵没去了，随手拍了几张。 关闭的Maan Coffee，属于是回忆杀了。",
+          "pub_date": "2026-01-25T02:32:07+08:00",
+          "updated_at": "2026-01-25T06:57:59+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
           "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
         }
       ]
@@ -4291,127 +4291,20 @@
           "avatar": "https://cdn.xiaoten.com/friends/koobai.webp"
         }
       ]
-    },
-    {
-      "name": "竹炉山房",
-      "url": "https://synyan.cn/t/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
-      "feed_url": "https://synyan.cn/t/feed/atom",
-      "posts": [
-        {
-          "title": "马踏春风",
-          "link": "https://synyan.cn/t/60697",
-          "description": "岁序更替，华章日新。站在时光的交界处回望，旧岁所有的跋涉与奔赴，都化作此刻心底的温澜。除夕夜恭祝各位博友：新岁 [&#8230;]",
-          "pub_date": "2026-02-16T15:46:23+08:00",
-          "updated_at": "2026-02-16T15:46:47+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "Ricoh GR IV HDF",
-          "link": "https://synyan.cn/t/60491",
-          "description": "剁手 原本今年不想买设备了，但前几日不是收益还行嘛（然鹅今天大幅回撤了🤮……），手一抖买了bigfa同款GR  [&#8230;]",
-          "pub_date": "2026-01-30T08:28:44+08:00",
-          "updated_at": "2026-02-16T06:55:04+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "聚合两个站点的Atom后续",
-          "link": "https://synyan.cn/t/60613",
-          "description": "由于缓存问题，聚合不能及时更新，依旧恢复到原来的两个Atom： 旅行漫记：https://synyan.cn/ [&#8230;]",
-          "pub_date": "2026-02-13T13:07:48+08:00",
-          "updated_at": "2026-02-15T11:37:09+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "放假了暨情人节闲逛",
-          "link": "https://synyan.cn/t/60619",
-          "description": "今天是个好日子，因为中午就提前放假了，加上后面9天假期，这个春节倍儿爽。 由于昨天提前聚了，今年办公室聚餐就没 [&#8230;]",
-          "pub_date": "2026-02-14T14:42:59+08:00",
-          "updated_at": "2026-02-15T07:30:28+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "初尝全景相机：Insta360 X5",
-          "link": "https://synyan.cn/t/60582",
-          "description": "剁手 曾经，喜欢拍摄静态照片的我是不需要全景相机这种视频设备的。当然，十多年来也曾有几次不成功的尝试，分别是小 [&#8230;]",
-          "pub_date": "2026-02-13T09:40:32+08:00",
-          "updated_at": "2026-02-13T13:14:25+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "30 Minutes to Decide：Tesla Model Y",
-          "link": "https://synyan.cn/t/60533",
-          "description": "ld的马六已经开了十五年，虽然继续开完全没问题，但毕竟已过了报废年限，残值还不如一部iPhone，而2026年 [&#8230;]",
-          "pub_date": "2026-02-07T14:13:32+08:00",
-          "updated_at": "2026-02-11T13:42:41+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "出售Canon PowerShot G5 X Mark II",
-          "link": "https://synyan.cn/t/60470",
-          "description": "在转让平台发了个帖子： 另：本博读者可再获¥400折扣。 2026年2月4日 昨晚成功售出，今日到账¥5680 [&#8230;]",
-          "pub_date": "2026-01-27T15:04:12+08:00",
-          "updated_at": "2026-02-03T17:25:51+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "快速步入菌锅主义",
-          "link": "https://synyan.cn/t/60523",
-          "description": "周六国际贵金属快速下跌，短视频平台一众要求美军迅速在开盘日前对伊开火的期股民，一如战前强烈要求释放国内压力的轴 [&#8230;]",
-          "pub_date": "2026-01-31T10:19:05+08:00",
-          "updated_at": "2026-01-31T10:19:06+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "COMEX或在3月出现白银实物交割违约",
-          "link": "https://synyan.cn/t/60486",
-          "description": "贵金属市场正面临一场潜在的交割危机。 资深贵金属分析师Bill Holter最新警告称，纽约商品交易所（COM [&#8230;]",
-          "pub_date": "2026-01-29T14:50:38+08:00",
-          "updated_at": "2026-01-29T14:50:39+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "西水东",
-          "link": "https://synyan.cn/t/60415",
-          "description": "有一阵没去了，随手拍了几张。 关闭的Maan Coffee，属于是回忆杀了。",
-          "pub_date": "2026-01-25T02:32:07+08:00",
-          "updated_at": "2026-01-25T06:57:59+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        }
-      ]
     }
   ],
   "all_posts": [
+    {
+      "title": "新一年，换个主题",
+      "link": "https://chrison.cn/live/349.html",
+      "description": "年纪越大，越喜欢简约点的主题了~哈哈哈😁",
+      "pub_date": "2026-02-26T08:35:18+08:00",
+      "updated_at": "2026-02-26T08:35:18+08:00",
+      "author": "Chrison",
+      "site_name": "目的地-Destination",
+      "site_url": "https://chrison.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+    },
     {
       "title": "我的电脑",
       "link": "https://wuziya.com/297.html",
@@ -4611,17 +4504,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
     },
     {
-      "title": "松声｜廿六年·二月中·迎新春",
-      "link": "https://xyzbz.cn/archives/1515/",
-      "description": "表演大宝舞蹈学校汇演，单人四百，去市里面参加比赛，大宝兴致高昂，便报名参加了，这个年纪正是孩子培养兴趣的时候，作为老父亲没必要阻拦，节目开始前进入的直播间，录屏，一眼见娃，整体表现还不错，动作什...",
-      "pub_date": "2026-02-16T13:54:00+08:00",
-      "updated_at": "2026-02-16T13:54:00+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
       "title": "Ricoh GR IV HDF",
       "link": "https://synyan.cn/t/60491",
       "description": "剁手 原本今年不想买设备了，但前几日不是收益还行嘛（然鹅今天大幅回撤了🤮……），手一抖买了bigfa同款GR  [&#8230;]",
@@ -4730,17 +4612,6 @@
       "site_name": "安静角落",
       "site_url": "https://wuziya.com/",
       "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-    },
-    {
-      "title": "斐讯N1安装飞牛OS",
-      "link": "https://xyzbz.cn/archives/1513/",
-      "description": "飞牛公测仅做通知哈！.下载地址：教程整体能用，8G版本的不推荐，毕竟N1的USB口是2.0的，我的是128G，优点是基本上具备了NAS以及Docker的全功能，缺点是运存太小了，只有2G，如果存...",
-      "pub_date": "2026-02-12T05:28:00+08:00",
-      "updated_at": "2026-02-12T05:28:00+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
     },
     {
       "title": "适马16-30mm镜头试拍",
@@ -5040,17 +4911,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
     },
     {
-      "title": "松声｜廿六年·一月暮·岁灯残",
-      "link": "https://xyzbz.cn/archives/1509/",
-      "description": "充电老电车的痛点，离得最近的慢充桩就剩一个了，一公里内原本有六个慢充桩，结果设备升级，全部停了，剩下最近的一个充电站离我1.5公里，天气暖和的时候还好，这大雪天的，刮着寒风，就为了给车充电，冻得...",
-      "pub_date": "2026-01-30T14:32:00+08:00",
-      "updated_at": "2026-01-30T14:32:00+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
       "title": "COMEX或在3月出现白银实物交割违约",
       "link": "https://synyan.cn/t/60486",
       "description": "贵金属市场正面临一场潜在的交割危机。 资深贵金属分析师Bill Holter最新警告称，纽约商品交易所（COM [&#8230;]",
@@ -5271,17 +5131,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
     },
     {
-      "title": "松声｜廿六年·雪后早上",
-      "link": "https://xyzbz.cn/archives/1506/",
-      "description": "少有的大夜班，凌晨的寒风贴脸，一碗胡辣汤暖去身上的寒气。[photos][/photos]*大雪，有个在湿地公园的定期风景，犹豫了好久要不要回去拍一张，ld说替我去拍，天气太冷，不舍，睡醒后开着...",
-      "pub_date": "2026-01-23T16:48:57+08:00",
-      "updated_at": "2026-01-23T16:48:57+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
       "title": "小米的”星号”艺术!",
       "link": "https://blog.ouxiaopi.com/1734.html",
       "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
@@ -5313,17 +5162,6 @@
       "site_name": "旅行漫记",
       "site_url": "https://synyan.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-    },
-    {
-      "title": "给兰空图床增加一个机器人登录提醒",
-      "link": "https://xyzbz.cn/archives/1504/",
-      "description": "无聊的功能之一，有需要的可以尝试一下，豆包帮忙写的，登录会触发机器人推送消息。1、增加注册事件与监听器路径/app/Providers/EventServiceProvider.php&lt;?...",
-      "pub_date": "2026-01-22T17:18:00+08:00",
-      "updated_at": "2026-01-22T17:18:00+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
     },
     {
       "title": "两件数码好物",
@@ -5489,17 +5327,6 @@
       "site_name": "Jame",
       "site_url": "https://jame.work",
       "avatar": "https://cdn.xiaoten.com/friends/jame.ico"
-    },
-    {
-      "title": "松声｜廿六年·一月初·雪叩窗",
-      "link": "https://xyzbz.cn/archives/1496/",
-      "description": "更新计划月初着手规划站点的新年更新计划，核心卡在标题格式，接连几天的头脑风暴，始终不满意，把想法告诉AI，首先舍弃农历记法的，经过一番为难，发现似乎也并非完全不可用，去粗取精，保证月份的准确性就...",
-      "pub_date": "2026-01-16T05:17:35+08:00",
-      "updated_at": "2026-01-16T05:17:35+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
     },
     {
       "title": "我们的认知可能被裹挟了",
@@ -5799,28 +5626,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
     },
     {
-      "title": "2025年终回顾",
-      "link": "https://xyzbz.cn/archives/1491/",
-      "description": "年度碎碎念时光荏苒，岁月如梭，是真的如梭！时间线还没到2026年，佬们就开始写年终总结了，原本想着慢悠悠打磨、随性记录的心思，终究抵不过这股 “内卷” 热潮。看着RSS里面日渐增加的年终关键词，...",
-      "pub_date": "2026-01-03T10:15:00+08:00",
-      "updated_at": "2026-01-03T10:15:00+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
-      "title": "2026元旦初雪",
-      "link": "https://xyzbz.cn/archives/1489/",
-      "description": "2026年元旦下了一夜的大雪，瑞雪兆丰年，祝各位元旦快乐！[photos][/photos][photos][/photos][photos][/photos][photos][/photos]",
-      "pub_date": "2026-01-01T07:19:00+08:00",
-      "updated_at": "2026-01-01T07:19:00+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
       "title": "2026 万事皆可期",
       "link": "https://yayu.net/6081.html",
       "description": "祝大家心有所悦，业有所成，万事皆可期！愿你如翠柏般舒展，怀拥蓝天的开阔；似小花般明媚，攒满日常的欢喜；随蕨叶沐光，把每段时光都过成暖色调的诗。",
@@ -5986,17 +5791,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
     },
     {
-      "title": "乙巳蛇年-十二月末",
-      "link": "https://xyzbz.cn/archives/1488/",
-      "description": "飞牛Arm前几天看到熊猫群里有人发布的截图，飞牛的Arm版本发布了内侧招募，招募设备包括OEC/T和斐讯N1，OEC带sata盘位的那个设备还是挺吸引人的，但是自从放弃了ARM架构的设备之后就没...",
-      "pub_date": "2025-12-30T05:02:35+08:00",
-      "updated_at": "2025-12-30T05:02:35+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
       "title": "体面式掠夺",
       "link": "https://wang618.cn/ti-mian-shi-lve-duo.html",
       "description": "<p>世间愈显魔幻，巧取豪夺偏装成“附赠好物”的体面。两斤榨菜八百八十八，一颗白菜一百八十八，一碗泡面一百一十八，荒诞到失语。是商家疯了，还是我与世道脱了轨？罢了，买不起，是我的错，我的错！</p>\n<p><img alt=\"体面式掠夺1.webp\" src=\"https://wang618.cn/content/uploadfile/202512/f1ad1767016217.webp\" /><br />\n<img alt=\"体面式掠夺2.webp\" src=\"https://wang618.cn/content/uploadfile/202512/ca9c1767016217.webp\" /><br />\n<img alt=\"体面式掠夺3.webp\" src=\"https://wang618.cn/content/uploadfile/202512/7c8e1767016218.webp\" /></p>",
@@ -6138,17 +5932,6 @@
       "site_name": "雅余",
       "site_url": "https://yayu.net/",
       "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-    },
-    {
-      "title": "Docker部署简单网页分析工具GoatCounter",
-      "link": "https://xyzbz.cn/archives/1485/",
-      "description": "起因万般缘由皆是Umami更新失败，导致我自己摧毁了容器，原不是Mysql，本身就是pg数据库，更新还是出问题了，经博友指点可能是镜像源的问题，仔细回想，当时从美西机子导出镜像的时候并没有pg后...",
-      "pub_date": "2025-12-23T13:31:55+08:00",
-      "updated_at": "2025-12-23T13:31:55+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
     },
     {
       "title": "Photosuite：一个为博客而生的图片处理方案",
@@ -7792,7 +7575,7 @@
     {
       "title": "像猫一样的风",
       "link": "https://jame.work/html/post/30",
-      "description": "<h1>像猫一样的风</h1>\n<p>老李，安徽宿州人，如果还活着的话，今年算来应该已经83了。</p>\n<p>他有两个女儿，小女儿嫁到了上海，大女儿嫁到了县里，后来也跟着出去了。他老伴六十多去世了，好像是肠癌，老伴去世的那天他谁都没通知，两个女儿也没有，他从醒来就坐在床头看着，一句话都没说，一滴泪也没流，只是看着，一直从白天坐到黑夜，直到听见村里鸡叫。</p>\n<p>第二天晚上两个女儿回来了，趴在床前哭得一塌糊涂，但老李还是一句话都没说，一滴泪都没流。后面就是丧葬，要拉去火化时，老李开口说话了：“明天吧，等明天。”等到了明天，老李又说：“明天吧，等明天。”又等到明天，老李又说等明天，屋里已经有味了，村长劝了半天老李，才终于同意拉去火化了。</p>\n<p>下葬时，两个女儿站旁边抹眼泪，老李还是一滴泪没流，几个亲戚抬着棺材正要下葬，老李突然扒住棺材哭了起来，哭的伤心欲绝，大伙只好先把棺材放到地上，谁知老李最后竟然哭晕了过去。</p>\n<p>这事办完后，该散的人都散了，两个女儿待了一段时间也走了，院子里出现了从未有过的冷清。</p>\n<p>老李不缺钱花，也花不了什么钱，地大多都租出去了，留了两亩种点菜足够自己吃。自从老伴去世后，他就经常往地头跑，一坐就是半天，直到傍晚，才踩着黄昏回来。</p>\n<br />\n<p>小孙女上初中了，听到同学家里养了只猫，她也闹着要养，后来去市场买了一只，谁知道那只猫怀孕了，眼看着肚子越来越大，最后下了三个崽，给她妈妈愁坏了，一只给了同学，还有两只寄回了家里。</p>\n<p>但老李不喜欢猫，现在地都租出去了，不用屯粮食防老鼠，养着没用。老李骑着电三轮从镇上回来时，除了两袋红枣和一包熏肉外，还有一个箱子，箱子里跟了一路的喵喵叫。回到家老李拆开箱子把俩猫放了出来，就去洗手做饭了。</p>\n<p>吃饭时小女儿打来电话，“爸，东西都收到了吗？”</p>\n<p>“收到了收到了。”</p>\n<p>“熏肉还有两包枣是吧？”</p>\n<p>“嗯，都在。”</p>\n<p>“我跟你说熏肉咋吃，你就炒菜的时候切点，熏肉咸，你少放点盐。还有那个红枣补血的，你不是老有点贫血吗？你烧饭的时候就放点红枣……”</p>\n<p>小女儿絮絮叨叨的把老李的生活起居问了个遍，老李静静地听着，回应几声，直到脚下有只小猫趴在裤腿上喵喵叫，老李甩开小猫，朝电话那头问道：“你说你还给我整俩猫干啥，现在又不用捉耗子。”</p>\n<p>“刘欣说她同学家都有猫，她也非要买一只，那猫下了三个崽，我家哪能养过来，寄给你两只你留着当个伴呗，家里也有点生气。”</p>\n<p>之后又问到老李需要点啥，说要给寄点干果，老李推脱着说不用不用，又问到身体如何，话题又扯到让老李怎么保养身体，老李边吃饭边听着，俩猫在院里撒欢。</p>\n<p>吃完饭老李从橱柜下翻出一个带豁口的碟子，把剩的饭倒在里面，招呼两个小猫过来吃饭。</p>\n<p>这两只猫就是这样来到老李家的，起初老李觉得这俩猫吃白食，敞开大门想着爱跑谁家去跑谁家去，小猫本就天性好奇，看见老李开了大门就跑了出去，老李赶紧关上了门。没曾想到吃饭时，那俩猫顺着墙边的树又爬了进来，老李哭笑不得：“这俩猫不傻，知道这有吃的。”</p>\n<p>往后老李也不是自己独自吃饭了，总是有两只猫在桌下陪着他，时间长了，有时老李做饭，也会想着这俩猫吃些什么，时不时整点肉，鱼虾之类的，猫吃不了多少，剩点都够喂猫。这样说来也好笑，要是就老李一个人，他觉得吃啥都一样，因为俩猫的原因，老李的伙食反而变好了。</p>\n<p>堂屋门口竖着根竹竿，杆头拴了布条，有时老李就在院子里逗猫，俩猫玩累了，就过来蹭蹭老李。冬天的时候躺在院里晒太阳，那俩猫就往身上爬，它们一爬老李就赶它们，过了几次猫不爬了。老李看着猫趴地上，起身回屋里找了个纸箱垫点旧衣服摆在旁边，猫就趴在了纸箱里。有天老李像往常一样晒太阳，看见俩猫在旁边，拎起来掸掸灰放到怀里，猫的体温加上太阳晒的温度，像一个热水袋一样，老李就搂着猫在午后的太阳下睡去。</p>\n<br />\n<p>过年后俩女儿带着一大家子来走亲戚，家里也热闹了起来，几个孩子在院里疯玩，一个劲要爬那颗梧桐树，大女儿给训了一顿后几个小孩哭哭啼啼的坐在院子里生闷气。</p>\n<p>吃饭时，小女婿半开玩笑似的说：“爸，你这平时一个人在家多孤单，不如再找个老伴吧。”</p>\n<p>“孤单啥，这不还有俩活物呢。”老李指了指那俩猫。</p>\n<p>“猫和人能一样吗？我说真的，你要愿意的话我给你攒攒。”</p>\n<p>老李尴尬笑了笑没说话，小女儿拍了一下女婿：“瞎胡闹。”</p>\n<p>老李想吗？他不仅想，还想过，有时候起夜回到被窝里睡不着，就想过这事。但也想过自己快没几年了，何必再折腾呢，并且也觉得这样有点丢人。</p>\n<br />\n<p>时间晃得飞快，当年几个坐在树下哭啼啼生闷气的小孩，一个个都比这个老头子高了，比他们爸妈高了，而这个老头子却越来越矮了。</p>\n<p>老李每次过年，都会有两次觉得孤独，一次是女儿带着家人来的时候，一次是走的时候。</p>\n<p>过年时他坐在堂屋门口，看着院子里孩子大人嬉闹欢笑，总感觉自己这个黄土已经埋到鼻子的人和他们已经是两个世界的人了，吃饭时一家子围在一起，其乐融融多热闹，可老李的心里总感觉空落落的，感觉自己好像是个摆件，一群人围着自己，反而比自己一个人的时候还孤单。</p>\n<p>还有就是临走的时候，他拽着两个女儿的手想再多说几句话，但始终不知道说什么，他拎着已经放下的礼品往车上送：“留这么多我又吃不完，最后都放坏了。”两家又给拎回去：“留着慢慢吃吧。”几个来回后，才慢慢平静下来，听着俩女儿说着保重身体之类的话时，他回应着嗯、嗯、嗯。而车上的小孩子，等得已经有些不耐烦了：“半天了怎么还不走啊？”这些不耐烦的小孩，或许要等到很久很久以后才会明白，在记忆中那个矮小的外公，除了真的不爱喝牛奶，吃不完这么多肉之外，更多的是想要留下他们再多待一会。</p>\n<br />\n<p>初春，老李照旧躺在那把扶手被磨得锃光瓦亮的躺椅上，那两只猫也老了，或许比老李还老，老李弯腰轻轻抱起一只老猫，仔细看了看，它呼吸迟缓，眼中浑浊，完全看不出刚来到这个院子时活泼的影子，老李这次没有掸灰，轻轻放到了怀里，和猫一起睡了过去。</p>\n<p>太阳歪了下去，老李醒了，做了一个已经做过无数次的动作：摸了摸怀里的这只猫，但猫并没有像以往无数次那样发出呼噜呼噜的呼吸或者弓起身伸个懒腰，老李坐起身子看了看，它已经死了。又连忙转身摸了下纸壳里的那只，还活着。</p>\n<p>老李在梧桐树下挖了个坑，土冻得很硬，铁锹铲不动，用锄头废了不少劲才把猫埋了起来。</p>\n<br />\n<p>五月份的时候，另一只猫不知道跑哪去了，好几天没见到。</p>\n<p>那天老李上镇上买菜，卖肉的李响见到了老李，热情地打招呼，朝他喊了几遍老李才听到。</p>\n<p>“大爷，来两斤肉？鲜的很！早上我刚拉来的，你摸摸里面还热乎呢！”</p>\n<p>“我一个人吃不了多少。”老李说。</p>\n<p>“你来两斤，一顿放点两天也就吃完啦！”李响拍拍猪皮笑呵呵地说到。</p>\n<p>“那来两斤吧。”</p>\n<p>三下五除二的切完装袋后，递给老李，问到：“大爷你都那么大年纪了，闺女也没说把你接过去享福啊？”</p>\n<p>“唉，享啥福啊，在城里呆不惯，受罪。”</p>\n<p>“那也比在家里好啊，你说你一个人，连个说话的都没有。”</p>\n<p>“在家自在，能出门走走。在城里都不能出门啊，出去了都找不到家。”</p>\n<p>俩人闲聊着，集市上慢慢也开始上人了，后来老李说到他的猫丢了，李响说：“我早上还看见一只猫搁村头沟里呢！看着像你家猫。”</p>\n<p>“噢，是吗，你说咋能掉沟里呢？”</p>\n<p>旁边买肉的大娘搭话：“说不定它想逮鱼呢！”</p>\n<p>李响和大娘都乐了，老李也跟着笑了笑。</p>\n<br />\n<p>老李从集市出来，没有回家，他径直朝着村头走去。</p>\n<p>沟里确实有只猫，也确实是他的猫，他要去借把抄网，旁边的住户一听原因，主动帮他捞上来了。</p>\n<p>“哎呀，你的猫咋跑这来了……”</p>\n<p>“这猫就好瞎跑。”</p>\n<p>“哎呀，哎呀……你说说这事。我给你拿个袋子装上吧。”</p>\n<br />\n<p>老李回到家时，手里提着除了刚买的菜以外，还有一只装着猫的红色塑料袋。他把这只猫埋在了另一棵梧桐树下。</p>\n<p>老李中午没吃饭，晚上也没吃饭，等到第二天早上还没吃饭，他很难过，但眼泪早就流干了。</p>\n<p>老李坐在堂屋椅子上，堂屋门开着，屋里阴暗，屋外明亮，院里新生的翠绿覆盖了寒冬的黯黄。老李从桌下的箱子里翻出一捆绳子，绑在了房梁上，又搬来凳子，摆在堂屋门口，艰难地爬了上去。</p>\n<p>光是这些动作就已经累得气喘吁吁，老李目光扫过院内，一切寂静又丰饶。一股风吹了过来，那风就像他养的猫一样，从墙头一跃而下，刺溜一下钻进堂屋。他闻到了那只猫所经过的地方：跑过村南头的小麦田，沾了一身晨露和麦香，抖抖身子又跑到果园里溜达，爬到树上用爪子扒拉刚刚成型的小苹果，感到饿了便一溜烟跑回家，从墙头飞了进来。</p>\n<p>老李觉得这股风和这辈子吹过的风都不一样，很柔，像猫一样柔，像清酒，或者已经泡过几壶的浓茶，吹得人浑身舒服，骨头都跟着酥了。他正踩在椅子上高举双手抓着绳子，看着院里两棵梧桐树，“变了变了。”他嘀咕着，当嫩绿的树叶还在树上喧嚣时，他就已经听到了枯叶被扫帚一下下扫过的声音。待了几十年的院子一下子变了，仿佛置身在了远山的寺庙中，他从梧桐树身上再也感受不到孤独和凄凉，一切寂静都变成了宁静，有一种说不清的禅意。</p>\n<br />\n<p>上午的阳光正媚，一个小老头正站在堂屋正门的椅子上愣神，没人知道他从什么时候站上去的又要站到多久。当那股像猫一样的风像猫一样离开时，院子里的树叶也跟着簌簌作响，就如同它来的时候一样。</p>",
+      "description": "<h1>像猫一样的风</h1>\n<p>老李，安徽宿州人，如果还活着的话，今年算来应该已经83了。</p>\n<p>他有两个女儿，小女儿嫁到了上海，大女儿嫁到了县里，后来也跟着出去了。他老伴六十多去世了，好像是肠癌，老伴去世的那天他谁都没通知，两个女儿也没有，他从醒来就坐在床头看着，一句话都没说，一滴泪也没流，只是看着，一直从白天坐到黑夜，直到听见村里鸡叫。</p>\n<p>第二天晚上两个女儿回来了，趴在床前哭得一塌糊涂，但老李还是一句话都没说，一滴泪都没流。后面就是丧葬，要拉去火化时，老李开口说话了：“明天吧，等明天。”等到了明天，老李又说：“明天吧，等明天。”又等到明天，老李又说等明天，屋里已经有味了，村长劝了半天老李，才终于同意拉去火化了。</p>\n<p>下葬时，两个女儿站旁边抹眼泪，老李还是一滴泪没流，几个亲戚抬着棺材正要下葬，老李突然扒住棺材哭了起来，哭的伤心欲绝，大伙只好先把棺材放到地上，谁知老李最后竟然哭晕了过去。</p>\n<p>这事办完后，该散的人都散了，两个女儿待了一段时间也走了，院子里出现了从未有过的冷清。</p>\n<p>老李不缺钱花，也花不了什么钱，地大多都租出去了，留了两亩种点菜足够自己吃。自从老伴去世后，他就经常往地头跑，一坐就是半天，直到傍晚，才踩着黄昏回来。</p>\n<br />\n<p>小孙女上初中了，听到同学家里养了只猫，她也闹着要养，后来去市场买了一只，谁知道那只猫怀孕了，眼看着肚子越来越大，最后下了三个崽，给她妈妈愁坏了，一只给了同学，还有两只寄回了家里。</p>\n<p>但老李不喜欢猫，现在地都租出去了，不用屯粮食防老鼠，养着没用。老李骑着电三轮从镇上回来时，除了两袋红枣和一包熏肉外，还有一个箱子，箱子里跟了一路的喵喵叫。回到家老李拆开箱子把俩猫放了出来，就去洗手做饭了。</p>\n<p>吃饭时小女儿打来电话，“爸，东西都收到了吗？”</p>\n<p>“收到了收到了。”</p>\n<p>“熏肉还有两包枣是吧？”</p>\n<p>“嗯，都在。”</p>\n<p>“我跟你说熏肉咋吃，你就炒菜的时候切点，熏肉咸，你少放点盐。还有那个红枣补血的，你不是老有点贫血吗？你烧饭的时候就放点红枣……”</p>\n<p>小女儿絮絮叨叨的把老李的生活起居问了个遍，老李静静地听着，回应几声，直到脚下有只小猫趴在裤腿上喵喵叫，老李甩开小猫，朝电话那头问道：“你说你还给我整俩猫干啥，现在又不用捉耗子。”</p>\n<p>“刘欣说她同学家都有猫，她也非要买一只，那猫下了三个崽，我家哪能养过来，寄给你两只你留着当个伴呗，家里也有点生气。”</p>\n<p>之后又问到老李需要点啥，说要给寄点干果，老李推脱着说不用不用，又问到身体如何，话题又扯到让老李怎么保养身体，老李边吃饭边听着，俩猫在院里撒欢。</p>\n<p>吃完饭老李从橱柜下翻出一个带豁口的碟子，把剩的饭倒在里面，招呼两个小猫过来吃饭。</p>\n<p>这两只猫就是这样来到老李家的，起初老李觉得这俩猫吃白食，敞开大门想着爱跑谁家去跑谁家去，小猫本就天性好奇，看见老李开了大门就跑了出去，老李赶紧关上了门。没曾想到吃饭时，那俩猫顺着墙边的树又爬了进来，老李哭笑不得：“这俩猫不傻，知道这有吃的。”</p>\n<p>往后老李也不是自己独自吃饭了，总是有两只猫在桌下陪着他，时间长了，有时老李做饭，也会想着这俩猫吃些什么，时不时整点肉，鱼虾之类的，猫吃不了多少，剩点都够喂猫。这样说来也好笑，要是就老李一个人，他觉得吃啥都一样，因为俩猫的原因，老李的伙食反而变好了。</p>\n<p>堂屋门口竖着根竹竿，杆头拴了布条，有时老李就在院子里逗猫，俩猫玩累了，就过来蹭蹭老李。冬天的时候躺在院里晒太阳，那俩猫就往身上爬，它们一爬老李就赶它们，过了几次猫不爬了。老李看着猫趴地上，起身回屋里找了个纸箱垫点旧衣服摆在旁边，猫就趴在了纸箱里。有天老李像往常一样晒太阳，看见俩猫在旁边，拎起来掸掸灰放到怀里，猫的体温加上太阳晒的温度，像一个热水袋一样，老李就搂着猫在午后的太阳下睡去。</p>\n<br />\n<p>过年后俩女儿带着一大家子来走亲戚，家里也热闹了起来，几个孩子在院里疯玩，一个劲要爬那颗梧桐树，大女儿给训了一顿后几个小孩哭哭啼啼的坐在院子里生闷气。</p>\n<p>吃饭时，小女婿半开玩笑似的说：“爸，你这平时一个人在家多孤单，不如再找个老伴吧。”</p>\n<p>“孤单啥，这不还有俩活物呢。”老李指了指那俩猫。</p>\n<p>“猫和人能一样吗？我说真的，你要愿意的话我给你攒攒。”</p>\n<p>老李尴尬笑了笑没说话，小女儿拍了一下女婿：“瞎胡闹。”</p>\n<p>老李想吗？他不仅想，还想过，有时候起夜回到被窝里睡不着，就想过这事。但也想过自己快没几年了，何必再折腾呢，并且也觉得这样有点丢人。</p>\n<br />\n<p>时间晃得飞快，当年几个坐在树下哭啼啼生闷气的小孩，一个个都比这个老头子高了，比他们爸妈高了，而这个老头子却越来越矮了。</p>\n<p>老李每次过年，都会有两次觉得孤独，一次是女儿带着家人来的时候，一次是走的时候。</p>\n<p>过年时他坐在堂屋门口，看着院子里孩子大人嬉闹欢笑，总感觉自己这个黄土已经埋到鼻子的人和他们已经是两个世界的人了，吃饭时一家子围在一起，其乐融融多热闹，可老李的心里总感觉空落落的，感觉自己好像是个摆件，一群人围着自己，反而比自己一个人的时候还孤单。</p>\n<p>还有就是临走的时候，他拽着两个女儿的手想再多说几句话，但始终不知道说什么，他拎着已经放下的礼品往车上送：“留这么多我又吃不完，最后都放坏了。”两家又给拎回去：“留着慢慢吃吧。”几个来回后，才慢慢平静下来，听着俩女儿说着保重身体之类的话时，他回应着嗯、嗯、嗯。而车上的小孩子，等得已经有些不耐烦了：“半天了怎么还不走啊？”这些不耐烦的小孩，或许要等到很久很久以后才会明白，在记忆中那个矮小的外公，除了真的不爱喝牛奶，吃不完这么多肉之外，更多的是想要留下他们再多待一会。</p>\n<br />\n<p>初春，老李照旧躺在那把扶手被磨得锃光瓦亮的躺椅上，那两只猫也老了，或许比老李还老，老李弯腰轻轻抱起一只老猫，仔细看了看，它呼吸迟缓，眼中浑浊，完全看不出刚来到这个院子时活泼的影子，老李这次没有掸灰，轻轻放到了怀里，和猫一起睡了过去。</p>\n<p>太阳歪了下去，老李醒了，做了一个已经做过无数次的动作：摸了摸怀里的这只猫，但猫并没有像以往无数次那样发出呼噜呼噜的呼吸或者弓起身伸个懒腰，老李坐起身子看了看，它已经死了。又连忙转身摸了下纸壳里的那只，还活着。</p>\n<p>老李在梧桐树下挖了个坑，土冻得很硬，铁锹铲不动，用锄头废了不少劲才把猫埋了起来。</p>\n<br />\n<p>五月份的时候，另一只猫不知道跑哪去了，好几天没见到。</p>\n<p>那天老李上镇上买菜，卖肉的李响见到了老李，热情地打招呼，朝他喊了几遍老李才听到。</p>\n<p>“大爷，来两斤肉？鲜的很！早上我刚拉来的，你摸摸里面还热乎呢！”</p>\n<p>“我一个人吃不了多少。”老李说。</p>\n<p>“你来两斤，一顿放点两天也就吃完啦！”李响拍拍猪皮笑呵呵地说到。</p>\n<p>“那来两斤吧。”</p>\n<p>三下五除二的切完装袋后，递给老李，问到：“大爷你都那么大年纪了，闺女也没说把你接过去享福啊？”</p>\n<p>“唉，享啥福啊，在城里呆不惯，受罪。”</p>\n<p>“那也比在家里好啊，你说你一个人，连个说话的都没有。”</p>\n<p>“在家自在，能出门走走。在城里都不能出门啊，出去了都找不到家。”</p>\n<p>俩人闲聊着，集市上慢慢也开始上人了，后来老李说到他的猫丢了，李响说：“我早上还看见一只猫搁村头沟里呢！看着像你家猫。”</p>\n<p>“噢，是吗，你说咋能掉沟里呢？”</p>\n<p>旁边买肉的大娘搭话：“说不定它想逮鱼呢！”</p>\n<p>李响和大娘都乐了，老李也跟着笑了笑。</p>\n<br />\n<p>老李从集市出来，没有回家，他径直朝着村头走去。</p>\n<p>沟里确实有只猫，也确实是他的猫，他要去借把抄网，旁边的住户一听原因，主动帮他捞上来了。</p>\n<p>“哎呀，你的猫咋跑这来了……”</p>\n<p>“这猫就好瞎跑。”</p>\n<p>“哎呀，哎呀……你说说这事。我给你拿个袋子装上吧。”</p>\n<br />\n<p>老李回到家时，手里提着除了刚买的菜以外，还有一只装着猫的红色塑料袋。他把这只猫埋在了另一棵梧桐树下。</p>\n<p>老李中午没吃饭，晚上也没吃饭，等到第二天早上还没吃饭，他很难过，但眼泪早就流干了。</p>\n<p>老李坐在堂屋椅子上，堂屋门开着，屋里阴暗，屋外明亮，院里新生的翠绿覆盖了寒冬的黯黄。老李从桌下的箱子里翻出一捆绳子，绑在了房梁上，又搬来凳子，摆在堂屋门口，艰难地爬了上去。</p>\n<p>光是这些动作就已经累得气喘吁吁，老李目光扫过院内，一切寂静又丰饶。一股风吹了过来，那风就像他养的猫一样，从墙头一跃而下，刺溜一下钻进堂屋。他闻到了那只猫所经过的地方：跑过村南头的小麦田，沾了一身晨露和麦香，抖抖身子又跑到果园里溜达，爬到树上用爪子扒拉刚刚成型的小苹果，感到饿了便一溜烟跑回家，从墙头飞了进来。</p>\n<p>老李觉得这股风和这辈子吹过的风都不一样，很柔，像猫一样柔，像清酒，或者已经泡过几壶的浓茶，吹得人浑身舒服，骨头都跟着酥了。他正踩在椅子上高举双手抓着绳子，看着院里两棵梧桐树，“变了变了。”他嘀咕着，当嫩绿的树叶还在树上喧嚣时，他就已经听到了枯叶在地上滚动的声音。待了几十年的院子一下子变了，仿佛置身在了远山的寺庙中，从梧桐树身上也感受不到孤独和凄凉，好像一切寂静都变成了宁静，有种说不清的禅意。</p>\n<br />\n<p>上午的阳光正媚，一个小老头正站在堂屋正门的椅子上愣神，没人知道他从什么时候站上去的又要站到多久。当那股像猫一样的风像猫一样离开时，院子里的树叶也跟着簌簌作响，就如同它来的时候一样。</p>",
       "pub_date": "2025-10-24T00:00:00+08:00",
       "updated_at": "2025-10-24T00:00:00+08:00",
       "author": "Jame!",
@@ -8569,17 +8352,6 @@
       "site_name": "黑石博客",
       "site_url": "https://heson.me/",
       "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-    },
-    {
-      "title": "何为享受",
-      "link": "https://blog.lhasa.icu/posts/life/2025-08-30-what-is-enjoyment",
-      "description": "<p>在初入职场时，我以为权力带来的快感才是享受</p>\n<p>在挣到小钱时，我以为挥霍物质才是享受</p>\n<p>在野外骑行时，我以为长途跋涉、纵身山川才是享受</p>\n<p>后来，我沉迷于古典乐，才感受到，人生真正的享受，不过是此刻心中的平静</p>\n<p>&lt;iframe frameborder=\"no\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" width=298 height=52 src=\"//music.163.com/outchain/player?type=2&amp;id=2156764039&amp;auto=1&amp;height=32\"&gt;&lt;/iframe&gt;</p>\n<img alt=\"\" src=\"https://analytics.lhasa.icu/matomo.php?idsite=1&amp;rec=1&amp;action_name=%E4%BD%95%E4%B8%BA%E4%BA%AB%E5%8F%97&amp;url=https%3A%2F%2Fblog.lhasa.icu%2Fposts%2Flife%2F2025-08-30-what-is-enjoyment\" style=\"border: 0; width: 0; height: 0;\" />",
-      "pub_date": "2025-08-30T09:05:00+08:00",
-      "updated_at": "2025-08-30T09:05:00+08:00",
-      "author": "",
-      "site_name": "游钓四方",
-      "site_url": "https://blog.lhasa.icu/",
-      "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
     }
   ],
   "failed_sites": [
@@ -8612,6 +8384,12 @@
       "url": "https://www.ihewro.com",
       "feed_url": null,
       "reason": "no_feed_found"
+    },
+    {
+      "name": "网友小宋",
+      "url": "https://xyzbz.cn/",
+      "feed_url": "https://xyzbz.cn/feed",
+      "reason": "ConnectionError"
     }
   ]
 }

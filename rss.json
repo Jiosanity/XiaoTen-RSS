@@ -1,8 +1,126 @@
 {
-  "updated_at": "2026-03-30T02:12:11.747452+08:00",
+  "updated_at": "2026-03-30T08:32:29.763491+08:00",
   "total_sites": 29,
   "total_posts": 359,
   "sites": [
+    {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "无题",
+          "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
+          "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
+          "pub_date": "2026-02-28T21:03:00+08:00",
+          "updated_at": "2026-02-28T21:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "一些杂事",
+          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
+          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
+          "pub_date": "2026-01-12T23:07:00+08:00",
+          "updated_at": "2026-01-12T23:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "关于孟鲁司特钠的不良反应",
+          "link": "https://wangdaodao.com/20260105/montelukast.html",
+          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
+          "pub_date": "2026-01-05T22:54:00+08:00",
+          "updated_at": "2026-01-05T22:54:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源网易云及QQ音乐播放插件",
+          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
+          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
+          "pub_date": "2025-12-26T13:25:00+08:00",
+          "updated_at": "2025-12-26T13:25:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Typecho抖音播放器插件",
+          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
+          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
+          "pub_date": "2025-12-20T16:24:00+08:00",
+          "updated_at": "2025-12-20T16:24:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "2025年终总结",
+          "link": "https://wangdaodao.com/20251214/2025-summary.html",
+          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
+          "pub_date": "2025-12-14T13:52:00+08:00",
+          "updated_at": "2025-12-14T13:52:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho博客开启EdgeOne",
+          "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
+          "description": "其实腾讯云的边缘安全加速平台 EdgeOne 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 ...",
+          "pub_date": "2025-12-10T20:03:00+08:00",
+          "updated_at": "2025-12-10T20:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布一个Typecho AI文本润色插件",
+          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
+          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
+          "pub_date": "2025-12-06T19:44:00+08:00",
+          "updated_at": "2025-12-06T19:44:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源高德地图及规划路径短代码插件",
+          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
+          "pub_date": "2025-12-03T13:22:00+08:00",
+          "updated_at": "2025-12-03T13:22:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开始记账了",
+          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
+          "pub_date": "2025-11-28T21:38:00+08:00",
+          "updated_at": "2025-11-28T21:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        }
+      ]
+    },
     {
       "name": "Jame",
       "url": "https://jame.work",
@@ -151,124 +269,6 @@
           "site_name": "Jame",
           "site_url": "https://jame.work",
           "avatar": "https://cdn.xiaoten.com/friends/jame.ico"
-        }
-      ]
-    },
-    {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "无题",
-          "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
-          "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
-          "pub_date": "2026-02-28T21:03:00+08:00",
-          "updated_at": "2026-02-28T21:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "一些杂事",
-          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
-          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
-          "pub_date": "2026-01-12T23:07:00+08:00",
-          "updated_at": "2026-01-12T23:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "关于孟鲁司特钠的不良反应",
-          "link": "https://wangdaodao.com/20260105/montelukast.html",
-          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
-          "pub_date": "2026-01-05T22:54:00+08:00",
-          "updated_at": "2026-01-05T22:54:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源网易云及QQ音乐播放插件",
-          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
-          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
-          "pub_date": "2025-12-26T13:25:00+08:00",
-          "updated_at": "2025-12-26T13:25:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Typecho抖音播放器插件",
-          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
-          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
-          "pub_date": "2025-12-20T16:24:00+08:00",
-          "updated_at": "2025-12-20T16:24:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "2025年终总结",
-          "link": "https://wangdaodao.com/20251214/2025-summary.html",
-          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
-          "pub_date": "2025-12-14T13:52:00+08:00",
-          "updated_at": "2025-12-14T13:52:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho博客开启EdgeOne",
-          "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
-          "description": "其实腾讯云的边缘安全加速平台 EdgeOne 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 ...",
-          "pub_date": "2025-12-10T20:03:00+08:00",
-          "updated_at": "2025-12-10T20:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布一个Typecho AI文本润色插件",
-          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
-          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
-          "pub_date": "2025-12-06T19:44:00+08:00",
-          "updated_at": "2025-12-06T19:44:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源高德地图及规划路径短代码插件",
-          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
-          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
-          "pub_date": "2025-12-03T13:22:00+08:00",
-          "updated_at": "2025-12-03T13:22:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开始记账了",
-          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
-          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
-          "pub_date": "2025-11-28T21:38:00+08:00",
-          "updated_at": "2025-11-28T21:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
         }
       ]
     },
@@ -465,6 +465,124 @@
           "site_name": "黑石博客",
           "site_url": "https://heson.me/",
           "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        }
+      ]
+    },
+    {
+      "name": "网友小宋",
+      "url": "https://xyzbz.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
+      "feed_url": "https://xyzbz.cn/feed",
+      "posts": [
+        {
+          "title": "松声｜廿六年·三月花·海棠开",
+          "link": "https://xyzbz.cn/archives/1523/",
+          "description": "2026的海棠花，部分花已经盛开了。周末带着孩子一起去转转，顺便探索一下大自然。",
+          "pub_date": "2026-03-29T03:32:22+08:00",
+          "updated_at": "2026-03-29T03:32:22+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·三月中·燕衔泥",
+          "link": "https://xyzbz.cn/archives/1522/",
+          "description": "大宝看牙大宝最近老是说自己牙疼，上次回去老爸还让我去给她买牙疼药，当时是以为上火导致的，后面一直持续，直到过年走亲戚到ld家，小舅子是牙医，看了下需要治疗。这个年纪的小孩子，对看牙天生有种恐惧感...",
+          "pub_date": "2026-03-17T05:22:27+08:00",
+          "updated_at": "2026-03-17T05:22:27+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·三月初·绿皮行",
+          "link": "https://xyzbz.cn/archives/1521/",
+          "description": "楔子计划这件事情来自一个随机事件，年后休息了带大宝开车出去转转，行驶在快速路上，大宝看到京广线运行的绿皮火车说还没坐过这种火车，我说你想做火车去哪，她说郑州，我说你问问豆包阿姨，坐火车去郑州，有...",
+          "pub_date": "2026-03-05T17:12:00+08:00",
+          "updated_at": "2026-03-05T17:12:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·二月末·春衫薄",
+          "link": "https://xyzbz.cn/archives/1519/",
+          "description": "走亲戚这两年走亲戚，我其实已经有点麻木了。我妈那边的老表们，一个个都很能奋斗。前年聚在一起，和长辈告别时候甚至都聊到了社保、待遇这些话题，当时我特别尴尬。我尴尬的不是交不交社保这件事本身，而是那...",
+          "pub_date": "2026-03-01T03:40:00+08:00",
+          "updated_at": "2026-03-01T03:40:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·二月中·迎新春",
+          "link": "https://xyzbz.cn/archives/1515/",
+          "description": "表演大宝舞蹈学校汇演，单人四百，去市里面参加比赛，大宝兴致高昂，便报名参加了，这个年纪正是孩子培养兴趣的时候，作为老父亲没必要阻拦，节目开始前进入的直播间，录屏，一眼见娃，整体表现还不错，动作什...",
+          "pub_date": "2026-02-16T13:54:00+08:00",
+          "updated_at": "2026-02-16T13:54:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "斐讯N1安装飞牛OS",
+          "link": "https://xyzbz.cn/archives/1513/",
+          "description": "飞牛公测仅做通知哈！.下载地址：ARM版本之前不可以安装到emmc，只能U盘使用，公测版本已经解决了N1盒子调试成可以USB启动，刻录镜像到U盘。按照教程刷机，教程整体能用，8G版本的不推荐，毕...",
+          "pub_date": "2026-02-12T05:28:00+08:00",
+          "updated_at": "2026-02-12T05:28:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·一月暮·岁灯残",
+          "link": "https://xyzbz.cn/archives/1509/",
+          "description": "充电老电车的痛点，离得最近的慢充桩就剩一个了，一公里内原本有六个慢充桩，结果设备升级，全部停了，剩下最近的一个充电站离我1.5公里，天气暖和的时候还好，这大雪天的，刮着寒风，就为了给车充电，冻得...",
+          "pub_date": "2026-01-30T14:32:00+08:00",
+          "updated_at": "2026-01-30T14:32:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·雪后早上",
+          "link": "https://xyzbz.cn/archives/1506/",
+          "description": "少有的大夜班，凌晨的寒风贴脸，一碗胡辣汤暖去身上的寒气。[photos][/photos]*大雪，有个在湿地公园的定期风景，犹豫了好久要不要回去拍一张，ld说替我去拍，天气太冷，不舍，睡醒后开着...",
+          "pub_date": "2026-01-23T16:48:57+08:00",
+          "updated_at": "2026-01-23T16:48:57+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "给兰空图床增加一个机器人登录提醒",
+          "link": "https://xyzbz.cn/archives/1504/",
+          "description": "无聊的功能之一，有需要的可以尝试一下，豆包帮忙写的，登录会触发机器人推送消息。1、增加注册事件与监听器路径/app/Providers/EventServiceProvider.php&lt;?...",
+          "pub_date": "2026-01-22T17:18:00+08:00",
+          "updated_at": "2026-01-22T17:18:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·一月初·雪叩窗",
+          "link": "https://xyzbz.cn/archives/1496/",
+          "description": "更新计划月初着手规划站点的新年更新计划，核心卡在标题格式，接连几天的头脑风暴，始终不满意，把想法告诉AI，首先舍弃农历记法的，经过一番为难，发现似乎也并非完全不可用，去粗取精，保证月份的准确性就...",
+          "pub_date": "2026-01-16T05:17:35+08:00",
+          "updated_at": "2026-01-16T05:17:35+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
         }
       ]
     },
@@ -697,124 +815,6 @@
       ]
     },
     {
-      "name": "网友小宋",
-      "url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
-      "feed_url": "https://xyzbz.cn/feed",
-      "posts": [
-        {
-          "title": "松声｜廿六年·三月花·海棠开",
-          "link": "https://xyzbz.cn/archives/1523/",
-          "description": "2026的海棠花，部分花已经盛开了。周末带着孩子一起去转转，顺便探索一下大自然。",
-          "pub_date": "2026-03-29T03:32:22+08:00",
-          "updated_at": "2026-03-29T03:32:22+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·三月中·燕衔泥",
-          "link": "https://xyzbz.cn/archives/1522/",
-          "description": "大宝看牙大宝最近老是说自己牙疼，上次回去老爸还让我去给她买牙疼药，当时是以为上火导致的，后面一直持续，直到过年走亲戚到ld家，小舅子是牙医，看了下需要治疗。这个年纪的小孩子，对看牙天生有种恐惧感...",
-          "pub_date": "2026-03-17T05:22:27+08:00",
-          "updated_at": "2026-03-17T05:22:27+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·三月初·绿皮行",
-          "link": "https://xyzbz.cn/archives/1521/",
-          "description": "楔子计划这件事情来自一个随机事件，年后休息了带大宝开车出去转转，行驶在快速路上，大宝看到京广线运行的绿皮火车说还没坐过这种火车，我说你想做火车去哪，她说郑州，我说你问问豆包阿姨，坐火车去郑州，有...",
-          "pub_date": "2026-03-05T17:12:00+08:00",
-          "updated_at": "2026-03-05T17:12:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·二月末·春衫薄",
-          "link": "https://xyzbz.cn/archives/1519/",
-          "description": "走亲戚这两年走亲戚，我其实已经有点麻木了。我妈那边的老表们，一个个都很能奋斗。前年聚在一起，和长辈告别时候甚至都聊到了社保、待遇这些话题，当时我特别尴尬。我尴尬的不是交不交社保这件事本身，而是那...",
-          "pub_date": "2026-03-01T03:40:00+08:00",
-          "updated_at": "2026-03-01T03:40:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·二月中·迎新春",
-          "link": "https://xyzbz.cn/archives/1515/",
-          "description": "表演大宝舞蹈学校汇演，单人四百，去市里面参加比赛，大宝兴致高昂，便报名参加了，这个年纪正是孩子培养兴趣的时候，作为老父亲没必要阻拦，节目开始前进入的直播间，录屏，一眼见娃，整体表现还不错，动作什...",
-          "pub_date": "2026-02-16T13:54:00+08:00",
-          "updated_at": "2026-02-16T13:54:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "斐讯N1安装飞牛OS",
-          "link": "https://xyzbz.cn/archives/1513/",
-          "description": "飞牛公测仅做通知哈！.下载地址：ARM版本之前不可以安装到emmc，只能U盘使用，公测版本已经解决了N1盒子调试成可以USB启动，刻录镜像到U盘。按照教程刷机，教程整体能用，8G版本的不推荐，毕...",
-          "pub_date": "2026-02-12T05:28:00+08:00",
-          "updated_at": "2026-02-12T05:28:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·一月暮·岁灯残",
-          "link": "https://xyzbz.cn/archives/1509/",
-          "description": "充电老电车的痛点，离得最近的慢充桩就剩一个了，一公里内原本有六个慢充桩，结果设备升级，全部停了，剩下最近的一个充电站离我1.5公里，天气暖和的时候还好，这大雪天的，刮着寒风，就为了给车充电，冻得...",
-          "pub_date": "2026-01-30T14:32:00+08:00",
-          "updated_at": "2026-01-30T14:32:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·雪后早上",
-          "link": "https://xyzbz.cn/archives/1506/",
-          "description": "少有的大夜班，凌晨的寒风贴脸，一碗胡辣汤暖去身上的寒气。[photos][/photos]*大雪，有个在湿地公园的定期风景，犹豫了好久要不要回去拍一张，ld说替我去拍，天气太冷，不舍，睡醒后开着...",
-          "pub_date": "2026-01-23T16:48:57+08:00",
-          "updated_at": "2026-01-23T16:48:57+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "给兰空图床增加一个机器人登录提醒",
-          "link": "https://xyzbz.cn/archives/1504/",
-          "description": "无聊的功能之一，有需要的可以尝试一下，豆包帮忙写的，登录会触发机器人推送消息。1、增加注册事件与监听器路径/app/Providers/EventServiceProvider.php&lt;?...",
-          "pub_date": "2026-01-22T17:18:00+08:00",
-          "updated_at": "2026-01-22T17:18:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·一月初·雪叩窗",
-          "link": "https://xyzbz.cn/archives/1496/",
-          "description": "更新计划月初着手规划站点的新年更新计划，核心卡在标题格式，接连几天的头脑风暴，始终不满意，把想法告诉AI，首先舍弃农历记法的，经过一番为难，发现似乎也并非完全不可用，去粗取精，保证月份的准确性就...",
-          "pub_date": "2026-01-16T05:17:35+08:00",
-          "updated_at": "2026-01-16T05:17:35+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        }
-      ]
-    },
-    {
       "name": "故事的程序猿",
       "url": "https://blog.lichenghao.cn",
       "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg",
@@ -929,234 +929,6 @@
           "site_name": "故事的程序猿",
           "site_url": "https://blog.lichenghao.cn",
           "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
-        }
-      ]
-    },
-    {
-      "name": "旺东自留地",
-      "url": "https://wang618.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/wang618.gif",
-      "feed_url": "https://wang618.cn/rss.php",
-      "posts": [
-        {
-          "title": "巧妙的改装",
-          "link": "https://wang618.cn/qiao-miao-de-gai-zhuang.html",
-          "description": "<p>把之前打印的羽绒服笔筒稍加改造，秒变趣味十足的时钟摆件。支持 WiFi 同步时间与天气，去掉天线后还自带快充接口，创意与实用兼备。<br />\n<img alt=\"羽绒服时钟01.webp\" src=\"https://wang618.cn/content/uploadfile/202603/ee661774785155.webp\" /><br />\n<img alt=\"羽绒服时钟02.webp\" src=\"https://wang618.cn/content/uploadfile/202603/ee0b1774785155.webp\" /></p>",
-          "pub_date": "2026-03-29T19:52:19+08:00",
-          "updated_at": "2026-03-29T19:52:19+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "秒回冬天",
-          "link": "https://wang618.cn/miao-hui-dong-tian.html",
-          "description": "<p>兰州这天气我真服了！昨天还热到穿短袖，今天直接大雪封山，地球OL 怕不是系统崩了，一键回档到隆冬腊月！</p>\n<p><img alt=\"暴雪01.webp\" src=\"https://wang618.cn/content/uploadfile/202603/4f471774768729.webp\" /><br />\n<img alt=\"暴雪02.webp\" src=\"https://wang618.cn/content/uploadfile/202603/4ba61774768729.webp\" /></p>",
-          "pub_date": "2026-03-29T15:18:41+08:00",
-          "updated_at": "2026-03-29T15:18:41+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "趣味笔筒",
-          "link": "https://wang618.cn/qu-wei-bi-tong.html",
-          "description": "<p>打印了两款超有意思的笔筒，羽绒服款和防空导弹款，造型超别致！图纸在 Bambu Handy 上就能获取。<br />\n<img alt=\"羽绒服笔筒.webp\" src=\"https://wang618.cn/content/uploadfile/202603/79251774715864.webp\" /><br />\n<img alt=\"防空导弹笔筒.webp\" src=\"https://wang618.cn/content/uploadfile/202603/ec461774715864.webp\" /></p>",
-          "pub_date": "2026-03-29T00:37:33+08:00",
-          "updated_at": "2026-03-29T00:37:33+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "周杰伦《太阳之子》专辑欣赏",
-          "link": "https://wang618.cn/jay-tai-yang-zhi-zi.html",
-          "description": "<p>周杰伦第 16 张专辑《太阳之子》是一张情怀大于突破、概念强于旋律、制作华丽但听感争议的作品。整体是典型的“晚年周杰伦”风格：野心很大、元素很满、亮点与槽点并存。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E5%A4%AA%E9%98%B3%E4%B9%8B%E5%AD%90.mp4?sign=AxYQYTrrrcw1k7tqHp_rUHKnmYH9wMAtn1AJQXzQKyQ=:0\"></video>",
-          "pub_date": "2026-03-25T12:33:32+08:00",
-          "updated_at": "2026-03-25T12:33:32+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "收到紫慕明信片",
-          "link": "https://wang618.cn/shou-dao-zi-mu-ming-xin-pian.html",
-          "description": "<p>承蒙紫慕寄赠明信片，倍感荣幸与欣喜。“穿过人潮与季风，与世界保持恰好的温度，2026 愿日子如浅溪清澈，心事如云朵自由。” 紫慕碎碎念 <a href=\"https://90zm.net/\">https://90zm.net/</a></p>\n<p><img alt=\"紫慕明信片正面.webp\" src=\"https://wang618.cn/content/uploadfile/202603/85dd1774409698.webp\" /><br />\n<img alt=\"紫慕明信片背面.webp\" src=\"https://wang618.cn/content/uploadfile/202603/f8101774409698.webp\" /></p>",
-          "pub_date": "2026-03-25T11:35:19+08:00",
-          "updated_at": "2026-03-25T11:35:19+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "拉扯",
-          "link": "https://wang618.cn/la-che.html",
-          "description": "<p>转载了一段很有意思的视频，两只麻雀的小故事，像极了现实里闹别扭的情侣和夫妻。感情里最傻的事，莫过于和爱的人讲道理、争输赢。吵赢了道理，往往丢了温柔；争赢了面子，常常冷了心意。那些看似激烈的争执与拉扯，从来都不是真的想分开，不过是笨拙地渴望被在意、被迁就。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%90%B5%E6%9E%B6%E7%9A%84%E9%BA%BB%E9%9B%80.mp4?sign=9T_FT6RU-B31m02WSsqKMUYJbde8psJEuyX_EEq0zJE=:0\"></video>",
-          "pub_date": "2026-03-23T01:20:55+08:00",
-          "updated_at": "2026-03-23T01:20:55+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "黑暗快乐水",
-          "link": "https://wang618.cn/hei-an-kuai-le-shui.html",
-          "description": "<p>在 PDD 下单快乐水，结果首页推荐直接给我看懵，彻底颠覆我对可乐的认知！胡辣汤味、香醋味、藿香味！这哪是快乐水？分明是黑暗饮料阴间大赏！<br />\n<img alt=\"胡辣汤可乐.webp\" src=\"https://wang618.cn/content/uploadfile/202603/50cf1773593613.webp\" /><br />\n<img alt=\"藿香味可乐.webp\" src=\"https://wang618.cn/content/uploadfile/202603/00211773593613.webp\" /><br />\n<img alt=\"香醋味可乐.webp\" src=\"https://wang618.cn/content/uploadfile/202603/034d1773593613.webp\" /></p>",
-          "pub_date": "2026-03-16T00:50:50+08:00",
-          "updated_at": "2026-03-16T00:50:50+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "喵趣",
-          "link": "https://wang618.cn/miao-qu.html",
-          "description": "<p>我家猫咪打不过邻居家的狸花猫，喊来了“兄弟”，直接把对方团团围住。虽然听不懂喵语，但感觉骂得很脏！狸花猫估计也没想到，对方不讲武德居然还摇人！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%96%B5%E4%B9%8B%E9%9C%B8%E5%87%8C.mp4?sign=tCIMRUHn89aOdGVwKnq728QZ2IoeZ4_Kw1HkbTULdBs=:0\"></video>",
-          "pub_date": "2026-03-15T01:53:19+08:00",
-          "updated_at": "2026-03-15T01:53:19+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "踏沙归雪",
-          "link": "https://wang618.cn/ta-sha-gui-xue.html",
-          "description": "<p>远赴时，敢闯漫天风沙；归来日，笑对万里暴雪。人生这一路，每一步坎坷都是岁月的雕刻。踏过沙的滚烫，走过雪的寒凉，才懂得：所有的奔赴，终有回甘；所有的历经，皆是风光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%97%85%E8%A1%8C.mp4?sign=G5am4hL8D8xi-emeTmThsmbuFv6SCize8zeOrbXHCtg=:0\"></video>",
-          "pub_date": "2026-03-08T14:53:18+08:00",
-          "updated_at": "2026-03-08T14:53:18+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "纸牌消失术",
-          "link": "https://wang618.cn/zhi-pai-xiao-shi-shu.html",
-          "description": "<p>神奇纸牌消失魔术：请记住任意一张纸牌，我会让它彻底消失！</p>\n<p></p>",
-          "pub_date": "2026-02-27T00:18:54+08:00",
-          "updated_at": "2026-02-27T00:18:54+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "四载恍如梦",
-          "link": "https://wang618.cn/si-zai-huang-ru-meng.html",
-          "description": "<p>不觉间，毛熊战事已走过四载春秋。一声轻叹，四年光阴，竟已悄然远逝。蓦然回首，才惊觉，岁月也在我身上刻下了痕迹，一晃，竟也老去四岁。<br />\n<img alt=\"俄乌战争.webp\" src=\"https://wang618.cn/content/uploadfile/202602/f02d1771930292.webp\" /></p>",
-          "pub_date": "2026-02-24T18:42:15+08:00",
-          "updated_at": "2026-02-24T18:42:15+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "马年大吉",
-          "link": "https://wang618.cn/ma-nian-da-ji.html",
-          "description": "<p>金马迎春万象新，策马扬鞭启征程。马到成功开胜景，龙马精神振家声。愿你在马年里，每一步都踩准马不停蹄的节奏，每一刻都怀揣一马当先的豪情。遇机遇则快马加鞭，闯难关则厉兵秣马，凭真才实学天马行空，靠实干担当倚马可待。生活里，有鲜衣怒马的潇洒，有青梅竹马的温柔，阖家欢乐共享倚马千言的幸福时光。事业上，伯乐识马得良遇，万马奔腾成大势，哪怕路遥水长，也能以马踏飞燕之姿，跨越山海直达理想。福气如天马行空般降临，财运似万马奔腾般涌来。愿你岁岁常拥龙马精神，年年皆得马到功成，策马奔腾向未来，马年大吉福满门！<br />\n<img alt=\"马年大吉.webp\" src=\"https://wang618.cn/content/uploadfile/202602/41f81771159015.webp\" /></p>",
-          "pub_date": "2026-02-15T20:36:46+08:00",
-          "updated_at": "2026-02-15T20:36:46+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "骨玩",
-          "link": "https://wang618.cn/gu-wan.html",
-          "description": "<p>大家平时都盘什么文玩？我盘骨头，多年偶尔盘玩，现在已经局部玉化。既能修身养性，又能近战防身，这玩意真不错！<br />\n<img alt=\"骨玩1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/051f1770805152.webp\" /><br />\n<img alt=\"骨玩2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/0ee91770805152.webp\" /></p>",
-          "pub_date": "2026-02-11T18:14:56+08:00",
-          "updated_at": "2026-02-11T18:14:56+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "经不轻传",
-          "link": "https://wang618.cn/jing-bu-qing-chuan.html",
-          "description": "<p>最近在家闲着没事，又重读了《西游记》原著，看到第九十八回《猿熟马驯方脱壳 功成行满见真如》。唐僧师徒一路千辛万苦，好不容易走到灵山圣地，本以为功德圆满、马上就能拿到真经，没想到拜见阿傩、迦叶两位尊者时，对方竟然公开索要好处。师徒几人跋山涉水，根本没带什么人间财物，拿不出东西应酬。两位尊者干脆就给了他们无字的空白经书，看着像真经，其实一卷卷全是空的，徒有其表。后来如来知道了这事，不但没责怪两位尊者，反而替他们解释说：“经不可轻传，也不能白白拿走。” 仔细琢磨这一段，道理很深，越想越有味道。书里还提到，诵经一遍，换来三斗三升米粒黄金，如来还嫌卖得太便宜。按现在的标准折算，三斗三升黄金大约重 636900 克，以当前金价 1111 元 / 克来算，总价高达七亿多元。只念一遍经就要这么高的价钱，实在让人吃惊。如来这番话，其实同时包含了三层意思：修行的道理、佛门的规矩，还有对人间世事的看透。对内，用“要人事”这件事，破除人的贪念执着，圆满最后一劫，给取经这件事做个彻底了断；对外，点明凡事都有代价，佛法不能随便传、真道不能轻易得，立下佛门传经的规矩；对世人而言，作者借灵山这样神圣的地方，写出最现实的人情世故，照见人心的贪念、世间的冷暖，在神魔鬼怪的故事里，写尽了人间最真实的道理。<br />\n<img alt=\"经不轻传1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/d4121770637086.webp\" /><br />\n<img alt=\"经不轻传2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/47031770637086.webp\" /></p>",
-          "pub_date": "2026-02-09T19:39:57+08:00",
-          "updated_at": "2026-02-09T19:39:57+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "农场忆流年",
-          "link": "https://wang618.cn/nong-chang-yi-liu-nian.html",
-          "description": "<p>2026年2月6日，《QQ经典农场》正式开服。这款曾风靡全网的现象级游戏，一经重启，便轻轻勾起无数人藏在时光里的青春回忆。谁不曾定过深夜的闹钟，只为准时守在屏幕前，偷那一株成熟的菜？初识妻子那年，第一次登门拜访，她的小姨与表妹一见面便追着要加我QQ。我当时一头雾水，后来才恍然大悟，原来只为农场偷菜。两人痴迷至极，凌晨四点仍准时上线，得手后还特意发来消息调侃，气得我索性用上挂机宝与辅助工具，24小时在线反击。如今重登农场，画面更清晰，操作更流畅，心境却早已截然不同。并非游戏无趣，而是当年一同熬夜、互相捉弄、笑着偷菜的人，早已不在好友列表里活跃。原来最让人怀念的，从来不是那几块虚拟田地、几株待收作物，而是那段可以为一件小事认真较劲、为一句玩笑熬夜守候、为一群人满心欢喜的时光。农场重启了，可那些一起偷菜的热闹、互相打趣的欢喜、简单又热烈的岁月，却再也回不去了。指尖轻点依旧，只是身边少了同频的人，心里空了一大片，再也填不满当年的热闹与天真。<br />\n<img alt=\"农场忆流年.webp\" src=\"https://wang618.cn/content/uploadfile/202602/42bf1770469439.webp\" /></p>",
-          "pub_date": "2026-02-07T20:54:07+08:00",
-          "updated_at": "2026-02-07T20:54:07+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "荒唐的梦境",
-          "link": "https://wang618.cn/huang-tang-de-meng-jing.html",
-          "description": "<p>昨晚做了个离谱到家的梦，现在想起来还觉得哭笑不得。梦里的我全副武装躲在战壕里，天空上密密麻麻的无人机不停盘旋，还一股脑地冲我发起自杀式袭击，周围火光冲天、爆炸声不断，场面紧张到不行，可神奇的是，那些无人机怎么炸都炸不到我。更荒唐的是，我一边缩在战壕里躲攻击，一边还腾出手来拿着手机刷红果短剧，完全是沉浸式追剧，丝毫不被旁边的战火影响。合着我这满脑子的红果宇宙，连做梦都没放过我，这后劲也太足了，果然疯癫的剧情看多了，连梦境都得被影响！<br />\n<img alt=\"荒唐的梦境.webp\" src=\"https://wang618.cn/content/uploadfile/202602/b64c1770370093.webp\" /></p>",
-          "pub_date": "2026-02-06T17:21:52+08:00",
-          "updated_at": "2026-02-06T17:21:52+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "山馈亦有代价",
-          "link": "https://wang618.cn/shan-kui-yi-you-dai-jia.html",
-          "description": "<p>今年躲进山里，仗着周遭漫山木柴，火速搭起壁炉。恰逢大雪封山，压断满坡树干，索性开启三天电锯狂锯的囤柴模式，孰料竟熬出了腕管综合症。如今每日凌晨准时遭罪，右臂酸沉抬举无力，手指麻胀如裹厚棉，妥妥的硬核囤柴后遗症，纯纯自作自受。原来大自然的馈赠，从来都要收几分利息。</p>\n<p><img alt=\"山馈亦有代价.webp\" src=\"https://wang618.cn/content/uploadfile/202602/2fd81770116919.webp\" /></p>",
-          "pub_date": "2026-02-03T18:50:38+08:00",
-          "updated_at": "2026-02-03T18:50:38+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "地又震矣",
-          "link": "https://wang618.cn/de-you-zhen-yi.html",
-          "description": "<p>甘肃这几年冬季频发地震。吊灯晃动明显，手机地震预警也在疯狂报警，着实让人受惊不小。</p>\n<p><img alt=\"地震01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/b50a1769423778.webp\" /><br />\n<img alt=\"地震02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/67ab1769423777.webp\" /></p>",
-          "pub_date": "2026-01-26T18:32:46+08:00",
-          "updated_at": "2026-01-26T18:32:46+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "这把排位打的爽",
-          "link": "https://wang618.cn/zhe-ba-pai-wei-da-de-shuang.html",
-          "description": "<p>这把排位打得太轻松，对面操作充满童真，让我毫无压力地达成了 25 连杀，顺手把核弹也整了出来！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E8%BF%99%E6%8A%8A%E6%8E%92%E4%BD%8D%E6%89%93%E7%9A%84%E7%88%BD.mp4?sign=SjmGF-FX-ccfPe8yt1RCD9xsLIBbYQZbVW5-py1jZOM=:0\"></video>",
-          "pub_date": "2026-01-25T19:04:38+08:00",
-          "updated_at": "2026-01-25T19:04:38+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "回首那场流离",
-          "link": "https://wang618.cn/hui-shou-na-chang-liu-li.html",
-          "description": "<p>青春是一场盛大的流离失所，我们在懵懂中相遇，又在成熟后别离。如今，站在时光的渡口回望，才发现那些哭过笑过的日子，早已化作这满山的红叶与遍地的黄花。不必感伤，因为逝去的青春并没有真正离开，它只是换了一种方式，在每一个风起的日子里，温柔了岁月，惊艳了时光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%9E%AB%E5%8F%B6%E7%BA%A2%20(Live).mp4?sign=J1Z6WEePJBpTszTaO6fzi5Ba-3O_lZkFMPY3zmH7pSA=:0\"></video>",
-          "pub_date": "2026-01-23T21:56:49+08:00",
-          "updated_at": "2026-01-23T21:56:49+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
         }
       ]
     },
@@ -1591,6 +1363,234 @@
           "site_name": "安静角落",
           "site_url": "https://wuziya.com/",
           "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        }
+      ]
+    },
+    {
+      "name": "旺东自留地",
+      "url": "https://wang618.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/wang618.gif",
+      "feed_url": "https://wang618.cn/rss.php",
+      "posts": [
+        {
+          "title": "巧妙的改装",
+          "link": "https://wang618.cn/qiao-miao-de-gai-zhuang.html",
+          "description": "<p>把之前打印的羽绒服笔筒稍加改造，秒变趣味十足的时钟摆件。支持 WiFi 同步时间与天气，去掉天线后还自带快充接口，创意与实用兼备。<br />\n<img alt=\"羽绒服时钟01.webp\" src=\"https://wang618.cn/content/uploadfile/202603/ee661774785155.webp\" /><br />\n<img alt=\"羽绒服时钟02.webp\" src=\"https://wang618.cn/content/uploadfile/202603/ee0b1774785155.webp\" /></p>",
+          "pub_date": "2026-03-29T19:52:19+08:00",
+          "updated_at": "2026-03-29T19:52:19+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "秒回冬天",
+          "link": "https://wang618.cn/miao-hui-dong-tian.html",
+          "description": "<p>兰州这天气我真服了！昨天还热到穿短袖，今天直接大雪封山，地球OL 怕不是系统崩了，一键回档到隆冬腊月！</p>\n<p><img alt=\"暴雪01.webp\" src=\"https://wang618.cn/content/uploadfile/202603/4f471774768729.webp\" /><br />\n<img alt=\"暴雪02.webp\" src=\"https://wang618.cn/content/uploadfile/202603/4ba61774768729.webp\" /></p>",
+          "pub_date": "2026-03-29T15:18:41+08:00",
+          "updated_at": "2026-03-29T15:18:41+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "趣味笔筒",
+          "link": "https://wang618.cn/qu-wei-bi-tong.html",
+          "description": "<p>打印了两款超有意思的笔筒，羽绒服款和防空导弹款，造型超别致！图纸在 Bambu Handy 上就能获取。<br />\n<img alt=\"羽绒服笔筒.webp\" src=\"https://wang618.cn/content/uploadfile/202603/79251774715864.webp\" /><br />\n<img alt=\"防空导弹笔筒.webp\" src=\"https://wang618.cn/content/uploadfile/202603/ec461774715864.webp\" /></p>",
+          "pub_date": "2026-03-29T00:37:33+08:00",
+          "updated_at": "2026-03-29T00:37:33+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "周杰伦《太阳之子》专辑欣赏",
+          "link": "https://wang618.cn/jay-tai-yang-zhi-zi.html",
+          "description": "<p>周杰伦第 16 张专辑《太阳之子》是一张情怀大于突破、概念强于旋律、制作华丽但听感争议的作品。整体是典型的“晚年周杰伦”风格：野心很大、元素很满、亮点与槽点并存。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E5%A4%AA%E9%98%B3%E4%B9%8B%E5%AD%90.mp4?sign=AxYQYTrrrcw1k7tqHp_rUHKnmYH9wMAtn1AJQXzQKyQ=:0\"></video>",
+          "pub_date": "2026-03-25T12:33:32+08:00",
+          "updated_at": "2026-03-25T12:33:32+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "收到紫慕明信片",
+          "link": "https://wang618.cn/shou-dao-zi-mu-ming-xin-pian.html",
+          "description": "<p>承蒙紫慕寄赠明信片，倍感荣幸与欣喜。“穿过人潮与季风，与世界保持恰好的温度，2026 愿日子如浅溪清澈，心事如云朵自由。” 紫慕碎碎念 <a href=\"https://90zm.net/\">https://90zm.net/</a></p>\n<p><img alt=\"紫慕明信片正面.webp\" src=\"https://wang618.cn/content/uploadfile/202603/85dd1774409698.webp\" /><br />\n<img alt=\"紫慕明信片背面.webp\" src=\"https://wang618.cn/content/uploadfile/202603/f8101774409698.webp\" /></p>",
+          "pub_date": "2026-03-25T11:35:19+08:00",
+          "updated_at": "2026-03-25T11:35:19+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "拉扯",
+          "link": "https://wang618.cn/la-che.html",
+          "description": "<p>转载了一段很有意思的视频，两只麻雀的小故事，像极了现实里闹别扭的情侣和夫妻。感情里最傻的事，莫过于和爱的人讲道理、争输赢。吵赢了道理，往往丢了温柔；争赢了面子，常常冷了心意。那些看似激烈的争执与拉扯，从来都不是真的想分开，不过是笨拙地渴望被在意、被迁就。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%90%B5%E6%9E%B6%E7%9A%84%E9%BA%BB%E9%9B%80.mp4?sign=9T_FT6RU-B31m02WSsqKMUYJbde8psJEuyX_EEq0zJE=:0\"></video>",
+          "pub_date": "2026-03-23T01:20:55+08:00",
+          "updated_at": "2026-03-23T01:20:55+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "黑暗快乐水",
+          "link": "https://wang618.cn/hei-an-kuai-le-shui.html",
+          "description": "<p>在 PDD 下单快乐水，结果首页推荐直接给我看懵，彻底颠覆我对可乐的认知！胡辣汤味、香醋味、藿香味！这哪是快乐水？分明是黑暗饮料阴间大赏！<br />\n<img alt=\"胡辣汤可乐.webp\" src=\"https://wang618.cn/content/uploadfile/202603/50cf1773593613.webp\" /><br />\n<img alt=\"藿香味可乐.webp\" src=\"https://wang618.cn/content/uploadfile/202603/00211773593613.webp\" /><br />\n<img alt=\"香醋味可乐.webp\" src=\"https://wang618.cn/content/uploadfile/202603/034d1773593613.webp\" /></p>",
+          "pub_date": "2026-03-16T00:50:50+08:00",
+          "updated_at": "2026-03-16T00:50:50+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "喵趣",
+          "link": "https://wang618.cn/miao-qu.html",
+          "description": "<p>我家猫咪打不过邻居家的狸花猫，喊来了“兄弟”，直接把对方团团围住。虽然听不懂喵语，但感觉骂得很脏！狸花猫估计也没想到，对方不讲武德居然还摇人！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E5%96%B5%E4%B9%8B%E9%9C%B8%E5%87%8C.mp4?sign=tCIMRUHn89aOdGVwKnq728QZ2IoeZ4_Kw1HkbTULdBs=:0\"></video>",
+          "pub_date": "2026-03-15T01:53:19+08:00",
+          "updated_at": "2026-03-15T01:53:19+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "踏沙归雪",
+          "link": "https://wang618.cn/ta-sha-gui-xue.html",
+          "description": "<p>远赴时，敢闯漫天风沙；归来日，笑对万里暴雪。人生这一路，每一步坎坷都是岁月的雕刻。踏过沙的滚烫，走过雪的寒凉，才懂得：所有的奔赴，终有回甘；所有的历经，皆是风光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%97%85%E8%A1%8C.mp4?sign=G5am4hL8D8xi-emeTmThsmbuFv6SCize8zeOrbXHCtg=:0\"></video>",
+          "pub_date": "2026-03-08T14:53:18+08:00",
+          "updated_at": "2026-03-08T14:53:18+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "纸牌消失术",
+          "link": "https://wang618.cn/zhi-pai-xiao-shi-shu.html",
+          "description": "<p>神奇纸牌消失魔术：请记住任意一张纸牌，我会让它彻底消失！</p>\n<p></p>",
+          "pub_date": "2026-02-27T00:18:54+08:00",
+          "updated_at": "2026-02-27T00:18:54+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "四载恍如梦",
+          "link": "https://wang618.cn/si-zai-huang-ru-meng.html",
+          "description": "<p>不觉间，毛熊战事已走过四载春秋。一声轻叹，四年光阴，竟已悄然远逝。蓦然回首，才惊觉，岁月也在我身上刻下了痕迹，一晃，竟也老去四岁。<br />\n<img alt=\"俄乌战争.webp\" src=\"https://wang618.cn/content/uploadfile/202602/f02d1771930292.webp\" /></p>",
+          "pub_date": "2026-02-24T18:42:15+08:00",
+          "updated_at": "2026-02-24T18:42:15+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "马年大吉",
+          "link": "https://wang618.cn/ma-nian-da-ji.html",
+          "description": "<p>金马迎春万象新，策马扬鞭启征程。马到成功开胜景，龙马精神振家声。愿你在马年里，每一步都踩准马不停蹄的节奏，每一刻都怀揣一马当先的豪情。遇机遇则快马加鞭，闯难关则厉兵秣马，凭真才实学天马行空，靠实干担当倚马可待。生活里，有鲜衣怒马的潇洒，有青梅竹马的温柔，阖家欢乐共享倚马千言的幸福时光。事业上，伯乐识马得良遇，万马奔腾成大势，哪怕路遥水长，也能以马踏飞燕之姿，跨越山海直达理想。福气如天马行空般降临，财运似万马奔腾般涌来。愿你岁岁常拥龙马精神，年年皆得马到功成，策马奔腾向未来，马年大吉福满门！<br />\n<img alt=\"马年大吉.webp\" src=\"https://wang618.cn/content/uploadfile/202602/41f81771159015.webp\" /></p>",
+          "pub_date": "2026-02-15T20:36:46+08:00",
+          "updated_at": "2026-02-15T20:36:46+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "骨玩",
+          "link": "https://wang618.cn/gu-wan.html",
+          "description": "<p>大家平时都盘什么文玩？我盘骨头，多年偶尔盘玩，现在已经局部玉化。既能修身养性，又能近战防身，这玩意真不错！<br />\n<img alt=\"骨玩1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/051f1770805152.webp\" /><br />\n<img alt=\"骨玩2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/0ee91770805152.webp\" /></p>",
+          "pub_date": "2026-02-11T18:14:56+08:00",
+          "updated_at": "2026-02-11T18:14:56+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "经不轻传",
+          "link": "https://wang618.cn/jing-bu-qing-chuan.html",
+          "description": "<p>最近在家闲着没事，又重读了《西游记》原著，看到第九十八回《猿熟马驯方脱壳 功成行满见真如》。唐僧师徒一路千辛万苦，好不容易走到灵山圣地，本以为功德圆满、马上就能拿到真经，没想到拜见阿傩、迦叶两位尊者时，对方竟然公开索要好处。师徒几人跋山涉水，根本没带什么人间财物，拿不出东西应酬。两位尊者干脆就给了他们无字的空白经书，看着像真经，其实一卷卷全是空的，徒有其表。后来如来知道了这事，不但没责怪两位尊者，反而替他们解释说：“经不可轻传，也不能白白拿走。” 仔细琢磨这一段，道理很深，越想越有味道。书里还提到，诵经一遍，换来三斗三升米粒黄金，如来还嫌卖得太便宜。按现在的标准折算，三斗三升黄金大约重 636900 克，以当前金价 1111 元 / 克来算，总价高达七亿多元。只念一遍经就要这么高的价钱，实在让人吃惊。如来这番话，其实同时包含了三层意思：修行的道理、佛门的规矩，还有对人间世事的看透。对内，用“要人事”这件事，破除人的贪念执着，圆满最后一劫，给取经这件事做个彻底了断；对外，点明凡事都有代价，佛法不能随便传、真道不能轻易得，立下佛门传经的规矩；对世人而言，作者借灵山这样神圣的地方，写出最现实的人情世故，照见人心的贪念、世间的冷暖，在神魔鬼怪的故事里，写尽了人间最真实的道理。<br />\n<img alt=\"经不轻传1.webp\" src=\"https://wang618.cn/content/uploadfile/202602/d4121770637086.webp\" /><br />\n<img alt=\"经不轻传2.webp\" src=\"https://wang618.cn/content/uploadfile/202602/47031770637086.webp\" /></p>",
+          "pub_date": "2026-02-09T19:39:57+08:00",
+          "updated_at": "2026-02-09T19:39:57+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "农场忆流年",
+          "link": "https://wang618.cn/nong-chang-yi-liu-nian.html",
+          "description": "<p>2026年2月6日，《QQ经典农场》正式开服。这款曾风靡全网的现象级游戏，一经重启，便轻轻勾起无数人藏在时光里的青春回忆。谁不曾定过深夜的闹钟，只为准时守在屏幕前，偷那一株成熟的菜？初识妻子那年，第一次登门拜访，她的小姨与表妹一见面便追着要加我QQ。我当时一头雾水，后来才恍然大悟，原来只为农场偷菜。两人痴迷至极，凌晨四点仍准时上线，得手后还特意发来消息调侃，气得我索性用上挂机宝与辅助工具，24小时在线反击。如今重登农场，画面更清晰，操作更流畅，心境却早已截然不同。并非游戏无趣，而是当年一同熬夜、互相捉弄、笑着偷菜的人，早已不在好友列表里活跃。原来最让人怀念的，从来不是那几块虚拟田地、几株待收作物，而是那段可以为一件小事认真较劲、为一句玩笑熬夜守候、为一群人满心欢喜的时光。农场重启了，可那些一起偷菜的热闹、互相打趣的欢喜、简单又热烈的岁月，却再也回不去了。指尖轻点依旧，只是身边少了同频的人，心里空了一大片，再也填不满当年的热闹与天真。<br />\n<img alt=\"农场忆流年.webp\" src=\"https://wang618.cn/content/uploadfile/202602/42bf1770469439.webp\" /></p>",
+          "pub_date": "2026-02-07T20:54:07+08:00",
+          "updated_at": "2026-02-07T20:54:07+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "荒唐的梦境",
+          "link": "https://wang618.cn/huang-tang-de-meng-jing.html",
+          "description": "<p>昨晚做了个离谱到家的梦，现在想起来还觉得哭笑不得。梦里的我全副武装躲在战壕里，天空上密密麻麻的无人机不停盘旋，还一股脑地冲我发起自杀式袭击，周围火光冲天、爆炸声不断，场面紧张到不行，可神奇的是，那些无人机怎么炸都炸不到我。更荒唐的是，我一边缩在战壕里躲攻击，一边还腾出手来拿着手机刷红果短剧，完全是沉浸式追剧，丝毫不被旁边的战火影响。合着我这满脑子的红果宇宙，连做梦都没放过我，这后劲也太足了，果然疯癫的剧情看多了，连梦境都得被影响！<br />\n<img alt=\"荒唐的梦境.webp\" src=\"https://wang618.cn/content/uploadfile/202602/b64c1770370093.webp\" /></p>",
+          "pub_date": "2026-02-06T17:21:52+08:00",
+          "updated_at": "2026-02-06T17:21:52+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "山馈亦有代价",
+          "link": "https://wang618.cn/shan-kui-yi-you-dai-jia.html",
+          "description": "<p>今年躲进山里，仗着周遭漫山木柴，火速搭起壁炉。恰逢大雪封山，压断满坡树干，索性开启三天电锯狂锯的囤柴模式，孰料竟熬出了腕管综合症。如今每日凌晨准时遭罪，右臂酸沉抬举无力，手指麻胀如裹厚棉，妥妥的硬核囤柴后遗症，纯纯自作自受。原来大自然的馈赠，从来都要收几分利息。</p>\n<p><img alt=\"山馈亦有代价.webp\" src=\"https://wang618.cn/content/uploadfile/202602/2fd81770116919.webp\" /></p>",
+          "pub_date": "2026-02-03T18:50:38+08:00",
+          "updated_at": "2026-02-03T18:50:38+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "地又震矣",
+          "link": "https://wang618.cn/de-you-zhen-yi.html",
+          "description": "<p>甘肃这几年冬季频发地震。吊灯晃动明显，手机地震预警也在疯狂报警，着实让人受惊不小。</p>\n<p><img alt=\"地震01.webp\" src=\"https://wang618.cn/content/uploadfile/202601/b50a1769423778.webp\" /><br />\n<img alt=\"地震02.webp\" src=\"https://wang618.cn/content/uploadfile/202601/67ab1769423777.webp\" /></p>",
+          "pub_date": "2026-01-26T18:32:46+08:00",
+          "updated_at": "2026-01-26T18:32:46+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "这把排位打的爽",
+          "link": "https://wang618.cn/zhe-ba-pai-wei-da-de-shuang.html",
+          "description": "<p>这把排位打得太轻松，对面操作充满童真，让我毫无压力地达成了 25 连杀，顺手把核弹也整了出来！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E8%BF%99%E6%8A%8A%E6%8E%92%E4%BD%8D%E6%89%93%E7%9A%84%E7%88%BD.mp4?sign=SjmGF-FX-ccfPe8yt1RCD9xsLIBbYQZbVW5-py1jZOM=:0\"></video>",
+          "pub_date": "2026-01-25T19:04:38+08:00",
+          "updated_at": "2026-01-25T19:04:38+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
+        {
+          "title": "回首那场流离",
+          "link": "https://wang618.cn/hui-shou-na-chang-liu-li.html",
+          "description": "<p>青春是一场盛大的流离失所，我们在懵懂中相遇，又在成熟后别离。如今，站在时光的渡口回望，才发现那些哭过笑过的日子，早已化作这满山的红叶与遍地的黄花。不必感伤，因为逝去的青春并没有真正离开，它只是换了一种方式，在每一个风起的日子里，温柔了岁月，惊艳了时光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%9E%AB%E5%8F%B6%E7%BA%A2%20(Live).mp4?sign=J1Z6WEePJBpTszTaO6fzi5Ba-3O_lZkFMPY3zmH7pSA=:0\"></video>",
+          "pub_date": "2026-01-23T21:56:49+08:00",
+          "updated_at": "2026-01-23T21:56:49+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
         }
       ]
     },
@@ -2908,124 +2908,6 @@
       ]
     },
     {
-      "name": "winegrower",
-      "url": "http://www.winegrower.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/winegrower.png",
-      "feed_url": "http://www.winegrower.cn/feed",
-      "posts": [
-        {
-          "title": "偶尔的闲暇时光",
-          "link": "https://www.winegrower.cn/archives/1080/",
-          "description": "2026年3月27日下午，因工作原因来到房山区长阳镇（五环外），由于下午工作之前有一个线上会议要参加，我在附近找了一家麦当劳，距离开会还有一段时间，所以我有了一点自己的时间。或许是因为工作日，又...",
-          "pub_date": "2026-03-27T15:35:00+08:00",
-          "updated_at": "2026-03-27T15:35:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "永久的博客",
-          "link": "https://www.winegrower.cn/archives/1078/",
-          "description": "大多数人，最起码是我本人，都希望自己的个人博客可以永久保存，不因为网络环境的变化而丢失。这也是我在 2013 年创建个人独立博客时的初衷之一，因为无论 QQ 空间还是新浪博客，最终都会随着平台的...",
-          "pub_date": "2026-03-25T11:00:52+08:00",
-          "updated_at": "2026-03-25T11:00:52+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "以后得早睡",
-          "link": "https://www.winegrower.cn/archives/1077/",
-          "description": "因为最近在玩AI,导致熬夜成为常态。但今天媳妇要求，强烈要求，必须在23.00前入睡。看看时间，已经23.09了，得睡了~",
-          "pub_date": "2026-03-24T23:09:30+08:00",
-          "updated_at": "2026-03-24T23:09:30+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "折腾10年前的网站",
-          "link": "https://www.winegrower.cn/archives/1073/",
-          "description": "虽然我做独立博客有些年头了，但鉴于技术有限，起初我是用虚拟主机搭建的。随着需求增加，我在 2016 年 5 月购买了服务器。那时工作尚不繁忙，经过一番折腾，我成功部署了几个主要网站，并在源代码基...",
-          "pub_date": "2026-03-22T16:26:00+08:00",
-          "updated_at": "2026-03-22T16:26:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "Openclaw发布测试",
-          "link": "https://www.winegrower.cn/archives/1069/",
-          "description": "本文章为测试文章，是通过openclaw发布的，如果成功，这将是我用openclaw发布的第一篇文章。今天第一次尝试用Openclaw来写博客，感觉非常新奇。Openclaw是一个AI助手，可以...",
-          "pub_date": "2026-03-13T20:25:00+08:00",
-          "updated_at": "2026-03-13T20:25:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "2026年春节假期旅行",
-          "link": "https://www.winegrower.cn/archives/1058/",
-          "description": "2026年的春节假期比以往更久了一些，也成为了一年中最长的假期，所以经过沟通，三人准备利用这个假期来一个“长旅行”。2月14日：北京 → 泰安下午从北京出发，为规避高速拥堵及费用，途中策略性休息...",
-          "pub_date": "2026-02-28T17:51:00+08:00",
-          "updated_at": "2026-02-28T17:51:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "节前的最后一天上班",
-          "link": "https://www.winegrower.cn/archives/1053/",
-          "description": "过年的氛围越来越浓，大家看似在上班，实际上心已经来到了假期，我也如此。在节前上班的最后一个下午，小朋友来公司附近等我，接我下班。因为有孩子陪伴，为了方便工作，我们一起来到楼下的餐厅，她陪着我工作...",
-          "pub_date": "2026-02-13T14:30:14+08:00",
-          "updated_at": "2026-02-13T14:30:14+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "今年春节不回老家",
-          "link": "https://www.winegrower.cn/archives/1051/",
-          "description": "今年春节没有回老家——其实，这已经是连续第六年了。自从在北京定居后，先是妻子春节值班，接着孩子年幼不便远行，再后来种种琐事牵绊……从2020年起，我们便再没在除夕夜踏上归途。我知道，这些理由说到...",
-          "pub_date": "2026-02-09T16:03:13+08:00",
-          "updated_at": "2026-02-09T16:03:13+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "工作给了我们什么",
-          "link": "https://www.winegrower.cn/archives/1038/",
-          "description": "今天19.30我一路辗转回家，拖着疲惫的身体，推开门，孩子清脆的声音“爸爸，告诉你一个好消息，妈妈给我买指甲贴了，明天就可以到”。妻子在沙发上坐着，看合孩子在客厅玩耍。我放下书包，洗漱之后，走到...",
-          "pub_date": "2026-01-26T23:26:39+08:00",
-          "updated_at": "2026-01-26T23:26:39+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        },
-        {
-          "title": "写在2026年初，大变革时代的我们",
-          "link": "https://www.winegrower.cn/archives/1037/",
-          "description": "不知道，从历史的角度看，2026年会是一个什么样的年份，因为我们都生活在当下，我们很难感知到。但从各种身边的感知和遥远的新闻来看，世界在面临巨大的变革。这种变革或可能是灾难，可能也是机会。好在，...",
-          "pub_date": "2026-01-26T22:45:00+08:00",
-          "updated_at": "2026-01-26T22:45:00+08:00",
-          "author": "winegrower",
-          "site_name": "winegrower",
-          "site_url": "http://www.winegrower.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        }
-      ]
-    },
-    {
       "name": "水拍石",
       "url": "https://www.leitao.cn",
       "avatar": "https://cdn.xiaoten.com/friends/leitao.png",
@@ -3273,6 +3155,124 @@
       ]
     },
     {
+      "name": "winegrower",
+      "url": "http://www.winegrower.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/winegrower.png",
+      "feed_url": "http://www.winegrower.cn/feed",
+      "posts": [
+        {
+          "title": "偶尔的闲暇时光",
+          "link": "https://www.winegrower.cn/archives/1080/",
+          "description": "2026年3月27日下午，因工作原因来到房山区长阳镇（五环外），由于下午工作之前有一个线上会议要参加，我在附近找了一家麦当劳，距离开会还有一段时间，所以我有了一点自己的时间。或许是因为工作日，又...",
+          "pub_date": "2026-03-27T15:35:00+08:00",
+          "updated_at": "2026-03-27T15:35:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "永久的博客",
+          "link": "https://www.winegrower.cn/archives/1078/",
+          "description": "大多数人，最起码是我本人，都希望自己的个人博客可以永久保存，不因为网络环境的变化而丢失。这也是我在 2013 年创建个人独立博客时的初衷之一，因为无论 QQ 空间还是新浪博客，最终都会随着平台的...",
+          "pub_date": "2026-03-25T11:00:52+08:00",
+          "updated_at": "2026-03-25T11:00:52+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "以后得早睡",
+          "link": "https://www.winegrower.cn/archives/1077/",
+          "description": "因为最近在玩AI,导致熬夜成为常态。但今天媳妇要求，强烈要求，必须在23.00前入睡。看看时间，已经23.09了，得睡了~",
+          "pub_date": "2026-03-24T23:09:30+08:00",
+          "updated_at": "2026-03-24T23:09:30+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "折腾10年前的网站",
+          "link": "https://www.winegrower.cn/archives/1073/",
+          "description": "虽然我做独立博客有些年头了，但鉴于技术有限，起初我是用虚拟主机搭建的。随着需求增加，我在 2016 年 5 月购买了服务器。那时工作尚不繁忙，经过一番折腾，我成功部署了几个主要网站，并在源代码基...",
+          "pub_date": "2026-03-22T16:26:00+08:00",
+          "updated_at": "2026-03-22T16:26:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "Openclaw发布测试",
+          "link": "https://www.winegrower.cn/archives/1069/",
+          "description": "本文章为测试文章，是通过openclaw发布的，如果成功，这将是我用openclaw发布的第一篇文章。今天第一次尝试用Openclaw来写博客，感觉非常新奇。Openclaw是一个AI助手，可以...",
+          "pub_date": "2026-03-13T20:25:00+08:00",
+          "updated_at": "2026-03-13T20:25:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "2026年春节假期旅行",
+          "link": "https://www.winegrower.cn/archives/1058/",
+          "description": "2026年的春节假期比以往更久了一些，也成为了一年中最长的假期，所以经过沟通，三人准备利用这个假期来一个“长旅行”。2月14日：北京 → 泰安下午从北京出发，为规避高速拥堵及费用，途中策略性休息...",
+          "pub_date": "2026-02-28T17:51:00+08:00",
+          "updated_at": "2026-02-28T17:51:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "节前的最后一天上班",
+          "link": "https://www.winegrower.cn/archives/1053/",
+          "description": "过年的氛围越来越浓，大家看似在上班，实际上心已经来到了假期，我也如此。在节前上班的最后一个下午，小朋友来公司附近等我，接我下班。因为有孩子陪伴，为了方便工作，我们一起来到楼下的餐厅，她陪着我工作...",
+          "pub_date": "2026-02-13T14:30:14+08:00",
+          "updated_at": "2026-02-13T14:30:14+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "今年春节不回老家",
+          "link": "https://www.winegrower.cn/archives/1051/",
+          "description": "今年春节没有回老家——其实，这已经是连续第六年了。自从在北京定居后，先是妻子春节值班，接着孩子年幼不便远行，再后来种种琐事牵绊……从2020年起，我们便再没在除夕夜踏上归途。我知道，这些理由说到...",
+          "pub_date": "2026-02-09T16:03:13+08:00",
+          "updated_at": "2026-02-09T16:03:13+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "工作给了我们什么",
+          "link": "https://www.winegrower.cn/archives/1038/",
+          "description": "今天19.30我一路辗转回家，拖着疲惫的身体，推开门，孩子清脆的声音“爸爸，告诉你一个好消息，妈妈给我买指甲贴了，明天就可以到”。妻子在沙发上坐着，看合孩子在客厅玩耍。我放下书包，洗漱之后，走到...",
+          "pub_date": "2026-01-26T23:26:39+08:00",
+          "updated_at": "2026-01-26T23:26:39+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        },
+        {
+          "title": "写在2026年初，大变革时代的我们",
+          "link": "https://www.winegrower.cn/archives/1037/",
+          "description": "不知道，从历史的角度看，2026年会是一个什么样的年份，因为我们都生活在当下，我们很难感知到。但从各种身边的感知和遥远的新闻来看，世界在面临巨大的变革。这种变革或可能是灾难，可能也是机会。好在，...",
+          "pub_date": "2026-01-26T22:45:00+08:00",
+          "updated_at": "2026-01-26T22:45:00+08:00",
+          "author": "winegrower",
+          "site_name": "winegrower",
+          "site_url": "http://www.winegrower.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
+        }
+      ]
+    },
+    {
       "name": "从良未遂",
       "url": "https://www.jeffer.xyz/",
       "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg",
@@ -3356,6 +3356,13 @@
           "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
         }
       ]
+    },
+    {
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
     },
     {
       "name": "枋柚梓",
@@ -3583,13 +3590,6 @@
       ]
     },
     {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
-    },
-    {
       "name": "eallion's Blog",
       "url": "https://www.eallion.com",
       "avatar": "https://cdn.xiaoten.com/friends/eallion.png",
@@ -3616,113 +3616,6 @@
           "site_name": "eallion's Blog",
           "site_url": "https://www.eallion.com",
           "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
-        }
-      ]
-    },
-    {
-      "name": "旅行漫记",
-      "url": "https://synyan.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
-      "feed_url": "https://synyan.cn/feed",
-      "posts": [
-        {
-          "title": "日丽风和蠡湖岸",
-          "link": "https://synyan.cn/110856/",
-          "description": "暨昨日蠡园踏青，今日中午又去北边不远处蠡湖边免费公园闲逛。 以为中午了没什么人，又以为大伙儿都去鼋头渚看樱花了 [&#8230;]",
-          "pub_date": "2026-03-29T11:53:09+08:00",
-          "updated_at": "2026-03-29T11:53:09+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "春风十蠡桃满锡",
-          "link": "https://synyan.cn/110768/",
-          "description": "仲春天气不错，带娃去蠡园踏青。门口小小堵了十分钟，跟老年团挤一起进门。 今儿可能是起标题最快的一次，因为官方帮 [&#8230;]",
-          "pub_date": "2026-03-28T14:35:46+08:00",
-          "updated_at": "2026-03-28T14:35:46+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "青团香里觅正仪",
-          "link": "https://synyan.cn/110415/",
-          "description": "周末的意外之旅，起因是ld在小x书上看到苏州昆山市正仪镇的青团火出圈。所谓青团，是江南清明时节的传统小吃，来源 [&#8230;]",
-          "pub_date": "2026-03-22T17:26:08+08:00",
-          "updated_at": "2026-03-22T17:26:08+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "礼社寂寥的沉梦",
-          "link": "https://synyan.cn/109830/",
-          "description": "去古镇还能去错了，对，那人就是我。 昨日下午突然获赦，大喜过望，想着到早就在地图上标好的常州焦溪古镇采风，也许 [&#8230;]",
-          "pub_date": "2026-03-15T06:47:56+08:00",
-          "updated_at": "2026-03-15T06:47:56+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "荡口初春风拂面",
-          "link": "https://synyan.cn/109530/",
-          "description": "ld单位组织活动，不知为何选了荡口。 又是五年过了，再次站在这里，旧时吟诗感慨，如今沉默不语。 商业依旧萧条， [&#8230;]",
-          "pub_date": "2026-03-08T07:19:52+08:00",
-          "updated_at": "2026-03-08T07:19:52+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "大元处士钱裕墓",
-          "link": "https://synyan.cn/109362/",
-          "description": "十二年前，朋友相约参观锡博钱裕墓出土文物，曾匆匆写就短文《古墓奇珍钱裕墓》。后又去过三两次，每次或是特展珍品聚 [&#8230;]",
-          "pub_date": "2026-03-07T17:26:28+08:00",
-          "updated_at": "2026-03-07T17:26:28+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "年四苏州比斯特",
-          "link": "https://synyan.cn/109044/",
-          "description": "2月20日年初四，瞅着天气晴朗，出发去阳澄湖畔的比斯特苏州购物村（原名“苏州奕欧来奥特莱斯”）。遥想十多年前第 [&#8230;]",
-          "pub_date": "2026-02-23T05:14:56+08:00",
-          "updated_at": "2026-02-23T05:14:56+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "年三惠山迎福神",
-          "link": "https://synyan.cn/108997/",
-          "description": "2月19日年初三是家中传统聚会的日子，饭店就选在惠山古镇隔壁，给大伙提供了得天独厚的免费车位。这种福利肯定是大 [&#8230;]",
-          "pub_date": "2026-02-22T16:32:41+08:00",
-          "updated_at": "2026-02-22T16:32:41+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "火树银花崇安夜",
-          "link": "https://synyan.cn/108936/",
-          "description": "春节前几日出门，用胶片拍了三卷，快递送往冲印中心，但预计要月底才返片，故博友还需稍等数日。 节日市中心必然火树 [&#8230;]",
-          "pub_date": "2026-02-21T16:41:09+08:00",
-          "updated_at": "2026-02-21T16:41:09+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
         }
       ]
     },
@@ -4061,6 +3954,113 @@
           "site_name": "小十博客",
           "site_url": "https://www.xiaoten.com/",
           "avatar": "https://www.xiaoten.com/avatar.png"
+        }
+      ]
+    },
+    {
+      "name": "旅行漫记",
+      "url": "https://synyan.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
+      "feed_url": "https://synyan.cn/feed",
+      "posts": [
+        {
+          "title": "日丽风和蠡湖岸",
+          "link": "https://synyan.cn/110856/",
+          "description": "暨昨日蠡园踏青，今日中午又去北边不远处蠡湖边免费公园闲逛。 以为中午了没什么人，又以为大伙儿都去鼋头渚看樱花了 [&#8230;]",
+          "pub_date": "2026-03-29T11:53:09+08:00",
+          "updated_at": "2026-03-29T11:53:09+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "春风十蠡桃满锡",
+          "link": "https://synyan.cn/110768/",
+          "description": "仲春天气不错，带娃去蠡园踏青。门口小小堵了十分钟，跟老年团挤一起进门。 今儿可能是起标题最快的一次，因为官方帮 [&#8230;]",
+          "pub_date": "2026-03-28T14:35:46+08:00",
+          "updated_at": "2026-03-28T14:35:46+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "青团香里觅正仪",
+          "link": "https://synyan.cn/110415/",
+          "description": "周末的意外之旅，起因是ld在小x书上看到苏州昆山市正仪镇的青团火出圈。所谓青团，是江南清明时节的传统小吃，来源 [&#8230;]",
+          "pub_date": "2026-03-22T17:26:08+08:00",
+          "updated_at": "2026-03-22T17:26:08+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "礼社寂寥的沉梦",
+          "link": "https://synyan.cn/109830/",
+          "description": "去古镇还能去错了，对，那人就是我。 昨日下午突然获赦，大喜过望，想着到早就在地图上标好的常州焦溪古镇采风，也许 [&#8230;]",
+          "pub_date": "2026-03-15T06:47:56+08:00",
+          "updated_at": "2026-03-15T06:47:56+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "荡口初春风拂面",
+          "link": "https://synyan.cn/109530/",
+          "description": "ld单位组织活动，不知为何选了荡口。 又是五年过了，再次站在这里，旧时吟诗感慨，如今沉默不语。 商业依旧萧条， [&#8230;]",
+          "pub_date": "2026-03-08T07:19:52+08:00",
+          "updated_at": "2026-03-08T07:19:52+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "大元处士钱裕墓",
+          "link": "https://synyan.cn/109362/",
+          "description": "十二年前，朋友相约参观锡博钱裕墓出土文物，曾匆匆写就短文《古墓奇珍钱裕墓》。后又去过三两次，每次或是特展珍品聚 [&#8230;]",
+          "pub_date": "2026-03-07T17:26:28+08:00",
+          "updated_at": "2026-03-07T17:26:28+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "年四苏州比斯特",
+          "link": "https://synyan.cn/109044/",
+          "description": "2月20日年初四，瞅着天气晴朗，出发去阳澄湖畔的比斯特苏州购物村（原名“苏州奕欧来奥特莱斯”）。遥想十多年前第 [&#8230;]",
+          "pub_date": "2026-02-23T05:14:56+08:00",
+          "updated_at": "2026-02-23T05:14:56+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "年三惠山迎福神",
+          "link": "https://synyan.cn/108997/",
+          "description": "2月19日年初三是家中传统聚会的日子，饭店就选在惠山古镇隔壁，给大伙提供了得天独厚的免费车位。这种福利肯定是大 [&#8230;]",
+          "pub_date": "2026-02-22T16:32:41+08:00",
+          "updated_at": "2026-02-22T16:32:41+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "火树银花崇安夜",
+          "link": "https://synyan.cn/108936/",
+          "description": "春节前几日出门，用胶片拍了三卷，快递送往冲印中心，但预计要月底才返片，故博友还需稍等数日。 节日市中心必然火树 [&#8230;]",
+          "pub_date": "2026-02-21T16:41:09+08:00",
+          "updated_at": "2026-02-21T16:41:09+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
         }
       ]
     },
@@ -8154,20 +8154,14 @@
       "reason": "no_feed_found"
     },
     {
-      "name": "Giovan",
-      "url": "https://www.giovan.cn/#/",
+      "name": "Casear的技术栈",
+      "url": "https://www.casear.net",
       "feed_url": null,
       "reason": "no_feed_found"
     },
     {
       "name": "友人C",
       "url": "https://www.ihewro.com",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
-      "name": "Casear的技术栈",
-      "url": "https://www.casear.net",
       "feed_url": null,
       "reason": "no_feed_found"
     },
@@ -8180,6 +8174,12 @@
     {
       "name": "拾趣博客导航",
       "url": "https://s7.fan/",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
+      "name": "Giovan",
+      "url": "https://www.giovan.cn/#/",
       "feed_url": null,
       "reason": "no_feed_found"
     }

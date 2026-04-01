@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-01T02:23:08.803559+08:00",
+  "updated_at": "2026-04-01T08:34:57.240336+08:00",
   "total_sites": 29,
-  "total_posts": 361,
+  "total_posts": 362,
   "sites": [
     {
       "name": "Jame",
@@ -151,124 +151,6 @@
           "site_name": "Jame",
           "site_url": "https://jame.work",
           "avatar": "https://cdn.xiaoten.com/friends/jame.ico"
-        }
-      ]
-    },
-    {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "无题",
-          "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
-          "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
-          "pub_date": "2026-02-28T21:03:00+08:00",
-          "updated_at": "2026-02-28T21:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "一些杂事",
-          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
-          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
-          "pub_date": "2026-01-12T23:07:00+08:00",
-          "updated_at": "2026-01-12T23:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "关于孟鲁司特钠的不良反应",
-          "link": "https://wangdaodao.com/20260105/montelukast.html",
-          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
-          "pub_date": "2026-01-05T22:54:00+08:00",
-          "updated_at": "2026-01-05T22:54:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源网易云及QQ音乐播放插件",
-          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
-          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
-          "pub_date": "2025-12-26T13:25:00+08:00",
-          "updated_at": "2025-12-26T13:25:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Typecho抖音播放器插件",
-          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
-          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
-          "pub_date": "2025-12-20T16:24:00+08:00",
-          "updated_at": "2025-12-20T16:24:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "2025年终总结",
-          "link": "https://wangdaodao.com/20251214/2025-summary.html",
-          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
-          "pub_date": "2025-12-14T13:52:00+08:00",
-          "updated_at": "2025-12-14T13:52:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "Typecho博客开启EdgeOne",
-          "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
-          "description": "其实腾讯云的边缘安全加速平台 EdgeOne 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 ...",
-          "pub_date": "2025-12-10T20:03:00+08:00",
-          "updated_at": "2025-12-10T20:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "发布一个Typecho AI文本润色插件",
-          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
-          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
-          "pub_date": "2025-12-06T19:44:00+08:00",
-          "updated_at": "2025-12-06T19:44:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源高德地图及规划路径短代码插件",
-          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
-          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
-          "pub_date": "2025-12-03T13:22:00+08:00",
-          "updated_at": "2025-12-03T13:22:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开始记账了",
-          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
-          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
-          "pub_date": "2025-11-28T21:38:00+08:00",
-          "updated_at": "2025-11-28T21:38:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
         }
       ]
     },
@@ -435,6 +317,124 @@
           "site_name": "黑石博客",
           "site_url": "https://heson.me/",
           "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+        }
+      ]
+    },
+    {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "无题",
+          "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
+          "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
+          "pub_date": "2026-02-28T21:03:00+08:00",
+          "updated_at": "2026-02-28T21:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "一些杂事",
+          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
+          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
+          "pub_date": "2026-01-12T23:07:00+08:00",
+          "updated_at": "2026-01-12T23:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "关于孟鲁司特钠的不良反应",
+          "link": "https://wangdaodao.com/20260105/montelukast.html",
+          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
+          "pub_date": "2026-01-05T22:54:00+08:00",
+          "updated_at": "2026-01-05T22:54:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源网易云及QQ音乐播放插件",
+          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
+          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
+          "pub_date": "2025-12-26T13:25:00+08:00",
+          "updated_at": "2025-12-26T13:25:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Typecho抖音播放器插件",
+          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
+          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
+          "pub_date": "2025-12-20T16:24:00+08:00",
+          "updated_at": "2025-12-20T16:24:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "2025年终总结",
+          "link": "https://wangdaodao.com/20251214/2025-summary.html",
+          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
+          "pub_date": "2025-12-14T13:52:00+08:00",
+          "updated_at": "2025-12-14T13:52:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "Typecho博客开启EdgeOne",
+          "link": "https://wangdaodao.com/20251210/typecho-edge-one.html",
+          "description": "其实腾讯云的边缘安全加速平台 EdgeOne 应该10月份搞活动的时候就已经获取并激活了，但是一直不知道该怎么用。今天有点空闲，就拿起来配置一下。不过这方面我是个菜鸟，好多东西还不懂，只能边问 ...",
+          "pub_date": "2025-12-10T20:03:00+08:00",
+          "updated_at": "2025-12-10T20:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "发布一个Typecho AI文本润色插件",
+          "link": "https://wangdaodao.com/20251206/typecho-plugins-AI-text-polish.html",
+          "description": "现在AI已经融入到各行各业中，编码的时候都借助AI来辅助编程。那么，在写博客文章的时候，遇到语句不够流畅或表达不够专业的时候，能不能快速的借助AI帮我们对语句做一些润色呢？为此，我开发了一个Ty...",
+          "pub_date": "2025-12-06T19:44:00+08:00",
+          "updated_at": "2025-12-06T19:44:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源高德地图及规划路径短代码插件",
+          "link": "https://wangdaodao.com/20251203/typecho-plugin-amap.html",
+          "description": "继上次足迹插件，这次开源两个插件，分别是 高德地图插件 和 高德地图路径规划插件，相对于足迹插件是一个简化版的，也希望大家多支持足迹插件?。",
+          "pub_date": "2025-12-03T13:22:00+08:00",
+          "updated_at": "2025-12-03T13:22:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开始记账了",
+          "link": "https://wangdaodao.com/20251128/bookkeeping.html",
+          "description": "不知道大家有没有记账的习惯，我之前刚工作那会是有的，当时手机上记账软件也不多，看来看去用的随手记，还买了安卓的会员。前段时间又下载回来试了试，竟然又要收费了…",
+          "pub_date": "2025-11-28T21:38:00+08:00",
+          "updated_at": "2025-11-28T21:38:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
         }
       ]
     },
@@ -703,6 +703,17 @@
       "feed_url": "https://xyzbz.cn/feed",
       "posts": [
         {
+          "title": "松声｜廿六年·三月末·花满城",
+          "link": "https://xyzbz.cn/archives/1524/",
+          "description": "Rss最近很拉，春暖花开了，大家都在勤耕不断，今天看了50个，明天就又会刷新出来一堆，一群勤劳的小蜜蜂。春暖花开了，大家多出去转转吧！苦恼的日子还会有的，快乐的日子是稀有的。好吃嘴最近回家ld吐...",
+          "pub_date": "2026-04-01T05:40:00+08:00",
+          "updated_at": "2026-04-01T05:40:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
           "title": "松声｜廿六年·三月花·海棠开",
           "link": "https://xyzbz.cn/archives/1523/",
           "description": "2026的海棠花，部分花已经盛开了。周末带着孩子一起去转转，顺便探索一下大自然。",
@@ -796,17 +807,6 @@
           "description": "无聊的功能之一，有需要的可以尝试一下，豆包帮忙写的，登录会触发机器人推送消息。1、增加注册事件与监听器路径/app/Providers/EventServiceProvider.php&lt;?...",
           "pub_date": "2026-01-22T17:18:00+08:00",
           "updated_at": "2026-01-22T17:18:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·一月初·雪叩窗",
-          "link": "https://xyzbz.cn/archives/1496/",
-          "description": "更新计划月初着手规划站点的新年更新计划，核心卡在标题格式，接连几天的头脑风暴，始终不满意，把想法告诉AI，首先舍弃农历记法的，经过一番为难，发现似乎也并非完全不可用，去粗取精，保证月份的准确性就...",
-          "pub_date": "2026-01-16T05:17:35+08:00",
-          "updated_at": "2026-01-16T05:17:35+08:00",
           "author": "网友小宋",
           "site_name": "网友小宋",
           "site_url": "https://xyzbz.cn/",
@@ -933,129 +933,22 @@
       ]
     },
     {
-      "name": "安静角落",
-      "url": "https://wuziya.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
-      "feed_url": "https://wuziya.com/feed",
-      "posts": [
-        {
-          "title": "我的电脑",
-          "link": "https://wuziya.com/297.html",
-          "description": "我的电脑",
-          "pub_date": "2026-02-25T19:19:00+08:00",
-          "updated_at": "2026-02-25T19:19:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "还能不能愉快的玩耍了",
-          "link": "https://wuziya.com/293.html",
-          "description": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/虽然我没怎么玩这个，但这价格也...",
-          "pub_date": "2026-02-24T17:38:00+08:00",
-          "updated_at": "2026-02-24T17:38:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "为什么我们沉迷游戏？",
-          "link": "https://wuziya.com/290.html",
-          "description": "Zkeq的人格完善指南https://www.onmicrosoft.cn/qa/2025-09-09-about-the-game说到游戏，我有一个域名ux54.com，原来打算取个名字叫“游...",
-          "pub_date": "2026-02-17T19:48:00+08:00",
-          "updated_at": "2026-02-17T19:48:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "虚伪智能与AI",
-          "link": "https://wuziya.com/288.html",
-          "description": "我从未使用过人工智能生成的文本来代替我个人的”声音“，如电子邮件、我的文章中的句子、博客中发表的评论，不使用生成式内容来“假装”是我的输出。但我对使用人工智能持开放态度，不排斥使用生成式 AI/...",
-          "pub_date": "2026-02-12T13:47:00+08:00",
-          "updated_at": "2026-02-12T13:47:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "电影：朗读者",
-          "link": "https://wuziya.com/287.html",
-          "description": "Because it's justice.因为这关系到正义It wasn't quite what I was expecting.有点不像我期待的那样实际影片中这两句话的顺序是反过来的。另外，...",
-          "pub_date": "2026-02-08T08:38:00+08:00",
-          "updated_at": "2026-02-08T08:38:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "电影：情圣3",
-          "link": "https://wuziya.com/284.html",
-          "description": "电影：情圣3",
-          "pub_date": "2026-02-06T17:07:00+08:00",
-          "updated_at": "2026-02-06T17:07:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "昨日立春",
-          "link": "https://wuziya.com/280.html",
-          "description": "昨日立春",
-          "pub_date": "2026-02-05T12:18:00+08:00",
-          "updated_at": "2026-02-05T12:18:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "德州－临沂－张家港",
-          "link": "https://wuziya.com/276.html",
-          "description": "前两天去了一趟山东，山东的高速真是好啊，单向都能有4车道，原来说的能起降飞机，真不是吹的。😀",
-          "pub_date": "2025-12-08T11:49:00+08:00",
-          "updated_at": "2025-12-08T11:49:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "我的收音机",
-          "link": "https://wuziya.com/274.html",
-          "description": "原来是之前的播放器插件有问题。😅我调了半天，就是自带的天线收不到几个台。😅视频加载速度有点感人，下面是直接地址：直接引用地址1：香港直接引用地址2：北京，京东都发流量警告了，小水管不经用，流量跑...",
-          "pub_date": "2025-10-21T22:05:00+08:00",
-          "updated_at": "2025-10-21T22:05:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "今年这里再也拍不到这种照片了",
-          "link": "https://wuziya.com/273.html",
-          "description": "现在这里已经修路了。",
-          "pub_date": "2025-10-20T23:26:00+08:00",
-          "updated_at": "2025-10-20T23:26:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        }
-      ]
-    },
-    {
       "name": "旺东自留地",
       "url": "https://wang618.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/wang618.gif",
       "feed_url": "https://wang618.cn/rss.php",
       "posts": [
+        {
+          "title": "愚人节快乐",
+          "link": "https://wang618.cn/yu-ren-jie-kuai-yue.html",
+          "description": "<p>🤡 祝大家 愚人节 快乐！愿所有心底热爱，终能如愿成真！<br />\n<img alt=\"中奖.webp\" src=\"https://wang618.cn/content/uploadfile/202603/cf7f1774951516.webp\" /><br />\n<img alt=\"提出.webp\" src=\"https://wang618.cn/content/uploadfile/202603/b6c31774954723.webp\" /></p>",
+          "pub_date": "2026-04-01T04:01:00+08:00",
+          "updated_at": "2026-04-01T04:01:00+08:00",
+          "author": "旺东",
+          "site_name": "旺东自留地",
+          "site_url": "https://wang618.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+        },
         {
           "title": "巧妙的改装",
           "link": "https://wang618.cn/qiao-miao-de-gai-zhuang.html",
@@ -1260,17 +1153,6 @@
           "description": "<p>这把排位打得太轻松，对面操作充满童真，让我毫无压力地达成了 25 连杀，顺手把核弹也整了出来！</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E8%BF%99%E6%8A%8A%E6%8E%92%E4%BD%8D%E6%89%93%E7%9A%84%E7%88%BD.mp4?sign=SjmGF-FX-ccfPe8yt1RCD9xsLIBbYQZbVW5-py1jZOM=:0\"></video>",
           "pub_date": "2026-01-25T19:04:38+08:00",
           "updated_at": "2026-01-25T19:04:38+08:00",
-          "author": "旺东",
-          "site_name": "旺东自留地",
-          "site_url": "https://wang618.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        },
-        {
-          "title": "回首那场流离",
-          "link": "https://wang618.cn/hui-shou-na-chang-liu-li.html",
-          "description": "<p>青春是一场盛大的流离失所，我们在懵懂中相遇，又在成熟后别离。如今，站在时光的渡口回望，才发现那些哭过笑过的日子，早已化作这满山的红叶与遍地的黄花。不必感伤，因为逝去的青春并没有真正离开，它只是换了一种方式，在每一个风起的日子里，温柔了岁月，惊艳了时光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%9E%AB%E5%8F%B6%E7%BA%A2%20(Live).mp4?sign=J1Z6WEePJBpTszTaO6fzi5Ba-3O_lZkFMPY3zmH7pSA=:0\"></video>",
-          "pub_date": "2026-01-23T21:56:49+08:00",
-          "updated_at": "2026-01-23T21:56:49+08:00",
           "author": "旺东",
           "site_name": "旺东自留地",
           "site_url": "https://wang618.cn/",
@@ -1591,6 +1473,124 @@
           "site_name": "游钓四方",
           "site_url": "https://blog.lhasa.icu/",
           "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        }
+      ]
+    },
+    {
+      "name": "安静角落",
+      "url": "https://wuziya.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
+      "feed_url": "https://wuziya.com/feed",
+      "posts": [
+        {
+          "title": "我的电脑",
+          "link": "https://wuziya.com/297.html",
+          "description": "我的电脑",
+          "pub_date": "2026-02-25T19:19:00+08:00",
+          "updated_at": "2026-02-25T19:19:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "还能不能愉快的玩耍了",
+          "link": "https://wuziya.com/293.html",
+          "description": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/虽然我没怎么玩这个，但这价格也...",
+          "pub_date": "2026-02-24T17:38:00+08:00",
+          "updated_at": "2026-02-24T17:38:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "为什么我们沉迷游戏？",
+          "link": "https://wuziya.com/290.html",
+          "description": "Zkeq的人格完善指南https://www.onmicrosoft.cn/qa/2025-09-09-about-the-game说到游戏，我有一个域名ux54.com，原来打算取个名字叫“游...",
+          "pub_date": "2026-02-17T19:48:00+08:00",
+          "updated_at": "2026-02-17T19:48:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "虚伪智能与AI",
+          "link": "https://wuziya.com/288.html",
+          "description": "我从未使用过人工智能生成的文本来代替我个人的”声音“，如电子邮件、我的文章中的句子、博客中发表的评论，不使用生成式内容来“假装”是我的输出。但我对使用人工智能持开放态度，不排斥使用生成式 AI/...",
+          "pub_date": "2026-02-12T13:47:00+08:00",
+          "updated_at": "2026-02-12T13:47:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "电影：朗读者",
+          "link": "https://wuziya.com/287.html",
+          "description": "Because it's justice.因为这关系到正义It wasn't quite what I was expecting.有点不像我期待的那样实际影片中这两句话的顺序是反过来的。另外，...",
+          "pub_date": "2026-02-08T08:38:00+08:00",
+          "updated_at": "2026-02-08T08:38:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "电影：情圣3",
+          "link": "https://wuziya.com/284.html",
+          "description": "电影：情圣3",
+          "pub_date": "2026-02-06T17:07:00+08:00",
+          "updated_at": "2026-02-06T17:07:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "昨日立春",
+          "link": "https://wuziya.com/280.html",
+          "description": "昨日立春",
+          "pub_date": "2026-02-05T12:18:00+08:00",
+          "updated_at": "2026-02-05T12:18:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "德州－临沂－张家港",
+          "link": "https://wuziya.com/276.html",
+          "description": "前两天去了一趟山东，山东的高速真是好啊，单向都能有4车道，原来说的能起降飞机，真不是吹的。😀",
+          "pub_date": "2025-12-08T11:49:00+08:00",
+          "updated_at": "2025-12-08T11:49:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "我的收音机",
+          "link": "https://wuziya.com/274.html",
+          "description": "原来是之前的播放器插件有问题。😅我调了半天，就是自带的天线收不到几个台。😅视频加载速度有点感人，下面是直接地址：直接引用地址1：香港直接引用地址2：北京，京东都发流量警告了，小水管不经用，流量跑...",
+          "pub_date": "2025-10-21T22:05:00+08:00",
+          "updated_at": "2025-10-21T22:05:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "今年这里再也拍不到这种照片了",
+          "link": "https://wuziya.com/273.html",
+          "description": "现在这里已经修路了。",
+          "pub_date": "2025-10-20T23:26:00+08:00",
+          "updated_at": "2025-10-20T23:26:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
         }
       ]
     },
@@ -2059,124 +2059,6 @@
       ]
     },
     {
-      "name": "小屁君的吐槽",
-      "url": "https://blog.ouxiaopi.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
-      "feed_url": "https://blog.ouxiaopi.com/feed",
-      "posts": [
-        {
-          "title": "添加一个新功能，修复一个小BUG",
-          "link": "https://blog.ouxiaopi.com/1796.html",
-          "description": "作者介绍了文章目录功能的实现：通过JS生成，仅匹配文章内容的H2、H3标签，添加锚点并精准定位以避开顶部导航，滚动时高亮当前标题，非PC端隐藏。同时修复了AI摘要中Token明文泄露问题，通过esc_js处理敏感参数，采用后端接口并动态nonce保障安全，避免前端暴露密钥信息。",
-          "pub_date": "2026-03-31T06:06:25+08:00",
-          "updated_at": "2026-03-31T06:06:25+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "从脆弱自我到心流人生，理性与感性的和解之路。",
-          "link": "https://blog.ouxiaopi.com/1786.html",
-          "description": "文章以个人经历切入，强调好奇心是认知起点，指出人性本脆弱，需接纳局限以清醒认知。核心观点认为感性优先于理性，心流是全脑协振的生命状态，是回归本然的体验。通过东西方哲思（柏拉图“美好模型”、朱熹“存天理灭人欲”）论证顺应本心的重要性，结合脑科学说明神经联结决定能力，反对功利性心流，主张心流应是忘却自我、纯粹愉悦的状态，最终倡导接纳脆弱、回归本然，实现个体圆满。",
-          "pub_date": "2026-03-25T03:39:49+08:00",
-          "updated_at": "2026-03-25T03:39:49+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "别人眼中的我，才是我！",
-          "link": "https://blog.ouxiaopi.com/1773.html",
-          "description": "翻看朋友圈的时候，翻到和朋友的合照。认真看自己的时候，觉得熟悉又陌生，那因笑容挤压扭曲的鱼尾纹，那谄媚的脸。那 [&#8230;]",
-          "pub_date": "2026-02-28T03:52:27+08:00",
-          "updated_at": "2026-02-28T03:52:27+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（十一）",
-          "link": "https://blog.ouxiaopi.com/1752.html",
-          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
-          "pub_date": "2026-02-25T06:28:19+08:00",
-          "updated_at": "2026-02-25T06:28:19+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（十）",
-          "link": "https://blog.ouxiaopi.com/1741.html",
-          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
-          "pub_date": "2026-01-26T12:24:01+08:00",
-          "updated_at": "2026-01-26T12:24:01+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小米的”星号”艺术!",
-          "link": "https://blog.ouxiaopi.com/1734.html",
-          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
-          "pub_date": "2026-01-23T07:42:00+08:00",
-          "updated_at": "2026-01-23T07:42:00+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（八）",
-          "link": "https://blog.ouxiaopi.com/1706.html",
-          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
-          "pub_date": "2026-01-15T02:41:26+08:00",
-          "updated_at": "2026-01-15T02:41:26+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "2025年度总结",
-          "link": "https://blog.ouxiaopi.com/1676.html",
-          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
-          "pub_date": "2026-01-04T07:54:40+08:00",
-          "updated_at": "2026-01-04T07:54:40+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "凤英",
-          "link": "https://blog.ouxiaopi.com/1665.html",
-          "description": "米高杨唱的完整版《凤英》",
-          "pub_date": "2025-12-24T14:31:13+08:00",
-          "updated_at": "2025-12-24T14:31:13+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（七）",
-          "link": "https://blog.ouxiaopi.com/1635.html",
-          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
-          "pub_date": "2025-12-14T04:08:11+08:00",
-          "updated_at": "2025-12-14T04:08:11+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        }
-      ]
-    },
-    {
       "name": "Evan",
       "url": "https://www.evan.xin/",
       "avatar": "https://cdn.xiaoten.com/friends/Evan.png",
@@ -2433,12 +2315,23 @@
       "feed_url": "https://lznauy.cn/index.xml",
       "posts": [
         {
+          "title": "claude源码泄漏事件及简单剖析",
+          "link": "https://lznauy.cn/posts/2026-04-01-claude%E6%BA%90%E7%A0%81%E6%B3%84%E6%BC%8F%E4%BA%8B%E4%BB%B6%E5%8F%8A%E7%AE%80%E5%8D%95%E5%89%96%E6%9E%90/",
+          "description": "<h2 id=\"事件描述\">\n  事件描述\n  <a class=\"heading-link\" href=\"#%e4%ba%8b%e4%bb%b6%e6%8f%8f%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>昨天claude源码泄漏事件被暴漏出来，然后整个开源社区就疯狂了，其代码被fork了上千次，很多大佬已经开始分析claude的源码并且使用python重写其核心逻辑。</p>",
+          "pub_date": "2026-04-01T01:46:04+08:00",
+          "updated_at": "2026-04-01T01:46:04+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
           "title": "春季赏花之旅",
           "link": "https://lznauy.cn/posts/2026-03-30-%E6%98%A5%E5%AD%A3%E8%B5%8F%E8%8A%B1%E4%B9%8B%E6%97%85/",
           "description": "<h2 id=\"太子湾公园\">\n  太子湾公园\n  <a class=\"heading-link\" href=\"#%e5%a4%aa%e5%ad%90%e6%b9%be%e5%85%ac%e5%9b%ad\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近杭州一直阴雨连绵，一周难得有那么一两天的晴天，反正不用上班也比较闲，打算去赏花。</p>\n<p>听说太子湾今年花展开始了，准备去太子湾逛逛，顺便放松下心情，于是就拍了各种颜色的郁金香。</p>",
           "pub_date": "2026-03-30T13:44:34+08:00",
           "updated_at": "2026-03-30T13:44:34+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2449,7 +2342,7 @@
           "description": "<p>过去的一段时间真是经历了很多，从年前到年后，很多心力都耗在了公司的事情上。从去年12月底开始，按照以往的惯例是要评估绩效等级的，并且工作群里的绩效评估通知也发了出来，但后来就杳无音信，最终的绩效评估结果也一直没有给出来，当时就已经预感到可能会有一场风波了。然后人力资源部就开始发薪资调整的预案通知，然后选员工代表参加会议，员工代表会议通过后，HR就找员工一个一个签薪资调整协议。</p>",
           "pub_date": "2026-03-17T12:02:49+08:00",
           "updated_at": "2026-03-17T12:02:49+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2460,7 +2353,7 @@
           "description": "<p>** 年前 **</p>\n<p>年前公司内部闹了一波，原因还是降薪协议的事情，对于不签降薪协议的人，公司故意拖着工资不发，后来有几个人在群里闹事、起哄，于是公司迫于压力发了工资，然后在春节假期第一天，闹事的两个人就被裁了，据说也给了赔偿，这年过的也比较煎熬，因为我也属于不签的人，但目前还不清楚什么时候裁我。今年的年终奖没了，甚至大年三十的公司群静悄悄，老板们连个祝福和红包都没发。</p>",
           "pub_date": "2026-02-25T10:31:20+08:00",
           "updated_at": "2026-02-25T10:31:20+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2471,7 +2364,7 @@
           "description": "<p>对于爱情，其实我一直抱有美好的憧憬，即使我知道这种美好不会降临到我身上。小时候不论是听故事、看电视剧还是看小说，爱情叙事总是宏大而感人，最好的结局当然是他们克服了重重困难，最后幸福的在一起。其实比起韩剧那种经受感情的猜疑、外界的挑拨，最终才确认感情的戏份来说，我更喜欢那种宏大叙事中有着共同理想的男女主角经历重重磨难，一起实现伟大抱负，最终幸福在一起的故事，就比如虹猫蓝兔？郭靖黄蓉？（笑</p>",
           "pub_date": "2026-02-05T19:54:31+08:00",
           "updated_at": "2026-02-05T19:54:31+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2482,7 +2375,7 @@
           "description": "<h2 id=\"工作\">\n  工作\n  <a class=\"heading-link\" href=\"#%e5%b7%a5%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>熬过了前几轮的裁员，但降薪这件事是躲不过了，由于公司近几年财务状况不佳，今天发了通告，全员降薪15%-30%作为绩效，并且和公司毛利业绩挂钩，作为一个研发，我的绩效居然和销售有关系了，我的薪资也是经历4年多的努力又重新回到了刚毕业的水平，真是“可喜可贺”啊。</p>",
           "pub_date": "2026-02-03T15:39:57+08:00",
           "updated_at": "2026-02-03T15:39:57+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2493,7 +2386,7 @@
           "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近看到一个利用DeepSeek分析个人隐藏天赋的文章，于是我也打算试试，其实主要还是使用心理测试等方法，通过你的回答来给出具体的分析结果。我尝试了一下，分析的还是有一定道理的，也引发了我的一些思考。</p>",
           "pub_date": "2026-01-21T13:59:55+08:00",
           "updated_at": "2026-01-21T13:59:55+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2504,7 +2397,7 @@
           "description": "<h2 id=\"selinux是什么\">\n  SELinux是什么？\n  <a class=\"heading-link\" href=\"#selinux%e6%98%af%e4%bb%80%e4%b9%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>SELinux可以想象是Linux系统的“超级保安”，核心是给文件、进程、端口等所有资源“贴标签”，再通过严格的访问规则，限制资源间的交互。哪怕你有系统最高权限（root），不符合规则也无法操作不属于自己的资源。</p>",
           "pub_date": "2026-01-17T18:06:00+08:00",
           "updated_at": "2026-01-17T18:06:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2515,7 +2408,7 @@
           "description": "<p>不知道从什么时候开始，自媒体平台及其大多数年轻视频创作者，普遍开始宣扬一个主流思想，那就是及时行乐。其核心思想是自爱、追求自由、享受当下，甚至逃离工作、逃离婚姻、逃离原生家庭，这种价值观很难对其进行批判，大多数人都会赞同，毕竟享受生活、及时行乐有什么不好呢？</p>",
           "pub_date": "2026-01-15T22:17:54+08:00",
           "updated_at": "2026-01-15T22:17:54+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2526,7 +2419,7 @@
           "description": "<p>最近想开始减肥了，奈何始终没什么动力。其实要说有多胖呢，也不是很胖，目前大概170身高，69公斤体重，因为前两年撸铁练过身材，后来停练之后就开始发胖了。仔细想了下没动力的原因一个是即使身材练的挺好，却依然还是单身狗，这点我前两年就体会过了，因为圈子太小，第二点是工作的压力，让我下班后躺在床上根本不想动。</p>",
           "pub_date": "2026-01-10T20:00:54+08:00",
           "updated_at": "2026-01-10T20:00:54+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2537,7 +2430,7 @@
           "description": "<h2 id=\"问题\">\n  问题\n  <a class=\"heading-link\" href=\"#%e9%97%ae%e9%a2%98\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近遇到了一个比较奇葩的bug，属于网络问题，涉及到一些内核参数以及conntrack表，抽空配合客户排查了两三天才找到问题的原因，于是打算写篇文章记录一下排查经验。</p>",
           "pub_date": "2025-12-31T16:07:54+08:00",
           "updated_at": "2025-12-31T16:07:54+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2548,7 +2441,7 @@
           "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>又是一年结束了，跟去年一样，杭州今年冬天也没有下雪，记得上次下雪还是3年前，那天断桥残雪去了好多人，大雪纷飞，我独自回到出租屋吃着外卖，看着视频，然后安然入睡。马上又是元旦了，西湖银泰那边又将有一大群年轻男女等着跨年，在00:00的时刻放飞气球、然后庆祝今年的结束，然后许下明年的愿望。</p>",
           "pub_date": "2025-12-22T17:29:54+08:00",
           "updated_at": "2025-12-22T17:29:54+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2559,7 +2452,7 @@
           "description": "<p>记得小时候父母给我起名时是希望我有远大的理想和抱负，但随着长大我发现自己既没有什么抱负，也没什么理想，所期待的仅仅是拥有一个小家，有一份不错的工资，有一个陪着自己的爱人，然后过上无忧无虑的生活，我估计大部分人也是这样想的，所以人生总是充斥着事与愿违。</p>",
           "pub_date": "2025-12-20T14:03:00+08:00",
           "updated_at": "2025-12-20T14:03:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2570,7 +2463,7 @@
           "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>快到年尾了，打算写篇文章总结一下今年使用频率最高、个人感觉最好用的工作软件。主要为Mac端，因为我平时除了打游戏之外几乎不用Windows系统办公，年度软件全凭个人喜好，纯主观，编程ide就不介绍了，无非是trae、qoder、claude code、kiro等，我日常还是主要用trae的国内版，因为免费。</p>",
           "pub_date": "2025-12-18T16:36:00+08:00",
           "updated_at": "2025-12-18T16:36:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2581,7 +2474,7 @@
           "description": "<p>人们都说上了年纪的人喜欢回忆从前，但我却不知怎的，年轻轻轻也总是喜欢回忆从前。</p>\n<p>想起上学的时候喜欢在QQ空间发“涩话”，后来看太羞耻，于是某个瞬间将QQ空间所有说说都删了，以为这样才能标志着我的成长。如今又过了好多年，又想着如果能把QQ空间所有的记录找回来该多好。于是我在网上搜索能找回QQ空间历史记录的方法，终于发现一个\n\n<a class=\"external-link\" href=\"https://github.com/ll0v0ll/GetQzonehistory\" rel=\"noopener\" target=\"_blank\">GetQzonehistory</a> 的开源项目，但总归是有遗憾，只找回了近三年的记录。看着以前发的说说，莫名感慨， 总想写点什么，却不知如何下笔。删掉的说说并没有彻底删掉，忘掉的过去也没有彻底忘掉，它们成为一个人灵魂的碎片。</p>",
           "pub_date": "2025-12-13T17:35:00+08:00",
           "updated_at": "2025-12-13T17:35:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2592,7 +2485,7 @@
           "description": "<p>在当今的云原生和容器化环境中，服务器监控已成为确保系统稳定性和性能的关键环节。然而，传统的监控解决方案往往过于复杂和资源密集，对于小型团队和个人开发者来说可能显得有些&quot;杀鸡用牛刀&quot;。今天我们要介绍的是一个新兴的轻量级监控平台——Beszel，它旨在为用户提供简单、高效且易于部署的监控体验。</p>",
           "pub_date": "2025-12-10T15:25:00+08:00",
           "updated_at": "2025-12-10T15:25:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2603,7 +2496,7 @@
           "description": "<h2 id=\"何为capabilities\">\n  何为capabilities？\n  <a class=\"heading-link\" href=\"#%e4%bd%95%e4%b8%bacapabilities\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>为了执行权限检查，传统的 UNIX 实现将进程分为两类： 特权进程（其有效用户 ID 为 0，称为超级用户或 root 用户）和非特权进程（其有效 UID 非零）。</p>",
           "pub_date": "2025-12-02T15:25:00+08:00",
           "updated_at": "2025-12-02T15:25:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2614,7 +2507,7 @@
           "description": "<h2 id=\"什么是cgroup\">\n  什么是Cgroup\n  <a class=\"heading-link\" href=\"#%e4%bb%80%e4%b9%88%e6%98%afcgroup\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>根据维基百科的介绍</p>\n<blockquote>\n<p><strong>cgroups</strong> (abbreviated from <strong>control groups</strong>) is a Linux kernel feature that limits, accounts for, and isolates the resource usage  of a collection of processes.</p>\n</blockquote>\n<p>cgroups是linux内核提供的一项能力，用来控制某一个进程组的资源（IO、内存、CPU等）使用能力，这项功能的好处就是便于用户自己针对某个进程组分配资源。</p>",
           "pub_date": "2025-12-01T11:45:00+08:00",
           "updated_at": "2025-12-01T11:45:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2625,7 +2518,7 @@
           "description": "<p>目前大部分AI应用基本都是python开发，因为python的语言优势和学习成本，使其成为计算科学、深度学习的主流编程语言。</p>\n<p>因为公司项目的需求，所以最近调研了下golang有什么比较好的AI框架，现在github有几个比较火的框架，比如\n\n<a class=\"external-link\" href=\"https://github.com/tmc/langchaingo\" rel=\"noopener\" target=\"_blank\">langchaingo</a>和\n\n<a class=\"external-link\" href=\"https://github.com/cloudwego/eino\" rel=\"noopener\" target=\"_blank\">eino</a>还有最近的\n\n<a class=\"external-link\" href=\"https://github.com/google/adk-go\" rel=\"noopener\" target=\"_blank\">adk-go</a></p>",
           "pub_date": "2025-11-27T11:44:00+08:00",
           "updated_at": "2025-11-27T11:44:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2636,7 +2529,7 @@
           "description": "<h2 id=\"关于博客\">\n  关于博客\n  <a class=\"heading-link\" href=\"#%e5%85%b3%e4%ba%8e%e5%8d%9a%e5%ae%a2\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>2019年，我上大一，当时使用hexo搭建了自己的第一个博客网站，当时用的\n\n<a class=\"external-link\" href=\"https://github.com/fluid-dev/hexo-theme-fluid\" rel=\"noopener\" target=\"_blank\">fluid</a>主题，后来一边啃计算机基础课程，一边陆陆续续写了很多基础知识类的文章。</p>",
           "pub_date": "2025-11-26T16:30:00+08:00",
           "updated_at": "2025-11-26T16:30:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2647,7 +2540,7 @@
           "description": "<h2 id=\"何为redis\">\n  何为redis\n  <a class=\"heading-link\" href=\"#%e4%bd%95%e4%b8%baredis\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>根据维基百科的解释，<strong>Redis</strong>（Remote Dictionary Server）是一个使用\n\n<a class=\"external-link\" href=\"https://zh.wikipedia.org/wiki/ANSI_C\" rel=\"noopener\" target=\"_blank\" title=\"ANSI C\">ANSI C</a>编写的支持网络、基于内存、分布式、可选\n\n<a class=\"external-link\" href=\"https://zh.wikipedia.org/wiki/%E6%8C%81%E4%B9%85%E6%80%A7\" rel=\"noopener\" target=\"_blank\" title=\"持久性\">持久性</a>的\n\n<a class=\"external-link\" href=\"https://zh.wikipedia.org/wiki/%E9%94%AE%E5%80%BC-%E5%80%BC%E6%95%B0%E6%8D%AE%E5%BA%93\" rel=\"noopener\" target=\"_blank\" title=\"键值-值数据库\">键值对存储数据库</a>。</p>",
           "pub_date": "2025-11-26T15:25:00+08:00",
           "updated_at": "2025-11-26T15:25:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2658,7 +2551,7 @@
           "description": "<h2 id=\"前言\">\n  前言\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e8%a8%80\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>此文讲解一下大部分源码编译的过程和常用linux库的编译方法</p>\n<p>一般而言，基本的编译工具包括make/cmake、gcc/g++/clang、ld等</p>",
           "pub_date": "2025-11-25T11:07:00+08:00",
           "updated_at": "2025-11-25T11:07:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2669,7 +2562,7 @@
           "description": "<h2 id=\"前言\">\n  前言\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e8%a8%80\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>此前在开发工作中遇到过一些偶现的并发问题，较难通过打日志和本地debug排查，因此当时使用gdb在测试环境排查问题</p>\n<p>有人觉得gdb已经过时了，但我觉得目前仍有一些场景它能起到关键作用，此文主要介绍gdb调试go程序的基本方法</p>",
           "pub_date": "2025-11-25T10:37:00+08:00",
           "updated_at": "2025-11-25T10:37:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2680,7 +2573,7 @@
           "description": "<p>最近申请加入“开往”，却被疑似有大量AIGC内容被驳回了</p>\n<p>本站在今年确实有很多基于AI润色的技术类文章，也将在后续开发一个过滤器选择性过滤这部分文章，读者可以不看这些内容。</p>",
           "pub_date": "2025-11-23T14:27:00+08:00",
           "updated_at": "2025-11-23T14:27:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2691,7 +2584,7 @@
           "description": "<p>最近看到一句话，“为什么有的人总是优柔寡断、穷思竭虑？”</p>\n<p>后来看到另一句，“风险自担者，落子不易”，那短短七个字，像一枚沉沉的棋子，轻轻落进心里，漾开一圈圈的涟漪。</p>",
           "pub_date": "2025-11-23T12:54:00+08:00",
           "updated_at": "2025-11-23T12:54:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2702,7 +2595,7 @@
           "description": "<h2 id=\"一-基础介绍\">\n  一. 基础介绍\n  <a class=\"heading-link\" href=\"#%e4%b8%80-%e5%9f%ba%e7%a1%80%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Vicinae 是一款专为 Linux 平台设计的高性能应用启动器，旨在提供一个快速、统一的界面，用于应用程序启动、命令执行和系统操作。</p>\n<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"image\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" style=\"background-color: #f8f8f8;\" title=\"\" />\n</p>\n<p>Vicinae 的核心目标是提供一个轻量级且响应迅速的效率工具，避免了基于 Web 技术（如 Electron）的启动器所带来的资源消耗问题。</p>",
           "pub_date": "2025-11-21T17:31:00+08:00",
           "updated_at": "2025-11-21T17:31:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2713,7 +2606,7 @@
           "description": "<h2 id=\"第一章\">\n  第一章\n  <a class=\"heading-link\" href=\"#%e7%ac%ac%e4%b8%80%e7%ab%a0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<ol>\n<li>声明式(declaration)告诉编译器某个东西的名称和类型，定义式(definition)提供编译器的一些声明式所遗漏的细节。</li>\n<li>所谓default构造函数是一个可被调用而不带任何实参者，这样的构造函数要么没有参数，要么每个参数都有缺省值。</li>\n<li>explicit可禁止编译器执行非预期的类型转换，除非有一个好理由允许构造函数被用于隐式类型转换，否则最好声明为explicit。</li>\n<li>copy构造函数被用来以同类型对象初始化自我对象，copyAssignment操作符被用来从另一个同型对象中拷贝其值到自我对象。</li>\n<li>如果一个新对象被定义，一定会有一个构造函数被调用，不可能调用赋值操作。</li>\n</ol>\n\n\n<h2 id=\"第二章\">\n  第二章\n  <a class=\"heading-link\" href=\"#%e7%ac%ac%e4%ba%8c%e7%ab%a0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<ol>\n<li>\n<p>视C++为一个语言联邦<br />\nC++是一个多重范型编程语言，同时支持过程形式、面向对象形式、函数形式、泛型形式、元编程形式。<br />\n简单的方法是将C++视为一个由相关语言组成的联邦而非单一语言。</p>",
           "pub_date": "2025-11-17T15:10:00+08:00",
           "updated_at": "2025-11-17T15:10:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2724,7 +2617,7 @@
           "description": "<h2 id=\"设置静态ip\">\n  设置静态IP\n  <a class=\"heading-link\" href=\"#%e8%ae%be%e7%bd%ae%e9%9d%99%e6%80%81ip\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>以下是在Ubuntu 22.04上设置静态IP的步骤：</p>\n<ol>\n<li>首先打开终端，使用以下命令编辑网络配置文件：</li>\n</ol>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">sudo nano /etc/netplan/00-installer-config.yaml\n</span></span></code></pre></div><ol start=\"2\">\n<li>确认文件内容如下所示：</li>\n</ol>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-yaml\"><span class=\"line\"><span class=\"cl\"><span class=\"c\"># This is the network config written by 'subiquity'</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"nt\">network</span><span class=\"p\">:</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">  </span><span class=\"nt\">ethernets</span><span class=\"p\">:</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">    </span><span class=\"nt\">enp0s3</span><span class=\"p\">:</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">      </span><span class=\"nt\">dhcp4</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kc\">true</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">  </span><span class=\"nt\">version</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"m\">2</span><span class=\"w\">\n</span></span></span></code></pre></div><p>其中 <code>enp0s3</code>​ 是网络接口的名称。这个名称可能因不同的系统而异，可以使用 <code>ifconfig</code> 命令查看本机的网络接口名称。</p>",
           "pub_date": "2025-11-17T13:34:00+08:00",
           "updated_at": "2025-11-17T13:34:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2735,7 +2628,7 @@
           "description": "<p>想象一下，我们有三台缓存服务器（编号0、1、2），需要存储3万个文件。如何让这些文件均匀分布，既能让每台服务器分摊压力，又能快速找到需要的文件呢？</p>",
           "pub_date": "2025-11-10T16:34:00+08:00",
           "updated_at": "2025-11-10T16:34:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2746,7 +2639,7 @@
           "description": "<h3 id=\"深入了解系统-io-监控工具iotop\">\n  深入了解系统 I/O 监控工具：iotop\n  <a class=\"heading-link\" href=\"#%e6%b7%b1%e5%85%a5%e4%ba%86%e8%a7%a3%e7%b3%bb%e7%bb%9f-io-%e7%9b%91%e6%8e%a7%e5%b7%a5%e5%85%b7iotop\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>在日常使用 Linux 系统时，我们常常需要了解哪些进程正在大量读写磁盘，从而判断系统是否因为 I/O 瓶颈而变慢。<code>iotop</code>​ 就是这样一个直观、易用的工具，它能够实时监控各个进程的磁盘 I/O 使用情况，让我们像使用 <code>top</code> 命令查看 CPU 和内存那样，轻松掌握系统的 I/O 动态。</p>",
           "pub_date": "2025-10-29T15:59:00+08:00",
           "updated_at": "2025-10-29T15:59:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2757,7 +2650,7 @@
           "description": "<h2 id=\"概述\">\n  概述\n  <a class=\"heading-link\" href=\"#%e6%a6%82%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Python 虚拟环境是开发中的重要工具，它能够为每个项目创建独立的Python运行环境，有效解决不同项目间的依赖冲突问题。通过虚拟环境，开发者可以确保项目的可移植性和环境一致性。</p>",
           "pub_date": "2025-10-28T15:33:00+08:00",
           "updated_at": "2025-10-28T15:33:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2768,7 +2661,7 @@
           "description": "<h2 id=\"1-python-编译为-pyc-文件\">\n  1. Python 编译为 pyc 文件\n  <a class=\"heading-link\" href=\"#1-python-%e7%bc%96%e8%af%91%e4%b8%ba-pyc-%e6%96%87%e4%bb%b6\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"11-基本编译方法\">\n  1.1 基本编译方法\n  <a class=\"heading-link\" href=\"#11-%e5%9f%ba%e6%9c%ac%e7%bc%96%e8%af%91%e6%96%b9%e6%b3%95\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>pyc 文件是 Python 的字节码编译文件，能够提高模块加载速度并保护源代码。</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Python3 源码目录编译 pyc</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># -b 参数表示在 legacy 模式下生成 pyc 文件（不带 Python 版本号）</span>\n</span></span><span class=\"line\"><span class=\"cl\">python -m compileall -b .\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Python2 源码目录编译 pyc</span>\n</span></span><span class=\"line\"><span class=\"cl\">python -m compileall .\n</span></span></code></pre></div>\n\n<h3 id=\"12-清理与优化\">\n  1.2 清理与优化\n  <a class=\"heading-link\" href=\"#12-%e6%b8%85%e7%90%86%e4%b8%8e%e4%bc%98%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>编译完成后，需要进行文件清理以保持目录整洁：</p>",
           "pub_date": "2025-10-28T15:20:00+08:00",
           "updated_at": "2025-10-28T15:20:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2779,7 +2672,7 @@
           "description": "<h3 id=\"二进制文件分析指南\">\n  二进制文件分析指南\n  <a class=\"heading-link\" href=\"#%e4%ba%8c%e8%bf%9b%e5%88%b6%e6%96%87%e4%bb%b6%e5%88%86%e6%9e%90%e6%8c%87%e5%8d%97\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>二进制文件分析是软件逆向工程、安全研究和程序调试中的基础技能。下面介绍常用的二进制分析工具及其应用场景。</p>\n\n\n<h4 id=\"1-文件类型识别\">\n  1. 文件类型识别\n  <a class=\"heading-link\" href=\"#1-%e6%96%87%e4%bb%b6%e7%b1%bb%e5%9e%8b%e8%af%86%e5%88%ab\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h4>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 使用file命令识别文件类型和架构信息</span>\n</span></span><span class=\"line\"><span class=\"cl\">file /bin/ls\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 输出示例：/bin/ls: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped</span>\n</span></span></code></pre></div><p><strong>作用</strong>：快速确定文件格式（ELF、PE、Mach-O等）、位宽、链接方式和是否经过strip处理。</p>",
           "pub_date": "2025-10-28T14:31:00+08:00",
           "updated_at": "2025-10-28T14:31:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2790,7 +2683,7 @@
           "description": "<h2 id=\"一基本介绍\">\n  一、基本介绍\n  <a class=\"heading-link\" href=\"#%e4%b8%80%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Mysqldump 是 MySQL 数据库管理系统中最常用的数据备份工具，它能够将数据库中的数据和结构导出为 SQL 脚本文件，便于数据迁移、备份和恢复。</p>\n\n\n<h2 id=\"二常用命令示例\">\n  二、常用命令示例\n  <a class=\"heading-link\" href=\"#%e4%ba%8c%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e7%a4%ba%e4%be%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"1-完整数据库备份\">\n  1. 完整数据库备份\n  <a class=\"heading-link\" href=\"#1-%e5%ae%8c%e6%95%b4%e6%95%b0%e6%8d%ae%e5%ba%93%e5%a4%87%e4%bb%bd\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 一次性导出所有数据库（完整备份）</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p --all-databases &gt; /home/all_databases_backup.sql\n</span></span></code></pre></div>\n\n<h3 id=\"2-单数据库操作\">\n  2. 单数据库操作\n  <a class=\"heading-link\" href=\"#2-%e5%8d%95%e6%95%b0%e6%8d%ae%e5%ba%93%e6%93%8d%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 导出指定数据库（包含结构和数据）</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p db_name &gt; file.sql\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 仅导出数据库结构，不包含数据</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump --opt -d db_name -uroot -p &gt; file_structure_only.sql\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 仅导出数据，不包含表结构</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -t db_name -uroot -p &gt; file_data_only.sql\n</span></span></code></pre></div>\n\n<h3 id=\"3-表级操作\">\n  3. 表级操作\n  <a class=\"heading-link\" href=\"#3-%e8%a1%a8%e7%ba%a7%e6%93%8d%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 导出特定表的结构和数据</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p -B db_name --table tb_name &gt; file.sql\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 导出多个指定表</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p db_name table1 table2 &gt; multiple_tables.sql\n</span></span></code></pre></div>\n\n<h3 id=\"4-数据导入\">\n  4. 数据导入\n  <a class=\"heading-link\" href=\"#4-%e6%95%b0%e6%8d%ae%e5%af%bc%e5%85%a5\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 方法一：使用 source 命令（在 MySQL 命令行中执行）</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysql -uroot -p\n</span></span><span class=\"line\"><span class=\"cl\">use target_database<span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"nb\">source</span> /temp/file.sql<span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 方法二：直接使用 mysql 命令</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysql -uroot -p target_database &lt; file.sql\n</span></span></code></pre></div>\n\n<h2 id=\"三常见问题与解决方案\">\n  三、常见问题与解决方案\n  <a class=\"heading-link\" href=\"#%e4%b8%89%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e4%b8%8e%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"错误处理\">\n  错误处理\n  <a class=\"heading-link\" href=\"#%e9%94%99%e8%af%af%e5%a4%84%e7%90%86\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p><strong>问题描述：</strong></p>",
           "pub_date": "2025-10-27T15:29:00+08:00",
           "updated_at": "2025-10-27T15:29:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2801,7 +2694,7 @@
           "description": "<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"image\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" style=\"background-color: #f8f8f8;\" title=\"\" />\n</p>\n\n\n<h2 id=\"一git-基础配置与初始化\">\n  一、Git 基础配置与初始化\n  <a class=\"heading-link\" href=\"#%e4%b8%80git-%e5%9f%ba%e7%a1%80%e9%85%8d%e7%bd%ae%e4%b8%8e%e5%88%9d%e5%a7%8b%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"11-远程仓库连接\">\n  1.1 远程仓库连接\n  <a class=\"heading-link\" href=\"#11-%e8%bf%9c%e7%a8%8b%e4%bb%93%e5%ba%93%e8%bf%9e%e6%8e%a5\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 克隆远程仓库（HTTP认证方式）</span>\n</span></span><span class=\"line\"><span class=\"cl\">git clone http://username:password@remote\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 测试 SSH 连接是否生效</span>\n</span></span><span class=\"line\"><span class=\"cl\">ssh -T git@github.com\n</span></span></code></pre></div>\n\n<h3 id=\"12-用户身份配置\">\n  1.2 用户身份配置\n  <a class=\"heading-link\" href=\"#12-%e7%94%a8%e6%88%b7%e8%ba%ab%e4%bb%bd%e9%85%8d%e7%bd%ae\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 查看当前全局配置</span>\n</span></span><span class=\"line\"><span class=\"cl\">git config --global --list\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 配置全局用户名和邮箱（重要：用于标识提交者身份）</span>\n</span></span><span class=\"line\"><span class=\"cl\">git config --global user.name <span class=\"s2\">\"xxxx\"</span>\n</span></span><span class=\"line\"><span class=\"cl\">git config --global user.email <span class=\"s2\">\"xxxxx\"</span>\n</span></span></code></pre></div>\n\n<h3 id=\"13-仓库初始化\">\n  1.3 仓库初始化\n  <a class=\"heading-link\" href=\"#13-%e4%bb%93%e5%ba%93%e5%88%9d%e5%a7%8b%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 初始化本地 Git 仓库</span>\n</span></span><span class=\"line\"><span class=\"cl\">git init\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 克隆远程版本库到本地</span>\n</span></span><span class=\"line\"><span class=\"cl\">git clone &lt;repository_url&gt;\n</span></span></code></pre></div>\n\n<h2 id=\"二文件跟踪与版本管理\">\n  二、文件跟踪与版本管理\n  <a class=\"heading-link\" href=\"#%e4%ba%8c%e6%96%87%e4%bb%b6%e8%b7%9f%e8%b8%aa%e4%b8%8e%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"21-文件状态监控\">\n  2.1 文件状态监控\n  <a class=\"heading-link\" href=\"#21-%e6%96%87%e4%bb%b6%e7%8a%b6%e6%80%81%e7%9b%91%e6%8e%a7\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 查看工作区和暂存区状态</span>\n</span></span><span class=\"line\"><span class=\"cl\">git status\n</span></span></code></pre></div>\n\n<h3 id=\"22-文件添加与删除\">\n  2.2 文件添加与删除\n  <a class=\"heading-link\" href=\"#22-%e6%96%87%e4%bb%b6%e6%b7%bb%e5%8a%a0%e4%b8%8e%e5%88%a0%e9%99%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 添加文件到暂存区</span>\n</span></span><span class=\"line\"><span class=\"cl\">git add .                        <span class=\"c1\"># 跟踪所有改动过的文件</span>\n</span></span><span class=\"line\"><span class=\"cl\">git add --all                    <span class=\"c1\"># 添加所有文件（包括新增和删除）</span>\n</span></span><span class=\"line\"><span class=\"cl\">git add &lt;file&gt;                   <span class=\"c1\"># 跟踪指定文件</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 文件删除管理</span>\n</span></span><span class=\"line\"><span class=\"cl\">git rm &lt;file&gt;                    <span class=\"c1\"># 删除文件并停止跟踪</span>\n</span></span><span class=\"line\"><span class=\"cl\">git rm --cached &lt;file&gt;           <span class=\"c1\"># 停止跟踪文件但不删除本地文件</span>\n</span></span><span class=\"line\"><span class=\"cl\">git mv &lt;old_file&gt; &lt;new_file&gt;     <span class=\"c1\"># 文件重命名</span>\n</span></span></code></pre></div>\n\n<h3 id=\"23-文件暂存\">\n  2.3 文件暂存\n  <a class=\"heading-link\" href=\"#23-%e6%96%87%e4%bb%b6%e6%9a%82%e5%ad%98\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>要将当前未提交的改动同步到新分支，可以按照以下步骤操作，确保工作区的修改不丢失：</p>",
           "pub_date": "2025-10-24T11:31:00+08:00",
           "updated_at": "2025-10-24T11:31:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2812,7 +2705,7 @@
           "description": "<h3 id=\"svn-常用命令详解\">\n  SVN 常用命令详解\n  <a class=\"heading-link\" href=\"#svn-%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e8%af%a6%e8%a7%a3\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>SVN（Subversion）是一个广泛使用的版本控制系统，用于管理文件和目录的变更。以下是对常用 SVN 命令的结构化整理，涵盖代码检出、提交、更新、日志查看、分支操作等核心功能，帮助开发者更高效地使用 SVN。</p>",
           "pub_date": "2025-10-24T11:17:00+08:00",
           "updated_at": "2025-10-24T11:17:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2823,7 +2716,7 @@
           "description": "<h2 id=\"概述\">\n  概述\n  <a class=\"heading-link\" href=\"#%e6%a6%82%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>systemtap是一个强大的动态跟踪工具，能够深入Linux内核和用户空间程序，实时监控系统行为和性能特征。与coredump（事后分析）和auditd（偏向安全审计）不同，systemtap提供了一种主动式、低开销的监控方法，可以在不中断服务的情况下，持续监控系统状态，特别适合排查那些难以复现或间歇性出现的崩溃问题。</p>",
           "pub_date": "2025-10-23T15:13:00+08:00",
           "updated_at": "2025-10-23T15:13:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2834,7 +2727,7 @@
           "description": "<h2 id=\"一wails-简介\">\n  一、Wails 简介\n  <a class=\"heading-link\" href=\"#%e4%b8%80wails-%e7%ae%80%e4%bb%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Wails 是一个用于构建跨平台桌面应用的工具，允许开发者使用 Go 语言（后端）和 Web 技术（HTML/CSS/JavaScript，前端）开发桌面应用，无需依赖 Electron 等重型框架，具有轻量、高性能的特点。支持 Windows、macOS、Linux 系统。</p>",
           "pub_date": "2025-10-23T14:45:00+08:00",
           "updated_at": "2025-10-23T14:45:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2845,7 +2738,7 @@
           "description": "<h2 id=\"一磁盘分区基础概念\">\n  一、磁盘分区基础概念\n  <a class=\"heading-link\" href=\"#%e4%b8%80%e7%a3%81%e7%9b%98%e5%88%86%e5%8c%ba%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>在 Linux 系统中，磁盘分区是将物理硬盘划分为多个逻辑单元的过程。每个分区可以独立格式化、挂载和使用，便于数据管理和系统维护。</p>",
           "pub_date": "2025-10-23T11:15:00+08:00",
           "updated_at": "2025-10-23T11:15:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2856,7 +2749,7 @@
           "description": "<h2 id=\"minio-服务端-docker-部署\">\n  Minio 服务端 Docker 部署\n  <a class=\"heading-link\" href=\"#minio-%e6%9c%8d%e5%8a%a1%e7%ab%af-docker-%e9%83%a8%e7%bd%b2\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p><strong>Minio</strong> 是一个高性能、开源的对象存储解决方案，完全兼容 Amazon S3 API，它专为云原生和容器化环境设计，提供了简单易用的分布式对象存储服务。</p>",
           "pub_date": "2025-10-23T11:11:00+08:00",
           "updated_at": "2025-10-23T11:11:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2867,7 +2760,7 @@
           "description": "<h3 id=\"harbor-私有镜像仓库使用指南\">\n  Harbor 私有镜像仓库使用指南\n  <a class=\"heading-link\" href=\"#harbor-%e7%a7%81%e6%9c%89%e9%95%9c%e5%83%8f%e4%bb%93%e5%ba%93%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n\n\n<h4 id=\"1-环境配置\">\n  1. 环境配置\n  <a class=\"heading-link\" href=\"#1-%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h4>\n<p>在使用 Harbor 私有镜像仓库前，需要配置 Docker 客户端以允许通过 HTTP 协议连接 Harbor（默认使用 HTTP 而非 HTTPS）。</p>",
           "pub_date": "2025-10-23T10:27:00+08:00",
           "updated_at": "2025-10-23T10:27:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2878,7 +2771,7 @@
           "description": "<h1 id=\"supervisor-进程管理工具详解\">\n  Supervisor 进程管理工具详解\n  <a class=\"heading-link\" href=\"#supervisor-%e8%bf%9b%e7%a8%8b%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7%e8%af%a6%e8%a7%a3\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n\n\n<h2 id=\"1-安装方法\">\n  1. 安装方法\n  <a class=\"heading-link\" href=\"#1-%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>根据不同的操作系统环境，Supervisor 提供多种安装方式：</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Arch Linux/Manjaro 系统</span>\n</span></span><span class=\"line\"><span class=\"cl\">yay -S supervisor\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 使用 Python pip 安装（跨平台）</span>\n</span></span><span class=\"line\"><span class=\"cl\">pip install supervisor\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Ubuntu/Debian 系统</span>\n</span></span><span class=\"line\"><span class=\"cl\">sudo apt-get install supervisor\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># CentOS/RHEL 系统</span>\n</span></span><span class=\"line\"><span class=\"cl\">sudo yum install supervisor\n</span></span></code></pre></div>\n\n<h2 id=\"2-配置文件结构\">\n  2. 配置文件结构\n  <a class=\"heading-link\" href=\"#2-%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e7%bb%93%e6%9e%84\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Supervisor 采用分层配置结构，确保管理的灵活性和清晰性：</p>",
           "pub_date": "2025-10-22T16:12:00+08:00",
           "updated_at": "2025-10-22T16:12:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2889,7 +2782,7 @@
           "description": "<h3 id=\"fnm快速轻量的-nodejs-版本管理器\">\n  Fnm：快速、轻量的 Node.js 版本管理器\n  <a class=\"heading-link\" href=\"#fnm%e5%bf%ab%e9%80%9f%e8%bd%bb%e9%87%8f%e7%9a%84-nodejs-%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86%e5%99%a8\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n\n\n<h4 id=\"简介\">\n  简介\n  <a class=\"heading-link\" href=\"#%e7%ae%80%e4%bb%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h4>\n<p>\n\n<a class=\"external-link\" href=\"https://github.com/Schniz/fnm\" rel=\"noopener\" target=\"_blank\">Fnm</a>（Fast Node Manager）是一款使用 Rust 编写的 Node.js 版本管理工具，具有跨平台、高性能和易用等特点。它能够帮助开发者快速切换和管理多个 Node.js 版本，适用于开发、测试和生产环境。</p>",
           "pub_date": "2025-10-22T14:26:00+08:00",
           "updated_at": "2025-10-22T14:26:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2900,7 +2793,7 @@
           "description": "<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"image\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" style=\"background-color: #f8f8f8;\" title=\"\" />\n</p>\n\n\n<h1 id=\"nmap-脚本引擎使用指南\">\n  Nmap 脚本引擎使用指南\n  <a class=\"heading-link\" href=\"#nmap-%e8%84%9a%e6%9c%ac%e5%bc%95%e6%93%8e%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n\n\n<h2 id=\"1-nmap-脚本引擎概述\">\n  1. Nmap 脚本引擎概述\n  <a class=\"heading-link\" href=\"#1-nmap-%e8%84%9a%e6%9c%ac%e5%bc%95%e6%93%8e%e6%a6%82%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Nmap 脚本引擎（NSE）是 Nmap 最强大的功能之一，它允许用户编写和使用脚本来进行更深入的网络探测和安全检测。</p>",
           "pub_date": "2025-10-22T11:26:00+08:00",
           "updated_at": "2025-10-22T11:26:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2911,7 +2804,7 @@
           "description": "<h2 id=\"tcpdump-使用\">\n  Tcpdump 使用\n  <a class=\"heading-link\" href=\"#tcpdump-%e4%bd%bf%e7%94%a8\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>tcpdump 的功能非常强大，其过滤表达式是核心。​</p>\n<p>以下是更多常用命令和场景的补充，并对表达式语法进行解释。</p>\n\n\n<h3 id=\"1-按网络过滤\">\n  1. <strong>按网络过滤</strong>\n  <a class=\"heading-link\" href=\"#1-%e6%8c%89%e7%bd%91%e7%bb%9c%e8%bf%87%e6%bb%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听所有进出 192.168.1.0/24 网络的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 net 192.168.1.0/24\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听目标网络为 10.0.0.0/8 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 dst net 10.0.0.0/8\n</span></span></code></pre></div>\n\n<h3 id=\"2-按端口过滤\">\n  2. <strong>按端口过滤</strong>\n  <a class=\"heading-link\" href=\"#2-%e6%8c%89%e7%ab%af%e5%8f%a3%e8%bf%87%e6%bb%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听所有经过端口 80 (HTTP) 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听源端口或目标端口为 53 (DNS) 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 port <span class=\"m\">53</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听目标端口为 443 (HTTPS) 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 dst port <span class=\"m\">443</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听源端口为 12345 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 src port <span class=\"m\">12345</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听端口范围 (如 8000-8080)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 portrange 8000-8080\n</span></span></code></pre></div>\n\n<h3 id=\"3-按协议过滤\">\n  3. <strong>按协议过滤</strong>\n  <a class=\"heading-link\" href=\"#3-%e6%8c%89%e5%8d%8f%e8%ae%ae%e8%bf%87%e6%bb%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 ICMP 数据包 (如 ping)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 icmp\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 TCP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 tcp\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 UDP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 udp\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 ARP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 arp\n</span></span></code></pre></div>\n\n<h3 id=\"4-组合过滤高级用法\">\n  4. <strong>组合过滤（高级用法）</strong>\n  <a class=\"heading-link\" href=\"#4-%e7%bb%84%e5%90%88%e8%bf%87%e6%bb%a4%e9%ab%98%e7%ba%a7%e7%94%a8%e6%b3%95\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听来自主机 192.168.1.100，目标端口为 80 的 TCP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 <span class=\"s1\">'tcp and src host 192.168.1.100 and dst port 80'</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听所有不是 ping (ICMP) 并且不是 SSH (端口 22) 的流量</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 <span class=\"s1\">'not icmp and not port 22'</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听来自网络 192.168.1.0/24，去往任何主机端口 80 或 443 的流量</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 <span class=\"s1\">'src net 192.168.1.0/24 and (dst port 80 or dst port 443)'</span>\n</span></span></code></pre></div>\n\n<h3 id=\"5-控制输出和保存文件\">\n  5. <strong>控制输出和保存文件</strong>\n  <a class=\"heading-link\" href=\"#5-%e6%8e%a7%e5%88%b6%e8%be%93%e5%87%ba%e5%92%8c%e4%bf%9d%e5%ad%98%e6%96%87%e4%bb%b6\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 不将 IP 地址转换为主机名 (避免 DNS 查询，输出更清爽)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -n -i ens3\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 不将端口号转换为服务名 (如 80 -&gt; http)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -nn -i ens3\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 以 ASCII 和 HEX 格式同时显示数据包内容 (用于调试应用层数据)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -A -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -X -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 组合使用</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -XX -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 将捕获的数据包保存到文件 (方便之后用 Wireshark 分析)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -w capture_file.pcap host node1\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 从之前保存的文件中读取并分析数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -r capture_file.pcap\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 限制捕获数据包的大小 (例如只抓每个包的前 96 字节，包含头部)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -s <span class=\"m\">96</span> port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 仅捕获 10 个数据包后退出</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -c <span class=\"m\">10</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 详细输出 (更详细的时间戳、TTL 等信息)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -v\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -vv <span class=\"c1\"># 更详细</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -vvv <span class=\"c1\"># 最详细</span>\n</span></span></code></pre></div><hr />\n\n\n<h3 id=\"过滤表达式语法核心\">\n  <strong>过滤表达式语法核心</strong>\n  <a class=\"heading-link\" href=\"#%e8%bf%87%e6%bb%a4%e8%a1%a8%e8%be%be%e5%bc%8f%e8%af%ad%e6%b3%95%e6%a0%b8%e5%bf%83\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>tcpdump 使用 <strong>伯克利包过滤 (BPF)</strong>  语法，其基本结构是：</p>",
           "pub_date": "2025-10-21T17:18:00+08:00",
           "updated_at": "2025-10-21T17:18:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -2922,7 +2815,7 @@
           "description": "<h1 id=\"upx一款高效的二进制压缩工具\">\n  Upx一款高效的二进制压缩工具\n  <a class=\"heading-link\" href=\"#upx%e4%b8%80%e6%ac%be%e9%ab%98%e6%95%88%e7%9a%84%e4%ba%8c%e8%bf%9b%e5%88%b6%e5%8e%8b%e7%bc%a9%e5%b7%a5%e5%85%b7\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n<p>upx 是一款压缩可执行文件的软件，压缩率在 20% 到 %70 之间。在可执行文件运行的时候并不需要解压软件，程序在内存中自动展开</p>",
           "pub_date": "2025-10-16T10:29:00+08:00",
           "updated_at": "2025-10-16T10:29:00+08:00",
-          "author": "lznauy的技术小屋",
+          "author": "lznauy",
           "site_name": "lznauy的技术小屋",
           "site_url": "https://lznauy.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -3158,6 +3051,124 @@
       ]
     },
     {
+      "name": "小屁君的吐槽",
+      "url": "https://blog.ouxiaopi.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
+      "feed_url": "https://blog.ouxiaopi.com/feed",
+      "posts": [
+        {
+          "title": "添加一个新功能，修复一个小BUG",
+          "link": "https://blog.ouxiaopi.com/1796.html",
+          "description": "作者介绍了文章目录功能的实现：通过JS生成，仅匹配文章内容的H2、H3标签，添加锚点并精准定位以避开顶部导航，滚动时高亮当前标题，非PC端隐藏。同时修复了AI摘要中Token明文泄露问题，通过esc_js处理敏感参数，采用后端接口并动态nonce保障安全，避免前端暴露密钥信息。",
+          "pub_date": "2026-03-31T06:06:25+08:00",
+          "updated_at": "2026-03-31T06:06:25+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "从脆弱自我到心流人生，理性与感性的和解之路。",
+          "link": "https://blog.ouxiaopi.com/1786.html",
+          "description": "文章以个人经历切入，强调好奇心是认知起点，指出人性本脆弱，需接纳局限以清醒认知。核心观点认为感性优先于理性，心流是全脑协振的生命状态，是回归本然的体验。通过东西方哲思（柏拉图“美好模型”、朱熹“存天理灭人欲”）论证顺应本心的重要性，结合脑科学说明神经联结决定能力，反对功利性心流，主张心流应是忘却自我、纯粹愉悦的状态，最终倡导接纳脆弱、回归本然，实现个体圆满。",
+          "pub_date": "2026-03-25T03:39:49+08:00",
+          "updated_at": "2026-03-25T03:39:49+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "别人眼中的我，才是我！",
+          "link": "https://blog.ouxiaopi.com/1773.html",
+          "description": "翻看朋友圈的时候，翻到和朋友的合照。认真看自己的时候，觉得熟悉又陌生，那因笑容挤压扭曲的鱼尾纹，那谄媚的脸。那 [&#8230;]",
+          "pub_date": "2026-02-28T03:52:27+08:00",
+          "updated_at": "2026-02-28T03:52:27+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十一）",
+          "link": "https://blog.ouxiaopi.com/1752.html",
+          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
+          "pub_date": "2026-02-25T06:28:19+08:00",
+          "updated_at": "2026-02-25T06:28:19+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十）",
+          "link": "https://blog.ouxiaopi.com/1741.html",
+          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
+          "pub_date": "2026-01-26T12:24:01+08:00",
+          "updated_at": "2026-01-26T12:24:01+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小米的”星号”艺术!",
+          "link": "https://blog.ouxiaopi.com/1734.html",
+          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
+          "pub_date": "2026-01-23T07:42:00+08:00",
+          "updated_at": "2026-01-23T07:42:00+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（八）",
+          "link": "https://blog.ouxiaopi.com/1706.html",
+          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
+          "pub_date": "2026-01-15T02:41:26+08:00",
+          "updated_at": "2026-01-15T02:41:26+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "2025年度总结",
+          "link": "https://blog.ouxiaopi.com/1676.html",
+          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
+          "pub_date": "2026-01-04T07:54:40+08:00",
+          "updated_at": "2026-01-04T07:54:40+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "凤英",
+          "link": "https://blog.ouxiaopi.com/1665.html",
+          "description": "米高杨唱的完整版《凤英》",
+          "pub_date": "2025-12-24T14:31:13+08:00",
+          "updated_at": "2025-12-24T14:31:13+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（七）",
+          "link": "https://blog.ouxiaopi.com/1635.html",
+          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
+          "pub_date": "2025-12-14T04:08:11+08:00",
+          "updated_at": "2025-12-14T04:08:11+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        }
+      ]
+    },
+    {
       "name": "winegrower",
       "url": "http://www.winegrower.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/winegrower.png",
@@ -3295,6 +3306,13 @@
       ]
     },
     {
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
+    },
+    {
       "name": "从良未遂",
       "url": "https://www.jeffer.xyz/",
       "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg",
@@ -3378,13 +3396,6 @@
           "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg"
         }
       ]
-    },
-    {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
     },
     {
       "name": "Jack's Space",
@@ -3582,6 +3593,36 @@
       ]
     },
     {
+      "name": "枋柚梓",
+      "url": "https://inkss.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
+      "feed_url": "https://inkss.cn/feed",
+      "posts": [
+        {
+          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
+          "link": "https://inkss.cn/post/4a1a172a/",
+          "description": "本文分享腾讯云 EdgeOne 使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
+          "pub_date": "2025-10-21T10:00:00+08:00",
+          "updated_at": "2026-03-15T13:05:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
+          "link": "https://inkss.cn/post/bbad9898/",
+          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
+          "pub_date": "2025-11-12T12:48:00+08:00",
+          "updated_at": "2025-11-12T12:48:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        }
+      ]
+    },
+    {
       "name": "eallion's Blog",
       "url": "https://www.eallion.com",
       "avatar": "https://cdn.xiaoten.com/friends/eallion.png",
@@ -3612,32 +3653,109 @@
       ]
     },
     {
-      "name": "枋柚梓",
-      "url": "https://inkss.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
-      "feed_url": "https://inkss.cn/feed",
+      "name": "旅行漫记",
+      "url": "https://synyan.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
+      "feed_url": "https://synyan.cn/feed",
       "posts": [
         {
-          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
-          "link": "https://inkss.cn/post/4a1a172a/",
-          "description": "本文分享腾讯云 EdgeOne 使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
-          "pub_date": "2025-10-21T10:00:00+08:00",
-          "updated_at": "2026-03-15T13:05:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+          "title": "日丽风和蠡湖岸",
+          "link": "https://synyan.cn/110856/",
+          "description": "暨昨日蠡园踏青，今日中午又去北边不远处蠡湖边免费公园闲逛。 以为中午了没什么人，又以为大伙儿都去鼋头渚看樱花了 [&#8230;]",
+          "pub_date": "2026-03-29T11:53:09+08:00",
+          "updated_at": "2026-03-29T11:53:09+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
         },
         {
-          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
-          "link": "https://inkss.cn/post/bbad9898/",
-          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
-          "pub_date": "2025-11-12T12:48:00+08:00",
-          "updated_at": "2025-11-12T12:48:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+          "title": "春风十蠡桃满锡",
+          "link": "https://synyan.cn/110768/",
+          "description": "仲春天气不错，带娃去蠡园踏青。门口小小堵了十分钟，跟老年团挤一起进门。 今儿可能是起标题最快的一次，因为官方帮 [&#8230;]",
+          "pub_date": "2026-03-28T14:35:46+08:00",
+          "updated_at": "2026-03-28T14:35:46+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "青团香里觅正仪",
+          "link": "https://synyan.cn/110415/",
+          "description": "周末的意外之旅，起因是ld在小x书上看到苏州昆山市正仪镇的青团火出圈。所谓青团，是江南清明时节的传统小吃，来源 [&#8230;]",
+          "pub_date": "2026-03-22T17:26:08+08:00",
+          "updated_at": "2026-03-22T17:26:08+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "礼社寂寥的沉梦",
+          "link": "https://synyan.cn/109830/",
+          "description": "去古镇还能去错了，对，那人就是我。 昨日下午突然获赦，大喜过望，想着到早就在地图上标好的常州焦溪古镇采风，也许 [&#8230;]",
+          "pub_date": "2026-03-15T06:47:56+08:00",
+          "updated_at": "2026-03-15T06:47:56+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "荡口初春风拂面",
+          "link": "https://synyan.cn/109530/",
+          "description": "ld单位组织活动，不知为何选了荡口。 又是五年过了，再次站在这里，旧时吟诗感慨，如今沉默不语。 商业依旧萧条， [&#8230;]",
+          "pub_date": "2026-03-08T07:19:52+08:00",
+          "updated_at": "2026-03-08T07:19:52+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "大元处士钱裕墓",
+          "link": "https://synyan.cn/109362/",
+          "description": "十二年前，朋友相约参观锡博钱裕墓出土文物，曾匆匆写就短文《古墓奇珍钱裕墓》。后又去过三两次，每次或是特展珍品聚 [&#8230;]",
+          "pub_date": "2026-03-07T17:26:28+08:00",
+          "updated_at": "2026-03-07T17:26:28+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "年四苏州比斯特",
+          "link": "https://synyan.cn/109044/",
+          "description": "2月20日年初四，瞅着天气晴朗，出发去阳澄湖畔的比斯特苏州购物村（原名“苏州奕欧来奥特莱斯”）。遥想十多年前第 [&#8230;]",
+          "pub_date": "2026-02-23T05:14:56+08:00",
+          "updated_at": "2026-02-23T05:14:56+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "年三惠山迎福神",
+          "link": "https://synyan.cn/108997/",
+          "description": "2月19日年初三是家中传统聚会的日子，饭店就选在惠山古镇隔壁，给大伙提供了得天独厚的免费车位。这种福利肯定是大 [&#8230;]",
+          "pub_date": "2026-02-22T16:32:41+08:00",
+          "updated_at": "2026-02-22T16:32:41+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "火树银花崇安夜",
+          "link": "https://synyan.cn/108936/",
+          "description": "春节前几日出门，用胶片拍了三卷，快递送往冲印中心，但预计要月底才返片，故博友还需稍等数日。 节日市中心必然火树 [&#8230;]",
+          "pub_date": "2026-02-21T16:41:09+08:00",
+          "updated_at": "2026-02-21T16:41:09+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
         }
       ]
     },
@@ -3980,113 +4098,6 @@
       ]
     },
     {
-      "name": "旅行漫记",
-      "url": "https://synyan.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
-      "feed_url": "https://synyan.cn/feed",
-      "posts": [
-        {
-          "title": "日丽风和蠡湖岸",
-          "link": "https://synyan.cn/110856/",
-          "description": "暨昨日蠡园踏青，今日中午又去北边不远处蠡湖边免费公园闲逛。 以为中午了没什么人，又以为大伙儿都去鼋头渚看樱花了 [&#8230;]",
-          "pub_date": "2026-03-29T11:53:09+08:00",
-          "updated_at": "2026-03-29T11:53:09+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "春风十蠡桃满锡",
-          "link": "https://synyan.cn/110768/",
-          "description": "仲春天气不错，带娃去蠡园踏青。门口小小堵了十分钟，跟老年团挤一起进门。 今儿可能是起标题最快的一次，因为官方帮 [&#8230;]",
-          "pub_date": "2026-03-28T14:35:46+08:00",
-          "updated_at": "2026-03-28T14:35:46+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "青团香里觅正仪",
-          "link": "https://synyan.cn/110415/",
-          "description": "周末的意外之旅，起因是ld在小x书上看到苏州昆山市正仪镇的青团火出圈。所谓青团，是江南清明时节的传统小吃，来源 [&#8230;]",
-          "pub_date": "2026-03-22T17:26:08+08:00",
-          "updated_at": "2026-03-22T17:26:08+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "礼社寂寥的沉梦",
-          "link": "https://synyan.cn/109830/",
-          "description": "去古镇还能去错了，对，那人就是我。 昨日下午突然获赦，大喜过望，想着到早就在地图上标好的常州焦溪古镇采风，也许 [&#8230;]",
-          "pub_date": "2026-03-15T06:47:56+08:00",
-          "updated_at": "2026-03-15T06:47:56+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "荡口初春风拂面",
-          "link": "https://synyan.cn/109530/",
-          "description": "ld单位组织活动，不知为何选了荡口。 又是五年过了，再次站在这里，旧时吟诗感慨，如今沉默不语。 商业依旧萧条， [&#8230;]",
-          "pub_date": "2026-03-08T07:19:52+08:00",
-          "updated_at": "2026-03-08T07:19:52+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "大元处士钱裕墓",
-          "link": "https://synyan.cn/109362/",
-          "description": "十二年前，朋友相约参观锡博钱裕墓出土文物，曾匆匆写就短文《古墓奇珍钱裕墓》。后又去过三两次，每次或是特展珍品聚 [&#8230;]",
-          "pub_date": "2026-03-07T17:26:28+08:00",
-          "updated_at": "2026-03-07T17:26:28+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "年四苏州比斯特",
-          "link": "https://synyan.cn/109044/",
-          "description": "2月20日年初四，瞅着天气晴朗，出发去阳澄湖畔的比斯特苏州购物村（原名“苏州奕欧来奥特莱斯”）。遥想十多年前第 [&#8230;]",
-          "pub_date": "2026-02-23T05:14:56+08:00",
-          "updated_at": "2026-02-23T05:14:56+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "年三惠山迎福神",
-          "link": "https://synyan.cn/108997/",
-          "description": "2月19日年初三是家中传统聚会的日子，饭店就选在惠山古镇隔壁，给大伙提供了得天独厚的免费车位。这种福利肯定是大 [&#8230;]",
-          "pub_date": "2026-02-22T16:32:41+08:00",
-          "updated_at": "2026-02-22T16:32:41+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "火树银花崇安夜",
-          "link": "https://synyan.cn/108936/",
-          "description": "春节前几日出门，用胶片拍了三卷，快递送往冲印中心，但预计要月底才返片，故博友还需稍等数日。 节日市中心必然火树 [&#8230;]",
-          "pub_date": "2026-02-21T16:41:09+08:00",
-          "updated_at": "2026-02-21T16:41:09+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        }
-      ]
-    },
-    {
       "name": "竹炉山房",
       "url": "https://synyan.cn/t/",
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
@@ -4207,6 +4218,39 @@
   ],
   "all_posts": [
     {
+      "title": "松声｜廿六年·三月末·花满城",
+      "link": "https://xyzbz.cn/archives/1524/",
+      "description": "Rss最近很拉，春暖花开了，大家都在勤耕不断，今天看了50个，明天就又会刷新出来一堆，一群勤劳的小蜜蜂。春暖花开了，大家多出去转转吧！苦恼的日子还会有的，快乐的日子是稀有的。好吃嘴最近回家ld吐...",
+      "pub_date": "2026-04-01T05:40:00+08:00",
+      "updated_at": "2026-04-01T05:40:00+08:00",
+      "author": "网友小宋",
+      "site_name": "网友小宋",
+      "site_url": "https://xyzbz.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+    },
+    {
+      "title": "愚人节快乐",
+      "link": "https://wang618.cn/yu-ren-jie-kuai-yue.html",
+      "description": "<p>🤡 祝大家 愚人节 快乐！愿所有心底热爱，终能如愿成真！<br />\n<img alt=\"中奖.webp\" src=\"https://wang618.cn/content/uploadfile/202603/cf7f1774951516.webp\" /><br />\n<img alt=\"提出.webp\" src=\"https://wang618.cn/content/uploadfile/202603/b6c31774954723.webp\" /></p>",
+      "pub_date": "2026-04-01T04:01:00+08:00",
+      "updated_at": "2026-04-01T04:01:00+08:00",
+      "author": "旺东",
+      "site_name": "旺东自留地",
+      "site_url": "https://wang618.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
+    },
+    {
+      "title": "claude源码泄漏事件及简单剖析",
+      "link": "https://lznauy.cn/posts/2026-04-01-claude%E6%BA%90%E7%A0%81%E6%B3%84%E6%BC%8F%E4%BA%8B%E4%BB%B6%E5%8F%8A%E7%AE%80%E5%8D%95%E5%89%96%E6%9E%90/",
+      "description": "<h2 id=\"事件描述\">\n  事件描述\n  <a class=\"heading-link\" href=\"#%e4%ba%8b%e4%bb%b6%e6%8f%8f%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>昨天claude源码泄漏事件被暴漏出来，然后整个开源社区就疯狂了，其代码被fork了上千次，很多大佬已经开始分析claude的源码并且使用python重写其核心逻辑。</p>",
+      "pub_date": "2026-04-01T01:46:04+08:00",
+      "updated_at": "2026-04-01T01:46:04+08:00",
+      "author": "lznauy",
+      "site_name": "lznauy的技术小屋",
+      "site_url": "https://lznauy.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+    },
+    {
       "title": "26年3月总结-感冒了哦🤧",
       "link": "https://blog.lichenghao.cn/article/74t0aa3mmhq8",
       "description": "北京气象观测代表站观象台入春时间为 3 月 22 日，比常年（1991-2020 年平均）入春时间偏早了 4 天。",
@@ -4234,7 +4278,7 @@
       "description": "<h2 id=\"太子湾公园\">\n  太子湾公园\n  <a class=\"heading-link\" href=\"#%e5%a4%aa%e5%ad%90%e6%b9%be%e5%85%ac%e5%9b%ad\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近杭州一直阴雨连绵，一周难得有那么一两天的晴天，反正不用上班也比较闲，打算去赏花。</p>\n<p>听说太子湾今年花展开始了，准备去太子湾逛逛，顺便放松下心情，于是就拍了各种颜色的郁金香。</p>",
       "pub_date": "2026-03-30T13:44:34+08:00",
       "updated_at": "2026-03-30T13:44:34+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -4696,7 +4740,7 @@
       "description": "<p>过去的一段时间真是经历了很多，从年前到年后，很多心力都耗在了公司的事情上。从去年12月底开始，按照以往的惯例是要评估绩效等级的，并且工作群里的绩效评估通知也发了出来，但后来就杳无音信，最终的绩效评估结果也一直没有给出来，当时就已经预感到可能会有一场风波了。然后人力资源部就开始发薪资调整的预案通知，然后选员工代表参加会议，员工代表会议通过后，HR就找员工一个一个签薪资调整协议。</p>",
       "pub_date": "2026-03-17T12:02:49+08:00",
       "updated_at": "2026-03-17T12:02:49+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -5279,7 +5323,7 @@
       "description": "<p>** 年前 **</p>\n<p>年前公司内部闹了一波，原因还是降薪协议的事情，对于不签降薪协议的人，公司故意拖着工资不发，后来有几个人在群里闹事、起哄，于是公司迫于压力发了工资，然后在春节假期第一天，闹事的两个人就被裁了，据说也给了赔偿，这年过的也比较煎熬，因为我也属于不签的人，但目前还不清楚什么时候裁我。今年的年终奖没了，甚至大年三十的公司群静悄悄，老板们连个祝福和红包都没发。</p>",
       "pub_date": "2026-02-25T10:31:20+08:00",
       "updated_at": "2026-02-25T10:31:20+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -5675,7 +5719,7 @@
       "description": "<p>对于爱情，其实我一直抱有美好的憧憬，即使我知道这种美好不会降临到我身上。小时候不论是听故事、看电视剧还是看小说，爱情叙事总是宏大而感人，最好的结局当然是他们克服了重重困难，最后幸福的在一起。其实比起韩剧那种经受感情的猜疑、外界的挑拨，最终才确认感情的戏份来说，我更喜欢那种宏大叙事中有着共同理想的男女主角经历重重磨难，一起实现伟大抱负，最终幸福在一起的故事，就比如虹猫蓝兔？郭靖黄蓉？（笑</p>",
       "pub_date": "2026-02-05T19:54:31+08:00",
       "updated_at": "2026-02-05T19:54:31+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -5730,7 +5774,7 @@
       "description": "<h2 id=\"工作\">\n  工作\n  <a class=\"heading-link\" href=\"#%e5%b7%a5%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>熬过了前几轮的裁员，但降薪这件事是躲不过了，由于公司近几年财务状况不佳，今天发了通告，全员降薪15%-30%作为绩效，并且和公司毛利业绩挂钩，作为一个研发，我的绩效居然和销售有关系了，我的薪资也是经历4年多的努力又重新回到了刚毕业的水平，真是“可喜可贺”啊。</p>",
       "pub_date": "2026-02-03T15:39:57+08:00",
       "updated_at": "2026-02-03T15:39:57+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -5956,17 +6000,6 @@
       "avatar": "https://www.xiaoten.com/avatar.png"
     },
     {
-      "title": "回首那场流离",
-      "link": "https://wang618.cn/hui-shou-na-chang-liu-li.html",
-      "description": "<p>青春是一场盛大的流离失所，我们在懵懂中相遇，又在成熟后别离。如今，站在时光的渡口回望，才发现那些哭过笑过的日子，早已化作这满山的红叶与遍地的黄花。不必感伤，因为逝去的青春并没有真正离开，它只是换了一种方式，在每一个风起的日子里，温柔了岁月，惊艳了时光。</p>\n<video controls=\"controls\" preload=\"none\" src=\"https://file.wang618.cn/d/oss/video/%E6%9E%AB%E5%8F%B6%E7%BA%A2%20(Live).mp4?sign=J1Z6WEePJBpTszTaO6fzi5Ba-3O_lZkFMPY3zmH7pSA=:0\"></video>",
-      "pub_date": "2026-01-23T21:56:49+08:00",
-      "updated_at": "2026-01-23T21:56:49+08:00",
-      "author": "旺东",
-      "site_name": "旺东自留地",
-      "site_url": "https://wang618.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-    },
-    {
       "title": "MySQL 要没落了",
       "link": "https://blog.lhasa.icu/posts/technology/2026-01-24-mysql",
       "description": "<p>这两天突发奇想，在赶一个新项目</p>\n<p>从早上 8 点写到晚上 11 点，除了去卫生间，人基本没动过，饭也没吃</p>\n<p>这不是我多能坐得住，我只是<strong>倔</strong></p>\n<p>妄想一步登天，做不完就死磕。十几个小时是日常，通宵是常态，哪个月没有 4～5 次 20h + 作战记录？</p>\n<p>GitHub Commits 一眼就能看出来：我从凌晨提交到凌晨，电子厂的狗都不会这么干</p>\n<p>也许这就是倔驴 + 心流？</p>\n<p>而我，<strong>天生心流圣体</strong></p>\n<p>老实说，我对“心流”没概念，只是前阵子偶然了解到。所以我并不明白，但我知道那是一种状态</p>\n<p>当然，不吃饭是不行的</p>\n<p>晚上 11:30，厨房炒个菜，微波炉热两个馒头，回屋再冲一大杯黑咖啡，两勺燕麦，少许牛奶，就算齐活</p>\n<p>坐回电脑前，打开 BlogFinder，随手一翻，看到了阮一峰的周刊</p>\n<p>心想，周五了</p>\n<p>低头再看，周六了</p>\n<p>然后，我看到了他的第一个推荐文章，心里“咯噔”一下：</p>\n<ul>\n<li><a href=\"https://optimizedbyotto.com/post/reasons-to-stop-using-mysql/\">2026 年，请停止使用 MySQL：它已不再是真正的开源项目</a></li>\n</ul>\n<p>点进去，翻译看看，整篇文章的核心观点就是：</p>\n<blockquote>\n<p>如果你在意开源软件，就应该停止使用 MySQL</p>\n<p>MySQL 虽然是基于 GPL v2 开源，实际上已经没有开源精神，因为 MySQL 正走向封闭</p>\n</blockquote>\n<h3>开发活跃度呈现断崖式下跌</h3>\n<p><img alt=\" \" src=\"mysql-github-commits-decreasing-2025.png\" /></p>\n<p>这是 Otto 在 1 月 11 日给出的截图</p>\n<p>数据显示，从去年 9 月开始，到今年 1 月 11 日，MySQL 几乎<strong>完全断更</strong></p>\n<p>我看到这里，第一反应是去查官方信息 <a href=\"https://dev.mysql.com/blog-archive/\">MySQL 核心团队博客</a>，无果后，再 Google 一下，事情就对上了</p>\n<p>早在 <strong>9 月 11 日</strong>，外媒就曝出 <a href=\"https://www.theregister.com/2025/09/11/oracle_slammed_for_mysql_job/\">Oracle 大幅裁减 MySQL 核心员工 (约 70 人) </a>的消息，甚至还有传闻称，MySQL 团队已被并入 HeatWave 部门，Oracle 要把资源优先投入 AI</p>\n<p>新闻刚出来时，MySQL 还没断更</p>\n<p>现在再把这张“断崖式提交图”放出来，那可谓是<strong>深水炸弹</strong></p>\n<p>更有意思的是，Otto 还特意把图做成黑白，再配上大字标语当封面</p>\n<p>手段可见一斑，毕竟，这人是 <a href=\"https://en.wikipedia.org/wiki/MariaDB\">MariaDB Foundation (玛利亚数据库基金会)</a> CEO</p>\n<p>而 MariaDB 是 MySQL 的最重要的分支与直接竞争者</p>\n<p>当年 Oracle 宣布收购 Sun Microsystems 的当天，MySQL 原始作者之一 <strong>Monty Widenius</strong> 就发起了 MariaDB fork</p>\n<p>有意思的是：</p>\n<ul>\n<li>MariaDB：是以 Monty 的小女儿玛丽亚 (Maria) 的名字命名</li>\n<li>MySQL ：则以大女儿 (My) 命名</li>\n</ul>\n<p>就连 MariaDB 的 LOGO 海狮，也是有故事背景的</p>\n<p><a href=\"https://mariadb.org/sea-lion/\">The Story of our Sea Lion</a></p>\n<p>It happened when Monty and his older daughter My were snorkeling on one of the islands in the <strong>Galapagos</strong>. Something big, brown and fast suddenly appeared at an arm’s distance, laughing in their faces. Fond memories of this fast and funny creature, scaring the tourists, popped into Monty’s mind when asked picking a logo for MariaDB. He wanted to adhere to the tradition of <strong>animals</strong> as symbols of Open Source projects.</p>\n<p><img alt=\" \" src=\"the-story-of-our-sea-lion.jpg\" /></p>\n<h3>闭门造车</h3>\n<p>下面是 Otto  的举证，他认为 MySQL 所有开发工作都在 Oracle 内部进行</p>\n<p>而公开的 Bug 追踪器只是个摆设，Oracle 内部有自己的系统</p>\n<p>更离谱的是，他声称：</p>\n<blockquote>\n<p>那些提交 PR 的人，除了石沉大海，就只剩下第二个选择</p>\n<p>被 Oracle 员工重新编写并抹去原作者的贡献记录，原作者仅在博客中被提及其名</p>\n</blockquote>\n<p>Otto 还证言道：</p>\n<p>我在 AWS 负责 RDS MySQL 和 MariaDB 团队时，部门员工极其抗拒向 MySQL 提交代码，因为Oracle 的接纳态度极其恶劣</p>\n<h3>技术倒退</h3>\n<p>MySQL 8.0.29 将 <code>ALTER TABLE</code> 的默认行为改为 <strong>in-place</strong></p>\n<p><a href=\"https://forums.mysql.com/read.php?22,704532,704532#msg-704532\">结果导致大量生产环境数据库崩溃、数据损坏</a></p>\n<p>而这个问题，直到 <a href=\"https://dev.mysql.com/doc/relnotes/mysql/8.0/en/news-8-0-32.html\">8.0.32</a> 才算彻底修完</p>\n<p>更大的问题在于：</p>\n<p>自 MySQL 8.0 发布以来，整整六年，没有一次真正意义上的大版本更新，几乎没有像样的功能可以讲</p>\n<p>甚至，有传言新版本的 MySQL 性能大幅下降，之后被 MySQL 性能专家 <a href=\"https://smalldatum.blogspot.com/\">Mark Callaghan</a> 进行基准测试后得出<a href=\"https://smalldatum.blogspot.com/2025/12/performance-regressions-in-mysql-84-and.html\">MySQL 9.5 的吞吐量比 8.0 版本竟然低了 15%</a></p>\n<p>最后，Otto 顺势给出了“迁移方案”：</p>\n<p>说自家的 MariaDB 作为 MySQL 的亲兄弟，有极高的兼容性，对于传统 LAMP 架构，可以无缝切换</p>\n<p>他说得也没错，MariaDB 起源于 MySQL 5.1 分支，早期开发策略几乎完全对标 MySQL，以至于后来被开源社区认可，尤其在 Debian、Ubuntu、Fedora 等发行版中，直接成为默认数据库</p>\n<p><img alt=\" \" src=\"db-engines-ranking-mysql-going-down.png\" /></p>\n<p>说实话，我已经不想看下去了，我只是个普通人，一个喜欢编程的小学生</p>\n<p>从初一第一次接触数据库开始，就是 MySQL</p>\n<p>从上学、工作，到后来失业</p>\n<p>我靠它吃了很多年饭</p>\n<p>刚毕业那会儿，我为了面试，背得最多的就是 MySQL</p>\n<p>对着镜子：一会儿 Indexing、一会儿 Concurrency 人都要疯了</p>\n<p>所以，我对 MySQL，是有感情的</p>\n<p>现在它要没落了，心里说不出的滋味</p>\n<p>虽然国内教学体系还在用 MySQL，但现实已经很清楚了</p>\n<p>MySQL 不可能再回到从前老大哥的位置了</p>\n<p>哎，天道如来，也罢</p>\n<img alt=\"\" src=\"https://analytics.lhasa.icu/matomo.php?idsite=1&amp;rec=1&amp;action_name=MySQL%20%E8%A6%81%E6%B2%A1%E8%90%BD%E4%BA%86&amp;url=https%3A%2F%2Fblog.lhasa.icu%2Fposts%2Ftechnology%2F2026-01-24-mysql\" style=\"border: 0; width: 0; height: 0;\" />",
@@ -6016,7 +6049,7 @@
       "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近看到一个利用DeepSeek分析个人隐藏天赋的文章，于是我也打算试试，其实主要还是使用心理测试等方法，通过你的回答来给出具体的分析结果。我尝试了一下，分析的还是有一定道理的，也引发了我的一些思考。</p>",
       "pub_date": "2026-01-21T13:59:55+08:00",
       "updated_at": "2026-01-21T13:59:55+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6093,7 +6126,7 @@
       "description": "<h2 id=\"selinux是什么\">\n  SELinux是什么？\n  <a class=\"heading-link\" href=\"#selinux%e6%98%af%e4%bb%80%e4%b9%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>SELinux可以想象是Linux系统的“超级保安”，核心是给文件、进程、端口等所有资源“贴标签”，再通过严格的访问规则，限制资源间的交互。哪怕你有系统最高权限（root），不符合规则也无法操作不属于自己的资源。</p>",
       "pub_date": "2026-01-17T18:06:00+08:00",
       "updated_at": "2026-01-17T18:06:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6132,23 +6165,12 @@
       "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
     },
     {
-      "title": "松声｜廿六年·一月初·雪叩窗",
-      "link": "https://xyzbz.cn/archives/1496/",
-      "description": "更新计划月初着手规划站点的新年更新计划，核心卡在标题格式，接连几天的头脑风暴，始终不满意，把想法告诉AI，首先舍弃农历记法的，经过一番为难，发现似乎也并非完全不可用，去粗取精，保证月份的准确性就...",
-      "pub_date": "2026-01-16T05:17:35+08:00",
-      "updated_at": "2026-01-16T05:17:35+08:00",
-      "author": "网友小宋",
-      "site_name": "网友小宋",
-      "site_url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-    },
-    {
       "title": "我们的认知可能被裹挟了",
       "link": "https://lznauy.cn/posts/2026-01-15-%E6%88%91%E4%BB%AC%E7%9A%84%E8%AE%A4%E7%9F%A5%E5%8F%AF%E8%83%BD%E8%A2%AB%E8%A3%B9%E6%8C%9F%E4%BA%86/",
       "description": "<p>不知道从什么时候开始，自媒体平台及其大多数年轻视频创作者，普遍开始宣扬一个主流思想，那就是及时行乐。其核心思想是自爱、追求自由、享受当下，甚至逃离工作、逃离婚姻、逃离原生家庭，这种价值观很难对其进行批判，大多数人都会赞同，毕竟享受生活、及时行乐有什么不好呢？</p>",
       "pub_date": "2026-01-15T22:17:54+08:00",
       "updated_at": "2026-01-15T22:17:54+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6247,7 +6269,7 @@
       "description": "<p>最近想开始减肥了，奈何始终没什么动力。其实要说有多胖呢，也不是很胖，目前大概170身高，69公斤体重，因为前两年撸铁练过身材，后来停练之后就开始发胖了。仔细想了下没动力的原因一个是即使身材练的挺好，却依然还是单身狗，这点我前两年就体会过了，因为圈子太小，第二点是工作的压力，让我下班后躺在床上根本不想动。</p>",
       "pub_date": "2026-01-10T20:00:54+08:00",
       "updated_at": "2026-01-10T20:00:54+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6379,7 +6401,7 @@
       "description": "<h2 id=\"问题\">\n  问题\n  <a class=\"heading-link\" href=\"#%e9%97%ae%e9%a2%98\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近遇到了一个比较奇葩的bug，属于网络问题，涉及到一些内核参数以及conntrack表，抽空配合客户排查了两三天才找到问题的原因，于是打算写篇文章记录一下排查经验。</p>",
       "pub_date": "2025-12-31T16:07:54+08:00",
       "updated_at": "2025-12-31T16:07:54+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6555,7 +6577,7 @@
       "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>又是一年结束了，跟去年一样，杭州今年冬天也没有下雪，记得上次下雪还是3年前，那天断桥残雪去了好多人，大雪纷飞，我独自回到出租屋吃着外卖，看着视频，然后安然入睡。马上又是元旦了，西湖银泰那边又将有一大群年轻男女等着跨年，在00:00的时刻放飞气球、然后庆祝今年的结束，然后许下明年的愿望。</p>",
       "pub_date": "2025-12-22T17:29:54+08:00",
       "updated_at": "2025-12-22T17:29:54+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6610,7 +6632,7 @@
       "description": "<p>记得小时候父母给我起名时是希望我有远大的理想和抱负，但随着长大我发现自己既没有什么抱负，也没什么理想，所期待的仅仅是拥有一个小家，有一份不错的工资，有一个陪着自己的爱人，然后过上无忧无虑的生活，我估计大部分人也是这样想的，所以人生总是充斥着事与愿违。</p>",
       "pub_date": "2025-12-20T14:03:00+08:00",
       "updated_at": "2025-12-20T14:03:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6621,7 +6643,7 @@
       "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>快到年尾了，打算写篇文章总结一下今年使用频率最高、个人感觉最好用的工作软件。主要为Mac端，因为我平时除了打游戏之外几乎不用Windows系统办公，年度软件全凭个人喜好，纯主观，编程ide就不介绍了，无非是trae、qoder、claude code、kiro等，我日常还是主要用trae的国内版，因为免费。</p>",
       "pub_date": "2025-12-18T16:36:00+08:00",
       "updated_at": "2025-12-18T16:36:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6742,7 +6764,7 @@
       "description": "<p>人们都说上了年纪的人喜欢回忆从前，但我却不知怎的，年轻轻轻也总是喜欢回忆从前。</p>\n<p>想起上学的时候喜欢在QQ空间发“涩话”，后来看太羞耻，于是某个瞬间将QQ空间所有说说都删了，以为这样才能标志着我的成长。如今又过了好多年，又想着如果能把QQ空间所有的记录找回来该多好。于是我在网上搜索能找回QQ空间历史记录的方法，终于发现一个\n\n<a class=\"external-link\" href=\"https://github.com/ll0v0ll/GetQzonehistory\" rel=\"noopener\" target=\"_blank\">GetQzonehistory</a> 的开源项目，但总归是有遗憾，只找回了近三年的记录。看着以前发的说说，莫名感慨， 总想写点什么，却不知如何下笔。删掉的说说并没有彻底删掉，忘掉的过去也没有彻底忘掉，它们成为一个人灵魂的碎片。</p>",
       "pub_date": "2025-12-13T17:35:00+08:00",
       "updated_at": "2025-12-13T17:35:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6786,7 +6808,7 @@
       "description": "<p>在当今的云原生和容器化环境中，服务器监控已成为确保系统稳定性和性能的关键环节。然而，传统的监控解决方案往往过于复杂和资源密集，对于小型团队和个人开发者来说可能显得有些&quot;杀鸡用牛刀&quot;。今天我们要介绍的是一个新兴的轻量级监控平台——Beszel，它旨在为用户提供简单、高效且易于部署的监控体验。</p>",
       "pub_date": "2025-12-10T15:25:00+08:00",
       "updated_at": "2025-12-10T15:25:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6918,7 +6940,7 @@
       "description": "<h2 id=\"何为capabilities\">\n  何为capabilities？\n  <a class=\"heading-link\" href=\"#%e4%bd%95%e4%b8%bacapabilities\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>为了执行权限检查，传统的 UNIX 实现将进程分为两类： 特权进程（其有效用户 ID 为 0，称为超级用户或 root 用户）和非特权进程（其有效 UID 非零）。</p>",
       "pub_date": "2025-12-02T15:25:00+08:00",
       "updated_at": "2025-12-02T15:25:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -6962,7 +6984,7 @@
       "description": "<h2 id=\"什么是cgroup\">\n  什么是Cgroup\n  <a class=\"heading-link\" href=\"#%e4%bb%80%e4%b9%88%e6%98%afcgroup\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>根据维基百科的介绍</p>\n<blockquote>\n<p><strong>cgroups</strong> (abbreviated from <strong>control groups</strong>) is a Linux kernel feature that limits, accounts for, and isolates the resource usage  of a collection of processes.</p>\n</blockquote>\n<p>cgroups是linux内核提供的一项能力，用来控制某一个进程组的资源（IO、内存、CPU等）使用能力，这项功能的好处就是便于用户自己针对某个进程组分配资源。</p>",
       "pub_date": "2025-12-01T11:45:00+08:00",
       "updated_at": "2025-12-01T11:45:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7028,7 +7050,7 @@
       "description": "<p>目前大部分AI应用基本都是python开发，因为python的语言优势和学习成本，使其成为计算科学、深度学习的主流编程语言。</p>\n<p>因为公司项目的需求，所以最近调研了下golang有什么比较好的AI框架，现在github有几个比较火的框架，比如\n\n<a class=\"external-link\" href=\"https://github.com/tmc/langchaingo\" rel=\"noopener\" target=\"_blank\">langchaingo</a>和\n\n<a class=\"external-link\" href=\"https://github.com/cloudwego/eino\" rel=\"noopener\" target=\"_blank\">eino</a>还有最近的\n\n<a class=\"external-link\" href=\"https://github.com/google/adk-go\" rel=\"noopener\" target=\"_blank\">adk-go</a></p>",
       "pub_date": "2025-11-27T11:44:00+08:00",
       "updated_at": "2025-11-27T11:44:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7050,7 +7072,7 @@
       "description": "<h2 id=\"关于博客\">\n  关于博客\n  <a class=\"heading-link\" href=\"#%e5%85%b3%e4%ba%8e%e5%8d%9a%e5%ae%a2\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>2019年，我上大一，当时使用hexo搭建了自己的第一个博客网站，当时用的\n\n<a class=\"external-link\" href=\"https://github.com/fluid-dev/hexo-theme-fluid\" rel=\"noopener\" target=\"_blank\">fluid</a>主题，后来一边啃计算机基础课程，一边陆陆续续写了很多基础知识类的文章。</p>",
       "pub_date": "2025-11-26T16:30:00+08:00",
       "updated_at": "2025-11-26T16:30:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7061,7 +7083,7 @@
       "description": "<h2 id=\"何为redis\">\n  何为redis\n  <a class=\"heading-link\" href=\"#%e4%bd%95%e4%b8%baredis\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>根据维基百科的解释，<strong>Redis</strong>（Remote Dictionary Server）是一个使用\n\n<a class=\"external-link\" href=\"https://zh.wikipedia.org/wiki/ANSI_C\" rel=\"noopener\" target=\"_blank\" title=\"ANSI C\">ANSI C</a>编写的支持网络、基于内存、分布式、可选\n\n<a class=\"external-link\" href=\"https://zh.wikipedia.org/wiki/%E6%8C%81%E4%B9%85%E6%80%A7\" rel=\"noopener\" target=\"_blank\" title=\"持久性\">持久性</a>的\n\n<a class=\"external-link\" href=\"https://zh.wikipedia.org/wiki/%E9%94%AE%E5%80%BC-%E5%80%BC%E6%95%B0%E6%8D%AE%E5%BA%93\" rel=\"noopener\" target=\"_blank\" title=\"键值-值数据库\">键值对存储数据库</a>。</p>",
       "pub_date": "2025-11-26T15:25:00+08:00",
       "updated_at": "2025-11-26T15:25:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7105,7 +7127,7 @@
       "description": "<h2 id=\"前言\">\n  前言\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e8%a8%80\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>此文讲解一下大部分源码编译的过程和常用linux库的编译方法</p>\n<p>一般而言，基本的编译工具包括make/cmake、gcc/g++/clang、ld等</p>",
       "pub_date": "2025-11-25T11:07:00+08:00",
       "updated_at": "2025-11-25T11:07:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7116,7 +7138,7 @@
       "description": "<h2 id=\"前言\">\n  前言\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e8%a8%80\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>此前在开发工作中遇到过一些偶现的并发问题，较难通过打日志和本地debug排查，因此当时使用gdb在测试环境排查问题</p>\n<p>有人觉得gdb已经过时了，但我觉得目前仍有一些场景它能起到关键作用，此文主要介绍gdb调试go程序的基本方法</p>",
       "pub_date": "2025-11-25T10:37:00+08:00",
       "updated_at": "2025-11-25T10:37:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7160,7 +7182,7 @@
       "description": "<p>最近申请加入“开往”，却被疑似有大量AIGC内容被驳回了</p>\n<p>本站在今年确实有很多基于AI润色的技术类文章，也将在后续开发一个过滤器选择性过滤这部分文章，读者可以不看这些内容。</p>",
       "pub_date": "2025-11-23T14:27:00+08:00",
       "updated_at": "2025-11-23T14:27:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7182,7 +7204,7 @@
       "description": "<p>最近看到一句话，“为什么有的人总是优柔寡断、穷思竭虑？”</p>\n<p>后来看到另一句，“风险自担者，落子不易”，那短短七个字，像一枚沉沉的棋子，轻轻落进心里，漾开一圈圈的涟漪。</p>",
       "pub_date": "2025-11-23T12:54:00+08:00",
       "updated_at": "2025-11-23T12:54:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7204,7 +7226,7 @@
       "description": "<h2 id=\"一-基础介绍\">\n  一. 基础介绍\n  <a class=\"heading-link\" href=\"#%e4%b8%80-%e5%9f%ba%e7%a1%80%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Vicinae 是一款专为 Linux 平台设计的高性能应用启动器，旨在提供一个快速、统一的界面，用于应用程序启动、命令执行和系统操作。</p>\n<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"image\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" style=\"background-color: #f8f8f8;\" title=\"\" />\n</p>\n<p>Vicinae 的核心目标是提供一个轻量级且响应迅速的效率工具，避免了基于 Web 技术（如 Electron）的启动器所带来的资源消耗问题。</p>",
       "pub_date": "2025-11-21T17:31:00+08:00",
       "updated_at": "2025-11-21T17:31:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7248,7 +7270,7 @@
       "description": "<h2 id=\"第一章\">\n  第一章\n  <a class=\"heading-link\" href=\"#%e7%ac%ac%e4%b8%80%e7%ab%a0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<ol>\n<li>声明式(declaration)告诉编译器某个东西的名称和类型，定义式(definition)提供编译器的一些声明式所遗漏的细节。</li>\n<li>所谓default构造函数是一个可被调用而不带任何实参者，这样的构造函数要么没有参数，要么每个参数都有缺省值。</li>\n<li>explicit可禁止编译器执行非预期的类型转换，除非有一个好理由允许构造函数被用于隐式类型转换，否则最好声明为explicit。</li>\n<li>copy构造函数被用来以同类型对象初始化自我对象，copyAssignment操作符被用来从另一个同型对象中拷贝其值到自我对象。</li>\n<li>如果一个新对象被定义，一定会有一个构造函数被调用，不可能调用赋值操作。</li>\n</ol>\n\n\n<h2 id=\"第二章\">\n  第二章\n  <a class=\"heading-link\" href=\"#%e7%ac%ac%e4%ba%8c%e7%ab%a0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<ol>\n<li>\n<p>视C++为一个语言联邦<br />\nC++是一个多重范型编程语言，同时支持过程形式、面向对象形式、函数形式、泛型形式、元编程形式。<br />\n简单的方法是将C++视为一个由相关语言组成的联邦而非单一语言。</p>",
       "pub_date": "2025-11-17T15:10:00+08:00",
       "updated_at": "2025-11-17T15:10:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7259,7 +7281,7 @@
       "description": "<h2 id=\"设置静态ip\">\n  设置静态IP\n  <a class=\"heading-link\" href=\"#%e8%ae%be%e7%bd%ae%e9%9d%99%e6%80%81ip\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>以下是在Ubuntu 22.04上设置静态IP的步骤：</p>\n<ol>\n<li>首先打开终端，使用以下命令编辑网络配置文件：</li>\n</ol>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-shell\"><span class=\"line\"><span class=\"cl\">sudo nano /etc/netplan/00-installer-config.yaml\n</span></span></code></pre></div><ol start=\"2\">\n<li>确认文件内容如下所示：</li>\n</ol>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-yaml\"><span class=\"line\"><span class=\"cl\"><span class=\"c\"># This is the network config written by 'subiquity'</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"nt\">network</span><span class=\"p\">:</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">  </span><span class=\"nt\">ethernets</span><span class=\"p\">:</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">    </span><span class=\"nt\">enp0s3</span><span class=\"p\">:</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">      </span><span class=\"nt\">dhcp4</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"kc\">true</span><span class=\"w\">\n</span></span></span><span class=\"line\"><span class=\"cl\"><span class=\"w\">  </span><span class=\"nt\">version</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"m\">2</span><span class=\"w\">\n</span></span></span></code></pre></div><p>其中 <code>enp0s3</code>​ 是网络接口的名称。这个名称可能因不同的系统而异，可以使用 <code>ifconfig</code> 命令查看本机的网络接口名称。</p>",
       "pub_date": "2025-11-17T13:34:00+08:00",
       "updated_at": "2025-11-17T13:34:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7446,7 +7468,7 @@
       "description": "<p>想象一下，我们有三台缓存服务器（编号0、1、2），需要存储3万个文件。如何让这些文件均匀分布，既能让每台服务器分摊压力，又能快速找到需要的文件呢？</p>",
       "pub_date": "2025-11-10T16:34:00+08:00",
       "updated_at": "2025-11-10T16:34:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7622,7 +7644,7 @@
       "description": "<h3 id=\"深入了解系统-io-监控工具iotop\">\n  深入了解系统 I/O 监控工具：iotop\n  <a class=\"heading-link\" href=\"#%e6%b7%b1%e5%85%a5%e4%ba%86%e8%a7%a3%e7%b3%bb%e7%bb%9f-io-%e7%9b%91%e6%8e%a7%e5%b7%a5%e5%85%b7iotop\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>在日常使用 Linux 系统时，我们常常需要了解哪些进程正在大量读写磁盘，从而判断系统是否因为 I/O 瓶颈而变慢。<code>iotop</code>​ 就是这样一个直观、易用的工具，它能够实时监控各个进程的磁盘 I/O 使用情况，让我们像使用 <code>top</code> 命令查看 CPU 和内存那样，轻松掌握系统的 I/O 动态。</p>",
       "pub_date": "2025-10-29T15:59:00+08:00",
       "updated_at": "2025-10-29T15:59:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7644,7 +7666,7 @@
       "description": "<h2 id=\"概述\">\n  概述\n  <a class=\"heading-link\" href=\"#%e6%a6%82%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Python 虚拟环境是开发中的重要工具，它能够为每个项目创建独立的Python运行环境，有效解决不同项目间的依赖冲突问题。通过虚拟环境，开发者可以确保项目的可移植性和环境一致性。</p>",
       "pub_date": "2025-10-28T15:33:00+08:00",
       "updated_at": "2025-10-28T15:33:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7655,7 +7677,7 @@
       "description": "<h2 id=\"1-python-编译为-pyc-文件\">\n  1. Python 编译为 pyc 文件\n  <a class=\"heading-link\" href=\"#1-python-%e7%bc%96%e8%af%91%e4%b8%ba-pyc-%e6%96%87%e4%bb%b6\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"11-基本编译方法\">\n  1.1 基本编译方法\n  <a class=\"heading-link\" href=\"#11-%e5%9f%ba%e6%9c%ac%e7%bc%96%e8%af%91%e6%96%b9%e6%b3%95\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>pyc 文件是 Python 的字节码编译文件，能够提高模块加载速度并保护源代码。</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Python3 源码目录编译 pyc</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># -b 参数表示在 legacy 模式下生成 pyc 文件（不带 Python 版本号）</span>\n</span></span><span class=\"line\"><span class=\"cl\">python -m compileall -b .\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Python2 源码目录编译 pyc</span>\n</span></span><span class=\"line\"><span class=\"cl\">python -m compileall .\n</span></span></code></pre></div>\n\n<h3 id=\"12-清理与优化\">\n  1.2 清理与优化\n  <a class=\"heading-link\" href=\"#12-%e6%b8%85%e7%90%86%e4%b8%8e%e4%bc%98%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>编译完成后，需要进行文件清理以保持目录整洁：</p>",
       "pub_date": "2025-10-28T15:20:00+08:00",
       "updated_at": "2025-10-28T15:20:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7666,7 +7688,7 @@
       "description": "<h3 id=\"二进制文件分析指南\">\n  二进制文件分析指南\n  <a class=\"heading-link\" href=\"#%e4%ba%8c%e8%bf%9b%e5%88%b6%e6%96%87%e4%bb%b6%e5%88%86%e6%9e%90%e6%8c%87%e5%8d%97\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>二进制文件分析是软件逆向工程、安全研究和程序调试中的基础技能。下面介绍常用的二进制分析工具及其应用场景。</p>\n\n\n<h4 id=\"1-文件类型识别\">\n  1. 文件类型识别\n  <a class=\"heading-link\" href=\"#1-%e6%96%87%e4%bb%b6%e7%b1%bb%e5%9e%8b%e8%af%86%e5%88%ab\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h4>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 使用file命令识别文件类型和架构信息</span>\n</span></span><span class=\"line\"><span class=\"cl\">file /bin/ls\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 输出示例：/bin/ls: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, stripped</span>\n</span></span></code></pre></div><p><strong>作用</strong>：快速确定文件格式（ELF、PE、Mach-O等）、位宽、链接方式和是否经过strip处理。</p>",
       "pub_date": "2025-10-28T14:31:00+08:00",
       "updated_at": "2025-10-28T14:31:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7688,7 +7710,7 @@
       "description": "<h2 id=\"一基本介绍\">\n  一、基本介绍\n  <a class=\"heading-link\" href=\"#%e4%b8%80%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Mysqldump 是 MySQL 数据库管理系统中最常用的数据备份工具，它能够将数据库中的数据和结构导出为 SQL 脚本文件，便于数据迁移、备份和恢复。</p>\n\n\n<h2 id=\"二常用命令示例\">\n  二、常用命令示例\n  <a class=\"heading-link\" href=\"#%e4%ba%8c%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e7%a4%ba%e4%be%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"1-完整数据库备份\">\n  1. 完整数据库备份\n  <a class=\"heading-link\" href=\"#1-%e5%ae%8c%e6%95%b4%e6%95%b0%e6%8d%ae%e5%ba%93%e5%a4%87%e4%bb%bd\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 一次性导出所有数据库（完整备份）</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p --all-databases &gt; /home/all_databases_backup.sql\n</span></span></code></pre></div>\n\n<h3 id=\"2-单数据库操作\">\n  2. 单数据库操作\n  <a class=\"heading-link\" href=\"#2-%e5%8d%95%e6%95%b0%e6%8d%ae%e5%ba%93%e6%93%8d%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 导出指定数据库（包含结构和数据）</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p db_name &gt; file.sql\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 仅导出数据库结构，不包含数据</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump --opt -d db_name -uroot -p &gt; file_structure_only.sql\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 仅导出数据，不包含表结构</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -t db_name -uroot -p &gt; file_data_only.sql\n</span></span></code></pre></div>\n\n<h3 id=\"3-表级操作\">\n  3. 表级操作\n  <a class=\"heading-link\" href=\"#3-%e8%a1%a8%e7%ba%a7%e6%93%8d%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 导出特定表的结构和数据</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p -B db_name --table tb_name &gt; file.sql\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 导出多个指定表</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysqldump -uroot -p db_name table1 table2 &gt; multiple_tables.sql\n</span></span></code></pre></div>\n\n<h3 id=\"4-数据导入\">\n  4. 数据导入\n  <a class=\"heading-link\" href=\"#4-%e6%95%b0%e6%8d%ae%e5%af%bc%e5%85%a5\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 方法一：使用 source 命令（在 MySQL 命令行中执行）</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysql -uroot -p\n</span></span><span class=\"line\"><span class=\"cl\">use target_database<span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"nb\">source</span> /temp/file.sql<span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 方法二：直接使用 mysql 命令</span>\n</span></span><span class=\"line\"><span class=\"cl\">mysql -uroot -p target_database &lt; file.sql\n</span></span></code></pre></div>\n\n<h2 id=\"三常见问题与解决方案\">\n  三、常见问题与解决方案\n  <a class=\"heading-link\" href=\"#%e4%b8%89%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98%e4%b8%8e%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"错误处理\">\n  错误处理\n  <a class=\"heading-link\" href=\"#%e9%94%99%e8%af%af%e5%a4%84%e7%90%86\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p><strong>问题描述：</strong></p>",
       "pub_date": "2025-10-27T15:29:00+08:00",
       "updated_at": "2025-10-27T15:29:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7743,7 +7765,7 @@
       "description": "<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"image\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" style=\"background-color: #f8f8f8;\" title=\"\" />\n</p>\n\n\n<h2 id=\"一git-基础配置与初始化\">\n  一、Git 基础配置与初始化\n  <a class=\"heading-link\" href=\"#%e4%b8%80git-%e5%9f%ba%e7%a1%80%e9%85%8d%e7%bd%ae%e4%b8%8e%e5%88%9d%e5%a7%8b%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"11-远程仓库连接\">\n  1.1 远程仓库连接\n  <a class=\"heading-link\" href=\"#11-%e8%bf%9c%e7%a8%8b%e4%bb%93%e5%ba%93%e8%bf%9e%e6%8e%a5\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 克隆远程仓库（HTTP认证方式）</span>\n</span></span><span class=\"line\"><span class=\"cl\">git clone http://username:password@remote\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 测试 SSH 连接是否生效</span>\n</span></span><span class=\"line\"><span class=\"cl\">ssh -T git@github.com\n</span></span></code></pre></div>\n\n<h3 id=\"12-用户身份配置\">\n  1.2 用户身份配置\n  <a class=\"heading-link\" href=\"#12-%e7%94%a8%e6%88%b7%e8%ba%ab%e4%bb%bd%e9%85%8d%e7%bd%ae\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 查看当前全局配置</span>\n</span></span><span class=\"line\"><span class=\"cl\">git config --global --list\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 配置全局用户名和邮箱（重要：用于标识提交者身份）</span>\n</span></span><span class=\"line\"><span class=\"cl\">git config --global user.name <span class=\"s2\">\"xxxx\"</span>\n</span></span><span class=\"line\"><span class=\"cl\">git config --global user.email <span class=\"s2\">\"xxxxx\"</span>\n</span></span></code></pre></div>\n\n<h3 id=\"13-仓库初始化\">\n  1.3 仓库初始化\n  <a class=\"heading-link\" href=\"#13-%e4%bb%93%e5%ba%93%e5%88%9d%e5%a7%8b%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 初始化本地 Git 仓库</span>\n</span></span><span class=\"line\"><span class=\"cl\">git init\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 克隆远程版本库到本地</span>\n</span></span><span class=\"line\"><span class=\"cl\">git clone &lt;repository_url&gt;\n</span></span></code></pre></div>\n\n<h2 id=\"二文件跟踪与版本管理\">\n  二、文件跟踪与版本管理\n  <a class=\"heading-link\" href=\"#%e4%ba%8c%e6%96%87%e4%bb%b6%e8%b7%9f%e8%b8%aa%e4%b8%8e%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"21-文件状态监控\">\n  2.1 文件状态监控\n  <a class=\"heading-link\" href=\"#21-%e6%96%87%e4%bb%b6%e7%8a%b6%e6%80%81%e7%9b%91%e6%8e%a7\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 查看工作区和暂存区状态</span>\n</span></span><span class=\"line\"><span class=\"cl\">git status\n</span></span></code></pre></div>\n\n<h3 id=\"22-文件添加与删除\">\n  2.2 文件添加与删除\n  <a class=\"heading-link\" href=\"#22-%e6%96%87%e4%bb%b6%e6%b7%bb%e5%8a%a0%e4%b8%8e%e5%88%a0%e9%99%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 添加文件到暂存区</span>\n</span></span><span class=\"line\"><span class=\"cl\">git add .                        <span class=\"c1\"># 跟踪所有改动过的文件</span>\n</span></span><span class=\"line\"><span class=\"cl\">git add --all                    <span class=\"c1\"># 添加所有文件（包括新增和删除）</span>\n</span></span><span class=\"line\"><span class=\"cl\">git add &lt;file&gt;                   <span class=\"c1\"># 跟踪指定文件</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 文件删除管理</span>\n</span></span><span class=\"line\"><span class=\"cl\">git rm &lt;file&gt;                    <span class=\"c1\"># 删除文件并停止跟踪</span>\n</span></span><span class=\"line\"><span class=\"cl\">git rm --cached &lt;file&gt;           <span class=\"c1\"># 停止跟踪文件但不删除本地文件</span>\n</span></span><span class=\"line\"><span class=\"cl\">git mv &lt;old_file&gt; &lt;new_file&gt;     <span class=\"c1\"># 文件重命名</span>\n</span></span></code></pre></div>\n\n<h3 id=\"23-文件暂存\">\n  2.3 文件暂存\n  <a class=\"heading-link\" href=\"#23-%e6%96%87%e4%bb%b6%e6%9a%82%e5%ad%98\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>要将当前未提交的改动同步到新分支，可以按照以下步骤操作，确保工作区的修改不丢失：</p>",
       "pub_date": "2025-10-24T11:31:00+08:00",
       "updated_at": "2025-10-24T11:31:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7754,7 +7776,7 @@
       "description": "<h3 id=\"svn-常用命令详解\">\n  SVN 常用命令详解\n  <a class=\"heading-link\" href=\"#svn-%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4%e8%af%a6%e8%a7%a3\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>SVN（Subversion）是一个广泛使用的版本控制系统，用于管理文件和目录的变更。以下是对常用 SVN 命令的结构化整理，涵盖代码检出、提交、更新、日志查看、分支操作等核心功能，帮助开发者更高效地使用 SVN。</p>",
       "pub_date": "2025-10-24T11:17:00+08:00",
       "updated_at": "2025-10-24T11:17:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7798,7 +7820,7 @@
       "description": "<h2 id=\"概述\">\n  概述\n  <a class=\"heading-link\" href=\"#%e6%a6%82%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>systemtap是一个强大的动态跟踪工具，能够深入Linux内核和用户空间程序，实时监控系统行为和性能特征。与coredump（事后分析）和auditd（偏向安全审计）不同，systemtap提供了一种主动式、低开销的监控方法，可以在不中断服务的情况下，持续监控系统状态，特别适合排查那些难以复现或间歇性出现的崩溃问题。</p>",
       "pub_date": "2025-10-23T15:13:00+08:00",
       "updated_at": "2025-10-23T15:13:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7809,7 +7831,7 @@
       "description": "<h2 id=\"一wails-简介\">\n  一、Wails 简介\n  <a class=\"heading-link\" href=\"#%e4%b8%80wails-%e7%ae%80%e4%bb%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Wails 是一个用于构建跨平台桌面应用的工具，允许开发者使用 Go 语言（后端）和 Web 技术（HTML/CSS/JavaScript，前端）开发桌面应用，无需依赖 Electron 等重型框架，具有轻量、高性能的特点。支持 Windows、macOS、Linux 系统。</p>",
       "pub_date": "2025-10-23T14:45:00+08:00",
       "updated_at": "2025-10-23T14:45:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7831,7 +7853,7 @@
       "description": "<h2 id=\"一磁盘分区基础概念\">\n  一、磁盘分区基础概念\n  <a class=\"heading-link\" href=\"#%e4%b8%80%e7%a3%81%e7%9b%98%e5%88%86%e5%8c%ba%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>在 Linux 系统中，磁盘分区是将物理硬盘划分为多个逻辑单元的过程。每个分区可以独立格式化、挂载和使用，便于数据管理和系统维护。</p>",
       "pub_date": "2025-10-23T11:15:00+08:00",
       "updated_at": "2025-10-23T11:15:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7842,7 +7864,7 @@
       "description": "<h2 id=\"minio-服务端-docker-部署\">\n  Minio 服务端 Docker 部署\n  <a class=\"heading-link\" href=\"#minio-%e6%9c%8d%e5%8a%a1%e7%ab%af-docker-%e9%83%a8%e7%bd%b2\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p><strong>Minio</strong> 是一个高性能、开源的对象存储解决方案，完全兼容 Amazon S3 API，它专为云原生和容器化环境设计，提供了简单易用的分布式对象存储服务。</p>",
       "pub_date": "2025-10-23T11:11:00+08:00",
       "updated_at": "2025-10-23T11:11:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7853,7 +7875,7 @@
       "description": "<h3 id=\"harbor-私有镜像仓库使用指南\">\n  Harbor 私有镜像仓库使用指南\n  <a class=\"heading-link\" href=\"#harbor-%e7%a7%81%e6%9c%89%e9%95%9c%e5%83%8f%e4%bb%93%e5%ba%93%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n\n\n<h4 id=\"1-环境配置\">\n  1. 环境配置\n  <a class=\"heading-link\" href=\"#1-%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h4>\n<p>在使用 Harbor 私有镜像仓库前，需要配置 Docker 客户端以允许通过 HTTP 协议连接 Harbor（默认使用 HTTP 而非 HTTPS）。</p>",
       "pub_date": "2025-10-23T10:27:00+08:00",
       "updated_at": "2025-10-23T10:27:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7875,7 +7897,7 @@
       "description": "<h1 id=\"supervisor-进程管理工具详解\">\n  Supervisor 进程管理工具详解\n  <a class=\"heading-link\" href=\"#supervisor-%e8%bf%9b%e7%a8%8b%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7%e8%af%a6%e8%a7%a3\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n\n\n<h2 id=\"1-安装方法\">\n  1. 安装方法\n  <a class=\"heading-link\" href=\"#1-%e5%ae%89%e8%a3%85%e6%96%b9%e6%b3%95\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>根据不同的操作系统环境，Supervisor 提供多种安装方式：</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Arch Linux/Manjaro 系统</span>\n</span></span><span class=\"line\"><span class=\"cl\">yay -S supervisor\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 使用 Python pip 安装（跨平台）</span>\n</span></span><span class=\"line\"><span class=\"cl\">pip install supervisor\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># Ubuntu/Debian 系统</span>\n</span></span><span class=\"line\"><span class=\"cl\">sudo apt-get install supervisor\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># CentOS/RHEL 系统</span>\n</span></span><span class=\"line\"><span class=\"cl\">sudo yum install supervisor\n</span></span></code></pre></div>\n\n<h2 id=\"2-配置文件结构\">\n  2. 配置文件结构\n  <a class=\"heading-link\" href=\"#2-%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e7%bb%93%e6%9e%84\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Supervisor 采用分层配置结构，确保管理的灵活性和清晰性：</p>",
       "pub_date": "2025-10-22T16:12:00+08:00",
       "updated_at": "2025-10-22T16:12:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7886,7 +7908,7 @@
       "description": "<h3 id=\"fnm快速轻量的-nodejs-版本管理器\">\n  Fnm：快速、轻量的 Node.js 版本管理器\n  <a class=\"heading-link\" href=\"#fnm%e5%bf%ab%e9%80%9f%e8%bd%bb%e9%87%8f%e7%9a%84-nodejs-%e7%89%88%e6%9c%ac%e7%ae%a1%e7%90%86%e5%99%a8\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n\n\n<h4 id=\"简介\">\n  简介\n  <a class=\"heading-link\" href=\"#%e7%ae%80%e4%bb%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h4>\n<p>\n\n<a class=\"external-link\" href=\"https://github.com/Schniz/fnm\" rel=\"noopener\" target=\"_blank\">Fnm</a>（Fast Node Manager）是一款使用 Rust 编写的 Node.js 版本管理工具，具有跨平台、高性能和易用等特点。它能够帮助开发者快速切换和管理多个 Node.js 版本，适用于开发、测试和生产环境。</p>",
       "pub_date": "2025-10-22T14:26:00+08:00",
       "updated_at": "2025-10-22T14:26:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7897,7 +7919,7 @@
       "description": "<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"image\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" style=\"background-color: #f8f8f8;\" title=\"\" />\n</p>\n\n\n<h1 id=\"nmap-脚本引擎使用指南\">\n  Nmap 脚本引擎使用指南\n  <a class=\"heading-link\" href=\"#nmap-%e8%84%9a%e6%9c%ac%e5%bc%95%e6%93%8e%e4%bd%bf%e7%94%a8%e6%8c%87%e5%8d%97\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n\n\n<h2 id=\"1-nmap-脚本引擎概述\">\n  1. Nmap 脚本引擎概述\n  <a class=\"heading-link\" href=\"#1-nmap-%e8%84%9a%e6%9c%ac%e5%bc%95%e6%93%8e%e6%a6%82%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Nmap 脚本引擎（NSE）是 Nmap 最强大的功能之一，它允许用户编写和使用脚本来进行更深入的网络探测和安全检测。</p>",
       "pub_date": "2025-10-22T11:26:00+08:00",
       "updated_at": "2025-10-22T11:26:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -7952,7 +7974,7 @@
       "description": "<h2 id=\"tcpdump-使用\">\n  Tcpdump 使用\n  <a class=\"heading-link\" href=\"#tcpdump-%e4%bd%bf%e7%94%a8\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>tcpdump 的功能非常强大，其过滤表达式是核心。​</p>\n<p>以下是更多常用命令和场景的补充，并对表达式语法进行解释。</p>\n\n\n<h3 id=\"1-按网络过滤\">\n  1. <strong>按网络过滤</strong>\n  <a class=\"heading-link\" href=\"#1-%e6%8c%89%e7%bd%91%e7%bb%9c%e8%bf%87%e6%bb%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听所有进出 192.168.1.0/24 网络的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 net 192.168.1.0/24\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听目标网络为 10.0.0.0/8 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 dst net 10.0.0.0/8\n</span></span></code></pre></div>\n\n<h3 id=\"2-按端口过滤\">\n  2. <strong>按端口过滤</strong>\n  <a class=\"heading-link\" href=\"#2-%e6%8c%89%e7%ab%af%e5%8f%a3%e8%bf%87%e6%bb%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听所有经过端口 80 (HTTP) 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听源端口或目标端口为 53 (DNS) 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 port <span class=\"m\">53</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听目标端口为 443 (HTTPS) 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 dst port <span class=\"m\">443</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听源端口为 12345 的数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 src port <span class=\"m\">12345</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听端口范围 (如 8000-8080)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 portrange 8000-8080\n</span></span></code></pre></div>\n\n<h3 id=\"3-按协议过滤\">\n  3. <strong>按协议过滤</strong>\n  <a class=\"heading-link\" href=\"#3-%e6%8c%89%e5%8d%8f%e8%ae%ae%e8%bf%87%e6%bb%a4\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 ICMP 数据包 (如 ping)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 icmp\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 TCP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 tcp\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 UDP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 udp\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听 ARP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 arp\n</span></span></code></pre></div>\n\n<h3 id=\"4-组合过滤高级用法\">\n  4. <strong>组合过滤（高级用法）</strong>\n  <a class=\"heading-link\" href=\"#4-%e7%bb%84%e5%90%88%e8%bf%87%e6%bb%a4%e9%ab%98%e7%ba%a7%e7%94%a8%e6%b3%95\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听来自主机 192.168.1.100，目标端口为 80 的 TCP 数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 <span class=\"s1\">'tcp and src host 192.168.1.100 and dst port 80'</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听所有不是 ping (ICMP) 并且不是 SSH (端口 22) 的流量</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 <span class=\"s1\">'not icmp and not port 22'</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 监听来自网络 192.168.1.0/24，去往任何主机端口 80 或 443 的流量</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 <span class=\"s1\">'src net 192.168.1.0/24 and (dst port 80 or dst port 443)'</span>\n</span></span></code></pre></div>\n\n<h3 id=\"5-控制输出和保存文件\">\n  5. <strong>控制输出和保存文件</strong>\n  <a class=\"heading-link\" href=\"#5-%e6%8e%a7%e5%88%b6%e8%be%93%e5%87%ba%e5%92%8c%e4%bf%9d%e5%ad%98%e6%96%87%e4%bb%b6\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-bash\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 不将 IP 地址转换为主机名 (避免 DNS 查询，输出更清爽)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -n -i ens3\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 不将端口号转换为服务名 (如 80 -&gt; http)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -nn -i ens3\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 以 ASCII 和 HEX 格式同时显示数据包内容 (用于调试应用层数据)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -A -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -X -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 组合使用</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -XX -i ens3 port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 将捕获的数据包保存到文件 (方便之后用 Wireshark 分析)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -w capture_file.pcap host node1\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 从之前保存的文件中读取并分析数据包</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -r capture_file.pcap\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 限制捕获数据包的大小 (例如只抓每个包的前 96 字节，包含头部)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -s <span class=\"m\">96</span> port <span class=\"m\">80</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 仅捕获 10 个数据包后退出</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -c <span class=\"m\">10</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 详细输出 (更详细的时间戳、TTL 等信息)</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -v\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -vv <span class=\"c1\"># 更详细</span>\n</span></span><span class=\"line\"><span class=\"cl\">tcpdump -i ens3 -vvv <span class=\"c1\"># 最详细</span>\n</span></span></code></pre></div><hr />\n\n\n<h3 id=\"过滤表达式语法核心\">\n  <strong>过滤表达式语法核心</strong>\n  <a class=\"heading-link\" href=\"#%e8%bf%87%e6%bb%a4%e8%a1%a8%e8%be%be%e5%bc%8f%e8%af%ad%e6%b3%95%e6%a0%b8%e5%bf%83\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>tcpdump 使用 <strong>伯克利包过滤 (BPF)</strong>  语法，其基本结构是：</p>",
       "pub_date": "2025-10-21T17:18:00+08:00",
       "updated_at": "2025-10-21T17:18:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -8062,7 +8084,7 @@
       "description": "<h1 id=\"upx一款高效的二进制压缩工具\">\n  Upx一款高效的二进制压缩工具\n  <a class=\"heading-link\" href=\"#upx%e4%b8%80%e6%ac%be%e9%ab%98%e6%95%88%e7%9a%84%e4%ba%8c%e8%bf%9b%e5%88%b6%e5%8e%8b%e7%bc%a9%e5%b7%a5%e5%85%b7\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n<p>upx 是一款压缩可执行文件的软件，压缩率在 20% 到 %70 之间。在可执行文件运行的时候并不需要解压软件，程序在内存中自动展开</p>",
       "pub_date": "2025-10-16T10:29:00+08:00",
       "updated_at": "2025-10-16T10:29:00+08:00",
-      "author": "lznauy的技术小屋",
+      "author": "lznauy",
       "site_name": "lznauy的技术小屋",
       "site_url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
@@ -8198,20 +8220,14 @@
       "reason": "no_feed_found"
     },
     {
-      "name": "Casear的技术栈",
-      "url": "https://www.casear.net",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
       "name": "Giovan",
       "url": "https://www.giovan.cn/#/",
       "feed_url": null,
       "reason": "no_feed_found"
     },
     {
-      "name": "益友网站",
-      "url": "https://www.yiyou.bj.cn",
+      "name": "Casear的技术栈",
+      "url": "https://www.casear.net",
       "feed_url": null,
       "reason": "no_feed_found"
     },
@@ -8224,6 +8240,12 @@
     {
       "name": "空白Koobai",
       "url": "https://koobai.com/",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
+      "name": "益友网站",
+      "url": "https://www.yiyou.bj.cn",
       "feed_url": null,
       "reason": "no_feed_found"
     },

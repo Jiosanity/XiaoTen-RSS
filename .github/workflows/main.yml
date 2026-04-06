@@ -116,20 +116,24 @@ jobs:
           git commit -m "build: 更新RSS聚合数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 
-      # 新增：传输输出文件到远程服务器
-      - name: Setup SSH key and known_hosts for output transfer
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
+      # 新增：传输输出文件到Hugo博客仓库
+      - name: Checkout Hugo blog repository
+        uses: actions/checkout@v4
+        with:
+          repository: Jiosanity/YOUR_HUGO_BLOG_REPO_NAME # TODO: 请替换为您实际的Hugo博客仓库名称，例如：Jiosanity/hugo-blog
+          token: ${{ secrets.PAT }} # TODO: 请在当前项目(XiaoTen-RSS)的 Secrets 中添加名为 PAT 的个人访问令牌(Personal Access Token)，它需要有 repo 权限
+          path: hugo-blog-repo
           
-      - name: Install rsync for output transfer
-        run: sudo apt-get update && sudo apt-get install -y rsync
-        
-      - name: Deploy output JSON to Server
+      - name: Push RSS JSON to Hugo blog
         run: |
-          echo "Transferring $OUTPUT_JSON_FILENAME to remote server..."
-          # 请根据您的实际需求修改目标路径
-          rsync -avz --chmod=644 "$OUTPUT_JSON_FILENAME" ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/opt/1panel/www/sites/cf.xiaoten.com/index/
-          echo "$OUTPUT_JSON_FILENAME transferred successfully!"
+          echo "Copying $OUTPUT_JSON_FILENAME to Hugo blog repository..."
+          mkdir -p hugo-blog-repo/themes/xiaoten/assets
+          cp "$OUTPUT_JSON_FILENAME" "hugo-blog-repo/themes/xiaoten/assets/"
+          
+          cd hugo-blog-repo
+          git config user.name "GitHub Action"
+          git config user.email "ltax@qq.com"
+          git add "themes/xiaoten/assets/$OUTPUT_JSON_FILENAME"
+          git commit -m "build: 自动同步 RSS JSON 数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
+          git push
+          echo "Successfully pushed to Hugo blog repository!"

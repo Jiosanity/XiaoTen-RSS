@@ -108,32 +108,22 @@ jobs:
                   sf.write(summary + "\n")
           PY
       
-      - name: 提交并推送输出文件
+      - name: 整理发布目录 (适用于 Cloudflare Pages)
+        run: |
+          mkdir -p dist
+          # 把生成的文件移动到 dist
+          mv "$OUTPUT_JSON_FILENAME" dist/
+          # 写入控制跨域的 _headers 文件
+          echo "/*" > dist/_headers
+          echo "  Access-Control-Allow-Origin: *" >> dist/_headers
+          
+      - name: 提交并推送输出文件到本仓库
         run: |
           git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
-          git add -f "$OUTPUT_JSON_FILENAME"
-          git commit -m "build: 更新RSS聚合数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
+          # 尝试从根目录的 git 跟踪中移除旧的文件（如果有）
+          git rm --cached "$OUTPUT_JSON_FILENAME" 2>/dev/null || true
+          # 强制将 dist 目录加入 git
+          git add -f dist/
+          git commit -m "build: 更新RSS数据到dist目录 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
-
-      # 新增：传输输出文件到Hugo博客仓库
-      - name: Checkout Hugo blog repository
-        uses: actions/checkout@v4
-        with:
-          repository: Jiosanity/hugo-xiaoten-com 
-          token: ${{ secrets.PAT }} 
-          path: hugo-blog-repo
-          
-      - name: Push RSS JSON to Hugo blog
-        run: |
-          echo "Copying $OUTPUT_JSON_FILENAME to Hugo blog repository..."
-          mkdir -p hugo-blog-repo/themes/xiaoten/assets
-          cp "$OUTPUT_JSON_FILENAME" "hugo-blog-repo/themes/xiaoten/assets/"
-          
-          cd hugo-blog-repo
-          git config user.name "GitHub Action"
-          git config user.email "ltax@qq.com"
-          git add "themes/xiaoten/assets/$OUTPUT_JSON_FILENAME"
-          git commit -m "build: 自动同步 RSS JSON 数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
-          git push
-          echo "Successfully pushed to Hugo blog repository!"

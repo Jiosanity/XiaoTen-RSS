@@ -120,8 +120,8 @@ jobs:
       - name: Checkout Hugo blog repository
         uses: actions/checkout@v4
         with:
-          repository: Jiosanity/YOUR_HUGO_BLOG_REPO_NAME # TODO: 请替换为您实际的Hugo博客仓库名称，例如：Jiosanity/hugo-blog
-          token: ${{ secrets.PAT }} # TODO: 请在当前项目(XiaoTen-RSS)的 Secrets 中添加名为 PAT 的个人访问令牌(Personal Access Token)，它需要有 repo 权限
+          repository: Jiosanity/hugo-xiaoten-com 
+          token: ${{ secrets.PAT }} 
           path: hugo-blog-repo
           
       - name: Push RSS JSON to Hugo blog

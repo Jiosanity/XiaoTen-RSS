@@ -127,3 +127,25 @@ jobs:
           git add -f dist/
           git commit -m "build: 更新RSS数据到dist目录 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
+
+      - name: 推送 rss.json 到 static-xiaoten-com
+        run: |
+          # 检出 static-xiaoten-com 仓库
+          git clone https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jiosanity/static-xiaoten-com.git static-site
+
+          mkdir -p static-site/dist
+          cp "dist/$OUTPUT_JSON_FILENAME" static-site/dist/rss.json
+
+          cd static-site
+          git config user.name "小十"
+          git config user.email "i@xiaoten.com"
+          git add dist/rss.json
+
+          if git diff-index --quiet HEAD --; then
+            echo "rss.json 无变化，跳过推送。"
+          else
+            git commit -m "Auto-update: rss.json $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+            git push origin main
+            echo "rss.json 已推送至 static-xiaoten-com！"
+          fi
+

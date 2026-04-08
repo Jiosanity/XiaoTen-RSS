@@ -120,24 +120,25 @@ jobs:
           git commit -m "build: 更新RSS数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 
-      - name: 推送 rss.json 到 static-xiaoten-com
+      - name: 推送 rss.json 到 static-xiaoten-com 的 dist 目录
         run: |
           # 检出 static-xiaoten-com 仓库 (更新为最新的 Jiosanity 大写路径)
           git clone https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/Jiosanity/static-xiaoten-com.git static-site
 
-          cp "$OUTPUT_JSON_FILENAME" static-site/rss.json
+          # 确保 dist 目录存在，并将文件复制到 dist 目录下
+          mkdir -p static-site/dist
+          cp "$OUTPUT_JSON_FILENAME" static-site/dist/rss.json
 
           cd static-site
           git config user.name "小十"
           git config user.email "i@xiaoten.com"
-          # 同样使用强制添加，防止目标仓库也忽略了 rss.json
-          git add -f rss.json
+          # 强制添加 dist/rss.json，防止目标仓库也忽略了该文件
+          git add -f dist/rss.json
 
           if git diff-index --quiet HEAD --; then
-            echo "rss.json 无变化，跳过推送。"
+            echo "dist/rss.json 无变化，跳过推送。"
           else
-            git commit -m "Auto-update: rss.json $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
+            git commit -m "Auto-update: dist/rss.json $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')"
             git push origin main
-            echo "rss.json 已推送至 static-xiaoten-com！"
+            echo "rss.json 已成功推送至 static-xiaoten-com 的 dist 文件夹！"
           fi
-

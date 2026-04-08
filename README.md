@@ -3,6 +3,7 @@
 这是一个轻量的 RSS 聚合工具，它会从「友链页面」与配置的手动友链中发现 RSS/Atom 源，抓取并聚合文章，最终输出为由 `OUTPUT_JSON_FILENAME` 指定的 JSON 文件（默认 `data.json`），可供前端或静态站点使用。
 
 核心功能（最新）
+- 支持爬取静态及动态渲染（如基于 JS 获取 JSON）的友链页面（可选 Playwright）
 - 从友链页面按 CSS 规则自动提取站点链接
 - 支持手动添加友链并可配置自定义 feed 后缀（如 `rss`、`rss.xml` 等）
 - 自动发现并验证常见 Feed 后缀
@@ -31,6 +32,7 @@ cd xiaoten-rss
 
 ```powershell
 pip install -r requirements.txt
+python -m playwright install chromium  # 如果需要在配置中开启 js_render 抓取动态页面，则需补充安装此浏览器内核
 ```
 
 3. 运行聚合
@@ -44,7 +46,7 @@ python main.py
 配置要点（`setting.yaml`）
 
 ## 基础配置（速览）
-- `LINK`：友链页面 URL 列表
+- `LINK`：友链页面 配置列表。每项可含 `link` (URL), 以及可选属性 `js_render: true` (开启浏览器渲染), `wait_selector` (等待指定 CSS 元素)
 - `link_page_rules`：从友链页提取 姓名/链接/头像 的 CSS 规则
 - `SETTINGS_FRIENDS_LINKS`：手动友链 `[name, url, avatar, optional_feed_suffix]`
 - `BLOCK_SITE` / `BLOCK_SITE_REVERSE`：黑/白名单（正则）
@@ -83,6 +85,11 @@ python main.py
  
 
 ## 更新日志
+
+### 2026-04-08
+- **新增动态页面支持**：通过可选的 `Playwright` 依赖，支持抓取基于 JS 动态渲染的友链页面（通过配置 `js_render: true` 及 `wait_selector` 触发）。
+- **优化程序降级逻辑**：当未安装 Playwright 但配置了 `js_render: true` 时，不会引发程序崩溃，而是会自动回退为基于 `requests` 的静态请求。
+- **Action 更新**：内置 GitHub Action 工作流已默认加入 Playwright 环境依赖配置，保障自动化执行不受影响。
 
 ### 2025-11-17
 - **优化手动配置优先级逻辑**：手动配置的友链不再受黑名单限制，优先级更高

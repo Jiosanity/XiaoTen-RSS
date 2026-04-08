@@ -8,8 +8,15 @@ link_page_rules:
   }
 
 ## 友链页面链接
+## js_render: 是否使用无头浏览器（Playwright）渲染 JS 后再抓取，默认 false
+##   - true:  适合友链通过 JS 动态加载的页面（需安装 playwright）
+##   - false: 直接 HTTP GET，适合静态渲染的页面（默认，更快）
+## wait_selector: js_render=true 时等待该 CSS 选择器出现后再抓取（可选）
+##   优先使用 wait_selector 而非固定延迟，能更准确地判断页面加载完成
 LINK:
   - link: "https://www.xiaoten.com/pages/links/"
+    js_render: true
+    wait_selector: ".cf-friends"
 
 ## 屏蔽站点（正则表达式）
 BLOCK_SITE:
@@ -26,6 +33,7 @@ BLOCK_SITE:
   - "https://twd2.me/"
   - "https://storeweb.cn/"
   - "https://peng.you/"
+  - "https://s7.fan/"
 
 ## 反向屏蔽站点（正则表达式），如果为 true，则列表表示允许列表（白名单），即只有匹配的会被抓取；默认 false（黑名单行为）。
 BLOCK_SITE_REVERSE: false

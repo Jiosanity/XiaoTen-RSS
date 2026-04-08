@@ -25,6 +25,12 @@ from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 import urllib3
 
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -162,13 +168,19 @@ class ConfigParser:
             force=True  # 强制重新配置
         )
     
-    def get_link_pages(self) -> List[str]:
-        """获取需要爬取的友链页面URL列表"""
-        links = []
+    def get_link_pages(self) -> List[Dict[str, Any]]:
+        """获取需要爬取的友链页面配置列表
+        
+        每项包含:
+          - link: 页面 URL（必须）
+          - js_render: 是否使用 JS 渲染（可选）
+          - wait_selector: 等待的选择器（可选）
+        """
+        pages = []
         for item in self.config.get('LINK', []):
             if isinstance(item, dict) and 'link' in item:
-                links.append(item['link'])
-        return links
+                pages.append(item)
+        return pages
     
     def get_link_page_rules(self) -> dict:
         """获取CSS选择器规则"""
@@ -325,16 +337,77 @@ class LinkPageScraper:
         session.verify = False
         return session
     
-    def scrape(self, url: str) -> List[Dict[str, str]]:
-        """从友链页面爬取链接"""
+    def scrape(self, page_config) -> List[Dict[str, str]]:
+        """从友链数据源获取链接"""
+        if isinstance(page_config, str):
+            page_config = {'link': page_config}
+        
+        url = page_config.get('link', '')
+        if not url:
+            return []
+            
+        js_render = page_config.get('js_render', False)
+        wait_selector = page_config.get('wait_selector', '')
+        
+        if js_render:
+            if PLAYWRIGHT_AVAILABLE:
+                return self._scrape_with_playwright(url, wait_selector)
+            else:
+                logger.warning(f"配置了 js_render=True，但未安装 Playwright。回退到普通 HTTP 请求: {url}")
+                # 回退到普通的 HTML 爬取
+                
+        return self._scrape_from_html(url)
+    
+    def _scrape_with_playwright(self, url: str, wait_selector: str) -> List[Dict[str, str]]:
+        """使用 Playwright 无头浏览器渲染并抓取"""
         try:
-            logger.info(f"正在爬取友链页面: {url}")
+            logger.info(f"正在使用 Playwright 渲染友链页面: {url}")
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                # Playwright 默认超时单位为毫秒
+                context = browser.new_context(user_agent=self.user_agent)
+                page = context.new_page()
+                page.set_default_timeout(self.request_timeout * 1000)
+                
+                page.goto(url, wait_until='networkidle')
+                
+                if wait_selector:
+                    logger.debug(f"等待选择器加载: {wait_selector}")
+                    page.wait_for_selector(wait_selector, state='attached')
+                else:
+                    # 额外等待确保动态内容加载
+                    page.wait_for_timeout(3000)
+                
+                html_content = page.content()
+                browser.close()
+                
+            return self._parse_html(html_content, url)
+        except Exception as e:
+            logger.error(f"Playwright 渲染页面失败 {url}: {e}")
+            return []
+            
+    def _scrape_from_html(self, url: str) -> List[Dict[str, str]]:
+        """从友链 HTML 页面爬取链接（使用 requests）"""
+        try:
+            logger.info(f"正在通过 HTTP GET 爬取友链页面: {url}")
             response = self.session.get(url, timeout=self.request_timeout)
             response.encoding = 'utf-8'
             response.raise_for_status()
+            return self._parse_html(response.text, url)
+        except requests.Timeout:
+            logger.error(f"爬取友链页面超时 {url}")
+            return []
+        except requests.HTTPError as e:
+            logger.error(f"爬取友链页面HTTP错误 {url}: {e.response.status_code}")
+            return []
+        except Exception as e:
+            logger.error(f"爬取友链页面失败 {url}: {e}")
+            return []
             
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
+    def _parse_html(self, html_content: str, base_url: str) -> List[Dict[str, str]]:
+        """公用的 HTML 解析逻辑"""
+        try:
+            soup = BeautifulSoup(html_content, 'html.parser')
             links = []
             author_elements = soup.select(self.rules.get('author', [{}])[0].get('selector', ''))
             
@@ -359,7 +432,7 @@ class LinkPageScraper:
                     if link_url and author_name:
                         # 规范化URL
                         if not link_url.startswith('http'):
-                            link_url = urljoin(url, link_url)
+                            link_url = urljoin(base_url, link_url)
                         
                         links.append({
                             'name': author_name,
@@ -367,19 +440,13 @@ class LinkPageScraper:
                             'avatar': avatar
                         })
                 except Exception as e:
-                    logger.debug(f"爬取单条链接失败: {e}")
+                    logger.debug(f"解析单条链接失败: {e}")
                     continue
             
-            logger.info(f"从{url}成功爬取{len(links)}条链接")
+            logger.info(f"从{base_url}成功解析出{len(links)}条链接")
             return links
-        except requests.Timeout:
-            logger.error(f"爬取友链页面超时 {url}")
-            return []
-        except requests.HTTPError as e:
-            logger.error(f"爬取友链页面HTTP错误 {url}: {e.response.status_code}")
-            return []
         except Exception as e:
-            logger.error(f"爬取友链页面失败 {url}: {e}")
+            logger.error(f"解析 HTML 内容失败 {base_url}: {e}")
             return []
 
 

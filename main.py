@@ -367,9 +367,12 @@ class LinkPageScraper:
                 # Playwright 默认超时单位为毫秒
                 context = browser.new_context(user_agent=self.user_agent)
                 page = context.new_page()
-                page.set_default_timeout(self.request_timeout * 1000)
+                # 浏览器渲染通常比普通请求慢，给予更多宽容时间（默认 30s 或常规超时的 3 倍）
+                render_timeout = max(30, self.request_timeout * 3)
+                page.set_default_timeout(render_timeout * 1000)
                 
-                page.goto(url, wait_until='networkidle')
+                logger.debug(f"正在访问页面并等待加载: {url}")
+                page.goto(url, wait_until='load', timeout=render_timeout * 1000)
                 
                 if wait_selector:
                     logger.debug(f"等待选择器加载: {wait_selector}")

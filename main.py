@@ -12,7 +12,7 @@ import logging
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from typing import List, Dict, Any, Tuple, Optional
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, parse_qs, unquote
 import hashlib
 from time import sleep
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -432,11 +432,15 @@ class LinkPageScraper:
                     if img_elem:
                         avatar = img_elem.get('src', '')
                     
-                    if link_url and author_name:
+                    if link_url:
                         # 规范化URL
                         if not link_url.startswith('http'):
                             link_url = urljoin(base_url, link_url)
                         
+                        # 处理重定向链接 (如 xiaoten.com/pages/redirect/#target=...)
+                        link_url = self._unwrap_redirect_url(link_url)
+                    
+                    if link_url and author_name:
                         links.append({
                             'name': author_name,
                             'url': link_url,
@@ -451,6 +455,33 @@ class LinkPageScraper:
         except Exception as e:
             logger.error(f"解析 HTML 内容失败 {base_url}: {e}")
             return []
+            
+    def _unwrap_redirect_url(self, url: str) -> str:
+        """解析并提取重定向链接中的真实目标 URL
+        
+        支持处理 #target=... 或 ?target=... 格式的重定向
+        """
+        try:
+            parsed = urlparse(url)
+            # 优先从 fragment (#) 中尝试提取 (适用于小十博客的跳转页)
+            if parsed.fragment:
+                # 兼容 target=... 这种格式
+                params = parse_qs(parsed.fragment.lstrip('#'))
+                target = params.get('target', [None])[0]
+                if target:
+                    return unquote(target)
+            
+            # 再从 query (?) 中尝试提取
+            if parsed.query:
+                params = parse_qs(parsed.query)
+                target = params.get('target', [None])[0]
+                if target:
+                    return unquote(target)
+            
+            return url
+        except Exception as e:
+            logger.debug(f"解析重定向链接失败 {url}: {e}")
+            return url
 
 
 class RSSFetcher:

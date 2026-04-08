@@ -115,8 +115,8 @@ jobs:
         run: |
           git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
-          # 添加生成的 JSON
-          git add "$OUTPUT_JSON_FILENAME"
+          # 强制添加生成的 JSON (即便它在 .gitignore 中)
+          git add -f "$OUTPUT_JSON_FILENAME"
           git commit -m "build: 更新RSS数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 

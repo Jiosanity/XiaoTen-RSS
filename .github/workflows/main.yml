@@ -111,24 +111,13 @@ jobs:
                   sf.write(summary + "\n")
           PY
       
-      - name: 整理发布目录 (适用于 Cloudflare Pages)
-        run: |
-          mkdir -p dist
-          # 把生成的文件移动到 dist
-          mv "$OUTPUT_JSON_FILENAME" dist/
-          # 写入控制跨域的 _headers 文件
-          echo "/*" > dist/_headers
-          echo "  Access-Control-Allow-Origin: *" >> dist/_headers
-          
       - name: 提交并推送输出文件到本仓库
         run: |
           git config --local user.email "ltax@qq.com"
           git config --local user.name "GitHub Action"
-          # 尝试从根目录的 git 跟踪中移除旧的文件（如果有）
-          git rm --cached "$OUTPUT_JSON_FILENAME" 2>/dev/null || true
-          # 强制将 dist 目录加入 git
-          git add -f dist/
-          git commit -m "build: 更新RSS数据到dist目录 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
+          # 添加生成的 JSON
+          git add "$OUTPUT_JSON_FILENAME"
+          git commit -m "build: 更新RSS数据 $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')" || echo "没有更改可提交"
           git push
 
       - name: 推送 rss.json 到 static-xiaoten-com
@@ -136,13 +125,12 @@ jobs:
           # 检出 static-xiaoten-com 仓库
           git clone https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/jiosanity/static-xiaoten-com.git static-site
 
-          mkdir -p static-site/dist
-          cp "dist/$OUTPUT_JSON_FILENAME" static-site/dist/rss.json
+          cp "$OUTPUT_JSON_FILENAME" static-site/rss.json
 
           cd static-site
           git config user.name "小十"
           git config user.email "i@xiaoten.com"
-          git add dist/rss.json
+          git add rss.json
 
           if git diff-index --quiet HEAD --; then
             echo "rss.json 无变化，跳过推送。"

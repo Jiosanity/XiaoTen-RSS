@@ -34,6 +34,7 @@ BLOCK_SITE:
   - "https://storeweb.cn/"
   - "https://peng.you/"
   - "https://s7.fan/"
+  - "https://www.rmbk.cc/"
 
 ## 反向屏蔽站点（正则表达式），如果为 true，则列表表示允许列表（白名单），即只有匹配的会被抓取；默认 false（黑名单行为）。
 BLOCK_SITE_REVERSE: false

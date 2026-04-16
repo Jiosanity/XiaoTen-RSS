@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16T08:38:46.444744+08:00",
+  "updated_at": "2026-04-16T14:42:39.647713+08:00",
   "total_sites": 28,
   "total_posts": 307,
   "sites": [
@@ -409,36 +409,6 @@
       "posts": []
     },
     {
-      "name": "小白大学渣",
-      "url": "https://www.baihub.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg",
-      "feed_url": "https://www.baihub.cn/feed",
-      "posts": [
-        {
-          "title": "一些快过期的边角料",
-          "link": "https://www.baihub.cn/corner/some-moment-260214/",
-          "description": "师姐在小红书上刷到了生物实验室版本的圣诞树，大多是用移液枪的枪头做的，实验之余我和师姐也仿照着做了一个，关了灯 [&#8230;]",
-          "pub_date": "2026-02-14T13:00:54+08:00",
-          "updated_at": "2026-02-14T13:00:54+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
-        },
-        {
-          "title": "初尝醉酒滋味",
-          "link": "https://www.baihub.cn/corner/first-drunk-experience/",
-          "description": "起因是一位在职博士师兄已经完成了大部分实验，十二月初科室培训结束后就要回到工作单位了，在本周宴请实验室的大家一 [&#8230;]",
-          "pub_date": "2025-11-30T17:41:43+08:00",
-          "updated_at": "2025-11-30T17:41:43+08:00",
-          "author": "大学渣",
-          "site_name": "小白大学渣",
-          "site_url": "https://www.baihub.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
-        }
-      ]
-    },
-    {
       "name": "黑石博客",
       "url": "https://heson.me/",
       "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
@@ -469,6 +439,36 @@
       ]
     },
     {
+      "name": "小白大学渣",
+      "url": "https://www.baihub.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg",
+      "feed_url": "https://www.baihub.cn/feed",
+      "posts": [
+        {
+          "title": "一些快过期的边角料",
+          "link": "https://www.baihub.cn/corner/some-moment-260214/",
+          "description": "师姐在小红书上刷到了生物实验室版本的圣诞树，大多是用移液枪的枪头做的，实验之余我和师姐也仿照着做了一个，关了灯 [&#8230;]",
+          "pub_date": "2026-02-14T13:00:54+08:00",
+          "updated_at": "2026-02-14T13:00:54+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        },
+        {
+          "title": "初尝醉酒滋味",
+          "link": "https://www.baihub.cn/corner/first-drunk-experience/",
+          "description": "起因是一位在职博士师兄已经完成了大部分实验，十二月初科室培训结束后就要回到工作单位了，在本周宴请实验室的大家一 [&#8230;]",
+          "pub_date": "2025-11-30T17:41:43+08:00",
+          "updated_at": "2025-11-30T17:41:43+08:00",
+          "author": "大学渣",
+          "site_name": "小白大学渣",
+          "site_url": "https://www.baihub.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        }
+      ]
+    },
+    {
       "name": "网友小宋",
       "url": "https://xyzbz.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
@@ -478,8 +478,8 @@
           "title": "松声｜廿六年·四月中·桐花开",
           "link": "https://xyzbz.cn/archives/1526/",
           "description": "春天的风景春天多出去转转，感受春天带来一丝万物生长的气息，调节自己疲惫的身心。[photos][/photos][photos][/photos][photos][/photos]定期四季定期景...",
-          "pub_date": "2026-04-16T03:28:20+08:00",
-          "updated_at": "2026-04-16T03:28:20+08:00",
+          "pub_date": "2026-04-16T03:28:00+08:00",
+          "updated_at": "2026-04-16T03:28:00+08:00",
           "author": "网友小宋",
           "site_name": "网友小宋",
           "site_url": "https://xyzbz.cn/",
@@ -2221,124 +2221,6 @@
       ]
     },
     {
-      "name": "小屁君的吐槽",
-      "url": "https://blog.ouxiaopi.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
-      "feed_url": "https://blog.ouxiaopi.com/feed",
-      "posts": [
-        {
-          "title": "添加一个新功能，修复一个小BUG",
-          "link": "https://blog.ouxiaopi.com/1796.html",
-          "description": "作者介绍了文章目录功能的实现：通过JS生成，仅匹配文章内容的H2、H3标签，添加锚点并精准定位以避开顶部导航，滚动时高亮当前标题，非PC端隐藏。同时修复了AI摘要中Token明文泄露问题，通过esc_js处理敏感参数，采用后端接口并动态nonce保障安全，避免前端暴露密钥信息。",
-          "pub_date": "2026-03-31T06:06:25+08:00",
-          "updated_at": "2026-03-31T06:06:25+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "从脆弱自我到心流人生，理性与感性的和解之路。",
-          "link": "https://blog.ouxiaopi.com/1786.html",
-          "description": "文章以个人经历切入，强调好奇心是认知起点，指出人性本脆弱，需接纳局限以清醒认知。核心观点认为感性优先于理性，心流是全脑协振的生命状态，是回归本然的体验。通过东西方哲思（柏拉图“美好模型”、朱熹“存天理灭人欲”）论证顺应本心的重要性，结合脑科学说明神经联结决定能力，反对功利性心流，主张心流应是忘却自我、纯粹愉悦的状态，最终倡导接纳脆弱、回归本然，实现个体圆满。",
-          "pub_date": "2026-03-25T03:39:49+08:00",
-          "updated_at": "2026-03-25T03:39:49+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "别人眼中的我，才是我！",
-          "link": "https://blog.ouxiaopi.com/1773.html",
-          "description": "翻看朋友圈的时候，翻到和朋友的合照。认真看自己的时候，觉得熟悉又陌生，那因笑容挤压扭曲的鱼尾纹，那谄媚的脸。那 [&#8230;]",
-          "pub_date": "2026-02-28T03:52:27+08:00",
-          "updated_at": "2026-02-28T03:52:27+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（十一）",
-          "link": "https://blog.ouxiaopi.com/1752.html",
-          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
-          "pub_date": "2026-02-25T06:28:19+08:00",
-          "updated_at": "2026-02-25T06:28:19+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（十）",
-          "link": "https://blog.ouxiaopi.com/1741.html",
-          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
-          "pub_date": "2026-01-26T12:24:01+08:00",
-          "updated_at": "2026-01-26T12:24:01+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小米的”星号”艺术!",
-          "link": "https://blog.ouxiaopi.com/1734.html",
-          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
-          "pub_date": "2026-01-23T07:42:00+08:00",
-          "updated_at": "2026-01-23T07:42:00+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（八）",
-          "link": "https://blog.ouxiaopi.com/1706.html",
-          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
-          "pub_date": "2026-01-15T02:41:26+08:00",
-          "updated_at": "2026-01-15T02:41:26+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "2025年度总结",
-          "link": "https://blog.ouxiaopi.com/1676.html",
-          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
-          "pub_date": "2026-01-04T07:54:40+08:00",
-          "updated_at": "2026-01-04T07:54:40+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "凤英",
-          "link": "https://blog.ouxiaopi.com/1665.html",
-          "description": "米高杨唱的完整版《凤英》",
-          "pub_date": "2025-12-24T14:31:13+08:00",
-          "updated_at": "2025-12-24T14:31:13+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（七）",
-          "link": "https://blog.ouxiaopi.com/1635.html",
-          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
-          "pub_date": "2025-12-14T04:08:11+08:00",
-          "updated_at": "2025-12-14T04:08:11+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        }
-      ]
-    },
-    {
       "name": "水拍石",
       "url": "https://www.leitao.cn",
       "avatar": "https://cdn.xiaoten.com/friends/leitao.png",
@@ -2567,6 +2449,124 @@
       ]
     },
     {
+      "name": "小屁君的吐槽",
+      "url": "https://blog.ouxiaopi.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
+      "feed_url": "https://blog.ouxiaopi.com/feed",
+      "posts": [
+        {
+          "title": "添加一个新功能，修复一个小BUG",
+          "link": "https://blog.ouxiaopi.com/1796.html",
+          "description": "作者介绍了文章目录功能的实现：通过JS生成，仅匹配文章内容的H2、H3标签，添加锚点并精准定位以避开顶部导航，滚动时高亮当前标题，非PC端隐藏。同时修复了AI摘要中Token明文泄露问题，通过esc_js处理敏感参数，采用后端接口并动态nonce保障安全，避免前端暴露密钥信息。",
+          "pub_date": "2026-03-31T06:06:25+08:00",
+          "updated_at": "2026-03-31T06:06:25+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "从脆弱自我到心流人生，理性与感性的和解之路。",
+          "link": "https://blog.ouxiaopi.com/1786.html",
+          "description": "文章以个人经历切入，强调好奇心是认知起点，指出人性本脆弱，需接纳局限以清醒认知。核心观点认为感性优先于理性，心流是全脑协振的生命状态，是回归本然的体验。通过东西方哲思（柏拉图“美好模型”、朱熹“存天理灭人欲”）论证顺应本心的重要性，结合脑科学说明神经联结决定能力，反对功利性心流，主张心流应是忘却自我、纯粹愉悦的状态，最终倡导接纳脆弱、回归本然，实现个体圆满。",
+          "pub_date": "2026-03-25T03:39:49+08:00",
+          "updated_at": "2026-03-25T03:39:49+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "别人眼中的我，才是我！",
+          "link": "https://blog.ouxiaopi.com/1773.html",
+          "description": "翻看朋友圈的时候，翻到和朋友的合照。认真看自己的时候，觉得熟悉又陌生，那因笑容挤压扭曲的鱼尾纹，那谄媚的脸。那 [&#8230;]",
+          "pub_date": "2026-02-28T03:52:27+08:00",
+          "updated_at": "2026-02-28T03:52:27+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十一）",
+          "link": "https://blog.ouxiaopi.com/1752.html",
+          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
+          "pub_date": "2026-02-25T06:28:19+08:00",
+          "updated_at": "2026-02-25T06:28:19+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十）",
+          "link": "https://blog.ouxiaopi.com/1741.html",
+          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
+          "pub_date": "2026-01-26T12:24:01+08:00",
+          "updated_at": "2026-01-26T12:24:01+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小米的”星号”艺术!",
+          "link": "https://blog.ouxiaopi.com/1734.html",
+          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
+          "pub_date": "2026-01-23T07:42:00+08:00",
+          "updated_at": "2026-01-23T07:42:00+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（八）",
+          "link": "https://blog.ouxiaopi.com/1706.html",
+          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
+          "pub_date": "2026-01-15T02:41:26+08:00",
+          "updated_at": "2026-01-15T02:41:26+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "2025年度总结",
+          "link": "https://blog.ouxiaopi.com/1676.html",
+          "description": "作者回顾过去一年，感觉漫长又短暂。漫长源于情绪把控失调，意识到问题后情绪失控渐消；短暂是感慨时光飞逝。作者自定义“青登”，因按新标准自己算青年，却觉身体不如老人。这一年坚持写作和拍摄，博客更新率提升，相册网站也持续更新。面对AI，作者思考不过分依赖，将其作工具。新一年会更用心生活，提升认知，保持开放心态，带着清醒与热爱前行。",
+          "pub_date": "2026-01-04T07:54:40+08:00",
+          "updated_at": "2026-01-04T07:54:40+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "凤英",
+          "link": "https://blog.ouxiaopi.com/1665.html",
+          "description": "米高杨唱的完整版《凤英》",
+          "pub_date": "2025-12-24T14:31:13+08:00",
+          "updated_at": "2025-12-24T14:31:13+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（七）",
+          "link": "https://blog.ouxiaopi.com/1635.html",
+          "description": "豆包手机引发全网抵制，背后是国内AI圈技术、人性、资本与普通个体的博弈。人们对其安全性存忧，大厂抗拒或是未做好入局准备，资本逐利下普通人或成牺牲品。智谱AutoGLM开源带来希望，荣耀等品牌也早有探索。马斯克预言手机将成超级AI载体，但AI发展冲击实体经济、取代岗位，开源虽给企业转型可能却不够。AI走向未知，人们需应对变革。此外，小区消防改造用维修基金多数业主不知，反馈后遭讥讽，有人退出业主群，担忧权益与温度消散。",
+          "pub_date": "2025-12-14T04:08:11+08:00",
+          "updated_at": "2025-12-14T04:08:11+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        }
+      ]
+    },
+    {
       "name": "winegrower",
       "url": "http://www.winegrower.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/winegrower.png",
@@ -2704,6 +2704,13 @@
       ]
     },
     {
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
+    },
+    {
       "name": "从良未遂",
       "url": "https://www.jeffer.xyz/",
       "avatar": "https://cdn.xiaoten.com/friends/jeffer.jpg",
@@ -2778,11 +2785,45 @@
       ]
     },
     {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
+      "name": "eallion's Blog",
+      "url": "https://www.eallion.com",
+      "avatar": "https://cdn.xiaoten.com/friends/eallion.png",
+      "feed_url": "https://www.eallion.com/feed",
+      "posts": [
+        {
+          "title": "春假清明自驾游",
+          "link": "https://www.eallion.com/qingming-road-trip-2026/",
+          "description": "春假期间自驾游计划涵盖多个景点，包括宜昌三峡、荆州古城、岳阳楼、长沙橘子洲头和湘西凤凰古城。行程中遇到车辆故障，需紧急修理，但最终顺利完成旅行。三峡虽未能体验升船机，但仍感叹工程伟大；荆州古城实现了去年的心愿；岳阳楼因雨雾增添意境；橘子洲头在夕阳下美丽动人。然而途中加油时遭遇油品问题，导致发动机抖动，需要额外维修费用。在旅途的挑战与风景中，收获了难忘的经历。",
+          "pub_date": "2026-04-07T13:17:38+08:00",
+          "updated_at": "2026-04-07T13:17:38+08:00",
+          "author": "eallion.s+blog@gmail.com (Charles Chin)",
+          "site_name": "eallion's Blog",
+          "site_url": "https://www.eallion.com",
+          "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
+        },
+        {
+          "title": "Ubuntu 25.10 安装和配置",
+          "link": "https://www.eallion.com/ubuntu2510/",
+          "description": "Ubuntu 25.10 安装及配置经验总结：从安装到优化，包括系统设置、驱动安装、字体配置、输入法设置等。详细介绍了换源、分区方案选择、Grub 美化以及常用软件的安装方法。通过个人实践分享，帮助读者快速上手 Ubuntu 25.10，并提高系统稳定性和易用性。",
+          "pub_date": "2025-11-11T08:16:16+08:00",
+          "updated_at": "2025-11-11T08:16:16+08:00",
+          "author": "eallion.s+blog@gmail.com (Charles Chin)",
+          "site_name": "eallion's Blog",
+          "site_url": "https://www.eallion.com",
+          "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
+        },
+        {
+          "title": "秋假",
+          "link": "https://www.eallion.com/holiday-in-autumn/",
+          "description": "为期 9 天的「秋假」从昨天下午放学时开始了！秋假其实只有 5 天，但是加上前后两个周末，一共就是 9 天连休。湖北就我们州（市）这 2 个县要放，一个是我们利川市，一个是隔壁咸丰县。公告信息刚出来的时候，好多外地都是羡慕。先别急着羡慕，说出来你们可能不信，我们这里还有传统的 7-10 天春假，已经实行好多年了。印象中小时候也有春假，但那时候叫「农忙假」，农忙假就是农忙时节放假回家帮忙干活。不少老师也要回家帮家里干活。现在不用回家干农活了，春假、秋假就成了旅游的好时机。这个时节景点人少，假期时间长，正适合错峰出行游玩。除了春假、秋假 我们这里还有「州庆」假，春秋假一般是教育系统放假，州庆假是各个单位都会放的。",
+          "pub_date": "2025-11-01T00:00:00+08:00",
+          "updated_at": "2025-11-01T00:00:00+08:00",
+          "author": "eallion.s+blog@gmail.com (Charles Chin)",
+          "site_name": "eallion's Blog",
+          "site_url": "https://www.eallion.com",
+          "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
+        }
+      ]
     },
     {
       "name": "Jack's Space",
@@ -2965,77 +3006,6 @@
           "site_name": "Jack's Space",
           "site_url": "https://veryjack.com/",
           "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        }
-      ]
-    },
-    {
-      "name": "枋柚梓",
-      "url": "https://inkss.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
-      "feed_url": "https://inkss.cn/feed",
-      "posts": [
-        {
-          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
-          "link": "https://inkss.cn/post/4a1a172a/",
-          "description": "本文分享腾讯云 EdgeOne 使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
-          "pub_date": "2025-10-21T10:00:00+08:00",
-          "updated_at": "2026-03-15T13:05:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        },
-        {
-          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
-          "link": "https://inkss.cn/post/bbad9898/",
-          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
-          "pub_date": "2025-11-12T12:48:00+08:00",
-          "updated_at": "2025-11-12T12:48:00+08:00",
-          "author": "",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        }
-      ]
-    },
-    {
-      "name": "eallion's Blog",
-      "url": "https://www.eallion.com",
-      "avatar": "https://cdn.xiaoten.com/friends/eallion.png",
-      "feed_url": "https://www.eallion.com/feed",
-      "posts": [
-        {
-          "title": "春假清明自驾游",
-          "link": "https://www.eallion.com/qingming-road-trip-2026/",
-          "description": "春假期间自驾游计划涵盖多个景点，包括宜昌三峡、荆州古城、岳阳楼、长沙橘子洲头和湘西凤凰古城。行程中遇到车辆故障，需紧急修理，但最终顺利完成旅行。三峡虽未能体验升船机，但仍感叹工程伟大；荆州古城实现了去年的心愿；岳阳楼因雨雾增添意境；橘子洲头在夕阳下美丽动人。然而途中加油时遭遇油品问题，导致发动机抖动，需要额外维修费用。在旅途的挑战与风景中，收获了难忘的经历。",
-          "pub_date": "2026-04-07T13:17:38+08:00",
-          "updated_at": "2026-04-07T13:17:38+08:00",
-          "author": "eallion.s+blog@gmail.com (Charles Chin)",
-          "site_name": "eallion's Blog",
-          "site_url": "https://www.eallion.com",
-          "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
-        },
-        {
-          "title": "Ubuntu 25.10 安装和配置",
-          "link": "https://www.eallion.com/ubuntu2510/",
-          "description": "Ubuntu 25.10 安装及配置经验总结：从安装到优化，包括系统设置、驱动安装、字体配置、输入法设置等。详细介绍了换源、分区方案选择、Grub 美化以及常用软件的安装方法。通过个人实践分享，帮助读者快速上手 Ubuntu 25.10，并提高系统稳定性和易用性。",
-          "pub_date": "2025-11-11T08:16:16+08:00",
-          "updated_at": "2025-11-11T08:16:16+08:00",
-          "author": "eallion.s+blog@gmail.com (Charles Chin)",
-          "site_name": "eallion's Blog",
-          "site_url": "https://www.eallion.com",
-          "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
-        },
-        {
-          "title": "秋假",
-          "link": "https://www.eallion.com/holiday-in-autumn/",
-          "description": "为期 9 天的「秋假」从昨天下午放学时开始了！秋假其实只有 5 天，但是加上前后两个周末，一共就是 9 天连休。湖北就我们州（市）这 2 个县要放，一个是我们利川市，一个是隔壁咸丰县。公告信息刚出来的时候，好多外地都是羡慕。先别急着羡慕，说出来你们可能不信，我们这里还有传统的 7-10 天春假，已经实行好多年了。印象中小时候也有春假，但那时候叫「农忙假」，农忙假就是农忙时节放假回家帮忙干活。不少老师也要回家帮家里干活。现在不用回家干农活了，春假、秋假就成了旅游的好时机。这个时节景点人少，假期时间长，正适合错峰出行游玩。除了春假、秋假 我们这里还有「州庆」假，春秋假一般是教育系统放假，州庆假是各个单位都会放的。",
-          "pub_date": "2025-11-01T00:00:00+08:00",
-          "updated_at": "2025-11-01T00:00:00+08:00",
-          "author": "eallion.s+blog@gmail.com (Charles Chin)",
-          "site_name": "eallion's Blog",
-          "site_url": "https://www.eallion.com",
-          "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
         }
       ]
     },
@@ -3378,6 +3348,36 @@
       ]
     },
     {
+      "name": "枋柚梓",
+      "url": "https://inkss.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
+      "feed_url": "https://inkss.cn/feed",
+      "posts": [
+        {
+          "title": "腾讯云 EdgeOne 使用指南：配置、加速与安全优化",
+          "link": "https://inkss.cn/post/4a1a172a/",
+          "description": "本文分享腾讯云 EdgeOne 使用心得，涵盖免费版 / 付费版套餐选择技巧（首单优惠、会员续费攻略）、域名接入（DNSPod 托管、CNAME 接入注意事项）、IPv6 回源配置、安全防护（Web 防护规则、防盗链）、站点加速（CORS 设置、边缘函数应用）等实战内容，帮助用户高效使用 EdgeOne 实现全球加速与内网服务访问。",
+          "pub_date": "2025-10-21T10:00:00+08:00",
+          "updated_at": "2026-03-15T13:05:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        },
+        {
+          "title": "Umami 3.0 升级实录：1Panel 下数据库迁移至 PostgreSQL",
+          "link": "https://inkss.cn/post/bbad9898/",
+          "description": "本文详解如何在 1Panel 面板下将 Umami 从 MySQL/MariaDB 平滑迁移至 PostgreSQL，并升级至 3.0 版本。涵盖备份、数据转换、容器配置及常见坑点，适用于 Docker 部署环境，助力用户顺利完成数据库迁移与版本升级。",
+          "pub_date": "2025-11-12T12:48:00+08:00",
+          "updated_at": "2025-11-12T12:48:00+08:00",
+          "author": "",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        }
+      ]
+    },
+    {
       "name": "旅行漫记",
       "url": "https://synyan.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
@@ -3608,8 +3608,8 @@
       "title": "松声｜廿六年·四月中·桐花开",
       "link": "https://xyzbz.cn/archives/1526/",
       "description": "春天的风景春天多出去转转，感受春天带来一丝万物生长的气息，调节自己疲惫的身心。[photos][/photos][photos][/photos][photos][/photos]定期四季定期景...",
-      "pub_date": "2026-04-16T03:28:20+08:00",
-      "updated_at": "2026-04-16T03:28:20+08:00",
+      "pub_date": "2026-04-16T03:28:00+08:00",
+      "updated_at": "2026-04-16T03:28:00+08:00",
       "author": "网友小宋",
       "site_name": "网友小宋",
       "site_url": "https://xyzbz.cn/",
@@ -7008,26 +7008,26 @@
       "reason": "no_feed_found"
     },
     {
-      "name": "Giovan",
-      "url": "https://www.giovan.cn/#/",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
       "name": "Casear的技术栈",
       "url": "https://www.casear.net",
       "feed_url": null,
       "reason": "no_feed_found"
     },
     {
-      "name": "友人C",
-      "url": "https://www.ihewro.com",
+      "name": "Giovan",
+      "url": "https://www.giovan.cn/#/",
       "feed_url": null,
       "reason": "no_feed_found"
     },
     {
       "name": "益友网站",
       "url": "https://www.yiyou.bj.cn",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
+      "name": "友人C",
+      "url": "https://www.ihewro.com",
       "feed_url": null,
       "reason": "no_feed_found"
     },

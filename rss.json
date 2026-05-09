@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-09T08:44:36.731445+08:00",
+  "updated_at": "2026-05-09T14:50:31.408430+08:00",
   "total_sites": 28,
   "total_posts": 301,
   "sites": [
@@ -1592,230 +1592,120 @@
       ]
     },
     {
-      "name": "lznauy的技术小屋",
-      "url": "https://lznauy.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp",
-      "feed_url": "https://lznauy.cn/index.xml",
+      "name": "目的地-Destination",
+      "url": "https://chrison.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
+      "feed_url": "https://chrison.cn/feed",
       "posts": [
         {
-          "title": "nix语法初入门",
-          "link": "https://lznauy.cn/posts/2026-04-25-nix%E8%AF%AD%E6%B3%95%E5%88%9D%E5%85%A5%E9%97%A8/",
-          "description": "<blockquote>\n<p>文章使用opencode+glm，根据我的练习代码以及官方参考资料生成，这种文章没有必要自己写了</p>\n</blockquote>\n\n\n<h1 id=\"nix-语言基础语法速览\">\n  Nix 语言基础语法速览\n  <a class=\"heading-link\" href=\"#nix-%e8%af%ad%e8%a8%80%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95%e9%80%9f%e8%a7%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n<p>Nix 不仅仅是一个包管理器，它还拥有一门专门为描述软件构建而设计的<strong>纯函数式领域特定语言（DSL）</strong>。Nix 语言的核心特性包括：惰性求值、动态类型、声明式、无副作用。本文将通过一系列由浅入深的代码示例，带你快速掌握 Nix 语言的基础语法。</p>",
-          "pub_date": "2026-04-25T11:17:03+08:00",
-          "updated_at": "2026-04-25T11:17:03+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "周日自己做了胡萝卜牛肉包子",
+          "link": "https://chrison.cn/live/464.html",
+          "description": "周日自己做了胡萝卜牛肉包子。本来早上做，中午能吃上的。结果最近几天又上火感冒的，凌晨又挂了中医院的号，早上去看了病，又开了中药。",
+          "pub_date": "2026-04-29T08:41:00+08:00",
+          "updated_at": "2026-04-29T08:41:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "记录一次家里老人受骗",
-          "link": "https://lznauy.cn/posts/2026-04-22-%E5%AE%B6%E9%87%8C%E8%80%81%E4%BA%BA%E5%8F%97%E9%AA%97/",
-          "description": "<p>前一段时间我奶奶说肠胃不舒服，吃不下饭，恶心难受。然后家里人立刻带她去当地医院检查，住了10天院，中间做了胃镜与肠镜，结果都没什么问题，仅是肠镜发现了1cm的息肉，顺手摘除了。医生告诫不让乱吃东西，只能先喝点小米粥或者面汤，但我奶奶口味很重，还想吃麻辣米线，也不喜欢喝水，要喝珍珠奶茶，让人很无奈。</p>",
-          "pub_date": "2026-04-22T10:54:22+08:00",
-          "updated_at": "2026-04-22T10:54:22+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "周日去上海约朋友吃饭",
+          "link": "https://chrison.cn/live/454.html",
+          "description": "在上海生活工作了十多年，来到无锡后，一个朋友也没有。所以没事就往上海跑。也挺无奈的。",
+          "pub_date": "2026-04-20T07:05:05+08:00",
+          "updated_at": "2026-04-20T07:05:05+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "nixos美化shell及常用软件安装",
-          "link": "https://lznauy.cn/posts/2026-04-20-nixos%E7%BE%8E%E5%8C%96shell%E5%8F%8A%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/",
-          "description": "<p>最近回到家，又开始折腾nixos了，当前主题</p>\n<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"nixos-desktop1\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n\n\n<h2 id=\"fishstarship-安装及美化\">\n  fish+starship 安装及美化\n  <a class=\"heading-link\" href=\"#fishstarship-%e5%ae%89%e8%a3%85%e5%8f%8a%e7%be%8e%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近把shell从zsh+p10k的模式切换成了fish+starship，发现fish的性能要好很多，同时starship的配置也很方便，配置如下，很简单。</p>",
-          "pub_date": "2026-04-20T18:37:22+08:00",
-          "updated_at": "2026-04-20T18:37:22+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "我也是第一次做甘肃的洋芋裙裙",
+          "link": "https://chrison.cn/live/452.html",
+          "description": "甘肃各地都有不同的做法，不同的名称，我也不知道怎么做。只记得我小时候吃过，抖音搜了也是五花八门。就这样吧，反正挺好吃的~",
+          "pub_date": "2026-04-11T12:53:15+08:00",
+          "updated_at": "2026-04-11T12:53:15+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "皖南川藏线之旅",
-          "link": "https://lznauy.cn/posts/2026-04-18-%E7%9A%96%E5%8D%97%E5%B7%9D%E8%97%8F%E7%BA%BF%E4%B9%8B%E6%97%85/",
-          "description": "<p>自从四月十二号跟杭州几个朋友吃了最后一顿饭，然后我就开始准备行程了，先打算走国道去皖南川藏线逛一圈，然后上高速回家。</p>\n<p>四月十三号，我把房间里的东西都打包好了，六个大箱子加上我的自行车和其他装杂物的小箱子，一共将近二十个箱子，有十二个箱子走德邦物流寄回家，剩下的一些比较贵重或易碎的东西放在后备箱，打算自己开车带回去。自己打包还是比较划算的，我买打包材料包括箱子一共花了将近200块钱，然后走德邦物流运费560块钱，一共760块钱，如果找搬家公司要价基本就上1600了。</p>",
-          "pub_date": "2026-04-18T09:25:07+08:00",
-          "updated_at": "2026-04-18T09:25:07+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "测测SBTI",
+          "link": "https://chrison.cn/live/446.html",
+          "description": "倒是很准",
+          "pub_date": "2026-04-10T08:01:00+08:00",
+          "updated_at": "2026-04-10T08:01:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "nixos配置kitty以及桌面美化",
-          "link": "https://lznauy.cn/posts/2026-04-11-nixos%E9%85%8D%E7%BD%AEkitty%E4%BB%A5%E5%8F%8A%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/",
-          "description": "<p>当前桌面环境\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"niri-kitty-new\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n\n\n<h2 id=\"nixvim-安装及美化\">\n  nixvim 安装及美化\n  <a class=\"heading-link\" href=\"#nixvim-%e5%ae%89%e8%a3%85%e5%8f%8a%e7%be%8e%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>由于nvchad发现很多问题，会导致崩溃，于是我将其换成了nixvim，通过hm进行模块配置</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-nix\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># input引入源</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"n\">inputs</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"n\">nixvim</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n</span></span><span class=\"line\"><span class=\"cl\">      <span class=\"n\">url</span> <span class=\"o\">=</span> <span class=\"s2\">\"github:nix-community/nixvim\"</span><span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\">      <span class=\"n\">inputs</span><span class=\"o\">.</span><span class=\"n\">nixpkgs</span><span class=\"o\">.</span><span class=\"n\">follows</span> <span class=\"o\">=</span> <span class=\"s2\">\"nixpkgs\"</span><span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"p\">};</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">};</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 这里添加nixvim模块</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"n\">outputs</span> <span class=\"o\">=</span> <span class=\"p\">{</span> \n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"n\">self</span><span class=\"o\">,</span> <span class=\"n\">nixpkgs</span><span class=\"o\">,</span> <span class=\"n\">home-manager</span><span class=\"o\">,</span> <span class=\"n\">nixvim</span><span class=\"o\">,</span> <span class=\"o\">...</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">}</span><span class=\"o\">@</span><span class=\"n\">inputs</span><span class=\"p\">:</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 将其由hm管理</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"n\">home-manager</span><span class=\"o\">.</span><span class=\"n\">sharedModules</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"n\">inputs</span><span class=\"o\">.</span><span class=\"n\">nixvim</span><span class=\"o\">.</span><span class=\"n\">homeModules</span><span class=\"o\">.</span><span class=\"n\">nixvim</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">];</span>\n</span></span></code></pre></div><p>nixvim 的具体配置如下， 由于treesitter最新版本没进unstable，因此暂时先不装了。</p>",
-          "pub_date": "2026-04-11T18:00:21+08:00",
-          "updated_at": "2026-04-11T18:00:21+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "放假哪儿也没去",
+          "link": "https://chrison.cn/live/442.html",
+          "description": "就是小区周围走了走",
+          "pub_date": "2026-04-07T14:21:42+08:00",
+          "updated_at": "2026-04-07T14:21:42+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "nixos安装niri和noctalia",
-          "link": "https://lznauy.cn/posts/2026-04-10-nixos%E5%AE%89%E8%A3%85niri%E5%92%8Cnoctalia/",
-          "description": "<p>目前的桌面环境界面\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"niri-desktop\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n\n\n<h2 id=\"niri和noctalia简介\">\n  niri和noctalia简介\n  <a class=\"heading-link\" href=\"#niri%e5%92%8cnoctalia%e7%ae%80%e4%bb%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"什么是niri\">\n  什么是niri\n  <a class=\"heading-link\" href=\"#%e4%bb%80%e4%b9%88%e6%98%afniri\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>众所周知Linux桌面主要分为 <strong>X11</strong> 和 <strong>Wayland</strong> 两套协议，而niri是Wayland生态里的一个窗口管理器（准确说是合成器compositor），用Rust写的，目前在GitHub上有22k+的star。</p>",
-          "pub_date": "2026-04-10T02:42:30+08:00",
-          "updated_at": "2026-04-10T02:42:30+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "等放假",
+          "link": "https://chrison.cn/live/437.html",
+          "description": "等放假，等下班。可惜朋友和他们公司去旅游了。一个人好无聊啊~",
+          "pub_date": "2026-04-03T16:49:06+08:00",
+          "updated_at": "2026-04-03T16:49:06+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "nixos-shell及配置优化",
-          "link": "https://lznauy.cn/posts/2026-04-08-nixos-shell%E5%8F%8A%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96/",
-          "description": "<h2 id=\"nix-shell介绍\">\n  nix-shell介绍\n  <a class=\"heading-link\" href=\"#nix-shell%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>今天又学了一点新东西，<code>nix-shell</code> 是 Nix 包管理器提供的一个强大的开发环境工具，它可以让你在不影响系统环境的情况下，使用特定版本的工具和依赖。</p>",
-          "pub_date": "2026-04-08T20:12:22+08:00",
-          "updated_at": "2026-04-08T20:12:22+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "【WordPress插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情",
+          "link": "https://chrison.cn/work/433.html",
+          "description": "Blog Helper 是WordPress 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮下载G...",
+          "pub_date": "2026-03-30T13:11:00+08:00",
+          "updated_at": "2026-03-30T13:11:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "nixos-flake和home-manager",
-          "link": "https://lznauy.cn/posts/2026-04-07-nixos-flake%E5%92%8Chome-manager/",
-          "description": "<p>目前的终端美化效果</p>\n<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"nixos_new\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n<blockquote>\n<p>这篇文章将介绍 Flakes 和 Home Manager，并实现简单的终端美化。</p>\n</blockquote>\n\n\n<h2 id=\"flake介绍\">\n  flake介绍\n  <a class=\"heading-link\" href=\"#flake%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Nix flakes 是 Nix 2.4 版本中首次引入的一项实验性功能，旨在解决 Nix 生态系统许多领域的改进问题：它们为 Nix 项目提供了一个统一结构、允许固定每个依赖项的特定版本并通过锁文件共享这些依赖项，同时总体上使编写可复现的 Nix 表达式变得更加方便。</p>",
-          "pub_date": "2026-04-07T10:23:13+08:00",
-          "updated_at": "2026-04-07T10:23:13+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "我觉得医生有嫌弃我嘴馋的成份",
+          "link": "https://chrison.cn/live/431.html",
+          "description": "医生说如果你晚上5点到7点吃不了晚饭那就不建议晚上再吃了我说我嘴馋就是想吃医生无奈说，是吧，就是馋辛辣刺激少吃，冰的不能喝，带酒精的不能喝，咖啡，茶不能喝，生冷水果少吃~天都塌了！",
+          "pub_date": "2026-03-29T12:04:00+08:00",
+          "updated_at": "2026-03-29T12:04:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "nixos折腾之旅",
-          "link": "https://lznauy.cn/posts/2026-04-06-nixos%E6%8A%98%E8%85%BE%E4%B9%8B%E6%97%85/",
-          "description": "<h2 id=\"前言\">\n  前言\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e8%a8%80\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>作为一个arch系的长期用户，最早接触archlinux是2019年，后来觉得折腾起来有点累，然后转向了稍微省心点的Manjaro，中间也尝试过CachyOS，为什么现在想尝试nixos？</p>",
-          "pub_date": "2026-04-06T11:09:05+08:00",
-          "updated_at": "2026-04-06T11:09:05+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "【Typecho插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情v1.3.5",
+          "link": "https://chrison.cn/work/379.html",
+          "description": "Blog Helper 是Typecho 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮",
+          "pub_date": "2026-03-22T21:37:00+08:00",
+          "updated_at": "2026-03-22T21:37:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         },
         {
-          "title": "claude源码泄漏事件及简单剖析",
-          "link": "https://lznauy.cn/posts/2026-04-01-claude%E6%BA%90%E7%A0%81%E6%B3%84%E6%BC%8F%E4%BA%8B%E4%BB%B6%E5%8F%8A%E7%AE%80%E5%8D%95%E5%89%96%E6%9E%90/",
-          "description": "<h2 id=\"事件描述\">\n  事件描述\n  <a class=\"heading-link\" href=\"#%e4%ba%8b%e4%bb%b6%e6%8f%8f%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>昨天claude源码泄漏事件被暴漏出来，然后整个开源社区就疯狂了，其代码被fork了上千次，很多大佬已经开始分析claude的源码并且使用python重写其核心逻辑。</p>",
-          "pub_date": "2026-04-01T01:46:04+08:00",
-          "updated_at": "2026-04-01T01:46:04+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "春季赏花之旅",
-          "link": "https://lznauy.cn/posts/2026-03-30-%E6%98%A5%E5%AD%A3%E8%B5%8F%E8%8A%B1%E4%B9%8B%E6%97%85/",
-          "description": "<h2 id=\"太子湾公园\">\n  太子湾公园\n  <a class=\"heading-link\" href=\"#%e5%a4%aa%e5%ad%90%e6%b9%be%e5%85%ac%e5%9b%ad\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近杭州一直阴雨连绵，一周难得有那么一两天的晴天，反正不用上班也比较闲，打算去赏花。</p>\n<p>听说太子湾今年花展开始了，准备去太子湾逛逛，顺便放松下心情，于是就拍了各种颜色的郁金香。</p>",
-          "pub_date": "2026-03-30T13:44:34+08:00",
-          "updated_at": "2026-03-30T13:44:34+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "曲折的离职过程",
-          "link": "https://lznauy.cn/posts/2026-03-17-%E7%A6%BB%E8%81%8C%E4%B9%8B%E5%90%8E/",
-          "description": "<p>过去的一段时间真是经历了很多，从年前到年后，很多心力都耗在了公司的事情上。从去年12月底开始，按照以往的惯例是要评估绩效等级的，并且工作群里的绩效评估通知也发了出来，但后来就杳无音信，最终的绩效评估结果也一直没有给出来，当时就已经预感到可能会有一场风波了。然后人力资源部就开始发薪资调整的预案通知，然后选员工代表参加会议，员工代表会议通过后，HR就找员工一个一个签薪资调整协议。</p>",
-          "pub_date": "2026-03-17T12:02:49+08:00",
-          "updated_at": "2026-03-17T12:02:49+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "年味越来越淡了",
-          "link": "https://lznauy.cn/posts/2026-02-25-%E5%B9%B4%E5%91%B3%E8%B6%8A%E6%9D%A5%E8%B6%8A%E6%B7%A1%E4%BA%86/",
-          "description": "<p>** 年前 **</p>\n<p>年前公司内部闹了一波，原因还是降薪协议的事情，对于不签降薪协议的人，公司故意拖着工资不发，后来有几个人在群里闹事、起哄，于是公司迫于压力发了工资，然后在春节假期第一天，闹事的两个人就被裁了，据说也给了赔偿，这年过的也比较煎熬，因为我也属于不签的人，但目前还不清楚什么时候裁我。今年的年终奖没了，甚至大年三十的公司群静悄悄，老板们连个祝福和红包都没发。</p>",
-          "pub_date": "2026-02-25T10:31:20+08:00",
-          "updated_at": "2026-02-25T10:31:20+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "城市里没有爱情？",
-          "link": "https://lznauy.cn/posts/2026-02-05-%E5%9F%8E%E5%B8%82%E9%87%8C%E6%B2%A1%E6%9C%89%E7%88%B1%E6%83%85/",
-          "description": "<p>对于爱情，其实我一直抱有美好的憧憬，即使我知道这种美好不会降临到我身上。小时候不论是听故事、看电视剧还是看小说，爱情叙事总是宏大而感人，最好的结局当然是他们克服了重重困难，最后幸福的在一起。其实比起韩剧那种经受感情的猜疑、外界的挑拨，最终才确认感情的戏份来说，我更喜欢那种宏大叙事中有着共同理想的男女主角经历重重磨难，一起实现伟大抱负，最终幸福在一起的故事，就比如虹猫蓝兔？郭靖黄蓉？（笑</p>",
-          "pub_date": "2026-02-05T19:54:31+08:00",
-          "updated_at": "2026-02-05T19:54:31+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "日常碎记（三）",
-          "link": "https://lznauy.cn/posts/2026-02-03-%E6%97%A5%E5%B8%B8%E5%B2%81%E8%AE%B0%E4%B8%89/",
-          "description": "<h2 id=\"工作\">\n  工作\n  <a class=\"heading-link\" href=\"#%e5%b7%a5%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>熬过了前几轮的裁员，但降薪这件事是躲不过了，由于公司近几年财务状况不佳，今天发了通告，全员降薪15%-30%作为绩效，并且和公司毛利业绩挂钩，作为一个研发，我的绩效居然和销售有关系了，我的薪资也是经历4年多的努力又重新回到了刚毕业的水平，真是“可喜可贺”啊。</p>",
-          "pub_date": "2026-02-03T15:39:57+08:00",
-          "updated_at": "2026-02-03T15:39:57+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "利用DeepSeek分析你的隐藏天赋",
-          "link": "https://lznauy.cn/posts/2026-01-21-%E5%88%A9%E7%94%A8deepseek%E5%88%86%E6%9E%90%E4%BD%A0%E7%9A%84%E9%9A%90%E8%97%8F%E5%A4%A9%E8%B5%8B/",
-          "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近看到一个利用DeepSeek分析个人隐藏天赋的文章，于是我也打算试试，其实主要还是使用心理测试等方法，通过你的回答来给出具体的分析结果。我尝试了一下，分析的还是有一定道理的，也引发了我的一些思考。</p>",
-          "pub_date": "2026-01-21T13:59:55+08:00",
-          "updated_at": "2026-01-21T13:59:55+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "SELinux技术介绍",
-          "link": "https://lznauy.cn/posts/2026-01-17-selinux%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D/",
-          "description": "<h2 id=\"selinux是什么\">\n  SELinux是什么？\n  <a class=\"heading-link\" href=\"#selinux%e6%98%af%e4%bb%80%e4%b9%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>SELinux可以想象是Linux系统的“超级保安”，核心是给文件、进程、端口等所有资源“贴标签”，再通过严格的访问规则，限制资源间的交互。哪怕你有系统最高权限（root），不符合规则也无法操作不属于自己的资源。</p>",
-          "pub_date": "2026-01-17T18:06:00+08:00",
-          "updated_at": "2026-01-17T18:06:00+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "我们的认知可能被裹挟了",
-          "link": "https://lznauy.cn/posts/2026-01-15-%E6%88%91%E4%BB%AC%E7%9A%84%E8%AE%A4%E7%9F%A5%E5%8F%AF%E8%83%BD%E8%A2%AB%E8%A3%B9%E6%8C%9F%E4%BA%86/",
-          "description": "<p>不知道从什么时候开始，自媒体平台及其大多数年轻视频创作者，普遍开始宣扬一个主流思想，那就是及时行乐。其核心思想是自爱、追求自由、享受当下，甚至逃离工作、逃离婚姻、逃离原生家庭，这种价值观很难对其进行批判，大多数人都会赞同，毕竟享受生活、及时行乐有什么不好呢？</p>",
-          "pub_date": "2026-01-15T22:17:54+08:00",
-          "updated_at": "2026-01-15T22:17:54+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "日常碎记（二）",
-          "link": "https://lznauy.cn/posts/2026-01-10-%E6%97%A5%E5%B8%B8%E7%A2%8E%E8%AE%B0%E4%BA%8C/",
-          "description": "<p>最近想开始减肥了，奈何始终没什么动力。其实要说有多胖呢，也不是很胖，目前大概170身高，69公斤体重，因为前两年撸铁练过身材，后来停练之后就开始发胖了。仔细想了下没动力的原因一个是即使身材练的挺好，却依然还是单身狗，这点我前两年就体会过了，因为圈子太小，第二点是工作的压力，让我下班后躺在床上根本不想动。</p>",
-          "pub_date": "2026-01-10T20:00:54+08:00",
-          "updated_at": "2026-01-10T20:00:54+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
-        },
-        {
-          "title": "Linux Conntrack溢出导致的网络故障",
-          "link": "https://lznauy.cn/posts/2025-12-31-linux-conntrack%E6%BA%A2%E5%87%BA%E5%AF%BC%E8%87%B4%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%85%E9%9A%9C/",
-          "description": "<h2 id=\"问题\">\n  问题\n  <a class=\"heading-link\" href=\"#%e9%97%ae%e9%a2%98\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近遇到了一个比较奇葩的bug，属于网络问题，涉及到一些内核参数以及conntrack表，抽空配合客户排查了两三天才找到问题的原因，于是打算写篇文章记录一下排查经验。</p>",
-          "pub_date": "2025-12-31T16:07:54+08:00",
-          "updated_at": "2025-12-31T16:07:54+08:00",
-          "author": "lznauy",
-          "site_name": "lznauy的技术小屋",
-          "site_url": "https://lznauy.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+          "title": "小姨寄来的兰州新鲜百合",
+          "link": "https://chrison.cn/live/426.html",
+          "description": "之前过年在兰州的时候，那家卖百合的一直也在休息。我小姨一直说让我带一点，结果回到无锡了，他才开门。昨天就给我寄了一盒，顺丰隔天就送到了。不过这个时候的百合已经没有特别好了，过年的时候，百合最好，...",
+          "pub_date": "2026-03-17T19:02:00+08:00",
+          "updated_at": "2026-03-17T19:02:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         }
       ]
     },
@@ -2114,6 +2004,234 @@
       ]
     },
     {
+      "name": "lznauy的技术小屋",
+      "url": "https://lznauy.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp",
+      "feed_url": "https://lznauy.cn/index.xml",
+      "posts": [
+        {
+          "title": "nix语法初入门",
+          "link": "https://lznauy.cn/posts/2026-04-25-nix%E8%AF%AD%E6%B3%95%E5%88%9D%E5%85%A5%E9%97%A8/",
+          "description": "<blockquote>\n<p>文章使用opencode+glm，根据我的练习代码以及官方参考资料生成，这种文章没有必要自己写了</p>\n</blockquote>\n\n\n<h1 id=\"nix-语言基础语法速览\">\n  Nix 语言基础语法速览\n  <a class=\"heading-link\" href=\"#nix-%e8%af%ad%e8%a8%80%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95%e9%80%9f%e8%a7%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h1>\n<p>Nix 不仅仅是一个包管理器，它还拥有一门专门为描述软件构建而设计的<strong>纯函数式领域特定语言（DSL）</strong>。Nix 语言的核心特性包括：惰性求值、动态类型、声明式、无副作用。本文将通过一系列由浅入深的代码示例，带你快速掌握 Nix 语言的基础语法。</p>",
+          "pub_date": "2026-04-25T11:17:03+08:00",
+          "updated_at": "2026-04-25T11:17:03+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "记录一次家里老人受骗",
+          "link": "https://lznauy.cn/posts/2026-04-22-%E5%AE%B6%E9%87%8C%E8%80%81%E4%BA%BA%E5%8F%97%E9%AA%97/",
+          "description": "<p>前一段时间我奶奶说肠胃不舒服，吃不下饭，恶心难受。然后家里人立刻带她去当地医院检查，住了10天院，中间做了胃镜与肠镜，结果都没什么问题，仅是肠镜发现了1cm的息肉，顺手摘除了。医生告诫不让乱吃东西，只能先喝点小米粥或者面汤，但我奶奶口味很重，还想吃麻辣米线，也不喜欢喝水，要喝珍珠奶茶，让人很无奈。</p>",
+          "pub_date": "2026-04-22T10:54:22+08:00",
+          "updated_at": "2026-04-22T10:54:22+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "nixos美化shell及常用软件安装",
+          "link": "https://lznauy.cn/posts/2026-04-20-nixos%E7%BE%8E%E5%8C%96shell%E5%8F%8A%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/",
+          "description": "<p>最近回到家，又开始折腾nixos了，当前主题</p>\n<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"nixos-desktop1\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n\n\n<h2 id=\"fishstarship-安装及美化\">\n  fish+starship 安装及美化\n  <a class=\"heading-link\" href=\"#fishstarship-%e5%ae%89%e8%a3%85%e5%8f%8a%e7%be%8e%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近把shell从zsh+p10k的模式切换成了fish+starship，发现fish的性能要好很多，同时starship的配置也很方便，配置如下，很简单。</p>",
+          "pub_date": "2026-04-20T18:37:22+08:00",
+          "updated_at": "2026-04-20T18:37:22+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "皖南川藏线之旅",
+          "link": "https://lznauy.cn/posts/2026-04-18-%E7%9A%96%E5%8D%97%E5%B7%9D%E8%97%8F%E7%BA%BF%E4%B9%8B%E6%97%85/",
+          "description": "<p>自从四月十二号跟杭州几个朋友吃了最后一顿饭，然后我就开始准备行程了，先打算走国道去皖南川藏线逛一圈，然后上高速回家。</p>\n<p>四月十三号，我把房间里的东西都打包好了，六个大箱子加上我的自行车和其他装杂物的小箱子，一共将近二十个箱子，有十二个箱子走德邦物流寄回家，剩下的一些比较贵重或易碎的东西放在后备箱，打算自己开车带回去。自己打包还是比较划算的，我买打包材料包括箱子一共花了将近200块钱，然后走德邦物流运费560块钱，一共760块钱，如果找搬家公司要价基本就上1600了。</p>",
+          "pub_date": "2026-04-18T09:25:07+08:00",
+          "updated_at": "2026-04-18T09:25:07+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "nixos配置kitty以及桌面美化",
+          "link": "https://lznauy.cn/posts/2026-04-11-nixos%E9%85%8D%E7%BD%AEkitty%E4%BB%A5%E5%8F%8A%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/",
+          "description": "<p>当前桌面环境\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"niri-kitty-new\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n\n\n<h2 id=\"nixvim-安装及美化\">\n  nixvim 安装及美化\n  <a class=\"heading-link\" href=\"#nixvim-%e5%ae%89%e8%a3%85%e5%8f%8a%e7%be%8e%e5%8c%96\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>由于nvchad发现很多问题，会导致崩溃，于是我将其换成了nixvim，通过hm进行模块配置</p>\n<div class=\"highlight\"><pre class=\"chroma\" tabindex=\"0\"><code class=\"language-nix\"><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># input引入源</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"n\">inputs</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"n\">nixvim</span> <span class=\"o\">=</span> <span class=\"p\">{</span>\n</span></span><span class=\"line\"><span class=\"cl\">      <span class=\"n\">url</span> <span class=\"o\">=</span> <span class=\"s2\">\"github:nix-community/nixvim\"</span><span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\">      <span class=\"n\">inputs</span><span class=\"o\">.</span><span class=\"n\">nixpkgs</span><span class=\"o\">.</span><span class=\"n\">follows</span> <span class=\"o\">=</span> <span class=\"s2\">\"nixpkgs\"</span><span class=\"p\">;</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"p\">};</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">};</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 这里添加nixvim模块</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"n\">outputs</span> <span class=\"o\">=</span> <span class=\"p\">{</span> \n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"n\">self</span><span class=\"o\">,</span> <span class=\"n\">nixpkgs</span><span class=\"o\">,</span> <span class=\"n\">home-manager</span><span class=\"o\">,</span> <span class=\"n\">nixvim</span><span class=\"o\">,</span> <span class=\"o\">...</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">}</span><span class=\"o\">@</span><span class=\"n\">inputs</span><span class=\"p\">:</span>\n</span></span><span class=\"line\"><span class=\"cl\">\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"c1\"># 将其由hm管理</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"n\">home-manager</span><span class=\"o\">.</span><span class=\"n\">sharedModules</span> <span class=\"o\">=</span> <span class=\"p\">[</span>\n</span></span><span class=\"line\"><span class=\"cl\">    <span class=\"n\">inputs</span><span class=\"o\">.</span><span class=\"n\">nixvim</span><span class=\"o\">.</span><span class=\"n\">homeModules</span><span class=\"o\">.</span><span class=\"n\">nixvim</span>\n</span></span><span class=\"line\"><span class=\"cl\"><span class=\"p\">];</span>\n</span></span></code></pre></div><p>nixvim 的具体配置如下， 由于treesitter最新版本没进unstable，因此暂时先不装了。</p>",
+          "pub_date": "2026-04-11T18:00:21+08:00",
+          "updated_at": "2026-04-11T18:00:21+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "nixos安装niri和noctalia",
+          "link": "https://lznauy.cn/posts/2026-04-10-nixos%E5%AE%89%E8%A3%85niri%E5%92%8Cnoctalia/",
+          "description": "<p>目前的桌面环境界面\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"niri-desktop\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n\n\n<h2 id=\"niri和noctalia简介\">\n  niri和noctalia简介\n  <a class=\"heading-link\" href=\"#niri%e5%92%8cnoctalia%e7%ae%80%e4%bb%8b\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n\n\n<h3 id=\"什么是niri\">\n  什么是niri\n  <a class=\"heading-link\" href=\"#%e4%bb%80%e4%b9%88%e6%98%afniri\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h3>\n<p>众所周知Linux桌面主要分为 <strong>X11</strong> 和 <strong>Wayland</strong> 两套协议，而niri是Wayland生态里的一个窗口管理器（准确说是合成器compositor），用Rust写的，目前在GitHub上有22k+的star。</p>",
+          "pub_date": "2026-04-10T02:42:30+08:00",
+          "updated_at": "2026-04-10T02:42:30+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "nixos-shell及配置优化",
+          "link": "https://lznauy.cn/posts/2026-04-08-nixos-shell%E5%8F%8A%E9%85%8D%E7%BD%AE%E4%BC%98%E5%8C%96/",
+          "description": "<h2 id=\"nix-shell介绍\">\n  nix-shell介绍\n  <a class=\"heading-link\" href=\"#nix-shell%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>今天又学了一点新东西，<code>nix-shell</code> 是 Nix 包管理器提供的一个强大的开发环境工具，它可以让你在不影响系统环境的情况下，使用特定版本的工具和依赖。</p>",
+          "pub_date": "2026-04-08T20:12:22+08:00",
+          "updated_at": "2026-04-08T20:12:22+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "nixos-flake和home-manager",
+          "link": "https://lznauy.cn/posts/2026-04-07-nixos-flake%E5%92%8Chome-manager/",
+          "description": "<p>目前的终端美化效果</p>\n<p>\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n  \n  \n  \n\n\n\n\n  \n  <img alt=\"nixos_new\" class=\"lazyload\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" title=\"\" />\n</p>\n<blockquote>\n<p>这篇文章将介绍 Flakes 和 Home Manager，并实现简单的终端美化。</p>\n</blockquote>\n\n\n<h2 id=\"flake介绍\">\n  flake介绍\n  <a class=\"heading-link\" href=\"#flake%e4%bb%8b%e7%bb%8d\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>Nix flakes 是 Nix 2.4 版本中首次引入的一项实验性功能，旨在解决 Nix 生态系统许多领域的改进问题：它们为 Nix 项目提供了一个统一结构、允许固定每个依赖项的特定版本并通过锁文件共享这些依赖项，同时总体上使编写可复现的 Nix 表达式变得更加方便。</p>",
+          "pub_date": "2026-04-07T10:23:13+08:00",
+          "updated_at": "2026-04-07T10:23:13+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "nixos折腾之旅",
+          "link": "https://lznauy.cn/posts/2026-04-06-nixos%E6%8A%98%E8%85%BE%E4%B9%8B%E6%97%85/",
+          "description": "<h2 id=\"前言\">\n  前言\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e8%a8%80\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>作为一个arch系的长期用户，最早接触archlinux是2019年，后来觉得折腾起来有点累，然后转向了稍微省心点的Manjaro，中间也尝试过CachyOS，为什么现在想尝试nixos？</p>",
+          "pub_date": "2026-04-06T11:09:05+08:00",
+          "updated_at": "2026-04-06T11:09:05+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "claude源码泄漏事件及简单剖析",
+          "link": "https://lznauy.cn/posts/2026-04-01-claude%E6%BA%90%E7%A0%81%E6%B3%84%E6%BC%8F%E4%BA%8B%E4%BB%B6%E5%8F%8A%E7%AE%80%E5%8D%95%E5%89%96%E6%9E%90/",
+          "description": "<h2 id=\"事件描述\">\n  事件描述\n  <a class=\"heading-link\" href=\"#%e4%ba%8b%e4%bb%b6%e6%8f%8f%e8%bf%b0\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>昨天claude源码泄漏事件被暴漏出来，然后整个开源社区就疯狂了，其代码被fork了上千次，很多大佬已经开始分析claude的源码并且使用python重写其核心逻辑。</p>",
+          "pub_date": "2026-04-01T01:46:04+08:00",
+          "updated_at": "2026-04-01T01:46:04+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "春季赏花之旅",
+          "link": "https://lznauy.cn/posts/2026-03-30-%E6%98%A5%E5%AD%A3%E8%B5%8F%E8%8A%B1%E4%B9%8B%E6%97%85/",
+          "description": "<h2 id=\"太子湾公园\">\n  太子湾公园\n  <a class=\"heading-link\" href=\"#%e5%a4%aa%e5%ad%90%e6%b9%be%e5%85%ac%e5%9b%ad\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近杭州一直阴雨连绵，一周难得有那么一两天的晴天，反正不用上班也比较闲，打算去赏花。</p>\n<p>听说太子湾今年花展开始了，准备去太子湾逛逛，顺便放松下心情，于是就拍了各种颜色的郁金香。</p>",
+          "pub_date": "2026-03-30T13:44:34+08:00",
+          "updated_at": "2026-03-30T13:44:34+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "曲折的离职过程",
+          "link": "https://lznauy.cn/posts/2026-03-17-%E7%A6%BB%E8%81%8C%E4%B9%8B%E5%90%8E/",
+          "description": "<p>过去的一段时间真是经历了很多，从年前到年后，很多心力都耗在了公司的事情上。从去年12月底开始，按照以往的惯例是要评估绩效等级的，并且工作群里的绩效评估通知也发了出来，但后来就杳无音信，最终的绩效评估结果也一直没有给出来，当时就已经预感到可能会有一场风波了。然后人力资源部就开始发薪资调整的预案通知，然后选员工代表参加会议，员工代表会议通过后，HR就找员工一个一个签薪资调整协议。</p>",
+          "pub_date": "2026-03-17T12:02:49+08:00",
+          "updated_at": "2026-03-17T12:02:49+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "年味越来越淡了",
+          "link": "https://lznauy.cn/posts/2026-02-25-%E5%B9%B4%E5%91%B3%E8%B6%8A%E6%9D%A5%E8%B6%8A%E6%B7%A1%E4%BA%86/",
+          "description": "<p>** 年前 **</p>\n<p>年前公司内部闹了一波，原因还是降薪协议的事情，对于不签降薪协议的人，公司故意拖着工资不发，后来有几个人在群里闹事、起哄，于是公司迫于压力发了工资，然后在春节假期第一天，闹事的两个人就被裁了，据说也给了赔偿，这年过的也比较煎熬，因为我也属于不签的人，但目前还不清楚什么时候裁我。今年的年终奖没了，甚至大年三十的公司群静悄悄，老板们连个祝福和红包都没发。</p>",
+          "pub_date": "2026-02-25T10:31:20+08:00",
+          "updated_at": "2026-02-25T10:31:20+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "城市里没有爱情？",
+          "link": "https://lznauy.cn/posts/2026-02-05-%E5%9F%8E%E5%B8%82%E9%87%8C%E6%B2%A1%E6%9C%89%E7%88%B1%E6%83%85/",
+          "description": "<p>对于爱情，其实我一直抱有美好的憧憬，即使我知道这种美好不会降临到我身上。小时候不论是听故事、看电视剧还是看小说，爱情叙事总是宏大而感人，最好的结局当然是他们克服了重重困难，最后幸福的在一起。其实比起韩剧那种经受感情的猜疑、外界的挑拨，最终才确认感情的戏份来说，我更喜欢那种宏大叙事中有着共同理想的男女主角经历重重磨难，一起实现伟大抱负，最终幸福在一起的故事，就比如虹猫蓝兔？郭靖黄蓉？（笑</p>",
+          "pub_date": "2026-02-05T19:54:31+08:00",
+          "updated_at": "2026-02-05T19:54:31+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "日常碎记（三）",
+          "link": "https://lznauy.cn/posts/2026-02-03-%E6%97%A5%E5%B8%B8%E5%B2%81%E8%AE%B0%E4%B8%89/",
+          "description": "<h2 id=\"工作\">\n  工作\n  <a class=\"heading-link\" href=\"#%e5%b7%a5%e4%bd%9c\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>熬过了前几轮的裁员，但降薪这件事是躲不过了，由于公司近几年财务状况不佳，今天发了通告，全员降薪15%-30%作为绩效，并且和公司毛利业绩挂钩，作为一个研发，我的绩效居然和销售有关系了，我的薪资也是经历4年多的努力又重新回到了刚毕业的水平，真是“可喜可贺”啊。</p>",
+          "pub_date": "2026-02-03T15:39:57+08:00",
+          "updated_at": "2026-02-03T15:39:57+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "利用DeepSeek分析你的隐藏天赋",
+          "link": "https://lznauy.cn/posts/2026-01-21-%E5%88%A9%E7%94%A8deepseek%E5%88%86%E6%9E%90%E4%BD%A0%E7%9A%84%E9%9A%90%E8%97%8F%E5%A4%A9%E8%B5%8B/",
+          "description": "<h2 id=\"前序\">\n  前序\n  <a class=\"heading-link\" href=\"#%e5%89%8d%e5%ba%8f\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近看到一个利用DeepSeek分析个人隐藏天赋的文章，于是我也打算试试，其实主要还是使用心理测试等方法，通过你的回答来给出具体的分析结果。我尝试了一下，分析的还是有一定道理的，也引发了我的一些思考。</p>",
+          "pub_date": "2026-01-21T13:59:55+08:00",
+          "updated_at": "2026-01-21T13:59:55+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "SELinux技术介绍",
+          "link": "https://lznauy.cn/posts/2026-01-17-selinux%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D/",
+          "description": "<h2 id=\"selinux是什么\">\n  SELinux是什么？\n  <a class=\"heading-link\" href=\"#selinux%e6%98%af%e4%bb%80%e4%b9%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>SELinux可以想象是Linux系统的“超级保安”，核心是给文件、进程、端口等所有资源“贴标签”，再通过严格的访问规则，限制资源间的交互。哪怕你有系统最高权限（root），不符合规则也无法操作不属于自己的资源。</p>",
+          "pub_date": "2026-01-17T18:06:00+08:00",
+          "updated_at": "2026-01-17T18:06:00+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "我们的认知可能被裹挟了",
+          "link": "https://lznauy.cn/posts/2026-01-15-%E6%88%91%E4%BB%AC%E7%9A%84%E8%AE%A4%E7%9F%A5%E5%8F%AF%E8%83%BD%E8%A2%AB%E8%A3%B9%E6%8C%9F%E4%BA%86/",
+          "description": "<p>不知道从什么时候开始，自媒体平台及其大多数年轻视频创作者，普遍开始宣扬一个主流思想，那就是及时行乐。其核心思想是自爱、追求自由、享受当下，甚至逃离工作、逃离婚姻、逃离原生家庭，这种价值观很难对其进行批判，大多数人都会赞同，毕竟享受生活、及时行乐有什么不好呢？</p>",
+          "pub_date": "2026-01-15T22:17:54+08:00",
+          "updated_at": "2026-01-15T22:17:54+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "日常碎记（二）",
+          "link": "https://lznauy.cn/posts/2026-01-10-%E6%97%A5%E5%B8%B8%E7%A2%8E%E8%AE%B0%E4%BA%8C/",
+          "description": "<p>最近想开始减肥了，奈何始终没什么动力。其实要说有多胖呢，也不是很胖，目前大概170身高，69公斤体重，因为前两年撸铁练过身材，后来停练之后就开始发胖了。仔细想了下没动力的原因一个是即使身材练的挺好，却依然还是单身狗，这点我前两年就体会过了，因为圈子太小，第二点是工作的压力，让我下班后躺在床上根本不想动。</p>",
+          "pub_date": "2026-01-10T20:00:54+08:00",
+          "updated_at": "2026-01-10T20:00:54+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        },
+        {
+          "title": "Linux Conntrack溢出导致的网络故障",
+          "link": "https://lznauy.cn/posts/2025-12-31-linux-conntrack%E6%BA%A2%E5%87%BA%E5%AF%BC%E8%87%B4%E7%9A%84%E7%BD%91%E7%BB%9C%E6%95%85%E9%9A%9C/",
+          "description": "<h2 id=\"问题\">\n  问题\n  <a class=\"heading-link\" href=\"#%e9%97%ae%e9%a2%98\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>最近遇到了一个比较奇葩的bug，属于网络问题，涉及到一些内核参数以及conntrack表，抽空配合客户排查了两三天才找到问题的原因，于是打算写篇文章记录一下排查经验。</p>",
+          "pub_date": "2025-12-31T16:07:54+08:00",
+          "updated_at": "2025-12-31T16:07:54+08:00",
+          "author": "lznauy",
+          "site_name": "lznauy的技术小屋",
+          "site_url": "https://lznauy.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp"
+        }
+      ]
+    },
+    {
       "name": "云心怀鹤",
       "url": "https://bluehe.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/bluehe.png",
@@ -2228,124 +2346,6 @@
           "site_name": "云心怀鹤",
           "site_url": "https://bluehe.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        }
-      ]
-    },
-    {
-      "name": "目的地-Destination",
-      "url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
-      "feed_url": "https://chrison.cn/feed",
-      "posts": [
-        {
-          "title": "周日自己做了胡萝卜牛肉包子",
-          "link": "https://chrison.cn/live/464.html",
-          "description": "周日自己做了胡萝卜牛肉包子。本来早上做，中午能吃上的。结果最近几天又上火感冒的，凌晨又挂了中医院的号，早上去看了病，又开了中药。",
-          "pub_date": "2026-04-29T08:41:00+08:00",
-          "updated_at": "2026-04-29T08:41:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "周日去上海约朋友吃饭",
-          "link": "https://chrison.cn/live/454.html",
-          "description": "在上海生活工作了十多年，来到无锡后，一个朋友也没有。所以没事就往上海跑。也挺无奈的。",
-          "pub_date": "2026-04-20T07:05:05+08:00",
-          "updated_at": "2026-04-20T07:05:05+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我也是第一次做甘肃的洋芋裙裙",
-          "link": "https://chrison.cn/live/452.html",
-          "description": "甘肃各地都有不同的做法，不同的名称，我也不知道怎么做。只记得我小时候吃过，抖音搜了也是五花八门。就这样吧，反正挺好吃的~",
-          "pub_date": "2026-04-11T12:53:15+08:00",
-          "updated_at": "2026-04-11T12:53:15+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "测测SBTI",
-          "link": "https://chrison.cn/live/446.html",
-          "description": "倒是很准",
-          "pub_date": "2026-04-10T08:01:00+08:00",
-          "updated_at": "2026-04-10T08:01:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "放假哪儿也没去",
-          "link": "https://chrison.cn/live/442.html",
-          "description": "就是小区周围走了走",
-          "pub_date": "2026-04-07T14:21:42+08:00",
-          "updated_at": "2026-04-07T14:21:42+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "等放假",
-          "link": "https://chrison.cn/live/437.html",
-          "description": "等放假，等下班。可惜朋友和他们公司去旅游了。一个人好无聊啊~",
-          "pub_date": "2026-04-03T16:49:06+08:00",
-          "updated_at": "2026-04-03T16:49:06+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【WordPress插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情",
-          "link": "https://chrison.cn/work/433.html",
-          "description": "Blog Helper 是WordPress 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮下载G...",
-          "pub_date": "2026-03-30T13:11:00+08:00",
-          "updated_at": "2026-03-30T13:11:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我觉得医生有嫌弃我嘴馋的成份",
-          "link": "https://chrison.cn/live/431.html",
-          "description": "医生说如果你晚上5点到7点吃不了晚饭那就不建议晚上再吃了我说我嘴馋就是想吃医生无奈说，是吧，就是馋辛辣刺激少吃，冰的不能喝，带酒精的不能喝，咖啡，茶不能喝，生冷水果少吃~天都塌了！",
-          "pub_date": "2026-03-29T12:04:00+08:00",
-          "updated_at": "2026-03-29T12:04:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【Typecho插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情v1.3.5",
-          "link": "https://chrison.cn/work/379.html",
-          "description": "Blog Helper 是Typecho 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮",
-          "pub_date": "2026-03-22T21:37:00+08:00",
-          "updated_at": "2026-03-22T21:37:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "小姨寄来的兰州新鲜百合",
-          "link": "https://chrison.cn/live/426.html",
-          "description": "之前过年在兰州的时候，那家卖百合的一直也在休息。我小姨一直说让我带一点，结果回到无锡了，他才开门。昨天就给我寄了一盒，顺丰隔天就送到了。不过这个时候的百合已经没有特别好了，过年的时候，百合最好，...",
-          "pub_date": "2026-03-17T19:02:00+08:00",
-          "updated_at": "2026-03-17T19:02:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         }
       ]
     },
@@ -2833,13 +2833,6 @@
       ]
     },
     {
-      "name": "Hello Alili",
-      "url": "https://alili.tech/",
-      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
-      "feed_url": "https://alili.tech/index.xml",
-      "posts": []
-    },
-    {
       "name": "枋柚梓",
       "url": "https://inkss.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
@@ -3021,6 +3014,13 @@
       ]
     },
     {
+      "name": "Hello Alili",
+      "url": "https://alili.tech/",
+      "avatar": "https://cdn.xiaoten.com/friends/alili.png",
+      "feed_url": "https://alili.tech/index.xml",
+      "posts": []
+    },
+    {
       "name": "eallion's Blog",
       "url": "https://www.eallion.com",
       "avatar": "https://cdn.xiaoten.com/friends/eallion.png",
@@ -3047,6 +3047,231 @@
           "site_name": "eallion's Blog",
           "site_url": "https://www.eallion.com",
           "avatar": "https://cdn.xiaoten.com/friends/eallion.png"
+        }
+      ]
+    },
+    {
+      "name": "旅行漫记",
+      "url": "https://synyan.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
+      "feed_url": "https://synyan.cn/feed",
+      "posts": [
+        {
+          "title": "丞相祠堂何处寻",
+          "link": "https://synyan.cn/112546/",
+          "description": "蜀相[唐] 杜甫丞相祠堂何处寻，锦官城外柏森森。映阶碧草自春色，隔叶黄鹂空好音。三顾频烦天下计，两朝开济老臣心 [&#8230;]",
+          "pub_date": "2026-05-04T10:43:42+08:00",
+          "updated_at": "2026-05-04T10:43:42+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "成都大熊猫基地",
+          "link": "https://synyan.cn/112413/",
+          "description": "如果友友们搜索大熊猫基地，首显的一定是成都大熊猫繁育研究基地——这座位于成都北边成华区熊猫大道1375号的基地 [&#8230;]",
+          "pub_date": "2026-04-29T15:03:48+08:00",
+          "updated_at": "2026-04-29T15:03:48+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "浣花溪畔草木幽",
+          "link": "https://synyan.cn/112311/",
+          "description": "自成飞公园火速打车回到杜甫草堂北门，在保安的细心询问下拿回了短暂丢失的全景相机，连声感谢后再次走出草堂。 由于 [&#8230;]",
+          "pub_date": "2026-04-26T13:29:06+08:00",
+          "updated_at": "2026-04-26T13:29:06+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "成飞公园仰战机",
+          "link": "https://synyan.cn/112220/",
+          "description": "杜甫草堂北门出来，去了一个所有人都想不到的小众景区——成飞公园。 公园位于成都西边郊外的青羊区，建于1984年 [&#8230;]",
+          "pub_date": "2026-04-24T16:38:35+08:00",
+          "updated_at": "2026-04-24T16:38:35+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "杜甫草堂翠竹掩",
+          "link": "https://synyan.cn/112045/",
+          "description": "终于结束了冗长的四川博物院参观，我很欣慰。下一站：杜甫草堂。 成都杜甫草堂是诗圣杜甫流寓成都时的故居。公元75 [&#8230;]",
+          "pub_date": "2026-04-23T16:59:13+08:00",
+          "updated_at": "2026-04-23T16:59:13+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "蜀锦织绣博物馆",
+          "link": "https://synyan.cn/111971/",
+          "description": "从四川博物院出来，本来是往西边杜甫草堂去，但ld早晨坐公交车时发现了路边成都蜀锦织绣博物馆的指示牌，作为苏州织 [&#8230;]",
+          "pub_date": "2026-04-21T15:31:36+08:00",
+          "updated_at": "2026-04-21T15:31:36+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "川博之远古器物",
+          "link": "https://synyan.cn/111825/",
+          "description": "把远古器物放最后是因为宋元明清馆停业整修无了，而远古器物馆基本每个大馆都差不多。以比较快的速度拍摄了自认较有特 [&#8230;]",
+          "pub_date": "2026-04-19T13:13:42+08:00",
+          "updated_at": "2026-04-19T13:13:42+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "川博之晋唐器物",
+          "link": "https://synyan.cn/111687/",
+          "description": "晋－南北朝－隋唐－五代时期，四川地区文化艺术空前繁荣。 青釉鸡首壶，东晋（317－420年），1957年四川省 [&#8230;]",
+          "pub_date": "2026-04-17T15:29:53+08:00",
+          "updated_at": "2026-04-17T15:29:53+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "川博之秦汉器物",
+          "link": "https://synyan.cn/111472/",
+          "description": "迈入下一展厅区域，这里陈列春秋战国至秦汉三国的器物。 铜熨斗、铜尺、铁权，汉（前202－220年），四川博物院 [&#8230;]",
+          "pub_date": "2026-04-14T16:45:35+08:00",
+          "updated_at": "2026-04-14T16:45:35+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        }
+      ]
+    },
+    {
+      "name": "竹炉山房",
+      "url": "https://synyan.cn/t/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
+      "feed_url": "https://synyan.cn/t/feed/atom",
+      "posts": [
+        {
+          "title": "Model Y二血",
+          "link": "https://synyan.cn/t/61939",
+          "description": "最近本人跟车杠上了，ld的Model Y开回来已经喜提二血。 第一次是半个月前，4月15日，ld下班时隧道前匝 [&#8230;]",
+          "pub_date": "2026-05-08T16:12:21+08:00",
+          "updated_at": "2026-05-09T02:27:18+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "票又卖飞了",
+          "link": "https://synyan.cn/t/61899",
+          "description": "埋伏了一两周的两支票，在黎明前的昨日小赚走了，今天看到暴力拉升15cm大柱子，禁不住捶胸跺足。想不通明明没有主 [&#8230;]",
+          "pub_date": "2026-04-30T02:49:12+08:00",
+          "updated_at": "2026-04-30T02:49:13+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "Shokz OpenRun Pro2 Mini",
+          "link": "https://synyan.cn/t/61800",
+          "description": "有一个月没写随想了。最近感到身体大不如前，一是颈椎病低头头晕，二是气压低时心慌气喘，于是每晚都拉ld出门绕圈散 [&#8230;]",
+          "pub_date": "2026-04-23T13:12:17+08:00",
+          "updated_at": "2026-04-23T13:18:01+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "Tesla Model Y提车记（二）",
+          "link": "https://synyan.cn/t/60727",
+          "description": "今天是个好日子，因为去提车了。 俗话说贵人出门风雨多，今儿大雨。 开车去江海路交付中心，提车点太隐蔽，导航又拉 [&#8230;]",
+          "pub_date": "2026-02-26T16:42:10+08:00",
+          "updated_at": "2026-04-21T07:33:21+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "中国东航披露购买101架A320NEO系列飞机",
+          "link": "https://synyan.cn/t/61633",
+          "description": "中国东航（600115）披露购买101架A320NEO系列飞机公告，3月25日股价上涨4.78%近日，中国东方 [&#8230;]",
+          "pub_date": "2026-03-26T02:19:07+08:00",
+          "updated_at": "2026-03-26T02:21:11+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "“赌”场开门",
+          "link": "https://synyan.cn/t/61118",
+          "description": "还有九个半小时“赌”场就开门了，好激动呀。 女：你平时玩什么游戏？王者、泡泡龙、和平精英？ 男：同花顺，2亿真 [&#8230;]",
+          "pub_date": "2026-03-08T16:08:21+08:00",
+          "updated_at": "2026-03-08T16:08:22+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "二刷“策马向新文物展”",
+          "link": "https://synyan.cn/t/61025",
+          "description": "过年时锡博“策马向新文物展”游人如织，又加带着娃以及忘带盖章册，手忙脚乱中各种遗憾。今日下午得空，特地一个人带 [&#8230;]",
+          "pub_date": "2026-03-07T12:10:03+08:00",
+          "updated_at": "2026-03-07T17:49:27+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "备份要趁早",
+          "link": "https://synyan.cn/t/60764",
+          "description": "昨日发现家里的微NAS连不上盘，以为硬盘挂了，幸好插了两张双备份，另外网盘里还备了最重要的家庭照，倒也不慌。  [&#8230;]",
+          "pub_date": "2026-03-02T17:41:19+08:00",
+          "updated_at": "2026-03-02T17:46:55+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "换主机",
+          "link": "https://synyan.cn/t/60751",
+          "description": "主机从2022年购买至今快满四年。有两个较大的问题：1、源站常年受某些地区发包导致内存使用率高。2、前年脑抽买 [&#8230;]",
+          "pub_date": "2026-03-01T08:40:41+08:00",
+          "updated_at": "2026-03-01T13:43:45+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
+          "title": "以色列宣布袭击伊朗",
+          "link": "https://synyan.cn/t/60749",
+          "description": "劳资的XAU走早了……",
+          "pub_date": "2026-02-28T07:31:33+08:00",
+          "updated_at": "2026-02-28T07:31:35+08:00",
+          "author": "S",
+          "site_name": "竹炉山房",
+          "site_url": "https://synyan.cn/t/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
         }
       ]
     },
@@ -3310,234 +3535,20 @@
           "avatar": "https://www.xiaoten.com/avatar.png"
         }
       ]
-    },
-    {
-      "name": "旅行漫记",
-      "url": "https://synyan.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
-      "feed_url": "https://synyan.cn/feed",
-      "posts": [
-        {
-          "title": "丞相祠堂何处寻",
-          "link": "https://synyan.cn/112546/",
-          "description": "蜀相[唐] 杜甫丞相祠堂何处寻，锦官城外柏森森。映阶碧草自春色，隔叶黄鹂空好音。三顾频烦天下计，两朝开济老臣心 [&#8230;]",
-          "pub_date": "2026-05-04T10:43:42+08:00",
-          "updated_at": "2026-05-04T10:43:42+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "成都大熊猫基地",
-          "link": "https://synyan.cn/112413/",
-          "description": "如果友友们搜索大熊猫基地，首显的一定是成都大熊猫繁育研究基地——这座位于成都北边成华区熊猫大道1375号的基地 [&#8230;]",
-          "pub_date": "2026-04-29T15:03:48+08:00",
-          "updated_at": "2026-04-29T15:03:48+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "浣花溪畔草木幽",
-          "link": "https://synyan.cn/112311/",
-          "description": "自成飞公园火速打车回到杜甫草堂北门，在保安的细心询问下拿回了短暂丢失的全景相机，连声感谢后再次走出草堂。 由于 [&#8230;]",
-          "pub_date": "2026-04-26T13:29:06+08:00",
-          "updated_at": "2026-04-26T13:29:06+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "成飞公园仰战机",
-          "link": "https://synyan.cn/112220/",
-          "description": "杜甫草堂北门出来，去了一个所有人都想不到的小众景区——成飞公园。 公园位于成都西边郊外的青羊区，建于1984年 [&#8230;]",
-          "pub_date": "2026-04-24T16:38:35+08:00",
-          "updated_at": "2026-04-24T16:38:35+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "杜甫草堂翠竹掩",
-          "link": "https://synyan.cn/112045/",
-          "description": "终于结束了冗长的四川博物院参观，我很欣慰。下一站：杜甫草堂。 成都杜甫草堂是诗圣杜甫流寓成都时的故居。公元75 [&#8230;]",
-          "pub_date": "2026-04-23T16:59:13+08:00",
-          "updated_at": "2026-04-23T16:59:13+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "蜀锦织绣博物馆",
-          "link": "https://synyan.cn/111971/",
-          "description": "从四川博物院出来，本来是往西边杜甫草堂去，但ld早晨坐公交车时发现了路边成都蜀锦织绣博物馆的指示牌，作为苏州织 [&#8230;]",
-          "pub_date": "2026-04-21T15:31:36+08:00",
-          "updated_at": "2026-04-21T15:31:36+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "川博之远古器物",
-          "link": "https://synyan.cn/111825/",
-          "description": "把远古器物放最后是因为宋元明清馆停业整修无了，而远古器物馆基本每个大馆都差不多。以比较快的速度拍摄了自认较有特 [&#8230;]",
-          "pub_date": "2026-04-19T13:13:42+08:00",
-          "updated_at": "2026-04-19T13:13:42+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "川博之晋唐器物",
-          "link": "https://synyan.cn/111687/",
-          "description": "晋－南北朝－隋唐－五代时期，四川地区文化艺术空前繁荣。 青釉鸡首壶，东晋（317－420年），1957年四川省 [&#8230;]",
-          "pub_date": "2026-04-17T15:29:53+08:00",
-          "updated_at": "2026-04-17T15:29:53+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "川博之秦汉器物",
-          "link": "https://synyan.cn/111472/",
-          "description": "迈入下一展厅区域，这里陈列春秋战国至秦汉三国的器物。 铜熨斗、铜尺、铁权，汉（前202－220年），四川博物院 [&#8230;]",
-          "pub_date": "2026-04-14T16:45:35+08:00",
-          "updated_at": "2026-04-14T16:45:35+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        }
-      ]
-    },
-    {
-      "name": "竹炉山房",
-      "url": "https://synyan.cn/t/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
-      "feed_url": "https://synyan.cn/t/feed/atom",
-      "posts": [
-        {
-          "title": "Model Y二血",
-          "link": "https://synyan.cn/t/61939",
-          "description": "最近本人跟车杠上了，ld的Model Y开回来已经喜提二血。 第一次是半个月前，4月15日，ld下班时隧道前匝 [&#8230;]",
-          "pub_date": "2026-05-08T16:12:21+08:00",
-          "updated_at": "2026-05-08T18:03:27+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "票又卖飞了",
-          "link": "https://synyan.cn/t/61899",
-          "description": "埋伏了一两周的两支票，在黎明前的昨日小赚走了，今天看到暴力拉升15cm大柱子，禁不住捶胸跺足。想不通明明没有主 [&#8230;]",
-          "pub_date": "2026-04-30T02:49:12+08:00",
-          "updated_at": "2026-04-30T02:49:13+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "Shokz OpenRun Pro2 Mini",
-          "link": "https://synyan.cn/t/61800",
-          "description": "有一个月没写随想了。最近感到身体大不如前，一是颈椎病低头头晕，二是气压低时心慌气喘，于是每晚都拉ld出门绕圈散 [&#8230;]",
-          "pub_date": "2026-04-23T13:12:17+08:00",
-          "updated_at": "2026-04-23T13:18:01+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "Tesla Model Y提车记（二）",
-          "link": "https://synyan.cn/t/60727",
-          "description": "今天是个好日子，因为去提车了。 俗话说贵人出门风雨多，今儿大雨。 开车去江海路交付中心，提车点太隐蔽，导航又拉 [&#8230;]",
-          "pub_date": "2026-02-26T16:42:10+08:00",
-          "updated_at": "2026-04-21T07:33:21+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "中国东航披露购买101架A320NEO系列飞机",
-          "link": "https://synyan.cn/t/61633",
-          "description": "中国东航（600115）披露购买101架A320NEO系列飞机公告，3月25日股价上涨4.78%近日，中国东方 [&#8230;]",
-          "pub_date": "2026-03-26T02:19:07+08:00",
-          "updated_at": "2026-03-26T02:21:11+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "“赌”场开门",
-          "link": "https://synyan.cn/t/61118",
-          "description": "还有九个半小时“赌”场就开门了，好激动呀。 女：你平时玩什么游戏？王者、泡泡龙、和平精英？ 男：同花顺，2亿真 [&#8230;]",
-          "pub_date": "2026-03-08T16:08:21+08:00",
-          "updated_at": "2026-03-08T16:08:22+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "二刷“策马向新文物展”",
-          "link": "https://synyan.cn/t/61025",
-          "description": "过年时锡博“策马向新文物展”游人如织，又加带着娃以及忘带盖章册，手忙脚乱中各种遗憾。今日下午得空，特地一个人带 [&#8230;]",
-          "pub_date": "2026-03-07T12:10:03+08:00",
-          "updated_at": "2026-03-07T17:49:27+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "备份要趁早",
-          "link": "https://synyan.cn/t/60764",
-          "description": "昨日发现家里的微NAS连不上盘，以为硬盘挂了，幸好插了两张双备份，另外网盘里还备了最重要的家庭照，倒也不慌。  [&#8230;]",
-          "pub_date": "2026-03-02T17:41:19+08:00",
-          "updated_at": "2026-03-02T17:46:55+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "换主机",
-          "link": "https://synyan.cn/t/60751",
-          "description": "主机从2022年购买至今快满四年。有两个较大的问题：1、源站常年受某些地区发包导致内存使用率高。2、前年脑抽买 [&#8230;]",
-          "pub_date": "2026-03-01T08:40:41+08:00",
-          "updated_at": "2026-03-01T13:43:45+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "以色列宣布袭击伊朗",
-          "link": "https://synyan.cn/t/60749",
-          "description": "劳资的XAU走早了……",
-          "pub_date": "2026-02-28T07:31:33+08:00",
-          "updated_at": "2026-02-28T07:31:35+08:00",
-          "author": "S",
-          "site_name": "竹炉山房",
-          "site_url": "https://synyan.cn/t/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        }
-      ]
     }
   ],
   "all_posts": [
+    {
+      "title": "Model Y二血",
+      "link": "https://synyan.cn/t/61939",
+      "description": "最近本人跟车杠上了，ld的Model Y开回来已经喜提二血。 第一次是半个月前，4月15日，ld下班时隧道前匝 [&#8230;]",
+      "pub_date": "2026-05-08T16:12:21+08:00",
+      "updated_at": "2026-05-09T02:27:18+08:00",
+      "author": "S",
+      "site_name": "竹炉山房",
+      "site_url": "https://synyan.cn/t/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+    },
     {
       "title": "大军扩编",
       "link": "https://wang618.cn/da-jun-kuo-bian.html",
@@ -3548,17 +3559,6 @@
       "site_name": "旺东自留地",
       "site_url": "https://wang618.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-    },
-    {
-      "title": "Model Y二血",
-      "link": "https://synyan.cn/t/61939",
-      "description": "最近本人跟车杠上了，ld的Model Y开回来已经喜提二血。 第一次是半个月前，4月15日，ld下班时隧道前匝 [&#8230;]",
-      "pub_date": "2026-05-08T16:12:21+08:00",
-      "updated_at": "2026-05-08T18:03:27+08:00",
-      "author": "S",
-      "site_name": "竹炉山房",
-      "site_url": "https://synyan.cn/t/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
     },
     {
       "title": "二次创作的 tab-out：让我的”标签页囤积症”康复了",
@@ -6876,26 +6876,26 @@
       "reason": "no_feed_found"
     },
     {
-      "name": "Casear的技术栈",
-      "url": "https://www.casear.net",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
-      "name": "益友网站",
-      "url": "https://www.yiyou.bj.cn",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
       "name": "80后记忆",
       "url": "https://www.80h.bj.cn",
       "feed_url": null,
       "reason": "no_feed_found"
     },
     {
+      "name": "Casear的技术栈",
+      "url": "https://www.casear.net",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
       "name": "友人C",
       "url": "https://www.ihewro.com",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
+      "name": "益友网站",
+      "url": "https://www.yiyou.bj.cn",
       "feed_url": null,
       "reason": "no_feed_found"
     },

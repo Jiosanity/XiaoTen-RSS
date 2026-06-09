@@ -89,7 +89,7 @@ python main.py
 - `last_error`：本轮失败原因
 - `last_success_at`：上一版成功输出时间
 
-发布前还会执行质量门禁：当新结果的站点数、文章数相对上一版明显缩水，或失败站点数超过阈值时，程序会报错退出。GitHub Actions 因此不会继续提交本仓库或推送到 `static-xiaoten-com`，线上会继续保留上一版健康数据。
+发布前还会执行质量门禁：当新结果的站点数、文章数相对上一版明显缩水，或失败站点数超过阈值时，程序会报错退出。GitHub Actions 因此不会继续提交本仓库，也不会触发 `static-xiaoten-com` 的 `ingest-rss.yml`，线上会继续保留上一版健康数据。
 
 输出格式（默认 `data.json`）— 速览
 
@@ -102,6 +102,7 @@ python main.py
 
 在 GitHub 上自动化运行
 - 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。
+- 生成结果只提交回本仓库；随后 workflow 会触发 `Jiosanity/static-xiaoten-com` 的 `ingest-rss.yml`。静态仓库负责拉取 `rss.json`、写入 `dist/rss.json` 并部署到 `static.xiaoten.com`。
  
 
 ## 更新日志

@@ -11,6 +11,7 @@
 - 支持不限制过期文章（`OUTDATE_CLEAN: 0` 表示不过滤）
 - 为每篇文章提供发布时间 `pub_date` 与更新时间 `updated_at`
 - 在最终输出中包含抓取失败的站点列表 `failed_sites`（含失败原因）
+- 支持上一版输出兜底与发布门禁，避免网络波动导致线上友圈数据大面积缩水
 - 支持 GitHub Actions 定时运行（例如每 6 小时）
 
 最小文件清单（保留）
@@ -56,6 +57,10 @@ python main.py
 - `TIMEZONE_CORRECTION`：是否换算为北京时间（`true` 换算；`false` 保留来源显示的时间但标注 +08:00）
 - `SORT_BY`：排序字段（`pub_date` 或 `updated_at`）
 - `OUTPUT_JSON_FILENAME`：输出文件名（如 `rss.json`，默认 `data.json`）
+- `STALE_FALLBACK_ENABLED`：本轮抓取失败时，是否使用上一版输出中的站点数据兜底
+- `STALE_FALLBACK_INCLUDE_MISSING_SITES`：友链页本轮明显缩水时，是否补回上一版中本轮未出现的站点
+- `MIN_SITE_RETENTION_RATIO` / `MIN_POST_RETENTION_RATIO`：发布门禁，控制新结果相对上一版允许缩水的最低比例
+- `MAX_FAILED_SITES_FOR_PUBLISH`：发布门禁，失败站点数超过该值时停止覆盖旧数据
 
 ## 手动配置覆盖策略
 
@@ -71,6 +76,17 @@ python main.py
 - `FEED_CHECK_TIMEOUT`：Feed URL 检查超时时间（秒），默认 5
 - `REQUEST_RETRIES`：HTTP 请求重试次数，默认 1
 - `RETRY_BACKOFF`：重试退避系数（秒），默认 0.3
+
+## 稳定性保护
+
+程序启动时会读取上一版输出文件（例如 `rss.json`）。如果某个站点本轮 feed 抓取失败，但上一版中有该站点数据，最终输出会保留上一版文章，并为该站点标记：
+
+- `stale: true`
+- `stale_reason`：兜底原因，如 `fetch_failed` 或 `not_seen_this_run`
+- `last_error`：本轮失败原因
+- `last_success_at`：上一版成功输出时间
+
+发布前还会执行质量门禁：当新结果的站点数、文章数相对上一版明显缩水，或失败站点数超过阈值时，程序会报错退出。GitHub Actions 因此不会继续提交本仓库或推送到 `static-xiaoten-com`，线上会继续保留上一版健康数据。
 
 输出格式（默认 `data.json`）— 速览
 

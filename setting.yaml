@@ -89,17 +89,32 @@ LOG_LEVEL: INFO
 MAX_WORKERS: 4
 
 ## HTTP 请求超时时间（秒）
-REQUEST_TIMEOUT: 10
+REQUEST_TIMEOUT: 20
 
 ## Feed URL 检查超时时间（秒）
-FEED_CHECK_TIMEOUT: 5
+FEED_CHECK_TIMEOUT: 10
 
 ## HTTP 请求重试次数
-REQUEST_RETRIES: 1
+REQUEST_RETRIES: 3
 
 ## 重试退避系数（秒）
 
-RETRY_BACKOFF: 0.3
+RETRY_BACKOFF: 1
+
+## 稳定性保护：本轮抓取失败时使用上一版 rss.json 中对应站点的数据兜底
+STALE_FALLBACK_ENABLED: true
+
+## 友链页本轮未解析出的旧站点也保留上一版数据，防止友链页加载失败导致大面积消失
+STALE_FALLBACK_INCLUDE_MISSING_SITES: true
+
+## 发布门禁：新结果低于上一版站点数的该比例时，停止覆盖旧数据
+MIN_SITE_RETENTION_RATIO: 0.8
+
+## 发布门禁：新结果低于上一版文章数的该比例时，停止覆盖旧数据
+MIN_POST_RETENTION_RATIO: 0.7
+
+## 发布门禁：失败站点数超过该值时，停止发布；设为 -1 可关闭此项
+MAX_FAILED_SITES_FOR_PUBLISH: 10
 
 
 

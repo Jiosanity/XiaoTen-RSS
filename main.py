@@ -49,12 +49,22 @@ DEFAULT_CONFIG = {
     'MAX_WORKERS': 0,  # 0 表示不使用并发
     'LOG_LEVEL': 'INFO',
     'CACHE_FILE': 'feed_cache.json',
+    'STALE_FALLBACK_ENABLED': True,
+    'STALE_FALLBACK_INCLUDE_MISSING_SITES': True,
+    'MIN_SITE_RETENTION_RATIO': 0.8,
+    'MIN_POST_RETENTION_RATIO': 0.7,
+    'MAX_FAILED_SITES_FOR_PUBLISH': 10,
     'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
 def get_beijing_time():
     """获取当前北京时间"""
     return datetime.now(BEIJING_TZ)
+
+
+def normalize_site_url(url: str) -> str:
+    """规范化站点 URL，用于跨运行匹配同一友链。"""
+    return (url or '').strip().rstrip('/')
 
 def parse_feed_time(time_tuple, timezone_correction: bool = True, original_time_str: Optional[str] = None):
     """解析feed时间
@@ -287,6 +297,29 @@ class ConfigParser:
     def get_user_agent(self) -> str:
         """获取User-Agent"""
         return self.config.get('USER_AGENT', DEFAULT_CONFIG['USER_AGENT'])
+
+    def get_stale_fallback_enabled(self) -> bool:
+        """是否启用上一版输出兜底。"""
+        return self.config.get('STALE_FALLBACK_ENABLED', DEFAULT_CONFIG['STALE_FALLBACK_ENABLED'])
+
+    def get_stale_fallback_include_missing_sites(self) -> bool:
+        """是否补回本轮未出现在友链列表中的旧站点。"""
+        return self.config.get(
+            'STALE_FALLBACK_INCLUDE_MISSING_SITES',
+            DEFAULT_CONFIG['STALE_FALLBACK_INCLUDE_MISSING_SITES']
+        )
+
+    def get_min_site_retention_ratio(self) -> float:
+        """获取站点数发布门禁比例。"""
+        return float(self.config.get('MIN_SITE_RETENTION_RATIO', DEFAULT_CONFIG['MIN_SITE_RETENTION_RATIO']))
+
+    def get_min_post_retention_ratio(self) -> float:
+        """获取文章数发布门禁比例。"""
+        return float(self.config.get('MIN_POST_RETENTION_RATIO', DEFAULT_CONFIG['MIN_POST_RETENTION_RATIO']))
+
+    def get_max_failed_sites_for_publish(self) -> int:
+        """获取允许发布的最大失败站点数。"""
+        return int(self.config.get('MAX_FAILED_SITES_FOR_PUBLISH', DEFAULT_CONFIG['MAX_FAILED_SITES_FOR_PUBLISH']))
 
 
 class SiteFilter:
@@ -753,6 +786,8 @@ class FriendRSSAggregator:
     
     def __init__(self, config_path: str = 'setting.yaml'):
         self.config = ConfigParser(config_path)
+        self.output_name = self.config.get_output_filename()
+        self.previous_data = self._load_previous_output(self.output_name)
         self.cache = CacheManager(self.config.get_cache_file())
         self.site_filter = SiteFilter(
             self.config.get_block_sites(),
@@ -781,6 +816,126 @@ class FriendRSSAggregator:
         )
         # 用于记录获取 RSS 失败的站点列表
         self.failed_sites: List[Dict[str, Any]] = []
+
+    def _load_previous_output(self, output_path: str) -> Optional[dict]:
+        """读取上一版输出，作为网络波动时的兜底基准。"""
+        if not output_path or not os.path.exists(output_path):
+            return None
+
+        try:
+            with open(output_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            if isinstance(data, dict) and isinstance(data.get('sites'), list):
+                logger.info(f"已加载上一版输出用于兜底: {output_path}")
+                return data
+            logger.warning(f"上一版输出格式无效，跳过兜底: {output_path}")
+        except Exception as e:
+            logger.warning(f"读取上一版输出失败，跳过兜底: {e}")
+        return None
+
+    def _previous_site_index(self) -> Dict[str, Dict[str, Any]]:
+        """按站点 URL 建立上一版站点索引。"""
+        if not self.previous_data:
+            return {}
+
+        index = {}
+        for site in self.previous_data.get('sites', []):
+            key = normalize_site_url(site.get('url', ''))
+            if key:
+                index[key] = site
+        return index
+
+    def _clone_stale_site(self, site: Dict[str, Any], reason: str, last_error: str) -> Dict[str, Any]:
+        """复制上一版站点数据，并标记为旧数据兜底。"""
+        cloned = json.loads(json.dumps(site, ensure_ascii=False))
+        cloned['stale'] = True
+        cloned['stale_reason'] = reason
+        cloned['last_error'] = last_error
+        cloned['last_success_at'] = (
+            site.get('last_success_at') or self.previous_data.get('updated_at')
+            if self.previous_data else None
+        )
+        return cloned
+
+    def _apply_stale_fallback(self, all_sites: List[Dict[str, Any]], all_links: List[Dict[str, str]]) -> List[Dict[str, Any]]:
+        """用上一版成功数据补回本轮失败或缺失的站点。"""
+        if not self.config.get_stale_fallback_enabled() or not self.previous_data:
+            return all_sites
+
+        previous_sites = self._previous_site_index()
+        if not previous_sites:
+            return all_sites
+
+        current_keys = {normalize_site_url(site.get('url', '')) for site in all_sites}
+        link_keys = {normalize_site_url(link.get('url', '')) for link in all_links}
+        failed_by_key = {
+            normalize_site_url(item.get('url', '')): item
+            for item in self.failed_sites
+            if normalize_site_url(item.get('url', ''))
+        }
+
+        restored = 0
+        for key, failure in failed_by_key.items():
+            if key in current_keys or key not in previous_sites:
+                continue
+            reason = failure.get('reason') or 'fetch_failed'
+            all_sites.append(self._clone_stale_site(previous_sites[key], 'fetch_failed', reason))
+            current_keys.add(key)
+            restored += 1
+
+        previous_count = len(previous_sites)
+        link_count_is_suspicious = (
+            previous_count > 0 and
+            len(link_keys) < previous_count * self.config.get_min_site_retention_ratio()
+        )
+
+        if self.config.get_stale_fallback_include_missing_sites() and link_count_is_suspicious:
+            missing_restored = 0
+            for key, previous_site in previous_sites.items():
+                if key in current_keys or key in link_keys:
+                    continue
+                all_sites.append(self._clone_stale_site(previous_site, 'not_seen_this_run', 'link_page_missing'))
+                current_keys.add(key)
+                missing_restored += 1
+            restored += missing_restored
+        elif self.config.get_stale_fallback_include_missing_sites():
+            logger.debug("本轮友链数量未明显缩水，跳过缺失站点兜底")
+
+        if restored:
+            logger.warning(f"已用上一版数据兜底恢复 {restored} 个站点")
+        return all_sites
+
+    def validate_publish_quality(self, data: dict):
+        """对输出结果做发布门禁，防止低质量结果覆盖线上数据。"""
+        previous = self.previous_data
+        if not previous:
+            logger.info("没有上一版输出，跳过相对质量门禁")
+            return
+
+        previous_sites = int(previous.get('total_sites') or len(previous.get('sites', [])) or 0)
+        previous_posts = int(previous.get('total_posts') or len(previous.get('all_posts', [])) or 0)
+        current_sites = int(data.get('total_sites') or 0)
+        current_posts = int(data.get('total_posts') or 0)
+        failed_count = len(data.get('failed_sites') or [])
+
+        failures = []
+        min_site_ratio = self.config.get_min_site_retention_ratio()
+        min_post_ratio = self.config.get_min_post_retention_ratio()
+        max_failed = self.config.get_max_failed_sites_for_publish()
+
+        if previous_sites > 0 and current_sites < previous_sites * min_site_ratio:
+            failures.append(f"站点数缩水过多: {current_sites}/{previous_sites}，阈值 {min_site_ratio:.0%}")
+        if previous_posts > 0 and current_posts < previous_posts * min_post_ratio:
+            failures.append(f"文章数缩水过多: {current_posts}/{previous_posts}，阈值 {min_post_ratio:.0%}")
+        if max_failed >= 0 and failed_count > max_failed:
+            failures.append(f"失败站点过多: {failed_count}，上限 {max_failed}")
+
+        if failures:
+            message = "本次 RSS 输出未通过发布门禁，已停止覆盖旧数据: " + "；".join(failures)
+            logger.error(message)
+            raise RuntimeError(message)
+
+        logger.info("RSS 输出通过发布门禁")
     
     def get_all_links(self) -> List[Dict[str, str]]:
         """获取所有友链
@@ -961,6 +1116,9 @@ class FriendRSSAggregator:
                 site_data = self.process_site(link)
                 if site_data:
                     all_sites.append(site_data)
+
+        # 网络波动导致本轮抓取失败时，优先保留上一版成功数据，避免线上友圈突然缩水。
+        all_sites = self._apply_stale_fallback(all_sites, all_links)
         
         # 合并数据
         final_data = self.aggregator.merge_data(all_sites)
@@ -991,8 +1149,8 @@ def main():
     try:
         aggregator = FriendRSSAggregator('setting.yaml')
         data = aggregator.run()
-        # 从配置中读取输出文件名
-        output_name = aggregator.config.get_output_filename()
+        aggregator.validate_publish_quality(data)
+        output_name = aggregator.output_name
         aggregator.save_to_file(data, output_name)
         
         # 输出统计信息

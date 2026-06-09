@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T21:05:32.147112+08:00",
-  "total_sites": 29,
-  "total_posts": 282,
+  "updated_at": "2026-06-09T21:18:27.792769+08:00",
+  "total_sites": 30,
+  "total_posts": 291,
   "sites": [
     {
       "name": "Jame",
@@ -111,10 +111,84 @@
       ]
     },
     {
+      "name": "王叨叨",
+      "url": "https://wangdaodao.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
+      "feed_url": "https://wangdaodao.com/feed",
+      "posts": [
+        {
+          "title": "无题",
+          "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
+          "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
+          "pub_date": "2026-02-28T21:03:00+08:00",
+          "updated_at": "2026-02-28T21:03:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "一些杂事",
+          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
+          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
+          "pub_date": "2026-01-12T23:07:00+08:00",
+          "updated_at": "2026-01-12T23:07:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "关于孟鲁司特钠的不良反应",
+          "link": "https://wangdaodao.com/20260105/montelukast.html",
+          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
+          "pub_date": "2026-01-05T22:54:00+08:00",
+          "updated_at": "2026-01-05T22:54:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源网易云及QQ音乐播放插件",
+          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
+          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
+          "pub_date": "2025-12-26T13:25:00+08:00",
+          "updated_at": "2025-12-26T13:25:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "开源Typecho抖音播放器插件",
+          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
+          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
+          "pub_date": "2025-12-20T16:24:00+08:00",
+          "updated_at": "2025-12-20T16:24:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        },
+        {
+          "title": "2025年终总结",
+          "link": "https://wangdaodao.com/20251214/2025-summary.html",
+          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
+          "pub_date": "2025-12-14T13:52:00+08:00",
+          "updated_at": "2025-12-14T13:52:00+08:00",
+          "author": "王叨叨",
+          "site_name": "王叨叨",
+          "site_url": "https://wangdaodao.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
+        }
+      ]
+    },
+    {
       "name": "手里有只毛毛虫",
       "url": "https://www.krjojo.com/",
       "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif",
-      "feed_url": "https://www.krjojo.com/feed",
+      "feed_url": "https://www.krjojo.com/rss",
       "posts": [
         {
           "title": "PHP 利用ImageMagick实现多页PDF转一张图片",
@@ -207,80 +281,6 @@
       ]
     },
     {
-      "name": "王叨叨",
-      "url": "https://wangdaodao.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
-      "feed_url": "https://wangdaodao.com/feed",
-      "posts": [
-        {
-          "title": "无题",
-          "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
-          "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
-          "pub_date": "2026-02-28T21:03:00+08:00",
-          "updated_at": "2026-02-28T21:03:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "一些杂事",
-          "link": "https://wangdaodao.com/20260112/trivial-matters.html",
-          "description": "一转眼就到了2026年了，差不多再有一个月就要过年了。最近身边，也发生了一些杂事，有好事也有不好的事，让我自己也有了一些反思。",
-          "pub_date": "2026-01-12T23:07:00+08:00",
-          "updated_at": "2026-01-12T23:07:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "关于孟鲁司特钠的不良反应",
-          "link": "https://wangdaodao.com/20260105/montelukast.html",
-          "description": "最近刷抖音，发现一些医生和家长都在说孟鲁司特钠、易坦静盐酸氨溴索口服溶液和西替利嗪这些儿童用药，都会导致口吃、多动、自杀等倾向。早在2020年3月，美国 FDA 对孟鲁司特钠发布黑框警告，强调医...",
-          "pub_date": "2026-01-05T22:54:00+08:00",
-          "updated_at": "2026-01-05T22:54:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源网易云及QQ音乐播放插件",
-          "link": "https://wangdaodao.com/20251226/typecho-netease-qq-player.html",
-          "description": "之前一直用的是 Meting 插件来解决博客音乐播放的问题，不过发现作者很久都不再维护更新了，所以想造个轮子自己搞一个播放器试试。我这次并没有自己来解析音乐，因为现在网易云和QQ都有自己的分享链...",
-          "pub_date": "2025-12-26T13:25:00+08:00",
-          "updated_at": "2025-12-26T13:25:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "开源Typecho抖音播放器插件",
-          "link": "https://wangdaodao.com/20251220/dou-yin-player.html",
-          "description": "前段时间，开源了一个Bilibili播放器插件，原理也是非常简单。这次看到抖音也可以视频分享，那就也做一个抖音的播放器插件吧。原理非常简单，使用正则表达式匹配抖音的链接，然后替换成 iframe...",
-          "pub_date": "2025-12-20T16:24:00+08:00",
-          "updated_at": "2025-12-20T16:24:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        },
-        {
-          "title": "2025年终总结",
-          "link": "https://wangdaodao.com/20251214/2025-summary.html",
-          "description": "2025年还有半个月就要过去了，回头看看这一年，还真发生了不少事情。趁着周末有点时间，稍微总结一下，免的到了月底，没时间总结。",
-          "pub_date": "2025-12-14T13:52:00+08:00",
-          "updated_at": "2025-12-14T13:52:00+08:00",
-          "author": "王叨叨",
-          "site_name": "王叨叨",
-          "site_url": "https://wangdaodao.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png"
-        }
-      ]
-    },
-    {
       "name": "MouT.me",
       "url": "https://ghost.mout.me/",
       "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
@@ -303,6 +303,25 @@
           "site_name": "小白大学渣",
           "site_url": "https://www.baihub.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        }
+      ]
+    },
+    {
+      "name": "黑石博客",
+      "url": "https://heson.me/",
+      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
+      "feed_url": "https://heson.me/feed",
+      "posts": [
+        {
+          "title": "丢掉状态洁癖：用“破烂开始法则”练就恐怖执行力",
+          "link": "https://heson.me/life/51.html",
+          "description": "[card title=\"分享说明：\" color=\"info\"]本文整理自一篇关于执行力与“状态洁癖”的深度分享，核心观点“破烂开始法则”对我启发颇深。真正的成长，始于接纳不完美的自己与现状，...",
+          "pub_date": "2026-03-22T09:43:00+08:00",
+          "updated_at": "2026-03-22T09:43:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         }
       ]
     },
@@ -543,6 +562,113 @@
       ]
     },
     {
+      "name": "安静角落",
+      "url": "https://wuziya.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
+      "feed_url": "https://wuziya.com/feed",
+      "posts": [
+        {
+          "title": "梅根2.0",
+          "link": "https://wuziya.com/313.html",
+          "description": "梅根2.0",
+          "pub_date": "2026-04-22T22:53:00+08:00",
+          "updated_at": "2026-04-22T22:53:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "碟中谍8:最终清算",
+          "link": "https://wuziya.com/304.html",
+          "description": "碟中谍8:最终清算",
+          "pub_date": "2026-04-15T20:52:00+08:00",
+          "updated_at": "2026-04-15T20:52:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "我的电脑",
+          "link": "https://wuziya.com/297.html",
+          "description": "我的电脑",
+          "pub_date": "2026-02-25T19:19:00+08:00",
+          "updated_at": "2026-02-25T19:19:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "还能不能愉快的玩耍了",
+          "link": "https://wuziya.com/293.html",
+          "description": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/虽然我没怎么玩这个，但这价格也...",
+          "pub_date": "2026-02-24T17:38:00+08:00",
+          "updated_at": "2026-02-24T17:38:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "为什么我们沉迷游戏？",
+          "link": "https://wuziya.com/290.html",
+          "description": "Zkeq的人格完善指南https://www.onmicrosoft.cn/qa/2025-09-09-about-the-game说到游戏，我有一个域名ux54.com，原来打算取个名字叫“游...",
+          "pub_date": "2026-02-17T19:48:00+08:00",
+          "updated_at": "2026-02-17T19:48:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "虚伪智能与AI",
+          "link": "https://wuziya.com/288.html",
+          "description": "我从未使用过人工智能生成的文本来代替我个人的”声音“，如电子邮件、我的文章中的句子、博客中发表的评论，不使用生成式内容来“假装”是我的输出。但我对使用人工智能持开放态度，不排斥使用生成式 AI/...",
+          "pub_date": "2026-02-12T13:47:00+08:00",
+          "updated_at": "2026-02-12T13:47:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "电影：朗读者",
+          "link": "https://wuziya.com/287.html",
+          "description": "Because it's justice.因为这关系到正义It wasn't quite what I was expecting.有点不像我期待的那样实际影片中这两句话的顺序是反过来的。另外，...",
+          "pub_date": "2026-02-08T08:38:00+08:00",
+          "updated_at": "2026-02-08T08:38:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "电影：情圣3",
+          "link": "https://wuziya.com/284.html",
+          "description": "电影：情圣3",
+          "pub_date": "2026-02-06T17:07:00+08:00",
+          "updated_at": "2026-02-06T17:07:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        },
+        {
+          "title": "昨日立春",
+          "link": "https://wuziya.com/280.html",
+          "description": "昨日立春",
+          "pub_date": "2026-02-05T12:18:00+08:00",
+          "updated_at": "2026-02-05T12:18:00+08:00",
+          "author": "博主",
+          "site_name": "安静角落",
+          "site_url": "https://wuziya.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        }
+      ]
+    },
+    {
       "name": "雅余",
       "url": "https://yayu.net/",
       "avatar": "https://cdn.xiaoten.com/friends/yayu.png",
@@ -701,264 +827,6 @@
           "site_name": "雅余",
           "site_url": "https://yayu.net/",
           "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        }
-      ]
-    },
-    {
-      "name": "安静角落",
-      "url": "https://wuziya.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
-      "feed_url": "https://wuziya.com/feed",
-      "posts": [
-        {
-          "title": "梅根2.0",
-          "link": "https://wuziya.com/313.html",
-          "description": "梅根2.0",
-          "pub_date": "2026-04-22T22:53:00+08:00",
-          "updated_at": "2026-04-22T22:53:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "碟中谍8:最终清算",
-          "link": "https://wuziya.com/304.html",
-          "description": "碟中谍8:最终清算",
-          "pub_date": "2026-04-15T20:52:00+08:00",
-          "updated_at": "2026-04-15T20:52:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "我的电脑",
-          "link": "https://wuziya.com/297.html",
-          "description": "我的电脑",
-          "pub_date": "2026-02-25T19:19:00+08:00",
-          "updated_at": "2026-02-25T19:19:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "还能不能愉快的玩耍了",
-          "link": "https://wuziya.com/293.html",
-          "description": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/虽然我没怎么玩这个，但这价格也...",
-          "pub_date": "2026-02-24T17:38:00+08:00",
-          "updated_at": "2026-02-24T17:38:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "为什么我们沉迷游戏？",
-          "link": "https://wuziya.com/290.html",
-          "description": "Zkeq的人格完善指南https://www.onmicrosoft.cn/qa/2025-09-09-about-the-game说到游戏，我有一个域名ux54.com，原来打算取个名字叫“游...",
-          "pub_date": "2026-02-17T19:48:00+08:00",
-          "updated_at": "2026-02-17T19:48:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "虚伪智能与AI",
-          "link": "https://wuziya.com/288.html",
-          "description": "我从未使用过人工智能生成的文本来代替我个人的”声音“，如电子邮件、我的文章中的句子、博客中发表的评论，不使用生成式内容来“假装”是我的输出。但我对使用人工智能持开放态度，不排斥使用生成式 AI/...",
-          "pub_date": "2026-02-12T13:47:00+08:00",
-          "updated_at": "2026-02-12T13:47:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "电影：朗读者",
-          "link": "https://wuziya.com/287.html",
-          "description": "Because it's justice.因为这关系到正义It wasn't quite what I was expecting.有点不像我期待的那样实际影片中这两句话的顺序是反过来的。另外，...",
-          "pub_date": "2026-02-08T08:38:00+08:00",
-          "updated_at": "2026-02-08T08:38:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "电影：情圣3",
-          "link": "https://wuziya.com/284.html",
-          "description": "电影：情圣3",
-          "pub_date": "2026-02-06T17:07:00+08:00",
-          "updated_at": "2026-02-06T17:07:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        },
-        {
-          "title": "昨日立春",
-          "link": "https://wuziya.com/280.html",
-          "description": "昨日立春",
-          "pub_date": "2026-02-05T12:18:00+08:00",
-          "updated_at": "2026-02-05T12:18:00+08:00",
-          "author": "博主",
-          "site_name": "安静角落",
-          "site_url": "https://wuziya.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
-        }
-      ]
-    },
-    {
-      "name": "且听书吟",
-      "url": "https://yufan.me",
-      "avatar": "https://cdn.xiaoten.com/friends/yufan.svg",
-      "feed_url": "https://yufan.me/feed",
-      "posts": [
-        {
-          "title": "富文本编辑器简史",
-          "link": "https://yufan.me/posts/text-editor-evolution",
-          "description": "Web 富文本编辑器的发展史，本质上是一场关于控制权的争夺。浏览器厂商、框架作者、产品经理、终端用户，乃至今天的 AI 模型，都在争夺同一个问题的答案：谁来决定一段文本的最终形态？",
-          "pub_date": "2026-05-11T19:01:32+08:00",
-          "updated_at": "2026-05-11T19:01:32+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "夏至未至",
-          "link": "https://yufan.me/posts/rush-to-the-dead-summer",
-          "description": "风把夏天的消息叠进花瓣里，花影落在腕间，像一句未说完的话，轻轻系在脉搏上。有些旋律未曾被吟唱，却在午后，被阳光弹成看得见的音符。等一人来听，又怕有心人听懂。",
-          "pub_date": "2026-05-06T15:44:00+08:00",
-          "updated_at": "2026-05-06T15:44:00+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "过度联想",
-          "link": "https://yufan.me/posts/less-is-more",
-          "description": "菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。",
-          "pub_date": "2026-04-17T12:31:16+08:00",
-          "updated_at": "2026-04-17T12:31:16+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "难以割舍的纸质词典",
-          "link": "https://yufan.me/posts/paper-dictionary-love",
-          "description": "作为一名 90 后，我始终难以割舍对纸质词典的情结。",
-          "pub_date": "2026-04-16T15:08:23+08:00",
-          "updated_at": "2026-04-16T15:08:23+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "年少心事",
-          "link": "https://yufan.me/posts/adolescent-souls",
-          "description": "那些尘封在阁楼上的手表，即是年轻的那份自卑，也是另一种放下。",
-          "pub_date": "2026-04-15T13:10:33+08:00",
-          "updated_at": "2026-04-15T13:10:33+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "喝茶记",
-          "link": "https://yufan.me/posts/drinking-tea",
-          "description": "四年前的恐惧，直至今天，依旧未曾消散。",
-          "pub_date": "2026-03-27T04:16:32+08:00",
-          "updated_at": "2026-03-27T04:16:32+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "打孔书与切割书",
-          "link": "https://yufan.me/posts/punched-and-cut-books",
-          "description": "某种程度上说，这些带孔的书、被切割的书，既是出版行业库存压力的见证，也在无意之间，成为了二手书世界里独特而耐人寻味的存在。",
-          "pub_date": "2026-03-23T03:56:11+08:00",
-          "updated_at": "2026-03-23T03:56:11+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "父亲",
-          "link": "https://yufan.me/posts/father",
-          "description": "谈起父亲，我始终找不到合适的开头。也许是复杂，也许只是无措。这究竟是一种怎样的感情，我很难用三言两语说清楚。又或者，我从未真正理解过他。",
-          "pub_date": "2026-02-09T12:36:23+08:00",
-          "updated_at": "2026-02-09T12:36:23+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "重返十八岁",
-          "link": "https://yufan.me/posts/back-at-eighteen",
-          "description": "一张积灰的毕业照，一场反复回到过去的梦。窗外是雨，桌上是书，时间在记忆中失去边界。那些关于成长、焦虑与出身的片段，并未远去，只是换了一种方式，继续存在。",
-          "pub_date": "2026-01-20T15:16:44+08:00",
-          "updated_at": "2026-01-20T15:16:44+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "博客，青春的坟墓",
-          "link": "https://yufan.me/posts/youth-buried-in-blogs",
-          "description": "那些静静躺在博客里的文字，早已承载了我大部分的青春。",
-          "pub_date": "2026-01-05T18:35:16+08:00",
-          "updated_at": "2026-01-05T18:35:16+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "追寻幸福",
-          "link": "https://yufan.me/posts/the-pursuit-of-happiness",
-          "description": "幸福不再是遥不可及的梦，而是藏匿在日常的点滴之中。它是妈妈的摇扇、朋友的关怀，是每一个平凡瞬间中的温暖与充实。",
-          "pub_date": "2025-12-31T14:22:49+08:00",
-          "updated_at": "2025-12-31T14:22:49+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "当图书差错成为常态",
-          "link": "https://yufan.me/posts/when-book-quality-slips",
-          "description": "当下的出版业基本已经可以定性为夕阳产业，图书编辑长期被视为成本部门，对他们的要求其实只有一项：只要符合质量标准即可。",
-          "pub_date": "2025-12-29T12:12:42+08:00",
-          "updated_at": "2025-12-29T12:12:42+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        },
-        {
-          "title": "那些我用过的英语书 - 新概念英语篇",
-          "link": "https://yufan.me/posts/the-new-concept-english",
-          "description": "很多人以为《新概念英语》是从第一册一路写到第四册的，其实真正的核心是第二册。它靠反复、递进的课文来训练句法，重点不在背单词，而在“把句子用顺”。这套方法直到今天依然很有价值。",
-          "pub_date": "2025-12-22T13:20:43+08:00",
-          "updated_at": "2025-12-22T13:20:43+08:00",
-          "author": "syhily@gmail.com (雨帆)",
-          "site_name": "且听书吟",
-          "site_url": "https://yufan.me",
-          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
         }
       ]
     },
@@ -1232,21 +1100,153 @@
       ]
     },
     {
-      "name": "黑石博客",
-      "url": "https://heson.me/",
-      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
-      "feed_url": "https://heson.me/feed",
+      "name": "且听书吟",
+      "url": "https://yufan.me",
+      "avatar": "https://cdn.xiaoten.com/friends/yufan.svg",
+      "feed_url": "https://yufan.me/feed",
       "posts": [
         {
-          "title": "丢掉状态洁癖：用“破烂开始法则”练就恐怖执行力",
-          "link": "https://heson.me/life/51.html",
-          "description": "[card title=\"分享说明：\" color=\"info\"]本文整理自一篇关于执行力与“状态洁癖”的深度分享，核心观点“破烂开始法则”对我启发颇深。真正的成长，始于接纳不完美的自己与现状，...",
-          "pub_date": "2026-03-22T09:43:00+08:00",
-          "updated_at": "2026-03-22T09:43:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
+          "title": "富文本编辑器简史",
+          "link": "https://yufan.me/posts/text-editor-evolution",
+          "description": "Web 富文本编辑器的发展史，本质上是一场关于控制权的争夺。浏览器厂商、框架作者、产品经理、终端用户，乃至今天的 AI 模型，都在争夺同一个问题的答案：谁来决定一段文本的最终形态？",
+          "pub_date": "2026-05-11T19:01:32+08:00",
+          "updated_at": "2026-05-11T19:01:32+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "夏至未至",
+          "link": "https://yufan.me/posts/rush-to-the-dead-summer",
+          "description": "风把夏天的消息叠进花瓣里，花影落在腕间，像一句未说完的话，轻轻系在脉搏上。有些旋律未曾被吟唱，却在午后，被阳光弹成看得见的音符。等一人来听，又怕有心人听懂。",
+          "pub_date": "2026-05-06T15:44:00+08:00",
+          "updated_at": "2026-05-06T15:44:00+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "过度联想",
+          "link": "https://yufan.me/posts/less-is-more",
+          "description": "菩提本无树，明镜亦非台。本来无一物，何处惹尘埃。",
+          "pub_date": "2026-04-17T12:31:16+08:00",
+          "updated_at": "2026-04-17T12:31:16+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "难以割舍的纸质词典",
+          "link": "https://yufan.me/posts/paper-dictionary-love",
+          "description": "作为一名 90 后，我始终难以割舍对纸质词典的情结。",
+          "pub_date": "2026-04-16T15:08:23+08:00",
+          "updated_at": "2026-04-16T15:08:23+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "年少心事",
+          "link": "https://yufan.me/posts/adolescent-souls",
+          "description": "那些尘封在阁楼上的手表，即是年轻的那份自卑，也是另一种放下。",
+          "pub_date": "2026-04-15T13:10:33+08:00",
+          "updated_at": "2026-04-15T13:10:33+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "喝茶记",
+          "link": "https://yufan.me/posts/drinking-tea",
+          "description": "四年前的恐惧，直至今天，依旧未曾消散。",
+          "pub_date": "2026-03-27T04:16:32+08:00",
+          "updated_at": "2026-03-27T04:16:32+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "打孔书与切割书",
+          "link": "https://yufan.me/posts/punched-and-cut-books",
+          "description": "某种程度上说，这些带孔的书、被切割的书，既是出版行业库存压力的见证，也在无意之间，成为了二手书世界里独特而耐人寻味的存在。",
+          "pub_date": "2026-03-23T03:56:11+08:00",
+          "updated_at": "2026-03-23T03:56:11+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "父亲",
+          "link": "https://yufan.me/posts/father",
+          "description": "谈起父亲，我始终找不到合适的开头。也许是复杂，也许只是无措。这究竟是一种怎样的感情，我很难用三言两语说清楚。又或者，我从未真正理解过他。",
+          "pub_date": "2026-02-09T12:36:23+08:00",
+          "updated_at": "2026-02-09T12:36:23+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "重返十八岁",
+          "link": "https://yufan.me/posts/back-at-eighteen",
+          "description": "一张积灰的毕业照，一场反复回到过去的梦。窗外是雨，桌上是书，时间在记忆中失去边界。那些关于成长、焦虑与出身的片段，并未远去，只是换了一种方式，继续存在。",
+          "pub_date": "2026-01-20T15:16:44+08:00",
+          "updated_at": "2026-01-20T15:16:44+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "博客，青春的坟墓",
+          "link": "https://yufan.me/posts/youth-buried-in-blogs",
+          "description": "那些静静躺在博客里的文字，早已承载了我大部分的青春。",
+          "pub_date": "2026-01-05T18:35:16+08:00",
+          "updated_at": "2026-01-05T18:35:16+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "追寻幸福",
+          "link": "https://yufan.me/posts/the-pursuit-of-happiness",
+          "description": "幸福不再是遥不可及的梦，而是藏匿在日常的点滴之中。它是妈妈的摇扇、朋友的关怀，是每一个平凡瞬间中的温暖与充实。",
+          "pub_date": "2025-12-31T14:22:49+08:00",
+          "updated_at": "2025-12-31T14:22:49+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "当图书差错成为常态",
+          "link": "https://yufan.me/posts/when-book-quality-slips",
+          "description": "当下的出版业基本已经可以定性为夕阳产业，图书编辑长期被视为成本部门，对他们的要求其实只有一项：只要符合质量标准即可。",
+          "pub_date": "2025-12-29T12:12:42+08:00",
+          "updated_at": "2025-12-29T12:12:42+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
+        },
+        {
+          "title": "那些我用过的英语书 - 新概念英语篇",
+          "link": "https://yufan.me/posts/the-new-concept-english",
+          "description": "很多人以为《新概念英语》是从第一册一路写到第四册的，其实真正的核心是第二册。它靠反复、递进的课文来训练句法，重点不在背单词，而在“把句子用顺”。这套方法直到今天依然很有价值。",
+          "pub_date": "2025-12-22T13:20:43+08:00",
+          "updated_at": "2025-12-22T13:20:43+08:00",
+          "author": "syhily@gmail.com (雨帆)",
+          "site_name": "且听书吟",
+          "site_url": "https://yufan.me",
+          "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
         }
       ]
     },
@@ -1475,124 +1475,6 @@
           "site_name": "旺东自留地",
           "site_url": "https://wang618.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/wang618.gif"
-        }
-      ]
-    },
-    {
-      "name": "目的地-Destination",
-      "url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
-      "feed_url": "https://chrison.cn/feed",
-      "posts": [
-        {
-          "title": "今日菜肴：羊排手抓饭",
-          "link": "https://chrison.cn/live/472.html",
-          "description": "新疆羊排手抓饭（正不正宗不重要，好吃就对了）上一次做已经是4年前了~您的浏览器不支持 Video 标签。",
-          "pub_date": "2026-05-23T14:04:00+08:00",
-          "updated_at": "2026-05-23T14:04:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "周日自己做了胡萝卜牛肉包子",
-          "link": "https://chrison.cn/live/464.html",
-          "description": "周日自己做了胡萝卜牛肉包子。本来早上做，中午能吃上的。结果最近几天又上火感冒的，凌晨又挂了中医院的号，早上去看了病，又开了中药。",
-          "pub_date": "2026-04-29T08:41:00+08:00",
-          "updated_at": "2026-04-29T08:41:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "周日去上海约朋友吃饭",
-          "link": "https://chrison.cn/live/454.html",
-          "description": "在上海生活工作了十多年，来到无锡后，一个朋友也没有。所以没事就往上海跑。也挺无奈的。",
-          "pub_date": "2026-04-20T07:05:05+08:00",
-          "updated_at": "2026-04-20T07:05:05+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我也是第一次做甘肃的洋芋裙裙",
-          "link": "https://chrison.cn/live/452.html",
-          "description": "甘肃各地都有不同的做法，不同的名称，我也不知道怎么做。只记得我小时候吃过，抖音搜了也是五花八门。就这样吧，反正挺好吃的~",
-          "pub_date": "2026-04-11T12:53:15+08:00",
-          "updated_at": "2026-04-11T12:53:15+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "测测SBTI",
-          "link": "https://chrison.cn/live/446.html",
-          "description": "倒是很准",
-          "pub_date": "2026-04-10T08:01:00+08:00",
-          "updated_at": "2026-04-10T08:01:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "放假哪儿也没去",
-          "link": "https://chrison.cn/live/442.html",
-          "description": "就是小区周围走了走",
-          "pub_date": "2026-04-07T14:21:42+08:00",
-          "updated_at": "2026-04-07T14:21:42+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "等放假",
-          "link": "https://chrison.cn/live/437.html",
-          "description": "等放假，等下班。可惜朋友和他们公司去旅游了。一个人好无聊啊~",
-          "pub_date": "2026-04-03T16:49:06+08:00",
-          "updated_at": "2026-04-03T16:49:06+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【WordPress插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情",
-          "link": "https://chrison.cn/work/433.html",
-          "description": "Blog Helper 是WordPress 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮下载G...",
-          "pub_date": "2026-03-30T13:11:00+08:00",
-          "updated_at": "2026-03-30T13:11:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我觉得医生有嫌弃我嘴馋的成份",
-          "link": "https://chrison.cn/live/431.html",
-          "description": "医生说如果你晚上5点到7点吃不了晚饭那就不建议晚上再吃了我说我嘴馋就是想吃医生无奈说，是吧，就是馋辛辣刺激少吃，冰的不能喝，带酒精的不能喝，咖啡，茶不能喝，生冷水果少吃~天都塌了！",
-          "pub_date": "2026-03-29T12:04:00+08:00",
-          "updated_at": "2026-03-29T12:04:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【Typecho插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情v1.3.5",
-          "link": "https://chrison.cn/work/379.html",
-          "description": "Blog Helper 是Typecho 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮",
-          "pub_date": "2026-03-22T21:37:00+08:00",
-          "updated_at": "2026-03-22T21:37:00+08:00",
-          "author": "Chrison",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
         }
       ]
     },
@@ -2163,6 +2045,124 @@
       ]
     },
     {
+      "name": "目的地-Destination",
+      "url": "https://chrison.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
+      "feed_url": "https://chrison.cn/feed",
+      "posts": [
+        {
+          "title": "今日菜肴：羊排手抓饭",
+          "link": "https://chrison.cn/live/472.html",
+          "description": "新疆羊排手抓饭（正不正宗不重要，好吃就对了）上一次做已经是4年前了~您的浏览器不支持 Video 标签。",
+          "pub_date": "2026-05-23T14:04:00+08:00",
+          "updated_at": "2026-05-23T14:04:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "周日自己做了胡萝卜牛肉包子",
+          "link": "https://chrison.cn/live/464.html",
+          "description": "周日自己做了胡萝卜牛肉包子。本来早上做，中午能吃上的。结果最近几天又上火感冒的，凌晨又挂了中医院的号，早上去看了病，又开了中药。",
+          "pub_date": "2026-04-29T08:41:00+08:00",
+          "updated_at": "2026-04-29T08:41:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "周日去上海约朋友吃饭",
+          "link": "https://chrison.cn/live/454.html",
+          "description": "在上海生活工作了十多年，来到无锡后，一个朋友也没有。所以没事就往上海跑。也挺无奈的。",
+          "pub_date": "2026-04-20T07:05:05+08:00",
+          "updated_at": "2026-04-20T07:05:05+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "我也是第一次做甘肃的洋芋裙裙",
+          "link": "https://chrison.cn/live/452.html",
+          "description": "甘肃各地都有不同的做法，不同的名称，我也不知道怎么做。只记得我小时候吃过，抖音搜了也是五花八门。就这样吧，反正挺好吃的~",
+          "pub_date": "2026-04-11T12:53:15+08:00",
+          "updated_at": "2026-04-11T12:53:15+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "测测SBTI",
+          "link": "https://chrison.cn/live/446.html",
+          "description": "倒是很准",
+          "pub_date": "2026-04-10T08:01:00+08:00",
+          "updated_at": "2026-04-10T08:01:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "放假哪儿也没去",
+          "link": "https://chrison.cn/live/442.html",
+          "description": "就是小区周围走了走",
+          "pub_date": "2026-04-07T14:21:42+08:00",
+          "updated_at": "2026-04-07T14:21:42+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "等放假",
+          "link": "https://chrison.cn/live/437.html",
+          "description": "等放假，等下班。可惜朋友和他们公司去旅游了。一个人好无聊啊~",
+          "pub_date": "2026-04-03T16:49:06+08:00",
+          "updated_at": "2026-04-03T16:49:06+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "【WordPress插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情",
+          "link": "https://chrison.cn/work/433.html",
+          "description": "Blog Helper 是WordPress 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮下载G...",
+          "pub_date": "2026-03-30T13:11:00+08:00",
+          "updated_at": "2026-03-30T13:11:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "我觉得医生有嫌弃我嘴馋的成份",
+          "link": "https://chrison.cn/live/431.html",
+          "description": "医生说如果你晚上5点到7点吃不了晚饭那就不建议晚上再吃了我说我嘴馋就是想吃医生无奈说，是吧，就是馋辛辣刺激少吃，冰的不能喝，带酒精的不能喝，咖啡，茶不能喝，生冷水果少吃~天都塌了！",
+          "pub_date": "2026-03-29T12:04:00+08:00",
+          "updated_at": "2026-03-29T12:04:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "【Typecho插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情v1.3.5",
+          "link": "https://chrison.cn/work/379.html",
+          "description": "Blog Helper 是Typecho 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。示例见右侧边栏和顶部快捷按钮",
+          "pub_date": "2026-03-22T21:37:00+08:00",
+          "updated_at": "2026-03-22T21:37:00+08:00",
+          "author": "Chrison",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        }
+      ]
+    },
+    {
       "name": "小屁君的吐槽",
       "url": "https://blog.ouxiaopi.com/",
       "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
@@ -2627,6 +2627,113 @@
       ]
     },
     {
+      "name": "Casear的技术栈",
+      "url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png",
+      "feed_url": "https://www.casear.net/feed.xml",
+      "posts": [
+        {
+          "title": "Razer_GRUB_Theme",
+          "link": "https://www.casear.net/post/65",
+          "description": "<h1>Razer_GRUB_Theme</h1>\n<p>Razer粉丝专属GRUB主题</p>\n<p><img alt=\"image.png\" src=\"https://img.casear.net/img/74b7fe812b0763d7aefd560805186519.image.webp\" /></p>",
+          "pub_date": "2026-05-26T17:16:14+08:00",
+          "updated_at": "2026-05-26T17:16:14+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "Fcitx5 输入法配置:切换中文输入法",
+          "link": "https://www.casear.net/post/66",
+          "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<h1>Fcitx5 输入法配置:解决装好后无法切换中文输入法的问题</h1>\n<p>装完 fcitx5 之后,记得要在系统设置里启用它。但这时我们万万没想到——居然切换不了输入法。</p>\n<p>问题出在环境变量上。本文记录配置环境变量让 fcitx5 真正生效的完整过程。</p>\n<hr />\n<h2>1. 设置环境变量</h2>\n<p>需要让系统识别 fcitx 作为输入法模块,有两种常见做法。</p>\n<p>更推荐方法1，WeChat等应用会出现无法切换输入法和输入中午的时候就使用方法1</p>\n<p>在kubuntu Fedora Arch 测试均有效果</p>\n<h3>方式一:写入 <code>/etc/environment</code></h3>\n<p><code>/etc/environment</code> 是<strong>整个系统的环境变量</strong>,在所有进程启动时都会被读取。在文件中加入:</p>\n<pre class=\"hljs\"><code><span class=\"hljs-attr\">GTK_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">QT_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">XMODIFIERS</span>=@im=fcitx\n</code></pre>\n<h3>方式二:写入 <code>~/.profile</code></h3>\n<p><code>~/.profile</code> 是<strong>某用户的环境变量</strong>,启动过程中桌面会话期间由 DisplayManager 自动执行,从文本控制台登录时则由登录 shell 自动执行。如果这个文件不存在,自己新建一个即可。</p>\n<pre class=\"hljs\"><code><span class=\"hljs-built_in\">export</span> GTK_IM_MODULE=fcitx\n<span class=\"hljs-built_in\">export</span> QT_IM_MODULE=fcitx\n<span class=\"hljs-built_in\">export</span> XMODIFIERS=@im=fcitx\n</code></pre>\n<blockquote>\n<p>注意:虽然 fcitx5 是新版本,但环境变量的值仍然写 <code>fcitx</code>,而不是 <code>fcitx5</code>。这是 fcitx5 官方的兼容设计。</p>\n</blockquote>\n<p>还可以写入其它配置文件(如 <code>~/.xprofile</code>、<code>~/.bash_profile</code> 等),不一一举例了。要注意有些配置文件在某些登录场景下可能不会被加载,所以不一定起作用。</p>\n<hr />\n<h2>2. 查看环境变量是否生效</h2>\n<p>在终端运行:</p>\n<pre class=\"hljs\"><code><span class=\"hljs-built_in\">export</span>\n</code></pre>\n<p>如果输出里<strong>没有</strong>以下变量,说明配置还未生效:</p>\n<pre class=\"hljs\"><code><span class=\"hljs-attr\">GTK_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">QT_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">XMODIFIERS</span>=@im=fcitx\n</code></pre>\n<p>这是因为 <code>/etc/environment</code> 和 <code>~/.profile</code> 都是在登录时由系统加载的,改完之后当前会话并不会立即应用。</p>\n<hr />\n<h2>3. 注销并重新登录</h2>\n<p>注销重新登录,系统就会重新加载配置文件。之后再在终端执行 <code>export</code>,就能看到上面那三个变量了——说明配置生效。</p>\n<p>此时回到任何文本输入框,就会发现可以正常切换中文输入法了。</p>\n<p>如果有需要,可以在 fcitx5 配置里添加对应的输入法引擎(如拼音、五笔等),不过装好后通常已经自动添加了默认输入法。</p>\n<hr />\n<h2>参考资料</h2>\n<ul>\n<li><a href=\"https://fcitx-im.org/wiki/Setup_Fcitx_5\">Setup Fcitx 5 — Fcitx 官方文档</a></li>\n<li><a href=\"https://fcitx-im.org/wiki/Input_method_related_environment_variables\">Input method related environment variables — Fcitx 官方文档</a></li>\n</ul>\n<!-- more -->\n</div>",
+          "pub_date": "2026-05-26T17:15:47+08:00",
+          "updated_at": "2026-05-26T17:15:47+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "zsh 环境配置",
+          "link": "https://www.casear.net/post/64",
+          "description": "<h1>服务器 zsh 环境配置记录：Zim + p10k + eza + zoxide</h1>\n<p>记录从零搭建服务器 zsh 环境的过程，包含踩过的坑。配置已整理成 dotfiles 仓库，新服务器一键部署。</p>\n<p><strong>环境</strong>：Ubuntu 24.04 / Debian 12，zsh + Zim 框架</p>\n<p><strong>最终工具栈</strong>：</p>\n<table>\n<thead>\n<tr>\n<th>工具</th>\n<th>作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Zim</td>\n<td>zsh 框架，比 oh-my-zsh 轻，启动快</td>\n</tr>\n<tr>\n<td>Powerlevel10k</td>\n<td>提示符主题</td>\n</tr>\n<tr>\n<td>eza</td>\n<td>带图标的 ls 替代，支持 git 状态列</td>\n</tr>\n<tr>\n<td>zoxide</td>\n<td>智能目录跳转，记住历史，<code>z 关键词</code> 直达</td>\n</tr>\n<tr>\n<td>fzf</td>\n<td>模糊查找，<code>Ctrl+R</code> 历史搜索、<code>Ctrl+T</code> 文件选择</td>\n</tr>\n<tr>\n<td>bat</td>\n<td>带语法高亮的 cat（Debian/Ubuntu 上命令名为 batcat）</td>\n</tr>\n</tbody>\n</table>\n<hr />",
+          "pub_date": "2026-05-17T13:15:25+08:00",
+          "updated_at": "2026-05-17T13:15:25+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "# ThinkPad T490s Linux 指纹模块启用指南（KDE / Kubuntu）",
+          "link": "https://www.casear.net/post/63",
+          "description": "<h1>ThinkPad T490s Linux 指纹模块启用指南（KDE / Kubuntu）</h1>\n<blockquote>\n<p>设备：ThinkPad T490s<br />\n系统：Kubuntu / Ubuntu KDE / 其他 Linux<br />\n桌面环境：KDE Plasma<br />\n功能目标：启用指纹登录、sudo 指纹验证、锁屏解锁</p>\n</blockquote>\n<hr />\n<h1>一、确认指纹模块是否可用</h1>\n<p>安装指纹组件：</p>\n<pre class=\"hljs\"><code>sudo apt update\nsudo apt install -y fprintd libpam-fprintd\n</code></pre>\n<p>录入指纹：</p>\n<pre class=\"hljs\"><code>fprintd-enroll\n</code></pre>\n<p>根据提示多次按压手指。</p>\n<p>验证指纹：</p>\n<pre class=\"hljs\"><code>fprintd-verify\n</code></pre>\n<p>如果显示：</p>\n<pre class=\"hljs\"><code>Verify result: verify-match\n</code></pre>\n<p>说明设备已正常工作。</p>\n<hr />\n<h1>二、启用 sudo 指纹认证</h1>\n<p>执行：</p>\n<pre class=\"hljs\"><code>sudo pam-auth-update\n</code></pre>\n<p>在弹出的界面中勾选：</p>\n<pre class=\"hljs\"><code>Fingerprint authentication\n</code></pre>\n<p>保存退出。</p>\n<p>测试：</p>\n<pre class=\"hljs\"><code>sudo <span class=\"hljs-built_in\">ls</span> /\n</code></pre>\n<p>提示认证时按压指纹即可。</p>\n<hr />\n<h1>三、启用登录界面指纹</h1>\n<p>KDE 默认登录管理器为 SDDM。</p>\n<p>检查当前登录管理器：</p>\n<pre class=\"hljs\"><code><span class=\"hljs-built_in\">cat</span> /etc/X11/default-display-manager\n</code></pre>\n<p>若输出：</p>\n<pre class=\"hljs\"><code>/usr/bin/sddm\n</code></pre>\n<p>说明使用的是 KDE 默认登录器。</p>\n<p>然后注销系统，在登录界面测试指纹登录。</p>\n<hr />\n<h1>四、启用锁屏指纹解锁</h1>\n<p>锁屏快捷键：</p>\n<pre class=\"hljs\"><code>Win + L\n</code></pre>\n<p>锁屏后尝试按压指纹。</p>\n<p>若部分系统未启用，可安装：</p>\n<pre class=\"hljs\"><code>sudo apt install -y kscreenlocker\n</code></pre>\n<hr />\n<h1>五、常见问题修复</h1>\n<h2>1. 指纹服务异常</h2>\n<pre class=\"hljs\"><code>systemctl restart fprintd\n</code></pre>\n<h2>2. 删除并重新录入指纹</h2>\n<pre class=\"hljs\"><code>fprintd-delete <span class=\"hljs-variable\">$USER</span>\nfprintd-enroll\n</code></pre>\n<h2>3. 查看已录入指纹</h2>\n<pre class=\"hljs\"><code>fprintd-list <span class=\"hljs-variable\">$USER</span>\n</code></pre>\n<hr />\n<h1>六、安全建议</h1>\n<p>建议保留密码登录作为备用方案：</p>\n<ul>\n<li>指纹识别失败时可回退密码</li>\n<li>更新系统后可避免 PAM 配置异常</li>\n<li>首次启动部分场景仍需密码</li>\n</ul>\n<hr />\n<h1>七、最终效果</h1>\n<p>启用后可实现：</p>\n<ul>\n<li>系统登录使用指纹</li>\n<li>sudo 提权使用指纹</li>\n<li>锁屏解锁使用指纹</li>\n</ul>\n<hr />\n<h1>八、适用机型说明</h1>\n<p>ThinkPad T490s 大多数指纹模块在 Linux 下兼容良好，尤其 Synaptics 型号支持度较高。</p>\n<hr />\n<h1>九、一键安装命令</h1>\n<pre class=\"hljs\"><code>sudo apt update &amp;&amp; sudo apt install -y fprintd libpam-fprintd\n</code></pre>\n<hr />\n<h1>十、指纹认证的理论知识</h1>\n<h2>1. Linux 指纹认证的工作原理</h2>\n<p>在 Linux 系统中，指纹识别通常由以下几个组件协同完成：</p>\n<h3>硬件层</h3>\n<p>即笔记本内置的指纹传感器，例如：</p>\n<ul>\n<li>Synaptics</li>\n<li>Goodix</li>\n<li>Validity</li>\n</ul>\n<p>负责采集指纹图像或生物特征数据。</p>\n<h3>驱动层</h3>\n<p>Linux 内核负责识别 USB / SPI 指纹设备，并提供设备访问接口。</p>\n<h3>用户空间服务层</h3>\n<p>常见组件：</p>\n<ul>\n<li>fprintd</li>\n<li>libfprint</li>\n</ul>\n<p>作用：</p>\n<ul>\n<li>管理指纹设备</li>\n<li>录入指纹模板</li>\n<li>执行比对验证</li>\n</ul>\n<h3>认证层（PAM）</h3>\n<p>Linux 登录认证通常通过 PAM（Pluggable Authentication Modules）实现。</p>\n<p>当启用指纹后，PAM 会调用：</p>\n<p>pam_fprintd.so</p>\n<p>从而在登录、sudo、锁屏时加入指纹验证流程。</p>\n<hr />\n<h2>2. 指纹录入并不是保存图片</h2>\n<p>很多人误以为系统保存了一张指纹照片，实际并不是。</p>\n<p>系统通常保存的是：</p>\n<ul>\n<li>特征点</li>\n<li>纹路方向</li>\n<li>局部结构信息</li>\n<li>加密后的模板数据</li>\n</ul>\n<p>这类数据用于匹配，不可直接还原完整指纹图像。</p>\n<hr />\n<h2>3. 为什么录入时要按压多次</h2>\n<p>因为系统需要采集多个角度和区域：</p>\n<ul>\n<li>手指偏左</li>\n<li>偏右</li>\n<li>角度倾斜</li>\n<li>压力变化</li>\n<li>局部遮挡情况</li>\n</ul>\n<p>这样能提高后续识别成功率。</p>\n<hr />\n<h2>4. 指纹认证的优缺点</h2>\n<h3>优点</h3>\n<ul>\n<li>登录速度快</li>\n<li>日常 sudo 更方便</li>\n<li>不必频繁输入密码</li>\n<li>移动办公体验更好</li>\n</ul>\n<h3>缺点</h3>\n<ul>\n<li>湿手、脏手识别率下降</li>\n<li>手指出汗会影响成功率</li>\n<li>无法远程使用</li>\n<li>高安全场景仍需密码</li>\n</ul>\n<hr />\n<h2>5. 为什么仍然建议保留密码</h2>\n<p>密码是“知识因子”，指纹是“生物因子”。</p>\n<p>两者组合更安全：</p>\n<ul>\n<li>指纹用于高频便捷操作</li>\n<li>密码用于兜底恢复</li>\n<li>加密磁盘仍建议使用密码</li>\n</ul>\n<hr />\n<h2>6. ThinkPad 指纹模块为何兼容性较好</h2>\n<p>ThinkPad 商务系列长期面向企业市场，硬件标准化程度高，Linux 社区适配较积极，因此在 Linux 下兼容性通常优于很多消费级机型。</p>\n<hr />\n<h2>7. 实际使用建议</h2>\n<p>推荐模式：</p>\n<ul>\n<li>开机登录：密码 / 指纹均可</li>\n<li>锁屏解锁：优先指纹</li>\n<li>sudo 提权：优先指纹</li>\n<li>磁盘加密：强密码</li>\n</ul>\n<p>这样兼顾效率与安全。</p>\n<hr />\n<h2>总结</h2>\n<p>指纹认证本质上是提升“本地使用效率”的认证方式。<br />\n它不是密码的替代品，而是密码体系的补充。</p>",
+          "pub_date": "2026-04-28T01:35:39+08:00",
+          "updated_at": "2026-04-28T01:35:39+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "vanblog使用picgo图床的完整部署教程",
+          "link": "https://www.casear.net/post/61",
+          "description": "<h1>图床是什么？</h1>\n<p>图床你可以理解为一个个人云盘 ，你可以将你的图片、视频等进行上传，在云端保存。同时，图床也会为你生成一个网址，通过这个网址，所有人都可以直接查看你的图片、视频等媒体素材。</p>\n<h1>vanblog提供的图床配置页面</h1>\n<p>其实官方vanblog已经说的很明白如何进行配置了，不过这里更详细的做一下教程，目的是为了方便小白快速上手！</p>\n<p>进入vanblog后台-站点管理-系统设置-图床设置，将存储策略从本地改成OSS图床（建议各位先到下面扫描一下文章中的图片并存储在本地图床中，然后再把本地图床的图片导出做个备份）。</p>",
+          "pub_date": "2026-03-10T16:13:27+08:00",
+          "updated_at": "2026-03-10T16:13:27+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "vanblog备份恢复评论数据",
+          "link": "https://www.casear.net/post/60",
+          "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<h1>1. 导出 waline 评论数据库</h1>\n<p>在宿主机执行：</p>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">exec</span> vanblog-mongo-1 mongodump -d waline -o /data/backup\n</code></pre>\n<p>说明：</p>\n<table>\n<thead>\n<tr>\n<th>参数</th>\n<th>含义</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-d waline</td>\n<td>只导出评论数据库</td>\n</tr>\n<tr>\n<td>-o /data/backup</td>\n<td>导出到容器里的目录</td>\n</tr>\n</tbody>\n</table>\n<p>执行后容器内会生成：</p>\n<pre class=\"hljs\"><code>/data/backup/waline\n</code></pre>\n<p>里面通常是：</p>\n<pre class=\"hljs\"><code>Users.bson\nUsers.metadata.json\n</code></pre>\n<p>如果以后有评论，还会有：</p>\n<pre class=\"hljs\"><code>Comment.bson\nCounter.bson\n</code></pre>\n<h1>2. 把备份复制到服务器</h1>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">cp</span> vanblog-mongo-1:/data/backup ./waline-backup\n</code></pre>\n<p>备份出来的目录结构应该是这样：</p>\n<pre class=\"hljs\"><code>/waline-backup/\n└── waline\n    ├── Comment.bson\n    ├── Comment.metadata.json\n    ├── Users.bson\n    └── Users.metadata.json\n</code></pre>\n<h1>3. （可选）打包备份</h1>\n<p>建议压缩一下：</p>\n<pre class=\"hljs\"><code>tar -czvf waline-backup.tar.gz waline-backup\n</code></pre>\n<h1>4. 恢复评论数据的方法</h1>\n<h3>导入数据到服务器：</h3>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">cp</span> /home/ubuntu/waline-backup/waline vanblog-mongo-1:/data/waline\n\n</code></pre>\n<p>如果是在 Docker：</p>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">exec</span> -i vanblog-mongo-1 mongorestore -d waline --drop /data/backup/waline\n\n</code></pre>\n<h2>执行恢复</h2>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">exec</span> -it vanblog-mongo-1 mongorestore -d waline --drop /data/waline\n\n</code></pre>\n<p>参数说明：</p>\n<p>|参数\t       |作用|</p>\n<table>\n<thead>\n<tr>\n<th>-d waline</th>\n<th>恢复到 waline 数据库</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>--drop\t先删除旧</td>\n<td>collection 再恢复</td>\n</tr>\n<tr>\n<td>/data/waline</td>\n<td>备份目录</td>\n</tr>\n</tbody>\n</table>\n<h2>验证恢复</h2>\n<p>进入 Mongo：</p>\n<pre class=\"hljs\"><code>docker exec -it vanblog-mongo-1 mongo\n</code></pre>\n<p>然后：</p>\n<pre class=\"hljs\"><code>use waline\nshow collections\n</code></pre>\n<p>应该看到：</p>\n<pre class=\"hljs\"><code>Comment\nUsers\n</code></pre>\n<p>再检查评论数量：</p>\n<pre class=\"hljs\"><code>db.Comment.count()\n</code></pre>\n<p>如果返回评论数量 说明恢复成功。</p>\n<!-- more -->\n</div>",
+          "pub_date": "2026-03-08T21:50:11+08:00",
+          "updated_at": "2026-03-08T21:50:11+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "如何配置一个虚拟显示器，以便远程没有显示器的系统",
+          "link": "https://www.casear.net/post/52",
+          "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<p>原项目：https://github.com/roshkins/IddSampleDriver</p>\n<p>编译好的下载：https://github.com/ge9/IddSampleDriver/releases</p>\n<p>另一个编译好的下载：https://github.com/itsmikethetech/Virtual-Display-Driver/releases</p>\n<p>1、将下载好的压缩包，内容解压放置到 C:\\IddSampleDriver 文件夹下，必须是这个目录，因为代码里写死了。</p>\n<p>2、先使用管理员身份运行脚本 C:\\IddSampleDriver\\installCert.bat 添加驱动证书到系统。</p>\n<p>3、再打开 C:\\IddSampleDriver\\option.txt 文件修改其内容。</p>\n<p>下方列出了很多分辨率与帧率的模式，请根据需要保留一个或几个</p>\n<p>第一行的数字代表默认使用哪一个</p>\n<p>比如最终文件内容可以是：</p>\n<p>1<br />\n1920, 1080, 60<br />\n4、在设备管理器中，添加过时硬件，手动选择驱动，选择显示适配器，从磁盘安装，找到 iddsampledriver.inf 选择安装即可。</p>\n<p>5、安装完成即可获得一个不能直接看到的显示器，如需删除，手动在设备管理器中删除即可。</p>\n<!-- more -->\n</div>",
+          "pub_date": "2026-01-26T20:47:55+08:00",
+          "updated_at": "2026-01-26T20:47:55+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "解决 OpenConnect VPN 由于 JScript 引擎丢失导致的 Error 1 修复",
+          "link": "https://www.casear.net/post/59",
+          "description": "<h2>解决 OpenConnect VPN 由于 JScript 引擎丢失导致的 Error 1 深度修复</h2>\n<p>最近在个人环境遇到一个非常棘手的问题。在使用 OpenConnect VPN 连接时，明明已经通过了账号密码认证，但最后一步配置路由时总是弹出：<code>Script 'vpnc-script.js' returned error 1</code>。</p>",
+          "pub_date": "2026-01-17T18:42:59+08:00",
+          "updated_at": "2026-01-17T18:42:59+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        },
+        {
+          "title": "Fuck 2025",
+          "link": "https://www.casear.net/post/58",
+          "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<ul>\n<li>\n<h1>1-5月 休息 打游戏</h1>\n<p>一到五月可以说是在自我麻痹，以为在当时还有在做GTA服务器，又在筹备考试，分身乏术</p>\n</li>\n<li>\n<h1>6-7月 驾驶证 毕业 退租</h1>\n<p>休息完了，也临近毕业季，着手开始科二，回老家一个月终于把驾照拿下来了，然后就是马不停蹄的毕业，但是我当时对毕业没什么感觉，大部分的同学关系都一般，只是和专业课老师吃了顿饭，就当是结束了。退租的事情不是很愉快，最后草草收拾了一下就离开了，大部分电子设备也留在了内蒙</p>\n</li>\n<li>\n<h1>7-8月 北京 老毛 麻痹自己</h1>\n<p>退租前就有目标去北京找朋友一起，关系很不错，我们说着要打一万场沙二，在北京的那一个月大部分时间都很开心，除了想着找工作的时候</p>\n</li>\n<li>\n<h1>8-9月 老家 等人 乌兰浩特</h1>\n<p>朋友回了日本，我也先回了老家，一是想开车玩玩，二是等等朋友退伍，这一等就是一个月........，后来一起去了乌兰浩特，这个地方真是诡异，标准的发展停滞姿态，还有精神小伙，遂跑路，当时也没地方去，就近就选择了长春</p>\n</li>\n<li>\n<h1>9-12月 长春 找工作 租房 麻木</h1>\n<p>长春这个地方更是该死，fxxk you 中介，fxxk you 信号塔贷款，and especially fxxk you 盒饭。一个地方怎么可以这么诡异，这里是美食荒漠吗，全是盒饭和麻辣烫。</p>\n<p>再说找工作，为了不回老家我已经在电脑城上班了，我初中的时候就在装系统，没想到毕业了还在装系统，年后一定得换个工作了，一度上班到崩溃，已经想要买个二手车到处转了</p>\n</li>\n<li>\n<p>12 Heartbroken</p>\n</li>\n</ul>\n<!-- more -->\n</div>",
+          "pub_date": "2026-01-04T14:34:29+08:00",
+          "updated_at": "2026-01-04T14:34:29+08:00",
+          "author": "casearx@foxmail.com (Casear)",
+          "site_name": "Casear的技术栈",
+          "site_url": "https://www.casear.net",
+          "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+        }
+      ]
+    },
+    {
       "name": "木木木木木",
       "url": "https://immmmm.com/",
       "avatar": "https://cdn.xiaoten.com/friends/immmmm.png",
@@ -2702,102 +2809,6 @@
           "site_name": "枋柚梓",
           "site_url": "https://inkss.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        }
-      ]
-    },
-    {
-      "name": "Jack's Space",
-      "url": "https://veryjack.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp",
-      "feed_url": "https://veryjack.com/feed",
-      "posts": [
-        {
-          "title": "是时候，走出象牙塔了",
-          "link": "https://veryjack.com/life/step_out_of_comfort_zone/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6803 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/03/cover_comfort_zone-1024x576.webp\" width=\"1024\" /><p>博客已经有很长一段时间没有更新了。这段时间，我正处于人生的十字路口，内心充满了迷茫与焦虑。我不清楚是该拿着手里的一把烂牌继续为所谓的理想死磕，还是该妥协让步，换一条赛道。在纠结了一个多月后，我终于做出决定：迈入人生的下一阶段，走出这个我待了十多年的“象牙塔”。</p>\n<p><a href=\"https://veryjack.com/life/step_out_of_comfort_zone/\">是时候，走出象牙塔了</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2026-03-28T11:01:42+08:00",
-          "updated_at": "2026-03-28T11:01:42+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "一款自用三年的“小众”记账 App —— Cookie 记账",
-          "link": "https://veryjack.com/technique/cookie/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6783 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/02/cover_cookie-1024x576.webp\" width=\"1024\" /><p>1099 天，3324 笔记账，这是我使用 「Cookie 记账」这款 App 以来的数据。在此之前，我用过的记账软件没有一个能撑过一个月——要么操作太复杂，要么界面太花哨，或是隐私安全不够有保障。<br />\n趁着过年期间这款 App 推出了打折活动，跟大家分享一下我推荐它的理由。</p>\n<p><a href=\"https://veryjack.com/technique/cookie/\">一款自用三年的“小众”记账 App —— Cookie 记账</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2026-02-19T14:54:27+08:00",
-          "updated_at": "2026-02-19T14:54:27+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "7 刀 VPS 照样玩转 Clawdbot (Moltbot)",
-          "link": "https://veryjack.com/technique/clawdbot_moltbot/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6750 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_clawd-1024x576.webp\" width=\"1024\" /><p>虽然 clawdbot 听上去很高大上，但配置其实非常简单。我使用一台年费不到 7 刀、配置相当“辣鸡”的 VPS（仅 1 vCPU, 2G RAM）也能部署成功。这篇文章就来分享一下这个极简的部署教程。</p>\n<p><a href=\"https://veryjack.com/technique/clawdbot_moltbot/\">7 刀 VPS 照样玩转 Clawdbot (Moltbot)</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2026-01-28T15:16:52+08:00",
-          "updated_at": "2026-01-28T15:16:52+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "COC 跑团初体验",
-          "link": "https://veryjack.com/life/coc_trpg/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6735 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_coc-1024x576.webp\" width=\"1024\" /><p>上周末，我和几位好友相约桌游店，终于体验了那场“传说中”的 COC 跑团。<br />\n在主持人的引导下，我们凭借“对话”与“想象力”，共同完成了一段既惊心动魄又带点“莫名其妙”的角色扮演冒险。今天，想和大家分享一下我的跑团初体验。</p>\n<p><a href=\"https://veryjack.com/life/coc_trpg/\">COC 跑团初体验</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2026-01-25T12:42:31+08:00",
-          "updated_at": "2026-01-25T12:42:31+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "AI翻译这么强，我为什么还在学英语？",
-          "link": "https://veryjack.com/study/how_to_learn_english_with_ai/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6722 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_ai_learning_english-1024x576.webp\" width=\"1024\" /><p>AI 发展日新月异，一夜之间，同声传译的工作似乎快被 AI 所取代。与此同时，我也开始思考，随着 AI 翻译越来越好用，英文学习是否已经成为过去式？我们多年的心血是否打了水漂？</p>\n<p><a href=\"https://veryjack.com/study/how_to_learn_english_with_ai/\">AI翻译这么强，我为什么还在学英语？</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2026-01-13T11:00:00+08:00",
-          "updated_at": "2026-01-13T11:00:00+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "哪怕没人看，也要给毛孩子开个账号",
-          "link": "https://veryjack.com/life/media_for_pets/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6715 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_media_for_pets-1024x576.webp\" width=\"1024\" /><p>有一天，我打开了小红书的小号，那是一个曾经为“咪咪”开设的账号。原本打算记录一下咪咪可爱的瞬间，但当时觉得日子还长，总以为那些平凡的生活场景还会反复出现。因为自己“懒”，也因为总觉得内容“太过琐碎，不值一提”，最后只留下了零星的 6 条笔记。随着咪咪病逝，账号也不再更新，日期永远停留在了 2023-11-25。这个停更的账号，就像是咪咪的数字墓碑，安静地提醒我：那些被我的懒惰挥霍掉的、再也回不去的日常，才是最珍贵的回忆。</p>\n<p><a href=\"https://veryjack.com/life/media_for_pets/\">哪怕没人看，也要给毛孩子开个账号</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2026-01-06T16:16:48+08:00",
-          "updated_at": "2026-01-06T16:16:48+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "注册美区 Apple ID 越来越难，不到 48 小时就“翻车”",
-          "link": "https://veryjack.com/technique/apple_id_register/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6683 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_apple_id-1024x576.webp\" width=\"1024\" /><p>前段时间，关于注册美区 Apple ID 的话题又火了起来。作为一名使用了多年美区账号的老用户，我本着求真务实的态度，决定亲自验证一下当下注册美区 ID 的可行性。虽然借助安卓 Apple Music 顺利注册成功，但正当我文章写到一半时，一件意想不到的事情发生了 -- 我刚刚注册成功的账号不到 48 小时就“喜提”封号。于是我决定放弃原本侧重“教学”的内容，改为分享这次翻车经历，希望能给想要注册美区 Apple ID 的朋友们提供一点参考。</p>\n<p><a href=\"https://veryjack.com/technique/apple_id_register/\">注册美区 Apple ID 越来越难，不到 48 小时就“翻车”</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-12-31T16:47:26+08:00",
-          "updated_at": "2025-12-31T16:47:26+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
-        },
-        {
-          "title": "2025 年度幸福感好物分享",
-          "link": "https://veryjack.com/life/happiness_bringing_items_2025/",
-          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6661 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/12/cover_2025_happiness_thing-1024x576.webp\" width=\"1024\" /><p>2025 年的余额只剩下半月，又进入了大家喜闻乐见的回顾与总结阶段。回顾过去这一年，究竟有哪些产品和服务给人留下深刻印象，切切实实地提升了幸福感呢？打开电脑，翻阅手机，我从 2025 年的数字足迹中，挑选出了我的答案，想在这里分享给各位。</p>\n<p><a href=\"https://veryjack.com/life/happiness_bringing_items_2025/\">2025 年度幸福感好物分享</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
-          "pub_date": "2025-12-15T15:35:28+08:00",
-          "updated_at": "2025-12-15T15:35:28+08:00",
-          "author": "阿杰 Jack",
-          "site_name": "Jack's Space",
-          "site_url": "https://veryjack.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
         }
       ]
     },
@@ -2916,6 +2927,102 @@
           "site_name": "云心怀鹤",
           "site_url": "https://bluehe.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
+        }
+      ]
+    },
+    {
+      "name": "Jack's Space",
+      "url": "https://veryjack.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp",
+      "feed_url": "https://veryjack.com/feed",
+      "posts": [
+        {
+          "title": "是时候，走出象牙塔了",
+          "link": "https://veryjack.com/life/step_out_of_comfort_zone/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6803 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/03/cover_comfort_zone-1024x576.webp\" width=\"1024\" /><p>博客已经有很长一段时间没有更新了。这段时间，我正处于人生的十字路口，内心充满了迷茫与焦虑。我不清楚是该拿着手里的一把烂牌继续为所谓的理想死磕，还是该妥协让步，换一条赛道。在纠结了一个多月后，我终于做出决定：迈入人生的下一阶段，走出这个我待了十多年的“象牙塔”。</p>\n<p><a href=\"https://veryjack.com/life/step_out_of_comfort_zone/\">是时候，走出象牙塔了</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2026-03-28T11:01:42+08:00",
+          "updated_at": "2026-03-28T11:01:42+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "一款自用三年的“小众”记账 App —— Cookie 记账",
+          "link": "https://veryjack.com/technique/cookie/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6783 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/02/cover_cookie-1024x576.webp\" width=\"1024\" /><p>1099 天，3324 笔记账，这是我使用 「Cookie 记账」这款 App 以来的数据。在此之前，我用过的记账软件没有一个能撑过一个月——要么操作太复杂，要么界面太花哨，或是隐私安全不够有保障。<br />\n趁着过年期间这款 App 推出了打折活动，跟大家分享一下我推荐它的理由。</p>\n<p><a href=\"https://veryjack.com/technique/cookie/\">一款自用三年的“小众”记账 App —— Cookie 记账</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2026-02-19T14:54:27+08:00",
+          "updated_at": "2026-02-19T14:54:27+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "7 刀 VPS 照样玩转 Clawdbot (Moltbot)",
+          "link": "https://veryjack.com/technique/clawdbot_moltbot/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6750 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_clawd-1024x576.webp\" width=\"1024\" /><p>虽然 clawdbot 听上去很高大上，但配置其实非常简单。我使用一台年费不到 7 刀、配置相当“辣鸡”的 VPS（仅 1 vCPU, 2G RAM）也能部署成功。这篇文章就来分享一下这个极简的部署教程。</p>\n<p><a href=\"https://veryjack.com/technique/clawdbot_moltbot/\">7 刀 VPS 照样玩转 Clawdbot (Moltbot)</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2026-01-28T15:16:52+08:00",
+          "updated_at": "2026-01-28T15:16:52+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "COC 跑团初体验",
+          "link": "https://veryjack.com/life/coc_trpg/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6735 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_coc-1024x576.webp\" width=\"1024\" /><p>上周末，我和几位好友相约桌游店，终于体验了那场“传说中”的 COC 跑团。<br />\n在主持人的引导下，我们凭借“对话”与“想象力”，共同完成了一段既惊心动魄又带点“莫名其妙”的角色扮演冒险。今天，想和大家分享一下我的跑团初体验。</p>\n<p><a href=\"https://veryjack.com/life/coc_trpg/\">COC 跑团初体验</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2026-01-25T12:42:31+08:00",
+          "updated_at": "2026-01-25T12:42:31+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "AI翻译这么强，我为什么还在学英语？",
+          "link": "https://veryjack.com/study/how_to_learn_english_with_ai/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6722 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_ai_learning_english-1024x576.webp\" width=\"1024\" /><p>AI 发展日新月异，一夜之间，同声传译的工作似乎快被 AI 所取代。与此同时，我也开始思考，随着 AI 翻译越来越好用，英文学习是否已经成为过去式？我们多年的心血是否打了水漂？</p>\n<p><a href=\"https://veryjack.com/study/how_to_learn_english_with_ai/\">AI翻译这么强，我为什么还在学英语？</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2026-01-13T11:00:00+08:00",
+          "updated_at": "2026-01-13T11:00:00+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "哪怕没人看，也要给毛孩子开个账号",
+          "link": "https://veryjack.com/life/media_for_pets/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6715 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_media_for_pets-1024x576.webp\" width=\"1024\" /><p>有一天，我打开了小红书的小号，那是一个曾经为“咪咪”开设的账号。原本打算记录一下咪咪可爱的瞬间，但当时觉得日子还长，总以为那些平凡的生活场景还会反复出现。因为自己“懒”，也因为总觉得内容“太过琐碎，不值一提”，最后只留下了零星的 6 条笔记。随着咪咪病逝，账号也不再更新，日期永远停留在了 2023-11-25。这个停更的账号，就像是咪咪的数字墓碑，安静地提醒我：那些被我的懒惰挥霍掉的、再也回不去的日常，才是最珍贵的回忆。</p>\n<p><a href=\"https://veryjack.com/life/media_for_pets/\">哪怕没人看，也要给毛孩子开个账号</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2026-01-06T16:16:48+08:00",
+          "updated_at": "2026-01-06T16:16:48+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "注册美区 Apple ID 越来越难，不到 48 小时就“翻车”",
+          "link": "https://veryjack.com/technique/apple_id_register/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6683 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2026/01/cover_apple_id-1024x576.webp\" width=\"1024\" /><p>前段时间，关于注册美区 Apple ID 的话题又火了起来。作为一名使用了多年美区账号的老用户，我本着求真务实的态度，决定亲自验证一下当下注册美区 ID 的可行性。虽然借助安卓 Apple Music 顺利注册成功，但正当我文章写到一半时，一件意想不到的事情发生了 -- 我刚刚注册成功的账号不到 48 小时就“喜提”封号。于是我决定放弃原本侧重“教学”的内容，改为分享这次翻车经历，希望能给想要注册美区 Apple ID 的朋友们提供一点参考。</p>\n<p><a href=\"https://veryjack.com/technique/apple_id_register/\">注册美区 Apple ID 越来越难，不到 48 小时就“翻车”</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-12-31T16:47:26+08:00",
+          "updated_at": "2025-12-31T16:47:26+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
+        },
+        {
+          "title": "2025 年度幸福感好物分享",
+          "link": "https://veryjack.com/life/happiness_bringing_items_2025/",
+          "description": "<img alt=\"\" class=\"attachment-large size-large wp-image-6661 wp-post-image\" height=\"576\" src=\"https://veryjack.com/wp-content/uploads/2025/12/cover_2025_happiness_thing-1024x576.webp\" width=\"1024\" /><p>2025 年的余额只剩下半月，又进入了大家喜闻乐见的回顾与总结阶段。回顾过去这一年，究竟有哪些产品和服务给人留下深刻印象，切切实实地提升了幸福感呢？打开电脑，翻阅手机，我从 2025 年的数字足迹中，挑选出了我的答案，想在这里分享给各位。</p>\n<p><a href=\"https://veryjack.com/life/happiness_bringing_items_2025/\">2025 年度幸福感好物分享</a>最先出现在<a href=\"https://veryjack.com\">Jack&#039;s Space</a>。</p>",
+          "pub_date": "2025-12-15T15:35:28+08:00",
+          "updated_at": "2025-12-15T15:35:28+08:00",
+          "author": "阿杰 Jack",
+          "site_name": "Jack's Space",
+          "site_url": "https://veryjack.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/veryjack.webp"
         }
       ]
     },
@@ -3592,6 +3699,28 @@
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
     },
     {
+      "title": "Razer_GRUB_Theme",
+      "link": "https://www.casear.net/post/65",
+      "description": "<h1>Razer_GRUB_Theme</h1>\n<p>Razer粉丝专属GRUB主题</p>\n<p><img alt=\"image.png\" src=\"https://img.casear.net/img/74b7fe812b0763d7aefd560805186519.image.webp\" /></p>",
+      "pub_date": "2026-05-26T17:16:14+08:00",
+      "updated_at": "2026-05-26T17:16:14+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+    },
+    {
+      "title": "Fcitx5 输入法配置:切换中文输入法",
+      "link": "https://www.casear.net/post/66",
+      "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<h1>Fcitx5 输入法配置:解决装好后无法切换中文输入法的问题</h1>\n<p>装完 fcitx5 之后,记得要在系统设置里启用它。但这时我们万万没想到——居然切换不了输入法。</p>\n<p>问题出在环境变量上。本文记录配置环境变量让 fcitx5 真正生效的完整过程。</p>\n<hr />\n<h2>1. 设置环境变量</h2>\n<p>需要让系统识别 fcitx 作为输入法模块,有两种常见做法。</p>\n<p>更推荐方法1，WeChat等应用会出现无法切换输入法和输入中午的时候就使用方法1</p>\n<p>在kubuntu Fedora Arch 测试均有效果</p>\n<h3>方式一:写入 <code>/etc/environment</code></h3>\n<p><code>/etc/environment</code> 是<strong>整个系统的环境变量</strong>,在所有进程启动时都会被读取。在文件中加入:</p>\n<pre class=\"hljs\"><code><span class=\"hljs-attr\">GTK_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">QT_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">XMODIFIERS</span>=@im=fcitx\n</code></pre>\n<h3>方式二:写入 <code>~/.profile</code></h3>\n<p><code>~/.profile</code> 是<strong>某用户的环境变量</strong>,启动过程中桌面会话期间由 DisplayManager 自动执行,从文本控制台登录时则由登录 shell 自动执行。如果这个文件不存在,自己新建一个即可。</p>\n<pre class=\"hljs\"><code><span class=\"hljs-built_in\">export</span> GTK_IM_MODULE=fcitx\n<span class=\"hljs-built_in\">export</span> QT_IM_MODULE=fcitx\n<span class=\"hljs-built_in\">export</span> XMODIFIERS=@im=fcitx\n</code></pre>\n<blockquote>\n<p>注意:虽然 fcitx5 是新版本,但环境变量的值仍然写 <code>fcitx</code>,而不是 <code>fcitx5</code>。这是 fcitx5 官方的兼容设计。</p>\n</blockquote>\n<p>还可以写入其它配置文件(如 <code>~/.xprofile</code>、<code>~/.bash_profile</code> 等),不一一举例了。要注意有些配置文件在某些登录场景下可能不会被加载,所以不一定起作用。</p>\n<hr />\n<h2>2. 查看环境变量是否生效</h2>\n<p>在终端运行:</p>\n<pre class=\"hljs\"><code><span class=\"hljs-built_in\">export</span>\n</code></pre>\n<p>如果输出里<strong>没有</strong>以下变量,说明配置还未生效:</p>\n<pre class=\"hljs\"><code><span class=\"hljs-attr\">GTK_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">QT_IM_MODULE</span>=fcitx\n<span class=\"hljs-attr\">XMODIFIERS</span>=@im=fcitx\n</code></pre>\n<p>这是因为 <code>/etc/environment</code> 和 <code>~/.profile</code> 都是在登录时由系统加载的,改完之后当前会话并不会立即应用。</p>\n<hr />\n<h2>3. 注销并重新登录</h2>\n<p>注销重新登录,系统就会重新加载配置文件。之后再在终端执行 <code>export</code>,就能看到上面那三个变量了——说明配置生效。</p>\n<p>此时回到任何文本输入框,就会发现可以正常切换中文输入法了。</p>\n<p>如果有需要,可以在 fcitx5 配置里添加对应的输入法引擎(如拼音、五笔等),不过装好后通常已经自动添加了默认输入法。</p>\n<hr />\n<h2>参考资料</h2>\n<ul>\n<li><a href=\"https://fcitx-im.org/wiki/Setup_Fcitx_5\">Setup Fcitx 5 — Fcitx 官方文档</a></li>\n<li><a href=\"https://fcitx-im.org/wiki/Input_method_related_environment_variables\">Input method related environment variables — Fcitx 官方文档</a></li>\n</ul>\n<!-- more -->\n</div>",
+      "pub_date": "2026-05-26T17:15:47+08:00",
+      "updated_at": "2026-05-26T17:15:47+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+    },
+    {
       "title": "水泻了",
       "link": "https://synyan.cn/t/62194",
       "description": "毫不意外，今日上证冲高后下杀85个点，完美复刻了1月29日黄金天坑的波形，半导体行情估计是阶段性走完了。幸好提 [&#8230;]",
@@ -3766,6 +3895,17 @@
       "site_name": "网友小宋",
       "site_url": "https://xyzbz.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+    },
+    {
+      "title": "zsh 环境配置",
+      "link": "https://www.casear.net/post/64",
+      "description": "<h1>服务器 zsh 环境配置记录：Zim + p10k + eza + zoxide</h1>\n<p>记录从零搭建服务器 zsh 环境的过程，包含踩过的坑。配置已整理成 dotfiles 仓库，新服务器一键部署。</p>\n<p><strong>环境</strong>：Ubuntu 24.04 / Debian 12，zsh + Zim 框架</p>\n<p><strong>最终工具栈</strong>：</p>\n<table>\n<thead>\n<tr>\n<th>工具</th>\n<th>作用</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Zim</td>\n<td>zsh 框架，比 oh-my-zsh 轻，启动快</td>\n</tr>\n<tr>\n<td>Powerlevel10k</td>\n<td>提示符主题</td>\n</tr>\n<tr>\n<td>eza</td>\n<td>带图标的 ls 替代，支持 git 状态列</td>\n</tr>\n<tr>\n<td>zoxide</td>\n<td>智能目录跳转，记住历史，<code>z 关键词</code> 直达</td>\n</tr>\n<tr>\n<td>fzf</td>\n<td>模糊查找，<code>Ctrl+R</code> 历史搜索、<code>Ctrl+T</code> 文件选择</td>\n</tr>\n<tr>\n<td>bat</td>\n<td>带语法高亮的 cat（Debian/Ubuntu 上命令名为 batcat）</td>\n</tr>\n</tbody>\n</table>\n<hr />",
+      "pub_date": "2026-05-17T13:15:25+08:00",
+      "updated_at": "2026-05-17T13:15:25+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
     },
     {
       "title": "三星堆博物馆中",
@@ -4217,6 +4357,17 @@
       "site_name": "目的地-Destination",
       "site_url": "https://chrison.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+    },
+    {
+      "title": "# ThinkPad T490s Linux 指纹模块启用指南（KDE / Kubuntu）",
+      "link": "https://www.casear.net/post/63",
+      "description": "<h1>ThinkPad T490s Linux 指纹模块启用指南（KDE / Kubuntu）</h1>\n<blockquote>\n<p>设备：ThinkPad T490s<br />\n系统：Kubuntu / Ubuntu KDE / 其他 Linux<br />\n桌面环境：KDE Plasma<br />\n功能目标：启用指纹登录、sudo 指纹验证、锁屏解锁</p>\n</blockquote>\n<hr />\n<h1>一、确认指纹模块是否可用</h1>\n<p>安装指纹组件：</p>\n<pre class=\"hljs\"><code>sudo apt update\nsudo apt install -y fprintd libpam-fprintd\n</code></pre>\n<p>录入指纹：</p>\n<pre class=\"hljs\"><code>fprintd-enroll\n</code></pre>\n<p>根据提示多次按压手指。</p>\n<p>验证指纹：</p>\n<pre class=\"hljs\"><code>fprintd-verify\n</code></pre>\n<p>如果显示：</p>\n<pre class=\"hljs\"><code>Verify result: verify-match\n</code></pre>\n<p>说明设备已正常工作。</p>\n<hr />\n<h1>二、启用 sudo 指纹认证</h1>\n<p>执行：</p>\n<pre class=\"hljs\"><code>sudo pam-auth-update\n</code></pre>\n<p>在弹出的界面中勾选：</p>\n<pre class=\"hljs\"><code>Fingerprint authentication\n</code></pre>\n<p>保存退出。</p>\n<p>测试：</p>\n<pre class=\"hljs\"><code>sudo <span class=\"hljs-built_in\">ls</span> /\n</code></pre>\n<p>提示认证时按压指纹即可。</p>\n<hr />\n<h1>三、启用登录界面指纹</h1>\n<p>KDE 默认登录管理器为 SDDM。</p>\n<p>检查当前登录管理器：</p>\n<pre class=\"hljs\"><code><span class=\"hljs-built_in\">cat</span> /etc/X11/default-display-manager\n</code></pre>\n<p>若输出：</p>\n<pre class=\"hljs\"><code>/usr/bin/sddm\n</code></pre>\n<p>说明使用的是 KDE 默认登录器。</p>\n<p>然后注销系统，在登录界面测试指纹登录。</p>\n<hr />\n<h1>四、启用锁屏指纹解锁</h1>\n<p>锁屏快捷键：</p>\n<pre class=\"hljs\"><code>Win + L\n</code></pre>\n<p>锁屏后尝试按压指纹。</p>\n<p>若部分系统未启用，可安装：</p>\n<pre class=\"hljs\"><code>sudo apt install -y kscreenlocker\n</code></pre>\n<hr />\n<h1>五、常见问题修复</h1>\n<h2>1. 指纹服务异常</h2>\n<pre class=\"hljs\"><code>systemctl restart fprintd\n</code></pre>\n<h2>2. 删除并重新录入指纹</h2>\n<pre class=\"hljs\"><code>fprintd-delete <span class=\"hljs-variable\">$USER</span>\nfprintd-enroll\n</code></pre>\n<h2>3. 查看已录入指纹</h2>\n<pre class=\"hljs\"><code>fprintd-list <span class=\"hljs-variable\">$USER</span>\n</code></pre>\n<hr />\n<h1>六、安全建议</h1>\n<p>建议保留密码登录作为备用方案：</p>\n<ul>\n<li>指纹识别失败时可回退密码</li>\n<li>更新系统后可避免 PAM 配置异常</li>\n<li>首次启动部分场景仍需密码</li>\n</ul>\n<hr />\n<h1>七、最终效果</h1>\n<p>启用后可实现：</p>\n<ul>\n<li>系统登录使用指纹</li>\n<li>sudo 提权使用指纹</li>\n<li>锁屏解锁使用指纹</li>\n</ul>\n<hr />\n<h1>八、适用机型说明</h1>\n<p>ThinkPad T490s 大多数指纹模块在 Linux 下兼容良好，尤其 Synaptics 型号支持度较高。</p>\n<hr />\n<h1>九、一键安装命令</h1>\n<pre class=\"hljs\"><code>sudo apt update &amp;&amp; sudo apt install -y fprintd libpam-fprintd\n</code></pre>\n<hr />\n<h1>十、指纹认证的理论知识</h1>\n<h2>1. Linux 指纹认证的工作原理</h2>\n<p>在 Linux 系统中，指纹识别通常由以下几个组件协同完成：</p>\n<h3>硬件层</h3>\n<p>即笔记本内置的指纹传感器，例如：</p>\n<ul>\n<li>Synaptics</li>\n<li>Goodix</li>\n<li>Validity</li>\n</ul>\n<p>负责采集指纹图像或生物特征数据。</p>\n<h3>驱动层</h3>\n<p>Linux 内核负责识别 USB / SPI 指纹设备，并提供设备访问接口。</p>\n<h3>用户空间服务层</h3>\n<p>常见组件：</p>\n<ul>\n<li>fprintd</li>\n<li>libfprint</li>\n</ul>\n<p>作用：</p>\n<ul>\n<li>管理指纹设备</li>\n<li>录入指纹模板</li>\n<li>执行比对验证</li>\n</ul>\n<h3>认证层（PAM）</h3>\n<p>Linux 登录认证通常通过 PAM（Pluggable Authentication Modules）实现。</p>\n<p>当启用指纹后，PAM 会调用：</p>\n<p>pam_fprintd.so</p>\n<p>从而在登录、sudo、锁屏时加入指纹验证流程。</p>\n<hr />\n<h2>2. 指纹录入并不是保存图片</h2>\n<p>很多人误以为系统保存了一张指纹照片，实际并不是。</p>\n<p>系统通常保存的是：</p>\n<ul>\n<li>特征点</li>\n<li>纹路方向</li>\n<li>局部结构信息</li>\n<li>加密后的模板数据</li>\n</ul>\n<p>这类数据用于匹配，不可直接还原完整指纹图像。</p>\n<hr />\n<h2>3. 为什么录入时要按压多次</h2>\n<p>因为系统需要采集多个角度和区域：</p>\n<ul>\n<li>手指偏左</li>\n<li>偏右</li>\n<li>角度倾斜</li>\n<li>压力变化</li>\n<li>局部遮挡情况</li>\n</ul>\n<p>这样能提高后续识别成功率。</p>\n<hr />\n<h2>4. 指纹认证的优缺点</h2>\n<h3>优点</h3>\n<ul>\n<li>登录速度快</li>\n<li>日常 sudo 更方便</li>\n<li>不必频繁输入密码</li>\n<li>移动办公体验更好</li>\n</ul>\n<h3>缺点</h3>\n<ul>\n<li>湿手、脏手识别率下降</li>\n<li>手指出汗会影响成功率</li>\n<li>无法远程使用</li>\n<li>高安全场景仍需密码</li>\n</ul>\n<hr />\n<h2>5. 为什么仍然建议保留密码</h2>\n<p>密码是“知识因子”，指纹是“生物因子”。</p>\n<p>两者组合更安全：</p>\n<ul>\n<li>指纹用于高频便捷操作</li>\n<li>密码用于兜底恢复</li>\n<li>加密磁盘仍建议使用密码</li>\n</ul>\n<hr />\n<h2>6. ThinkPad 指纹模块为何兼容性较好</h2>\n<p>ThinkPad 商务系列长期面向企业市场，硬件标准化程度高，Linux 社区适配较积极，因此在 Linux 下兼容性通常优于很多消费级机型。</p>\n<hr />\n<h2>7. 实际使用建议</h2>\n<p>推荐模式：</p>\n<ul>\n<li>开机登录：密码 / 指纹均可</li>\n<li>锁屏解锁：优先指纹</li>\n<li>sudo 提权：优先指纹</li>\n<li>磁盘加密：强密码</li>\n</ul>\n<p>这样兼顾效率与安全。</p>\n<hr />\n<h2>总结</h2>\n<p>指纹认证本质上是提升“本地使用效率”的认证方式。<br />\n它不是密码的替代品，而是密码体系的补充。</p>",
+      "pub_date": "2026-04-28T01:35:39+08:00",
+      "updated_at": "2026-04-28T01:35:39+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
     },
     {
       "title": "长春小游",
@@ -5308,6 +5459,17 @@
       "avatar": "https://www.xiaoten.com/avatar.png"
     },
     {
+      "title": "vanblog使用picgo图床的完整部署教程",
+      "link": "https://www.casear.net/post/61",
+      "description": "<h1>图床是什么？</h1>\n<p>图床你可以理解为一个个人云盘 ，你可以将你的图片、视频等进行上传，在云端保存。同时，图床也会为你生成一个网址，通过这个网址，所有人都可以直接查看你的图片、视频等媒体素材。</p>\n<h1>vanblog提供的图床配置页面</h1>\n<p>其实官方vanblog已经说的很明白如何进行配置了，不过这里更详细的做一下教程，目的是为了方便小白快速上手！</p>\n<p>进入vanblog后台-站点管理-系统设置-图床设置，将存储策略从本地改成OSS图床（建议各位先到下面扫描一下文章中的图片并存储在本地图床中，然后再把本地图床的图片导出做个备份）。</p>",
+      "pub_date": "2026-03-10T16:13:27+08:00",
+      "updated_at": "2026-03-10T16:13:27+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+    },
+    {
       "title": "使用Protobuf备份数据",
       "link": "https://blog.lichenghao.cn/article/wviqhe9gvcth",
       "description": "一个高效的序列化工具来备份数据，Protobuf 是一个不错的选择!",
@@ -5328,6 +5490,17 @@
       "site_name": "Evan",
       "site_url": "https://www.evan.xin/",
       "avatar": "https://cdn.xiaoten.com/friends/Evan.png"
+    },
+    {
+      "title": "vanblog备份恢复评论数据",
+      "link": "https://www.casear.net/post/60",
+      "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<h1>1. 导出 waline 评论数据库</h1>\n<p>在宿主机执行：</p>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">exec</span> vanblog-mongo-1 mongodump -d waline -o /data/backup\n</code></pre>\n<p>说明：</p>\n<table>\n<thead>\n<tr>\n<th>参数</th>\n<th>含义</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>-d waline</td>\n<td>只导出评论数据库</td>\n</tr>\n<tr>\n<td>-o /data/backup</td>\n<td>导出到容器里的目录</td>\n</tr>\n</tbody>\n</table>\n<p>执行后容器内会生成：</p>\n<pre class=\"hljs\"><code>/data/backup/waline\n</code></pre>\n<p>里面通常是：</p>\n<pre class=\"hljs\"><code>Users.bson\nUsers.metadata.json\n</code></pre>\n<p>如果以后有评论，还会有：</p>\n<pre class=\"hljs\"><code>Comment.bson\nCounter.bson\n</code></pre>\n<h1>2. 把备份复制到服务器</h1>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">cp</span> vanblog-mongo-1:/data/backup ./waline-backup\n</code></pre>\n<p>备份出来的目录结构应该是这样：</p>\n<pre class=\"hljs\"><code>/waline-backup/\n└── waline\n    ├── Comment.bson\n    ├── Comment.metadata.json\n    ├── Users.bson\n    └── Users.metadata.json\n</code></pre>\n<h1>3. （可选）打包备份</h1>\n<p>建议压缩一下：</p>\n<pre class=\"hljs\"><code>tar -czvf waline-backup.tar.gz waline-backup\n</code></pre>\n<h1>4. 恢复评论数据的方法</h1>\n<h3>导入数据到服务器：</h3>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">cp</span> /home/ubuntu/waline-backup/waline vanblog-mongo-1:/data/waline\n\n</code></pre>\n<p>如果是在 Docker：</p>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">exec</span> -i vanblog-mongo-1 mongorestore -d waline --drop /data/backup/waline\n\n</code></pre>\n<h2>执行恢复</h2>\n<pre class=\"hljs\"><code>docker <span class=\"hljs-built_in\">exec</span> -it vanblog-mongo-1 mongorestore -d waline --drop /data/waline\n\n</code></pre>\n<p>参数说明：</p>\n<p>|参数\t       |作用|</p>\n<table>\n<thead>\n<tr>\n<th>-d waline</th>\n<th>恢复到 waline 数据库</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>--drop\t先删除旧</td>\n<td>collection 再恢复</td>\n</tr>\n<tr>\n<td>/data/waline</td>\n<td>备份目录</td>\n</tr>\n</tbody>\n</table>\n<h2>验证恢复</h2>\n<p>进入 Mongo：</p>\n<pre class=\"hljs\"><code>docker exec -it vanblog-mongo-1 mongo\n</code></pre>\n<p>然后：</p>\n<pre class=\"hljs\"><code>use waline\nshow collections\n</code></pre>\n<p>应该看到：</p>\n<pre class=\"hljs\"><code>Comment\nUsers\n</code></pre>\n<p>再检查评论数量：</p>\n<pre class=\"hljs\"><code>db.Comment.count()\n</code></pre>\n<p>如果返回评论数量 说明恢复成功。</p>\n<!-- more -->\n</div>",
+      "pub_date": "2026-03-08T21:50:11+08:00",
+      "updated_at": "2026-03-08T21:50:11+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
     },
     {
       "title": "“赌”场开门",
@@ -5704,6 +5877,17 @@
       "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
     },
     {
+      "title": "如何配置一个虚拟显示器，以便远程没有显示器的系统",
+      "link": "https://www.casear.net/post/52",
+      "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<p>原项目：https://github.com/roshkins/IddSampleDriver</p>\n<p>编译好的下载：https://github.com/ge9/IddSampleDriver/releases</p>\n<p>另一个编译好的下载：https://github.com/itsmikethetech/Virtual-Display-Driver/releases</p>\n<p>1、将下载好的压缩包，内容解压放置到 C:\\IddSampleDriver 文件夹下，必须是这个目录，因为代码里写死了。</p>\n<p>2、先使用管理员身份运行脚本 C:\\IddSampleDriver\\installCert.bat 添加驱动证书到系统。</p>\n<p>3、再打开 C:\\IddSampleDriver\\option.txt 文件修改其内容。</p>\n<p>下方列出了很多分辨率与帧率的模式，请根据需要保留一个或几个</p>\n<p>第一行的数字代表默认使用哪一个</p>\n<p>比如最终文件内容可以是：</p>\n<p>1<br />\n1920, 1080, 60<br />\n4、在设备管理器中，添加过时硬件，手动选择驱动，选择显示适配器，从磁盘安装，找到 iddsampledriver.inf 选择安装即可。</p>\n<p>5、安装完成即可获得一个不能直接看到的显示器，如需删除，手动在设备管理器中删除即可。</p>\n<!-- more -->\n</div>",
+      "pub_date": "2026-01-26T20:47:55+08:00",
+      "updated_at": "2026-01-26T20:47:55+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+    },
+    {
       "title": "三脚架到货了",
       "link": "https://blog.lhasa.icu/posts/technology/2026-01-27-fotopro-x-aircross-3-lite",
       "description": "<p>早上九点，顺风打电话来：\"快递到了，放前台了啊。\" 估摸着是那三脚架到了</p>\n<p>这东西没有真不行，晚上出门一抹黑，不用长曝光，啥都拍不了</p>\n<p>我有三个需求：<strong>轻量化、收纳短、伸缩1.5m</strong>，再三选择后，下单了富宝图旗下新品，<strong>空气三号 LITE</strong></p>\n<p>图一拆包后，我直接蒙了</p>\n<p>周日在群里扯淡，看到 <a href=\"http://loonlog.com\">菜鸟之志</a> 推荐的八爪鱼支架，我笑了，这什么玩意，长得那么招笑</p>\n<p>真的受够了这种秒懂的日子</p>\n<p>还别说，这工具不错，小巧，轻便，灵活度很高，推荐</p>\n<p><img alt=\" \" src=\"20260126204642_1069_266.jpg\" />\n<img alt=\" \" src=\"20260126204650_1070_266.jpg\" />\n<img alt=\" \" src=\"20260126204702_1071_266.jpg\" /></p>\n<p>八爪鱼是送的，但图三这个快拆套装我感觉买亏了。加了一百块钱，就换回这么一小块铁片，关键脚架本身就带一个</p>\n<p><img alt=\" \" src=\"20260126204733_1072_266.jpg\" /></p>\n<p>出门前纠结了半天要不要背双肩包，最后想想算了，索性直接挂在包拉链上了</p>\n<p><img alt=\" \" src=\"20260126205104_1075_266.jpg\" /></p>\n<p>有没有一种<strong>吕布骑狗</strong>的感觉，我这破尼康配上这个架子，多少有点高攀了</p>\n<p><img alt=\" \" src=\"20260126204843_1073_266.jpg\" /></p>\n<p><img alt=\" \" src=\"20260126205401_1077_266.jpg\" /></p>\n<p><img alt=\" \" src=\"20260126205326_1076_266.jpg\" />\n<img alt=\" \" src=\"20260126205435_1078_266.jpg\" />\n<img alt=\" \" src=\"20260126231122_1080_266.jpg\" /></p>\n<p>今天全程下雨，走在西湖边吹冷风，冻得头疼</p>\n<p>回家发现买的电池也到了，价格方面，只有原装的二分之一，应该够我折腾了</p>\n<p>天知道这支架是哪个小作坊代工的，漆水和碳布的质量，不敢苟同，我最垃圾的鱼竿，破烧火棍的碳纤维材料都比这个强，不如高性能的铝材料，甚至不如玻璃钢</p>\n<p>他的旋转设计也有缺陷，不容易锁紧，又不敢用力拧，因为碳布根本受不了这种扭矩，哪怕你有交叉工艺，也顶不住，这不符合物理规律</p>\n<p>再加上碳纤维这东西本身就是消耗品，树脂会氧化。三脚架这玩意，风吹雨打的，扭矩承受力只会越来越差。网上已经看到不少人把它拧断了，总之不推荐</p>",
@@ -5913,6 +6097,17 @@
       "avatar": "https://cdn.xiaoten.com/friends/bestcherish.svg"
     },
     {
+      "title": "解决 OpenConnect VPN 由于 JScript 引擎丢失导致的 Error 1 修复",
+      "link": "https://www.casear.net/post/59",
+      "description": "<h2>解决 OpenConnect VPN 由于 JScript 引擎丢失导致的 Error 1 深度修复</h2>\n<p>最近在个人环境遇到一个非常棘手的问题。在使用 OpenConnect VPN 连接时，明明已经通过了账号密码认证，但最后一步配置路由时总是弹出：<code>Script 'vpnc-script.js' returned error 1</code>。</p>",
+      "pub_date": "2026-01-17T18:42:59+08:00",
+      "updated_at": "2026-01-17T18:42:59+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
+    },
+    {
       "title": "SELinux技术介绍",
       "link": "https://lznauy.cn/posts/2026-01-17-selinux%E6%8A%80%E6%9C%AF%E4%BB%8B%E7%BB%8D/",
       "description": "<h2 id=\"selinux是什么\">\n  SELinux是什么？\n  <a class=\"heading-link\" href=\"#selinux%e6%98%af%e4%bb%80%e4%b9%88\">\n    <i class=\"fa-solid fa-link\" title=\"@\"></i>\n    <span class=\"sr-only\">@</span>\n  </a>\n</h2>\n<p>SELinux可以想象是Linux系统的“超级保安”，核心是给文件、进程、端口等所有资源“贴标签”，再通过严格的访问规则，限制资源间的交互。哪怕你有系统最高权限（root），不符合规则也无法操作不属于自己的资源。</p>",
@@ -6109,6 +6304,17 @@
       "site_name": "手里有只毛毛虫",
       "site_url": "https://www.krjojo.com/",
       "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
+    },
+    {
+      "title": "Fuck 2025",
+      "link": "https://www.casear.net/post/58",
+      "description": "<div class=\"markdown-body rss\">\n      \n      \n      \n      <!-- more -->\n<ul>\n<li>\n<h1>1-5月 休息 打游戏</h1>\n<p>一到五月可以说是在自我麻痹，以为在当时还有在做GTA服务器，又在筹备考试，分身乏术</p>\n</li>\n<li>\n<h1>6-7月 驾驶证 毕业 退租</h1>\n<p>休息完了，也临近毕业季，着手开始科二，回老家一个月终于把驾照拿下来了，然后就是马不停蹄的毕业，但是我当时对毕业没什么感觉，大部分的同学关系都一般，只是和专业课老师吃了顿饭，就当是结束了。退租的事情不是很愉快，最后草草收拾了一下就离开了，大部分电子设备也留在了内蒙</p>\n</li>\n<li>\n<h1>7-8月 北京 老毛 麻痹自己</h1>\n<p>退租前就有目标去北京找朋友一起，关系很不错，我们说着要打一万场沙二，在北京的那一个月大部分时间都很开心，除了想着找工作的时候</p>\n</li>\n<li>\n<h1>8-9月 老家 等人 乌兰浩特</h1>\n<p>朋友回了日本，我也先回了老家，一是想开车玩玩，二是等等朋友退伍，这一等就是一个月........，后来一起去了乌兰浩特，这个地方真是诡异，标准的发展停滞姿态，还有精神小伙，遂跑路，当时也没地方去，就近就选择了长春</p>\n</li>\n<li>\n<h1>9-12月 长春 找工作 租房 麻木</h1>\n<p>长春这个地方更是该死，fxxk you 中介，fxxk you 信号塔贷款，and especially fxxk you 盒饭。一个地方怎么可以这么诡异，这里是美食荒漠吗，全是盒饭和麻辣烫。</p>\n<p>再说找工作，为了不回老家我已经在电脑城上班了，我初中的时候就在装系统，没想到毕业了还在装系统，年后一定得换个工作了，一度上班到崩溃，已经想要买个二手车到处转了</p>\n</li>\n<li>\n<p>12 Heartbroken</p>\n</li>\n</ul>\n<!-- more -->\n</div>",
+      "pub_date": "2026-01-04T14:34:29+08:00",
+      "updated_at": "2026-01-04T14:34:29+08:00",
+      "author": "casearx@foxmail.com (Casear)",
+      "site_name": "Casear的技术栈",
+      "site_url": "https://www.casear.net",
+      "avatar": "https://cdn.xiaoten.com/friends/casear.png"
     },
     {
       "title": "2025年度总结",
@@ -6455,8 +6661,8 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Casear的技术栈",
-      "url": "https://www.casear.net",
+      "name": "益友网站",
+      "url": "https://www.yiyou.bj.cn",
       "feed_url": null,
       "reason": "no_feed_found"
     },
@@ -6467,8 +6673,8 @@
       "reason": "no_feed_found"
     },
     {
-      "name": "益友网站",
-      "url": "https://www.yiyou.bj.cn",
+      "name": "80后记忆",
+      "url": "https://www.80h.bj.cn",
       "feed_url": null,
       "reason": "no_feed_found"
     },
@@ -6479,20 +6685,14 @@
       "reason": "no_feed_found"
     },
     {
-      "name": "空白Koobai",
-      "url": "https://koobai.com/",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
-      "name": "80后记忆",
-      "url": "https://www.80h.bj.cn",
-      "feed_url": null,
-      "reason": "no_feed_found"
-    },
-    {
       "name": "Hello Alili",
       "url": "https://alili.tech/",
+      "feed_url": null,
+      "reason": "no_feed_found"
+    },
+    {
+      "name": "空白Koobai",
+      "url": "https://koobai.com/",
       "feed_url": null,
       "reason": "no_feed_found"
     }

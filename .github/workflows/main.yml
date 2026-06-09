@@ -1,5 +1,8 @@
 name: 小十友圈RSS聚合工具
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     # 使用UTC时间，每天0、6、12、18点运行（北京时间8、14、20、2点）

@@ -742,6 +742,10 @@ class RSSFetcher:
             
             if response.status_code != 200:
                 self.last_error = f"HTTP {response.status_code}"
+                if response.status_code == 403:
+                    browser_feed = self._fetch_feed_with_playwright(feed_url)
+                    if browser_feed:
+                        return browser_feed
                 logger.warning(f"获取RSS源失败，HTTP {response.status_code}: {feed_url}")
                 return None
             
@@ -773,6 +777,42 @@ class RSSFetcher:
         except Exception as e:
             self.last_error = str(e)
             logger.warning(f"获取RSS源失败 {feed_url}: {type(e).__name__}")
+            return None
+
+    def _fetch_feed_with_playwright(self, feed_url: str) -> Optional[feedparser.FeedParserDict]:
+        """普通 HTTP 被 403 拦截时，使用浏览器上下文兜底获取 Feed。"""
+        if not PLAYWRIGHT_AVAILABLE:
+            logger.debug(f"Playwright 不可用，无法浏览器兜底获取RSS: {feed_url}")
+            return None
+
+        try:
+            logger.info(f"HTTP 403，尝试使用 Playwright 兜底获取RSS: {feed_url}")
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                context = browser.new_context(
+                    user_agent=self.user_agent,
+                    locale='zh-CN',
+                    extra_http_headers=self._request_headers_for_url(feed_url)
+                )
+                page = context.new_page()
+                page.goto(feed_url, wait_until='domcontentloaded', timeout=max(30, self.request_timeout) * 1000)
+                content = page.evaluate("""() => {
+                    const root = document.documentElement;
+                    return root ? root.outerHTML : document.body.innerText;
+                }""")
+                browser.close()
+
+            feed = feedparser.parse(content)
+            if feed.entries:
+                logger.info(f"Playwright 兜底成功: {feed_url}")
+                return feed
+
+            self.last_error = "playwright_empty_or_unparseable"
+            logger.warning(f"Playwright 兜底后RSS仍为空或无法解析: {feed_url}")
+            return None
+        except Exception as e:
+            self.last_error = f"playwright_{type(e).__name__}"
+            logger.warning(f"Playwright 兜底获取RSS失败 {feed_url}: {type(e).__name__}")
             return None
 
 

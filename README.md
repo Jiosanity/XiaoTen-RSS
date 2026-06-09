@@ -7,6 +7,7 @@
 - 从友链页面按 CSS 规则自动提取站点链接
 - 支持手动添加友链并可配置自定义 feed 后缀（如 `rss`、`rss.xml` 等）
 - 自动发现并验证常见 Feed 后缀
+- 支持从首页 `link rel="alternate"` 自动发现 RSS/Atom 地址
 - 黑名单 / 白名单站点过滤
 - 支持不限制过期文章（`OUTDATE_CLEAN: 0` 表示不过滤）
 - 为每篇文章提供发布时间 `pub_date` 与更新时间 `updated_at`
@@ -66,7 +67,7 @@ python main.py
 
 - 有 `feed_suffix`：当手动友链为同一 `url` 指定了 `feed_suffix`，将直接采用拼接后的地址（覆盖已从友链页自动发现的 `feed_url`）。
 - 无 `feed_suffix` 且 URL 已存在：跳过该手动项，保留自动发现结果（避免重复）。
-- 无 `feed_suffix` 且 URL 不存在：按常见后缀（`feed`、`rss`、`atom.xml`、`index.xml`、`rss.xml`）尝试自动发现。
+- 无 `feed_suffix` 且 URL 不存在：按常见后缀（`feed`、`feed.xml`、`rss`、`atom.xml`、`index.xml`、`rss.xml`）尝试自动发现；固定后缀均失败后，会继续读取首页中的 `link rel="alternate"` RSS/Atom 声明。
 - 黑名单不影响手动项：`BLOCK_SITE` 仅作用于友链页面爬取，手动配置的站点不受其限制。
 
 ## 高级配置（性能优化）

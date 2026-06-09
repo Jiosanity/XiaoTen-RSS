@@ -54,6 +54,7 @@ SETTINGS_FRIENDS_LINKS:
 ## 对于每个来源，首先会根据上述feed后缀进行尝试，如从友链页面获取的或在上述手动添加的列表中未填写的，则尝试下述常见的 feed 后缀，如无法获取，则视为该站点无 feed。
 feed_suffix:
   - "feed"
+  - "feed.xml"
   - "rss"
   - "atom.xml"
   - "index.xml"

@@ -551,7 +551,11 @@ class RSSFetcher:
         session.mount("http://", adapter)
         session.mount("https://", adapter)
         
-        session.headers.update({'User-Agent': self.user_agent})
+        session.headers.update({
+            'User-Agent': self.user_agent,
+            'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'
+        })
         session.verify = False
         return session
     
@@ -564,7 +568,11 @@ class RSSFetcher:
         session.mount("http://", adapter)
         session.mount("https://", adapter)
         
-        session.headers.update({'User-Agent': self.user_agent})
+        session.headers.update({
+            'User-Agent': self.user_agent,
+            'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'
+        })
         session.verify = False
         return session
     
@@ -602,7 +610,48 @@ class RSSFetcher:
                 if self.cache:
                     self.cache.set_feed_url(base_url.rstrip('/'), feed_url)
                 return feed_url
+
+        discovered_url = self._discover_feed_from_html(base_url)
+        if discovered_url:
+            if self.cache:
+                self.cache.set_feed_url(base_url.rstrip('/'), discovered_url)
+            return discovered_url
         
+        return None
+
+    def _discover_feed_from_html(self, base_url: str) -> Optional[str]:
+        """从首页 HTML 的 link rel=alternate 自动发现 RSS/Atom。"""
+        try:
+            response = self.session.get(base_url, timeout=self.request_timeout)
+            if response.status_code != 200:
+                logger.debug(f"首页 Feed 自动发现失败 {base_url} (HTTP {response.status_code})")
+                return None
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            candidates = []
+            for link in soup.find_all('link'):
+                rel = ' '.join(link.get('rel', [])).lower()
+                type_value = (link.get('type') or '').lower()
+                href = link.get('href')
+                if not href:
+                    continue
+                if 'alternate' not in rel:
+                    continue
+                if not any(token in type_value for token in ['rss', 'atom', 'xml', 'feed']):
+                    continue
+                candidates.append(urljoin(base_url, href))
+
+            for feed_url in candidates:
+                if self._check_feed_url(feed_url):
+                    logger.debug(f"✓ 从首页自动发现Feed源: {feed_url}")
+                    return feed_url
+
+        except requests.Timeout:
+            logger.debug(f"首页 Feed 自动发现超时: {base_url}")
+        except requests.ConnectionError:
+            logger.debug(f"首页 Feed 自动发现连接失败: {base_url}")
+        except Exception as e:
+            logger.debug(f"首页 Feed 自动发现异常 {base_url}: {type(e).__name__}")
         return None
     
     def _check_feed_url(self, url: str) -> bool:

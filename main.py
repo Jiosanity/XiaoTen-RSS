@@ -203,6 +203,10 @@ class ConfigParser:
     def get_block_site_reverse(self) -> bool:
         """获取是否使用白名单模式"""
         return self.config.get('BLOCK_SITE_REVERSE', False)
+
+    def get_optional_feed_sites(self) -> List[str]:
+        """获取 RSS 可选站点列表。"""
+        return self.config.get('OPTIONAL_FEED_SITE', [])
     
     def get_manual_links(self) -> List[Dict[str, str]]:
         """获取手动添加的友链列表"""
@@ -352,6 +356,20 @@ class SiteFilter:
         # 白名单模式: 未匹配的屏蔽
         else:
             return True
+
+
+class OptionalFeedFilter:
+    """RSS 可选站点过滤器。"""
+
+    def __init__(self, patterns: List[str]):
+        self.patterns = patterns
+
+    def is_optional(self, url: str) -> bool:
+        """检查站点是否已标记为 RSS 可选。"""
+        for pattern in self.patterns:
+            if re.search(pattern, url):
+                return True
+        return False
 
 
 class LinkPageScraper:
@@ -575,6 +593,19 @@ class RSSFetcher:
         })
         session.verify = False
         return session
+
+    def _request_headers_for_url(self, url: str) -> Dict[str, str]:
+        """为单个 Feed 请求补充来源页面信息。"""
+        parsed = urlparse(url)
+        origin = f"{parsed.scheme}://{parsed.netloc}/" if parsed.scheme and parsed.netloc else ''
+        headers = {
+            'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
+            'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+            'Cache-Control': 'no-cache'
+        }
+        if origin:
+            headers['Referer'] = origin
+        return headers
     
     def find_feed_url(self, base_url: str, custom_suffix: Optional[str] = None) -> Optional[str]:
         """寻找站点的RSS源URL
@@ -658,7 +689,11 @@ class RSSFetcher:
         """检查URL是否是有效的Feed源（快速检查，不重试）"""
         try:
             # 使用不重试的会话和更短的超时
-            response = self.check_session.get(url, timeout=self.feed_check_timeout)
+            response = self.check_session.get(
+                url,
+                timeout=self.feed_check_timeout,
+                headers=self._request_headers_for_url(url)
+            )
             
             if response.status_code != 200:
                 self.last_error = f"HTTP {response.status_code}"
@@ -681,12 +716,15 @@ class RSSFetcher:
             return is_feed
                 
         except requests.Timeout:
+            self.last_error = "timeout"
             logger.debug(f"Feed URL检查超时: {url}")
             return False
         except requests.ConnectionError:
+            self.last_error = "connection_error"
             logger.debug(f"Feed URL连接失败: {url}")
             return False
         except Exception as e:
+            self.last_error = type(e).__name__
             logger.debug(f"Feed URL检查异常 {url}: {type(e).__name__}")
             return False
     
@@ -696,7 +734,11 @@ class RSSFetcher:
             logger.info(f"正在获取RSS源: {feed_url}")
             
             # 使用requests获取内容，然后传给feedparser
-            response = self.session.get(feed_url, timeout=self.request_timeout)
+            response = self.session.get(
+                feed_url,
+                timeout=self.request_timeout,
+                headers=self._request_headers_for_url(feed_url)
+            )
             
             if response.status_code != 200:
                 self.last_error = f"HTTP {response.status_code}"
@@ -842,6 +884,7 @@ class FriendRSSAggregator:
             self.config.get_block_sites(),
             self.config.get_block_site_reverse()
         )
+        self.optional_feed_filter = OptionalFeedFilter(self.config.get_optional_feed_sites())
         self.scraper = LinkPageScraper(
             self.config.get_link_page_rules(),
             self.config.get_request_timeout(),
@@ -865,6 +908,7 @@ class FriendRSSAggregator:
         )
         # 用于记录获取 RSS 失败的站点列表
         self.failed_sites: List[Dict[str, Any]] = []
+        self.skipped_sites: List[Dict[str, Any]] = []
 
     def _load_previous_output(self, output_path: str) -> Optional[dict]:
         """读取上一版输出，作为网络波动时的兜底基准。"""
@@ -1087,12 +1131,21 @@ class FriendRSSAggregator:
             
             if not feed_url:
                 logger.warning(f"无法找到{link['name']}的RSS源: {link['url']}")
+                if self.optional_feed_filter.is_optional(link['url']):
+                    self.skipped_sites.append({
+                        'name': link.get('name'),
+                        'url': link.get('url'),
+                        'feed_url': None,
+                        'reason': getattr(self.fetcher, 'last_error', None) or 'no_feed_found'
+                    })
+                    return None
+
                 # 记录失败站点
                 self.failed_sites.append({
                     'name': link.get('name'),
                     'url': link.get('url'),
                     'feed_url': None,
-                    'reason': 'no_feed_found'
+                    'reason': getattr(self.fetcher, 'last_error', None) or 'no_feed_found'
                 })
                 return None
             
@@ -1173,6 +1226,7 @@ class FriendRSSAggregator:
         final_data = self.aggregator.merge_data(all_sites)
         # 把失败站点信息放入最终结果
         final_data['failed_sites'] = self.failed_sites
+        final_data['skipped_sites'] = self.skipped_sites
         
         logger.info("=" * 50)
         logger.info(f"聚合完成: {final_data['total_sites']}个站点, {final_data['total_posts']}篇文章")

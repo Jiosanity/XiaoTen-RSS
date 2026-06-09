@@ -52,6 +52,7 @@ python main.py
 - `link_page_rules`：从友链页提取 姓名/链接/头像 的 CSS 规则
 - `SETTINGS_FRIENDS_LINKS`：手动友链 `[name, url, avatar, optional_feed_suffix]`
 - `BLOCK_SITE` / `BLOCK_SITE_REVERSE`：黑/白名单（正则）
+- `OPTIONAL_FEED_SITE`：RSS 可选站点（正则），仍会尝试发现 RSS；没发现时只计入 `skipped_sites`，不计入 `failed_sites`
 - `feed_suffix`：常见 Feed 后缀尝试顺序
 - `MAX_POSTS_NUM`：每站最多文章数（0 不限）
 - `OUTDATE_CLEAN`：过期清理天数（≤0 表示不过滤）
@@ -67,8 +68,9 @@ python main.py
 
 - 有 `feed_suffix`：当手动友链为同一 `url` 指定了 `feed_suffix`，将直接采用拼接后的地址（覆盖已从友链页自动发现的 `feed_url`）。
 - 无 `feed_suffix` 且 URL 已存在：跳过该手动项，保留自动发现结果（避免重复）。
-- 无 `feed_suffix` 且 URL 不存在：按常见后缀（`feed`、`feed.xml`、`rss`、`atom.xml`、`index.xml`、`rss.xml`）尝试自动发现；固定后缀均失败后，会继续读取首页中的 `link rel="alternate"` RSS/Atom 声明。
+- 无 `feed_suffix` 且 URL 不存在：按常见后缀（`feed/`、`feed`、`feed.xml`、`rss`、`rss/`、`atom.xml`、`feed/atom/`、`feed/atom`、`index.xml`、`rss.xml`）尝试自动发现；固定后缀均失败后，会继续读取首页中的 `link rel="alternate"` RSS/Atom 声明。
 - 黑名单不影响手动项：`BLOCK_SITE` 仅作用于友链页面爬取，手动配置的站点不受其限制。
+- `OPTIONAL_FEED_SITE` 不会跳过探测；如果后续站点开放 RSS，会自动进入聚合。只有本轮仍未发现 RSS 时，才进入 `skipped_sites`。
 
 ## 高级配置（性能优化）
 - `LOG_LEVEL`：日志级别（DEBUG, INFO, WARNING, ERROR），默认 INFO
@@ -91,11 +93,12 @@ python main.py
 
 输出格式（默认 `data.json`）— 速览
 
-- 顶层：`updated_at`、`total_sites`、`total_posts`、`sites[]`、`all_posts[]`、`failed_sites[]`
+- 顶层：`updated_at`、`total_sites`、`total_posts`、`sites[]`、`all_posts[]`、`failed_sites[]`、`skipped_sites[]`
 - `sites[i]`：`name`、`url`、`avatar`、`feed_url`、`posts[]`
 - `sites[i].posts[j]`：`title`、`link`、`description`、`pub_date`、`updated_at`、`author`
 - `all_posts[k]`：为所有文章的扁平列表，包含上面字段，且附带 `site_name`、`site_url`、`avatar`
 - `failed_sites[m]`：抓取失败站点清单，含 `name`、`url`、`feed_url`（如有）与 `reason`
+- `skipped_sites[n]`：RSS 可选站点本轮未发现 Feed 的清单，不参与发布失败门禁
 
 在 GitHub 上自动化运行
 - 项目包含一个 Actions workflow（`.github/workflows/main.yml`），示例设为每 6 小时运行一次。若你自定义了输出文件名（如 `rss.json`），请相应更新工作流中对输出文件的引用（默认示例使用 `data.json`）。

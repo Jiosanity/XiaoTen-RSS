@@ -53,12 +53,25 @@ SETTINGS_FRIENDS_LINKS:
 # 综合设置
 ## 对于每个来源，首先会根据上述feed后缀进行尝试，如从友链页面获取的或在上述手动添加的列表中未填写的，则尝试下述常见的 feed 后缀，如无法获取，则视为该站点无 feed。
 feed_suffix:
+  - "feed/"
   - "feed"
   - "feed.xml"
   - "rss"
+  - "rss/"
   - "atom.xml"
+  - "feed/atom/"
+  - "feed/atom"
   - "index.xml"
   - "rss.xml"
+
+## RSS 可选站点（正则表达式）
+## 这些站点仍会尝试发现 RSS；如果没有发现，只记录到 skipped_sites，不计入 failed_sites
+OPTIONAL_FEED_SITE:
+  - "https://www\\.yiyou\\.bj\\.cn"
+  - "https://www\\.giovan\\.cn"
+  - "https://www\\.80h\\.bj\\.cn"
+  - "https://alili\\.tech"
+  - "https://koobai\\.com"
 
 ## 每个站点抓取的最多文章数（0为不限制）
 MAX_POSTS_NUM: 0

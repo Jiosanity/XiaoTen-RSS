@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T02:44:08.067849+08:00",
+  "updated_at": "2026-07-02T08:50:52.305170+08:00",
   "total_sites": 34,
-  "total_posts": 341,
+  "total_posts": 342,
   "sites": [
     {
       "name": "老孙博客",
@@ -78,13 +78,6 @@
       ]
     },
     {
-      "name": "MouT.me",
-      "url": "https://ghost.mout.me/",
-      "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
-      "feed_url": "https://ghost.mout.me/feed/",
-      "posts": []
-    },
-    {
       "name": "王叨叨",
       "url": "https://wangdaodao.com/",
       "avatar": "https://cdn.xiaoten.com/friends/wangdaodao.png",
@@ -143,6 +136,13 @@
           "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         }
       ]
+    },
+    {
+      "name": "MouT.me",
+      "url": "https://ghost.mout.me/",
+      "avatar": "https://cdn.xiaoten.com/friends/mout.me.png",
+      "feed_url": "https://ghost.mout.me/feed/",
+      "posts": []
     },
     {
       "name": "国安",
@@ -566,157 +566,6 @@
       ]
     },
     {
-      "name": "游钓四方",
-      "url": "https://blog.lhasa.icu/",
-      "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg",
-      "feed_url": "https://blog.lhasa.icu/rss.xml",
-      "posts": [
-        {
-          "title": "Linux 服务器翻墙",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/",
-          "description": "实现 Linux 服务器翻墙，解决 Miniflux 无法订阅 YouTube 和部分墙外博客的问题",
-          "pub_date": "2026-06-17T06:38:00+08:00",
-          "updated_at": "2026-06-17T06:38:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "订阅新姿势",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-miniflux/",
-          "description": "前几天逛网站发现一个自建订阅器：Miniflux v2...",
-          "pub_date": "2026-06-17T06:37:00+08:00",
-          "updated_at": "2026-06-17T06:37:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "Astro Lite 6",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/",
-          "description": "Astro Lite 6 主题文档整理，涵盖统一配置、排版、主题切换、无限滚动等核心特性",
-          "pub_date": "2026-06-11T16:15:00+08:00",
-          "updated_at": "2026-06-11T16:15:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "Photosuite EXIF 优化",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-09-photosuite-v0-5-0-beta/",
-          "description": "最近写新主题，迁移旧日志文件跑测试时，发现 Photosuite 有两个严重的问题",
-          "pub_date": "2026-06-10T10:39:00+08:00",
-          "updated_at": "2026-06-10T10:39:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "在纷杂的世界里保持专注",
-          "link": "https://blog.lhasa.icu/posts/life/2026-05-28-zhuanzhu/",
-          "description": "关于专注、留白与冥想的一些思考。从黑白摄影、建筑空间到腹式呼吸，重新理解注意力为何总在被世界悄悄偷走",
-          "pub_date": "2026-05-29T08:11:00+08:00",
-          "updated_at": "2026-05-29T08:11:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "低配服务器调优",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-05-25-low-end-server-tuning/",
-          "description": "一个月前，我在阿里云秒杀抢了台丐中丐，38元/年，2核 2G 40G...",
-          "pub_date": "2026-05-24T22:47:00+08:00",
-          "updated_at": "2026-05-24T22:47:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "Nikon 50 - 250 开箱小记",
-          "link": "https://blog.lhasa.icu/posts/photo/2026-04-30-nikon-50-250-kaixiang/",
-          "description": "Z30 + 1650 套机用了大概四个月...",
-          "pub_date": "2026-04-30T14:28:00+08:00",
-          "updated_at": "2026-04-30T14:28:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "三脚架到货了",
-          "link": "https://blog.lhasa.icu/posts/photo/2026-01-27-fotopro-x-aircross-3-lite/",
-          "description": "本文记录了作者购买和使用富宝图旗下新品空气三号 LITE 三脚架的经历，包括开箱、使用感受以及对产品质量的评价...",
-          "pub_date": "2026-01-26T16:17:00+08:00",
-          "updated_at": "2026-01-26T16:17:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "MySQL 要没落了",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-01-24-mysql/",
-          "description": "本文讨论了 MySQL 目前面临的困境，包括开发活跃度的下降、闭门造车的现象以及技术上的倒退，并分析了其未来的发展趋势和可能的替代方案...",
-          "pub_date": "2026-01-23T21:50:00+08:00",
-          "updated_at": "2026-01-23T21:50:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "杨公堤，湖上客船",
-          "link": "https://blog.lhasa.icu/posts/photo/2026-01-18-westlake-passenger-boat/",
-          "description": "杨公堤，湖上客船...",
-          "pub_date": "2026-01-18T15:50:00+08:00",
-          "updated_at": "2026-01-18T15:50:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "实现自动拼图",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-01-18-photosuite-0-1-3/",
-          "description": "本文介绍了 Photosuite 0.1.3 版本中新增的自动拼图功能，包括设计思路、实现细节以及相关算法的应用...",
-          "pub_date": "2026-01-18T15:48:00+08:00",
-          "updated_at": "2026-01-18T15:48:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "优化博客的交互细节",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-01-13-blog-update-theme-animation/",
-          "description": "本文介绍了博客最近的一些交互细节优化，包括主题切换动画和返回按钮的设计与实现...",
-          "pub_date": "2026-01-12T16:39:00+08:00",
-          "updated_at": "2026-01-12T16:39:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "晨跑，破六",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2026-01-07-morning-run-sub6/",
-          "description": "熟悉我的朋友都知道，我是一个懒人。懒得说话，懒得吃饭...",
-          "pub_date": "2026-01-07T12:12:00+08:00",
-          "updated_at": "2026-01-07T12:12:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        }
-      ]
-    },
-    {
       "name": "且听书吟",
       "url": "https://yufan.me",
       "avatar": "https://cdn.xiaoten.com/friends/yufan.svg",
@@ -960,6 +809,157 @@
           "site_name": "故事的程序猿",
           "site_url": "https://blog.lichenghao.cn",
           "avatar": "https://cdn.xiaoten.com/friends/lichenghao.svg"
+        }
+      ]
+    },
+    {
+      "name": "游钓四方",
+      "url": "https://blog.lhasa.icu/",
+      "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg",
+      "feed_url": "https://blog.lhasa.icu/rss.xml",
+      "posts": [
+        {
+          "title": "Linux 服务器翻墙",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/",
+          "description": "实现 Linux 服务器翻墙，解决 Miniflux 无法订阅 YouTube 和部分墙外博客的问题",
+          "pub_date": "2026-06-17T06:38:00+08:00",
+          "updated_at": "2026-06-17T06:38:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "订阅新姿势",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-miniflux/",
+          "description": "前几天逛网站发现一个自建订阅器：Miniflux v2...",
+          "pub_date": "2026-06-17T06:37:00+08:00",
+          "updated_at": "2026-06-17T06:37:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "Astro Lite 6",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/",
+          "description": "Astro Lite 6 主题文档整理，涵盖统一配置、排版、主题切换、无限滚动等核心特性",
+          "pub_date": "2026-06-11T16:15:00+08:00",
+          "updated_at": "2026-06-11T16:15:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "Photosuite EXIF 优化",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-09-photosuite-v0-5-0-beta/",
+          "description": "最近写新主题，迁移旧日志文件跑测试时，发现 Photosuite 有两个严重的问题",
+          "pub_date": "2026-06-10T10:39:00+08:00",
+          "updated_at": "2026-06-10T10:39:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "在纷杂的世界里保持专注",
+          "link": "https://blog.lhasa.icu/posts/life/2026-05-28-zhuanzhu/",
+          "description": "关于专注、留白与冥想的一些思考。从黑白摄影、建筑空间到腹式呼吸，重新理解注意力为何总在被世界悄悄偷走",
+          "pub_date": "2026-05-29T08:11:00+08:00",
+          "updated_at": "2026-05-29T08:11:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "低配服务器调优",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-05-25-low-end-server-tuning/",
+          "description": "一个月前，我在阿里云秒杀抢了台丐中丐，38元/年，2核 2G 40G...",
+          "pub_date": "2026-05-24T22:47:00+08:00",
+          "updated_at": "2026-05-24T22:47:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "Nikon 50 - 250 开箱小记",
+          "link": "https://blog.lhasa.icu/posts/photo/2026-04-30-nikon-50-250-kaixiang/",
+          "description": "Z30 + 1650 套机用了大概四个月...",
+          "pub_date": "2026-04-30T14:28:00+08:00",
+          "updated_at": "2026-04-30T14:28:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "三脚架到货了",
+          "link": "https://blog.lhasa.icu/posts/photo/2026-01-27-fotopro-x-aircross-3-lite/",
+          "description": "本文记录了作者购买和使用富宝图旗下新品空气三号 LITE 三脚架的经历，包括开箱、使用感受以及对产品质量的评价...",
+          "pub_date": "2026-01-26T16:17:00+08:00",
+          "updated_at": "2026-01-26T16:17:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "MySQL 要没落了",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-01-24-mysql/",
+          "description": "本文讨论了 MySQL 目前面临的困境，包括开发活跃度的下降、闭门造车的现象以及技术上的倒退，并分析了其未来的发展趋势和可能的替代方案...",
+          "pub_date": "2026-01-23T21:50:00+08:00",
+          "updated_at": "2026-01-23T21:50:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "杨公堤，湖上客船",
+          "link": "https://blog.lhasa.icu/posts/photo/2026-01-18-westlake-passenger-boat/",
+          "description": "杨公堤，湖上客船...",
+          "pub_date": "2026-01-18T15:50:00+08:00",
+          "updated_at": "2026-01-18T15:50:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "实现自动拼图",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-01-18-photosuite-0-1-3/",
+          "description": "本文介绍了 Photosuite 0.1.3 版本中新增的自动拼图功能，包括设计思路、实现细节以及相关算法的应用...",
+          "pub_date": "2026-01-18T15:48:00+08:00",
+          "updated_at": "2026-01-18T15:48:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "优化博客的交互细节",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-01-13-blog-update-theme-animation/",
+          "description": "本文介绍了博客最近的一些交互细节优化，包括主题切换动画和返回按钮的设计与实现...",
+          "pub_date": "2026-01-12T16:39:00+08:00",
+          "updated_at": "2026-01-12T16:39:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "晨跑，破六",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2026-01-07-morning-run-sub6/",
+          "description": "熟悉我的朋友都知道，我是一个懒人。懒得说话，懒得吃饭...",
+          "pub_date": "2026-01-07T12:12:00+08:00",
+          "updated_at": "2026-01-07T12:12:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
         }
       ]
     },
@@ -1535,6 +1535,17 @@
       "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
       "feed_url": "https://chrison.cn/feed/",
       "posts": [
+        {
+          "title": "心血来潮，Typecho换成了springboot+nuxt",
+          "link": "https://chrison.cn/live/480.html",
+          "description": "心血来潮，将程序从Typecho换成了springboot+nuxt 感觉还有很多没发现的地方要调整~ 很好，又给自己找了事干 嗯，就这样",
+          "pub_date": "2026-07-02T00:47:00+08:00",
+          "updated_at": "2026-07-02T00:47:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
         {
           "title": "兰州牛肉面VS兰州凉面",
           "link": "https://chrison.cn/live/474.html",
@@ -2735,25 +2746,6 @@
       ]
     },
     {
-      "name": "枋柚梓",
-      "url": "https://inkss.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
-      "feed_url": "https://inkss.cn/feed",
-      "posts": [
-        {
-          "title": "从 1Password 迁移到 Bitwarden：一次涨价引发的“搬家”",
-          "link": "https://inkss.cn/post/5a013cf6/",
-          "description": "因 1Password 订阅涨价 33%，从使用六年的 1Password 迁移到自部署的 Bitwarden。本文记录迁移的原因、过程，以及迁移后发现的不兼容问题。",
-          "pub_date": "2026-05-08T03:55:00+08:00",
-          "updated_at": "2026-05-17T08:45:00+08:00",
-          "author": "枋柚梓",
-          "site_name": "枋柚梓",
-          "site_url": "https://inkss.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
-        }
-      ]
-    },
-    {
       "name": "空白Koobai",
       "url": "https://koobai.com/",
       "avatar": "https://cdn.xiaoten.com/friends/koobai.webp",
@@ -3435,6 +3427,25 @@
       ]
     },
     {
+      "name": "枋柚梓",
+      "url": "https://inkss.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/inkss.avif",
+      "feed_url": "https://inkss.cn/feed",
+      "posts": [
+        {
+          "title": "从 1Password 迁移到 Bitwarden：一次涨价引发的“搬家”",
+          "link": "https://inkss.cn/post/5a013cf6/",
+          "description": "因 1Password 订阅涨价 33%，从使用六年的 1Password 迁移到自部署的 Bitwarden。本文记录迁移的原因、过程，以及迁移后发现的不兼容问题。",
+          "pub_date": "2026-05-08T03:55:00+08:00",
+          "updated_at": "2026-05-17T08:45:00+08:00",
+          "author": "枋柚梓",
+          "site_name": "枋柚梓",
+          "site_url": "https://inkss.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/inkss.avif"
+        }
+      ]
+    },
+    {
       "name": "竹炉山房",
       "url": "https://synyan.cn/t/",
       "avatar": "https://cdn.xiaoten.com/friends/synyan.webp",
@@ -3911,7 +3922,7 @@
       ],
       "stale": true,
       "stale_reason": "fetch_failed",
-      "last_error": "not_feed_format",
+      "last_error": "connection_error",
       "last_success_at": "2026-07-01T21:02:27.545156+08:00"
     },
     {
@@ -4038,6 +4049,17 @@
     }
   ],
   "all_posts": [
+    {
+      "title": "心血来潮，Typecho换成了springboot+nuxt",
+      "link": "https://chrison.cn/live/480.html",
+      "description": "心血来潮，将程序从Typecho换成了springboot+nuxt 感觉还有很多没发现的地方要调整~ 很好，又给自己找了事干 嗯，就这样",
+      "pub_date": "2026-07-02T00:47:00+08:00",
+      "updated_at": "2026-07-02T00:47:00+08:00",
+      "author": "",
+      "site_name": "目的地-Destination",
+      "site_url": "https://chrison.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+    },
     {
       "title": "松声｜廿六年·六月末·暑渐浓",
       "link": "https://xyzbz.cn/archives/1557/",
@@ -7801,7 +7823,7 @@
       "name": "安静角落",
       "url": "https://wuziya.com/",
       "feed_url": null,
-      "reason": "not_feed_format"
+      "reason": "connection_error"
     },
     {
       "name": "灰常记忆",
@@ -7813,7 +7835,7 @@
       "name": "友人C",
       "url": "https://www.ihewro.com",
       "feed_url": null,
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     }
   ],
   "skipped_sites": [

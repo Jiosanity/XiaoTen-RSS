@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-04T10:44:42.984281+08:00",
+  "updated_at": "2026-07-04T16:36:03.288708+08:00",
   "total_sites": 34,
-  "total_posts": 340,
+  "total_posts": 339,
   "sites": [
     {
       "name": "老孙博客",
@@ -126,25 +126,6 @@
       ]
     },
     {
-      "name": "黑石博客",
-      "url": "https://heson.me/",
-      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
-      "feed_url": "https://heson.me/feed/",
-      "posts": [
-        {
-          "title": "丢掉状态洁癖：用“破烂开始法则”练就恐怖执行力",
-          "link": "https://heson.me/life/51.html",
-          "description": "[card title=\"分享说明：\" color=\"info\"]本文整理自一篇关于执行力与“状态洁癖”的深度分享，核心观点“破烂开始法则”对我启发颇深。真正的成长，始于接纳不完美的自己与现状，...",
-          "pub_date": "2026-03-22T09:43:00+08:00",
-          "updated_at": "2026-03-22T09:43:00+08:00",
-          "author": "HESON",
-          "site_name": "黑石博客",
-          "site_url": "https://heson.me/",
-          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
-        }
-      ]
-    },
-    {
       "name": "小白大学渣",
       "url": "https://www.baihub.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg",
@@ -160,6 +141,25 @@
           "site_name": "小白大学渣",
           "site_url": "https://www.baihub.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/baihub.jpg"
+        }
+      ]
+    },
+    {
+      "name": "黑石博客",
+      "url": "https://heson.me/",
+      "avatar": "https://cdn.xiaoten.com/friends/heson.webp",
+      "feed_url": "https://heson.me/feed/",
+      "posts": [
+        {
+          "title": "丢掉状态洁癖：用“破烂开始法则”练就恐怖执行力",
+          "link": "https://heson.me/life/51.html",
+          "description": "[card title=\"分享说明：\" color=\"info\"]本文整理自一篇关于执行力与“状态洁癖”的深度分享，核心观点“破烂开始法则”对我启发颇深。真正的成长，始于接纳不完美的自己与现状，...",
+          "pub_date": "2026-03-22T09:43:00+08:00",
+          "updated_at": "2026-03-22T09:43:00+08:00",
+          "author": "HESON",
+          "site_name": "黑石博客",
+          "site_url": "https://heson.me/",
+          "avatar": "https://cdn.xiaoten.com/friends/heson.webp"
         }
       ]
     },
@@ -208,17 +208,6 @@
           "description": "去年年底，阿里云悄咪咪上线了一个 Supabase 平台，最吸引人的就是`阿里云原生数据仓库 AnalyticDB PostgreSQL版` 下多了免费的1核2G PostgreSQL 数据库。\n\n当然，每人只能创建一台。\n\n![](./后台.avif)\n\n介绍也一如既往鸡贼，跟ESA免费版一样，注明了仅用于开发测试。信他就是对羊毛党的不尊重，薅它就完事了。\n\n![](./费用说明.avif)\n\n## 创建免费测试\n\n打开：\n\n![](./image.avif)\n\n注意要选择地区，首批 Supabase PostgreSQL 支持的地区不全，比如就没有广州地区，无伤大雅，直接离服务器最近的。\n\n![](./image.png)\n\n一般来说，如果没有杭州地区的阿里云服务器，**专有网络**和**专有网络交换机**是空的，需要去[阿里云VPC控制台](https://vpc.console.aliyun.com/vpc/cn-hangzhou/vpcs)创建，要记住这里的**可用区**（杭州 可用区J）。\n\n![](./image-1.avif)\n\n创建专有网络，可用区要与上方一样\n\n![](./QQ_1768283510171.avif)\n\n回到创建项目，就可以看到专有网络存在了，ip白名单填写自己服务器IP。\n\n![](./QQ_1768283694194.avif)\n\n如果服务器也是在同一个专有网络里，就可以走内网连接，速度非常块。\n\n也可以不设白名单，直接0.0.0.0暴露公网，给其他不确定IP的服务使用，如Vercel、Dokploy...\n\n## 1panel添加远程服务器\n\n![](./image-1.png)\n\n![](./image-2.png)\n\n用户名默认是：postgres\n\n数据库地址填外网连接地址，可以在阿里云Supabase PostgreSQL 基本信息里查看。\n\n```text\n项目ID.supabase.opentrust.net\n```\n\n![](./QQ_1768284353426.avif)\n\n## 性能测试\n\n毕竟是免费，公网连接，网络物理延迟是性能的瓶颈，Debuff叠满了，测试仅供图一乐。\n\n* 测试软件：pgbench\n* 连接方式：公网\n* 地区：深圳->广州\n\n### 标准压力测试\n\n* 10 个并发连接\n* 2 个线程\n* 30 秒\n* 5 秒 报告一次\n\n```bash\npgbench -h spb-*.supabase.opentrust.net -p 5432 -U postgres -c 10 -j 2 -T 30 -P 5 test\nPassword:\n\npgbench (18.1, server 15.8)\nstarting vacuum...end.\nprogress: 5.0 s, 38.4 tps, lat 233.286 ms stddev 95.465, 0 failed\nprogress: 10.0 s, 42.2 tps, lat 236.762 ms stddev 56.552, 0 failed\nprogress: 15.0 s, 42.4 tps, lat 236.857 ms stddev 48.884, 0 failed\nprogress: 20.0 s, 42.4 tps, lat 235.358 ms stddev 52.196, 0 failed\nprogress: 25.0 s, 42.4 tps, lat 236.359 ms stddev 49.955, 0 failed\nprogress: 30.0 s, 42.4 tps, lat 235.453 ms stddev 41.865, 0 failed\ntransaction type: \nscaling factor: 1\nquery mode: simple\nnumber of clients: 10\nnumber of threads: 2\nmaximum number of tries: 1\nduration: 30 s\nnumber of transactions actually processed: 1261\nnumber of failed transactions: 0 (0.000%)\nlatency average = 235.723 ms\nlatency stddev = 59.334 ms\ninitial connection time = 398.050 ms\ntps = 42.248489 (without initial connection time)\n```\n\n如果是公网链接，并不适合做读写频繁的业务，42 TPS拉到裤子里了。\n\n### 只读模式\n\n* 20 个并发连接\n* 30 秒\n\n```bash\npgbench -h spb-*.supabase.opentrust.net -p 5432 -U postgres -S -c 20 -T 30 test\nPassword:\n\npgbench (18.1, server 15.8)\nstarting vacuum...end.\ntransaction type: \nscaling factor: 1\nquery mode: simple\nnumber of clients: 20\nnumber of threads: 1\nmaximum number of tries: 1\nduration: 30 s\nnumber of transactions actually processed: 51865\nnumber of failed transactions: 0 (0.000%)\nlatency average = 10.917 ms\ninitial connection time = 1715.783 ms\ntps = 1832.048180 (without initial connection time)\n```\n\n只读性能倒是非常优秀，适合SQL轻写入的项目。\n\n## 总结\n\n目前，该免费版本目前 **没有试用时长或次数限制** ，但阿里云保留未来调整免费策略的权利，并会通过公告等方式提前通知。\n\n且用且珍惜吧。",
           "pub_date": "2026-01-13T07:35:54+08:00",
           "updated_at": "2026-01-13T07:35:54+08:00",
-          "author": "Miniwater",
-          "site_name": "手里有只毛毛虫",
-          "site_url": "https://www.krjojo.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-        },
-        {
-          "title": "上手：五块钱的目村眼镜",
-          "link": "https://www.krjojo.com/%E4%B8%8A%E6%89%8B%EF%BC%9A%E7%9B%AE%E6%9D%91%E7%9A%84%E4%BA%94%E5%9D%97%E9%92%B1%E7%9C%BC%E9%95%9C/",
-          "description": "## 前因\n\n上上周在抖音刷到了四块八配眼镜，价格给我惊呆了，门店正好在商业街附近，叫上近视的朋友一起探店。\n\n![](./抖音.avif)\n\n四分之一奶茶钱\n\n![](./详情.avif)\n\n还包含验光\n\n到了门店，在规定区域挑一副镜框，然后排队拿号验光就可以离开了，眼镜做好后微信会收到通知。\n\n这个套餐的镜框都是没有鼻托的。（理论上可以拿自己旧眼镜的镜框去配，想起家里还有个钛金属镜框）\n\n参与活动的人挺多，等眼镜做好已经是四天后了。\n\n## 到手\n\n![](./到手.avif)\n\n全家福\n\n一瓶未知成分的清洁剂，眼镜盒，眼镜布，眼镜本体\n\n没有鼻托的眼镜\n\n（其实还给了礼品袋装起来，懒得拍了）\n\n![](./新眼镜.avif)\n\n## 测试\n\n我是左平视，右50近视+50散光。\n\n![](./近视.avif)\n\n近视的自我检测\n\n1. 近视眼患者看到的图是个戴眼镜，齐耳短发的女人。\n2. 非近视眼患者看到的则只是竖条，视力好的还可以看出阴影。\n\n![](./散光.webp)\n\n散光的自我检测\n\n1. 分别用左右裸眼观看上图；\n2. 保持手机与眼睛同高，从远到近移动手机，直达刚好可以看清图中线条，保持此位置；\n3. 双眼分别分辨图中虚线的粗细、深浅。\n\n**分析：**\n\n* 若看到所有虚线均匀分布，没有特别的深浅、长短之分，则基本没有散光现象；\n* 若看到某条虚线特别黑亮，与其他虚线明显有区别，说明眼睛有一定程度散光，且改方向的位置则是被测者的**散光轴位**。\n\n不放心，又尝试了一下[蔡司在线视力筛选检查](https://www.zeiss.com.cn/vision-care/eye-health-and-care/zeiss-online-vision-screening-check.html)。\n\n近视的右眼一切正常，反而把平时的左眼轻微散光测出来了。\n\n![](./散光.avif)\n\n## 体验\n\n这眼镜戴了两天，不知道是不是没习惯过来，还是说第一次戴厚边框的眼镜，还是说镜框太重没鼻托，戴久了会有一点酸胀感。\n\n然后带起来会偏色，像是套了一层黄色滤镜，不过我看网上说老款防蓝光滤镜都会偏黄色，应该是正常吧。\n\n看来五块钱的羊毛不好薅啊，又戴回旧眼镜了。",
-          "pub_date": "2026-01-05T12:55:16+08:00",
-          "updated_at": "2026-01-05T12:55:16+08:00",
           "author": "Miniwater",
           "site_name": "手里有只毛毛虫",
           "site_url": "https://www.krjojo.com/",
@@ -352,220 +341,6 @@
       ]
     },
     {
-      "name": "网友小宋",
-      "url": "https://xyzbz.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
-      "feed_url": "https://xyzbz.cn/feed/",
-      "posts": [
-        {
-          "title": "松声｜廿六年·六月末·暑渐浓",
-          "link": "https://xyzbz.cn/archives/1557/",
-          "description": "身体重要同事心梗，也是听到其他同事说的，之前好奇朋友圈怎么发了一个在医院的照片，毕竟到年纪了，家里有个人生病住院，还是可以理解的，没想到却是同事自己，闲言碎语了解得知好像植了四个支架。多少有点感...",
-          "pub_date": "2026-07-01T21:54:35+08:00",
-          "updated_at": "2026-07-01T21:54:35+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "初夏荷花开-2026",
-          "link": "https://xyzbz.cn/archives/1553/",
-          "description": "今年就这么多了。不写点东西，主页样式会出现问题，所以，得写点东西，相比去年，今年设备升级了，买了个微单，虽然是狗头，但是整体还行，后面有时间会买个长焦玩玩。",
-          "pub_date": "2026-06-26T23:07:00+08:00",
-          "updated_at": "2026-06-26T23:07:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·六月中·荷花开",
-          "link": "https://xyzbz.cn/archives/1550/",
-          "description": "荷花开又到了一年荷花开的季节，按照往年的经验，应该是月底盛开，月初的时候便想去看看，提前一天和大宝约定早上吃热干面，一早大宝在家少吃了一点，便开车去老家的一处热干面摊，吃完后便去了念祖湖，远远望...",
-          "pub_date": "2026-06-15T14:49:00+08:00",
-          "updated_at": "2026-06-15T14:49:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·五月末·麦黄收",
-          "link": "https://xyzbz.cn/archives/1549/",
-          "description": "麦收[photos]      [/photos]又到了一年一度麦收季节，今年的初期的天气不是很好，互联网上乱七八糟的声音，什么割四赔五，虽然有一些老鼠屎，但是大部分人还是非常好的。说起收麦，我...",
-          "pub_date": "2026-05-31T23:59:00+08:00",
-          "updated_at": "2026-05-31T23:59:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·五月行·小商桥",
-          "link": "https://xyzbz.cn/archives/1543/",
-          "description": "写了一堆废话，发现不适合作为游记的开始，所以写了很多移到五月末的文章里面了。趁着周末没啥事，带着大宝出去转转，不带二宝主要原因是带不动哈！在大一点就好了，从老家到小商桥竟然跑了一个小时，红灯15...",
-          "pub_date": "2026-05-28T22:47:00+08:00",
-          "updated_at": "2026-05-28T22:47:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·五月中·柳絮飞",
-          "link": "https://xyzbz.cn/archives/1534/",
-          "description": "婚礼今年难得五一放假，小舅子结婚，ld也专门调休到这几天，大早上的开始满县城拉人，新娘是外地的，父母前一晚来我们县城，小舅子新房和工作都在漯河，酒席是在我们县城办的，大概流程就是，新娘和家人在我...",
-          "pub_date": "2026-05-17T14:54:35+08:00",
-          "updated_at": "2026-05-17T14:54:35+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·五一行·信阳游",
-          "link": "https://xyzbz.cn/archives/1532/",
-          "description": "河边风景今年五一休息，主要原因是小舅子结婚，这个小家庭所有人的假期调度尽可能往这边跟随，工作了这么多年，所处的这个行业，假期休息很多时候是随机的，但是今年不行，这不去得宇宙爆炸。回老家处理一些事...",
-          "pub_date": "2026-05-07T14:12:00+08:00",
-          "updated_at": "2026-05-07T14:12:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·四月末·春日末",
-          "link": "https://xyzbz.cn/archives/1530/",
-          "description": "户外烧烤赶上四月末，趁着一个好天气的周六，约上朋友一起去烧烤，原本三组家庭一起的，最后有一组家里有事实在来不了，大家都是调休才能全家聚到一起的，烧烤还是需要进行的，上午准备东西，中午带着露营行头...",
-          "pub_date": "2026-04-30T14:48:00+08:00",
-          "updated_at": "2026-04-30T14:48:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "松声｜廿六年·四月中·桐花开",
-          "link": "https://xyzbz.cn/archives/1526/",
-          "description": "春天的风景春天多出去转转，感受春天带来一丝万物生长的气息，调节自己疲惫的身心。[photos][/photos][photos][/photos][photos][/photos]定期四季定期景...",
-          "pub_date": "2026-04-16T03:28:00+08:00",
-          "updated_at": "2026-04-16T03:28:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        },
-        {
-          "title": "Docker部署Cups-Web网页打印机",
-          "link": "https://xyzbz.cn/archives/1525/",
-          "description": "始很难遇到的一个不错的打印机项目，毕竟cups单用的话太丑了，配合web端完美正解。有需要可以自部署。项目地址：hanxi/cups-web功能特点：核心功能远程打印：随时随地通过网页上传文件进...",
-          "pub_date": "2026-04-12T07:13:00+08:00",
-          "updated_at": "2026-04-12T07:13:00+08:00",
-          "author": "网友小宋",
-          "site_name": "网友小宋",
-          "site_url": "https://xyzbz.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
-        }
-      ]
-    },
-    {
-      "name": "雅余",
-      "url": "https://yayu.net/",
-      "avatar": "https://cdn.xiaoten.com/friends/yayu.png",
-      "feed_url": "https://yayu.net/feed/",
-      "posts": [
-        {
-          "title": "日常漫步 Vol.24 之漫步前山河",
-          "link": "https://yayu.net/6229.html",
-          "description": "曾多次提及前山河（1、2），日常两点一线的路途恰好傍河而行，时常泊车漫步河边。顺境欢欣、逆境怅然，所有心绪都能 [&#8230;]",
-          "pub_date": "2026-05-31T14:00:54+08:00",
-          "updated_at": "2026-05-31T14:00:54+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "动物朋友",
-          "link": "https://yayu.net/6218.html",
-          "description": "萌宠乐园～ 和动物朋友亲密接触。 By 徕卡 D-LUX8",
-          "pub_date": "2026-04-30T14:13:22+08:00",
-          "updated_at": "2026-04-30T14:13:22+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "黑白练习",
-          "link": "https://yayu.net/6213.html",
-          "description": "好一段时间没拍，生怕生疏了，午休的间隙做个练习。断更的50余天里，很忙。春节返工后就一直忙碌，忙工作，忙生活，所幸忙碌并快乐着。愿诸位一切安好！",
-          "pub_date": "2026-03-29T12:34:37+08:00",
-          "updated_at": "2026-03-29T12:34:37+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "访澳门国父纪念馆",
-          "link": "https://yayu.net/6192.html",
-          "description": "澳门国父纪念馆，顾名思义是纪念中国近代民族民主主义革命的开拓者，中国民主革命伟大先行者，中华民国和中国国民党缔 [&#8230;]",
-          "pub_date": "2026-02-03T13:00:41+08:00",
-          "updated_at": "2026-02-03T13:00:41+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "澳门东望洋炮台与大炮台",
-          "link": "https://yayu.net/6171.html",
-          "description": "在澳门街头游走，走街串巷，还经过了两个重要的历史遗迹和重要景点，东望洋炮台和大炮台。 东望洋炮台（葡萄牙语：F [&#8230;]",
-          "pub_date": "2026-01-28T14:10:57+08:00",
-          "updated_at": "2026-01-28T14:10:57+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "日常漫步 Vol.23 之澳门街头",
-          "link": "https://yayu.net/6158.html",
-          "description": "澳门走街串巷续集。 By 理光 GR3，怀旧风格滤镜",
-          "pub_date": "2026-01-24T12:38:57+08:00",
-          "updated_at": "2026-01-24T12:38:57+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "日常漫步 Vol.22 之澳门走街串巷",
-          "link": "https://yayu.net/6117.html",
-          "description": "又是一次没有明确目的地的澳门漫步，专门往人少的巷子钻，随性扫街，一共走了16公里。从湾仔码头坐船过澳门下船后， [&#8230;]",
-          "pub_date": "2026-01-19T13:49:16+08:00",
-          "updated_at": "2026-01-19T13:49:16+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        },
-        {
-          "title": "中山金钟水库10公里环湖漫步",
-          "link": "https://yayu.net/6086.html",
-          "description": "上个月打卡中山金钟水库红杉树后，一湖碧色与层林红韵便一直让人惦记着。元旦赶上好天气，就又去绕着水库走了一圈。官 [&#8230;]",
-          "pub_date": "2026-01-07T15:26:47+08:00",
-          "updated_at": "2026-01-07T15:26:47+08:00",
-          "author": "雅余",
-          "site_name": "雅余",
-          "site_url": "https://yayu.net/",
-          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
-        }
-      ]
-    },
-    {
       "name": "安静角落",
       "url": "https://wuziya.com/",
       "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp",
@@ -669,6 +444,253 @@
           "site_name": "安静角落",
           "site_url": "https://wuziya.com/",
           "avatar": "https://cdn.xiaoten.com/friends/wuziya.webp"
+        }
+      ]
+    },
+    {
+      "name": "雅余",
+      "url": "https://yayu.net/",
+      "avatar": "https://cdn.xiaoten.com/friends/yayu.png",
+      "feed_url": "https://yayu.net/feed/",
+      "posts": [
+        {
+          "title": "日常漫步 Vol.24 之漫步前山河",
+          "link": "https://yayu.net/6229.html",
+          "description": "曾多次提及前山河（1、2），日常两点一线的路途恰好傍河而行，时常泊车漫步河边。顺境欢欣、逆境怅然，所有心绪都能 [&#8230;]",
+          "pub_date": "2026-05-31T14:00:54+08:00",
+          "updated_at": "2026-05-31T14:00:54+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "动物朋友",
+          "link": "https://yayu.net/6218.html",
+          "description": "萌宠乐园～ 和动物朋友亲密接触。 By 徕卡 D-LUX8",
+          "pub_date": "2026-04-30T14:13:22+08:00",
+          "updated_at": "2026-04-30T14:13:22+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "黑白练习",
+          "link": "https://yayu.net/6213.html",
+          "description": "好一段时间没拍，生怕生疏了，午休的间隙做个练习。断更的50余天里，很忙。春节返工后就一直忙碌，忙工作，忙生活，所幸忙碌并快乐着。愿诸位一切安好！",
+          "pub_date": "2026-03-29T12:34:37+08:00",
+          "updated_at": "2026-03-29T12:34:37+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "访澳门国父纪念馆",
+          "link": "https://yayu.net/6192.html",
+          "description": "澳门国父纪念馆，顾名思义是纪念中国近代民族民主主义革命的开拓者，中国民主革命伟大先行者，中华民国和中国国民党缔 [&#8230;]",
+          "pub_date": "2026-02-03T13:00:41+08:00",
+          "updated_at": "2026-02-03T13:00:41+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "澳门东望洋炮台与大炮台",
+          "link": "https://yayu.net/6171.html",
+          "description": "在澳门街头游走，走街串巷，还经过了两个重要的历史遗迹和重要景点，东望洋炮台和大炮台。 东望洋炮台（葡萄牙语：F [&#8230;]",
+          "pub_date": "2026-01-28T14:10:57+08:00",
+          "updated_at": "2026-01-28T14:10:57+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "日常漫步 Vol.23 之澳门街头",
+          "link": "https://yayu.net/6158.html",
+          "description": "澳门走街串巷续集。 By 理光 GR3，怀旧风格滤镜",
+          "pub_date": "2026-01-24T12:38:57+08:00",
+          "updated_at": "2026-01-24T12:38:57+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "日常漫步 Vol.22 之澳门走街串巷",
+          "link": "https://yayu.net/6117.html",
+          "description": "又是一次没有明确目的地的澳门漫步，专门往人少的巷子钻，随性扫街，一共走了16公里。从湾仔码头坐船过澳门下船后， [&#8230;]",
+          "pub_date": "2026-01-19T13:49:16+08:00",
+          "updated_at": "2026-01-19T13:49:16+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        },
+        {
+          "title": "中山金钟水库10公里环湖漫步",
+          "link": "https://yayu.net/6086.html",
+          "description": "上个月打卡中山金钟水库红杉树后，一湖碧色与层林红韵便一直让人惦记着。元旦赶上好天气，就又去绕着水库走了一圈。官 [&#8230;]",
+          "pub_date": "2026-01-07T15:26:47+08:00",
+          "updated_at": "2026-01-07T15:26:47+08:00",
+          "author": "雅余",
+          "site_name": "雅余",
+          "site_url": "https://yayu.net/",
+          "avatar": "https://cdn.xiaoten.com/friends/yayu.png"
+        }
+      ]
+    },
+    {
+      "name": "游钓四方",
+      "url": "https://blog.lhasa.icu/",
+      "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg",
+      "feed_url": "https://blog.lhasa.icu/rss.xml",
+      "posts": [
+        {
+          "title": "Linux 服务器翻墙",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/",
+          "description": "实现 Linux 服务器翻墙，解决 Miniflux 无法订阅 YouTube 和部分墙外博客的问题",
+          "pub_date": "2026-06-17T06:38:00+08:00",
+          "updated_at": "2026-06-17T06:38:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "订阅新姿势",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-miniflux/",
+          "description": "前几天逛网站发现一个自建订阅器：Miniflux v2...",
+          "pub_date": "2026-06-17T06:37:00+08:00",
+          "updated_at": "2026-06-17T06:37:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "Astro Lite 6",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/",
+          "description": "Astro Lite 6 主题文档整理，涵盖统一配置、排版、主题切换、无限滚动等核心特性",
+          "pub_date": "2026-06-11T16:15:00+08:00",
+          "updated_at": "2026-06-11T16:15:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "Photosuite EXIF 优化",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-06-09-photosuite-v0-5-0-beta/",
+          "description": "最近写新主题，迁移旧日志文件跑测试时，发现 Photosuite 有两个严重的问题",
+          "pub_date": "2026-06-10T10:39:00+08:00",
+          "updated_at": "2026-06-10T10:39:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "在纷杂的世界里保持专注",
+          "link": "https://blog.lhasa.icu/posts/life/2026-05-28-zhuanzhu/",
+          "description": "关于专注、留白与冥想的一些思考。从黑白摄影、建筑空间到腹式呼吸，重新理解注意力为何总在被世界悄悄偷走",
+          "pub_date": "2026-05-29T08:11:00+08:00",
+          "updated_at": "2026-05-29T08:11:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "低配服务器调优",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-05-25-low-end-server-tuning/",
+          "description": "一个月前，我在阿里云秒杀抢了台丐中丐，38元/年，2核 2G 40G...",
+          "pub_date": "2026-05-24T22:47:00+08:00",
+          "updated_at": "2026-05-24T22:47:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "Nikon 50 - 250 开箱小记",
+          "link": "https://blog.lhasa.icu/posts/photo/2026-04-30-nikon-50-250-kaixiang/",
+          "description": "Z30 + 1650 套机用了大概四个月...",
+          "pub_date": "2026-04-30T14:28:00+08:00",
+          "updated_at": "2026-04-30T14:28:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "三脚架到货了",
+          "link": "https://blog.lhasa.icu/posts/photo/2026-01-27-fotopro-x-aircross-3-lite/",
+          "description": "本文记录了作者购买和使用富宝图旗下新品空气三号 LITE 三脚架的经历，包括开箱、使用感受以及对产品质量的评价...",
+          "pub_date": "2026-01-26T16:17:00+08:00",
+          "updated_at": "2026-01-26T16:17:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "MySQL 要没落了",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-01-24-mysql/",
+          "description": "本文讨论了 MySQL 目前面临的困境，包括开发活跃度的下降、闭门造车的现象以及技术上的倒退，并分析了其未来的发展趋势和可能的替代方案...",
+          "pub_date": "2026-01-23T21:50:00+08:00",
+          "updated_at": "2026-01-23T21:50:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "杨公堤，湖上客船",
+          "link": "https://blog.lhasa.icu/posts/photo/2026-01-18-westlake-passenger-boat/",
+          "description": "杨公堤，湖上客船...",
+          "pub_date": "2026-01-18T15:50:00+08:00",
+          "updated_at": "2026-01-18T15:50:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "实现自动拼图",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-01-18-photosuite-0-1-3/",
+          "description": "本文介绍了 Photosuite 0.1.3 版本中新增的自动拼图功能，包括设计思路、实现细节以及相关算法的应用...",
+          "pub_date": "2026-01-18T15:48:00+08:00",
+          "updated_at": "2026-01-18T15:48:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "优化博客的交互细节",
+          "link": "https://blog.lhasa.icu/posts/technology/2026-01-13-blog-update-theme-animation/",
+          "description": "本文介绍了博客最近的一些交互细节优化，包括主题切换动画和返回按钮的设计与实现...",
+          "pub_date": "2026-01-12T16:39:00+08:00",
+          "updated_at": "2026-01-12T16:39:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
+        },
+        {
+          "title": "晨跑，破六",
+          "link": "https://blog.lhasa.icu/posts/outdoors/2026-01-07-morning-run-sub6/",
+          "description": "熟悉我的朋友都知道，我是一个懒人。懒得说话，懒得吃饭...",
+          "pub_date": "2026-01-07T12:12:00+08:00",
+          "updated_at": "2026-01-07T12:12:00+08:00",
+          "author": "",
+          "site_name": "游钓四方",
+          "site_url": "https://blog.lhasa.icu/",
+          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
         }
       ]
     },
@@ -916,157 +938,6 @@
           "site_name": "且听书吟",
           "site_url": "https://yufan.me",
           "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
-        }
-      ]
-    },
-    {
-      "name": "游钓四方",
-      "url": "https://blog.lhasa.icu/",
-      "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg",
-      "feed_url": "https://blog.lhasa.icu/rss.xml",
-      "posts": [
-        {
-          "title": "Linux 服务器翻墙",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/",
-          "description": "实现 Linux 服务器翻墙，解决 Miniflux 无法订阅 YouTube 和部分墙外博客的问题",
-          "pub_date": "2026-06-17T06:38:00+08:00",
-          "updated_at": "2026-06-17T06:38:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "订阅新姿势",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-17-miniflux/",
-          "description": "前几天逛网站发现一个自建订阅器：Miniflux v2...",
-          "pub_date": "2026-06-17T06:37:00+08:00",
-          "updated_at": "2026-06-17T06:37:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "Astro Lite 6",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/",
-          "description": "Astro Lite 6 主题文档整理，涵盖统一配置、排版、主题切换、无限滚动等核心特性",
-          "pub_date": "2026-06-11T16:15:00+08:00",
-          "updated_at": "2026-06-11T16:15:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "Photosuite EXIF 优化",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-06-09-photosuite-v0-5-0-beta/",
-          "description": "最近写新主题，迁移旧日志文件跑测试时，发现 Photosuite 有两个严重的问题",
-          "pub_date": "2026-06-10T10:39:00+08:00",
-          "updated_at": "2026-06-10T10:39:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "在纷杂的世界里保持专注",
-          "link": "https://blog.lhasa.icu/posts/life/2026-05-28-zhuanzhu/",
-          "description": "关于专注、留白与冥想的一些思考。从黑白摄影、建筑空间到腹式呼吸，重新理解注意力为何总在被世界悄悄偷走",
-          "pub_date": "2026-05-29T08:11:00+08:00",
-          "updated_at": "2026-05-29T08:11:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "低配服务器调优",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-05-25-low-end-server-tuning/",
-          "description": "一个月前，我在阿里云秒杀抢了台丐中丐，38元/年，2核 2G 40G...",
-          "pub_date": "2026-05-24T22:47:00+08:00",
-          "updated_at": "2026-05-24T22:47:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "Nikon 50 - 250 开箱小记",
-          "link": "https://blog.lhasa.icu/posts/photo/2026-04-30-nikon-50-250-kaixiang/",
-          "description": "Z30 + 1650 套机用了大概四个月...",
-          "pub_date": "2026-04-30T14:28:00+08:00",
-          "updated_at": "2026-04-30T14:28:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "三脚架到货了",
-          "link": "https://blog.lhasa.icu/posts/photo/2026-01-27-fotopro-x-aircross-3-lite/",
-          "description": "本文记录了作者购买和使用富宝图旗下新品空气三号 LITE 三脚架的经历，包括开箱、使用感受以及对产品质量的评价...",
-          "pub_date": "2026-01-26T16:17:00+08:00",
-          "updated_at": "2026-01-26T16:17:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "MySQL 要没落了",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-01-24-mysql/",
-          "description": "本文讨论了 MySQL 目前面临的困境，包括开发活跃度的下降、闭门造车的现象以及技术上的倒退，并分析了其未来的发展趋势和可能的替代方案...",
-          "pub_date": "2026-01-23T21:50:00+08:00",
-          "updated_at": "2026-01-23T21:50:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "杨公堤，湖上客船",
-          "link": "https://blog.lhasa.icu/posts/photo/2026-01-18-westlake-passenger-boat/",
-          "description": "杨公堤，湖上客船...",
-          "pub_date": "2026-01-18T15:50:00+08:00",
-          "updated_at": "2026-01-18T15:50:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "实现自动拼图",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-01-18-photosuite-0-1-3/",
-          "description": "本文介绍了 Photosuite 0.1.3 版本中新增的自动拼图功能，包括设计思路、实现细节以及相关算法的应用...",
-          "pub_date": "2026-01-18T15:48:00+08:00",
-          "updated_at": "2026-01-18T15:48:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "优化博客的交互细节",
-          "link": "https://blog.lhasa.icu/posts/technology/2026-01-13-blog-update-theme-animation/",
-          "description": "本文介绍了博客最近的一些交互细节优化，包括主题切换动画和返回按钮的设计与实现...",
-          "pub_date": "2026-01-12T16:39:00+08:00",
-          "updated_at": "2026-01-12T16:39:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
-        },
-        {
-          "title": "晨跑，破六",
-          "link": "https://blog.lhasa.icu/posts/outdoors/2026-01-07-morning-run-sub6/",
-          "description": "熟悉我的朋友都知道，我是一个懒人。懒得说话，懒得吃饭...",
-          "pub_date": "2026-01-07T12:12:00+08:00",
-          "updated_at": "2026-01-07T12:12:00+08:00",
-          "author": "",
-          "site_name": "游钓四方",
-          "site_url": "https://blog.lhasa.icu/",
-          "avatar": "https://cdn.xiaoten.com/friends/lhasa.svg"
         }
       ]
     },
@@ -1637,6 +1508,374 @@
       ]
     },
     {
+      "name": "网友小宋",
+      "url": "https://xyzbz.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png",
+      "feed_url": "https://xyzbz.cn/feed/",
+      "posts": [
+        {
+          "title": "松声｜廿六年·六月末·暑渐浓",
+          "link": "https://xyzbz.cn/archives/1557/",
+          "description": "身体重要同事心梗，也是听到其他同事说的，之前好奇朋友圈怎么发了一个在医院的照片，毕竟到年纪了，家里有个人生病住院，还是可以理解的，没想到却是同事自己，闲言碎语了解得知好像植了四个支架。多少有点感...",
+          "pub_date": "2026-07-01T21:54:35+08:00",
+          "updated_at": "2026-07-01T21:54:35+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "初夏荷花开-2026",
+          "link": "https://xyzbz.cn/archives/1553/",
+          "description": "今年就这么多了。不写点东西，主页样式会出现问题，所以，得写点东西，相比去年，今年设备升级了，买了个微单，虽然是狗头，但是整体还行，后面有时间会买个长焦玩玩。",
+          "pub_date": "2026-06-26T23:07:00+08:00",
+          "updated_at": "2026-06-26T23:07:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·六月中·荷花开",
+          "link": "https://xyzbz.cn/archives/1550/",
+          "description": "荷花开又到了一年荷花开的季节，按照往年的经验，应该是月底盛开，月初的时候便想去看看，提前一天和大宝约定早上吃热干面，一早大宝在家少吃了一点，便开车去老家的一处热干面摊，吃完后便去了念祖湖，远远望...",
+          "pub_date": "2026-06-15T14:49:00+08:00",
+          "updated_at": "2026-06-15T14:49:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·五月末·麦黄收",
+          "link": "https://xyzbz.cn/archives/1549/",
+          "description": "麦收[photos]      [/photos]又到了一年一度麦收季节，今年的初期的天气不是很好，互联网上乱七八糟的声音，什么割四赔五，虽然有一些老鼠屎，但是大部分人还是非常好的。说起收麦，我...",
+          "pub_date": "2026-05-31T23:59:00+08:00",
+          "updated_at": "2026-05-31T23:59:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·五月行·小商桥",
+          "link": "https://xyzbz.cn/archives/1543/",
+          "description": "写了一堆废话，发现不适合作为游记的开始，所以写了很多移到五月末的文章里面了。趁着周末没啥事，带着大宝出去转转，不带二宝主要原因是带不动哈！在大一点就好了，从老家到小商桥竟然跑了一个小时，红灯15...",
+          "pub_date": "2026-05-28T22:47:00+08:00",
+          "updated_at": "2026-05-28T22:47:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·五月中·柳絮飞",
+          "link": "https://xyzbz.cn/archives/1534/",
+          "description": "婚礼今年难得五一放假，小舅子结婚，ld也专门调休到这几天，大早上的开始满县城拉人，新娘是外地的，父母前一晚来我们县城，小舅子新房和工作都在漯河，酒席是在我们县城办的，大概流程就是，新娘和家人在我...",
+          "pub_date": "2026-05-17T14:54:35+08:00",
+          "updated_at": "2026-05-17T14:54:35+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·五一行·信阳游",
+          "link": "https://xyzbz.cn/archives/1532/",
+          "description": "河边风景今年五一休息，主要原因是小舅子结婚，这个小家庭所有人的假期调度尽可能往这边跟随，工作了这么多年，所处的这个行业，假期休息很多时候是随机的，但是今年不行，这不去得宇宙爆炸。回老家处理一些事...",
+          "pub_date": "2026-05-07T14:12:00+08:00",
+          "updated_at": "2026-05-07T14:12:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·四月末·春日末",
+          "link": "https://xyzbz.cn/archives/1530/",
+          "description": "户外烧烤赶上四月末，趁着一个好天气的周六，约上朋友一起去烧烤，原本三组家庭一起的，最后有一组家里有事实在来不了，大家都是调休才能全家聚到一起的，烧烤还是需要进行的，上午准备东西，中午带着露营行头...",
+          "pub_date": "2026-04-30T14:48:00+08:00",
+          "updated_at": "2026-04-30T14:48:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "松声｜廿六年·四月中·桐花开",
+          "link": "https://xyzbz.cn/archives/1526/",
+          "description": "春天的风景春天多出去转转，感受春天带来一丝万物生长的气息，调节自己疲惫的身心。[photos][/photos][photos][/photos][photos][/photos]定期四季定期景...",
+          "pub_date": "2026-04-16T03:28:00+08:00",
+          "updated_at": "2026-04-16T03:28:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        },
+        {
+          "title": "Docker部署Cups-Web网页打印机",
+          "link": "https://xyzbz.cn/archives/1525/",
+          "description": "始很难遇到的一个不错的打印机项目，毕竟cups单用的话太丑了，配合web端完美正解。有需要可以自部署。项目地址：hanxi/cups-web功能特点：核心功能远程打印：随时随地通过网页上传文件进...",
+          "pub_date": "2026-04-12T07:13:00+08:00",
+          "updated_at": "2026-04-12T07:13:00+08:00",
+          "author": "网友小宋",
+          "site_name": "网友小宋",
+          "site_url": "https://xyzbz.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/xyzbz.png"
+        }
+      ]
+    },
+    {
+      "name": "目的地-Destination",
+      "url": "https://chrison.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
+      "feed_url": "https://chrison.cn/feed/",
+      "posts": [
+        {
+          "title": "心血来潮，Typecho换成了springboot+nuxt",
+          "link": "https://chrison.cn/live/480.html",
+          "description": "心血来潮，将程序从Typecho换成了springboot+nuxt 感觉还有很多没发现的地方要调整~ 很好，又给自己找了事干 嗯，就这样",
+          "pub_date": "2026-07-02T00:47:00+08:00",
+          "updated_at": "2026-07-02T00:47:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "兰州牛肉面VS兰州凉面",
+          "link": "https://chrison.cn/live/474.html",
+          "description": "相比牛肉面，我更爱吃凉面。 一碟子凉面配一把子烤羊肉，满福~ P.S.这里是无锡的德元纯汤 !!! !!!",
+          "pub_date": "2026-06-16T08:34:00+08:00",
+          "updated_at": "2026-06-16T08:34:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "今日菜肴：羊排手抓饭",
+          "link": "https://chrison.cn/live/472.html",
+          "description": "新疆羊排手抓饭（正不正宗不重要，好吃就对了） 上一次做已经是4年前了~ 您的浏览器不支持 Video 标签。",
+          "pub_date": "2026-05-23T06:04:00+08:00",
+          "updated_at": "2026-05-23T06:04:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "周日自己做了胡萝卜牛肉包子",
+          "link": "https://chrison.cn/live/464.html",
+          "description": "周日自己做了胡萝卜牛肉包子。 本来早上做，中午能吃上的。结果最近几天又上火感冒的，凌晨又挂了中医院的号，早上去看了病，又开了中药。 感觉今年本命年，从过年开始，每天都在吃药。一直有火。果然是九紫离火＋双火造成的？！ 下午回家赶紧发面，包包子。这样每天早上，到公司，带俩包子就行了。 感觉这次包的包子有进步啊，这个褶子很明显啊。 香啊~ !!! !!!",
+          "pub_date": "2026-04-29T00:41:00+08:00",
+          "updated_at": "2026-04-29T00:41:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "周日去上海约朋友吃饭",
+          "link": "https://chrison.cn/live/454.html",
+          "description": "在上海生活工作了十多年，来到无锡后，一个朋友也没有。所以没事就往上海跑。也挺无奈的。 !!! !!!",
+          "pub_date": "2026-04-19T23:05:05+08:00",
+          "updated_at": "2026-04-19T23:05:05+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "我也是第一次做甘肃的洋芋裙裙",
+          "link": "https://chrison.cn/live/452.html",
+          "description": "甘肃各地都有不同的做法，不同的名称，我也不知道怎么做。只记得我小时候吃过，抖音搜了也是五花八门。就这样吧，反正挺好吃的~ !!! !!!",
+          "pub_date": "2026-04-11T04:53:15+08:00",
+          "updated_at": "2026-04-11T04:53:15+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "测测SBTI",
+          "link": "https://chrison.cn/live/446.html",
+          "description": "倒是很准 !!! !!!",
+          "pub_date": "2026-04-10T00:01:00+08:00",
+          "updated_at": "2026-04-10T00:01:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "放假哪儿也没去",
+          "link": "https://chrison.cn/live/442.html",
+          "description": "就是小区周围走了走 !!! !!!",
+          "pub_date": "2026-04-07T06:21:42+08:00",
+          "updated_at": "2026-04-07T06:21:42+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "等放假",
+          "link": "https://chrison.cn/live/437.html",
+          "description": "等放假，等下班。可惜朋友和他们公司去旅游了。 一个人好无聊啊~ !!! !!!",
+          "pub_date": "2026-04-03T08:49:06+08:00",
+          "updated_at": "2026-04-03T08:49:06+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "【WordPress插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情",
+          "link": "https://chrison.cn/work/433.html",
+          "description": "Blog Helper 是WordPress 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。 示例见右侧边栏和顶部快捷按钮 下载 Github：https://github.com/ChrisonLeon/BlogHelper_for_WordPress.git Gitee：https://gitee.com/chrison/Bl...",
+          "pub_date": "2026-03-30T05:11:00+08:00",
+          "updated_at": "2026-03-30T05:11:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "我觉得医生有嫌弃我嘴馋的成份",
+          "link": "https://chrison.cn/live/431.html",
+          "description": "医生说如果你晚上5点到7点吃不了晚饭 那就不建议晚上再吃了 我说我嘴馋就是想吃 医生无奈说，是吧，就是馋 辛辣刺激少吃，冰的不能喝，带酒精的不能喝，咖啡，茶不能喝，生冷水果少吃~天都塌了！ !!! !!!",
+          "pub_date": "2026-03-29T04:04:00+08:00",
+          "updated_at": "2026-03-29T04:04:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "【Typecho插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情v1.3.5",
+          "link": "https://chrison.cn/work/379.html",
+          "description": "Blog Helper 是Typecho 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。 示例见右侧边栏和顶部快捷按钮 🎉🎉🎉**新版本已更新**🎉🎉🎉 【Typecho插件】Blog Helper v1.0.0 完整文档 【Typecho插件】Blog Helper v1.3.5 更新说明 Blog Helper 文...",
+          "pub_date": "2026-03-22T13:37:00+08:00",
+          "updated_at": "2026-03-22T13:37:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "小姨寄来的兰州新鲜百合",
+          "link": "https://chrison.cn/live/426.html",
+          "description": "之前过年在兰州的时候，那家卖百合的一直也在休息。我小姨一直说让我带一点，结果回到无锡了，他才开门。昨天就给我寄了一盒，顺丰隔天就送到了。 不过这个时候的百合已经没有特别好了，过年的时候，百合最好，也是过年桌上必备菜肴，基本都要60左右一斤了。真是贵啊~ !!! !!!",
+          "pub_date": "2026-03-17T11:02:00+08:00",
+          "updated_at": "2026-03-17T11:02:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "干饭人的速度~",
+          "link": "https://chrison.cn/live/408.html",
+          "description": "😊吃个烤鸡腿，点开一个综艺 🌝鸡腿吃完了，综艺还没开始 🤪这不是常有的事儿吗！哈哈哈~ !!! !!!",
+          "pub_date": "2026-03-14T11:25:00+08:00",
+          "updated_at": "2026-03-14T11:25:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "【Typecho插件】Blog Helper一键同步微信运动、快速发布说说、时光机、碎语、日记、心情",
+          "link": "https://chrison.cn/work/369.html",
+          "description": "**1.插件概述** Blog Helper 是Typecho 插件，它是一款可以一键同步每日微信运动步数、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。（示例见右侧边栏“微信运动”模块） 2.前言 其实关于用微信发“说说”这个功能，我几年前就参考过其他博友的文章，也捣鼓过很多种玩法及方式，文章就发布过三篇（可查看下面历史文章）。后期基本一直就是用公众号发布文章。 然后去年开始，...",
+          "pub_date": "2026-03-11T00:30:00+08:00",
+          "updated_at": "2026-03-11T00:30:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "预约了退税，今年退了个寂寞~",
+          "link": "https://chrison.cn/live/368.html",
+          "description": "23年退了98.56元。 24年补了1199.21元。（估计是因为换了工作的原因） 25年啥也没有，0元。 其实倒也无所谓了，退与补，其实都是自己的钱。 因为每年3月后是退税，12月前是申报下一年的专项附加税，有的人没申报每个月就会多扣，那么之后退税期才临时申报，那不就得补给你钱么！我是这样认为的，哈哈哈。有财务会计的老铁，可以指正。哈哈哈😁",
+          "pub_date": "2026-03-05T00:40:06+08:00",
+          "updated_at": "2026-03-05T00:40:06+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "之前免费领的可达鸭",
+          "link": "https://chrison.cn/live/365.html",
+          "description": "翻到之前领取的可达鸭了。 每次看见KFC联名套餐，就要买一份。虽然我不喜欢吃肯德基，更喜欢吃麦当劳~ 您的浏览器不支持 Video 标签。",
+          "pub_date": "2026-03-04T04:53:24+08:00",
+          "updated_at": "2026-03-04T04:53:24+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "最终还是选择去了医院",
+          "link": "https://chrison.cn/live/362.html",
+          "description": "**清咽片、头孢、蒲地蓝、阿奇霉素、鱼腥草口服液......都吃了一轮，完全没有任何效果。** 没办法，还是选择预约去了医院。 我这个人，讳疾忌医，很害怕去医院。去医院的次数屈指可数。 现在小程序预约倒是方便，还可以直接医保账户扣款。选择无锡人民医院，一是离得近，二是当前疫情期间，发烧腹泻，被那关了4天（并非阳了，只是空调吹的），哈哈哈 周日大雨啊，出门带伞。非常不喜欢手机罗里吧嗦的拿一堆东西。 ...",
+          "pub_date": "2026-03-02T03:19:00+08:00",
+          "updated_at": "2026-03-02T03:19:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "我这嗓子吞咽疼痛好几天了，咋回事啊！",
+          "link": "https://chrison.cn/live/351.html",
+          "description": "过年在老家，初三，我小姨喊我和我妈出去吃火锅。 下午的时候，我明显感觉到嗓子不舒服，有点疼。当时也没在意。到了火锅店之后，越来越痛，吞咽口水，吃东西，都非常痛。 疼痛点位于嗓子右侧，喉结的右后方。吃完火锅，找了一家开着的药店，给了我清咽片和头孢。 结果呢，都一周了，都回到无锡了，还没好呢。完全无效！ 我看实在不行，周日就得去医院了。我™有点害怕啊，不会有什么大病吧我！！！ 您的浏览器不支持 Vid...",
+          "pub_date": "2026-02-27T00:38:00+08:00",
+          "updated_at": "2026-02-27T00:38:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "新一年，换个主题",
+          "link": "https://chrison.cn/live/349.html",
+          "description": "年纪越大，越喜欢简约点的主题了~哈哈哈😁",
+          "pub_date": "2026-02-26T00:35:18+08:00",
+          "updated_at": "2026-02-26T00:35:18+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "说说：做了个小程序，智查-生物信息助手",
+          "link": "https://chrison.cn/live/347.html",
+          "description": "做了个小程序，智查-生物信息助手，个人开发者限制真是太多了。不容易啊~",
+          "pub_date": "2026-01-14T00:40:00+08:00",
+          "updated_at": "2026-01-14T00:40:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        },
+        {
+          "title": "说说：近期分享~",
+          "link": "https://chrison.cn/live/346.html",
+          "description": "近期分享~",
+          "pub_date": "2026-01-06T05:46:00+08:00",
+          "updated_at": "2026-01-06T05:46:00+08:00",
+          "author": "",
+          "site_name": "目的地-Destination",
+          "site_url": "https://chrison.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
+        }
+      ]
+    },
+    {
       "name": "lznauy的技术小屋",
       "url": "https://lznauy.cn/",
       "avatar": "https://cdn.xiaoten.com/friends/lznauy.webp",
@@ -1871,6 +2110,17 @@
       "feed_url": "https://bluehe.cn/feed/",
       "posts": [
         {
+          "title": "腾讯云API接口自动快照教程",
+          "link": "https://bluehe.cn/archives/snapshot_backup",
+          "description": "我在使用的是腾讯云轻量应用服务器，免费快照额度只有2个，每一次都是手动删除旧快照再创建新快照实在太麻烦，问了客服也没有直接设置的功能，但好在提供了API接口来实现。所以当前使用了1Panel面板...",
+          "pub_date": "2026-07-04T14:10:00+08:00",
+          "updated_at": "2026-07-04T14:10:00+08:00",
+          "author": "云心怀鹤",
+          "site_name": "云心怀鹤",
+          "site_url": "https://bluehe.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
+        },
+        {
           "title": "从2022年建站至今，一次莫名其妙的CC攻击",
           "link": "https://bluehe.cn/archives/2026-CC",
           "description": "2026年6月12日（星期五）下午7:40分，收到了腾讯云流量包用量耗尽的通知，我感到奇怪，每个月的流量顶多不超过50G，怎么会一下子耗尽。刚准备吃饭的我懵了，这不对劲，马上登录服务器看情况，果...",
@@ -1964,17 +2214,6 @@
           "description": "使用体验我之前使用Chatbot，正常的token能用一年，而用了OpenClaw，token能用一天就没了，就算是静默，它在后台还是消耗的，因为要监听你的信息，这本身就是一种消耗，最直观的体验...",
           "pub_date": "2026-03-13T09:20:00+08:00",
           "updated_at": "2026-03-13T09:20:00+08:00",
-          "author": "云心怀鹤",
-          "site_name": "云心怀鹤",
-          "site_url": "https://bluehe.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-        },
-        {
-          "title": "城市散步志：年前",
-          "link": "https://bluehe.cn/archives/urban-walks-2026-01",
-          "description": "书接上文，1月25日，在咖啡店待了一会后，人越来越多，我们就转场换一家，这家就一般般了，饮品很淡，对不上这个价格，这才发现这家是主打美团宣传的，刷好评还送小蛋糕，而不是像我们直接扫码点单，比美团...",
-          "pub_date": "2026-03-01T01:50:00+08:00",
-          "updated_at": "2026-03-01T01:50:00+08:00",
           "author": "云心怀鹤",
           "site_name": "云心怀鹤",
           "site_url": "https://bluehe.cn/",
@@ -2097,102 +2336,6 @@
           "site_name": "winegrower",
           "site_url": "http://www.winegrower.cn/",
           "avatar": "https://cdn.xiaoten.com/friends/winegrower.png"
-        }
-      ]
-    },
-    {
-      "name": "小屁君的吐槽",
-      "url": "https://blog.ouxiaopi.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
-      "feed_url": "https://blog.ouxiaopi.com/feed/",
-      "posts": [
-        {
-          "title": "猪哥汴京轶事录，莲姐儿符文战士风波！",
-          "link": "https://blog.ouxiaopi.com/1813.html",
-          "description": "试着换换风格写些东西，权当娱乐，不喜勿喷哈。",
-          "pub_date": "2026-05-08T07:42:57+08:00",
-          "updated_at": "2026-05-08T07:42:57+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "添加一个新功能，修复一个小BUG",
-          "link": "https://blog.ouxiaopi.com/1796.html",
-          "description": "作者介绍了文章目录功能的实现：通过JS生成，仅匹配文章内容的H2、H3标签，添加锚点并精准定位以避开顶部导航，滚动时高亮当前标题，非PC端隐藏。同时修复了AI摘要中Token明文泄露问题，通过esc_js处理敏感参数，采用后端接口并动态nonce保障安全，避免前端暴露密钥信息。",
-          "pub_date": "2026-03-31T06:06:25+08:00",
-          "updated_at": "2026-03-31T06:06:25+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "从脆弱自我到心流人生，理性与感性的和解之路。",
-          "link": "https://blog.ouxiaopi.com/1786.html",
-          "description": "文章以个人经历切入，强调好奇心是认知起点，指出人性本脆弱，需接纳局限以清醒认知。核心观点认为感性优先于理性，心流是全脑协振的生命状态，是回归本然的体验。通过东西方哲思（柏拉图“美好模型”、朱熹“存天理灭人欲”）论证顺应本心的重要性，结合脑科学说明神经联结决定能力，反对功利性心流，主张心流应是忘却自我、纯粹愉悦的状态，最终倡导接纳脆弱、回归本然，实现个体圆满。",
-          "pub_date": "2026-03-25T03:39:49+08:00",
-          "updated_at": "2026-03-25T03:39:49+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "别人眼中的我，才是我！",
-          "link": "https://blog.ouxiaopi.com/1773.html",
-          "description": "翻看朋友圈的时候，翻到和朋友的合照。认真看自己的时候，觉得熟悉又陌生，那因笑容挤压扭曲的鱼尾纹，那谄媚的脸。那 [&#8230;]",
-          "pub_date": "2026-02-28T03:52:27+08:00",
-          "updated_at": "2026-02-28T03:52:27+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（十一）",
-          "link": "https://blog.ouxiaopi.com/1752.html",
-          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
-          "pub_date": "2026-02-25T06:28:19+08:00",
-          "updated_at": "2026-02-25T06:28:19+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小P说（十）",
-          "link": "https://blog.ouxiaopi.com/1741.html",
-          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
-          "pub_date": "2026-01-26T12:24:01+08:00",
-          "updated_at": "2026-01-26T12:24:01+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "小米的”星号”艺术!",
-          "link": "https://blog.ouxiaopi.com/1734.html",
-          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
-          "pub_date": "2026-01-23T07:42:00+08:00",
-          "updated_at": "2026-01-23T07:42:00+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
-        },
-        {
-          "title": "随笔（八）",
-          "link": "https://blog.ouxiaopi.com/1706.html",
-          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
-          "pub_date": "2026-01-15T02:41:26+08:00",
-          "updated_at": "2026-01-15T02:41:26+08:00",
-          "author": "小P",
-          "site_name": "小屁君的吐槽",
-          "site_url": "https://blog.ouxiaopi.com/",
-          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
         }
       ]
     },
@@ -2421,6 +2564,102 @@
           "site_name": "水拍石",
           "site_url": "https://www.leitao.cn",
           "avatar": "https://cdn.xiaoten.com/friends/leitao.png"
+        }
+      ]
+    },
+    {
+      "name": "小屁君的吐槽",
+      "url": "https://blog.ouxiaopi.com/",
+      "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico",
+      "feed_url": "https://blog.ouxiaopi.com/feed/",
+      "posts": [
+        {
+          "title": "猪哥汴京轶事录，莲姐儿符文战士风波！",
+          "link": "https://blog.ouxiaopi.com/1813.html",
+          "description": "试着换换风格写些东西，权当娱乐，不喜勿喷哈。",
+          "pub_date": "2026-05-08T07:42:57+08:00",
+          "updated_at": "2026-05-08T07:42:57+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "添加一个新功能，修复一个小BUG",
+          "link": "https://blog.ouxiaopi.com/1796.html",
+          "description": "作者介绍了文章目录功能的实现：通过JS生成，仅匹配文章内容的H2、H3标签，添加锚点并精准定位以避开顶部导航，滚动时高亮当前标题，非PC端隐藏。同时修复了AI摘要中Token明文泄露问题，通过esc_js处理敏感参数，采用后端接口并动态nonce保障安全，避免前端暴露密钥信息。",
+          "pub_date": "2026-03-31T06:06:25+08:00",
+          "updated_at": "2026-03-31T06:06:25+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "从脆弱自我到心流人生，理性与感性的和解之路。",
+          "link": "https://blog.ouxiaopi.com/1786.html",
+          "description": "文章以个人经历切入，强调好奇心是认知起点，指出人性本脆弱，需接纳局限以清醒认知。核心观点认为感性优先于理性，心流是全脑协振的生命状态，是回归本然的体验。通过东西方哲思（柏拉图“美好模型”、朱熹“存天理灭人欲”）论证顺应本心的重要性，结合脑科学说明神经联结决定能力，反对功利性心流，主张心流应是忘却自我、纯粹愉悦的状态，最终倡导接纳脆弱、回归本然，实现个体圆满。",
+          "pub_date": "2026-03-25T03:39:49+08:00",
+          "updated_at": "2026-03-25T03:39:49+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "别人眼中的我，才是我！",
+          "link": "https://blog.ouxiaopi.com/1773.html",
+          "description": "翻看朋友圈的时候，翻到和朋友的合照。认真看自己的时候，觉得熟悉又陌生，那因笑容挤压扭曲的鱼尾纹，那谄媚的脸。那 [&#8230;]",
+          "pub_date": "2026-02-28T03:52:27+08:00",
+          "updated_at": "2026-02-28T03:52:27+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十一）",
+          "link": "https://blog.ouxiaopi.com/1752.html",
+          "description": "作者许久未写，此次分享近期思考。谈到工作选择，认为自己这类没背景资源的人能活在当下已不易，物质上的选择受原生家庭影响，难有绝对公平，但灵魂的公平可自己给予，要自己养活灵魂。还讲了老妈携号转网小插曲，体现两代人不同的心疼点。最后说到女儿快7岁，变得乖巧懂事有主见，不轻易被物质左右，但学习上有犯懒问题，作者提醒自己尊重孩子成长节奏，给予陪伴。",
+          "pub_date": "2026-02-25T06:28:19+08:00",
+          "updated_at": "2026-02-25T06:28:19+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小P说（十）",
+          "link": "https://blog.ouxiaopi.com/1741.html",
+          "description": "作者分享了三件事。一是公众号文章因写部分偷税漏税主播复出内容被投诉，因打码不彻底主动自认违规，平台念初犯仅警告并下架文章，感慨劣迹主播洗白带货却少监管；二是铜陵三桥通车老桥维修，新桥皖G车牌ETC免费，线下办理点排队长，作者通过网上办赣通卡解决，还巧用深圳通地铁卡避免ETC设备杂乱；三是网站将简易加减法验证码换成图形验证码并加刷新限制机制，以挡垃圾评论，效果待察。",
+          "pub_date": "2026-01-26T12:24:01+08:00",
+          "updated_at": "2026-01-26T12:24:01+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "小米的”星号”艺术!",
+          "link": "https://blog.ouxiaopi.com/1734.html",
+          "description": "也是最近写在公众号上的一篇文章，顺手放到博客上面来吧！",
+          "pub_date": "2026-01-23T07:42:00+08:00",
+          "updated_at": "2026-01-23T07:42:00+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
+        },
+        {
+          "title": "随笔（八）",
+          "link": "https://blog.ouxiaopi.com/1706.html",
+          "description": "下班路上 下班路过一个路口等红灯，排在第一个的位置，刚好看见一个老爷子颤颤巍巍的过斑马线。看年纪该有七老八十了 [&#8230;]",
+          "pub_date": "2026-01-15T02:41:26+08:00",
+          "updated_at": "2026-01-15T02:41:26+08:00",
+          "author": "小P",
+          "site_name": "小屁君的吐槽",
+          "site_url": "https://blog.ouxiaopi.com/",
+          "avatar": "https://cdn.xiaoten.com/friends/ouxiaopi.ico"
         }
       ]
     },
@@ -3180,6 +3419,17 @@
       "feed_url": "https://synyan.cn/feed/",
       "posts": [
         {
+          "title": "石门滴翠白龙潭",
+          "link": "https://synyan.cn/115536/",
+          "description": "今年年初，惠山北麓的惠山国家森林公园北区“焕新亮相”了。5月3日，虽然多云天气不出片，仍旧带着家人到这里来踏青 [&#8230;]",
+          "pub_date": "2026-07-04T04:46:26+08:00",
+          "updated_at": "2026-07-04T04:46:26+08:00",
+          "author": "S",
+          "site_name": "旅行漫记",
+          "site_url": "https://synyan.cn/",
+          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+        },
+        {
           "title": "古桥舜河绕焦溪",
           "link": "https://synyan.cn/115346/",
           "description": "去古镇还能去错了，对，那人就是我。 昨日下午突然获赦，大喜过望，想着到早就在地图上标好的常州焦溪古镇采风，也许 [&#8230;]",
@@ -3262,17 +3512,6 @@
           "description": "展厅五：丹楼生晓辉——明清时期的成都。作为川中最为富庶之地，成都明清藏品也非常丰富。 彩釉陶将军俑，明（136 [&#8230;]",
           "pub_date": "2026-06-14T05:48:40+08:00",
           "updated_at": "2026-06-14T05:48:40+08:00",
-          "author": "S",
-          "site_name": "旅行漫记",
-          "site_url": "https://synyan.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-        },
-        {
-          "title": "成都博物馆隋元",
-          "link": "https://synyan.cn/114635/",
-          "description": "展厅四：喧然名都会——隋唐五代宋元时期的成都。展品中最让人惊叹的是后蜀宋王赵廷隐墓。 邢窑“官”字款白瓷瓶，唐 [&#8230;]",
-          "pub_date": "2026-06-13T06:08:12+08:00",
-          "updated_at": "2026-06-13T06:08:12+08:00",
           "author": "S",
           "site_name": "旅行漫记",
           "site_url": "https://synyan.cn/",
@@ -3646,7 +3885,7 @@
       ],
       "stale": true,
       "stale_reason": "fetch_failed",
-      "last_error": "HTTP 404",
+      "last_error": "HTTP 403",
       "last_success_at": "2026-06-17T08:57:47.940563+08:00"
     },
     {
@@ -3770,263 +4009,31 @@
       "stale_reason": "fetch_failed",
       "last_error": "HTTP 404",
       "last_success_at": "2026-06-17T21:21:53.653076+08:00"
-    },
-    {
-      "name": "目的地-Destination",
-      "url": "https://chrison.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/Destination.png",
-      "feed_url": "https://chrison.cn/feed/",
-      "posts": [
-        {
-          "title": "心血来潮，Typecho换成了springboot+nuxt",
-          "link": "https://chrison.cn/live/480.html",
-          "description": "心血来潮，将程序从Typecho换成了springboot+nuxt 感觉还有很多没发现的地方要调整~ 很好，又给自己找了事干 嗯，就这样",
-          "pub_date": "2026-07-02T00:47:00+08:00",
-          "updated_at": "2026-07-02T00:47:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "兰州牛肉面VS兰州凉面",
-          "link": "https://chrison.cn/live/474.html",
-          "description": "相比牛肉面，我更爱吃凉面。 一碟子凉面配一把子烤羊肉，满福~ P.S.这里是无锡的德元纯汤 !!! !!!",
-          "pub_date": "2026-06-16T08:34:00+08:00",
-          "updated_at": "2026-06-16T08:34:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "今日菜肴：羊排手抓饭",
-          "link": "https://chrison.cn/live/472.html",
-          "description": "新疆羊排手抓饭（正不正宗不重要，好吃就对了） 上一次做已经是4年前了~ 您的浏览器不支持 Video 标签。",
-          "pub_date": "2026-05-23T06:04:00+08:00",
-          "updated_at": "2026-05-23T06:04:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "周日自己做了胡萝卜牛肉包子",
-          "link": "https://chrison.cn/live/464.html",
-          "description": "周日自己做了胡萝卜牛肉包子。 本来早上做，中午能吃上的。结果最近几天又上火感冒的，凌晨又挂了中医院的号，早上去看了病，又开了中药。 感觉今年本命年，从过年开始，每天都在吃药。一直有火。果然是九紫离火＋双火造成的？！ 下午回家赶紧发面，包包子。这样每天早上，到公司，带俩包子就行了。 感觉这次包的包子有进步啊，这个褶子很明显啊。 香啊~ !!! !!!",
-          "pub_date": "2026-04-29T00:41:00+08:00",
-          "updated_at": "2026-04-29T00:41:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "周日去上海约朋友吃饭",
-          "link": "https://chrison.cn/live/454.html",
-          "description": "在上海生活工作了十多年，来到无锡后，一个朋友也没有。所以没事就往上海跑。也挺无奈的。 !!! !!!",
-          "pub_date": "2026-04-19T23:05:05+08:00",
-          "updated_at": "2026-04-19T23:05:05+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我也是第一次做甘肃的洋芋裙裙",
-          "link": "https://chrison.cn/live/452.html",
-          "description": "甘肃各地都有不同的做法，不同的名称，我也不知道怎么做。只记得我小时候吃过，抖音搜了也是五花八门。就这样吧，反正挺好吃的~ !!! !!!",
-          "pub_date": "2026-04-11T04:53:15+08:00",
-          "updated_at": "2026-04-11T04:53:15+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "测测SBTI",
-          "link": "https://chrison.cn/live/446.html",
-          "description": "倒是很准 !!! !!!",
-          "pub_date": "2026-04-10T00:01:00+08:00",
-          "updated_at": "2026-04-10T00:01:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "放假哪儿也没去",
-          "link": "https://chrison.cn/live/442.html",
-          "description": "就是小区周围走了走 !!! !!!",
-          "pub_date": "2026-04-07T06:21:42+08:00",
-          "updated_at": "2026-04-07T06:21:42+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "等放假",
-          "link": "https://chrison.cn/live/437.html",
-          "description": "等放假，等下班。可惜朋友和他们公司去旅游了。 一个人好无聊啊~ !!! !!!",
-          "pub_date": "2026-04-03T08:49:06+08:00",
-          "updated_at": "2026-04-03T08:49:06+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【WordPress插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情",
-          "link": "https://chrison.cn/work/433.html",
-          "description": "Blog Helper 是WordPress 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。 示例见右侧边栏和顶部快捷按钮 下载 Github：https://github.com/ChrisonLeon/BlogHelper_for_WordPress.git Gitee：https://gitee.com/chrison/Bl...",
-          "pub_date": "2026-03-30T05:11:00+08:00",
-          "updated_at": "2026-03-30T05:11:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我觉得医生有嫌弃我嘴馋的成份",
-          "link": "https://chrison.cn/live/431.html",
-          "description": "医生说如果你晚上5点到7点吃不了晚饭 那就不建议晚上再吃了 我说我嘴馋就是想吃 医生无奈说，是吧，就是馋 辛辣刺激少吃，冰的不能喝，带酒精的不能喝，咖啡，茶不能喝，生冷水果少吃~天都塌了！ !!! !!!",
-          "pub_date": "2026-03-29T04:04:00+08:00",
-          "updated_at": "2026-03-29T04:04:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【Typecho插件】Blog Helper-设置心情状态、同步微信运动、快速发布说说、时光机、碎语、日记、心情v1.3.5",
-          "link": "https://chrison.cn/work/379.html",
-          "description": "Blog Helper 是Typecho 插件，它是一款可以一键设置心情状态、同步微信运动、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。 示例见右侧边栏和顶部快捷按钮 🎉🎉🎉**新版本已更新**🎉🎉🎉 【Typecho插件】Blog Helper v1.0.0 完整文档 【Typecho插件】Blog Helper v1.3.5 更新说明 Blog Helper 文...",
-          "pub_date": "2026-03-22T13:37:00+08:00",
-          "updated_at": "2026-03-22T13:37:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "小姨寄来的兰州新鲜百合",
-          "link": "https://chrison.cn/live/426.html",
-          "description": "之前过年在兰州的时候，那家卖百合的一直也在休息。我小姨一直说让我带一点，结果回到无锡了，他才开门。昨天就给我寄了一盒，顺丰隔天就送到了。 不过这个时候的百合已经没有特别好了，过年的时候，百合最好，也是过年桌上必备菜肴，基本都要60左右一斤了。真是贵啊~ !!! !!!",
-          "pub_date": "2026-03-17T11:02:00+08:00",
-          "updated_at": "2026-03-17T11:02:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "干饭人的速度~",
-          "link": "https://chrison.cn/live/408.html",
-          "description": "😊吃个烤鸡腿，点开一个综艺 🌝鸡腿吃完了，综艺还没开始 🤪这不是常有的事儿吗！哈哈哈~ !!! !!!",
-          "pub_date": "2026-03-14T11:25:00+08:00",
-          "updated_at": "2026-03-14T11:25:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "【Typecho插件】Blog Helper一键同步微信运动、快速发布说说、时光机、碎语、日记、心情",
-          "link": "https://chrison.cn/work/369.html",
-          "description": "**1.插件概述** Blog Helper 是Typecho 插件，它是一款可以一键同步每日微信运动步数、快速发布说说|时光机|碎语|日记|心情|微博|文章等功能的插件。（示例见右侧边栏“微信运动”模块） 2.前言 其实关于用微信发“说说”这个功能，我几年前就参考过其他博友的文章，也捣鼓过很多种玩法及方式，文章就发布过三篇（可查看下面历史文章）。后期基本一直就是用公众号发布文章。 然后去年开始，...",
-          "pub_date": "2026-03-11T00:30:00+08:00",
-          "updated_at": "2026-03-11T00:30:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "预约了退税，今年退了个寂寞~",
-          "link": "https://chrison.cn/live/368.html",
-          "description": "23年退了98.56元。 24年补了1199.21元。（估计是因为换了工作的原因） 25年啥也没有，0元。 其实倒也无所谓了，退与补，其实都是自己的钱。 因为每年3月后是退税，12月前是申报下一年的专项附加税，有的人没申报每个月就会多扣，那么之后退税期才临时申报，那不就得补给你钱么！我是这样认为的，哈哈哈。有财务会计的老铁，可以指正。哈哈哈😁",
-          "pub_date": "2026-03-05T00:40:06+08:00",
-          "updated_at": "2026-03-05T00:40:06+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "之前免费领的可达鸭",
-          "link": "https://chrison.cn/live/365.html",
-          "description": "翻到之前领取的可达鸭了。 每次看见KFC联名套餐，就要买一份。虽然我不喜欢吃肯德基，更喜欢吃麦当劳~ 您的浏览器不支持 Video 标签。",
-          "pub_date": "2026-03-04T04:53:24+08:00",
-          "updated_at": "2026-03-04T04:53:24+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "最终还是选择去了医院",
-          "link": "https://chrison.cn/live/362.html",
-          "description": "**清咽片、头孢、蒲地蓝、阿奇霉素、鱼腥草口服液......都吃了一轮，完全没有任何效果。** 没办法，还是选择预约去了医院。 我这个人，讳疾忌医，很害怕去医院。去医院的次数屈指可数。 现在小程序预约倒是方便，还可以直接医保账户扣款。选择无锡人民医院，一是离得近，二是当前疫情期间，发烧腹泻，被那关了4天（并非阳了，只是空调吹的），哈哈哈 周日大雨啊，出门带伞。非常不喜欢手机罗里吧嗦的拿一堆东西。 ...",
-          "pub_date": "2026-03-02T03:19:00+08:00",
-          "updated_at": "2026-03-02T03:19:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "我这嗓子吞咽疼痛好几天了，咋回事啊！",
-          "link": "https://chrison.cn/live/351.html",
-          "description": "过年在老家，初三，我小姨喊我和我妈出去吃火锅。 下午的时候，我明显感觉到嗓子不舒服，有点疼。当时也没在意。到了火锅店之后，越来越痛，吞咽口水，吃东西，都非常痛。 疼痛点位于嗓子右侧，喉结的右后方。吃完火锅，找了一家开着的药店，给了我清咽片和头孢。 结果呢，都一周了，都回到无锡了，还没好呢。完全无效！ 我看实在不行，周日就得去医院了。我™有点害怕啊，不会有什么大病吧我！！！ 您的浏览器不支持 Vid...",
-          "pub_date": "2026-02-27T00:38:00+08:00",
-          "updated_at": "2026-02-27T00:38:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "新一年，换个主题",
-          "link": "https://chrison.cn/live/349.html",
-          "description": "年纪越大，越喜欢简约点的主题了~哈哈哈😁",
-          "pub_date": "2026-02-26T00:35:18+08:00",
-          "updated_at": "2026-02-26T00:35:18+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "说说：做了个小程序，智查-生物信息助手",
-          "link": "https://chrison.cn/live/347.html",
-          "description": "做了个小程序，智查-生物信息助手，个人开发者限制真是太多了。不容易啊~",
-          "pub_date": "2026-01-14T00:40:00+08:00",
-          "updated_at": "2026-01-14T00:40:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        },
-        {
-          "title": "说说：近期分享~",
-          "link": "https://chrison.cn/live/346.html",
-          "description": "近期分享~",
-          "pub_date": "2026-01-06T05:46:00+08:00",
-          "updated_at": "2026-01-06T05:46:00+08:00",
-          "author": "",
-          "site_name": "目的地-Destination",
-          "site_url": "https://chrison.cn/",
-          "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
-        }
-      ],
-      "stale": true,
-      "stale_reason": "fetch_failed",
-      "last_error": "HTTP 404",
-      "last_success_at": "2026-07-04T03:20:17.742518+08:00"
     }
   ],
   "all_posts": [
+    {
+      "title": "腾讯云API接口自动快照教程",
+      "link": "https://bluehe.cn/archives/snapshot_backup",
+      "description": "我在使用的是腾讯云轻量应用服务器，免费快照额度只有2个，每一次都是手动删除旧快照再创建新快照实在太麻烦，问了客服也没有直接设置的功能，但好在提供了API接口来实现。所以当前使用了1Panel面板...",
+      "pub_date": "2026-07-04T14:10:00+08:00",
+      "updated_at": "2026-07-04T14:10:00+08:00",
+      "author": "云心怀鹤",
+      "site_name": "云心怀鹤",
+      "site_url": "https://bluehe.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
+    },
+    {
+      "title": "石门滴翠白龙潭",
+      "link": "https://synyan.cn/115536/",
+      "description": "今年年初，惠山北麓的惠山国家森林公园北区“焕新亮相”了。5月3日，虽然多云天气不出片，仍旧带着家人到这里来踏青 [&#8230;]",
+      "pub_date": "2026-07-04T04:46:26+08:00",
+      "updated_at": "2026-07-04T04:46:26+08:00",
+      "author": "S",
+      "site_name": "旅行漫记",
+      "site_url": "https://synyan.cn/",
+      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
+    },
     {
       "title": "两顿忆苦思甜饭",
       "link": "https://guoan.cc/posts/2026/07/two-meals-of-reminiscing-bitter-past/",
@@ -4572,17 +4579,6 @@
       "description": "展厅五：丹楼生晓辉——明清时期的成都。作为川中最为富庶之地，成都明清藏品也非常丰富。 彩釉陶将军俑，明（136 [&#8230;]",
       "pub_date": "2026-06-14T05:48:40+08:00",
       "updated_at": "2026-06-14T05:48:40+08:00",
-      "author": "S",
-      "site_name": "旅行漫记",
-      "site_url": "https://synyan.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/synyan.webp"
-    },
-    {
-      "title": "成都博物馆隋元",
-      "link": "https://synyan.cn/114635/",
-      "description": "展厅四：喧然名都会——隋唐五代宋元时期的成都。展品中最让人惊叹的是后蜀宋王赵廷隐墓。 邢窑“官”字款白瓷瓶，唐 [&#8230;]",
-      "pub_date": "2026-06-13T06:08:12+08:00",
-      "updated_at": "2026-06-13T06:08:12+08:00",
       "author": "S",
       "site_name": "旅行漫记",
       "site_url": "https://synyan.cn/",
@@ -6888,17 +6884,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/Destination.png"
     },
     {
-      "title": "城市散步志：年前",
-      "link": "https://bluehe.cn/archives/urban-walks-2026-01",
-      "description": "书接上文，1月25日，在咖啡店待了一会后，人越来越多，我们就转场换一家，这家就一般般了，饮品很淡，对不上这个价格，这才发现这家是主打美团宣传的，刷好评还送小蛋糕，而不是像我们直接扫码点单，比美团...",
-      "pub_date": "2026-03-01T01:50:00+08:00",
-      "updated_at": "2026-03-01T01:50:00+08:00",
-      "author": "云心怀鹤",
-      "site_name": "云心怀鹤",
-      "site_url": "https://bluehe.cn/",
-      "avatar": "https://cdn.xiaoten.com/friends/bluehe.png"
-    },
-    {
       "title": "无题",
       "link": "https://wangdaodao.com/20260228/my-younger-brother.html",
       "description": "最近一直没有心情心情更新，主要是又一个亲人的离开，从小玩到大的兄弟，突然说没就没了，很难接受。",
@@ -7735,17 +7720,6 @@
       "avatar": "https://cdn.xiaoten.com/friends/yufan.svg"
     },
     {
-      "title": "上手：五块钱的目村眼镜",
-      "link": "https://www.krjojo.com/%E4%B8%8A%E6%89%8B%EF%BC%9A%E7%9B%AE%E6%9D%91%E7%9A%84%E4%BA%94%E5%9D%97%E9%92%B1%E7%9C%BC%E9%95%9C/",
-      "description": "## 前因\n\n上上周在抖音刷到了四块八配眼镜，价格给我惊呆了，门店正好在商业街附近，叫上近视的朋友一起探店。\n\n![](./抖音.avif)\n\n四分之一奶茶钱\n\n![](./详情.avif)\n\n还包含验光\n\n到了门店，在规定区域挑一副镜框，然后排队拿号验光就可以离开了，眼镜做好后微信会收到通知。\n\n这个套餐的镜框都是没有鼻托的。（理论上可以拿自己旧眼镜的镜框去配，想起家里还有个钛金属镜框）\n\n参与活动的人挺多，等眼镜做好已经是四天后了。\n\n## 到手\n\n![](./到手.avif)\n\n全家福\n\n一瓶未知成分的清洁剂，眼镜盒，眼镜布，眼镜本体\n\n没有鼻托的眼镜\n\n（其实还给了礼品袋装起来，懒得拍了）\n\n![](./新眼镜.avif)\n\n## 测试\n\n我是左平视，右50近视+50散光。\n\n![](./近视.avif)\n\n近视的自我检测\n\n1. 近视眼患者看到的图是个戴眼镜，齐耳短发的女人。\n2. 非近视眼患者看到的则只是竖条，视力好的还可以看出阴影。\n\n![](./散光.webp)\n\n散光的自我检测\n\n1. 分别用左右裸眼观看上图；\n2. 保持手机与眼睛同高，从远到近移动手机，直达刚好可以看清图中线条，保持此位置；\n3. 双眼分别分辨图中虚线的粗细、深浅。\n\n**分析：**\n\n* 若看到所有虚线均匀分布，没有特别的深浅、长短之分，则基本没有散光现象；\n* 若看到某条虚线特别黑亮，与其他虚线明显有区别，说明眼睛有一定程度散光，且改方向的位置则是被测者的**散光轴位**。\n\n不放心，又尝试了一下[蔡司在线视力筛选检查](https://www.zeiss.com.cn/vision-care/eye-health-and-care/zeiss-online-vision-screening-check.html)。\n\n近视的右眼一切正常，反而把平时的左眼轻微散光测出来了。\n\n![](./散光.avif)\n\n## 体验\n\n这眼镜戴了两天，不知道是不是没习惯过来，还是说第一次戴厚边框的眼镜，还是说镜框太重没鼻托，戴久了会有一点酸胀感。\n\n然后带起来会偏色，像是套了一层黄色滤镜，不过我看网上说老款防蓝光滤镜都会偏黄色，应该是正常吧。\n\n看来五块钱的羊毛不好薅啊，又戴回旧眼镜了。",
-      "pub_date": "2026-01-05T12:55:16+08:00",
-      "updated_at": "2026-01-05T12:55:16+08:00",
-      "author": "Miniwater",
-      "site_name": "手里有只毛毛虫",
-      "site_url": "https://www.krjojo.com/",
-      "avatar": "https://cdn.xiaoten.com/friends/krjojo.avif"
-    },
-    {
       "title": "抓住2025的尾巴",
       "link": "https://bestcherish.com/9634.html",
       "description": "2025的最后一天，我依然在加班，真是造孽又是盘点又是下大雪…… 本来年终盘点是没我的份，“运气”比较好，今天就临时跑来加班盘点。忙忙碌碌的就到了晚上十点，外面白雪皑皑，路上却没半个人影怪冷清的。 不得不说今天的雪下的蛮大的，车上的雪都冻住了，开车门都得用力才能打开。稍微热了一会车才敢走，车窗上的雪冻住了，室外温度太低了。 回到家都快十一点多，老婆准备“丰盛”的晚餐，回来的太晚只能将就一下，睡吧，2026见。守护好自己所拥有的 比什么都重要！ 祝各位2026一帆风顺，平安喜乐。",
@@ -7773,17 +7747,11 @@
       "name": "Jame",
       "url": "https://jame.work",
       "feed_url": null,
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "灰常记忆",
       "url": "https://bestcherish.com",
-      "feed_url": null,
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "目的地-Destination",
-      "url": "https://chrison.cn/",
       "feed_url": null,
       "reason": "HTTP 404"
     },
@@ -7799,13 +7767,13 @@
       "name": "Giovan",
       "url": "https://www.giovan.cn/#/",
       "feed_url": null,
-      "reason": "not_feed_format"
+      "reason": "HTTP 404"
     },
     {
       "name": "80后记忆",
       "url": "https://www.80h.bj.cn",
       "feed_url": null,
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "益友网站",

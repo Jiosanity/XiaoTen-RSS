@@ -4,9 +4,9 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 on:
-  schedule:
+  # schedule:
     # 使用UTC时间，每天0、6、12、18点运行（北京时间8、14、20、2点）
-    - cron: '0 0,6,12,18 * * *'
+    # - cron: '0 0,6,12,18 * * *'
   workflow_dispatch:  # 允许手动触发
 
 permissions:
